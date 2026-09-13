@@ -1384,6 +1384,82 @@ IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATI
 
 **Draft destination:** prod-human-alert-board, prod-human-alert-analysis
 
+## legacy-332b5ed63262 · 095-01
+
+### legacy-095-01-detail-01 · frame
+
+**Frozen wording:**
+
+On 7 August, a frontier reinforcement-learning lane goes dark. Its label reads `LATEST MODELS INTENDED FOR DEPLOYMENT`.
+
+**Decision:** combine — Retain the specified RL category and two-week duration. Qualify the original August 7 shutdown date: the inspected paragraph does not establish it; preserve that disputed precision here without depicting it as verified.
+
+**Draft destination:** prod-pacing-training, prod-pacing-start-date
+
+### legacy-095-01-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SAYS IT PAUSED THIS CLASS OF REINFORCEMENT-LEARNING TRAINING FOR TWO WEEKS.
+
+**Decision:** combine — Retain the specified RL category and two-week duration. Qualify the original August 7 shutdown date: the inspected paragraph does not establish it; preserve that disputed precision here without depicting it as verified.
+
+**Draft destination:** prod-pacing-training, prod-pacing-start-date
+
+## legacy-332b5ed63262 · 095-03
+
+### legacy-095-03-detail-01 · frame
+
+**Frozen wording:**
+
+The largest planned frontier RL run remains behind a hold marker on 18 August.
+
+**Decision:** combine — Combine the repeated largest-run hold with the existing account, bounded to the August 18 publication rather than an inferred later status.
+
+**Draft destination:** prod-pacing-training
+
+### legacy-095-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THE LARGEST PLANNED RUN REMAINS ON HOLD.
+
+**Decision:** combine — Combine the repeated largest-run hold with the existing account, bounded to the August 18 publication rather than an inferred later status.
+
+**Draft destination:** prod-pacing-training
+
+## legacy-332b5ed63262 · 095-04
+
+### legacy-095-04-detail-01 · frame
+
+**Frozen wording:**
+
+A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.
+
+**Decision:** combine — Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.
+
+**Draft destination:** prod-pacing-training, prod-pacing-purpose
+
+### legacy-095-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.
+
+**Decision:** combine — Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.
+
+**Draft destination:** prod-pacing-training, prod-pacing-purpose
+
+### legacy-095-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THE SCOPE OF THE PAUSE IS PART OF THE FACT. STOPPING THIS CLASS OF TRAINING AND HOLDING THE LARGEST PLANNED RUN CAN COEXIST WITH OTHER WORK CONTINUING. NEITHER “EVERYTHING STOPPED” NOR “NOTHING CHANGED” DESCRIBES THAT ACCOUNT.
+
+**Decision:** combine — Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.
+
+**Draft destination:** prod-pacing-training, prod-pacing-purpose
+
 ## legacy-332b5ed63262 · 096-01
 
 ### legacy-096-01-detail-01 · frame
@@ -1493,6 +1569,126 @@ A RESPONSIBLE RESPONSE CAN INCLUDE BOTH—IF THE BOUNDARIES ARE REAL.
 **Decision:** rewrite — Preserve the conditional editorial judgment; no source endorsement or independently established safety conclusion.
 
 **Draft destination:** prod-pacing-judgment
+
+## legacy-332b5ed63262 · 097-01
+
+### legacy-097-01-detail-01 · frame
+
+**Frozen wording:**
+
+Public ledger, 10 August. OpenAI expands controlled Daybreak access and introduces a cybersecurity-specific model for approved defensive work.
+
+**Decision:** split — Preserve dated controlled access; split access and safeguards rather than imply unrestricted deployment.
+
+**Draft destination:** prod-public-clock-access, prod-public-clock-controls
+
+### legacy-097-01-detail-03 · lettering
+
+**Frozen wording:**
+
+CAPABILITY EXPANDS INSIDE A PROGRAM OF IDENTITY, ACCOUNT, MONITORING, USE, AND LEGAL CONTROLS.
+
+**Decision:** split — Preserve dated controlled access; split access and safeguards rather than imply unrestricted deployment.
+
+**Draft destination:** prod-public-clock-access, prod-public-clock-controls
+
+## legacy-332b5ed63262 · 097-02
+
+### legacy-097-02-detail-01 · frame
+
+**Frozen wording:**
+
+Public ledger, 18 August. OpenAI says Astra may meet its Critical cyber threshold even as the largest planned RL run remains held.
+
+**Decision:** split — Preserve the qualified institutional risk assessment beside distinct work statuses; no independent threshold finding.
+
+**Draft destination:** prod-public-clock-threshold, prod-public-clock-different-work
+
+### legacy-097-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE RISK ASSESSMENT RISES. THE WORK DOES NOT BECOME ONE THING.
+
+**Decision:** split — Preserve the qualified institutional risk assessment beside distinct work statuses; no independent threshold finding.
+
+**Draft destination:** prod-public-clock-threshold, prod-public-clock-different-work
+
+## legacy-332b5ed63262 · 097-03
+
+### legacy-097-03-detail-01 · frame
+
+**Frozen wording:**
+
+Public ledger, 27 August. A collective-defense letter argues that cyber capability is advancing worldwide and that defenders need access and coordination.
+
+**Decision:** split — Expand the letter’s urgency into its resource, responsibility and verification arguments; do not equate proposal with implementation.
+
+**Draft destination:** prod-public-clock-urgency, prod-public-clock-resources, prod-public-clock-roles, prod-public-clock-verification, prod-public-clock-membership
+
+### legacy-097-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THE PUBLIC CASE FOR CONTINUATION IS ALSO A CASE ABOUT TIME.
+
+**Decision:** split — Expand the letter’s urgency into its resource, responsibility and verification arguments; do not equate proposal with implementation.
+
+**Draft destination:** prod-public-clock-urgency, prod-public-clock-resources, prod-public-clock-roles, prod-public-clock-verification, prod-public-clock-membership
+
+## legacy-332b5ed63262 · 097-04
+
+### legacy-097-04-detail-01 · frame
+
+**Frozen wording:**
+
+Curt sees only published pages and dates—no boardroom, no leaked notes, no private transcript.
+
+**Decision:** rewrite — Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.
+
+**Draft destination:** prod-public-clock-public-only
+
+### legacy-097-04-detail-03 · lettering
+
+**Frozen wording:**
+
+I can show the pressure in what they published. I cannot claim to know the private decision.
+
+**Decision:** rewrite — Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.
+
+**Draft destination:** prod-public-clock-public-only
+
+### legacy-097-04-detail-04 · lettering
+
+**Frozen wording:**
+
+The public arguments tell us which reasons were offered. They do not tell us how much weight each reason carried in the room, or what a particular person privately believed.
+
+**Decision:** rewrite — Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.
+
+**Draft destination:** prod-public-clock-public-only
+
+## legacy-332b5ed63262 · 097-05
+
+### legacy-097-05-detail-01 · frame
+
+**Frozen wording:**
+
+Three visible costs balance on the desk: delay to capability work, delay to defensive tools, and risk from continuing.
+
+**Decision:** rewrite — Keep the three competing costs and explicitly interpretive incentive argument; do not invent private causal knowledge.
+
+**Draft destination:** prod-public-clock-incentives
+
+### legacy-097-05-detail-03 · lettering
+
+**Frozen wording:**
+
+“RACE” IS THIS BOOK'S ANALYSIS OF THE PUBLIC INCENTIVES—NOT A SECRET MEETING FACT.
+
+**Decision:** rewrite — Keep the three competing costs and explicitly interpretive incentive argument; do not invent private causal knowledge.
+
+**Draft destination:** prod-public-clock-incentives
 
 ## legacy-332b5ed63262 · 098-01
 

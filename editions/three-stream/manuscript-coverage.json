@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 239,
-  "drafted_beats": 661,
+  "scenes": 240,
+  "drafted_beats": 673,
   "canonical_pages": null,
-  "associated_old_panels": 307,
+  "associated_old_panels": 315,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4101,8 +4101,11 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "095-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-training",
+        "prod-pacing-start-date"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4115,15 +4118,20 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "095-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-training"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "095-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-training",
+        "prod-pacing-purpose"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4176,36 +4184,52 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "097-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-public-clock-access",
+        "prod-public-clock-controls"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "097-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-public-clock-threshold",
+        "prod-public-clock-different-work"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "097-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-public-clock-urgency",
+        "prod-public-clock-resources",
+        "prod-public-clock-roles",
+        "prod-public-clock-verification",
+        "prod-public-clock-membership"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "097-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-public-clock-public-only"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "097-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-public-clock-incentives"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5027,9 +5051,9 @@
     "GemStuffer": 58,
     "Collusion Wiki": 115,
     "Curt": 25,
-    "Codex": 22,
+    "Codex": 34,
     "Claude": 99
   },
-  "reviewed_old_panels": 57,
-  "reviewed_source_elements": 155
+  "reviewed_old_panels": 65,
+  "reviewed_source_elements": 173
 }

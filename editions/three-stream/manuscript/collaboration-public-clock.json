@@ -1,91 +1,95 @@
 [
   {
-    "id": "prod-pacing",
-    "title": "The proposal and the scope of a pause",
+    "id": "prod-public-clock",
+    "title": "Public reasons and private decisions",
     "movement": "collaboration",
     "owner": "Codex",
     "start": "2026-09-02T03:45:45.444000Z",
     "end": "2026-09-02T03:45:45.444000Z",
     "original_timezone": "UTC",
     "precision": "millisecond",
-    "chronology_basis": "Timestamp of preserved Codex proposal. Narrator contextualizes its operations/public-clock suggestions using a publication available earlier; no precise source encounter is inferred.",
-    "source_limit": "Proposal is documented. Detailed pacing explanation belongs to the narrator, not additional words or research acts attributed to Codex. Institutional claims remain attributed; no private meeting or verified safety outcome.",
+    "chronology_basis": "Continuation of narrator context for the preserved September 2 Codex public-clock proposal. Earlier publication dates remain visible; no exact source-reading act is assigned to Codex or Curt.",
+    "source_limit": "Dated publications are examined by the narrator alongside the documented proposal. This is not additional dialogue attributed to Codex, an invented Curt encounter, or a private institutional scene. Announcement effectiveness and motives remain unverified.",
     "status": "detailed-draft",
     "beats": [
       {
-        "id": "prod-pacing-proposal",
-        "old_panels": [],
-        "frame": "The preserved Codex response appears as a proposal artifact, not an implemented companion edition.",
-        "lettering": [
-          "On September 2, Codex proposed an operations viewpoint: decisions examined with the knowledge available before their outcomes. It warned that private deliberations and motives largely were not documented."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-length",
-        "old_panels": [],
-        "frame": "A narrator annotation separates the old recommendation from the present restructuring task.",
-        "lettering": [
-          "That response treated the primary narrative as fixed at 112 pages and recommended shorter companions. This records an earlier constraint; it sets no limit for this edition."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-clock",
-        "old_panels": [],
-        "frame": "The proposal’s public-clock idea sits beside a visibly narrator-authored account of the earlier publication. No read receipt is fabricated.",
-        "lettering": [
-          "Codex also proposed tracking public disclosures, oversight, development pauses and defense proposals. The narrator now examines the August 18 pacing account alongside that proposal; the record does not establish Codex reading it at this instant."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-inference",
+        "id": "prod-public-clock-access",
         "old_panels": [
-          "096-01"
+          "097-01"
         ],
-        "frame": "A narrator diagram names the scope of the reported initial pause. It is not an internal OpenAI control screen.",
+        "frame": "The narrator’s dated source ledger opens at August 10.",
         "lettering": [
-          "OpenAI says it initially paused frontier-model inference in research clusters for runs that could execute code or use internet-accessing tools. Inference means running a model; this was distinct from pausing its training."
+          "OpenAI announced expanded Daybreak access for approved defensive work and a cybersecurity-specific model."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-DAYBREAK",
+            "locator": "editions/three-stream/evidence/public-announcement-source-review.md; frozen chapter-06 packet, public-response chronology; primary page introduction and Access and safeguards",
+            "available": "2026-08-10"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-01",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-controls",
+        "old_panels": [
+          "097-01"
+        ],
+        "frame": "Controls accompany the access entry. The diagram is the book’s summary.",
+        "lettering": [
+          "The announcement describes identity, account, monitoring, use and legal controls. Access expansion was controlled; the announcement alone does not prove those controls effective."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-DAYBREAK",
+            "locator": "editions/three-stream/evidence/public-announcement-source-review.md; frozen chapter-06 packet, public-response chronology; primary page introduction and Access and safeguards",
+            "available": "2026-08-10"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-01",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-threshold",
+        "old_panels": [
+          "097-02"
+        ],
+        "frame": "The August 18 source entry retains the preliminary qualifier beside the risk threshold.",
+        "lettering": [
+          "OpenAI reported preliminary evidence that Astra might meet its Critical cyber-capability threshold. The company’s assessment is not an independent finding, and the threshold is not a declaration that the model caused every incident described here."
         ],
         "exact_strings": [],
         "sources": [
@@ -106,21 +110,21 @@
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
-            "old_panel": "096-01",
+            "old_panel": "097-02",
             "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
       },
       {
-        "id": "prod-pacing-limited",
+        "id": "prod-public-clock-different-work",
         "old_panels": [
-          "096-02"
+          "097-02"
         ],
-        "frame": "The diagram restores only a limited execution path, then gives each remaining workload its own review step.",
+        "frame": "The ledger refers back to the distinct work categories already explained, without replaying the shutdown.",
         "lettering": [
-          "The company says a more limited, secure code-execution path returned fairly quickly. It then reviewed workloads individually for resumption. The publication gives no exact restart time for every workload."
+          "In the same dated account, the largest planned frontier RL run remained held while smaller work continued. A rising risk assessment and selective continuation belong in the record together."
         ],
         "exact_strings": [],
         "sources": [
@@ -141,21 +145,226 @@
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
-            "old_panel": "096-02",
+            "old_panel": "097-02",
             "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
       },
       {
-        "id": "prod-pacing-conditions",
+        "id": "prod-public-clock-urgency",
         "old_panels": [
-          "096-03"
+          "097-03"
         ],
-        "frame": "Narrator-created categories separate resumed workloads from those needing changes and those still paused. They do not imitate source quotations.",
+        "frame": "The August 27 letter enters the narrator’s ledger as an argument with a date, not a forecast fulfilled.",
         "lettering": [
-          "Some work resumed under new controls; other work required additional changes. A significant number remained paused pending migration and enhancement. Resumed does not mean unchanged."
+          "The collective-defense letter predicts more widespread and sophisticated AI-enabled attacks as capabilities advance worldwide. It argues that defenders have a limited opportunity to prepare. These are the letter’s predictions and reasons for urgency."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627",
+            "available": "2026-08-27"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-03",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-resources",
+        "old_panels": [
+          "097-03"
+        ],
+        "frame": "The source’s case moves from capability to the resources defenders need.",
+        "lettering": [
+          "The letter identifies accumulated weaknesses and under-resourced security teams. It calls for tools, funding and practical assistance, especially for critical infrastructure. Its argument is not merely to release stronger models."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627",
+            "available": "2026-08-27"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-03",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-roles",
+        "old_panels": [
+          "097-03"
+        ],
+        "frame": "Four narrator-authored branches distinguish organizations, security providers, governments and frontier-model companies.",
+        "lettering": [
+          "It assigns different responsibilities: organizations should fix and verify weaknesses; providers should help deploy defenses; governments should coordinate and fund them; frontier companies should provide responsible access, support and observability. A call to act is not evidence that the work was done."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627",
+            "available": "2026-08-27"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-03",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-verification",
+        "old_panels": [
+          "097-03"
+        ],
+        "frame": "Verification remains attached to the proposed repairs, with no invented completion stamp.",
+        "lettering": [
+          "The letter calls for tested fixes and evidence that protections work. It also recognizes systems that cannot be patched without disrupting essential services, asking for verified compensating controls. Defensive urgency does not erase operating constraints."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627",
+            "available": "2026-08-27"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-03",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-membership",
+        "old_panels": [
+          "097-03"
+        ],
+        "frame": "The letter body is separated from its changing signatory list. No launch-day roll call is fabricated.",
+        "lettering": [
+          "The retained page includes a signatory list. This draft does not treat that current list as the membership on publication day, or count signatures as independently verified defenses."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627",
+            "available": "2026-08-27"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-03",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-public-only",
+        "old_panels": [
+          "097-04"
+        ],
+        "frame": "The dated Codex proposal supplies the boundary on private deliberations. Curt is not given an invented September reading or dialogue.",
+        "lettering": [
+          "The public sources establish which reasons were offered. They do not establish what weight those reasons carried in a private decision, or what any particular person believed. The preserved Codex proposal itself warned of this evidentiary limit."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "097-04",
+            "disposition": "rewrite",
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-public-clock-incentives",
+        "old_panels": [
+          "097-05"
+        ],
+        "frame": "A visibly narrator-authored comparison holds three costs separately: capability delay, defensive delay and continued risk.",
+        "lettering": [
+          "The book reads competing pressures in these publications. That is an interpretation of public incentives, not a recovered meeting or proof that another lab caused OpenAI’s choices. The strongest stated defensive reasons belong beside the risks of continuation."
         ],
         "exact_strings": [],
         "sources": [
@@ -168,6 +377,11 @@
             "key": "OAI-PACE",
             "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
             "available": "2026-08-18"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627",
+            "available": "2026-08-27"
           }
         ],
         "evidence_status": "documented-message-with-reconstructed-visualization",
@@ -176,208 +390,9 @@
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
-            "old_panel": "096-03",
+            "old_panel": "097-05",
             "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
-          }
-        ],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-priority",
-        "old_panels": [
-          "096-03"
-        ],
-        "frame": "The published migration priority is shown without inventing a count or completion date.",
-        "lettering": [
-          "OpenAI says it prioritized safety and alignment workloads for migration. Its strictest safeguards applied to Astra, cyber models and other cyber-related workloads. The account describes requirements, not independent proof of their effectiveness."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          },
-          {
-            "key": "OAI-PACE",
-            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
-            "available": "2026-08-18"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "096-03",
-            "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
-          }
-        ],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-training",
-        "old_panels": [
-          "096-04",
-          "095-01",
-          "095-03",
-          "095-04"
-        ],
-        "frame": "A separate training timeline prevents the inference pause from swallowing a different decision.",
-        "lettering": [
-          "The account also describes a two-week pause in reinforcement-learning training on the latest models intended for deployment. Its largest planned frontier RL run remained on hold while smaller-scale training and evaluations continued."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          },
-          {
-            "key": "OAI-PACE",
-            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
-            "available": "2026-08-18"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "096-04",
-            "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
-          },
-          {
-            "old_panel": "095-01",
-            "disposition": "combine",
-            "reason": "Consolidate the same reported selective pause with the existing explanation; preserve category, duration and dated hold without another replay."
-          },
-          {
-            "old_panel": "095-03",
-            "disposition": "combine",
-            "reason": "Consolidate the same reported selective pause with the existing explanation; preserve category, duration and dated hold without another replay."
-          },
-          {
-            "old_panel": "095-04",
-            "disposition": "combine",
-            "reason": "Consolidate the same reported selective pause with the existing explanation; preserve category, duration and dated hold without another replay."
-          }
-        ],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-start-date",
-        "old_panels": [
-          "095-01"
-        ],
-        "frame": "The narrator leaves the exact start of the reported two-week training pause unassigned. The separate August 7 capability-assessment date cannot silently fill the gap.",
-        "lettering": [
-          "The inspected pacing paragraph gives a duration, not an exact training-pause start date. Its explicit August 7 date concerns the Astra assessment and additional monitoring. This draft does not transfer that date to the pause."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          },
-          {
-            "key": "OAI-PACE",
-            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
-            "available": "2026-08-18"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "095-01",
-            "disposition": "rewrite",
-            "reason": "Remove the unsupported exact shutdown date from the depiction; preserve the original date in this review record for further sourcing."
-          }
-        ],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-purpose",
-        "old_panels": [
-          "096-04",
-          "095-04"
-        ],
-        "frame": "The narrator gives the company’s stated reasons for the continuing smaller-scale work, with the attribution visible.",
-        "lettering": [
-          "OpenAI says the smaller-scale work assessed model behavior, validated safeguards and sought more evidence of alignment before proceeding. Continued work and a held larger run could coexist."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          },
-          {
-            "key": "OAI-PACE",
-            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
-            "available": "2026-08-18"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "096-04",
-            "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
-          },
-          {
-            "old_panel": "095-04",
-            "disposition": "combine",
-            "reason": "Consolidate the same reported selective pause with the existing explanation; preserve category, duration and dated hold without another replay."
-          }
-        ],
-        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
-      },
-      {
-        "id": "prod-pacing-judgment",
-        "old_panels": [
-          "096-05"
-        ],
-        "frame": "The narrator’s concluding question remains separate from the institutional account and from invented private deliberation.",
-        "lettering": [
-          "A selective pause and a conditional resumption can both be parts of a responsible response. That is the book’s argument, conditional on whether the boundaries work—not a safety verdict established by the announcement."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-9c63903de35f",
-            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
-            "available": "2026-09-02T03:45:45.444000Z"
-          },
-          {
-            "key": "OAI-PACE",
-            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
-            "available": "2026-08-18"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-02T03:45:45.444000Z",
-        "time_end": "2026-09-02T03:45:45.444000Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "096-05",
-            "disposition": "rewrite",
-            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+            "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"

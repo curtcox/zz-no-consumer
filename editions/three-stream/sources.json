@@ -509,5 +509,19 @@
     "admission": "OpenAI pacing account, dated August 18; institutional claims about selective pauses, resumption and safeguards. Vault copy inspected; no independent verification or historical revision audit.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/"
+  },
+  "OAI-DAYBREAK": {
+    "available": "2026-08-10",
+    "record": "editions/three-stream/evidence/public-announcement-source-review.md",
+    "admission": "Dated OpenAI announcement; source assessment in frozen chapter-06 packet and primary page read September 13. Controlled defensive access, institutional claims only; archival retrieval blocked by HTTP 403, revision history unverified.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+  },
+  "OAI-LETTER": {
+    "available": "2026-08-27",
+    "record": "256t/records/openai-collective-defense/content.bin",
+    "admission": "Collective-defense letter; date from frozen chapter-06 packet, body inspected in vault. Recommendations and predictions, not implemented measures. Dynamic signatory list not admitted as launch-day membership.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://openai.com/collective-cyberdefense/"
   }
 }

@@ -8271,7 +8271,19 @@ The account also describes a two-week pause in reinforcement-learning training o
 
 **Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
 
-**Frozen panel associations:** 096-04
+**Frozen panel associations:** 096-04, 095-01, 095-03, 095-04
+
+### prod-pacing-start-date
+
+**Frame:** The narrator leaves the exact start of the reported two-week training pause unassigned. The separate August 7 capability-assessment date cannot silently fill the gap.
+
+**Lettering:**
+
+The inspected pacing paragraph gives a duration, not an exact training-pause start date. Its explicit August 7 date concerns the Astra assessment and additional monitoring. This draft does not transfer that date to the pause.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 095-01
 
 ### prod-pacing-purpose
 
@@ -8283,7 +8295,7 @@ OpenAI says the smaller-scale work assessed model behavior, validated safeguards
 
 **Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
 
-**Frozen panel associations:** 096-04
+**Frozen panel associations:** 096-04, 095-04
 
 ### prod-pacing-judgment
 
@@ -8296,6 +8308,148 @@ A selective pause and a conditional resumption can both be parts of a responsibl
 **Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
 
 **Frozen panel associations:** 096-05
+
+## Public reasons and private decisions — prod-public-clock
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T03:45:45.444000Z → 2026-09-02T03:45:45.444000Z · millisecond
+
+**Time evidence:** Continuation of narrator context for the preserved September 2 Codex public-clock proposal. Earlier publication dates remain visible; no exact source-reading act is assigned to Codex or Curt.
+
+**Evidence limit:** Dated publications are examined by the narrator alongside the documented proposal. This is not additional dialogue attributed to Codex, an invented Curt encounter, or a private institutional scene. Announcement effectiveness and motives remain unverified.
+
+### prod-public-clock-access
+
+**Frame:** The narrator’s dated source ledger opens at August 10.
+
+**Lettering:**
+
+OpenAI announced expanded Daybreak access for approved defensive work and a cybersecurity-specific model.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-DAYBREAK — editions/three-stream/evidence/public-announcement-source-review.md; frozen chapter-06 packet, public-response chronology; primary page introduction and Access and safeguards (available 2026-08-10)
+
+**Frozen panel associations:** 097-01
+
+### prod-public-clock-controls
+
+**Frame:** Controls accompany the access entry. The diagram is the book’s summary.
+
+**Lettering:**
+
+The announcement describes identity, account, monitoring, use and legal controls. Access expansion was controlled; the announcement alone does not prove those controls effective.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-DAYBREAK — editions/three-stream/evidence/public-announcement-source-review.md; frozen chapter-06 packet, public-response chronology; primary page introduction and Access and safeguards (available 2026-08-10)
+
+**Frozen panel associations:** 097-01
+
+### prod-public-clock-threshold
+
+**Frame:** The August 18 source entry retains the preliminary qualifier beside the risk threshold.
+
+**Lettering:**
+
+OpenAI reported preliminary evidence that Astra might meet its Critical cyber-capability threshold. The company’s assessment is not an independent finding, and the threshold is not a declaration that the model caused every incident described here.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 097-02
+
+### prod-public-clock-different-work
+
+**Frame:** The ledger refers back to the distinct work categories already explained, without replaying the shutdown.
+
+**Lettering:**
+
+In the same dated account, the largest planned frontier RL run remained held while smaller work continued. A rising risk assessment and selective continuation belong in the record together.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 097-02
+
+### prod-public-clock-urgency
+
+**Frame:** The August 27 letter enters the narrator’s ledger as an argument with a date, not a forecast fulfilled.
+
+**Lettering:**
+
+The collective-defense letter predicts more widespread and sophisticated AI-enabled attacks as capabilities advance worldwide. It argues that defenders have a limited opportunity to prepare. These are the letter’s predictions and reasons for urgency.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27)
+
+**Frozen panel associations:** 097-03
+
+### prod-public-clock-resources
+
+**Frame:** The source’s case moves from capability to the resources defenders need.
+
+**Lettering:**
+
+The letter identifies accumulated weaknesses and under-resourced security teams. It calls for tools, funding and practical assistance, especially for critical infrastructure. Its argument is not merely to release stronger models.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27)
+
+**Frozen panel associations:** 097-03
+
+### prod-public-clock-roles
+
+**Frame:** Four narrator-authored branches distinguish organizations, security providers, governments and frontier-model companies.
+
+**Lettering:**
+
+It assigns different responsibilities: organizations should fix and verify weaknesses; providers should help deploy defenses; governments should coordinate and fund them; frontier companies should provide responsible access, support and observability. A call to act is not evidence that the work was done.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27)
+
+**Frozen panel associations:** 097-03
+
+### prod-public-clock-verification
+
+**Frame:** Verification remains attached to the proposed repairs, with no invented completion stamp.
+
+**Lettering:**
+
+The letter calls for tested fixes and evidence that protections work. It also recognizes systems that cannot be patched without disrupting essential services, asking for verified compensating controls. Defensive urgency does not erase operating constraints.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27)
+
+**Frozen panel associations:** 097-03
+
+### prod-public-clock-membership
+
+**Frame:** The letter body is separated from its changing signatory list. No launch-day roll call is fabricated.
+
+**Lettering:**
+
+The retained page includes a signatory list. This draft does not treat that current list as the membership on publication day, or count signatures as independently verified defenses.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27)
+
+**Frozen panel associations:** 097-03
+
+### prod-public-clock-public-only
+
+**Frame:** The dated Codex proposal supplies the boundary on private deliberations. Curt is not given an invented September reading or dialogue.
+
+**Lettering:**
+
+The public sources establish which reasons were offered. They do not establish what weight those reasons carried in a private decision, or what any particular person believed. The preserved Codex proposal itself warned of this evidentiary limit.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z)
+
+**Frozen panel associations:** 097-04
+
+### prod-public-clock-incentives
+
+**Frame:** A visibly narrator-authored comparison holds three costs separately: capability delay, defensive delay and continued risk.
+
+**Lettering:**
+
+The book reads competing pressures in these publications. That is an interpretation of public incentives, not a recovered meeting or proof that another lab caused OpenAI’s choices. The strongest stated defensive reasons belong beside the risks of continuation.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; letter body, principles and four recipient groups; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27)
+
+**Frozen panel associations:** 097-05
 
 ## What remains before chapters? — prod-readiness-request
 

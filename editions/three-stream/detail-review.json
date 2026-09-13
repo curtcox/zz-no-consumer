@@ -2303,8 +2303,8 @@
         ],
         "reason": "Preserve continued smaller-scale work versus the held largest run, and explain the separate training pause and stated purpose.",
         "target_sha256": {
-          "prod-pacing-training": "71833d659372ad09dd696dabfa4af3e78ae5572cff1b26cafd6163995c338415",
-          "prod-pacing-purpose": "91ea9db70b345e90e4c58d17b8e5290733d6e53f1262054e4dd693a753542c80"
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
         }
       },
       {
@@ -2317,8 +2317,8 @@
         ],
         "reason": "Preserve continued smaller-scale work versus the held largest run, and explain the separate training pause and stated purpose.",
         "target_sha256": {
-          "prod-pacing-training": "71833d659372ad09dd696dabfa4af3e78ae5572cff1b26cafd6163995c338415",
-          "prod-pacing-purpose": "91ea9db70b345e90e4c58d17b8e5290733d6e53f1262054e4dd693a753542c80"
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
         }
       }
     ]
@@ -2351,6 +2351,320 @@
         "reason": "Preserve the conditional editorial judgment; no source endorsement or independently established safety conclusion.",
         "target_sha256": {
           "prod-pacing-judgment": "6a6795774f3ca822bf2625c3ca26c3c7ef5908d9836d031ab0f4ff89fbcf136a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "097-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-097-01-detail-01",
+        "original_sha256": "a20772a6ac1329841ca8123b091708d4be5c4cb88fbe1f0ac00c55af02e51605",
+        "disposition": "split",
+        "beats": [
+          "prod-public-clock-access",
+          "prod-public-clock-controls"
+        ],
+        "reason": "Preserve dated controlled access; split access and safeguards rather than imply unrestricted deployment.",
+        "target_sha256": {
+          "prod-public-clock-access": "f60a20ba7806759b2580e8be2d8c6a57e35fc111363076057f395271ee6d4bb1",
+          "prod-public-clock-controls": "7858910658b1148525e09a930d449b2bb2c8230d48cbe62662a045ba373d391c"
+        }
+      },
+      {
+        "id": "legacy-097-01-detail-03",
+        "original_sha256": "b06bb5f2867afd247f06d21c76bdfa8914dc363d1f1761cb68b1b0cab66d2059",
+        "disposition": "split",
+        "beats": [
+          "prod-public-clock-access",
+          "prod-public-clock-controls"
+        ],
+        "reason": "Preserve dated controlled access; split access and safeguards rather than imply unrestricted deployment.",
+        "target_sha256": {
+          "prod-public-clock-access": "f60a20ba7806759b2580e8be2d8c6a57e35fc111363076057f395271ee6d4bb1",
+          "prod-public-clock-controls": "7858910658b1148525e09a930d449b2bb2c8230d48cbe62662a045ba373d391c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "097-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-097-02-detail-01",
+        "original_sha256": "a2617fb23af17b8c3b591874b4b5c2ad85ed83bb2bdc3c1c02b45343b4134942",
+        "disposition": "split",
+        "beats": [
+          "prod-public-clock-threshold",
+          "prod-public-clock-different-work"
+        ],
+        "reason": "Preserve the qualified institutional risk assessment beside distinct work statuses; no independent threshold finding.",
+        "target_sha256": {
+          "prod-public-clock-threshold": "e6e33eb61f9c5f9736ecfe8afa0c1317a5ce573f964b485299f366820ccbcec1",
+          "prod-public-clock-different-work": "3fcd340cfd5f04b24afb643922148c83d63861f4f8ed876cfafd0c7b3f733274"
+        }
+      },
+      {
+        "id": "legacy-097-02-detail-03",
+        "original_sha256": "9c781a0eb9ee4f734876f2d11a71ff8481f70ed851cefb403ffa54b3fc2b0aa6",
+        "disposition": "split",
+        "beats": [
+          "prod-public-clock-threshold",
+          "prod-public-clock-different-work"
+        ],
+        "reason": "Preserve the qualified institutional risk assessment beside distinct work statuses; no independent threshold finding.",
+        "target_sha256": {
+          "prod-public-clock-threshold": "e6e33eb61f9c5f9736ecfe8afa0c1317a5ce573f964b485299f366820ccbcec1",
+          "prod-public-clock-different-work": "3fcd340cfd5f04b24afb643922148c83d63861f4f8ed876cfafd0c7b3f733274"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "097-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-097-03-detail-01",
+        "original_sha256": "0ec0a8b06fe13bc33b126de832c46bf67413c39cd818bf5898b7635718793fb4",
+        "disposition": "split",
+        "beats": [
+          "prod-public-clock-urgency",
+          "prod-public-clock-resources",
+          "prod-public-clock-roles",
+          "prod-public-clock-verification",
+          "prod-public-clock-membership"
+        ],
+        "reason": "Expand the letter’s urgency into its resource, responsibility and verification arguments; do not equate proposal with implementation.",
+        "target_sha256": {
+          "prod-public-clock-urgency": "14128520d703998af411fa39813b604e24c832ae35b8b4b845588f734df87e7d",
+          "prod-public-clock-resources": "5d1549ff202ea05db44ea7abe3b6f1f5585bd9e47a18e93e2681b67275718585",
+          "prod-public-clock-roles": "9553ce70c13cd0bff6e1e390af45745a1d2a6287db44d27f7ef6c149474d4dae",
+          "prod-public-clock-verification": "36ebef8f852f578ffb80af34129d80c22256588b2299971411744a82f25912f5",
+          "prod-public-clock-membership": "52a56cdfe862dc3d6c82a7ab12dbcdf8fad5ea24ae2547b8ebe68538bbc22a11"
+        }
+      },
+      {
+        "id": "legacy-097-03-detail-03",
+        "original_sha256": "2f2aed6915494c5e13b2d246fe8815a13346de97c1c580681d05df8a3e5e0f87",
+        "disposition": "split",
+        "beats": [
+          "prod-public-clock-urgency",
+          "prod-public-clock-resources",
+          "prod-public-clock-roles",
+          "prod-public-clock-verification",
+          "prod-public-clock-membership"
+        ],
+        "reason": "Expand the letter’s urgency into its resource, responsibility and verification arguments; do not equate proposal with implementation.",
+        "target_sha256": {
+          "prod-public-clock-urgency": "14128520d703998af411fa39813b604e24c832ae35b8b4b845588f734df87e7d",
+          "prod-public-clock-resources": "5d1549ff202ea05db44ea7abe3b6f1f5585bd9e47a18e93e2681b67275718585",
+          "prod-public-clock-roles": "9553ce70c13cd0bff6e1e390af45745a1d2a6287db44d27f7ef6c149474d4dae",
+          "prod-public-clock-verification": "36ebef8f852f578ffb80af34129d80c22256588b2299971411744a82f25912f5",
+          "prod-public-clock-membership": "52a56cdfe862dc3d6c82a7ab12dbcdf8fad5ea24ae2547b8ebe68538bbc22a11"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "097-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-097-04-detail-01",
+        "original_sha256": "d532db8e808697202dedb6f40d5daabeff2b2aaf63abd18283b5029e53ef2e5c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-public-clock-public-only"
+        ],
+        "reason": "Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.",
+        "target_sha256": {
+          "prod-public-clock-public-only": "ace15576887ac0722594f6d52cdafb718cb4c564eb1dfa4b274751cdd4bc85b2"
+        }
+      },
+      {
+        "id": "legacy-097-04-detail-03",
+        "original_sha256": "08b2fb1c8b50baba2f6879c2609d9dde46d794617eb55b82701f6c30f256d935",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-public-clock-public-only"
+        ],
+        "reason": "Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.",
+        "target_sha256": {
+          "prod-public-clock-public-only": "ace15576887ac0722594f6d52cdafb718cb4c564eb1dfa4b274751cdd4bc85b2"
+        }
+      },
+      {
+        "id": "legacy-097-04-detail-04",
+        "original_sha256": "a7192f42caff1e0cb3aa86ff4d26017e6654afc5d077e834f7b22178f0115e42",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-public-clock-public-only"
+        ],
+        "reason": "Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.",
+        "target_sha256": {
+          "prod-public-clock-public-only": "ace15576887ac0722594f6d52cdafb718cb4c564eb1dfa4b274751cdd4bc85b2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "097-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-097-05-detail-01",
+        "original_sha256": "d7652227f8612460255695b562d83e1c64bc3d4ec96acc9f3a7e4f7403470fc1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-public-clock-incentives"
+        ],
+        "reason": "Keep the three competing costs and explicitly interpretive incentive argument; do not invent private causal knowledge.",
+        "target_sha256": {
+          "prod-public-clock-incentives": "1446cdb375c524877d6f1aa886fce2199bce5a6a699f1b0dca5f6f7224ce483d"
+        }
+      },
+      {
+        "id": "legacy-097-05-detail-03",
+        "original_sha256": "0c85d8d528a5c70c04b19923871d1b0eac1acd0cb3c98d8d9950abd2c5ebe29d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-public-clock-incentives"
+        ],
+        "reason": "Keep the three competing costs and explicitly interpretive incentive argument; do not invent private causal knowledge.",
+        "target_sha256": {
+          "prod-public-clock-incentives": "1446cdb375c524877d6f1aa886fce2199bce5a6a699f1b0dca5f6f7224ce483d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "095-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-095-01-detail-01",
+        "original_sha256": "e9b258ed383d43970a53c4433767c95963b72fd906685f291aec00a5df27e452",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-start-date"
+        ],
+        "reason": "Retain the specified RL category and two-week duration. Qualify the original August 7 shutdown date: the inspected paragraph does not establish it; preserve that disputed precision here without depicting it as verified.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-start-date": "9e35615b383480497fa97a738c6c3e151233b9c76ae4eb76af8ba5001b9a34e6"
+        }
+      },
+      {
+        "id": "legacy-095-01-detail-03",
+        "original_sha256": "2432c2cd2773cb4be94212f05a1a116549bdff1c24c6d14a2e42c6f079e0ada3",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-start-date"
+        ],
+        "reason": "Retain the specified RL category and two-week duration. Qualify the original August 7 shutdown date: the inspected paragraph does not establish it; preserve that disputed precision here without depicting it as verified.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-start-date": "9e35615b383480497fa97a738c6c3e151233b9c76ae4eb76af8ba5001b9a34e6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "095-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-095-03-detail-01",
+        "original_sha256": "4888d5d419c801c038c19a4b9ed7f1f06c7e9e170cf081a1d52253f22db3c262",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training"
+        ],
+        "reason": "Combine the repeated largest-run hold with the existing account, bounded to the August 18 publication rather than an inferred later status.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3"
+        }
+      },
+      {
+        "id": "legacy-095-03-detail-03",
+        "original_sha256": "1a31fa996e61e014ad3bcf9de6cd7534a982a24be15b02974071e83844db6a41",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training"
+        ],
+        "reason": "Combine the repeated largest-run hold with the existing account, bounded to the August 18 publication rather than an inferred later status.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "095-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-095-04-detail-01",
+        "original_sha256": "57f43d8efabb0d1bb1e43042f05913b37b645a0cdf923be17a57ce9188553e88",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-purpose"
+        ],
+        "reason": "Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
+        }
+      },
+      {
+        "id": "legacy-095-04-detail-03",
+        "original_sha256": "561582a210634fd21106633c4eb75ceee8700459a9eb3f2b0823e3469e1398a2",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-purpose"
+        ],
+        "reason": "Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
+        }
+      },
+      {
+        "id": "legacy-095-04-detail-04",
+        "original_sha256": "5072c69a24856859faae16ebf9f8f0a5cf1f16f0ad670597d7b89d16d606ffee",
+        "disposition": "combine",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-purpose"
+        ],
+        "reason": "Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.",
+        "target_sha256": {
+          "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
+          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
         }
       }
     ]

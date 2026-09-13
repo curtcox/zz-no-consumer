@@ -397,3 +397,32 @@ dispositions. Page 097 and the wider safeguards/oversight sequence remain open.
 Scoped draft checks pass; all 57 selected production records were verified against
 their original JSONL line, half-open byte range and preserved-copy SHA-256. No
 canonical page allocation or frozen-edition change was made.
+
+### Public arguments and selective-pause date review — 13 September 2026
+
+Added eleven beats in `manuscript/collaboration-public-clock.json`, as narrator
+context for the already preserved September 2 Codex public-clock proposal. No
+new source-reading action is attributed to Codex or Curt. The August 10 access
+announcement, August 18 qualified risk assessment, and August 27 defense letter
+retain their dates, institutional attribution and distinct evidentiary limits.
+The letter’s resource, responsibility, verification and operating-constraint
+arguments are retained rather than compressed into an unqualified demand to
+continue. Current signatures are not treated as launch-day membership.
+
+Frozen 097’s five panels and eleven elements now have individual dispositions.
+Frozen 095-01, 095-03 and 095-04 contribute seven further reviewed elements,
+combined with the existing selective-pause explanation. An additional beat
+qualifies the exact August 7 training-pause start: the inspected paragraph does
+not establish it. The source’s August 7 assessment/monitoring date cannot be
+transferred to the training pause. Original wording remains in the detail review.
+Panel 095-02’s specific redirection/choreography remains pending; the wider
+safeguard and oversight sequence also remains to be drafted and reviewed.
+
+Primary Daybreak page read through the web reader; direct raw archival retrieval
+returned HTTP 403. `evidence/public-announcement-source-review.md` records that
+limitation. No current source revision is asserted to be an exact historical
+copy, and no verbatim quotation from that page is registered.
+
+Scoped draft and whitespace checks passed. Frozen edition remains unchanged.
+Full semantic coverage, final chronological allocation and readable page review
+are still unfinished. No count is a target or ceiling.
