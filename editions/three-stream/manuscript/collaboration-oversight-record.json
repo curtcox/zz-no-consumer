@@ -1,0 +1,705 @@
+[
+  {
+    "id": "prod-oversight",
+    "title": "What the officials ask to preserve and produce",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T03:45:45.444000Z",
+    "end": "2026-09-02T03:45:45.444000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator context for the preserved September 2 Codex proposal to cover oversight in a public-clock track. Document dates and the future deadline are separate from the message timestamp; no new reading or investigative act is attributed to Codex.",
+    "source_limit": "The documents establish demands, instructions and an announced investigation. Incident allegations remain attributed. No submitted evidence, compliance, adjudicated liability or later deadline outcome is inferred.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-oversight-letter",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "The narrator opens the August 3 letter as a public document. Fifteen state offices are named; no private conference is reconstructed.",
+        "lettering": [
+          "The August 3 letter comes from attorneys general of fifteen states. Its account relies on public reporting. The accusations and demands establish a government position, not a judgment settling the incident’s facts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; pp. 1–2, introduction and preservation demand",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-preserve",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "Preservation comes before any imagined submission of evidence. The short phrase is lettered as the letter’s own words.",
+        "lettering": [
+          "The letter asks OpenAI to “preserve all potentially relevant documents, data, and information.” Keeping material available for review is a different act from publishing it or establishing what it proves."
+        ],
+        "exact_strings": [
+          {
+            "text": "preserve all potentially relevant documents, data, and information.",
+            "source": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; p. 2, paragraph introducing eleven preservation categories",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; p. 2, paragraph introducing eleven preservation categories",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-incident-record",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "The narrator groups the first five categories without fabricating recovered records.",
+        "lettering": [
+          "The first categories cover the July intrusion and other accounts used, OpenAI’s discovery of it, the prerelease model, internal reviews and public statements, and other uses of exposed credentials."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; pp. 2–3, preservation categories 1–5",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-prior-record",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "The requested record extends beyond the July victim. No requested document is shown as already obtained.",
+        "lettering": [
+          "The letter also seeks preservation of relevant evaluations, earlier unauthorized intrusions, and notes left for later model instances—including OpenAI’s responses. A preservation category identifies what the officials want retained; it does not prove every described event occurred."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; p. 3, preservation categories 6–8",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-people",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "The final categories connect written safeguards, concerns and people with knowledge.",
+        "lettering": [
+          "The remaining categories concern evaluation-safety oversight, concerns or recommendations about safeguards and human monitoring, and personnel involved or informed. The request reaches the record of how decisions were made, not only the attack’s technical traces."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; p. 3, preservation categories 9–11",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-reporting",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "A separate narrator annotation keeps reporting protection distinct from evidence retention.",
+        "lettering": [
+          "The letter demands protection against adverse action for protected whistleblowing or reporting unlawful or harmful activities. That demand is not evidence that retaliation occurred, or that protection was subsequently provided."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; pp. 3–4, protected reporting demand",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-restriction",
+        "old_panels": [
+          "094-01"
+        ],
+        "frame": "The evaluation demand carries its condition, rather than becoming an order to stop all AI work.",
+        "lettering": [
+          "The officials ask OpenAI to stop internal evaluations prompting advanced exploitation through complex attack paths unless and until it shows they can be conducted in a controlled, responsible way. The letter does not establish that those evaluations stopped."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067; p. 4, final evaluation demand",
+            "available": "2026-08-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-subpoena",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The signed August 20 subpoena is distinguished from the later public announcement.",
+        "lettering": [
+          "Alabama subpoena 26-0007 is dated August 20. It demands information and documents in a consumer-protection investigation. This draft uses August 24’s announcement to establish public availability; issuance and public announcement are separate dates."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 1 and p. 14; signed issuance and document title",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-announcement",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The public announcement stays on the document surface. No named official is given invented dialogue or a private room.",
+        "lettering": [
+          "On August 24, Alabama announced the investigation and subpoena. Its stated question is whether OpenAI violated consumer-protection law. The announcement’s allegations are not the investigation’s answer."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-PR",
+            "locator": "256t/records/alabama-press-release/content.bin; SHA-256 3e1cc9095f2bcd6b81f8c131617d347aace9bb9c1e9859949ed45c7591b0a2d5; August 24 announcement, investigation description",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-who-what",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The first group of numbered requests asks for people, records, affected systems and awareness.",
+        "lettering": [
+          "Requests 1–4 seek the people involved, intrusion and testing documents, systems and accounts implicated, and material about OpenAI’s discovery or awareness. They seek a record against which the public account could be examined."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 6, requests 1–4",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-safeguards",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "Descriptions of safeguards and the records supporting those descriptions occupy separate entries.",
+        "lettering": [
+          "Requests 5–7 ask for a detailed description of the testing safeguards, documents about those safeguards, and material about the prerelease model. A stated safeguard and evidence about it are separate things to produce."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 6, requests 5–7",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-concerns-harm",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The request list reaches internal concerns and evidence of harm without supplying either answer.",
+        "lettering": [
+          "Requests 8–10 seek people who raised safety or security concerns, documents about those concerns, and records sufficient to determine damage, harm or loss. A demand for such evidence does not itself establish a victim count or amount of damage."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 6, requests 8–10",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-other-events",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The requested scope extends to other credential use, intrusions and notes. No bridge between incident populations is added.",
+        "lettering": [
+          "Requests 11–13 seek other exposed-credential incidents, other unauthorized access, and notes for later instances plus responses to them. Their inclusion does not establish a shared identity or coordinated relationship among every event in the book."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 7, requests 11–13",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-oversight-evaluations",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The last requests return to oversight, exposed credentials and evaluation practices; the source’s overlapping categories remain visible.",
+        "lettering": [
+          "Requests 14–16 concern safety policies and oversight, including concerns about their absence; exposed-credential cases; and advanced-exploitation evaluations, including ExploitGym. There are sixteen numbered requests, with overlapping subjects—not sixteen adjudicated violations."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 7, requests 14–16",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-versions",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The production instructions distinguish existing versions, missing material and withheld material. No destroyed or concealed file is invented.",
+        "lettering": [
+          "The subpoena asks for earlier document versions and explanations for material no longer held or no longer existing. It also requires responses when no responsive material exists and a record of asserted privilege. These instructions do not prove records were destroyed or withheld."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; pp. 4–5, instructions 3, 5–8",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-preservation-production",
+        "old_panels": [
+          "094-02"
+        ],
+        "frame": "The narrator keeps preservation, later supplementation and production format separate.",
+        "lettering": [
+          "The instructions address continuing production, preservation, electronic formats and a compliance affidavit. The appendix seeks metadata and usable records. This is a specification for evidence delivery, not a completed evidence collection."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; pp. 5–6, instructions 9–12; Appendix 1",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-deadline",
+        "old_panels": [
+          "094-03"
+        ],
+        "frame": "A future deadline is read from the document while the scene’s September 2 clock stays in place.",
+        "lettering": [
+          "The subpoena specifies September 14 at 10:00 a.m., with production at the Alabama attorney general’s Montgomery office. On the date of this September 2 collaboration scene, that deadline is still ahead. No response, extension or enforcement outcome is shown."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 14, production deadline and Montgomery address",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-blank-affidavit",
+        "old_panels": [
+          "094-03"
+        ],
+        "frame": "The attached affidavit remains visibly blank. It receives no invented signature or date.",
+        "lettering": [
+          "The source includes an unfilled compliance affidavit. It is a form to accompany a response, not proof that OpenAI submitted one. A later outcome requires its own dated evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; attached Affidavit of Compliance, unfilled form",
+            "available": "2026-08-24"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-oversight-authority",
+        "old_panels": [
+          "094-05"
+        ],
+        "frame": "The narrator compares document types within one actor row. These diagram branches do not become extra story rows.",
+        "lettering": [
+          "Engineering changes, a public defense proposal, preservation demands and compulsory production carry different authority and establish different facts. None substitutes for the others; scrutiny is not a verdict, and advocacy is not implementation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "AL-SUB",
+            "locator": "256t/records/alabama-subpoena/content.bin; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53; p. 1, compulsory process; contrast with admitted letters and pacing account",
+            "available": "2026-08-24"
+          },
+          {
+            "key": "AG-LETTER",
+            "locator": "256t/records/multistate-letter/content.bin; SHA-256 df05c8eebadc0b5b409440aebcf8f601881542987631b6ddc2341f4694fb5067",
+            "available": "2026-08-03"
+          },
+          {
+            "key": "OAI-LETTER",
+            "locator": "256t/records/openai-collective-defense/content.bin; public position and stated scope",
+            "available": "2026-08-27"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; public position and stated scope",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "094-05",
+            "disposition": "rewrite",
+            "reason": "Preserve the public oversight act and the distinction between a demand, an allegation, supplied evidence and a finding."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      }
+    ]
+  }
+]

@@ -426,3 +426,36 @@ copy, and no verbatim quotation from that page is registered.
 Scoped draft and whitespace checks passed. Frozen edition remains unchanged.
 Full semantic coverage, final chronological allocation and readable page review
 are still unfinished. No count is a target or ceiling.
+
+### Oversight demands and response-control status — 13 September 2026
+
+Added nineteen beats in `manuscript/collaboration-oversight-record.json` and
+twelve in `manuscript/collaboration-response-controls.json`. Both are explicitly
+narrator context for the already preserved September 2 Codex operations/public-
+clock proposal, not additional words, reading acts or research attributed to
+Codex. Final allocation still has to make this narrator context readable.
+
+The primary multistate letter and Alabama subpoena were extracted from the
+unchanged vault PDFs. The official press-release body was read separately from
+navigation and unrelated news. The draft preserves the letter’s eleven evidence
+classes and three demands, the subpoena’s sixteen substantive requests and
+consequential production instructions, August 20 issuance versus August 24
+public announcement, the future deadline, and the blank compliance form. No
+response, extension, liability finding or completed implementation is inferred.
+The AG preservation quotation was verified against the extracted primary text;
+its publication-rights decision remains unresolved at the late gate.
+
+Frozen 094’s five panels are individually reviewed. Its defense-letter panel is
+combined with the existing public-clock treatment rather than replayed. Frozen
+092-01 through 092-04 are individually reviewed against technical-report
+§IX.A–D, pages 25–31, with the pacing account also supporting reduced standing
+privileges. Network layers, execution isolation, cached-service exception,
+monitoring scope, separate notification/decision clocks, developing shutdown
+tooling and future clarification of response ownership remain distinct. The
+original already-filled ownership cell is retired: the primary report describes
+ongoing work, not an independently demonstrated completed chain of authority.
+
+Frozen 092-05’s broken-task/safe-stop cards, 095-02’s detailed redirection,
+093’s quantitative safeguard assessment, and the remaining accountability
+questions still need their own source/disposition passes. No canonical identity
+or frozen dependent changed. Draft checks and whitespace checks passed.

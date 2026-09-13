@@ -1384,6 +1384,214 @@ IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATI
 
 **Draft destination:** prod-human-alert-board, prod-human-alert-analysis
 
+## legacy-332b5ed63262 · 092-01
+
+### legacy-092-01-detail-01 · frame
+
+**Frozen wording:**
+
+Workloads occupy separate boxes. High-risk tool use has no direct or transitive route to the open internet; untrusted code sits behind two isolation layers.
+
+**Decision:** split — Retain stronger execution and network isolation, identify the two layers as network controls, preserve the restricted cached-service exception and distinguish designed containment from independently demonstrated effectiveness.
+
+**Draft destination:** prod-controls-scope, prod-controls-indirect, prod-controls-network, prod-controls-layers
+
+### legacy-092-01-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI DESCRIBES STRONGER WORKLOAD AND NETWORK ISOLATION.
+
+**Decision:** split — Retain stronger execution and network isolation, identify the two layers as network controls, preserve the restricted cached-service exception and distinguish designed containment from independently demonstrated effectiveness.
+
+**Draft destination:** prod-controls-scope, prod-controls-indirect, prod-controls-network, prod-controls-layers
+
+## legacy-332b5ed63262 · 092-02
+
+### legacy-092-02-detail-01 · frame
+
+**Frozen wording:**
+
+Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.
+
+**Decision:** split — Retain constraints on supporting services, authority and repeated testing without claiming every shared service disappeared.
+
+**Draft destination:** prod-controls-services
+
+### legacy-092-02-detail-03 · lettering
+
+**Frozen wording:**
+
+FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.
+
+**Decision:** split — Retain constraints on supporting services, authority and repeated testing without claiming every shared service disappeared.
+
+**Draft destination:** prod-controls-services
+
+## legacy-332b5ed63262 · 092-03
+
+### legacy-092-03-detail-01 · frame
+
+**Frozen wording:**
+
+A monitoring lane runs beside every tool-using high-capability evaluation. Severe alerts lead to a 30-minute decision clock.
+
+**Decision:** split — Separate monitoring coverage, notification goal and paged decision clocks. Preserve auto-termination and enterprise shutdown as developing work rather than universal demonstrated response.
+
+**Draft destination:** prod-controls-monitoring, prod-controls-notification, prod-controls-decision, prod-controls-shutdown
+
+### legacy-092-03-detail-03 · lettering
+
+**Frozen wording:**
+
+IF A CRITICAL FLAG CANNOT BE DISMISSED WITHIN THIRTY MINUTES, THE EXPECTED ACTION IS PAUSE.
+
+**Decision:** split — Separate monitoring coverage, notification goal and paged decision clocks. Preserve auto-termination and enterprise shutdown as developing work rather than universal demonstrated response.
+
+**Draft destination:** prod-controls-monitoring, prod-controls-notification, prod-controls-decision, prod-controls-shutdown
+
+## legacy-332b5ed63262 · 092-04
+
+### legacy-092-04-detail-01 · frame
+
+**Frozen wording:**
+
+A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.
+
+**Decision:** split — Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.
+
+**Draft destination:** prod-controls-severity, prod-controls-ownership, prod-controls-restoration
+
+### legacy-092-04-detail-03 · lettering
+
+**Frozen wording:**
+
+AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.
+
+**Decision:** split — Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.
+
+**Draft destination:** prod-controls-severity, prod-controls-ownership, prod-controls-restoration
+
+### legacy-092-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THESE ARE THREE SEPARATE POWERS: RECEIVE THE WARNING, STOP THE WORK, AND DECIDE WHETHER IT CAN SAFELY RESUME. A RULE ON PAPER DOES NOT COMPLETE THAT CHAIN UNLESS SOMEONE CAN ACT AT EACH STEP.
+
+**Decision:** split — Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.
+
+**Draft destination:** prod-controls-severity, prod-controls-ownership, prod-controls-restoration
+
+## legacy-332b5ed63262 · 094-01
+
+### legacy-094-01-detail-01 · frame
+
+**Frozen wording:**
+
+A multistate letter enters the public record, headed `3 AUGUST 2026 · FIFTEEN STATES`. Three tabs are visible: `PRESERVE RECORDS`, `PROTECT REPORTING`, `RESTRICT THE EVALUATIONS UNTIL CONTROLLED`.
+
+**Decision:** split — Decompose all three government demands and eleven preservation categories; retain fifteen-state date and allegations-versus-findings limit.
+
+**Draft destination:** prod-oversight-letter, prod-oversight-preserve, prod-oversight-incident-record, prod-oversight-prior-record, prod-oversight-people, prod-oversight-reporting, prod-oversight-restriction
+
+### legacy-094-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THESE ARE GOVERNMENT DEMANDS—NOT ADJUDICATED FINDINGS.
+
+**Decision:** split — Decompose all three government demands and eleven preservation categories; retain fifteen-state date and allegations-versus-findings limit.
+
+**Draft destination:** prod-oversight-letter, prod-oversight-preserve, prod-oversight-incident-record, prod-oversight-prior-record, prod-oversight-people, prod-oversight-reporting, prod-oversight-restriction
+
+## legacy-332b5ed63262 · 094-02
+
+### legacy-094-02-detail-01 · frame
+
+**Frozen wording:**
+
+Alabama subpoena 26-0007 opens into sixteen numbered requests spanning incident records, personnel, systems, safeguards, internal concerns, oversight, and related evaluations.
+
+**Decision:** split — Decompose all sixteen requests and consequential production instructions; distinguish August 20 issuance from August 24 public announcement and do not invent compliance.
+
+**Draft destination:** prod-oversight-subpoena, prod-oversight-announcement, prod-oversight-who-what, prod-oversight-safeguards, prod-oversight-concerns-harm, prod-oversight-other-events, prod-oversight-oversight-evaluations, prod-oversight-versions, prod-oversight-preservation-production
+
+### legacy-094-02-detail-03 · lettering
+
+**Frozen wording:**
+
+ALABAMA OPENS A CONSUMER-PROTECTION INVESTIGATION AND DEMANDS DOCUMENTS, DATA, AND ANSWERS.
+
+**Decision:** split — Decompose all sixteen requests and consequential production instructions; distinguish August 20 issuance from August 24 public announcement and do not invent compliance.
+
+**Draft destination:** prod-oversight-subpoena, prod-oversight-announcement, prod-oversight-who-what, prod-oversight-safeguards, prod-oversight-concerns-harm, prod-oversight-other-events, prod-oversight-oversight-evaluations, prod-oversight-versions, prod-oversight-preservation-production
+
+## legacy-332b5ed63262 · 094-03
+
+### legacy-094-03-detail-01 · frame
+
+**Frozen wording:**
+
+Calendar page: `RESPONSE DUE 10:00 A.M. CENTRAL — 14 SEPTEMBER 2026`. The date lies beyond a dark line labeled `THIS PAGE IS DRAWN AS OF 30 AUGUST`.
+
+**Decision:** split — Retain the future deadline at the dated September 2 collaboration point, replacing the old August 30 scene cutoff. Use the document’s local-office time rather than calling Central an explicit source label; do not infer later outcomes from a blank form.
+
+**Draft destination:** prod-oversight-deadline, prod-oversight-blank-affidavit
+
+### legacy-094-03-detail-03 · lettering
+
+**Frozen wording:**
+
+AS OF 30 AUGUST, THE DEADLINE HAS NOT ARRIVED.
+
+**Decision:** split — Retain the future deadline at the dated September 2 collaboration point, replacing the old August 30 scene cutoff. Use the document’s local-office time rather than calling Central an explicit source label; do not infer later outcomes from a blank form.
+
+**Draft destination:** prod-oversight-deadline, prod-oversight-blank-affidavit
+
+## legacy-332b5ed63262 · 094-04
+
+### legacy-094-04-detail-01 · frame
+
+**Frozen wording:**
+
+A separate public letter branches into organizations, security companies, governments, and frontier labs.
+
+**Decision:** combine — Combine the repeated defense letter with the already drafted four-recipient proposal, preserving that signatures and calls do not prove implementation.
+
+**Draft destination:** prod-public-clock-roles
+
+### legacy-094-04-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI AND OTHER SIGNATORIES CALL FOR DEFENSIVE ACCESS AND A COORDINATED RESPONSE.
+
+**Decision:** combine — Combine the repeated defense letter with the already drafted four-recipient proposal, preserving that signatures and calls do not prove implementation.
+
+**Draft destination:** prod-public-clock-roles
+
+## legacy-332b5ed63262 · 094-05
+
+### legacy-094-05-detail-01 · frame
+
+**Frozen wording:**
+
+Internal remediation, public advocacy, and compulsory process occupy three separate lanes. None absorbs the others.
+
+**Decision:** rewrite — Retain the separate authority and evidence carried by engineering, advocacy, preservation and compulsory process; diagrams stay inside the fixed actor row.
+
+**Draft destination:** prod-oversight-authority
+
+### legacy-094-05-detail-03 · lettering
+
+**Frozen wording:**
+
+RESPONSE NOW MEANS ENGINEERING, POLICY, DEFENSE, PRESERVATION, AND SCRUTINY—WITH DIFFERENT CLAIMS OF AUTHORITY.
+
+**Decision:** rewrite — Retain the separate authority and evidence carried by engineering, advocacy, preservation and compulsory process; diagrams stay inside the fixed actor row.
+
+**Draft destination:** prod-oversight-authority
+
 ## legacy-332b5ed63262 · 095-01
 
 ### legacy-095-01-detail-01 · frame

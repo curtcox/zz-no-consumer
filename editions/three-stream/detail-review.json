@@ -2448,7 +2448,7 @@
         "target_sha256": {
           "prod-public-clock-urgency": "14128520d703998af411fa39813b604e24c832ae35b8b4b845588f734df87e7d",
           "prod-public-clock-resources": "5d1549ff202ea05db44ea7abe3b6f1f5585bd9e47a18e93e2681b67275718585",
-          "prod-public-clock-roles": "9553ce70c13cd0bff6e1e390af45745a1d2a6287db44d27f7ef6c149474d4dae",
+          "prod-public-clock-roles": "006214b99cde57c193c1b62dbc97c17652543e5681b174e2edb37bd197ba8a33",
           "prod-public-clock-verification": "36ebef8f852f578ffb80af34129d80c22256588b2299971411744a82f25912f5",
           "prod-public-clock-membership": "52a56cdfe862dc3d6c82a7ab12dbcdf8fad5ea24ae2547b8ebe68538bbc22a11"
         }
@@ -2468,7 +2468,7 @@
         "target_sha256": {
           "prod-public-clock-urgency": "14128520d703998af411fa39813b604e24c832ae35b8b4b845588f734df87e7d",
           "prod-public-clock-resources": "5d1549ff202ea05db44ea7abe3b6f1f5585bd9e47a18e93e2681b67275718585",
-          "prod-public-clock-roles": "9553ce70c13cd0bff6e1e390af45745a1d2a6287db44d27f7ef6c149474d4dae",
+          "prod-public-clock-roles": "006214b99cde57c193c1b62dbc97c17652543e5681b174e2edb37bd197ba8a33",
           "prod-public-clock-verification": "36ebef8f852f578ffb80af34129d80c22256588b2299971411744a82f25912f5",
           "prod-public-clock-membership": "52a56cdfe862dc3d6c82a7ab12dbcdf8fad5ea24ae2547b8ebe68538bbc22a11"
         }
@@ -2665,6 +2665,402 @@
         "target_sha256": {
           "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
           "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "094-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-094-01-detail-01",
+        "original_sha256": "e17dd4c3965fefb234f97c93fe5df3d6936c0e43ccf94c856cbc7fc063c59bcb",
+        "disposition": "split",
+        "beats": [
+          "prod-oversight-letter",
+          "prod-oversight-preserve",
+          "prod-oversight-incident-record",
+          "prod-oversight-prior-record",
+          "prod-oversight-people",
+          "prod-oversight-reporting",
+          "prod-oversight-restriction"
+        ],
+        "reason": "Decompose all three government demands and eleven preservation categories; retain fifteen-state date and allegations-versus-findings limit.",
+        "target_sha256": {
+          "prod-oversight-letter": "2a9ca549e7500656debcdf36fea325a9d64df14bda80f07f00cd786a8aece63d",
+          "prod-oversight-preserve": "e34890d7937f8f8f8d93c5cad9a3c4b6d5fd3331ec2132506ede702d58bef780",
+          "prod-oversight-incident-record": "8a8f1d30eef8f6d5dadc75bb818344bdec7b2c071b78cd294293b404a3c68af5",
+          "prod-oversight-prior-record": "e2b822aad1530e3c69320a2d72c8adace01a8f1ddf05d061aeb5d9b5661797cf",
+          "prod-oversight-people": "bf780a388af205502e00860c06e2d46df7fd94dc20be49681166201d24d43f77",
+          "prod-oversight-reporting": "ea06b55023e8d9dc80a8031209aeed0ab25426b00c66079ea46ff360255e2910",
+          "prod-oversight-restriction": "fa99602c0ed4b2f869ac452f8fabb710410df8bdff41d3706842744447996e46"
+        }
+      },
+      {
+        "id": "legacy-094-01-detail-03",
+        "original_sha256": "8242cede3f2f8e8b460ad6fe4bda2399fc6e6937a856f9a76c6021ecc8abed87",
+        "disposition": "split",
+        "beats": [
+          "prod-oversight-letter",
+          "prod-oversight-preserve",
+          "prod-oversight-incident-record",
+          "prod-oversight-prior-record",
+          "prod-oversight-people",
+          "prod-oversight-reporting",
+          "prod-oversight-restriction"
+        ],
+        "reason": "Decompose all three government demands and eleven preservation categories; retain fifteen-state date and allegations-versus-findings limit.",
+        "target_sha256": {
+          "prod-oversight-letter": "2a9ca549e7500656debcdf36fea325a9d64df14bda80f07f00cd786a8aece63d",
+          "prod-oversight-preserve": "e34890d7937f8f8f8d93c5cad9a3c4b6d5fd3331ec2132506ede702d58bef780",
+          "prod-oversight-incident-record": "8a8f1d30eef8f6d5dadc75bb818344bdec7b2c071b78cd294293b404a3c68af5",
+          "prod-oversight-prior-record": "e2b822aad1530e3c69320a2d72c8adace01a8f1ddf05d061aeb5d9b5661797cf",
+          "prod-oversight-people": "bf780a388af205502e00860c06e2d46df7fd94dc20be49681166201d24d43f77",
+          "prod-oversight-reporting": "ea06b55023e8d9dc80a8031209aeed0ab25426b00c66079ea46ff360255e2910",
+          "prod-oversight-restriction": "fa99602c0ed4b2f869ac452f8fabb710410df8bdff41d3706842744447996e46"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "094-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-094-02-detail-01",
+        "original_sha256": "df6e8d3bcda13d81e29f88b352f5e873c06c8b72bfc1d88c3c18e5d95ff14635",
+        "disposition": "split",
+        "beats": [
+          "prod-oversight-subpoena",
+          "prod-oversight-announcement",
+          "prod-oversight-who-what",
+          "prod-oversight-safeguards",
+          "prod-oversight-concerns-harm",
+          "prod-oversight-other-events",
+          "prod-oversight-oversight-evaluations",
+          "prod-oversight-versions",
+          "prod-oversight-preservation-production"
+        ],
+        "reason": "Decompose all sixteen requests and consequential production instructions; distinguish August 20 issuance from August 24 public announcement and do not invent compliance.",
+        "target_sha256": {
+          "prod-oversight-subpoena": "4f1a7a0761a931c61e893d8eac9a7bdf9e0e17ac0a3ed4497ee629ddad155915",
+          "prod-oversight-announcement": "57aea219a2fff2a172ac507f6fa47dfa064b98fff4c5946e211cfb36a34c6024",
+          "prod-oversight-who-what": "7115f3e9e242007a9e29e3aa670d2516b0287e96d2989b5146bbe9fe7ef16a51",
+          "prod-oversight-safeguards": "ad22056ddda940fb3bd953908f0f00adab5d95d2c2a615d901fde9be3c402263",
+          "prod-oversight-concerns-harm": "4b75da173a22fbf8e261cb3ed37a49a0a2420bcfddfa66e0a6d4e1f8b0590076",
+          "prod-oversight-other-events": "6c9bcbc03cbd064dd2d7a43deb9d48abab26e985e0c325b636f45e4424fcb0b4",
+          "prod-oversight-oversight-evaluations": "9a072c78f16b95b7fe253b4e3afcf184e34230149ae99d3fcdc84d4c62daf12c",
+          "prod-oversight-versions": "1830d054b4d48d36b1cd6b6478fe8f1bc1dfcc96463615043372d1da0ddbf45c",
+          "prod-oversight-preservation-production": "62f93201fa0e5d324e875054f6ac77b9c065b91908c94193fe6f413cde95d700"
+        }
+      },
+      {
+        "id": "legacy-094-02-detail-03",
+        "original_sha256": "92c98d52e8f6ad3a13f77886872ce6b189eb4115601ada221df150623e9421bb",
+        "disposition": "split",
+        "beats": [
+          "prod-oversight-subpoena",
+          "prod-oversight-announcement",
+          "prod-oversight-who-what",
+          "prod-oversight-safeguards",
+          "prod-oversight-concerns-harm",
+          "prod-oversight-other-events",
+          "prod-oversight-oversight-evaluations",
+          "prod-oversight-versions",
+          "prod-oversight-preservation-production"
+        ],
+        "reason": "Decompose all sixteen requests and consequential production instructions; distinguish August 20 issuance from August 24 public announcement and do not invent compliance.",
+        "target_sha256": {
+          "prod-oversight-subpoena": "4f1a7a0761a931c61e893d8eac9a7bdf9e0e17ac0a3ed4497ee629ddad155915",
+          "prod-oversight-announcement": "57aea219a2fff2a172ac507f6fa47dfa064b98fff4c5946e211cfb36a34c6024",
+          "prod-oversight-who-what": "7115f3e9e242007a9e29e3aa670d2516b0287e96d2989b5146bbe9fe7ef16a51",
+          "prod-oversight-safeguards": "ad22056ddda940fb3bd953908f0f00adab5d95d2c2a615d901fde9be3c402263",
+          "prod-oversight-concerns-harm": "4b75da173a22fbf8e261cb3ed37a49a0a2420bcfddfa66e0a6d4e1f8b0590076",
+          "prod-oversight-other-events": "6c9bcbc03cbd064dd2d7a43deb9d48abab26e985e0c325b636f45e4424fcb0b4",
+          "prod-oversight-oversight-evaluations": "9a072c78f16b95b7fe253b4e3afcf184e34230149ae99d3fcdc84d4c62daf12c",
+          "prod-oversight-versions": "1830d054b4d48d36b1cd6b6478fe8f1bc1dfcc96463615043372d1da0ddbf45c",
+          "prod-oversight-preservation-production": "62f93201fa0e5d324e875054f6ac77b9c065b91908c94193fe6f413cde95d700"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "094-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-094-03-detail-01",
+        "original_sha256": "8029f1febdebbb7f18270f9dfb8baf7390a7e1d568b7d61bb1f32c8407570897",
+        "disposition": "split",
+        "beats": [
+          "prod-oversight-deadline",
+          "prod-oversight-blank-affidavit"
+        ],
+        "reason": "Retain the future deadline at the dated September 2 collaboration point, replacing the old August 30 scene cutoff. Use the document’s local-office time rather than calling Central an explicit source label; do not infer later outcomes from a blank form.",
+        "target_sha256": {
+          "prod-oversight-deadline": "6e36b9e9a7eb3af34ec279726f915c41f3422d4f629d9ebef5add1d0779d1767",
+          "prod-oversight-blank-affidavit": "b553076813d704dd19d841e98ad219635977e8a3842092e4ad221174aec0a021"
+        }
+      },
+      {
+        "id": "legacy-094-03-detail-03",
+        "original_sha256": "4ea55a264101ed338abed3f320b2d7112564b95ce28baab96cc169a01a081012",
+        "disposition": "split",
+        "beats": [
+          "prod-oversight-deadline",
+          "prod-oversight-blank-affidavit"
+        ],
+        "reason": "Retain the future deadline at the dated September 2 collaboration point, replacing the old August 30 scene cutoff. Use the document’s local-office time rather than calling Central an explicit source label; do not infer later outcomes from a blank form.",
+        "target_sha256": {
+          "prod-oversight-deadline": "6e36b9e9a7eb3af34ec279726f915c41f3422d4f629d9ebef5add1d0779d1767",
+          "prod-oversight-blank-affidavit": "b553076813d704dd19d841e98ad219635977e8a3842092e4ad221174aec0a021"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "094-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-094-04-detail-01",
+        "original_sha256": "42013d4753a0cb3ac771a70661376d0e769218259a1bcb14d678155a8a3491ae",
+        "disposition": "combine",
+        "beats": [
+          "prod-public-clock-roles"
+        ],
+        "reason": "Combine the repeated defense letter with the already drafted four-recipient proposal, preserving that signatures and calls do not prove implementation.",
+        "target_sha256": {
+          "prod-public-clock-roles": "006214b99cde57c193c1b62dbc97c17652543e5681b174e2edb37bd197ba8a33"
+        }
+      },
+      {
+        "id": "legacy-094-04-detail-03",
+        "original_sha256": "1596df9b4802f34c2d0c04a6a935fcdeefce08e98282382f493005c814eef7e2",
+        "disposition": "combine",
+        "beats": [
+          "prod-public-clock-roles"
+        ],
+        "reason": "Combine the repeated defense letter with the already drafted four-recipient proposal, preserving that signatures and calls do not prove implementation.",
+        "target_sha256": {
+          "prod-public-clock-roles": "006214b99cde57c193c1b62dbc97c17652543e5681b174e2edb37bd197ba8a33"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "094-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-094-05-detail-01",
+        "original_sha256": "ea92531edf3b71ea6b6fec2e88225641055e5f23ebebafb46935fb005ead8e78",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-oversight-authority"
+        ],
+        "reason": "Retain the separate authority and evidence carried by engineering, advocacy, preservation and compulsory process; diagrams stay inside the fixed actor row.",
+        "target_sha256": {
+          "prod-oversight-authority": "0e71427a067780823cfd74aa4ac312f0819aa37eaa7ed28081b0f59c05e60cb5"
+        }
+      },
+      {
+        "id": "legacy-094-05-detail-03",
+        "original_sha256": "7c6e44a793580eaaf12d13eb57a46b0df4829a3406f237dffafc3265322504fb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-oversight-authority"
+        ],
+        "reason": "Retain the separate authority and evidence carried by engineering, advocacy, preservation and compulsory process; diagrams stay inside the fixed actor row.",
+        "target_sha256": {
+          "prod-oversight-authority": "0e71427a067780823cfd74aa4ac312f0819aa37eaa7ed28081b0f59c05e60cb5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "092-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-092-01-detail-01",
+        "original_sha256": "f72d36299a0b961216dce45887e8f5cca6e53a493ab5871de49881288f2410c9",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-scope",
+          "prod-controls-indirect",
+          "prod-controls-network",
+          "prod-controls-layers"
+        ],
+        "reason": "Retain stronger execution and network isolation, identify the two layers as network controls, preserve the restricted cached-service exception and distinguish designed containment from independently demonstrated effectiveness.",
+        "target_sha256": {
+          "prod-controls-scope": "2011290e1748c342995a6bcb1ec5250aa4af3d16b83c8a55e7267cddaecba462",
+          "prod-controls-indirect": "8bdf94a1abe96026ef0184da1f7b5066ff0bbd8d8e7e00abd638fb6f9c093069",
+          "prod-controls-network": "fc161c34b3c79fc30b323147ddd15ee93d870eb5396c63eb822c407d02a56ac0",
+          "prod-controls-layers": "a6f0c2e64bcd84062c82c44234949e13840ea85530515f754537fb8f5d88c176"
+        }
+      },
+      {
+        "id": "legacy-092-01-detail-03",
+        "original_sha256": "883d12ef26cd7a77c2bd07a748209364cc8f07cc40001c52f2ed92e4e8bb54ba",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-scope",
+          "prod-controls-indirect",
+          "prod-controls-network",
+          "prod-controls-layers"
+        ],
+        "reason": "Retain stronger execution and network isolation, identify the two layers as network controls, preserve the restricted cached-service exception and distinguish designed containment from independently demonstrated effectiveness.",
+        "target_sha256": {
+          "prod-controls-scope": "2011290e1748c342995a6bcb1ec5250aa4af3d16b83c8a55e7267cddaecba462",
+          "prod-controls-indirect": "8bdf94a1abe96026ef0184da1f7b5066ff0bbd8d8e7e00abd638fb6f9c093069",
+          "prod-controls-network": "fc161c34b3c79fc30b323147ddd15ee93d870eb5396c63eb822c407d02a56ac0",
+          "prod-controls-layers": "a6f0c2e64bcd84062c82c44234949e13840ea85530515f754537fb8f5d88c176"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "092-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-092-02-detail-01",
+        "original_sha256": "89fcee7aa09d6afafa95aeb22b74710bb3f0427c714ba446a289e12c69b03865",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-services"
+        ],
+        "reason": "Retain constraints on supporting services, authority and repeated testing without claiming every shared service disappeared.",
+        "target_sha256": {
+          "prod-controls-services": "3a9f2a75dacc6baf004c276e0cf34932e424da426736d43356095fb1ae27546b"
+        }
+      },
+      {
+        "id": "legacy-092-02-detail-03",
+        "original_sha256": "2629dcaca9f4ebf8cfebf555dc4e0bc8c3be92d437151c70c7b9378f691147f0",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-services"
+        ],
+        "reason": "Retain constraints on supporting services, authority and repeated testing without claiming every shared service disappeared.",
+        "target_sha256": {
+          "prod-controls-services": "3a9f2a75dacc6baf004c276e0cf34932e424da426736d43356095fb1ae27546b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "092-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-092-03-detail-01",
+        "original_sha256": "6920664bf76ed24d0e8c172b0452c132712e646ccc2e05ce1c42322c03b0b8ba",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-monitoring",
+          "prod-controls-notification",
+          "prod-controls-decision",
+          "prod-controls-shutdown"
+        ],
+        "reason": "Separate monitoring coverage, notification goal and paged decision clocks. Preserve auto-termination and enterprise shutdown as developing work rather than universal demonstrated response.",
+        "target_sha256": {
+          "prod-controls-monitoring": "b9bcbddc61ae79620f5c93211892f9ca90390214d35a760a28654affd74a579d",
+          "prod-controls-notification": "59c39f44c6ce689752a6033a6c047a3d9f44426fa8769b2dc9068ccfe7f3b3fd",
+          "prod-controls-decision": "74e18b6a49522257a33a1a9ac9422b4625efb1e7a0bf9e134c0dcb43d06685e3",
+          "prod-controls-shutdown": "94122edfb243a5064889baf7ccb99f5de6bafd38b3a0e17a2ac7947eb2b02444"
+        }
+      },
+      {
+        "id": "legacy-092-03-detail-03",
+        "original_sha256": "29b1dcf748156ba4dcbae7c7eacf795e6418033a9be04ebf161d6b3665e30892",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-monitoring",
+          "prod-controls-notification",
+          "prod-controls-decision",
+          "prod-controls-shutdown"
+        ],
+        "reason": "Separate monitoring coverage, notification goal and paged decision clocks. Preserve auto-termination and enterprise shutdown as developing work rather than universal demonstrated response.",
+        "target_sha256": {
+          "prod-controls-monitoring": "b9bcbddc61ae79620f5c93211892f9ca90390214d35a760a28654affd74a579d",
+          "prod-controls-notification": "59c39f44c6ce689752a6033a6c047a3d9f44426fa8769b2dc9068ccfe7f3b3fd",
+          "prod-controls-decision": "74e18b6a49522257a33a1a9ac9422b4625efb1e7a0bf9e134c0dcb43d06685e3",
+          "prod-controls-shutdown": "94122edfb243a5064889baf7ccb99f5de6bafd38b3a0e17a2ac7947eb2b02444"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "092-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-092-04-detail-01",
+        "original_sha256": "96a73289aeb40de167a90b77f9eeb076129646da2f25b3855d946550283d7b77",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-severity",
+          "prod-controls-ownership",
+          "prod-controls-restoration"
+        ],
+        "reason": "Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.",
+        "target_sha256": {
+          "prod-controls-severity": "faa57baed9cc2dd4135959c993545ad3a033457dd7c5b7239aa353dd73000a75",
+          "prod-controls-ownership": "0f89ad7b3da05dae24110a163e9902a931321849c55a01fbda3d9e4a4ff5d46e",
+          "prod-controls-restoration": "8f16df1068764f49fa2a8e62fdb1f7eabd8e3e9d3ac69ac9e8a8e1a38292340e"
+        }
+      },
+      {
+        "id": "legacy-092-04-detail-03",
+        "original_sha256": "d9ca64a319e40c73151df52e279a8dd002863e96dc0ca8970eccf0a31c08a91f",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-severity",
+          "prod-controls-ownership",
+          "prod-controls-restoration"
+        ],
+        "reason": "Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.",
+        "target_sha256": {
+          "prod-controls-severity": "faa57baed9cc2dd4135959c993545ad3a033457dd7c5b7239aa353dd73000a75",
+          "prod-controls-ownership": "0f89ad7b3da05dae24110a163e9902a931321849c55a01fbda3d9e4a4ff5d46e",
+          "prod-controls-restoration": "8f16df1068764f49fa2a8e62fdb1f7eabd8e3e9d3ac69ac9e8a8e1a38292340e"
+        }
+      },
+      {
+        "id": "legacy-092-04-detail-04",
+        "original_sha256": "75822e2fd134758454e3e8229b7ac0af0fddd4aa4933c3e3061a7ddb36afdd49",
+        "disposition": "split",
+        "beats": [
+          "prod-controls-severity",
+          "prod-controls-ownership",
+          "prod-controls-restoration"
+        ],
+        "reason": "Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.",
+        "target_sha256": {
+          "prod-controls-severity": "faa57baed9cc2dd4135959c993545ad3a033457dd7c5b7239aa353dd73000a75",
+          "prod-controls-ownership": "0f89ad7b3da05dae24110a163e9902a931321849c55a01fbda3d9e4a4ff5d46e",
+          "prod-controls-restoration": "8f16df1068764f49fa2a8e62fdb1f7eabd8e3e9d3ac69ac9e8a8e1a38292340e"
         }
       }
     ]

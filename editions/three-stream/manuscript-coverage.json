@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 240,
-  "drafted_beats": 673,
+  "scenes": 242,
+  "drafted_beats": 704,
   "canonical_pages": null,
-  "associated_old_panels": 315,
+  "associated_old_panels": 324,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -3996,29 +3996,45 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "092-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-controls-scope",
+        "prod-controls-indirect",
+        "prod-controls-network",
+        "prod-controls-layers"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "092-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-controls-services"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "092-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-controls-monitoring",
+        "prod-controls-notification",
+        "prod-controls-decision",
+        "prod-controls-shutdown"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "092-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-controls-severity",
+        "prod-controls-ownership",
+        "prod-controls-restoration"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4066,36 +4082,61 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "094-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-oversight-letter",
+        "prod-oversight-preserve",
+        "prod-oversight-incident-record",
+        "prod-oversight-prior-record",
+        "prod-oversight-people",
+        "prod-oversight-reporting",
+        "prod-oversight-restriction"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "094-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-oversight-subpoena",
+        "prod-oversight-announcement",
+        "prod-oversight-who-what",
+        "prod-oversight-safeguards",
+        "prod-oversight-concerns-harm",
+        "prod-oversight-other-events",
+        "prod-oversight-oversight-evaluations",
+        "prod-oversight-versions",
+        "prod-oversight-preservation-production"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "094-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-oversight-deadline",
+        "prod-oversight-blank-affidavit"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "094-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-public-clock-roles"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "094-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-oversight-authority"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5051,9 +5092,9 @@
     "GemStuffer": 58,
     "Collusion Wiki": 115,
     "Curt": 25,
-    "Codex": 34,
+    "Codex": 65,
     "Claude": 99
   },
-  "reviewed_old_panels": 65,
-  "reviewed_source_elements": 173
+  "reviewed_old_panels": 74,
+  "reviewed_source_elements": 192
 }

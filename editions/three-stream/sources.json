@@ -523,5 +523,26 @@
     "admission": "Collective-defense letter; date from frozen chapter-06 packet, body inspected in vault. Recommendations and predictions, not implemented measures. Dynamic signatory list not admitted as launch-day membership.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://openai.com/collective-cyberdefense/"
+  },
+  "AG-LETTER": {
+    "available": "2026-08-03",
+    "record": "256t/records/multistate-letter/content.bin",
+    "admission": "Dated letter from fifteen states; preservation, protected-reporting and evaluation demands. Its incident allegations draw on public reporting and are not adjudicated findings.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://www.iowaattorneygeneral.gov/media/cms/08_5392C9E17791C.pdf"
+  },
+  "AL-SUB": {
+    "available": "2026-08-24",
+    "record": "256t/records/alabama-subpoena/content.bin",
+    "admission": "Subpoena 26-0007 issued August 20; admitted as publicly available by the August 24 official announcement, not assumed public on its signature date. Sixteen requests, production instructions and future deadline; no completed response or legal outcome admitted.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://www.alabamaag.gov/wp-content/uploads/2026/08/OpenAI-Subpoena_Final.pdf"
+  },
+  "AL-PR": {
+    "available": "2026-08-24",
+    "record": "256t/records/alabama-press-release/content.bin",
+    "admission": "Official announcement of investigation and subpoena. Claims and allegations remain attributed; no liability finding.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/"
   }
 }

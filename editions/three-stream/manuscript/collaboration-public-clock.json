@@ -225,7 +225,8 @@
       {
         "id": "prod-public-clock-roles",
         "old_panels": [
-          "097-03"
+          "097-03",
+          "094-04"
         ],
         "frame": "Four narrator-authored branches distinguish organizations, security providers, governments and frontier-model companies.",
         "lettering": [
@@ -253,6 +254,11 @@
             "old_panel": "097-03",
             "disposition": "rewrite",
             "reason": "Retain the dated public position and its limits as narrator context for the preserved public-clock proposal."
+          },
+          {
+            "old_panel": "094-04",
+            "disposition": "combine",
+            "reason": "Combine the repeated four-recipient defense proposal with its existing detailed treatment; preserve the distinction between call and implementation."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"

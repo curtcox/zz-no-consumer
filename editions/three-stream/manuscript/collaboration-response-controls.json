@@ -1,0 +1,442 @@
+[
+  {
+    "id": "prod-controls",
+    "title": "A boundary, a warning, and authority to act",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T03:45:45.444000Z",
+    "end": "2026-09-02T03:45:45.444000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator context for the September 2 Codex operations-perspective proposal, using the earlier August 26 report. No extra reading act or private implementation event is assigned to Codex.",
+    "source_limit": "Institutional account of requirements, reported changes, goals and ongoing work. No independent controls assessment, guaranteed timing or completed responsibility chain is inferred.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-controls-scope",
+        "old_panels": [
+          "092-01"
+        ],
+        "frame": "The narrator’s control diagram is explicitly an account of OpenAI’s reported architecture, not a live view of its systems.",
+        "lettering": [
+          "OpenAI describes a new research-security architecture designed to contain even a compromised workload, service or node. The report states the intended protection; it does not provide an independent demonstration that every boundary holds."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.A, pp. 25–26",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-01",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-indirect",
+        "old_panels": [
+          "092-01"
+        ],
+        "frame": "Direct and indirect network routes are distinguished without showing a reusable bypass.",
+        "lettering": [
+          "Blocking direct internet access had not been enough. OpenAI says the revised boundaries also restrict routes through shared services, cloud infrastructure and other connected systems, and prevent workloads from changing their own network limits."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.A.1, p. 26",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-01",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-network",
+        "old_panels": [
+          "092-01"
+        ],
+        "frame": "A restricted cached service remains distinct from open-internet access.",
+        "lettering": [
+          "The report prohibits direct or indirect internet access for high-risk or untrusted workloads, while allowing a cached access service for specific workflows. Other research workloads may use that service for live retrieval only after case-by-case review and under the controls."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.A.1, p. 26",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-01",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-layers",
+        "old_panels": [
+          "092-01"
+        ],
+        "frame": "Execution isolation and two network-control layers receive distinct narrator labels.",
+        "lettering": [
+          "The account requires isolated virtual-machine execution for high-risk or untrusted code. Separately, it describes network controls at both the sandbox and cluster layers. Two network layers should not be drawn as two interchangeable code sandboxes."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.A.2, pp. 26–27",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-01",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-services",
+        "old_panels": [
+          "092-02"
+        ],
+        "frame": "Supporting services are constrained alongside the main workload rather than left as an invisible alternative route.",
+        "lettering": [
+          "OpenAI says accessible supporting services are being isolated, restricted or replaced. Its security changes also seek less standing authority and more frequent testing. Removing a route, limiting permission and checking a boundary do different work."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.A.2–3, p. 27",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-02",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-monitoring",
+        "old_panels": [
+          "092-03"
+        ],
+        "frame": "A monitoring diagram examines available records alongside the isolation diagram. Neither takes the other’s place.",
+        "lettering": [
+          "The report describes broader monitoring of available reasoning, tool actions and activity sequences. It aims at all tool-connected workloads, while describing specific expanded coverage in training, evaluations and internal coding. The goal is not proof of universal coverage."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.B.1, p. 28",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-03",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-notification",
+        "old_panels": [
+          "092-03"
+        ],
+        "frame": "The first clock starts when concerning activity is surfaced. It is not timed from the unknown beginning of an attack.",
+        "lettering": [
+          "OpenAI gives a goal of notifying personnel within thirty minutes after concerning activity surfaces. The most severe alerts cause a round-the-clock page. This is a stated notification goal, not a measured guarantee for every event."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.B.2, p. 28",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-03",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-decision",
+        "old_panels": [
+          "092-03"
+        ],
+        "frame": "A second clock belongs to the paged response decision. It remains distinct from the notification goal.",
+        "lettering": [
+          "If the paged safety, security and research teams cannot conclusively dismiss the flag as a false positive within thirty minutes, the stated expectation is to pause the activity. That decision rule is separate from the earlier notification clock."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.B.2, p. 28",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-03",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-shutdown",
+        "old_panels": [
+          "092-03"
+        ],
+        "frame": "Two developing capabilities remain visibly unfinished in the narrator’s summary.",
+        "lettering": [
+          "The report says automatic termination after unanswered pages is being developed. It also describes developing enterprise-wide tools to identify and halt evaluations. Planned automation is not shown as an already proven stop mechanism."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.B.2–3, p. 28",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-03",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-severity",
+        "old_panels": [
+          "092-04"
+        ],
+        "frame": "The proposed response protocol retains future-tense status. No empty incident-era cell is magically filled.",
+        "lettering": [
+          "OpenAI describes work to define severity triggers and improve escalation for suspected misalignment. Monitoring or employee detection must lead to triage and escalation. The account describes an ongoing response-process change."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.D.1–2, pp. 30–31",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-04",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-ownership",
+        "old_panels": [
+          "092-04"
+        ],
+        "frame": "The narrator separates responding teams from the decisions they need authority to make.",
+        "lettering": [
+          "The report says OpenAI will specify cross-functional ownership and clarify decision rights: pause or terminate activity, isolate systems, contain consequences, notify affected parties where appropriate, and approve restoration. These are consequential decisions, not just another alert label."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.D.3–4, p. 31",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-04",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-controls-restoration",
+        "old_panels": [
+          "092-04"
+        ],
+        "frame": "The narrator holds receiving a warning, stopping work and approving restoration as separate links.",
+        "lettering": [
+          "A warning needs someone who can receive it, a stop needs someone empowered to act, and restoration needs a decision. The book’s question is whether the entire chain works. A described protocol does not answer that question by itself."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "256t/records/openai-technical-report/content.bin; SHA-256 dd635cf6e5f39f0e1f646f08c36549090d77156ed89cbd3d733ed496648cae9c; §IX.D, p. 31; project analysis of response chain",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "092-04",
+            "disposition": "rewrite",
+            "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      }
+    ]
+  }
+]
