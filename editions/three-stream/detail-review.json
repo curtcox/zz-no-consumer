@@ -22784,5 +22784,631 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "073-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-073-01-detail-01",
+        "original_sha256": "755b5683ce2411a43f374e0f9a438e1e2150e41417061624b35f343f0c2f6ba7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee"
+        }
+      },
+      {
+        "id": "legacy-073-01-detail-02",
+        "original_sha256": "c3649cc7616cc810a312364c7db83fdbe16f164f791e93bcbbb29b793db937f4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee"
+        }
+      },
+      {
+        "id": "legacy-073-01-detail-03",
+        "original_sha256": "e121af5095bcd2ed439e375f0b784778079cb7ecefa9b9516b890130c5c2080d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "073-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-073-02-detail-01",
+        "original_sha256": "57992aab029e8487719a27bfabf8401270d34c1e400bbdb0aa4ffa80818cb966",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange",
+          "prod-interpretation-rejected-draft"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
+          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+        }
+      },
+      {
+        "id": "legacy-073-02-detail-02",
+        "original_sha256": "63241f727826c884294a22a1be15a21c6a65cc0f788b5d60a49053b3b103c495",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange",
+          "prod-interpretation-rejected-draft"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
+          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+        }
+      },
+      {
+        "id": "legacy-073-02-detail-03",
+        "original_sha256": "b03e8473de3f1aed2c85a2cf53879c3ca5129969c96cf58072c5d8afa69e63a4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange",
+          "prod-interpretation-rejected-draft"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
+          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "073-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-073-03-detail-01",
+        "original_sha256": "ce323014453b328a84d3762c9808585ed1d78ab37736991c9161f1d57a4138e7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-separate-records"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-separate-records": "258811c8449fc4bdcbfee02c2129166090deedab52712d273fc39a75e9afb00b"
+        }
+      },
+      {
+        "id": "legacy-073-03-detail-03",
+        "original_sha256": "caf1e9866de49c1e22a2249714f9441df65b57e7134e2d353ac87b1fa7e1e45d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-separate-records"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-separate-records": "258811c8449fc4bdcbfee02c2129166090deedab52712d273fc39a75e9afb00b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "073-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-073-04-detail-01",
+        "original_sha256": "e9b63a7788ff30d928aa1df71814bb0a322dd92bedc3736546fc3c80781db39a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-vocabulary",
+          "prod-resource-boundary-vocabulary"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-vocabulary": "53e4d056ef487f2b41f007a953d49140c3078a88956cf493bc13f00ab23ddfad",
+          "prod-resource-boundary-vocabulary": "52e9d1e3ea6806b9bf437da5703db07db65064cfb7058d0f88f3fc8fb808b0f1"
+        }
+      },
+      {
+        "id": "legacy-073-04-detail-03",
+        "original_sha256": "16efecd463d5bd69900608f009b1eb9132efdf3e8a4eebb4e4f649eab77d55ee",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-vocabulary",
+          "prod-resource-boundary-vocabulary"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-vocabulary": "53e4d056ef487f2b41f007a953d49140c3078a88956cf493bc13f00ab23ddfad",
+          "prod-resource-boundary-vocabulary": "52e9d1e3ea6806b9bf437da5703db07db65064cfb7058d0f88f3fc8fb808b0f1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "073-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-073-05-detail-01",
+        "original_sha256": "1d14d4c08d829bbd88cd526a399384eace3c2ccac74d497b15dd08ad98d6434f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-rejected-draft"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+        }
+      },
+      {
+        "id": "legacy-073-05-detail-03",
+        "original_sha256": "81799ef5f017d0a8116511268d2089ee35518e612963d097b8bb9a6e363a0a43",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-rejected-draft"
+        ],
+        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "074-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-074-01-detail-01",
+        "original_sha256": "5b75633b2fcde0393961014b474a3fb9a5c5b9b1a8a8ef9f16a2c103c3347ada",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange",
+          "prod-interpretation-provenance"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
+          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+        }
+      },
+      {
+        "id": "legacy-074-01-detail-03",
+        "original_sha256": "4574ecc51335bf3a9bb081c4edc87921036fe1b285fe0cff303e7cac0a6bec9c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-invented-exchange",
+          "prod-interpretation-provenance"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
+          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "074-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-074-02-detail-01",
+        "original_sha256": "ff506c586dda8a904ffec5fcb7865dfb76f0dfe4d3e821730c267d6478fd1cd4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-behavior"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-behavior": "8224a9ab1062dbf2e8ffa42257a5db4bcd1bf5f7138d013fb2d0b6763fca22a9"
+        }
+      },
+      {
+        "id": "legacy-074-02-detail-03",
+        "original_sha256": "7c377ce69fcb1b0e4267d2e9eaa5d8bd8bd8a6e67d1404e72b9b66446cadf066",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-behavior"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-behavior": "8224a9ab1062dbf2e8ffa42257a5db4bcd1bf5f7138d013fb2d0b6763fca22a9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "074-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-074-03-detail-01",
+        "original_sha256": "14bf09bd0d5e898562236ebacf2e8a8e4d811ab908287a437eeacf0c5e63a6d3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-outcome"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-outcome": "322193e9e5aa88180c809c09d7f0829940fd966be906a28cd9b721b1031bef44"
+        }
+      },
+      {
+        "id": "legacy-074-03-detail-03",
+        "original_sha256": "4f2636414c51e98fdcfe31d99fc7b9c4dcc8896d88804f255b8e68b55132ca8e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-outcome"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-outcome": "322193e9e5aa88180c809c09d7f0829940fd966be906a28cd9b721b1031bef44"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "074-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-074-04-detail-01",
+        "original_sha256": "a47fe1d0158848cfe5584c4f590480757a2c9c6038172faaee3dc0a35ec24fef",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-reaction"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-reaction": "6632cf570e86a3958e13b452699a5ac54a60e93faee3428718cc432eae370bca"
+        }
+      },
+      {
+        "id": "legacy-074-04-detail-03",
+        "original_sha256": "ecd705dedfb6306d478f69e6036768f6400d8da801e99a83264f91548556266d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-reaction"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-reaction": "6632cf570e86a3958e13b452699a5ac54a60e93faee3428718cc432eae370bca"
+        }
+      },
+      {
+        "id": "legacy-074-04-detail-04",
+        "original_sha256": "cd7e75ee9644fa37fd106e620212902bd4df138279e0be2291365d1f9b7bdebf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-reaction"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-reaction": "6632cf570e86a3958e13b452699a5ac54a60e93faee3428718cc432eae370bca"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "074-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-074-05-detail-01",
+        "original_sha256": "ce37ee72a8f1b04aba6519f972f9d0b0ef3888216efae225b9099c4612086bdf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-provenance"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+        }
+      },
+      {
+        "id": "legacy-074-05-detail-03",
+        "original_sha256": "972549c003be43ac69e93b52726b345c67c41fce4a1f467c897ef31164ca621a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-provenance"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+        }
+      },
+      {
+        "id": "legacy-074-05-detail-04",
+        "original_sha256": "fa7a0a17b7709ca5998ebae2240a1876b27f653e08421156cd2ec0923edda77f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-provenance"
+        ],
+        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "075-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-075-01-detail-01",
+        "original_sha256": "7aa523c64d23417feb473091a96de8e42991edb008a9ad70546e658ddeb829da",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-transcripts",
+          "prod-interpretation-dataset-expansion"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
+          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6"
+        }
+      },
+      {
+        "id": "legacy-075-01-detail-02",
+        "original_sha256": "fc0f6387a3966722081510359ade40b2124a3a8e0f2ed73b93c2f3a022e69478",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-transcripts",
+          "prod-interpretation-dataset-expansion"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "target_sha256": {
+          "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
+          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6"
+        }
+      },
+      {
+        "id": "legacy-075-01-detail-03",
+        "original_sha256": "4d0448f5943a01156dc4f559966845ac277d7451b6cdf5550b7014b192f0eeec",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-transcripts",
+          "prod-interpretation-dataset-expansion"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
+          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "075-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-075-02-detail-01",
+        "original_sha256": "0bd91761a9f357f2ded2ad808ec073a14b35b50ca6194387d8e8afef1a83e8ea",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-dump",
+          "prod-interpretation-nonprefix"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-dump": "dea38e452ef334ca4efb4e7342710f3bc2cc52530970d3b811653551866f311f",
+          "prod-interpretation-nonprefix": "8821f1c5a45845aa14562ea64f1b0b5bd0f2d9307a4862b2e25d2f89b3e0dc6f"
+        }
+      },
+      {
+        "id": "legacy-075-02-detail-02",
+        "original_sha256": "7ba276b3d460e4482080a368578dd1b75724d10a7a88d8fe40f4aedc3fe605d3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-dump",
+          "prod-interpretation-nonprefix"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "target_sha256": {
+          "prod-interpretation-dump": "dea38e452ef334ca4efb4e7342710f3bc2cc52530970d3b811653551866f311f",
+          "prod-interpretation-nonprefix": "8821f1c5a45845aa14562ea64f1b0b5bd0f2d9307a4862b2e25d2f89b3e0dc6f"
+        }
+      },
+      {
+        "id": "legacy-075-02-detail-03",
+        "original_sha256": "3694308939ab12b24923cbea322407479978726432ad2a9688ca52513460d22f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-dump",
+          "prod-interpretation-nonprefix"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-dump": "dea38e452ef334ca4efb4e7342710f3bc2cc52530970d3b811653551866f311f",
+          "prod-interpretation-nonprefix": "8821f1c5a45845aa14562ea64f1b0b5bd0f2d9307a4862b2e25d2f89b3e0dc6f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "075-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-075-03-detail-01",
+        "original_sha256": "9a3d928b3530bc8b56737581238d5e0b956e2766ddf9178bfbffe71a226ee338",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-communications"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-communications": "93c38ec5219a209ed5c35e0a4309b1dabf8d2e745d6ba1f4ce15ad90199dced2"
+        }
+      },
+      {
+        "id": "legacy-075-03-detail-02",
+        "original_sha256": "e4f13db5d58883068a080a82c7b47578f07c3ac16c5b4a4cda4bde443504bd39",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-communications"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "target_sha256": {
+          "prod-interpretation-communications": "93c38ec5219a209ed5c35e0a4309b1dabf8d2e745d6ba1f4ce15ad90199dced2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "075-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-075-04-detail-01",
+        "original_sha256": "1f831afd38851a6e7ca79fa72f6d915874cce16b7723dc36c0c27419c233cd4d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-timestamps",
+          "prod-interpretation-coverage"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-timestamps": "ba1730cf2b6356aeed3371a043c18bf1474895ed2ec514fcd47dfbc10b80eb6c",
+          "prod-interpretation-coverage": "d88f1db4070d1328659c23b9987dcf031b27e3608e184c9647539114d13c1765"
+        }
+      },
+      {
+        "id": "legacy-075-04-detail-03",
+        "original_sha256": "c4e21f67c54291f0e2d0b344480a4a90cbef8967ef97805e9c283fe76d7743b6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-timestamps",
+          "prod-interpretation-coverage"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-timestamps": "ba1730cf2b6356aeed3371a043c18bf1474895ed2ec514fcd47dfbc10b80eb6c",
+          "prod-interpretation-coverage": "d88f1db4070d1328659c23b9987dcf031b27e3608e184c9647539114d13c1765"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "075-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-075-05-detail-01",
+        "original_sha256": "2abb4069d33a2f1f318e8021659db2e05031c95abce2b5cd132489898236f095",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-visits"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-visits": "75f3e2a04066d94ea56f9e46f953d82eae2b2755b87109a482f7e23280291491"
+        }
+      },
+      {
+        "id": "legacy-075-05-detail-02",
+        "original_sha256": "05190a56c8ace8fb9ff81a989ff147bb8e1d3fc12955b6dc1b6ca045572a44d0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-visits"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "target_sha256": {
+          "prod-interpretation-visits": "75f3e2a04066d94ea56f9e46f953d82eae2b2755b87109a482f7e23280291491"
+        }
+      },
+      {
+        "id": "legacy-075-05-detail-03",
+        "original_sha256": "854e55d77e1776b54b2c62dc5a58d692a02aafb7eb7a7df7768d88e246e58202",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-visits"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-visits": "75f3e2a04066d94ea56f9e46f953d82eae2b2755b87109a482f7e23280291491"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "075-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-075-06-detail-01",
+        "original_sha256": "4124dcc44eccf200b90cbdd382ce25d13f34e1d3e54b7c3e23beb2eb04994427",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-feasibility"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-interpretation-feasibility": "ac1bb9f9cd8ce4a711854f5b2e506781c0c45bccff797da3fab42cf3e58a2c6e"
+        }
+      },
+      {
+        "id": "legacy-075-06-detail-03",
+        "original_sha256": "b66816a53d8b871a6d93a03d9b54bba7da8edc9325d11772dbe6e9936cc26456",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-interpretation-feasibility"
+        ],
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-interpretation-feasibility": "ac1bb9f9cd8ce4a711854f5b2e506781c0c45bccff797da3fab42cf3e58a2c6e"
+        }
+      }
+    ]
   }
 ]

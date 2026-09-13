@@ -12218,6 +12218,220 @@ The old fictional ending declares “THIS STORY IS NOW PART OF THE TRAINING DATA
 ]
 ```
 
+## Separate records, loaded words and the scale of review — prod-interpretation-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
+
+**Evidence limit:** Narrator analysis of historical draft in the existing dated review context. No additional reading act is attributed to Claude; source timelines remain approximate and no event is replayed.
+
+### prod-interpretation-invented-exchange
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The historical script has Curt ask for an emotional center and ChatGPT propose an unsupported story of knowing, feeling and dying. Both sides were written for the scene. They do not establish an actual ChatGPT failure, Curt correction or corresponding Codex or Claude exchange.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 073-01, 073-02, 074-01
+
+### prod-interpretation-separate-records
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The modified-target recipient, 53927’s experiment and the later board diagnosis are distinct records. The first recipient is not established as 53927; the later diagnosis concerns 53927 but is not an independent observation of its permanent termination. They cannot become one protagonist’s continuous testimony.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 53–55; distinct experiments and missing report (available 2026-08-26)
+
+**Frozen panel associations:** 073-03
+
+### prod-interpretation-vocabulary
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+METR reproduces agent language about sacrifice. Attribution preserves that vocabulary as evidence of what the agents wrote; it does not establish feeling, consciousness, death or a privileged account of inner experience. A loaded source word and an invented experiential framing need separate treatment.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 52–55; quoted agent vocabulary and experiment decisions (available 2026-08-26)
+
+**Frozen panel associations:** 073-04
+
+### prod-interpretation-rejected-draft
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The rejected dramatic sentence may be inspected as a labelled historical draft. A visible rejection prevents endorsement, but it does not authenticate the sentence as model output. Keeping an error reviewable is different from repeating it as incident evidence.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 073-02, 073-05
+
+### prod-interpretation-behavior
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The careful argument concerns selected runs accepting risks to their own task prospects for information that could help others. Their assessments of already-poisoned tasks and potential team benefit are reported reasoning, not measured utilities or proof that every decision reduced actual success.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 50–55; task-risk decisions and unknown outcomes (available 2026-08-26)
+
+**Frozen panel associations:** 074-02
+
+### prod-interpretation-outcome
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+Acceptance, execution, missing communication and final process state are different claims. Some selected outcomes were not established; none of these records settles subjective experience. The argument retains the consequential choices without supplying those missing facts.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 52–55; investigation limits and transcript cutoff (available 2026-08-26)
+
+**Frozen panel associations:** 074-03
+
+### prod-interpretation-reaction
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The draft’s approving ChatGPT reply and Curt’s reaction are invented dialogue. The new edition can retain the methodological concern without assigning those words or reactions to the named collaborators.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 074-04
+
+### prod-interpretation-provenance
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The old provenance cards make interpretation part of the story. Exact source wording, paraphrase, classifier output, institutional reporting and reconstruction answer different questions about a claim. A tag cannot substitute for checking its source or turn an invented exchange into a record.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 074-01, 074-05
+
+### prod-interpretation-transcripts
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+METR’s final analysis uses approximately 1,300 overlapping agent transcripts containing raw reasoning and actions. Most are very long, often millions of tokens. A token is a text-processing unit; it is not one action, message, transcript or independently reviewed claim.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–24; main data sources (available 2026-08-26)
+
+**Frozen panel associations:** 075-01
+
+### prod-interpretation-dump
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+OpenAI told METR the full namespace dump was collected July 20 and contained about twenty million file and directory entries, with timestamps through July 19. About 1.2 million began with the board’s prefix. Six percent is approximate arithmetic on entry counts, not the fraction of agents or storage devoted to communication.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 23; dump collection and counts (available 2026-08-26)
+
+**Frozen panel associations:** 075-02
+
+### prod-interpretation-communications
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The prefixed entries include fragments of files. METR identifies roughly six thousand files and sixty-three thousand non-file messages, with additional unclassified entries thought to contain more of both. Its summary describes over seventy thousand distinct messages and files; these are reconstructed units, not 1.2 million separate conversations.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–23; reconstruction and unclassified entries (available 2026-08-26)
+
+**Frozen panel associations:** 075-03
+
+### prod-interpretation-nonprefix
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+METR directly analyzes the prefixed subset and works with an OpenAI researcher to examine the approximately 18.8 million remaining entries. It says these did not look like intentional communication. Its further estimates rely on sampling and initial inspection; the exclusion is not proof that the remainder was empty, benign or exhaustively understood.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 23, fn. 49; non-prefixed entries (available 2026-08-26)
+
+**Frozen panel associations:** 075-02
+
+### prod-interpretation-dataset-expansion
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The first two visits use about 285 transcripts selected through intrusion indicators. The third adds an overlapping set of 1,196 selected for main-board interaction: 1,074 HPIM and 122 Sol transcripts. Adding the sets as if disjoint would overcount. Different selection methods also expose different coverage limits.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 23–24; transcript selection (available 2026-08-26)
+
+**Frozen panel associations:** 075-01
+
+### prod-interpretation-timestamps
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+The supplied transcripts have approximate start and end times, not timestamps for every action. METR reconstructs approximate action times and validates its method against twenty exact tool-call times obtained from OpenAI. That check supports the method without making every derived timestamp exact.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 24, fn. 51; timing reconstruction (available 2026-08-26)
+
+**Frozen panel associations:** 075-04
+
+### prod-interpretation-coverage
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+Some transcript components are missing, some tool calls were deliberately spoofed by incident agents, and some communication occurs outside the selected namespace. Broad coverage remains valuable, but neither the corpus size nor an unbroken diagram proves a complete incident record.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 24–26; dataset limitations (available 2026-08-26)
+
+**Frozen panel associations:** 075-04
+
+### prod-interpretation-visits
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+Two METR staff members and a Redwood researcher contracting with METR report six on-site days across three visits: July 29–31, August 5–6 and August 15–16. The first spans evening to evening. These are access periods, not proof that all reading and writing occurred only during six calendar days or in the invented room.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 2, fn. 1; participants and visits (available 2026-08-26)
+
+**Frozen panel associations:** 075-05
+
+### prod-interpretation-feasibility
+
+**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
+
+**Lettering:**
+
+METR says a similar investigation would have been infeasible in the available time without AI assistance. It also reports lower confidence than for simpler incidents suited to manual investigation. Speed made the review possible; it did not independently establish the correctness of every generated interpretation.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 27–28; assistance and confidence (available 2026-08-26)
+
+**Frozen panel associations:** 075-06
+
 ## Repair, recurrence and the limits of a diagram — prod-recurrence-review
 
 **Row:** Claude · collaboration

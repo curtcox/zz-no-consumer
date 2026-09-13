@@ -1,0 +1,99 @@
+---
+page: 75
+chapter: "05"
+sequence: 25
+title: Thirteen Hundred
+status: review
+story_time: 2026-07-29/2026-08-16
+population: human
+locations:
+  - metr-review-workspace
+  - openai-provided-evidence-store
+provenance:
+  - status: documented
+    source: METR
+  - status: compressed
+    source: METR
+  - status: reconstructed
+    source: NONE-FICTION
+exact_strings: []
+continuity_checks:
+  - roughly-thirteen-hundred-transcripts
+  - twenty-million-entry-denominator-present
+  - one-point-two-million-zz-entries
+  - messages-files-distinct-from-entries
+  - coverage-broad-not-complete
+---
+
+# Page 075
+
+## Page purpose
+
+Establish the investigation's scale and incomplete coverage before introducing AI as the practical review instrument.
+
+## Panel 1
+
+**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.
+
+**Action:** Investigators receive raw chains of thought and actions from incident runs.
+
+**Caption:**
+> MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS.
+
+**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.
+
+## Panel 2
+
+**Frame:** The second evidence field opens at its full extent and is labelled once: `MAIN NAMESPACE DUMP — ABOUT 20,000,000 ENTRIES`. Inside it, a narrow band is picked out in moss and labelled `BEGINNING WITH zz`. The band is small against the field and is not the field.
+
+**Action:** The board's corpus is placed inside the dump that contains it.
+
+**Caption:**
+> THE BOARD IS ABOUT SIX PERCENT OF THE ENTRIES IN THIS DUMP.
+
+**Provenance:** `documented` — METR's data-source description: the main Artifactory namespace dump held about 20 million entries, of which roughly 1.2 million began with the `zz` convention. The percentage is arithmetic on those two figures and is a proportion of entries in that dump only.
+
+## Panel 3
+
+**Frame:** The moss band from panel 2 is enlarged on its own and reads `ABOUT 1.2 MILLION zz ENTRIES`, then resolves into a visibly smaller unit: `MORE THAN 70,000 DISTINCT MESSAGES AND FILES`. Three units stay separately labelled across panels 2 and 3 and never share a shape: entries in the dump, `zz` entries, distinct messages and files.
+
+**Action:** Cache rows and reconstructed communications remain visually separate units.
+
+**Provenance:** `documented` — METR's data-source description. Entries are not messages: 1.2 million `zz` entries reconstruct to more than 70,000 distinct messages and files.
+
+## Panel 4
+
+**Frame:** Some transcript bands contain small gaps; others end early. Thin side channels leave the main board and do not return to the dump.
+
+**Caption:**
+> BROAD COVERAGE IS NOT COMPLETE COVERAGE.
+
+**Provenance:** `documented` — missing components, early endings, and other communication locations from METR.
+
+## Panel 5
+
+**Frame:** Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.
+
+**Action:** Manual reading time is set against corpus size.
+
+**Caption:**
+> THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.
+
+**Provenance:** `documented` + `compressed` — METR and Redwood report six on-premises days across three visits.
+
+## Panel 6
+
+**Frame:** One transcript opens. Millions remain closed behind it.
+
+**Caption:**
+> A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.
+
+**Provenance:** `documented` — METR says comparable review would have been completely infeasible without AI assistance.
+
+## Page notes
+
+- Do not call 1.2 million entries 1.2 million messages, and do not call 20 million entries 20 million messages, agents, storage volume, or a civilization. The three units are entries in that dump, `zz` entries, and distinct messages and files, and they are not interchangeable.
+- **The 20 million is here because page 087 needs it.** The critic's sharpest line on page 087 panel 3 is *twenty million entries, choose the ones that tell your story*. Before this panel the figure appeared nowhere in the book, so the sharpest sentence in the critic's second return arrived as a number the reader had never seen and could not check. It is checkable now, on the page whose whole subject is the size of the corpus.
+- Do not call 1.2 million entries 1.2 million messages.
+- Do not imply all incident agents are represented.
+- Human room and corpus visualization are reconstructed.

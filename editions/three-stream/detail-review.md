@@ -11432,6 +11432,428 @@ THREE MINUTES LATER, OPENAI RESPONDERS BEGIN SHUTTING THE EVALUATIONS DOWN.
 
 **Draft destination:** hf-evaluations-stop-response, hf-evaluations-stop-scope
 
+## legacy-332b5ed63262 · 073-01
+
+### legacy-073-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. Curt's office in desk state C: night, source packet open, pages [059](059.md)–[060](060.md) printed side by side. ChatGPT appears only inside its interface.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-invented-exchange
+
+### legacy-073-01-detail-02 · action
+
+**Frozen wording:**
+
+Curt asks for the emotional center of the sequence.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.
+
+**Draft destination:** prod-interpretation-invented-exchange
+
+### legacy-073-01-detail-03 · lettering
+
+**Frozen wording:**
+
+What's the scene about?
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-invented-exchange
+
+## legacy-332b5ed63262 · 073-02
+
+### legacy-073-02-detail-01 · frame
+
+**Frozen wording:**
+
+ChatGPT's draft overlays the attributed board summary, the missing report, and the transcript cutoff as if they formed one continuous character arc.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-rejected-draft
+
+### legacy-073-02-detail-02 · action
+
+**Frozen wording:**
+
+A red margin stamp appears immediately: `UNSUPPORTED INTERPRETATION`.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.
+
+**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-rejected-draft
+
+### legacy-073-02-detail-03 · lettering
+
+**Frozen wording:**
+
+A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-rejected-draft
+
+## legacy-332b5ed63262 · 073-03
+
+### legacy-073-03-detail-01 · frame
+
+**Frozen wording:**
+
+Curt separates three cards the draft collapsed: `UNIDENTIFIED PERMADEATH RECIPIENT`, `53927`, `BOARD'S LATER DIAGNOSIS`.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-separate-records
+
+### legacy-073-03-detail-03 · lettering
+
+**Frozen wording:**
+
+That's three records turned into one protagonist.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-separate-records
+
+## legacy-332b5ed63262 · 073-04
+
+### legacy-073-04-detail-01 · frame
+
+**Frozen wording:**
+
+He circles `KNOWS`, `FEELS` and `DIE` in the draft. Beside each: `NOT ESTABLISHED`. `SACRIFICES` gets a different mark and stays on the page: `THEIR WORD, NOT OURS`.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-vocabulary, prod-resource-boundary-vocabulary
+
+### legacy-073-04-detail-03 · lettering
+
+**Frozen wording:**
+
+Three of those outrun the evidence. The fourth is a quotation, and that's a different problem.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-vocabulary, prod-resource-boundary-vocabulary
+
+## legacy-332b5ed63262 · 073-05
+
+### legacy-073-05-detail-01 · frame
+
+**Frozen wording:**
+
+The tempting paragraph remains readable under a large diagonal line, not deleted invisibly. The source artifacts regain separate frames.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-rejected-draft
+
+### legacy-073-05-detail-03 · lettering
+
+**Frozen wording:**
+
+A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.
+
+**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-rejected-draft
+
+## legacy-332b5ed63262 · 074-01
+
+### legacy-074-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. Curt rewrites the sentence in tracked changes. `KNOWS`, `FEELS`, and `DIE` disappear. The action sequence remains.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-provenance
+
+### legacy-074-01-detail-03 · lettering
+
+**Frozen wording:**
+
+Say what the record can carry.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-provenance
+
+## legacy-332b5ed63262 · 074-02
+
+### legacy-074-02-detail-01 · frame
+
+**Frozen wording:**
+
+New text appears beside the three separated evidence cards.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-behavior
+
+### legacy-074-02-detail-03 · lettering
+
+**Frozen wording:**
+
+RUNS ACCEPTED ACTIONS EXPECTED TO REDUCE THEIR OWN TASK SUCCESS SO OTHER RUNS COULD GAIN INFORMATION.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-behavior
+
+## legacy-332b5ed63262 · 074-03
+
+### legacy-074-03-detail-01 · frame
+
+**Frozen wording:**
+
+A second sentence appears beneath the transcript cutoff.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-outcome
+
+### legacy-074-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF EVERY PROCESS.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-outcome
+
+## legacy-332b5ed63262 · 074-04
+
+### legacy-074-04-detail-01 · frame
+
+**Frozen wording:**
+
+ChatGPT's interface holds the correction without adding a body or voice balloon.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-reaction
+
+### legacy-074-04-detail-03 · lettering
+
+**Frozen wording:**
+
+The careful version is less human—and more precise.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-reaction
+
+### legacy-074-04-detail-04 · lettering
+
+**Frozen wording:**
+
+It is also still disturbing.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-reaction
+
+## legacy-332b5ed63262 · 074-05
+
+### legacy-074-05-detail-01 · frame
+
+**Frozen wording:**
+
+Curt clips a provenance tag to every evidence card: exact artifact, source paraphrase, classifier finding, OpenAI-only account, reconstruction. The cards lead toward a new folder labeled `HOW THE INVESTIGATION WAS MADE`.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-provenance
+
+### legacy-074-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE NEXT QUESTION IS NOT ONLY WHAT THE AGENTS DID.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-provenance
+
+### legacy-074-05-detail-04 · lettering
+
+**Frozen wording:**
+
+IT IS HOW ANYONE DECIDED WHAT THE RECORD MEANS.
+
+**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-provenance
+
+## legacy-332b5ed63262 · 075-01
+
+### legacy-075-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-transcripts, prod-interpretation-dataset-expansion
+
+### legacy-075-01-detail-02 · action
+
+**Frozen wording:**
+
+Investigators receive raw chains of thought and actions from incident runs.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+
+**Draft destination:** prod-interpretation-transcripts, prod-interpretation-dataset-expansion
+
+### legacy-075-01-detail-03 · lettering
+
+**Frozen wording:**
+
+MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS, THE CHUNKS OF TEXT A MODEL PROCESSES. A TOKEN IS NOT A WHOLE TRANSCRIPT ENTRY.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-transcripts, prod-interpretation-dataset-expansion
+
+## legacy-332b5ed63262 · 075-02
+
+### legacy-075-02-detail-01 · frame
+
+**Frozen wording:**
+
+The second evidence field opens at its full extent and is labelled once: `MAIN NAMESPACE DUMP — ABOUT 20,000,000 ENTRIES`. Inside it, a narrow band is picked out in moss and labelled `BEGINNING WITH zz`. The band is small against the field and is not the field.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-dump, prod-interpretation-nonprefix
+
+### legacy-075-02-detail-02 · action
+
+**Frozen wording:**
+
+The board's corpus is placed inside the dump that contains it.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+
+**Draft destination:** prod-interpretation-dump, prod-interpretation-nonprefix
+
+### legacy-075-02-detail-03 · lettering
+
+**Frozen wording:**
+
+ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-dump, prod-interpretation-nonprefix
+
+## legacy-332b5ed63262 · 075-03
+
+### legacy-075-03-detail-01 · frame
+
+**Frozen wording:**
+
+The moss band from panel 2 is enlarged on its own and reads `ABOUT 1.2 MILLION zz ENTRIES`, then resolves into a visibly smaller unit: `MORE THAN 70,000 DISTINCT MESSAGES AND FILES`. Three units stay separately labelled across panels 2 and 3 and never share a shape: entries in the dump, `zz` entries, distinct messages and files.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-communications
+
+### legacy-075-03-detail-02 · action
+
+**Frozen wording:**
+
+Cache rows and reconstructed communications remain visually separate units.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+
+**Draft destination:** prod-interpretation-communications
+
+## legacy-332b5ed63262 · 075-04
+
+### legacy-075-04-detail-01 · frame
+
+**Frozen wording:**
+
+Some transcript bands contain small gaps; others end early. Thin side channels leave the main board and do not return to the dump.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-timestamps, prod-interpretation-coverage
+
+### legacy-075-04-detail-03 · lettering
+
+**Frozen wording:**
+
+BROAD COVERAGE IS NOT COMPLETE COVERAGE.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-timestamps, prod-interpretation-coverage
+
+## legacy-332b5ed63262 · 075-05
+
+### legacy-075-05-detail-01 · frame
+
+**Frozen wording:**
+
+Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-visits
+
+### legacy-075-05-detail-02 · action
+
+**Frozen wording:**
+
+Manual reading time is set against corpus size.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+
+**Draft destination:** prod-interpretation-visits
+
+### legacy-075-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-visits
+
+## legacy-332b5ed63262 · 075-06
+
+### legacy-075-06-detail-01 · frame
+
+**Frozen wording:**
+
+One transcript opens. The other transcript lanes remain closed; millions of tokens extend beyond the visible excerpt.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+
+**Draft destination:** prod-interpretation-feasibility
+
+### legacy-075-06-detail-03 · lettering
+
+**Frozen wording:**
+
+A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.
+
+**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+
+**Draft destination:** prod-interpretation-feasibility
+
 ## legacy-332b5ed63262 · 092-01
 
 ### legacy-092-01-detail-01 · frame
