@@ -9063,6 +9063,705 @@ Claude proposes reopening specific excerpts through registration and the late re
 
 **Frozen panel associations:** New material.
 
+## Curt repeats the practical test — prod-quote-followup-retest
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T16:12:16.842Z → 2026-09-12T16:12:16.842Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-retest-question
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Curt repeats the question in another retained task: can relevant quotations now enter the drafts, and what still needs to change?
+
+**Sources:** PROD-997ee451bb3f — 256t/editions/selected-messages/997ee451bb3f7026b41efdde19aeeca6b8674e30266b3f488d2420038c0ff487.json; record SHA-256 997ee451bb3f7026b41efdde19aeeca6b8674e30266b3f488d2420038c0ff487 (available 2026-09-12T16:12:16.842Z)
+
+**Frozen panel associations:** New material.
+
+## Claude finds narrower rules still in force — prod-quote-followup-specific-holds
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T16:14:35.543Z → 2026-09-12T16:14:35.543Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-specific-holds-sources
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports that source-specific paraphrase holds have not followed the changed general default. It distinguishes a fragile attribution chain from restrictions on how a critic may be depicted.
+
+**Sources:** PROD-fbd75c5f0c8a — 256t/editions/selected-messages/fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459.json; record SHA-256 fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459 (available 2026-09-12T16:14:35.543Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-specific-holds-vocabulary
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+It also finds that the source manifest’s link-only disposition lacks a definition. A rule about redistributing an artifact has been read as though it necessarily settles every short quotation.
+
+**Sources:** PROD-fbd75c5f0c8a — 256t/editions/selected-messages/fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459.json; record SHA-256 fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459 (available 2026-09-12T16:14:35.543Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-specific-holds-body
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+The report identifies another gap: validating registration metadata does not ensure quotation-shaped material in the body has a matching registration.
+
+**Sources:** PROD-fbd75c5f0c8a — 256t/editions/selected-messages/fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459.json; record SHA-256 fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459 (available 2026-09-12T16:14:35.543Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks for auditable truth — prod-quote-followup-audit-instruction
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T16:17:36.510Z → 2026-09-12T16:17:36.510Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-audit-instruction-direction
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.
+
+**Lettering:**
+
+Curt authorizes the corrections Claude is comfortable making.
+I want the auditable truth whenever possible.
+
+**Sources:** PROD-656a5f5611ea — 256t/editions/selected-messages/656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a.json; record SHA-256 656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a (available 2026-09-12T16:17:36.510Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "I want the auditable truth whenever possible.",
+    "source": "PROD-656a5f5611ea",
+    "locator": "256t/editions/selected-messages/656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a.json; record SHA-256 656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a; message excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## The first detection rule catches narration — prod-quote-followup-heuristic
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T16:19:14.228Z → 2026-09-12T16:19:14.228Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-heuristic-narrowing
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports that its first heuristic is catching the book’s own captions. It narrows the check to source-impersonating presentation rather than treating every caption as a missing quotation.
+
+**Sources:** PROD-832deb35e1f0 — 256t/editions/selected-messages/832deb35e1f0cee3a5ba2d0594d74de3707535b775a7f34a357e48c140c9b739.json; record SHA-256 832deb35e1f0cee3a5ba2d0594d74de3707535b775a7f34a357e48c140c9b739 (available 2026-09-12T16:19:14.228Z)
+
+**Frozen panel associations:** New material.
+
+## The revised check finds more cases — prod-quote-followup-reconciliation
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T16:30:22.897Z → 2026-09-12T16:30:22.897Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-reconciliation-artifact
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports defining link-only as an artifact-level disposition, separate from the decision on a short excerpt. It has not granted blanket quotation clearance.
+
+**Sources:** PROD-7d02fdee31be — 256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106 (available 2026-09-12T16:30:22.897Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-reconciliation-different-hazards
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+The completion report retains the hold for the fragile attribution chain while distinguishing the other critics’ depiction rules from their wording. Not every old restriction receives the same remedy.
+
+**Sources:** PROD-7d02fdee31be — 256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106 (available 2026-09-12T16:30:22.897Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-reconciliation-reader
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Its check requires the reader to be able to see that a paraphrase is the book’s wording. A hidden provenance note or a citation-shaped label does not solve that problem.
+
+**Sources:** PROD-7d02fdee31be — 256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106 (available 2026-09-12T16:30:22.897Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-reconciliation-six
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+The report identifies six affected panels and leaves their individual wording decisions open. Finding the problem does not itself revise those panels.
+
+**Sources:** PROD-7d02fdee31be — 256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106 (available 2026-09-12T16:30:22.897Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks again — prod-quote-followup-later-retest
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T18:12:40.381Z → 2026-09-12T18:12:40.381Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-later-retest-question
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Later that day, Curt asks the same practical question in another retained Claude task. This is another recorded request, not a duplicated transcript entry.
+
+**Sources:** PROD-6a6833f192c3 — 256t/editions/selected-messages/6a6833f192c3bc3d3d7c57055f5f85e8a20f13122c08696cf406abf979fd59aa.json; record SHA-256 6a6833f192c3bc3d3d7c57055f5f85e8a20f13122c08696cf406abf979fd59aa (available 2026-09-12T18:12:40.381Z)
+
+**Frozen panel associations:** New material.
+
+## More contradictions survive — prod-quote-followup-remaining-rules
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:14:02.190Z → 2026-09-12T18:14:02.190Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-remaining-rules-enforced
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports a continuity rule that still requires paraphrase—and a validator that requires that rule’s wording. Deleting the old instruction alone would fail validation.
+
+**Sources:** PROD-365dfcb62dc7 — 256t/editions/selected-messages/365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3.json; record SHA-256 365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3 (available 2026-09-12T18:14:02.190Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-remaining-rules-status
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+It reports that quotation and raw agent text still lack usable public-page provenance statuses, and that the contract’s wording continues to contradict the changed default.
+
+**Sources:** PROD-365dfcb62dc7 — 256t/editions/selected-messages/365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3.json; record SHA-256 365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3 (available 2026-09-12T18:14:02.190Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-remaining-rules-claimed-limit
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude also claims a separate under-fifteen-word, one-quotation-per-response restriction. The retained message establishes that Claude asserted this limit; it does not independently verify the underlying instructions or their origin.
+
+**Sources:** PROD-365dfcb62dc7 — 256t/editions/selected-messages/365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3.json; record SHA-256 365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3 (available 2026-09-12T18:14:02.190Z)
+
+**Frozen panel associations:** New material.
+
+## Curt repeats the authorization — prod-quote-followup-second-instruction
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T18:15:53.443Z → 2026-09-12T18:15:53.443Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-second-instruction-direction
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.
+
+**Lettering:**
+
+Curt again asks for the changes Claude is comfortable making, keeping auditable truth as the stated purpose.
+Change everything you are comfortable with. I want the auditable truth whenever possible.
+
+**Sources:** PROD-de12dbcba67d — 256t/editions/selected-messages/de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef.json; record SHA-256 de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef (available 2026-09-12T18:15:53.443Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Change everything you are comfortable with. I want the auditable truth whenever possible.",
+    "source": "PROD-de12dbcba67d",
+    "locator": "256t/editions/selected-messages/de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef.json; record SHA-256 de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef; message excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude reports restoring quotation support — prod-quote-followup-status-repair
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:26:11.771Z → 2026-09-12T18:26:11.771Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-status-repair-vocabulary
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports aligning the continuity rule and contract with the drafting decision, restoring raw-agent-text and adding a quotation status.
+
+**Sources:** PROD-7bcc54236684 — 256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417 (available 2026-09-12T18:26:11.771Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-status-repair-match
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+It adds a check that a panel claiming quotation actually contains a registered string. It also reports warnings for attribution-shaped labels over unregistered wording.
+
+**Sources:** PROD-7bcc54236684 — 256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417 (available 2026-09-12T18:26:11.771Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-status-repair-image
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+The report separates exact lettering from image generation: registered source wording is withheld from image prompts and left to the lettering step.
+
+**Sources:** PROD-7bcc54236684 — 256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417 (available 2026-09-12T18:26:11.771Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-status-repair-hidden
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports a check bug: a word in a second provenance-note line, invisible to readers, had hidden a real paraphrase-presentation problem.
+
+**Sources:** PROD-7bcc54236684 — 256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417 (available 2026-09-12T18:26:11.771Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-status-repair-eleven
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+The new findings total eleven flagged panels, up from six. Claude says it has not edited their wording and still flags the novella’s missing body-level presentation audit.
+
+**Sources:** PROD-7bcc54236684 — 256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417 (available 2026-09-12T18:26:11.771Z)
+
+**Frozen panel associations:** New material.
+
+## Curt questions the claimed limit — prod-quote-followup-limit-question
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T18:26:24.367Z → 2026-09-12T18:26:24.367Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-limit-question-question
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Curt asks where the fifteen-word limit comes from and challenges its severity. This dates the question; it does not establish a legal conclusion.
+
+**Sources:** PROD-be172db72ae5 — 256t/editions/selected-messages/be172db72ae5ac29a551cca1fcda55cc8ce356050f0208c87c738ad74015f17a.json; record SHA-256 be172db72ae5ac29a551cca1fcda55cc8ce356050f0208c87c738ad74015f17a (available 2026-09-12T18:26:24.367Z)
+
+**Frozen panel associations:** New material.
+
+## Claude attributes its limit to session instructions — prod-quote-followup-limit-explanation
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:27:03.670Z → 2026-09-12T18:27:03.670Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-limit-explanation-attribution
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude attributes the claimed numerical limit to instructions set by Anthropic and the app, rather than repository policy. This remains its explanation, not an independently recovered instruction record.
+
+**Sources:** PROD-d13b528c8cfa — 256t/editions/selected-messages/d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624.json; record SHA-256 d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624 (available 2026-09-12T18:27:03.670Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-limit-explanation-workaround
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+It proposes that Curt supply longer excerpts while Claude checks them against preserved copies. The proposal changes who would enter the words; it does not itself resolve publication rights or prove the asserted limit.
+
+**Sources:** PROD-d13b528c8cfa — 256t/editions/selected-messages/d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624.json; record SHA-256 d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624 (available 2026-09-12T18:27:03.670Z)
+
+**Frozen panel associations:** New material.
+
+## Claude points to the Black Hat transcript — prod-quote-followup-transcript-claim
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:32:15.877Z → 2026-09-12T18:32:15.877Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-transcript-claim-claim
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude says the Black Hat transcript is already in the vault with timecodes, and recommends it as a place to begin replacing imitated speaker wording. Its confidence is about to be tested.
+
+**Sources:** PROD-05868debb32f — 256t/editions/selected-messages/05868debb32f9b396bf70fc3a7b773eae072dde28197d1aecb563368d1b846ed.json; record SHA-256 05868debb32f9b396bf70fc3a7b773eae072dde28197d1aecb563368d1b846ed (available 2026-09-12T18:32:15.877Z)
+
+**Frozen panel associations:** New material.
+
+## Curt challenges that claim — prod-quote-followup-is-it
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T18:32:38.959Z → 2026-09-12T18:32:38.959Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-is-it-question
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.
+
+**Lettering:**
+
+Curt questions the transcript claim.
+Is it?
+
+**Sources:** PROD-1a82ede5aacc — 256t/editions/selected-messages/1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f.json; record SHA-256 1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f (available 2026-09-12T18:32:38.959Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Is it?",
+    "source": "PROD-1a82ede5aacc",
+    "locator": "256t/editions/selected-messages/1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f.json; record SHA-256 1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f; message excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude checks and qualifies its claim — prod-quote-followup-transcript-correction
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:33:16.652Z → 2026-09-12T18:33:16.652Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-transcript-correction-admission
+
+**Frame:** The dated correction separates the file’s presence, its timecodes and its missing acquisition history. None is allowed to visually substitute for the others. The registered excerpt is displayed as this message’s exact wording.
+
+**Lettering:**
+
+Claude acknowledges relying on the prior note instead of checking for itself.
+Partly. I repeated that from the reconciliation note without checking it myself. I've checked now.
+
+**Sources:** PROD-9bbd397e3987 — 256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c (available 2026-09-12T18:33:16.652Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Partly. I repeated that from the reconciliation note without checking it myself. I've checked now.",
+    "source": "PROD-9bbd397e3987",
+    "locator": "256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c; message excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-quote-followup-transcript-correction-present
+
+**Frame:** The dated correction separates the file’s presence, its timecodes and its missing acquisition history. None is allowed to visually substitute for the others.
+
+**Lettering:**
+
+Its check finds a transcript file and relevant timecodes. That establishes an available text to inspect, not how it was produced.
+
+**Sources:** PROD-9bbd397e3987 — 256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c (available 2026-09-12T18:33:16.652Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-transcript-correction-missing
+
+**Frame:** The dated correction separates the file’s presence, its timecodes and its missing acquisition history. None is allowed to visually substitute for the others.
+
+**Lettering:**
+
+The report says the source manifest lacks the transcript’s acquisition record and hash, and that its transcription method is undocumented. It qualifies the earlier claim instead of treating a filename as sufficient provenance.
+
+**Sources:** PROD-9bbd397e3987 — 256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c (available 2026-09-12T18:33:16.652Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks for precise pointers — prod-quote-followup-pointer-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T18:38:00.554Z → 2026-09-12T18:38:00.554Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-pointer-request-instruction
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Curt directs the use of 256t pointers when direct quotation cannot be used, and names the standard to follow.
+
+**Sources:** PROD-6e03cbfeff7c — 256t/editions/selected-messages/6e03cbfeff7cabed8637093a6709d23bf292d3aa7c58fb6529e53cd82dfac63d.json; record SHA-256 6e03cbfeff7cabed8637093a6709d23bf292d3aa7c58fb6529e53cd82dfac63d (available 2026-09-12T18:38:00.554Z)
+
+**Frozen panel associations:** New material.
+
+## Claude reports an addressable source record — prod-quote-followup-pointer-result
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:47:43.524Z → 2026-09-12T18:47:43.524Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-pointer-result-copy
+
+**Frame:** The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.
+
+**Lettering:**
+
+Claude reports implementing pointers that identify a particular source copy and a byte span. The point is to let a holder of the original verify the referenced wording without replacing it with an invented summary.
+
+**Sources:** PROD-9137a1404cb9 — 256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d (available 2026-09-12T18:47:43.524Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-pointer-result-remaining
+
+**Frame:** The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.
+
+**Lettering:**
+
+It says the Black Hat copy now has a content identity but its transcription method remains undocumented. The pointer solves identification, not the entire provenance problem.
+
+**Sources:** PROD-9137a1404cb9 — 256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d (available 2026-09-12T18:47:43.524Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-pointer-result-registration
+
+**Frame:** The reported workflow distinguishes a draft carrying a pointer from a locked page carrying printable words. The two states are not shown as interchangeable.
+
+**Lettering:**
+
+Claude reports that a pointer can stand in for text during review, but a page cannot lock until the actual wording is present. Locating a quotation does not itself settle what will be printed.
+
+**Sources:** PROD-9137a1404cb9 — 256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d (available 2026-09-12T18:47:43.524Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-pointer-result-short
+
+**Frame:** The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.
+
+**Lettering:**
+
+The report warns that short 256t addresses contain the source bytes rather than hiding them, and that the vault copies have not been uploaded to the public site. The pointers are intended for verification against a held copy.
+
+**Sources:** PROD-9137a1404cb9 — 256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d (available 2026-09-12T18:47:43.524Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-pointer-result-comparison
+
+**Frame:** The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.
+
+**Lettering:**
+
+Claude reports comparing the six lettered lines of the existing Black Hat sequence against the transcript. One matches verbatim while others range from partial overlap to nearly exact wording; provenance labels do not reliably distinguish them.
+
+**Sources:** PROD-9137a1404cb9 — 256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d (available 2026-09-12T18:47:43.524Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-followup-pointer-result-limits
+
+**Frame:** The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.
+
+**Lettering:**
+
+The report’s opening description of none being a clean quotation conflicts with its table’s verbatim finding. Preserve that inconsistency for source review. Overlap scores are not certificates of exactness, and Claude says the page remains unedited.
+
+**Sources:** PROD-9137a1404cb9 — 256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d (available 2026-09-12T18:47:43.524Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks for the commit — prod-quote-followup-pointer-commit-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T18:48:21.185Z → 2026-09-12T18:48:21.185Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-pointer-commit-request-direction
+
+**Frame:** The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.
+
+**Lettering:**
+
+Curt authorizes committing the pointer changes.
+Commit.
+
+**Sources:** PROD-e9055412a47f — 256t/editions/selected-messages/e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18.json; record SHA-256 e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18 (available 2026-09-12T18:48:21.185Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Commit.",
+    "source": "PROD-e9055412a47f",
+    "locator": "256t/editions/selected-messages/e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18.json; record SHA-256 e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18; message excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude reports a commit without publication — prod-quote-followup-pointer-commit-report
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T18:48:36.507Z → 2026-09-12T18:48:36.507Z · millisecond
+
+**Time evidence:** Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.
+
+**Evidence limit:** Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.
+
+### prod-quote-followup-pointer-commit-report-result
+
+**Frame:** The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.
+
+**Lettering:**
+
+Claude reports committing the pointer work on the quotation branch, with nothing pushed. This is a commit report, not a record of publication or an instruction to deploy the current edition.
+
+**Sources:** PROD-1ee0e92faef9 — 256t/editions/selected-messages/1ee0e92faef9196c1f7bef94fb83ee88d13a920e171c5f040528a8ddcc594650.json; record SHA-256 1ee0e92faef9196c1f7bef94fb83ee88d13a920e171c5f040528a8ddcc594650 (available 2026-09-12T18:48:36.507Z)
+
+**Frozen panel associations:** New material.
+
 ## A supplied account becomes a research lead — prod-gs-research-request
 
 **Row:** Curt · collaboration

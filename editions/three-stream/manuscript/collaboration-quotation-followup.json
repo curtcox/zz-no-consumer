@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "prod-quote-followup-retest",
+    "title": "Curt repeats the practical test",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T16:12:16.842Z",
+    "end": "2026-09-12T16:12:16.842Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-retest-question",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Curt repeats the question in another retained task: can relevant quotations now enter the drafts, and what still needs to change?"
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-997ee451bb3f",
+            "locator": "256t/editions/selected-messages/997ee451bb3f7026b41efdde19aeeca6b8674e30266b3f488d2420038c0ff487.json; record SHA-256 997ee451bb3f7026b41efdde19aeeca6b8674e30266b3f488d2420038c0ff487",
+            "available": "2026-09-12T16:12:16.842Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:12:16.842Z",
+        "time_end": "2026-09-12T16:12:16.842Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:3"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-specific-holds",
+    "title": "Claude finds narrower rules still in force",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T16:14:35.543Z",
+    "end": "2026-09-12T16:14:35.543Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-specific-holds-sources",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports that source-specific paraphrase holds have not followed the changed general default. It distinguishes a fragile attribution chain from restrictions on how a critic may be depicted."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-fbd75c5f0c8a",
+            "locator": "256t/editions/selected-messages/fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459.json; record SHA-256 fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459",
+            "available": "2026-09-12T16:14:35.543Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:14:35.543Z",
+        "time_end": "2026-09-12T16:14:35.543Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:120"
+      },
+      {
+        "id": "prod-quote-followup-specific-holds-vocabulary",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "It also finds that the source manifest’s link-only disposition lacks a definition. A rule about redistributing an artifact has been read as though it necessarily settles every short quotation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-fbd75c5f0c8a",
+            "locator": "256t/editions/selected-messages/fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459.json; record SHA-256 fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459",
+            "available": "2026-09-12T16:14:35.543Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:14:35.543Z",
+        "time_end": "2026-09-12T16:14:35.543Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:120"
+      },
+      {
+        "id": "prod-quote-followup-specific-holds-body",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "The report identifies another gap: validating registration metadata does not ensure quotation-shaped material in the body has a matching registration."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-fbd75c5f0c8a",
+            "locator": "256t/editions/selected-messages/fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459.json; record SHA-256 fbd75c5f0c8a64e64a531b2c87eb0737cb44bc6ed03dab408933d349b361e459",
+            "available": "2026-09-12T16:14:35.543Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:14:35.543Z",
+        "time_end": "2026-09-12T16:14:35.543Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:120"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-audit-instruction",
+    "title": "Curt asks for auditable truth",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T16:17:36.510Z",
+    "end": "2026-09-12T16:17:36.510Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-audit-instruction-direction",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.",
+        "lettering": [
+          "Curt authorizes the corrections Claude is comfortable making.",
+          "I want the auditable truth whenever possible."
+        ],
+        "exact_strings": [
+          {
+            "text": "I want the auditable truth whenever possible.",
+            "source": "PROD-656a5f5611ea",
+            "locator": "256t/editions/selected-messages/656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a.json; record SHA-256 656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a; message excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-656a5f5611ea",
+            "locator": "256t/editions/selected-messages/656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a.json; record SHA-256 656a5f5611eaf5ed13193d80901a54a407959fa590243ee1e31ef7396a29151a",
+            "available": "2026-09-12T16:17:36.510Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:17:36.510Z",
+        "time_end": "2026-09-12T16:17:36.510Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:127"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-heuristic",
+    "title": "The first detection rule catches narration",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T16:19:14.228Z",
+    "end": "2026-09-12T16:19:14.228Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-heuristic-narrowing",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports that its first heuristic is catching the book’s own captions. It narrows the check to source-impersonating presentation rather than treating every caption as a missing quotation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-832deb35e1f0",
+            "locator": "256t/editions/selected-messages/832deb35e1f0cee3a5ba2d0594d74de3707535b775a7f34a357e48c140c9b739.json; record SHA-256 832deb35e1f0cee3a5ba2d0594d74de3707535b775a7f34a357e48c140c9b739",
+            "available": "2026-09-12T16:19:14.228Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:19:14.228Z",
+        "time_end": "2026-09-12T16:19:14.228Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:154"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-reconciliation",
+    "title": "The revised check finds more cases",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T16:30:22.897Z",
+    "end": "2026-09-12T16:30:22.897Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-reconciliation-artifact",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports defining link-only as an artifact-level disposition, separate from the decision on a short excerpt. It has not granted blanket quotation clearance."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7d02fdee31be",
+            "locator": "256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106",
+            "available": "2026-09-12T16:30:22.897Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:30:22.897Z",
+        "time_end": "2026-09-12T16:30:22.897Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:351"
+      },
+      {
+        "id": "prod-quote-followup-reconciliation-different-hazards",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "The completion report retains the hold for the fragile attribution chain while distinguishing the other critics’ depiction rules from their wording. Not every old restriction receives the same remedy."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7d02fdee31be",
+            "locator": "256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106",
+            "available": "2026-09-12T16:30:22.897Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:30:22.897Z",
+        "time_end": "2026-09-12T16:30:22.897Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:351"
+      },
+      {
+        "id": "prod-quote-followup-reconciliation-reader",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Its check requires the reader to be able to see that a paraphrase is the book’s wording. A hidden provenance note or a citation-shaped label does not solve that problem."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7d02fdee31be",
+            "locator": "256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106",
+            "available": "2026-09-12T16:30:22.897Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:30:22.897Z",
+        "time_end": "2026-09-12T16:30:22.897Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:351"
+      },
+      {
+        "id": "prod-quote-followup-reconciliation-six",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "The report identifies six affected panels and leaves their individual wording decisions open. Finding the problem does not itself revise those panels."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7d02fdee31be",
+            "locator": "256t/editions/selected-messages/7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106.json; record SHA-256 7d02fdee31be7c4048c3c0665025741437e03f262dc541dc450c6d627d88a106",
+            "available": "2026-09-12T16:30:22.897Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:30:22.897Z",
+        "time_end": "2026-09-12T16:30:22.897Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:afdd0331-3fb4-4143-858d-731d2d0bc203:351"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-later-retest",
+    "title": "Curt asks again",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T18:12:40.381Z",
+    "end": "2026-09-12T18:12:40.381Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-later-retest-question",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Later that day, Curt asks the same practical question in another retained Claude task. This is another recorded request, not a duplicated transcript entry."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-6a6833f192c3",
+            "locator": "256t/editions/selected-messages/6a6833f192c3bc3d3d7c57055f5f85e8a20f13122c08696cf406abf979fd59aa.json; record SHA-256 6a6833f192c3bc3d3d7c57055f5f85e8a20f13122c08696cf406abf979fd59aa",
+            "available": "2026-09-12T18:12:40.381Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:12:40.381Z",
+        "time_end": "2026-09-12T18:12:40.381Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:3"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-remaining-rules",
+    "title": "More contradictions survive",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:14:02.190Z",
+    "end": "2026-09-12T18:14:02.190Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-remaining-rules-enforced",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports a continuity rule that still requires paraphrase—and a validator that requires that rule’s wording. Deleting the old instruction alone would fail validation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-365dfcb62dc7",
+            "locator": "256t/editions/selected-messages/365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3.json; record SHA-256 365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3",
+            "available": "2026-09-12T18:14:02.190Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:14:02.190Z",
+        "time_end": "2026-09-12T18:14:02.190Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:68"
+      },
+      {
+        "id": "prod-quote-followup-remaining-rules-status",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "It reports that quotation and raw agent text still lack usable public-page provenance statuses, and that the contract’s wording continues to contradict the changed default."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-365dfcb62dc7",
+            "locator": "256t/editions/selected-messages/365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3.json; record SHA-256 365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3",
+            "available": "2026-09-12T18:14:02.190Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:14:02.190Z",
+        "time_end": "2026-09-12T18:14:02.190Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:68"
+      },
+      {
+        "id": "prod-quote-followup-remaining-rules-claimed-limit",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude also claims a separate under-fifteen-word, one-quotation-per-response restriction. The retained message establishes that Claude asserted this limit; it does not independently verify the underlying instructions or their origin."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-365dfcb62dc7",
+            "locator": "256t/editions/selected-messages/365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3.json; record SHA-256 365dfcb62dc7b1d1215c957b1a232cebff5096c7869e440dcb7d51bf2e5922f3",
+            "available": "2026-09-12T18:14:02.190Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:14:02.190Z",
+        "time_end": "2026-09-12T18:14:02.190Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:68"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-second-instruction",
+    "title": "Curt repeats the authorization",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T18:15:53.443Z",
+    "end": "2026-09-12T18:15:53.443Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-second-instruction-direction",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.",
+        "lettering": [
+          "Curt again asks for the changes Claude is comfortable making, keeping auditable truth as the stated purpose.",
+          "Change everything you are comfortable with. I want the auditable truth whenever possible."
+        ],
+        "exact_strings": [
+          {
+            "text": "Change everything you are comfortable with. I want the auditable truth whenever possible.",
+            "source": "PROD-de12dbcba67d",
+            "locator": "256t/editions/selected-messages/de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef.json; record SHA-256 de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef; message excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-de12dbcba67d",
+            "locator": "256t/editions/selected-messages/de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef.json; record SHA-256 de12dbcba67dad849ac871e63d6e31fb11af3470e1f50d473b81d09bdc25faef",
+            "available": "2026-09-12T18:15:53.443Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:15:53.443Z",
+        "time_end": "2026-09-12T18:15:53.443Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:72"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-status-repair",
+    "title": "Claude reports restoring quotation support",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:26:11.771Z",
+    "end": "2026-09-12T18:26:11.771Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-status-repair-vocabulary",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports aligning the continuity rule and contract with the drafting decision, restoring raw-agent-text and adding a quotation status."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7bcc54236684",
+            "locator": "256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417",
+            "available": "2026-09-12T18:26:11.771Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:26:11.771Z",
+        "time_end": "2026-09-12T18:26:11.771Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:299"
+      },
+      {
+        "id": "prod-quote-followup-status-repair-match",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "It adds a check that a panel claiming quotation actually contains a registered string. It also reports warnings for attribution-shaped labels over unregistered wording."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7bcc54236684",
+            "locator": "256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417",
+            "available": "2026-09-12T18:26:11.771Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:26:11.771Z",
+        "time_end": "2026-09-12T18:26:11.771Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:299"
+      },
+      {
+        "id": "prod-quote-followup-status-repair-image",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "The report separates exact lettering from image generation: registered source wording is withheld from image prompts and left to the lettering step."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7bcc54236684",
+            "locator": "256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417",
+            "available": "2026-09-12T18:26:11.771Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:26:11.771Z",
+        "time_end": "2026-09-12T18:26:11.771Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:299"
+      },
+      {
+        "id": "prod-quote-followup-status-repair-hidden",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports a check bug: a word in a second provenance-note line, invisible to readers, had hidden a real paraphrase-presentation problem."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7bcc54236684",
+            "locator": "256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417",
+            "available": "2026-09-12T18:26:11.771Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:26:11.771Z",
+        "time_end": "2026-09-12T18:26:11.771Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:299"
+      },
+      {
+        "id": "prod-quote-followup-status-repair-eleven",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "The new findings total eleven flagged panels, up from six. Claude says it has not edited their wording and still flags the novella’s missing body-level presentation audit."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7bcc54236684",
+            "locator": "256t/editions/selected-messages/7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417.json; record SHA-256 7bcc54236684310d3f1833c0c72861c7419c519f091f1427c35200863ab86417",
+            "available": "2026-09-12T18:26:11.771Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:26:11.771Z",
+        "time_end": "2026-09-12T18:26:11.771Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:299"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-limit-question",
+    "title": "Curt questions the claimed limit",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T18:26:24.367Z",
+    "end": "2026-09-12T18:26:24.367Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-limit-question-question",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Curt asks where the fifteen-word limit comes from and challenges its severity. This dates the question; it does not establish a legal conclusion."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-be172db72ae5",
+            "locator": "256t/editions/selected-messages/be172db72ae5ac29a551cca1fcda55cc8ce356050f0208c87c738ad74015f17a.json; record SHA-256 be172db72ae5ac29a551cca1fcda55cc8ce356050f0208c87c738ad74015f17a",
+            "available": "2026-09-12T18:26:24.367Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:26:24.367Z",
+        "time_end": "2026-09-12T18:26:24.367Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:303"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-limit-explanation",
+    "title": "Claude attributes its limit to session instructions",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:27:03.670Z",
+    "end": "2026-09-12T18:27:03.670Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-limit-explanation-attribution",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude attributes the claimed numerical limit to instructions set by Anthropic and the app, rather than repository policy. This remains its explanation, not an independently recovered instruction record."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d13b528c8cfa",
+            "locator": "256t/editions/selected-messages/d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624.json; record SHA-256 d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624",
+            "available": "2026-09-12T18:27:03.670Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:27:03.670Z",
+        "time_end": "2026-09-12T18:27:03.670Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:310"
+      },
+      {
+        "id": "prod-quote-followup-limit-explanation-workaround",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "It proposes that Curt supply longer excerpts while Claude checks them against preserved copies. The proposal changes who would enter the words; it does not itself resolve publication rights or prove the asserted limit."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d13b528c8cfa",
+            "locator": "256t/editions/selected-messages/d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624.json; record SHA-256 d13b528c8cfaf64cecfa9e37e405eef6672dab68c61d2c9d9792a82c514ad624",
+            "available": "2026-09-12T18:27:03.670Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:27:03.670Z",
+        "time_end": "2026-09-12T18:27:03.670Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:310"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-transcript-claim",
+    "title": "Claude points to the Black Hat transcript",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:32:15.877Z",
+    "end": "2026-09-12T18:32:15.877Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-transcript-claim-claim",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude says the Black Hat transcript is already in the vault with timecodes, and recommends it as a place to begin replacing imitated speaker wording. Its confidence is about to be tested."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-05868debb32f",
+            "locator": "256t/editions/selected-messages/05868debb32f9b396bf70fc3a7b773eae072dde28197d1aecb563368d1b846ed.json; record SHA-256 05868debb32f9b396bf70fc3a7b773eae072dde28197d1aecb563368d1b846ed",
+            "available": "2026-09-12T18:32:15.877Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:32:15.877Z",
+        "time_end": "2026-09-12T18:32:15.877Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:318"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-is-it",
+    "title": "Curt challenges that claim",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T18:32:38.959Z",
+    "end": "2026-09-12T18:32:38.959Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-is-it-question",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.",
+        "lettering": [
+          "Curt questions the transcript claim.",
+          "Is it?"
+        ],
+        "exact_strings": [
+          {
+            "text": "Is it?",
+            "source": "PROD-1a82ede5aacc",
+            "locator": "256t/editions/selected-messages/1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f.json; record SHA-256 1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f; message excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-1a82ede5aacc",
+            "locator": "256t/editions/selected-messages/1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f.json; record SHA-256 1a82ede5aacc4741c5d6beb358bab5bd66c5ed9ccd7f23b0330fa8b756cbd74f",
+            "available": "2026-09-12T18:32:38.959Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:32:38.959Z",
+        "time_end": "2026-09-12T18:32:38.959Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:325"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-transcript-correction",
+    "title": "Claude checks and qualifies its claim",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:33:16.652Z",
+    "end": "2026-09-12T18:33:16.652Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-transcript-correction-admission",
+        "old_panels": [],
+        "frame": "The dated correction separates the file’s presence, its timecodes and its missing acquisition history. None is allowed to visually substitute for the others. The registered excerpt is displayed as this message’s exact wording.",
+        "lettering": [
+          "Claude acknowledges relying on the prior note instead of checking for itself.",
+          "Partly. I repeated that from the reconciliation note without checking it myself. I've checked now."
+        ],
+        "exact_strings": [
+          {
+            "text": "Partly. I repeated that from the reconciliation note without checking it myself. I've checked now.",
+            "source": "PROD-9bbd397e3987",
+            "locator": "256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c; message excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-9bbd397e3987",
+            "locator": "256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c",
+            "available": "2026-09-12T18:33:16.652Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:33:16.652Z",
+        "time_end": "2026-09-12T18:33:16.652Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:337"
+      },
+      {
+        "id": "prod-quote-followup-transcript-correction-present",
+        "old_panels": [],
+        "frame": "The dated correction separates the file’s presence, its timecodes and its missing acquisition history. None is allowed to visually substitute for the others.",
+        "lettering": [
+          "Its check finds a transcript file and relevant timecodes. That establishes an available text to inspect, not how it was produced."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9bbd397e3987",
+            "locator": "256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c",
+            "available": "2026-09-12T18:33:16.652Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:33:16.652Z",
+        "time_end": "2026-09-12T18:33:16.652Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:337"
+      },
+      {
+        "id": "prod-quote-followup-transcript-correction-missing",
+        "old_panels": [],
+        "frame": "The dated correction separates the file’s presence, its timecodes and its missing acquisition history. None is allowed to visually substitute for the others.",
+        "lettering": [
+          "The report says the source manifest lacks the transcript’s acquisition record and hash, and that its transcription method is undocumented. It qualifies the earlier claim instead of treating a filename as sufficient provenance."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9bbd397e3987",
+            "locator": "256t/editions/selected-messages/9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c.json; record SHA-256 9bbd397e39873168dff6bf8bc014dfc0c9d8ee59668a56fd63be160c34b5646c",
+            "available": "2026-09-12T18:33:16.652Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:33:16.652Z",
+        "time_end": "2026-09-12T18:33:16.652Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:337"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-pointer-request",
+    "title": "Curt asks for precise pointers",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T18:38:00.554Z",
+    "end": "2026-09-12T18:38:00.554Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-pointer-request-instruction",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Curt directs the use of 256t pointers when direct quotation cannot be used, and names the standard to follow."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-6e03cbfeff7c",
+            "locator": "256t/editions/selected-messages/6e03cbfeff7cabed8637093a6709d23bf292d3aa7c58fb6529e53cd82dfac63d.json; record SHA-256 6e03cbfeff7cabed8637093a6709d23bf292d3aa7c58fb6529e53cd82dfac63d",
+            "available": "2026-09-12T18:38:00.554Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:38:00.554Z",
+        "time_end": "2026-09-12T18:38:00.554Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:341"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-pointer-result",
+    "title": "Claude reports an addressable source record",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:47:43.524Z",
+    "end": "2026-09-12T18:47:43.524Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-pointer-result-copy",
+        "old_panels": [],
+        "frame": "The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.",
+        "lettering": [
+          "Claude reports implementing pointers that identify a particular source copy and a byte span. The point is to let a holder of the original verify the referenced wording without replacing it with an invented summary."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9137a1404cb9",
+            "locator": "256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d",
+            "available": "2026-09-12T18:47:43.524Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:47:43.524Z",
+        "time_end": "2026-09-12T18:47:43.524Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:471"
+      },
+      {
+        "id": "prod-quote-followup-pointer-result-remaining",
+        "old_panels": [],
+        "frame": "The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.",
+        "lettering": [
+          "It says the Black Hat copy now has a content identity but its transcription method remains undocumented. The pointer solves identification, not the entire provenance problem."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9137a1404cb9",
+            "locator": "256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d",
+            "available": "2026-09-12T18:47:43.524Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:47:43.524Z",
+        "time_end": "2026-09-12T18:47:43.524Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:471"
+      },
+      {
+        "id": "prod-quote-followup-pointer-result-registration",
+        "old_panels": [],
+        "frame": "The reported workflow distinguishes a draft carrying a pointer from a locked page carrying printable words. The two states are not shown as interchangeable.",
+        "lettering": [
+          "Claude reports that a pointer can stand in for text during review, but a page cannot lock until the actual wording is present. Locating a quotation does not itself settle what will be printed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9137a1404cb9",
+            "locator": "256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d",
+            "available": "2026-09-12T18:47:43.524Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:47:43.524Z",
+        "time_end": "2026-09-12T18:47:43.524Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:471"
+      },
+      {
+        "id": "prod-quote-followup-pointer-result-short",
+        "old_panels": [],
+        "frame": "The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.",
+        "lettering": [
+          "The report warns that short 256t addresses contain the source bytes rather than hiding them, and that the vault copies have not been uploaded to the public site. The pointers are intended for verification against a held copy."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9137a1404cb9",
+            "locator": "256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d",
+            "available": "2026-09-12T18:47:43.524Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:47:43.524Z",
+        "time_end": "2026-09-12T18:47:43.524Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:471"
+      },
+      {
+        "id": "prod-quote-followup-pointer-result-comparison",
+        "old_panels": [],
+        "frame": "The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.",
+        "lettering": [
+          "Claude reports comparing the six lettered lines of the existing Black Hat sequence against the transcript. One matches verbatim while others range from partial overlap to nearly exact wording; provenance labels do not reliably distinguish them."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9137a1404cb9",
+            "locator": "256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d",
+            "available": "2026-09-12T18:47:43.524Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:47:43.524Z",
+        "time_end": "2026-09-12T18:47:43.524Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:471"
+      },
+      {
+        "id": "prod-quote-followup-pointer-result-limits",
+        "old_panels": [],
+        "frame": "The report identifies a source copy and a bounded span, alongside the remaining provenance question. For the comparison beats, mismatching words and incompatible findings stay distinct without displaying the source passage.",
+        "lettering": [
+          "The report’s opening description of none being a clean quotation conflicts with its table’s verbatim finding. Preserve that inconsistency for source review. Overlap scores are not certificates of exactness, and Claude says the page remains unedited."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9137a1404cb9",
+            "locator": "256t/editions/selected-messages/9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d.json; record SHA-256 9137a1404cb9865649c06ead1b3874967a0e0a0bccffcf4db90185ddff75965d",
+            "available": "2026-09-12T18:47:43.524Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:47:43.524Z",
+        "time_end": "2026-09-12T18:47:43.524Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:471"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-pointer-commit-request",
+    "title": "Curt asks for the commit",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T18:48:21.185Z",
+    "end": "2026-09-12T18:48:21.185Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-pointer-commit-request-direction",
+        "old_panels": [],
+        "frame": "The dated Curt message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears. The registered excerpt is displayed as this message’s exact wording.",
+        "lettering": [
+          "Curt authorizes committing the pointer changes.",
+          "Commit."
+        ],
+        "exact_strings": [
+          {
+            "text": "Commit.",
+            "source": "PROD-e9055412a47f",
+            "locator": "256t/editions/selected-messages/e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18.json; record SHA-256 e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18; message excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-e9055412a47f",
+            "locator": "256t/editions/selected-messages/e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18.json; record SHA-256 e9055412a47f2c9d26a3cc1767a5393023e3d96ae4a94a8e44e1ca4fa7979f18",
+            "available": "2026-09-12T18:48:21.185Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:48:21.185Z",
+        "time_end": "2026-09-12T18:48:21.185Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:475"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-followup-pointer-commit-report",
+    "title": "Claude reports a commit without publication",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T18:48:36.507Z",
+    "end": "2026-09-12T18:48:36.507Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Exact stored message time. Multiple beats divide one message, not independently timed acts. No inferred delivery, read or tool-execution timestamp.",
+    "source_limit": "Selected current-Mac exchange. System claims, proposals, checks and completion reports retain their distinct evidence levels. Claimed hidden instructions have not been independently verified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-followup-pointer-commit-report-result",
+        "old_panels": [],
+        "frame": "The dated Claude message is central. An authored diagram separates this beat’s finding from its unresolved limits; no incident reenactment, fabricated screen quotation or human reaction appears.",
+        "lettering": [
+          "Claude reports committing the pointer work on the quotation branch, with nothing pushed. This is a commit report, not a record of publication or an instruction to deploy the current edition."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1ee0e92faef9",
+            "locator": "256t/editions/selected-messages/1ee0e92faef9196c1f7bef94fb83ee88d13a920e171c5f040528a8ddcc594650.json; record SHA-256 1ee0e92faef9196c1f7bef94fb83ee88d13a920e171c5f040528a8ddcc594650",
+            "available": "2026-09-12T18:48:36.507Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T18:48:36.507Z",
+        "time_end": "2026-09-12T18:48:36.507Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:a922641a-2737-46d7-bb98-6374dffa2838:484"
+      }
+    ]
+  }
+]

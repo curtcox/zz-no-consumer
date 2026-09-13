@@ -60,10 +60,11 @@ Other branches, issues, discussions and deleted history are outside this check.
 Commit clocks do not establish message, reading or source-encounter times.
 No comments, messages, commits or pushes were sent.
 
-[production-selections.json](production-selections.json) records thirty-six inspected
+[production-selections.json](production-selections.json) records fifty-four inspected
 messages now drafted as dated collaboration fragments: the fourteen request/first
 response records, four later system reports, three intermediate GemStuffer
-research updates and fifteen messages in the quotation-rule correction. The originals were checked against
+research updates, fifteen messages in the quotation-rule correction and eighteen
+follow-up messages about remaining rules and source pointers. The originals were checked against
 their hashes. The fragments distinguish a proposed action from a completion report,
 and a completion report from independent verification. They neither establish the
 first entrance nor replace the missing other-Mac chronology.
@@ -252,3 +253,27 @@ do not replace message times. Current frozen files were only read, never migrate
 or edited as part of depicting their earlier changes. Later related exchanges,
 source-level withdrawal reconciliation and the public-build follow-up still need
 selection before treating this production episode as complete.
+
+The quotation follow-up now extends through the September 12 18:48:36.507 UTC
+commit report. Eighteen additional original messages establish the repeated
+practical test, remaining source-specific restrictions, a false-positive heuristic,
+restored public quotation statuses, and the transcript-provenance correction.
+Claude’s claim of a numerical quotation limit remains a claim in its message;
+no underlying instruction record was recovered to verify its origin. The song
+exchange is not reproduced in the manuscript; the subsequent recommendation
+about the Black Hat transcript is retained because Curt directly tests that claim.
+
+The pointer sequence distinguishes content identity, transcription method,
+review-state registration and printable wording at lock. It also preserves the
+internal inconsistency between Claude’s none-clean summary and its table’s
+verbatim match. Its reported overlap scores do not certify exact wording.
+The page itself was reported unedited, so this sequence does not imply the
+flagged quotations were restored. All 54 original selections pass hash, line
+and half-open byte-range comparisons.
+
+Local commit metadata confirms `83b6c6801bec67711864f9249b4b5d3a865b85b7` at
+18:26:49 UTC and `18f569d6a556893f3d00b6fcfe74f6c53d8efba1` at 18:48:33 UTC.
+The inspected cross-reference diff in the latter adds pointer registrations,
+copy/range consistency checks and rejection of pointer-only registrations at
+lock. This corroborates that implementation change, not every claimed test or
+standard-conformance result. Message and commit clocks remain separate.

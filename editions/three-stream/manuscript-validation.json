@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T15:11:20.375330+00:00",
+  "checked_at": "2026-09-13T15:16:39.816600+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -13,6 +13,7 @@
   ],
   "warnings": "Scoped draft check passed with frozen edition unchanged. Structural review checks do not establish full semantic coverage.",
   "files": {
+    "manuscript/collaboration-quotation-followup.json": "7b936a69ab2a5fb89b75a608294d80f790aa7795842ab5bee0bd19e078223b36",
     "manuscript/collaboration-quotation-rule.json": "4d152849e3575a899ec6c4cc65416a965eb16fc510cb5ec2997c6be7ea468b1b",
     "manuscript/collaboration-selected-messages.json": "953597469253f6db6440defe1c87ef00fd4e27a0514db52db4ff43671b5062df",
     "manuscript/gemstuffer-documentation-and-theft.json": "9f15fdbe8effce9872b6537761d15a7634dd0d29d8e1ff8af2bea527031ecd19",
@@ -28,21 +29,21 @@
     "manuscript/wiki-counterexamples.json": "7b7b0e1557d68af5ef55199216864d648dc2e107e649dc471485fc7197400fe7",
     "manuscript/wiki-selected-exchanges.json": "471f2dec2c30a2ee237528f5e8354a58bdd1cd1ac3462815ca4a70ca05aa3653",
     "detail-review.json": "6f9fa8e2ca184b6056e31d8055a3d81370b8ac3109776e31bef352377f1d12d7",
-    "production-selections.json": "af23f58a190d4a87aa8e6bf868e0d08b6ab4a07b282a50176b55eeba783bfc53",
-    "sources.json": "f34f0956a73ba240c1a17c404ac51eb06f8204662206b6742007c95d0f5a15c5"
+    "production-selections.json": "5121fd9a5912981f3b35a6064ff58f61091664780084b1e3d18fef75f3c1fd7b",
+    "sources.json": "7ce176ef749dcbebe8edb7371a2759488a55252453338b3de61ebc969249ecea"
   },
   "counts": {
-    "scenes": 214,
-    "drafted_beats": 575,
+    "scenes": 232,
+    "drafted_beats": 612,
     "canonical_pages": null,
     "associated_old_panels": 274,
     "by_row": {
       "HuggingFace": 336,
       "GemStuffer": 58,
       "Collusion Wiki": 115,
-      "Curt": 17,
+      "Curt": 25,
       "Codex": 12,
-      "Claude": 37
+      "Claude": 66
     },
     "reviewed_old_panels": 20,
     "reviewed_source_elements": 60
@@ -55,10 +56,10 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T12:58:21.698409+00:00",
+  "previous_checked_at": "2026-09-13T15:11:20.375330+00:00",
   "production_record_verification": {
     "result": "passed",
-    "selected_records": 36,
+    "selected_records": 54,
     "checks": [
       "immutable copy SHA-256 equals registered record hash",
       "original source line including JSONL newline equals preserved copy",
