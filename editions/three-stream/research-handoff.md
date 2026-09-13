@@ -171,3 +171,26 @@ hashes. These are narrative scope decisions, not final chronological allocation:
 the aggregate outcomes use a visibly retrospective narrator, and later audit
 findings do not acquire an invented July 13 verification time. Resolve their broad
 intervals alongside the timed lateral and containment actions in the matrix.
+
+The GemStuffer mechanism pass adds separate documentation-worker and attempted-theft
+sequences from the preserved September investigation, and expands the existing May 13
+Socket analysis in place. RubyGems registry publishing, RubyDoc.info documentation
+execution and the conditional legacy-key cache exposure stay distinct. The script
+keeps package-supplied publishing credentials separate from the other users’ keys
+targeted by the theft attempt. It quotes the researchers’ uncertainty directly,
+with the original capture hash and unresolved rights registration.
+
+The source comparison used the investigation’s Intro, RubyDoc.info pathway, API-key
+attempt and open-question sections; Socket’s introduction and specimen analysis;
+and Ruby Central’s September response. It did not run suspect packages, establish
+success for individual executions, recover private reasoning or prove model identity.
+The May 11–12 mechanism window needs specimen-level clock reconciliation before
+allocation. The specifically dated May 12 attempt retains later conclusions as
+retrospective narration; it does not give a May participant September knowledge.
+
+Socket’s May publication now distinguishes collected public council information,
+link traversal, embedded publishing credentials, publishing variants, result archives
+and download counts. The September attribution and the maintainers’ inability to
+establish AI authorship still require full treatment through dated collaboration
+records. These mechanism additions do not settle the motivation, author identity,
+July disclosure-date discrepancy or successful-theft question.

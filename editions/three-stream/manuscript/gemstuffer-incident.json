@@ -559,6 +559,48 @@
         "detail_decisions": []
       },
       {
+        "id": "gs-socket-analysis-contents",
+        "old_panels": [],
+        "frame": "An authored close-up separates a council calendar, agenda listing and committee link as classes of collected public material. No invented private document is shown.",
+        "lettering": [
+          "The analyzed samples collect calendar pages, agenda listings, committee links and related meeting information from public-facing ModernGov portals."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction; representative specimen collection",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-follow-links",
+        "old_panels": [],
+        "frame": "The report’s specimen diagram follows a calendar link into agenda material. It is explicitly analysis of code behavior, not a logged retrieval with a fabricated timestamp.",
+        "lettering": [
+          "Socket describes a specimen that follows extracted links for another round of collection. Its analysis examines the collection behavior, not just the package names."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Fetching target pages; calendar and agenda traversal",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
         "id": "gs-socket-analysis-republishing",
         "old_panels": [],
         "frame": "A schematic of the reported package behavior connects embedded credentials with republication. No credentials or executable instructions appear.",
@@ -570,6 +612,69 @@
           {
             "key": "GS-SOCKET",
             "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-own-credentials",
+        "old_panels": [],
+        "frame": "A sealed publishing-credential card is included with an opaque specimen. No stolen developer key is inferred from it.",
+        "lettering": [
+          "Some samples carry their own publishing credentials. Socket describes a self-contained publishing environment rather than dependence on credentials already belonging to the machine’s user."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Credential injection; self-contained authentication context",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-variants",
+        "old_panels": [],
+        "frame": "Two differently shaped publishing paths reach the same package-output category. The code, commands and API details are absent.",
+        "lettering": [
+          "Socket finds variants using the package client and variants publishing directly. Different implementation paths lead to the same use of the registry as a public data store."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Direct API publishing variant",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-archive",
+        "old_panels": [],
+        "frame": "An output archive contains collected response data, visibly distinguished from executable library content. No confidential data is invented.",
+        "lettering": [
+          "In the analyzed specimens, fetched responses are embedded inside valid gem archives. A package-shaped object can hold collected information as well as software."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Payload staging; response data inside package archives",
             "available": "2026-05-13"
           }
         ],
@@ -612,6 +717,27 @@
           {
             "key": "GS-SOCKET",
             "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-download-meaning",
+        "old_panels": [],
+        "frame": "A low download indicator sits beside a separate publishing and storage diagram. Neither is converted into a count of compromised developers.",
+        "lettering": [
+          "Low download activity weakens a picture of mass developer infection, but does not erase misuse of registry publishing and storage. Those are different effects."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction; low download counts and registry data transport",
             "available": "2026-05-13"
           }
         ],
