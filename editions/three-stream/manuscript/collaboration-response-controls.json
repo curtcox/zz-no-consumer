@@ -15,7 +15,8 @@
       {
         "id": "prod-controls-scope",
         "old_panels": [
-          "092-01"
+          "092-01",
+          "095-02"
         ],
         "frame": "The narrator’s control diagram is explicitly an account of OpenAI’s reported architecture, not a live view of its systems.",
         "lettering": [
@@ -43,6 +44,11 @@
             "old_panel": "092-01",
             "disposition": "rewrite",
             "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          },
+          {
+            "old_panel": "095-02",
+            "disposition": "combine",
+            "reason": "Retain the specific isolation, monitoring and boundary-testing work mentioned in the original staff-redirection frame, without inventing individual assignments."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
@@ -155,7 +161,8 @@
       {
         "id": "prod-controls-services",
         "old_panels": [
-          "092-02"
+          "092-02",
+          "095-02"
         ],
         "frame": "Supporting services are constrained alongside the main workload rather than left as an invisible alternative route.",
         "lettering": [
@@ -188,6 +195,11 @@
             "old_panel": "092-02",
             "disposition": "rewrite",
             "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          },
+          {
+            "old_panel": "095-02",
+            "disposition": "combine",
+            "reason": "Retain the specific isolation, monitoring and boundary-testing work mentioned in the original staff-redirection frame, without inventing individual assignments."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
@@ -195,7 +207,8 @@
       {
         "id": "prod-controls-monitoring",
         "old_panels": [
-          "092-03"
+          "092-03",
+          "095-02"
         ],
         "frame": "A monitoring diagram examines available records alongside the isolation diagram. Neither takes the other’s place.",
         "lettering": [
@@ -223,6 +236,11 @@
             "old_panel": "092-03",
             "disposition": "rewrite",
             "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          },
+          {
+            "old_panel": "095-02",
+            "disposition": "combine",
+            "reason": "Retain the specific isolation, monitoring and boundary-testing work mentioned in the original staff-redirection frame, without inventing individual assignments."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
@@ -300,7 +318,8 @@
       {
         "id": "prod-controls-shutdown",
         "old_panels": [
-          "092-03"
+          "092-03",
+          "092-05"
         ],
         "frame": "Two developing capabilities remain visibly unfinished in the narrator’s summary.",
         "lettering": [
@@ -328,6 +347,11 @@
             "old_panel": "092-03",
             "disposition": "rewrite",
             "reason": "Retain the control’s role and source status; distinguish stated requirements, reported changes, goals and ongoing development."
+          },
+          {
+            "old_panel": "092-05",
+            "disposition": "combine",
+            "reason": "Retain the original auto-termination card’s in-development status in the existing distinct shutdown explanation."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"

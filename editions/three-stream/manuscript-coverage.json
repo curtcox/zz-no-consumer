@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 242,
-  "drafted_beats": 704,
+  "scenes": 243,
+  "drafted_beats": 719,
   "canonical_pages": null,
-  "associated_old_panels": 324,
+  "associated_old_panels": 331,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4040,43 +4040,64 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "092-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-broken-task",
+        "prod-assessment-peer",
+        "prod-assessment-long-tasks",
+        "prod-controls-shutdown"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "093-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-setup",
+        "prod-assessment-ratio",
+        "prod-assessment-denominator"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "093-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-review",
+        "prod-assessment-flag-outcome"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "093-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-monitor-history",
+        "prod-assessment-earlier-page"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "093-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-independent-scope",
+        "prod-assessment-not-disproof"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "093-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-original-controls",
+        "prod-assessment-generalization"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4152,8 +4173,16 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "095-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assessment-staff",
+        "prod-assessment-broken-task",
+        "prod-assessment-peer",
+        "prod-assessment-long-tasks",
+        "prod-controls-scope",
+        "prod-controls-services",
+        "prod-controls-monitoring"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5092,9 +5121,9 @@
     "GemStuffer": 58,
     "Collusion Wiki": 115,
     "Curt": 25,
-    "Codex": 65,
+    "Codex": 80,
     "Claude": 99
   },
-  "reviewed_old_panels": 74,
-  "reviewed_source_elements": 192
+  "reviewed_old_panels": 81,
+  "reviewed_source_elements": 207
 }

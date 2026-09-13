@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T16:38:36.967012+00:00",
+  "checked_at": "2026-09-13T16:42:20.039869+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -21,7 +21,8 @@
     "manuscript/collaboration-quotation-followup.json": "7b936a69ab2a5fb89b75a608294d80f790aa7795842ab5bee0bd19e078223b36",
     "manuscript/collaboration-quotation-rule.json": "4d152849e3575a899ec6c4cc65416a965eb16fc510cb5ec2997c6be7ea468b1b",
     "manuscript/collaboration-resource-argument.json": "675ec0fae41d13c445c3f391af9ac70a12cc8fc79c9635978f8f1a252c707033",
-    "manuscript/collaboration-response-controls.json": "f26824b79b1062777ced13698c70dc21eeb9a111c47b8ea626949b8bc5e4cecc",
+    "manuscript/collaboration-response-controls.json": "619a9fdb75693005fdd33ff12b0a02b90529897832086910cbbf922f6d0f6220",
+    "manuscript/collaboration-safeguard-assessment.json": "4bce0bad1c25223feac37e63f5b0ddc45978b35427672702967578dffb1c7724",
     "manuscript/collaboration-selected-messages.json": "953597469253f6db6440defe1c87ef00fd4e27a0514db52db4ff43671b5062df",
     "manuscript/gemstuffer-documentation-and-theft.json": "9f15fdbe8effce9872b6537761d15a7634dd0d29d8e1ff8af2bea527031ecd19",
     "manuscript/gemstuffer-incident.json": "240f1853ad9feacf61caf52f2afd3d7f883a1b7525169e56236d9ec1cb4f5609",
@@ -40,25 +41,25 @@
     "evidence/continuation-053-1da1d895ab4e.md": "ade0e4424b626807144991cc265f90c11268f80819da3de68bfe7b94cab1055f",
     "evidence/continuation-054-1da1d895ab4e.md": "851e9ec7e795b08ab39976fe78fc62882c10c228885fd0bc7f0350a6188acb51",
     "evidence/public-announcement-source-review.md": "6b1807c59149608757c9f5cdc0ae049c69a722804105db9a662f0d5c2ac497db",
-    "detail-review.json": "74bfd7dfa150846218e8b3ca97792435c0e34a1da612943b53904f939f2058ea",
+    "detail-review.json": "e6d08678c991b8b2113388db8b75e933986a05ddca0186d590e18443d6b1c070",
     "production-selections.json": "9f202d27bf05c887147b3bd16dfed4482ce6a5f5a77c056ad9b94a70a60e909f",
-    "sources.json": "e6cdc764c30f48e87bea2ee71065530e0d126ed076521ec49dc59eb0d61416bf"
+    "sources.json": "7573a5ab25172505460b46734b067e7e88a2d94ec4b85190cb152ad14a74235c"
   },
   "counts": {
-    "scenes": 242,
-    "drafted_beats": 704,
+    "scenes": 243,
+    "drafted_beats": 719,
     "canonical_pages": null,
-    "associated_old_panels": 324,
+    "associated_old_panels": 331,
     "by_row": {
       "HuggingFace": 342,
       "GemStuffer": 58,
       "Collusion Wiki": 115,
       "Curt": 25,
-      "Codex": 65,
+      "Codex": 80,
       "Claude": 99
     },
-    "reviewed_old_panels": 74,
-    "reviewed_source_elements": 192
+    "reviewed_old_panels": 81,
+    "reviewed_source_elements": 207
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -68,7 +69,7 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T15:55:36.386949+00:00",
+  "previous_checked_at": "2026-09-13T16:38:36.967012+00:00",
   "production_record_verification": {
     "result": "passed",
     "selected_records": 57,

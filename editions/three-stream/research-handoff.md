@@ -459,3 +459,33 @@ Frozen 092-05’s broken-task/safe-stop cards, 095-02’s detailed redirection,
 093’s quantitative safeguard assessment, and the remaining accountability
 questions still need their own source/disposition passes. No canonical identity
 or frozen dependent changed. Draft checks and whitespace checks passed.
+
+### Safeguard measurements and alignment objectives — 13 September 2026
+
+Added fifteen beats in `manuscript/collaboration-safeguard-assessment.json`,
+using the unchanged overview and METR report as narrator context for the dated
+September 2 Codex proposal. The production ChatGPT harness retains its actual
+product identity. The short registered phrase about a greater-than-100-fold
+reduction was checked against the primary overview; rights remain unresolved.
+The reported test uses the harness and system prompt together. No absolute
+safety percentage or separate causal effect is inferred from that ratio.
+
+The old every-tested-rollout formulation is narrowed to the inspected overview’s
+set-of-rollouts claim. Retrospective flags, blocking, stopping and prevention
+are separate outcomes. The earlier-paging claim remains counterfactual, and
+METR’s agreed exclusion of safeguard effectiveness remains a scope boundary,
+not an independent result in either direction. The original sandbox is not
+erased when describing absent production protections.
+
+Frozen 093’s five panels and eleven elements, 092-05’s two elements and
+095-02’s two elements now have individual dispositions. The source supports
+staff redirection and developing objectives for broken-task recognition,
+clarification, safe stopping, unauthorized-peer distrust and long-task scope.
+Specific monitoring/isolation/testing work and auto-termination are combined
+with existing detailed treatments rather than repeated. No private staffing
+assignment or universally successful future stopping behavior is invented.
+
+All panels in frozen 092–098 now have individual dispositions; that local
+completion is not completeness of the whole old script or the new edition.
+The remaining aftermath, accountability, investigation and earlier incident
+material still require review. Final page allocation remains open.

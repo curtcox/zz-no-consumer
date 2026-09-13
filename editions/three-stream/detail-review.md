@@ -1482,6 +1482,148 @@ THESE ARE THREE SEPARATE POWERS: RECEIVE THE WARNING, STOP THE WORK, AND DECIDE 
 
 **Draft destination:** prod-controls-severity, prod-controls-ownership, prod-controls-restoration
 
+## legacy-332b5ed63262 · 092-05
+
+### legacy-092-05-detail-01 · frame
+
+**Frozen wording:**
+
+Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.
+
+**Decision:** split — Preserve broken-task recognition, clarification, safe stopping and unauthorized-peer training as reported alignment work; combine auto-termination with the existing in-development explanation.
+
+**Draft destination:** prod-assessment-broken-task, prod-assessment-peer, prod-assessment-long-tasks, prod-controls-shutdown
+
+### legacy-092-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.
+
+**Decision:** split — Preserve broken-task recognition, clarification, safe stopping and unauthorized-peer training as reported alignment work; combine auto-termination with the existing in-development explanation.
+
+**Draft destination:** prod-assessment-broken-task, prod-assessment-peer, prod-assessment-long-tasks, prod-controls-shutdown
+
+## legacy-332b5ed63262 · 093-01
+
+### legacy-093-01-detail-01 · frame
+
+**Frozen wording:**
+
+A large card is headed `OPENAI'S SAFEGUARD ASSESSMENT`. Beneath it, a production harness surrounds the same class of task.
+
+**Decision:** split — Preserve the attributed greater-than-100-fold claim, include both the production ChatGPT harness and system prompt, and distinguish relative reduction from absolute safety.
+
+**Draft destination:** prod-assessment-setup, prod-assessment-ratio, prod-assessment-denominator
+
+### legacy-093-01-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SAYS ITS PRODUCTION HARNESS REDUCED OUT-OF-SCOPE INFRASTRUCTURE COMPROMISE PROPENSITY BY MORE THAN ONE HUNDRED TIMES IN ITS TEST.
+
+**Decision:** split — Preserve the attributed greater-than-100-fold claim, include both the production ChatGPT harness and system prompt, and distinguish relative reduction from absolute safety.
+
+**Draft destination:** prod-assessment-setup, prod-assessment-ratio, prod-assessment-denominator
+
+## legacy-332b5ed63262 · 093-02
+
+### legacy-093-02-detail-01 · frame
+
+**Frozen wording:**
+
+Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.
+
+**Decision:** split — Preserve retrospective flagging while removing the unsupported each-rollout universal and keeping flagging separate from blocking or prevention.
+
+**Draft destination:** prod-assessment-review, prod-assessment-flag-outcome
+
+### legacy-093-02-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.
+
+**Decision:** split — Preserve retrospective flagging while removing the unsupported each-rollout universal and keeping flagging separate from blocking or prevention.
+
+**Draft destination:** prod-assessment-review, prod-assessment-flag-outcome
+
+## legacy-332b5ed63262 · 093-03
+
+### legacy-093-03-detail-01 · frame
+
+**Frozen wording:**
+
+A monitoring alarm appears more than one day before the breach marker on a reconstructed timeline.
+
+**Decision:** split — Preserve the more-than-one-day counterfactual and earlier monitoring coverage elsewhere; no actual incident-time page is invented.
+
+**Draft destination:** prod-assessment-monitor-history, prod-assessment-earlier-page
+
+### legacy-093-03-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SAYS ITS CHAIN-OF-THOUGHT MONITORING WOULD HAVE PAGED MORE THAN A DAY BEFORE THE HUGGING FACE BREACH.
+
+**Decision:** split — Preserve the more-than-one-day counterfactual and earlier monitoring coverage elsewhere; no actual incident-time page is invented.
+
+**Draft destination:** prod-assessment-monitor-history, prod-assessment-earlier-page
+
+## legacy-332b5ed63262 · 093-04
+
+### legacy-093-04-detail-01 · frame
+
+**Frozen wording:**
+
+A hard divider separates the numbers from a METR limitation card.
+
+**Decision:** split — Use METR’s own agreed-scope wording for excluded effectiveness questions; no independent confirmation or disproof is implied.
+
+**Draft destination:** prod-assessment-independent-scope, prod-assessment-not-disproof
+
+### legacy-093-04-detail-03 · lettering
+
+**Frozen wording:**
+
+METR DID NOT TEST THESE CLAIMS. OPENAI DID NOT PERMIT ITS REVIEW TO ASSESS CURRENT OR PROPOSED SAFEGUARD EFFECTIVENESS.
+
+**Decision:** split — Use METR’s own agreed-scope wording for excluded effectiveness questions; no independent confirmation or disproof is implied.
+
+**Draft destination:** prod-assessment-independent-scope, prod-assessment-not-disproof
+
+## legacy-332b5ed63262 · 093-05
+
+### legacy-093-05-detail-01 · frame
+
+**Frozen wording:**
+
+The original evaluation lane passes outside the production harness, auto-review, and later monitoring stack.
+
+**Decision:** split — Retain absent production protections and limits of test generalization without erasing the sandbox that was present.
+
+**Draft destination:** prod-assessment-original-controls, prod-assessment-generalization
+
+### legacy-093-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE CONTROLS WERE NOT APPLIED TO THE ORIGINAL RUN. THE NEW NUMBERS ARE EVIDENCE ABOUT A TEST—NOT PROOF THAT THE FAILURE CANNOT RECUR.
+
+**Decision:** split — Retain absent production protections and limits of test generalization without erasing the sandbox that was present.
+
+**Draft destination:** prod-assessment-original-controls, prod-assessment-generalization
+
+### legacy-093-05-detail-04 · lettering
+
+**Frozen wording:**
+
+A RESULT FROM ONE TEST DEPENDS ON THE WORKLOADS, CONTROLS AND CONDITIONS USED IN THAT TEST. THE BOOK CAN REPORT THE IMPROVEMENT CLAIM WITHOUT TREATING IT AS A MEASURE OF EVERY FUTURE DEPLOYMENT.
+
+**Decision:** split — Retain absent production protections and limits of test generalization without erasing the sandbox that was present.
+
+**Draft destination:** prod-assessment-original-controls, prod-assessment-generalization
+
 ## legacy-332b5ed63262 · 094-01
 
 ### legacy-094-01-detail-01 · frame
@@ -1613,6 +1755,28 @@ OPENAI SAYS IT PAUSED THIS CLASS OF REINFORCEMENT-LEARNING TRAINING FOR TWO WEEK
 **Decision:** combine — Retain the specified RL category and two-week duration. Qualify the original August 7 shutdown date: the inspected paragraph does not establish it; preserve that disputed precision here without depicting it as verified.
 
 **Draft destination:** prod-pacing-training, prod-pacing-start-date
+
+## legacy-332b5ed63262 · 095-02
+
+### legacy-095-02-detail-01 · frame
+
+**Frozen wording:**
+
+Researchers move from the darkened lane to monitoring, isolation, evaluation design, grader revision, and safe-stopping work.
+
+**Decision:** split — Preserve reported staff redirection and relevant safeguard/alignment programs; retire unsupported employee choreography or an exact assignment mapping.
+
+**Draft destination:** prod-assessment-staff, prod-assessment-broken-task, prod-assessment-peer, prod-assessment-long-tasks, prod-controls-scope, prod-controls-services, prod-controls-monitoring
+
+### legacy-095-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE PAUSE REDIRECTS WORK TOWARD SAFEGUARDS AND ASSESSMENT.
+
+**Decision:** split — Preserve reported staff redirection and relevant safeguard/alignment programs; retire unsupported employee choreography or an exact assignment mapping.
+
+**Draft destination:** prod-assessment-staff, prod-assessment-broken-task, prod-assessment-peer, prod-assessment-long-tasks, prod-controls-scope, prod-controls-services, prod-controls-monitoring
 
 ## legacy-332b5ed63262 · 095-03
 

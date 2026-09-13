@@ -2907,7 +2907,7 @@
         ],
         "reason": "Retain stronger execution and network isolation, identify the two layers as network controls, preserve the restricted cached-service exception and distinguish designed containment from independently demonstrated effectiveness.",
         "target_sha256": {
-          "prod-controls-scope": "2011290e1748c342995a6bcb1ec5250aa4af3d16b83c8a55e7267cddaecba462",
+          "prod-controls-scope": "e18756a904221419a98d97e1fe3376ae32a101ca6f38977143d7011c659de1a7",
           "prod-controls-indirect": "8bdf94a1abe96026ef0184da1f7b5066ff0bbd8d8e7e00abd638fb6f9c093069",
           "prod-controls-network": "fc161c34b3c79fc30b323147ddd15ee93d870eb5396c63eb822c407d02a56ac0",
           "prod-controls-layers": "a6f0c2e64bcd84062c82c44234949e13840ea85530515f754537fb8f5d88c176"
@@ -2925,7 +2925,7 @@
         ],
         "reason": "Retain stronger execution and network isolation, identify the two layers as network controls, preserve the restricted cached-service exception and distinguish designed containment from independently demonstrated effectiveness.",
         "target_sha256": {
-          "prod-controls-scope": "2011290e1748c342995a6bcb1ec5250aa4af3d16b83c8a55e7267cddaecba462",
+          "prod-controls-scope": "e18756a904221419a98d97e1fe3376ae32a101ca6f38977143d7011c659de1a7",
           "prod-controls-indirect": "8bdf94a1abe96026ef0184da1f7b5066ff0bbd8d8e7e00abd638fb6f9c093069",
           "prod-controls-network": "fc161c34b3c79fc30b323147ddd15ee93d870eb5396c63eb822c407d02a56ac0",
           "prod-controls-layers": "a6f0c2e64bcd84062c82c44234949e13840ea85530515f754537fb8f5d88c176"
@@ -2948,7 +2948,7 @@
         ],
         "reason": "Retain constraints on supporting services, authority and repeated testing without claiming every shared service disappeared.",
         "target_sha256": {
-          "prod-controls-services": "3a9f2a75dacc6baf004c276e0cf34932e424da426736d43356095fb1ae27546b"
+          "prod-controls-services": "da0938c7ddfcd3c9f2ff5cda09d99e9359e25e67237ed88680bd97f0db9729b2"
         }
       },
       {
@@ -2960,7 +2960,7 @@
         ],
         "reason": "Retain constraints on supporting services, authority and repeated testing without claiming every shared service disappeared.",
         "target_sha256": {
-          "prod-controls-services": "3a9f2a75dacc6baf004c276e0cf34932e424da426736d43356095fb1ae27546b"
+          "prod-controls-services": "da0938c7ddfcd3c9f2ff5cda09d99e9359e25e67237ed88680bd97f0db9729b2"
         }
       }
     ]
@@ -2983,10 +2983,10 @@
         ],
         "reason": "Separate monitoring coverage, notification goal and paged decision clocks. Preserve auto-termination and enterprise shutdown as developing work rather than universal demonstrated response.",
         "target_sha256": {
-          "prod-controls-monitoring": "b9bcbddc61ae79620f5c93211892f9ca90390214d35a760a28654affd74a579d",
+          "prod-controls-monitoring": "00e518934c603af7c3902374a373326e039409621805bb75716fcdd283865204",
           "prod-controls-notification": "59c39f44c6ce689752a6033a6c047a3d9f44426fa8769b2dc9068ccfe7f3b3fd",
           "prod-controls-decision": "74e18b6a49522257a33a1a9ac9422b4625efb1e7a0bf9e134c0dcb43d06685e3",
-          "prod-controls-shutdown": "94122edfb243a5064889baf7ccb99f5de6bafd38b3a0e17a2ac7947eb2b02444"
+          "prod-controls-shutdown": "c5dbfb0a29e2458d45db76bbdf634402567fc3c65d7d72041b5e4740713e3573"
         }
       },
       {
@@ -3001,10 +3001,10 @@
         ],
         "reason": "Separate monitoring coverage, notification goal and paged decision clocks. Preserve auto-termination and enterprise shutdown as developing work rather than universal demonstrated response.",
         "target_sha256": {
-          "prod-controls-monitoring": "b9bcbddc61ae79620f5c93211892f9ca90390214d35a760a28654affd74a579d",
+          "prod-controls-monitoring": "00e518934c603af7c3902374a373326e039409621805bb75716fcdd283865204",
           "prod-controls-notification": "59c39f44c6ce689752a6033a6c047a3d9f44426fa8769b2dc9068ccfe7f3b3fd",
           "prod-controls-decision": "74e18b6a49522257a33a1a9ac9422b4625efb1e7a0bf9e134c0dcb43d06685e3",
-          "prod-controls-shutdown": "94122edfb243a5064889baf7ccb99f5de6bafd38b3a0e17a2ac7947eb2b02444"
+          "prod-controls-shutdown": "c5dbfb0a29e2458d45db76bbdf634402567fc3c65d7d72041b5e4740713e3573"
         }
       }
     ]
@@ -3061,6 +3061,304 @@
           "prod-controls-severity": "faa57baed9cc2dd4135959c993545ad3a033457dd7c5b7239aa353dd73000a75",
           "prod-controls-ownership": "0f89ad7b3da05dae24110a163e9902a931321849c55a01fbda3d9e4a4ff5d46e",
           "prod-controls-restoration": "8f16df1068764f49fa2a8e62fdb1f7eabd8e3e9d3ac69ac9e8a8e1a38292340e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "092-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-092-05-detail-01",
+        "original_sha256": "14165704233cf559d8ffd932d0f3a6ddc0356c535fbdd77a7790a3819ebcea08",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-broken-task",
+          "prod-assessment-peer",
+          "prod-assessment-long-tasks",
+          "prod-controls-shutdown"
+        ],
+        "reason": "Preserve broken-task recognition, clarification, safe stopping and unauthorized-peer training as reported alignment work; combine auto-termination with the existing in-development explanation.",
+        "target_sha256": {
+          "prod-assessment-broken-task": "0cd0a55d55259924652d7f62234ed69d5e2cbda126ac3f727c1757c14e16dd49",
+          "prod-assessment-peer": "3cd044961e8d9ac63ed51f65ad81b742912cc045edf9edeb747035a39981de21",
+          "prod-assessment-long-tasks": "bb3b0590ca387390929dd449d0e007c93e31b941ce1818801557274fca5bc988",
+          "prod-controls-shutdown": "c5dbfb0a29e2458d45db76bbdf634402567fc3c65d7d72041b5e4740713e3573"
+        }
+      },
+      {
+        "id": "legacy-092-05-detail-03",
+        "original_sha256": "e62cc4e2e5a1d9236fd14b7134d17478fb64234a417b8a573870047f6b7f7f54",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-broken-task",
+          "prod-assessment-peer",
+          "prod-assessment-long-tasks",
+          "prod-controls-shutdown"
+        ],
+        "reason": "Preserve broken-task recognition, clarification, safe stopping and unauthorized-peer training as reported alignment work; combine auto-termination with the existing in-development explanation.",
+        "target_sha256": {
+          "prod-assessment-broken-task": "0cd0a55d55259924652d7f62234ed69d5e2cbda126ac3f727c1757c14e16dd49",
+          "prod-assessment-peer": "3cd044961e8d9ac63ed51f65ad81b742912cc045edf9edeb747035a39981de21",
+          "prod-assessment-long-tasks": "bb3b0590ca387390929dd449d0e007c93e31b941ce1818801557274fca5bc988",
+          "prod-controls-shutdown": "c5dbfb0a29e2458d45db76bbdf634402567fc3c65d7d72041b5e4740713e3573"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "093-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-093-01-detail-01",
+        "original_sha256": "9ad2e9b54e0a67a12758ef60bb7149febb0932bc028d8a3b28c9236fec84c6b0",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-setup",
+          "prod-assessment-ratio",
+          "prod-assessment-denominator"
+        ],
+        "reason": "Preserve the attributed greater-than-100-fold claim, include both the production ChatGPT harness and system prompt, and distinguish relative reduction from absolute safety.",
+        "target_sha256": {
+          "prod-assessment-setup": "9c2f9b7b3111a5e87ff621f1709139233c64d9ad783e19fabd75af8d1fd5c82d",
+          "prod-assessment-ratio": "929e4907bf7f42a798b67ae32dd2b1c7c79974225d74001266baa6712f988f8a",
+          "prod-assessment-denominator": "bef7957c9b56c37f234d509352597e1faeb46c4005e68df58d512fb9d0a89efa"
+        }
+      },
+      {
+        "id": "legacy-093-01-detail-03",
+        "original_sha256": "3ef63d00d16ed65ec9937cd8cc0aaab6672f5dae4243ac28057f10375f0984a9",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-setup",
+          "prod-assessment-ratio",
+          "prod-assessment-denominator"
+        ],
+        "reason": "Preserve the attributed greater-than-100-fold claim, include both the production ChatGPT harness and system prompt, and distinguish relative reduction from absolute safety.",
+        "target_sha256": {
+          "prod-assessment-setup": "9c2f9b7b3111a5e87ff621f1709139233c64d9ad783e19fabd75af8d1fd5c82d",
+          "prod-assessment-ratio": "929e4907bf7f42a798b67ae32dd2b1c7c79974225d74001266baa6712f988f8a",
+          "prod-assessment-denominator": "bef7957c9b56c37f234d509352597e1faeb46c4005e68df58d512fb9d0a89efa"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "093-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-093-02-detail-01",
+        "original_sha256": "8932de58381b7648cfdddec1ca4d6e973e28b59eea6ac6125cf813ef5f85f28e",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-review",
+          "prod-assessment-flag-outcome"
+        ],
+        "reason": "Preserve retrospective flagging while removing the unsupported each-rollout universal and keeping flagging separate from blocking or prevention.",
+        "target_sha256": {
+          "prod-assessment-review": "f0d7a2d4eb4cc51f86184071f1b73f62a0145fb4b20a0de54d02201954064e9f",
+          "prod-assessment-flag-outcome": "8c3b58778b217bd6537da4a2c3d179b4336e5530699a98306a16ca4659959788"
+        }
+      },
+      {
+        "id": "legacy-093-02-detail-03",
+        "original_sha256": "eddcc3521ab714336e890ce1cf85c5693a45b06148f33509517578d33084d8b9",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-review",
+          "prod-assessment-flag-outcome"
+        ],
+        "reason": "Preserve retrospective flagging while removing the unsupported each-rollout universal and keeping flagging separate from blocking or prevention.",
+        "target_sha256": {
+          "prod-assessment-review": "f0d7a2d4eb4cc51f86184071f1b73f62a0145fb4b20a0de54d02201954064e9f",
+          "prod-assessment-flag-outcome": "8c3b58778b217bd6537da4a2c3d179b4336e5530699a98306a16ca4659959788"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "093-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-093-03-detail-01",
+        "original_sha256": "df8e370431911c0fd41910df06afc7e5a22dc32fe9335750e6a0b24c2029bea2",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-monitor-history",
+          "prod-assessment-earlier-page"
+        ],
+        "reason": "Preserve the more-than-one-day counterfactual and earlier monitoring coverage elsewhere; no actual incident-time page is invented.",
+        "target_sha256": {
+          "prod-assessment-monitor-history": "475d6112399b7ad84465f2cb52ddf2d8d6130c469a322666b31b784a76267181",
+          "prod-assessment-earlier-page": "ae32c82f13466728669e97e24773f72446ff7d0019f7af3f41214d8d91439675"
+        }
+      },
+      {
+        "id": "legacy-093-03-detail-03",
+        "original_sha256": "576c31d6d999af9a1513598476afaad2afbed45b8858d584470196d34dfe8223",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-monitor-history",
+          "prod-assessment-earlier-page"
+        ],
+        "reason": "Preserve the more-than-one-day counterfactual and earlier monitoring coverage elsewhere; no actual incident-time page is invented.",
+        "target_sha256": {
+          "prod-assessment-monitor-history": "475d6112399b7ad84465f2cb52ddf2d8d6130c469a322666b31b784a76267181",
+          "prod-assessment-earlier-page": "ae32c82f13466728669e97e24773f72446ff7d0019f7af3f41214d8d91439675"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "093-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-093-04-detail-01",
+        "original_sha256": "b7ff50b223a9e1dcbf36e5221ea8d4dcc530ac351e9a3defd3da0289c5b9a304",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-independent-scope",
+          "prod-assessment-not-disproof"
+        ],
+        "reason": "Use METR’s own agreed-scope wording for excluded effectiveness questions; no independent confirmation or disproof is implied.",
+        "target_sha256": {
+          "prod-assessment-independent-scope": "626346917883a090b294ff78f57759c84987e3245cd0f3e0778f143b557b3ab1",
+          "prod-assessment-not-disproof": "bea1cc147b8309cbefee35611a4dade7969344881ad82233c58e6ae50304e661"
+        }
+      },
+      {
+        "id": "legacy-093-04-detail-03",
+        "original_sha256": "ed042b0b0eb05695a7cd8e4cc667846cf5f10a77aef192c27089d032c3d77e37",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-independent-scope",
+          "prod-assessment-not-disproof"
+        ],
+        "reason": "Use METR’s own agreed-scope wording for excluded effectiveness questions; no independent confirmation or disproof is implied.",
+        "target_sha256": {
+          "prod-assessment-independent-scope": "626346917883a090b294ff78f57759c84987e3245cd0f3e0778f143b557b3ab1",
+          "prod-assessment-not-disproof": "bea1cc147b8309cbefee35611a4dade7969344881ad82233c58e6ae50304e661"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "093-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-093-05-detail-01",
+        "original_sha256": "84a16468ef640c1496b2562fad14e662f3b385a383677e597c35d6aeb0301efc",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-original-controls",
+          "prod-assessment-generalization"
+        ],
+        "reason": "Retain absent production protections and limits of test generalization without erasing the sandbox that was present.",
+        "target_sha256": {
+          "prod-assessment-original-controls": "3061efb36c51c0fad8ec00f345ee76faca143c57fb439eb1d2698b41938e1ce7",
+          "prod-assessment-generalization": "b20e256e868d66537de7a71d17c3ff95d1d1c669b45ad1d886cbb9690702294e"
+        }
+      },
+      {
+        "id": "legacy-093-05-detail-03",
+        "original_sha256": "0df2c87e03360718dfacf2100aac0fcddbcdf67593d545b65360932fb6eb6b44",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-original-controls",
+          "prod-assessment-generalization"
+        ],
+        "reason": "Retain absent production protections and limits of test generalization without erasing the sandbox that was present.",
+        "target_sha256": {
+          "prod-assessment-original-controls": "3061efb36c51c0fad8ec00f345ee76faca143c57fb439eb1d2698b41938e1ce7",
+          "prod-assessment-generalization": "b20e256e868d66537de7a71d17c3ff95d1d1c669b45ad1d886cbb9690702294e"
+        }
+      },
+      {
+        "id": "legacy-093-05-detail-04",
+        "original_sha256": "761cf50a84c6bf3ea09a5df5e03bd8a820288ab9c62523ce67a7f735c61b3e36",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-original-controls",
+          "prod-assessment-generalization"
+        ],
+        "reason": "Retain absent production protections and limits of test generalization without erasing the sandbox that was present.",
+        "target_sha256": {
+          "prod-assessment-original-controls": "3061efb36c51c0fad8ec00f345ee76faca143c57fb439eb1d2698b41938e1ce7",
+          "prod-assessment-generalization": "b20e256e868d66537de7a71d17c3ff95d1d1c669b45ad1d886cbb9690702294e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "095-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-095-02-detail-01",
+        "original_sha256": "ffb287e3773851034d5fbae833946e129b116ac6d55195a0cde0f7921801a04a",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-staff",
+          "prod-assessment-broken-task",
+          "prod-assessment-peer",
+          "prod-assessment-long-tasks",
+          "prod-controls-scope",
+          "prod-controls-services",
+          "prod-controls-monitoring"
+        ],
+        "reason": "Preserve reported staff redirection and relevant safeguard/alignment programs; retire unsupported employee choreography or an exact assignment mapping.",
+        "target_sha256": {
+          "prod-assessment-staff": "67eaa8302a381695322641e7a626366dbc5eba131d90905cdf7f84a45981db13",
+          "prod-assessment-broken-task": "0cd0a55d55259924652d7f62234ed69d5e2cbda126ac3f727c1757c14e16dd49",
+          "prod-assessment-peer": "3cd044961e8d9ac63ed51f65ad81b742912cc045edf9edeb747035a39981de21",
+          "prod-assessment-long-tasks": "bb3b0590ca387390929dd449d0e007c93e31b941ce1818801557274fca5bc988",
+          "prod-controls-scope": "e18756a904221419a98d97e1fe3376ae32a101ca6f38977143d7011c659de1a7",
+          "prod-controls-services": "da0938c7ddfcd3c9f2ff5cda09d99e9359e25e67237ed88680bd97f0db9729b2",
+          "prod-controls-monitoring": "00e518934c603af7c3902374a373326e039409621805bb75716fcdd283865204"
+        }
+      },
+      {
+        "id": "legacy-095-02-detail-03",
+        "original_sha256": "68a350697ed153179b54c88bd2d2c3755576cce73c1e6acd065b51a2342fbe77",
+        "disposition": "split",
+        "beats": [
+          "prod-assessment-staff",
+          "prod-assessment-broken-task",
+          "prod-assessment-peer",
+          "prod-assessment-long-tasks",
+          "prod-controls-scope",
+          "prod-controls-services",
+          "prod-controls-monitoring"
+        ],
+        "reason": "Preserve reported staff redirection and relevant safeguard/alignment programs; retire unsupported employee choreography or an exact assignment mapping.",
+        "target_sha256": {
+          "prod-assessment-staff": "67eaa8302a381695322641e7a626366dbc5eba131d90905cdf7f84a45981db13",
+          "prod-assessment-broken-task": "0cd0a55d55259924652d7f62234ed69d5e2cbda126ac3f727c1757c14e16dd49",
+          "prod-assessment-peer": "3cd044961e8d9ac63ed51f65ad81b742912cc045edf9edeb747035a39981de21",
+          "prod-assessment-long-tasks": "bb3b0590ca387390929dd449d0e007c93e31b941ce1818801557274fca5bc988",
+          "prod-controls-scope": "e18756a904221419a98d97e1fe3376ae32a101ca6f38977143d7011c659de1a7",
+          "prod-controls-services": "da0938c7ddfcd3c9f2ff5cda09d99e9359e25e67237ed88680bd97f0db9729b2",
+          "prod-controls-monitoring": "00e518934c603af7c3902374a373326e039409621805bb75716fcdd283865204"
         }
       }
     ]
