@@ -452,7 +452,7 @@
     "end": "2026-09-13T02:28:41.429Z",
     "original_timezone": "UTC",
     "precision": "millisecond",
-    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Added beats decompose the supplied research lead at the same stored timestamp; the supplied prose is not treated as Curt’s independently verified finding.",
     "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
     "status": "detailed-draft",
     "beats": [
@@ -462,6 +462,50 @@
         "frame": "Curt supplies a GemStuffer summary and asks for research. The summary is not rendered as an independently verified incident report.",
         "lettering": [
           "Curt asks Codex to research GemStuffer. The supplied account contains claims whose attribution and dates still need checking."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-5b89a80a2ef7",
+            "locator": "256t/editions/selected-messages/5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251.json; record SHA-256 5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251",
+            "available": "2026-09-13T02:28:41.429Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:28:41.429Z",
+        "time_end": "2026-09-13T02:28:41.429Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:9"
+      },
+      {
+        "id": "prod-gs-research-request-timeline-lead",
+        "old_panels": [],
+        "frame": "The supplied research summary has a patch-date claim highlighted by the narrator. No earlier remediation action is replayed.",
+        "lettering": [
+          "The material Curt supplies places discovery and patching on July 22. This is a claim in the research lead to be checked, not a date the narrative endorses."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-5b89a80a2ef7",
+            "locator": "256t/editions/selected-messages/5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251.json; record SHA-256 5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251",
+            "available": "2026-09-13T02:28:41.429Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:28:41.429Z",
+        "time_end": "2026-09-13T02:28:41.429Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:9"
+      },
+      {
+        "id": "prod-gs-research-request-claims-to-check",
+        "old_panels": [],
+        "frame": "The supplied account’s broad attribution and company-confirmation claims remain grouped as research leads. No model identity is confirmed by the diagram.",
+        "lettering": [
+          "The lead also bundles the incident, AI attribution and company response into one account. The subsequent research will need to distinguish those claims."
         ],
         "exact_strings": [],
         "sources": [
@@ -609,16 +653,179 @@
     "end": "2026-09-04T22:59:26.071Z",
     "original_timezone": "UTC",
     "precision": "millisecond",
-    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. The decomposed beats are portions of one stored message, not separately timestamped acts.",
     "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
     "status": "detailed-draft",
     "beats": [
       {
         "id": "prod-wiki-result-message",
         "old_panels": [],
-        "frame": "The selected later system message appears as a dated record. Do not invent a human reading it at the same instant.",
+        "frame": "The dated Claude report compares the differently named archive sets using hashes. It does not reenact the earlier extraction.",
         "lettering": [
-          "Claude reports that the differently named archives contain identical data. It corrects the repository’s earlier Wikipedia description: the records concern four small self-hosted wikis."
+          "Claude reports that the ZIP archive’s five members match the separately supplied compressed files byte for byte. The name suggesting a fuller export had overstated what was there."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-location",
+        "old_panels": [],
+        "frame": "The report places evidence in the research directory, with story-production metadata in a distinct category.",
+        "lettering": [
+          "Claude explains why it kept the corpus in the research directory: it is source evidence, and extracting it makes the rows available for future inspection."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-recovery",
+        "old_panels": [],
+        "frame": "Archive removal and the recorded recovery commit occupy separate fields in the report. The frame does not instruct a present-day deletion.",
+        "lettering": [
+          "It reports removing redundant archives and documenting a commit from which they can be recovered. That is a historical completion report, not a new cleanup action."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-correction",
+        "old_panels": [],
+        "frame": "A short excerpt from Claude’s message appears with attribution. The narrator identifies the corrected description beside it.",
+        "lettering": [
+          "The report corrects the description of the corpus: four small self-hosted wikis, not Wikipedia.",
+          "The commit message is wrong."
+        ],
+        "exact_strings": [
+          {
+            "text": "The commit message is wrong.",
+            "source": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d; assistant text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-populations",
+        "old_panels": [],
+        "frame": "Separate population categories overlap in an authored diagram accompanying the report. There is no grand total of independent agents.",
+        "lettering": [
+          "Claude warns that save, delete, revert and probe populations overlap. It points future work to named manifest facts and their counting restrictions rather than adding filtered row counts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-schema",
+        "old_panels": [],
+        "frame": "Storage location and behavioral classification appear as different fields in the report’s explanation.",
+        "lettering": [
+          "The report also distinguishes a storage bucket from a classification, page-family coverage from all sites, and the identifiers used to join labels from those used by other records."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-recipe",
+        "old_panels": [],
+        "frame": "A reported empty search result is followed by the explanation that compact JSON changed the text pattern. No empty result is presented as proof of absent behavior.",
+        "lettering": [
+          "Claude reports catching a search recipe that silently returned nothing because it expected spaces absent from the compact JSON. It says it corrected the recipe after running it."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-result-boundary",
+        "old_panels": [],
+        "frame": "The extracted corpus and the book’s admitted evidence remain separate. No incident panel is silently marked verified.",
+        "lettering": [
+          "The report ends with a limit: the corpus is accessible, but has not yet been wired into story citations. Extraction does not itself decide what the book should assert."
         ],
         "exact_strings": [],
         "sources": [
@@ -671,6 +878,241 @@
         "art_reuse": "none-approved",
         "detail_decisions": [],
         "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:154"
+      }
+    ]
+  },
+  {
+    "id": "prod-gs-evidence-split",
+    "title": "GemStuffer — separating the questions",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-13T02:29:21.581Z",
+    "end": "2026-09-13T02:29:21.581Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Multiple beats from the same message share its timestamp; they are portions of one message, not separate timed communications.",
+    "source_limit": "Preserved Codex commentary in the research task. This dates a report of findings and a drafting decision; it establishes neither Curt’s read time nor a direct exchange with Claude.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-gs-evidence-split-dates",
+        "old_panels": [],
+        "frame": "A dated Codex message separates a May event column from a September attribution column. No May scene is replayed.",
+        "lettering": [
+          "Codex reports that the sources distinguish the May incident from its September attribution."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-fa2fd7450e2e",
+            "locator": "256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json; record SHA-256 fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56",
+            "available": "2026-09-13T02:29:21.581Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:29:21.581Z",
+        "time_end": "2026-09-13T02:29:21.581Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:37"
+      },
+      {
+        "id": "prod-gs-evidence-split-questions",
+        "old_panels": [],
+        "frame": "The message’s two open questions remain unresolved in an authored margin diagram. No theft outcome or company admission is invented.",
+        "lettering": [
+          "It identifies what still needs checking: successful key theft and the scope of OpenAI’s confirmation.",
+          "I’m also checking two details that need careful wording: whether API-key theft succeeded, and what OpenAI actually confirmed."
+        ],
+        "exact_strings": [
+          {
+            "text": "I’m also checking two details that need careful wording: whether API-key theft succeeded, and what OpenAI actually confirmed.",
+            "source": "PROD-fa2fd7450e2e",
+            "locator": "256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json; record SHA-256 fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56; assistant text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-fa2fd7450e2e",
+            "locator": "256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json; record SHA-256 fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56",
+            "available": "2026-09-13T02:29:21.581Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:29:21.581Z",
+        "time_end": "2026-09-13T02:29:21.581Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:37"
+      }
+    ]
+  },
+  {
+    "id": "prod-gs-date-correction",
+    "title": "GemStuffer — correcting the supplied timeline",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-13T02:30:15.444Z",
+    "end": "2026-09-13T02:30:15.444Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Multiple beats from the same message share its timestamp; they are portions of one message, not separate timed communications.",
+    "source_limit": "Preserved Codex commentary in the research task. This dates a report of findings and a drafting decision; it establishes neither Curt’s read time nor a direct exchange with Claude.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-gs-date-correction-fix",
+        "old_panels": [],
+        "frame": "The July 22 patch date in the supplied research lead is connected to a correction in Codex’s message. This is September editorial work, not a depiction of deploying a fix.",
+        "lettering": [
+          "Codex says RubyGems’ advisory dates deployment of the cache fix to July 9. The earlier research lead had conflated deployment with a later publication date."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-8fa9a1ea539d",
+            "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf",
+            "available": "2026-09-13T02:30:15.444Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:30:15.444Z",
+        "time_end": "2026-09-13T02:30:15.444Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:79"
+      },
+      {
+        "id": "prod-gs-date-correction-conflict",
+        "old_panels": [],
+        "frame": "The message preserves July 22 and July 23 as competing disclosure-related dates, with neither erased to make the chronology tidy.",
+        "lettering": [
+          "Codex keeps the remaining inconsistency visible.",
+          "The advisory is dated July 22 but lists disclosure and key revocation on July 23, so I’ll preserve that discrepancy."
+        ],
+        "exact_strings": [
+          {
+            "text": "The advisory is dated July 22 but lists disclosure and key revocation on July 23, so I’ll preserve that discrepancy.",
+            "source": "PROD-8fa9a1ea539d",
+            "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf; assistant text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-8fa9a1ea539d",
+            "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf",
+            "available": "2026-09-13T02:30:15.444Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:30:15.444Z",
+        "time_end": "2026-09-13T02:30:15.444Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:79"
+      },
+      {
+        "id": "prod-gs-date-correction-theft",
+        "old_panels": [],
+        "frame": "The same message reports a bounded negative finding from the maintainer. No victim or stolen credential is drawn.",
+        "lettering": [
+          "Codex reports RubyGems’ conclusion.",
+          "RubyGems also says it found no evidence that the key-theft attempts succeeded."
+        ],
+        "exact_strings": [
+          {
+            "text": "RubyGems also says it found no evidence that the key-theft attempts succeeded.",
+            "source": "PROD-8fa9a1ea539d",
+            "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf; assistant text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-8fa9a1ea539d",
+            "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf",
+            "available": "2026-09-13T02:30:15.444Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:30:15.444Z",
+        "time_end": "2026-09-13T02:30:15.444Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:79"
+      }
+    ]
+  },
+  {
+    "id": "prod-gs-research-boundary",
+    "title": "GemStuffer — preserving research before revising the story",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-13T02:32:14.130Z",
+    "end": "2026-09-13T02:32:14.130Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Multiple beats from the same message share its timestamp; they are portions of one message, not separate timed communications.",
+    "source_limit": "Preserved Codex commentary in the research task. This dates a report of findings and a drafting decision; it establishes neither Curt’s read time nor a direct exchange with Claude.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-gs-research-boundary-sources",
+        "old_panels": [],
+        "frame": "A dated Codex message lists intended research-note contents; actual source bodies are opaque.",
+        "lettering": [
+          "Codex says the note will retain primary reports, exact status timestamps, attribution limits and short quotations."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f4bc3f9b484c",
+            "locator": "256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json; record SHA-256 f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02",
+            "available": "2026-09-13T02:32:14.130Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:32:14.130Z",
+        "time_end": "2026-09-13T02:32:14.130Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:132"
+      },
+      {
+        "id": "prod-gs-research-boundary-boundary",
+        "old_panels": [],
+        "frame": "The source vault and research note sit outside the story’s claim layer in an authored diagram of the reported decision.",
+        "lettering": [
+          "The message distinguishes preserving evidence from adopting every claim into the story.",
+          "I’ve preserved the source pages in the ignored vault; I’m adding this as research without changing the story’s existing claims."
+        ],
+        "exact_strings": [
+          {
+            "text": "I’ve preserved the source pages in the ignored vault; I’m adding this as research without changing the story’s existing claims.",
+            "source": "PROD-f4bc3f9b484c",
+            "locator": "256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json; record SHA-256 f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02; assistant text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-f4bc3f9b484c",
+            "locator": "256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json; record SHA-256 f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02",
+            "available": "2026-09-13T02:32:14.130Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:32:14.130Z",
+        "time_end": "2026-09-13T02:32:14.130Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:132"
       }
     ]
   }

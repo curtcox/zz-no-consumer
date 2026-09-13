@@ -208,5 +208,26 @@
     "admission": "Selected institutional examples in the incident overview; selected traces are not population-wide counts or independent reconstruction.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+  },
+  "PROD-fa2fd7450e2e": {
+    "available": "2026-09-13T02:29:21.581Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Preserved local assistant commentary; evidence of what Codex reported at its stored timestamp, not independent proof of every reported historical finding or a human reading the message.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-8fa9a1ea539d": {
+    "available": "2026-09-13T02:30:15.444Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Preserved local assistant commentary; evidence of what Codex reported at its stored timestamp, not independent proof of every reported historical finding or a human reading the message.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-f4bc3f9b484c": {
+    "available": "2026-09-13T02:32:14.130Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Preserved local assistant commentary; evidence of what Codex reported at its stored timestamp, not independent proof of every reported historical finding or a human reading the message.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }

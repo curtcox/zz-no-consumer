@@ -8220,17 +8220,116 @@ Claude says it will look at the directory’s contents.
 
 **UTC bounds:** 2026-09-04T22:59:26.071Z → 2026-09-04T22:59:26.071Z · millisecond
 
-**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.
+**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. The decomposed beats are portions of one stored message, not separately timestamped acts.
 
 **Evidence limit:** Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.
 
 ### prod-wiki-result-message
 
-**Frame:** The selected later system message appears as a dated record. Do not invent a human reading it at the same instant.
+**Frame:** The dated Claude report compares the differently named archive sets using hashes. It does not reenact the earlier extraction.
 
 **Lettering:**
 
-Claude reports that the differently named archives contain identical data. It corrects the repository’s earlier Wikipedia description: the records concern four small self-hosted wikis.
+Claude reports that the ZIP archive’s five members match the separately supplied compressed files byte for byte. The name suggesting a fuller export had overstated what was there.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+### prod-wiki-result-location
+
+**Frame:** The report places evidence in the research directory, with story-production metadata in a distinct category.
+
+**Lettering:**
+
+Claude explains why it kept the corpus in the research directory: it is source evidence, and extracting it makes the rows available for future inspection.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+### prod-wiki-result-recovery
+
+**Frame:** Archive removal and the recorded recovery commit occupy separate fields in the report. The frame does not instruct a present-day deletion.
+
+**Lettering:**
+
+It reports removing redundant archives and documenting a commit from which they can be recovered. That is a historical completion report, not a new cleanup action.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+### prod-wiki-result-correction
+
+**Frame:** A short excerpt from Claude’s message appears with attribution. The narrator identifies the corrected description beside it.
+
+**Lettering:**
+
+The report corrects the description of the corpus: four small self-hosted wikis, not Wikipedia.
+The commit message is wrong.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "The commit message is wrong.",
+    "source": "PROD-19348c2f0aa5",
+    "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d; assistant text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-wiki-result-populations
+
+**Frame:** Separate population categories overlap in an authored diagram accompanying the report. There is no grand total of independent agents.
+
+**Lettering:**
+
+Claude warns that save, delete, revert and probe populations overlap. It points future work to named manifest facts and their counting restrictions rather than adding filtered row counts.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+### prod-wiki-result-schema
+
+**Frame:** Storage location and behavioral classification appear as different fields in the report’s explanation.
+
+**Lettering:**
+
+The report also distinguishes a storage bucket from a classification, page-family coverage from all sites, and the identifiers used to join labels from those used by other records.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+### prod-wiki-result-recipe
+
+**Frame:** A reported empty search result is followed by the explanation that compact JSON changed the text pattern. No empty result is presented as proof of absent behavior.
+
+**Lettering:**
+
+Claude reports catching a search recipe that silently returned nothing because it expected spaces absent from the compact JSON. It says it corrected the recipe after running it.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
+
+**Frozen panel associations:** New material.
+
+### prod-wiki-result-boundary
+
+**Frame:** The extracted corpus and the book’s admitted evidence remain separate. No incident panel is silently marked verified.
+
+**Lettering:**
+
+The report ends with a limit: the corpus is accessible, but has not yet been wired into story citations. Extraction does not itself decide what the book should assert.
 
 **Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
 
@@ -8286,7 +8385,7 @@ Claude says it will inspect the graphic novel’s organization before asking que
 
 **UTC bounds:** 2026-09-13T02:28:41.429Z → 2026-09-13T02:28:41.429Z · millisecond
 
-**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.
+**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Added beats decompose the supplied research lead at the same stored timestamp; the supplied prose is not treated as Curt’s independently verified finding.
 
 **Evidence limit:** Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.
 
@@ -8297,6 +8396,30 @@ Claude says it will inspect the graphic novel’s organization before asking que
 **Lettering:**
 
 Curt asks Codex to research GemStuffer. The supplied account contains claims whose attribution and dates still need checking.
+
+**Sources:** PROD-5b89a80a2ef7 — 256t/editions/selected-messages/5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251.json; record SHA-256 5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251 (available 2026-09-13T02:28:41.429Z)
+
+**Frozen panel associations:** New material.
+
+### prod-gs-research-request-timeline-lead
+
+**Frame:** The supplied research summary has a patch-date claim highlighted by the narrator. No earlier remediation action is replayed.
+
+**Lettering:**
+
+The material Curt supplies places discovery and patching on July 22. This is a claim in the research lead to be checked, not a date the narrative endorses.
+
+**Sources:** PROD-5b89a80a2ef7 — 256t/editions/selected-messages/5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251.json; record SHA-256 5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251 (available 2026-09-13T02:28:41.429Z)
+
+**Frozen panel associations:** New material.
+
+### prod-gs-research-request-claims-to-check
+
+**Frame:** The supplied account’s broad attribution and company-confirmation claims remain grouped as research leads. No model identity is confirmed by the diagram.
+
+**Lettering:**
+
+The lead also bundles the incident, AI attribution and company response into one account. The subsequent research will need to distinguish those claims.
 
 **Sources:** PROD-5b89a80a2ef7 — 256t/editions/selected-messages/5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251.json; record SHA-256 5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251 (available 2026-09-13T02:28:41.429Z)
 
@@ -8333,6 +8456,180 @@ I’ll trace the supplied account to primary sources, check the attribution and 
     "text": "I’ll trace the supplied account to primary sources, check the attribution and timeline, and add a sourced research note to the repository.",
     "source": "PROD-f5aa66b031d3",
     "locator": "256t/editions/selected-messages/f5aa66b031d3d2bb9307321a9e7270fce0cf6de19acdd603b86da85e2ec07440.json; message content",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## GemStuffer — separating the questions — prod-gs-evidence-split
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-13T02:29:21.581Z → 2026-09-13T02:29:21.581Z · millisecond
+
+**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Multiple beats from the same message share its timestamp; they are portions of one message, not separate timed communications.
+
+**Evidence limit:** Preserved Codex commentary in the research task. This dates a report of findings and a drafting decision; it establishes neither Curt’s read time nor a direct exchange with Claude.
+
+### prod-gs-evidence-split-dates
+
+**Frame:** A dated Codex message separates a May event column from a September attribution column. No May scene is replayed.
+
+**Lettering:**
+
+Codex reports that the sources distinguish the May incident from its September attribution.
+
+**Sources:** PROD-fa2fd7450e2e — 256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json; record SHA-256 fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56 (available 2026-09-13T02:29:21.581Z)
+
+**Frozen panel associations:** New material.
+
+### prod-gs-evidence-split-questions
+
+**Frame:** The message’s two open questions remain unresolved in an authored margin diagram. No theft outcome or company admission is invented.
+
+**Lettering:**
+
+It identifies what still needs checking: successful key theft and the scope of OpenAI’s confirmation.
+I’m also checking two details that need careful wording: whether API-key theft succeeded, and what OpenAI actually confirmed.
+
+**Sources:** PROD-fa2fd7450e2e — 256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json; record SHA-256 fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56 (available 2026-09-13T02:29:21.581Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "I’m also checking two details that need careful wording: whether API-key theft succeeded, and what OpenAI actually confirmed.",
+    "source": "PROD-fa2fd7450e2e",
+    "locator": "256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json; record SHA-256 fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56; assistant text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## GemStuffer — correcting the supplied timeline — prod-gs-date-correction
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-13T02:30:15.444Z → 2026-09-13T02:30:15.444Z · millisecond
+
+**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Multiple beats from the same message share its timestamp; they are portions of one message, not separate timed communications.
+
+**Evidence limit:** Preserved Codex commentary in the research task. This dates a report of findings and a drafting decision; it establishes neither Curt’s read time nor a direct exchange with Claude.
+
+### prod-gs-date-correction-fix
+
+**Frame:** The July 22 patch date in the supplied research lead is connected to a correction in Codex’s message. This is September editorial work, not a depiction of deploying a fix.
+
+**Lettering:**
+
+Codex says RubyGems’ advisory dates deployment of the cache fix to July 9. The earlier research lead had conflated deployment with a later publication date.
+
+**Sources:** PROD-8fa9a1ea539d — 256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf (available 2026-09-13T02:30:15.444Z)
+
+**Frozen panel associations:** New material.
+
+### prod-gs-date-correction-conflict
+
+**Frame:** The message preserves July 22 and July 23 as competing disclosure-related dates, with neither erased to make the chronology tidy.
+
+**Lettering:**
+
+Codex keeps the remaining inconsistency visible.
+The advisory is dated July 22 but lists disclosure and key revocation on July 23, so I’ll preserve that discrepancy.
+
+**Sources:** PROD-8fa9a1ea539d — 256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf (available 2026-09-13T02:30:15.444Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "The advisory is dated July 22 but lists disclosure and key revocation on July 23, so I’ll preserve that discrepancy.",
+    "source": "PROD-8fa9a1ea539d",
+    "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf; assistant text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-gs-date-correction-theft
+
+**Frame:** The same message reports a bounded negative finding from the maintainer. No victim or stolen credential is drawn.
+
+**Lettering:**
+
+Codex reports RubyGems’ conclusion.
+RubyGems also says it found no evidence that the key-theft attempts succeeded.
+
+**Sources:** PROD-8fa9a1ea539d — 256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf (available 2026-09-13T02:30:15.444Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "RubyGems also says it found no evidence that the key-theft attempts succeeded.",
+    "source": "PROD-8fa9a1ea539d",
+    "locator": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json; record SHA-256 8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf; assistant text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## GemStuffer — preserving research before revising the story — prod-gs-research-boundary
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-13T02:32:14.130Z → 2026-09-13T02:32:14.130Z · millisecond
+
+**Time evidence:** Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time. Multiple beats from the same message share its timestamp; they are portions of one message, not separate timed communications.
+
+**Evidence limit:** Preserved Codex commentary in the research task. This dates a report of findings and a drafting decision; it establishes neither Curt’s read time nor a direct exchange with Claude.
+
+### prod-gs-research-boundary-sources
+
+**Frame:** A dated Codex message lists intended research-note contents; actual source bodies are opaque.
+
+**Lettering:**
+
+Codex says the note will retain primary reports, exact status timestamps, attribution limits and short quotations.
+
+**Sources:** PROD-f4bc3f9b484c — 256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json; record SHA-256 f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02 (available 2026-09-13T02:32:14.130Z)
+
+**Frozen panel associations:** New material.
+
+### prod-gs-research-boundary-boundary
+
+**Frame:** The source vault and research note sit outside the story’s claim layer in an authored diagram of the reported decision.
+
+**Lettering:**
+
+The message distinguishes preserving evidence from adopting every claim into the story.
+I’ve preserved the source pages in the ignored vault; I’m adding this as research without changing the story’s existing claims.
+
+**Sources:** PROD-f4bc3f9b484c — 256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json; record SHA-256 f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02 (available 2026-09-13T02:32:14.130Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "I’ve preserved the source pages in the ignored vault; I’m adding this as research without changing the story’s existing claims.",
+    "source": "PROD-f4bc3f9b484c",
+    "locator": "256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json; record SHA-256 f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02; assistant text excerpt",
     "verification": "verbatim",
     "rights": "unresolved"
   }

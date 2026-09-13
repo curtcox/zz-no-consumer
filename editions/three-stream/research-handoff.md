@@ -60,9 +60,10 @@ Other branches, issues, discussions and deleted history are outside this check.
 Commit clocks do not establish message, reading or source-encounter times.
 No comments, messages, commits or pushes were sent.
 
-[production-selections.json](production-selections.json) records eighteen inspected
+[production-selections.json](production-selections.json) records twenty-one inspected
 messages now drafted as dated collaboration fragments: the fourteen request/first
-response records and four later system reports. The originals were checked against
+response records, four later system reports and three intermediate GemStuffer
+research updates. The originals were checked against
 their hashes. The fragments distinguish a proposed action from a completion report,
 and a completion report from independent verification. They neither establish the
 first entrance nor replace the missing other-Mac chronology.
@@ -194,3 +195,26 @@ and download counts. The September attribution and the maintainers’ inability 
 establish AI authorship still require full treatment through dated collaboration
 records. These mechanism additions do not settle the motivation, author identity,
 July disclosure-date discrepancy or successful-theft question.
+
+The collaboration pass expands Claude’s September 4 wiki completion report into
+its distinct findings: archive duplication, evidence placement, recovery of removed
+archives, the correction from Wikipedia to four self-hosted wikis, overlapping
+populations, schema distinctions, an empty-search trap and the remaining story-
+admission boundary. These are portions of one message at one stored timestamp,
+not separately observed tool operations or independently verified completion claims.
+
+Three newly preserved Codex messages from September 13 UTC show the GemStuffer
+research between its request and final report: separating May activity from
+September attribution, correcting deployment to July 9 while retaining the July
+22/23 inconsistency, distinguishing theft intent from success and preserving
+research before changing story claims. The supplied research lead is also
+decomposed so the mistaken patch date is visible as a claim being checked. No
+scene invents a Curt read receipt or direct communication with Claude.
+
+All 21 selected originals were checked against their hash-named copies, source
+line numbers and byte ranges. The first fourteen locators used inclusive end
+offsets, unlike later selections. Their metadata now uses explicitly documented
+half-open ranges including the JSONL newline; previous inclusive bounds are
+retained for audit. Original files, copied message records and their hashes were
+not altered. The current-Mac metadata catalog remains a locator aid, not a
+substitute for the inspected originals or the other Mac’s records.

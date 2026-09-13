@@ -12,7 +12,7 @@
     "line": 7,
     "bytes": [
       121434,
-      124803
+      124804
     ],
     "record_sha256": "24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd",
     "file_sha256": "500c016654f6b83dbf2bf5ce5a7bc58e01e5b26a5ce958d3754acf308481a050",
@@ -22,7 +22,12 @@
     "title": "Publication setup",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Curt requests a directory structure and GitHub Pages workflow.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      121434,
+      124803
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-01T20-53-34-01a05fd2-5486-7d12-8a9c-f13eab35fba8:12",
@@ -37,7 +42,7 @@
     "line": 12,
     "bytes": [
       131775,
-      132565
+      132566
     ],
     "record_sha256": "2ae7dabf9887127bdf39123dc34755fdcd2581e92d845f353a3c8a4ceba108cc",
     "file_sha256": "500c016654f6b83dbf2bf5ce5a7bc58e01e5b26a5ce958d3754acf308481a050",
@@ -47,7 +52,12 @@
     "title": "Publication setup",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      131775,
+      132565
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-01T22-36-59-01a06031-01d6-71a1-8f27-00a71217ffe9:9",
@@ -62,7 +72,7 @@
     "line": 9,
     "bytes": [
       124946,
-      125528
+      125529
     ],
     "record_sha256": "e30346fdc99de8c48f37f4ba392be12757e3383919a2a8dac9939424c3d58b20",
     "file_sha256": "1e0d203383b2524548626b5e5e954f5ae513fa3f241227c2f4dff614d084ce85",
@@ -72,7 +82,12 @@
     "title": "Parallel accounts",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Curt asks for parallel event viewpoints, before the present three-row plan.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      124946,
+      125528
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-01T22-36-59-01a06031-01d6-71a1-8f27-00a71217ffe9:14",
@@ -87,7 +102,7 @@
     "line": 14,
     "bytes": [
       129025,
-      129574
+      129575
     ],
     "record_sha256": "01fea12e58b55bcb400d2b6c71f86667bd055a6392ff4a9b2f473ac87255feb5",
     "file_sha256": "1e0d203383b2524548626b5e5e954f5ae513fa3f241227c2f4dff614d084ce85",
@@ -97,7 +112,12 @@
     "title": "Parallel accounts",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      129025,
+      129574
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:42d0dc8f-3e4e-4862-956a-2a143012c080:3",
@@ -112,7 +132,7 @@
     "line": 3,
     "bytes": [
       383,
-      956
+      957
     ],
     "record_sha256": "f0a81b12f26ebbf4595eced7cb2bcf6724ce5b42c7fc8db166708f94d786b3cc",
     "file_sha256": "f8d529971e09d0f9b87f4e1727b4e390d2592e316e40f07e9077d4ea2921d1b4",
@@ -122,7 +142,12 @@
     "title": "Chapter readiness",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Curt asks Claude what remains before drafting chapters.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      383,
+      956
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:42d0dc8f-3e4e-4862-956a-2a143012c080:15",
@@ -137,7 +162,7 @@
     "line": 15,
     "bytes": [
       38843,
-      40158
+      40159
     ],
     "record_sha256": "f4efb887a373d367d3ee8e460d6f70a0efe0bc746a59b9efdb43cc65542196be",
     "file_sha256": "f8d529971e09d0f9b87f4e1727b4e390d2592e316e40f07e9077d4ea2921d1b4",
@@ -147,7 +172,12 @@
     "title": "Chapter readiness",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      38843,
+      40158
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:15165d3f-da7d-4993-9b5a-a9ecd2308990:3",
@@ -162,7 +192,7 @@
     "line": 3,
     "bytes": [
       357,
-      904
+      905
     ],
     "record_sha256": "7b9e29f7ca4e029a8fdbe8dfb2d7ec1bbda24514d632ab4b8cdc48480cea3ee8",
     "file_sha256": "9c3f04d91b24a7f7bfa20718398bd7a5980ec0cb2f5b6f7fdf1a1f8df20d342d",
@@ -172,7 +202,12 @@
     "title": "Identity tools",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Curt asks Claude to implement the page-identity task, starting with the design note.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      357,
+      904
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:15165d3f-da7d-4993-9b5a-a9ecd2308990:14",
@@ -187,7 +222,7 @@
     "line": 14,
     "bytes": [
       38689,
-      40004
+      40005
     ],
     "record_sha256": "d6d7cce76a1758c6569813bac569b359b1248bf04128b94540487362610f58b2",
     "file_sha256": "9c3f04d91b24a7f7bfa20718398bd7a5980ec0cb2f5b6f7fdf1a1f8df20d342d",
@@ -197,7 +232,12 @@
     "title": "Identity tools",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      38689,
+      40004
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:3",
@@ -212,7 +252,7 @@
     "line": 3,
     "bytes": [
       439,
-      1068
+      1069
     ],
     "record_sha256": "3993cf3776472df76db518a2eedd5c175ccda25ce16cd53b215046ef939914ae",
     "file_sha256": "1c879623ed7647494e3668b514b644b184b3cf003468e4ff81f5e1727bcd5c6f",
@@ -222,7 +262,12 @@
     "title": "Wiki corpus extraction",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Curt asks Claude to extract the wiki evidence and make it available for later work.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      439,
+      1068
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:14",
@@ -237,7 +282,7 @@
     "line": 14,
     "bytes": [
       38963,
-      40297
+      40298
     ],
     "record_sha256": "93d644976155fd64f470010e6055fc6765c356a754b1593b9cdf215d550a15bf",
     "file_sha256": "1c879623ed7647494e3668b514b644b184b3cf003468e4ff81f5e1727bcd5c6f",
@@ -247,7 +292,12 @@
     "title": "Wiki corpus extraction",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      38963,
+      40297
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:fb8d8282-73f5-4665-8ed6-f6be28a4e822:3",
@@ -262,7 +312,7 @@
     "line": 3,
     "bytes": [
       652,
-      1494
+      1495
     ],
     "record_sha256": "74d9fbc5e19288fb99611a93865b8f1e2243ea7db30a229e57f7b54cda5b057d",
     "file_sha256": "ed20cdb85492318d8af21d685ee18aa6e6293411e9c6a607b588655bf7791d99",
@@ -272,7 +322,12 @@
     "title": "Prose retelling request",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Curt requests the prose retelling in the session later associated with the recorded model fallback.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      652,
+      1494
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:fb8d8282-73f5-4665-8ed6-f6be28a4e822:15",
@@ -287,7 +342,7 @@
     "line": 15,
     "bytes": [
       41594,
-      42998
+      42999
     ],
     "record_sha256": "91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0",
     "file_sha256": "ed20cdb85492318d8af21d685ee18aa6e6293411e9c6a607b588655bf7791d99",
@@ -297,7 +352,12 @@
     "title": "Prose retelling request",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      41594,
+      42998
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:9",
@@ -312,7 +372,7 @@
     "line": 9,
     "bytes": [
       170194,
-      174205
+      174206
     ],
     "record_sha256": "5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251",
     "file_sha256": "45c3819db1b6afaf971f93a446956b87bd60dc662367e3692f832279a740b4af",
@@ -322,7 +382,12 @@
     "title": "GemStuffer research",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Candidate September GemStuffer research task; content review still required.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      170194,
+      174205
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:12",
@@ -337,7 +402,7 @@
     "line": 12,
     "bytes": [
       178861,
-      179384
+      179385
     ],
     "record_sha256": "f5aa66b031d3d2bb9307321a9e7270fce0cf6de19acdd603b86da85e2ec07440",
     "file_sha256": "45c3819db1b6afaf971f93a446956b87bd60dc662367e3692f832279a740b4af",
@@ -347,7 +412,12 @@
     "title": "GemStuffer research",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "First visible system response to the request; inspect its exact words before scripting.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "previous_bytes_inclusive": [
+      178861,
+      179384
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-01T20-53-34-01a05fd2-5486-7d12-8a9c-f13eab35fba8:86",
@@ -372,7 +442,8 @@
     "title": "Publication setup",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Codex reports adding the structure, builder and Pages workflow, generating 34 HTML pages, and leaving the license as a placeholder because terms were unspecified. This is the system’s completion report; historical repository changes are separate evidence.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:15165d3f-da7d-4993-9b5a-a9ecd2308990:487",
@@ -397,7 +468,8 @@
     "title": "Identity tools",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Claude reports retaining ordinal page identity and implementing coordinated rewrites. It also reports unresolved parity findings. A tooling result and its remaining defects appear in the same account.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162",
@@ -422,7 +494,8 @@
     "title": "Wiki corpus extraction",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Claude reports that the differently named archives contain identical data. It corrects the repository’s earlier Wikipedia description: the records concern four small self-hosted wikis.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   },
   {
     "id": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:154",
@@ -447,6 +520,85 @@
     "title": "GemStuffer research",
     "review": "Original hash verified and message content inspected; source timestamp is not a human read receipt.",
     "claim": "Codex reports adding a research assessment with corrected dates, attribution limits and unresolved theft outcomes. The dated production act is the report of research completion, not a September reenactment of May package execution.",
-    "source_kind": "preserved production record"
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
+  },
+  {
+    "id": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:37",
+    "machine": "current-mac",
+    "actor": "Codex",
+    "role": "assistant",
+    "model": null,
+    "timestamp_original": "2026-09-13T02:29:21.581Z",
+    "utc": "2026-09-13T02:29:21.581Z",
+    "clock_meaning": "stored message record; delivery/read time not established",
+    "path": "/Users/curtcox/.codex/sessions/2026/09/12/rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774.jsonl",
+    "line": 37,
+    "bytes": [
+      816547,
+      817131
+    ],
+    "record_sha256": "fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56",
+    "file_sha256": "45c3819db1b6afaf971f93a446956b87bd60dc662367e3692f832279a740b4af",
+    "selection": "selected for dated manuscript fragment",
+    "caveat": "user role may include injected context or tool results; inspect before assigning Curt",
+    "immutable_record": "256t/editions/selected-messages/fa2fd7450e2e6ad630340adb311e23af887c8be925c98a09e38c476468034a56.json",
+    "title": "GemStuffer research",
+    "review": "Original record bytes and assistant message role inspected; exact excerpts verified against stored message text. Stored time is not a human read receipt.",
+    "claim": "Codex separates the May incident from September attribution and identifies theft success and company confirmation as questions requiring checking.",
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
+  },
+  {
+    "id": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:79",
+    "machine": "current-mac",
+    "actor": "Codex",
+    "role": "assistant",
+    "model": null,
+    "timestamp_original": "2026-09-13T02:30:15.444Z",
+    "utc": "2026-09-13T02:30:15.444Z",
+    "clock_meaning": "stored message record; delivery/read time not established",
+    "path": "/Users/curtcox/.codex/sessions/2026/09/12/rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774.jsonl",
+    "line": 79,
+    "bytes": [
+      1171051,
+      1171767
+    ],
+    "record_sha256": "8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf",
+    "file_sha256": "45c3819db1b6afaf971f93a446956b87bd60dc662367e3692f832279a740b4af",
+    "selection": "selected for dated manuscript fragment",
+    "caveat": "user role may include injected context or tool results; inspect before assigning Curt",
+    "immutable_record": "256t/editions/selected-messages/8fa9a1ea539d44f020a588a9ee25f4d9355231a38338ab402f78734b81f247bf.json",
+    "title": "GemStuffer research",
+    "review": "Original record bytes and assistant message role inspected; exact excerpts verified against stored message text. Stored time is not a human read receipt.",
+    "claim": "Codex reports the July 9 fix date, retains the July 22/23 publication discrepancy, and reports the maintainer’s no-evidence-of-success finding.",
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
+  },
+  {
+    "id": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:132",
+    "machine": "current-mac",
+    "actor": "Codex",
+    "role": "assistant",
+    "model": null,
+    "timestamp_original": "2026-09-13T02:32:14.130Z",
+    "utc": "2026-09-13T02:32:14.130Z",
+    "clock_meaning": "stored message record; delivery/read time not established",
+    "path": "/Users/curtcox/.codex/sessions/2026/09/12/rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774.jsonl",
+    "line": 132,
+    "bytes": [
+      1326343,
+      1326971
+    ],
+    "record_sha256": "f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02",
+    "file_sha256": "45c3819db1b6afaf971f93a446956b87bd60dc662367e3692f832279a740b4af",
+    "selection": "selected for dated manuscript fragment",
+    "caveat": "user role may include injected context or tool results; inspect before assigning Curt",
+    "immutable_record": "256t/editions/selected-messages/f4bc3f9b484c5356fdb3f20df5a522c1823702a04614cb104634cf80c6de4a02.json",
+    "title": "GemStuffer research",
+    "review": "Original record bytes and assistant message role inspected; exact excerpts verified against stored message text. Stored time is not a human read receipt.",
+    "claim": "Codex states that source records are preserved and the addition remains research rather than an automatic revision of story claims.",
+    "source_kind": "preserved production record",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline"
   }
 ]
