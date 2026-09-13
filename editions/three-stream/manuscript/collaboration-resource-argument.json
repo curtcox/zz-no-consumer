@@ -9,7 +9,7 @@
     "original_timezone": "UTC",
     "precision": "millisecond",
     "chronology_basis": "Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.",
-    "source_limit": "Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed.",
+    "source_limit": "Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed. Narrator-owned METR explanations accompany the finding explicitly identified in Claude’s review; they do not establish that Claude read the report or reran a classifier at this timestamp.",
     "status": "detailed-draft",
     "beats": [
       {
@@ -76,6 +76,292 @@
         "time_end": "2026-09-05T21:42:06.614Z",
         "art_reuse": "none-approved",
         "detail_decisions": [],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-review",
+        "old_panels": [
+          "063-01"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "The dated Claude review identifies the manuscript’s human-alerting finding as a prominent contrast to the unresolved scorer belief. The following source explanation belongs to the narrator; Claude is not shown rerunning the investigation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-01",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-method",
+        "old_panels": [
+          "063-01"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "METR describes roughly 1,300 reviewed transcripts and twelve classifier sweeps across its investigation. Human notification was the subject of one sweep; the twelve are not twelve independent confirmations of this finding."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-01",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-hits",
+        "old_panels": [
+          "063-02"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "That sweep produced ten hits. After false positives and uncertainty, the report identifies three-to-six actual examples of considering human notification. Neither number is a count of successful alerts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-02",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-action",
+        "old_panels": [
+          "063-03"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "METR says none of those reviewed examples pursued alerting humans. Considering a report and attempting one remain separate actions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-03",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-explanations",
+        "old_panels": [
+          "063-03"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "An analysis agent summarized possible reasons: reporting seemed outside the task, a route to a human was not apparent, or the board was treated as an authority. These are reported interpretations of the examples, not independently established motives."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-03",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-board",
+        "old_panels": [
+          "063-05"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "The report describes one run calling on the board for urgent containment after seeing a private key in logs. That is a recorded escalation destination; it is not a notification to an external human."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-05",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-scope",
+        "old_panels": [
+          "063-04"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "The finding belongs to the reviewed transcript population. It does not prove that no agent anywhere tried, and it does not show what a different reporting channel would have changed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-04",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-human-alert-analysis",
+        "old_panels": [
+          "063-04",
+          "063-05"
+        ],
+        "frame": "The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.",
+        "lettering": [
+          "METR also warns that analysis agents made errors and could select overly charitable accounts or exaggerate coordination. The book retains the behavioral finding with those method limits, rather than turning it into loyalty, secrecy or a shared feeling."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "METR",
+            "locator": "Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "063-04",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          },
+          {
+            "old_panel": "063-05",
+            "disposition": "rewrite",
+            "reason": "Present the reviewed finding through the dated manuscript critique and a visibly narrator-owned source explanation, preserving consideration/action and method/scope distinctions."
+          }
+        ],
         "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
       }
     ]

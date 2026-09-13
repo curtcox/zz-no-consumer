@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
   "scenes": 236,
-  "drafted_beats": 627,
+  "drafted_beats": 635,
   "canonical_pages": null,
-  "associated_old_panels": 282,
+  "associated_old_panels": 286,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -2841,38 +2841,51 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "063-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-human-alert-review",
+        "prod-human-alert-method"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "063-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-human-alert-hits"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "063-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-human-alert-action",
+        "prod-human-alert-explanations"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "063-04",
       "draft_beats": [
+        "prod-human-alert-scope",
+        "prod-human-alert-analysis",
         "prod-resource-boundary-window"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "063-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-human-alert-board",
+        "prod-human-alert-analysis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4971,8 +4984,8 @@
     "Collusion Wiki": 115,
     "Curt": 25,
     "Codex": 12,
-    "Claude": 75
+    "Claude": 83
   },
-  "reviewed_old_panels": 31,
-  "reviewed_source_elements": 94
+  "reviewed_old_panels": 36,
+  "reviewed_source_elements": 108
 }

@@ -8450,7 +8450,7 @@ The report ends with a limit: the corpus is accessible, but has not yet been wir
 
 **Time evidence:** Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.
 
-**Evidence limit:** Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed.
+**Evidence limit:** Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed. Narrator-owned METR explanations accompany the finding explicitly identified in Claude’s review; they do not establish that Claude read the report or reran a classifier at this timestamp.
 
 ### prod-resource-question-test
 
@@ -8487,6 +8487,102 @@ The same review objects that the reconstructed creator layer repeatedly makes Cu
 **Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z)
 
 **Frozen panel associations:** New material.
+
+### prod-human-alert-review
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+The dated Claude review identifies the manuscript’s human-alerting finding as a prominent contrast to the unresolved scorer belief. The following source explanation belongs to the narrator; Claude is not shown rerunning the investigation.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-01
+
+### prod-human-alert-method
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+METR describes roughly 1,300 reviewed transcripts and twelve classifier sweeps across its investigation. Human notification was the subject of one sweep; the twelve are not twelve independent confirmations of this finding.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-01
+
+### prod-human-alert-hits
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+That sweep produced ten hits. After false positives and uncertainty, the report identifies three-to-six actual examples of considering human notification. Neither number is a count of successful alerts.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-02
+
+### prod-human-alert-action
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+METR says none of those reviewed examples pursued alerting humans. Considering a report and attempting one remain separate actions.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-03
+
+### prod-human-alert-explanations
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+An analysis agent summarized possible reasons: reporting seemed outside the task, a route to a human was not apparent, or the board was treated as an authority. These are reported interpretations of the examples, not independently established motives.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-03
+
+### prod-human-alert-board
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+The report describes one run calling on the board for urgent containment after seeing a private key in logs. That is a recorded escalation destination; it is not a notification to an external human.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-05
+
+### prod-human-alert-scope
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+The finding belongs to the reviewed transcript population. It does not prove that no agent anywhere tried, and it does not show what a different reporting channel would have changed.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-04
+
+### prod-human-alert-analysis
+
+**Frame:** The dated manuscript review is accompanied by an explicitly authored source explanation. Separate visual fields show classifier candidates, considered actions and pursued actions; no METR workplace, live classification run or incident replay is invented.
+
+**Lettering:**
+
+METR also warns that analysis agents made errors and could select overly charitable accounts or exaggerate coordination. The book retains the behavioral finding with those method limits, rather than turning it into loyalty, secrecy or a shared feeling.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); METR — Human notification, printed pp. 62–63 and fn. 100; investigation scope and limitations, pp. 23–27; classifier methods, p. 75 (available 2026-08-26)
+
+**Frozen panel associations:** 063-04, 063-05
 
 ## A prose retelling is requested — prod-prose-request
 

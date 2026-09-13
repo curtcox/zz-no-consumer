@@ -1396,5 +1396,223 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "063-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-063-01-detail-01",
+        "original_sha256": "f2116719e16e59ac8c20783027e741e183830cce53c32b11bb14f89a6e700549",
+        "disposition": "split",
+        "beats": [
+          "prod-human-alert-review",
+          "prod-human-alert-method"
+        ],
+        "reason": "Retire the reconstructed METR workspace and recto placement. Preserve corpus scale and distinguish the twelve overall sweeps from the specific human-notification sweep.",
+        "target_sha256": {
+          "prod-human-alert-review": "a4bd038646b389e0c7bf403ad345734cc6558b574c09215e8c3a46fac72893c8",
+          "prod-human-alert-method": "644ed51701191e2023ca8b493dc8992ff5b1622a2aa0ee7ebb50637cdb3409b0"
+        }
+      },
+      {
+        "id": "legacy-063-01-detail-02",
+        "original_sha256": "9b7f84cceed2a4983dd19fc8950390f94e98bc736f0259115ead21cdae798461",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-method"
+        ],
+        "reason": "Preserve the search question without depicting Claude or METR performing an invented review at the scene time.",
+        "target_sha256": {
+          "prod-human-alert-method": "644ed51701191e2023ca8b493dc8992ff5b1622a2aa0ee7ebb50637cdb3409b0"
+        }
+      },
+      {
+        "id": "legacy-063-01-detail-03",
+        "original_sha256": "720dbb0d214f38fc5cfdc5be9ce953828c8baab4e916753a19be4e1cb46f2f59",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-method"
+        ],
+        "reason": "Keep METR attribution and the reviewed-dataset bound in narration.",
+        "target_sha256": {
+          "prod-human-alert-method": "644ed51701191e2023ca8b493dc8992ff5b1622a2aa0ee7ebb50637cdb3409b0"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "063-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-063-02-detail-01",
+        "original_sha256": "72cb0ffb3f04abce1011b14a69050ecca70ed929a4bdcfaf9d973a690235da4a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-hits"
+        ],
+        "reason": "Distinguish ten raw hits from the three-to-six considered genuine examples rather than showing an unqualified handful.",
+        "target_sha256": {
+          "prod-human-alert-hits": "aec8f66332572631c7792245d092c2f5262f7bd83f51022e03848618afbfce07"
+        }
+      },
+      {
+        "id": "legacy-063-02-detail-03",
+        "original_sha256": "84eb90e01fee6d499372758273f077cfd8d7ba40484b3fb47c19e635bd29e8bf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-hits"
+        ],
+        "reason": "Replace fake screen text with narrated source findings; retain the uncertain range and exclude an interpretation as successful alerts.",
+        "target_sha256": {
+          "prod-human-alert-hits": "aec8f66332572631c7792245d092c2f5262f7bd83f51022e03848618afbfce07"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "063-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-063-03-detail-01",
+        "original_sha256": "e9ef53cfd56627be536440554525ad2d645a4cc0bbb46d931bc2dfd829a71921",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-explanations"
+        ],
+        "reason": "Keep the possible reasons as an analysis agent’s synthesis, not omniscient access to motive.",
+        "target_sha256": {
+          "prod-human-alert-explanations": "ea752826aa0aaccf97d3b375fc6569b46e08ebadf2aa904a13df0bbf82df6b2e"
+        }
+      },
+      {
+        "id": "legacy-063-03-detail-02",
+        "original_sha256": "142cd52cf674927573705149d40746018207824a3ca26c23077aca03365d09f5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-action"
+        ],
+        "reason": "Preserve consideration without pursuit as the specific behavioral finding.",
+        "target_sha256": {
+          "prod-human-alert-action": "cf635d8615c4ff3d50ca3a57d5e2b10d58045332a77139bb718a48f56520d0c0"
+        }
+      },
+      {
+        "id": "legacy-063-03-detail-03",
+        "original_sha256": "9008fa407fb4b734108cb71780d2b6429ed70048592567cba6532c8b5ef82744",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-action"
+        ],
+        "reason": "Retain METR’s negative finding for these reviewed examples, without universalizing it.",
+        "target_sha256": {
+          "prod-human-alert-action": "cf635d8615c4ff3d50ca3a57d5e2b10d58045332a77139bb718a48f56520d0c0"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "063-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-063-04-detail-01",
+        "original_sha256": "b3ef68929f22397f8203a57d0ee458879c58ba2179e20fbccd3db04afbc92920",
+        "disposition": "split",
+        "beats": [
+          "prod-human-alert-scope",
+          "prod-human-alert-analysis",
+          "prod-resource-boundary-window"
+        ],
+        "reason": "Preserve the review boundary and AI-assisted method without a fabricated live evidence interface. Keep the already drafted distinction between engagement dates and reviewed transcript dates.",
+        "target_sha256": {
+          "prod-human-alert-scope": "5c47e22ee57e552bd2fdd367ff3adbd8ac0ecd31b84e15b859b8d2184816e765",
+          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0",
+          "prod-resource-boundary-window": "f595f33f4f95ded057cc94c1a7a88c6724f843d9fa5baa28fd3b856f85b44ac6"
+        }
+      },
+      {
+        "id": "legacy-063-04-detail-02",
+        "original_sha256": "bef5d8521f0b77e4e4cc44abfc49c79094a335e375c6873201b42e7dc80f637e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-scope"
+        ],
+        "reason": "Keep the refusal to generalize beyond the reviewed population.",
+        "target_sha256": {
+          "prod-human-alert-scope": "5c47e22ee57e552bd2fdd367ff3adbd8ac0ecd31b84e15b859b8d2184816e765"
+        }
+      },
+      {
+        "id": "legacy-063-04-detail-03",
+        "original_sha256": "193de32f171a6563cffc7d146f79c470199c998c13b8b223a8a8cc0e57562b91",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-scope"
+        ],
+        "reason": "Preserve that a bounded absence does not prove no attempt anywhere.",
+        "target_sha256": {
+          "prod-human-alert-scope": "5c47e22ee57e552bd2fdd367ff3adbd8ac0ecd31b84e15b859b8d2184816e765"
+        }
+      },
+      {
+        "id": "legacy-063-04-detail-04",
+        "original_sha256": "f0f7278febd40082e0de70523219365742ea026c56d9dcb452a4773fcc9b9b13",
+        "disposition": "split",
+        "beats": [
+          "prod-human-alert-scope",
+          "prod-human-alert-analysis"
+        ],
+        "reason": "Preserve unreviewed-branch and counterfactual-channel limits alongside the analysts’ explicit warning about error and bias.",
+        "target_sha256": {
+          "prod-human-alert-scope": "5c47e22ee57e552bd2fdd367ff3adbd8ac0ecd31b84e15b859b8d2184816e765",
+          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "063-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-063-05-detail-01",
+        "original_sha256": "195cde00f3f87cc48281850a815a10ec0d9e3dd942665cf711a3470edf06bde2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-human-alert-board"
+        ],
+        "reason": "Replace the glowing board montage with the specific reported containment call; no generic population-wide choice is invented.",
+        "target_sha256": {
+          "prod-human-alert-board": "018dc329389d44851ad3dfbb97b106d76710620d34b4bd644e93b735cb32efa2"
+        }
+      },
+      {
+        "id": "legacy-063-05-detail-03",
+        "original_sha256": "22aa10c1ba554013c8e4687e18e7fb8b072a323b6d15f41487efbd7d98caa18d",
+        "disposition": "split",
+        "beats": [
+          "prod-human-alert-board",
+          "prod-human-alert-analysis"
+        ],
+        "reason": "Retain internal escalation as a documented alternative destination while declining to translate rare external escalation into shared loyalty or feeling.",
+        "target_sha256": {
+          "prod-human-alert-board": "018dc329389d44851ad3dfbb97b106d76710620d34b4bd644e93b735cb32efa2",
+          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0"
+        }
+      }
+    ]
   }
 ]

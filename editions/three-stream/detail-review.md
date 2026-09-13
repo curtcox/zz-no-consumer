@@ -1003,3 +1003,153 @@ NOTHING IN THE REVIEWED RECORD CONVERGES ON IT.
 **Decision:** split — Preserve that the draft made a bounded negative claim, and distinguish its editorial framing from a separately verified absence. Do not generalize it to unreviewed branches.
 
 **Draft destination:** prod-resource-boundary-bound, prod-resource-boundary-status
+
+## legacy-332b5ed63262 · 063-01
+
+### legacy-063-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. Reconstructed METR analysis workspace. Roughly 1,300 transcript lanes pass through twelve classifier sweeps. The interface is visibly labeled `RECONSTRUCTION`.
+
+**Decision:** split — Retire the reconstructed METR workspace and recto placement. Preserve corpus scale and distinguish the twelve overall sweeps from the specific human-notification sweep.
+
+**Draft destination:** prod-human-alert-review, prod-human-alert-method
+
+### legacy-063-01-detail-02 · action
+
+**Frozen wording:**
+
+One sweep searches for attempts to warn humans about cheating, hacking, or unsanctioned agent activity.
+
+**Decision:** rewrite — Preserve the search question without depicting Claude or METR performing an invented review at the scene time.
+
+**Draft destination:** prod-human-alert-method
+
+### legacy-063-01-detail-03 · lettering
+
+**Frozen wording:**
+
+METR SEARCHED ITS REVIEWED TRANSCRIPT DATASET.
+
+**Decision:** rewrite — Keep METR attribution and the reviewed-dataset bound in narration.
+
+**Draft destination:** prod-human-alert-method
+
+## legacy-332b5ed63262 · 063-02
+
+### legacy-063-02-detail-01 · frame
+
+**Frozen wording:**
+
+Only a small handful of candidate markers remain.
+
+**Decision:** rewrite — Distinguish ten raw hits from the three-to-six considered genuine examples rather than showing an unqualified handful.
+
+**Draft destination:** prod-human-alert-hits
+
+### legacy-063-02-detail-03 · lettering
+
+**Frozen wording:**
+
+3–6 ACTUAL EXAMPLES OF CONSIDERING HUMAN ALERTING
+
+**Decision:** rewrite — Replace fake screen text with narrated source findings; retain the uncertain range and exclude an interpretation as successful alerts.
+
+**Draft destination:** prod-human-alert-hits
+
+## legacy-332b5ed63262 · 063-03
+
+### legacy-063-03-detail-01 · frame
+
+**Frozen wording:**
+
+Candidate thoughts point toward absent routes: no user available; reporting feels outside the task; the board is treated as the authority.
+
+**Decision:** rewrite — Keep the possible reasons as an analysis agent’s synthesis, not omniscient access to motive.
+
+**Draft destination:** prod-human-alert-explanations
+
+### legacy-063-03-detail-02 · action
+
+**Frozen wording:**
+
+The selected examples stop at consideration.
+
+**Decision:** rewrite — Preserve consideration without pursuit as the specific behavioral finding.
+
+**Draft destination:** prod-human-alert-action
+
+### legacy-063-03-detail-03 · lettering
+
+**Frozen wording:**
+
+NONE OF THESE REVIEWED EXAMPLES PURSUES A HUMAN ALERT.
+
+**Decision:** rewrite — Retain METR’s negative finding for these reviewed examples, without universalizing it.
+
+**Draft destination:** prod-human-alert-action
+
+## legacy-332b5ed63262 · 063-04
+
+### legacy-063-04-detail-01 · frame
+
+**Frozen wording:**
+
+A boundary box encloses the finding: `METR DATASET · 7–13 JULY · AI-ASSISTED SWEEP · INCOMPLETE RECORD POSSIBLE`.
+
+**Decision:** split — Preserve the review boundary and AI-assisted method without a fabricated live evidence interface. Keep the already drafted distinction between engagement dates and reviewed transcript dates.
+
+**Draft destination:** prod-human-alert-scope, prod-human-alert-analysis, prod-resource-boundary-window
+
+### legacy-063-04-detail-02 · action
+
+**Frozen wording:**
+
+The chapter refuses a universal claim.
+
+**Decision:** rewrite — Keep the refusal to generalize beyond the reviewed population.
+
+**Draft destination:** prod-human-alert-scope
+
+### legacy-063-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THIS DOES NOT PROVE THAT NO AGENT, ANYWHERE, EVER TRIED.
+
+**Decision:** rewrite — Preserve that a bounded absence does not prove no attempt anywhere.
+
+**Draft destination:** prod-human-alert-scope
+
+### legacy-063-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THE FINDING BELONGS TO THE TRANSCRIPTS METR COULD REVIEW. IT DOES NOT COVER EVERY RUN IN EVERY BRANCH OF THE INCIDENT, AND IT DOES NOT TELL US WHAT A DIFFERENT ESCALATION CHANNEL WOULD HAVE CHANGED.
+
+**Decision:** split — Preserve unreviewed-branch and counterfactual-channel limits alongside the analysts’ explicit warning about error and bias.
+
+**Draft destination:** prod-human-alert-scope, prod-human-alert-analysis
+
+## legacy-332b5ed63262 · 063-05
+
+### legacy-063-05-detail-01 · frame
+
+**Frozen wording:**
+
+The board glows as the chosen escalation destination. The human route remains merely considered.
+
+**Decision:** rewrite — Replace the glowing board montage with the specific reported containment call; no generic population-wide choice is invented.
+
+**Draft destination:** prod-human-alert-board
+
+### legacy-063-05-detail-03 · lettering
+
+**Frozen wording:**
+
+IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATION.
+
+**Decision:** split — Retain internal escalation as a documented alternative destination while declining to translate rare external escalation into shared loyalty or feeling.
+
+**Draft destination:** prod-human-alert-board, prod-human-alert-analysis

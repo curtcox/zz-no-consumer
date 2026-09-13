@@ -317,3 +317,20 @@ visible. This does not close the rest of 052, the human-alerting analysis in 063
 or the reconstructed conversation in 073; their new associations remain pending
 until every original element has a decision. All 56 selected production records
 pass their original-line, byte-range and hash checks.
+
+The human-alerting pass completes individual decisions for the five original
+063 panels. Eight additional beats accompany the finding named in Claude’s
+September 5 manuscript review, with the narrator explicitly owning the METR
+source explanation. The review message is not evidence that Claude reran the
+classifier or read the report at that precise instant.
+
+The source comparison uses METR’s human-notification section and footnote 100
+(printed page 62), corpus/method limits (pages 24–27), and the twelve overall
+classifier sweeps (page 75). Ten classifier hits, three-to-six actual examples
+of considering an alert, and no pursued notification in those examples remain
+separate. The reasons are attributed to the analysis agent’s synthesis, and the
+board containment request remains a specific internal escalation. The old
+reconstructed METR workspace is retired. Scope dates are preserved through
+the already drafted September 6 distinction between engagement scope and
+reviewed transcripts. The new treatment does not claim universal secrecy,
+loyalty or an outcome for a counterfactual reporting channel.
