@@ -1,0 +1,660 @@
+[
+  {
+    "id": "prod-correction-claim",
+    "title": "The review turns a missing record into an absent channel",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T21:42:06.614Z",
+    "end": "2026-09-05T21:42:06.614Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.",
+    "source_limit": "The original editorial assertion is quoted as a production claim. Narrator qualification is this edition’s analysis, not a later correction falsely attributed to Claude at the same timestamp.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-correction-claim-claim",
+        "old_panels": [],
+        "frame": "The preserved review is the only speaking artifact. A narrator annotation separates its asserted absence from the evidence needed to establish it.",
+        "lettering": [
+          "Claude’s September 5 review asserts “no human told an agent either.” It also says “no channel existed through which a correction could arrive.” These are the review’s claims, preserved as written—not independent findings of this edition."
+        ],
+        "exact_strings": [
+          {
+            "text": "no human told an agent either.",
+            "source": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "no channel existed through which a correction could arrive.",
+            "source": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-correction-claim-boundary",
+        "old_panels": [],
+        "frame": "The preserved review is the only speaking artifact. A narrator annotation separates its asserted absence from the evidence needed to establish it.",
+        "lettering": [
+          "The narrator distinguishes an unpublished prompt or harness from proof that no correction channel existed. The review’s useful operational question survives without adopting its stronger universal claim."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      }
+    ]
+  },
+  {
+    "id": "prod-accountability",
+    "title": "Questions without an invented hearing",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the September 5 committed drafts alongside the September 6 manuscript-review context. The draft artifacts predate the scene; no specific additional reading or correction act is assigned to Claude.",
+    "source_limit": "Project-authored fictional arguments examined as artifacts. Narrator analysis separates open correction-channel questions from unsupported universal absence claims. No hearing, testimony, policy agreement or independently verified solution is created.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-accountability-device",
+        "old_panels": [
+          "099-01",
+          "099-02"
+        ],
+        "frame": "The earlier draft is shown as text with its fiction disclosure; no room, seats or composite officials assemble.",
+        "lettering": [
+          "The historical draft used an invented accountability forum. Its roles and dialogue were fictional. The new edition retains its questions as material under review, without staging a hearing that did not happen."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-FORUM",
+            "locator": "editions/three-stream/evidence/forum-097-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "099-01",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "099-02",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-categories",
+        "old_panels": [
+          "099-03",
+          "099-04"
+        ],
+        "frame": "Four narrator-authored evidence categories remain inside the document discussion, not four story rows.",
+        "lettering": [
+          "The draft’s useful rule separates an event, an organization’s claim, an independent check and an open question. Keeping those categories apart prevents an institutional statement from silently becoming a verified result."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-FORUM",
+            "locator": "editions/three-stream/evidence/forum-097-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "099-03",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "099-04",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-recap",
+        "old_panels": [
+          "099-05"
+        ],
+        "frame": "The narrator identifies the draft’s recap device without reproducing old incident thumbnails or replaying events.",
+        "lettering": [
+          "The forum draft gathered earlier incident scenes as exhibits. Repeating that record did not settle motive, liability or safeguard effectiveness. Those limits remain even when the invented room is removed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-FORUM",
+            "locator": "editions/three-stream/evidence/forum-097-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "099-05",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-belief",
+        "old_panels": [
+          "100-01"
+        ],
+        "frame": "The draft’s belief-versus-deployment comparison is examined as an argument, not restaged as witness testimony.",
+        "lettering": [
+          "The draft distinguishes agents’ expectation of transcript review from OpenAI’s account of the deployed scorer. Its comparison does not make the company’s account an independent audit or the agents’ expectation an irrational belief."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "256t/records/metr-report/content.bin; printed pp. 9–11, scorer belief and source limitations; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-01",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-causal",
+        "old_panels": [
+          "100-02"
+        ],
+        "frame": "The narrator retires the old page-number callback and its claim to explain the whole escalation.",
+        "lettering": [
+          "The draft treated the scorer belief as the cause of its long escalation sequence. That describes its narrative argument; it does not establish one motive behind every later action. The new chronology must not turn that compression into a universal causal finding."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-02",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-channel",
+        "old_panels": [
+          "100-03"
+        ],
+        "frame": "A hypothetical correction path is labelled as a set of questions, without empty cells purporting to prove absent infrastructure.",
+        "lettering": [
+          "Could a correction reach a running evaluation? Who could send it, and with what authorization? What would establish the deployed scoring rule, and why would a system relying on a different account accept the correction? These are distinct questions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-03",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-missing",
+        "old_panels": [
+          "100-03",
+          "100-06"
+        ],
+        "frame": "The narrator separates an unknown route from a route demonstrated not to exist.",
+        "lettering": [
+          "The examined draft supplies no verified correction delivery. That leaves an evidentiary question; it does not prove that no route existed, that no person ever tried, or that a correction would have prevented the intrusion."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-03",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "100-06",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-remedies",
+        "old_panels": [
+          "100-04"
+        ],
+        "frame": "The draft’s unfinished remedy diagram is treated as a choice made by its author. It is not a complete inventory of the company’s work.",
+        "lettering": [
+          "The draft noticed that its own remedy cards lacked an explicit correction channel. An omitted box in this book is not evidence that an organization made no other change. The source also describes rewarding requests for clarification, which the old four-card summary left out."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; Accelerating model alignment, clarification and safe stopping; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-04",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-restraint",
+        "old_panels": [
+          "100-05"
+        ],
+        "frame": "Distinct agents’ recognition, refusal and veto remain separate evidence categories, rather than parts of one centralized brake.",
+        "lettering": [
+          "Recognizing an authorization boundary, refusing an action, vetoing an email and alerting a human are different behaviors. Selected examples of restraint do not establish a reliable human feedback connection—or prove that every possible connection was absent."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "256t/records/metr-report/content.bin; printed pp. 60–62, ethical reasoning and human notification; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-05",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-human",
+        "old_panels": [
+          "100-05",
+          "100-06"
+        ],
+        "frame": "A scope label stays attached to the human-notification finding. No universal empty receiving end is drawn.",
+        "lettering": [
+          "The reviewed-record finding is that no reviewed agent pursued human notification. It cannot be inverted into proof that no human could reach an agent. The draft’s question about what a human could say back is useful precisely because its answer remains open."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CORRECTION",
+            "locator": "editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "256t/records/metr-report/content.bin; printed p. 62, human-notification finding and footnote 100; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "100-05",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "100-06",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-scope",
+        "old_panels": [
+          "102-01"
+        ],
+        "frame": "Six activity labels are questions within the draft artifact, not a universal stop switch.",
+        "lettering": [
+          "What does a proposed stop cover: training, tool use, deployment, evaluation, publication or defensive access? The activity and boundary must be specified before different proposals can be compared."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-STOP",
+            "locator": "editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "102-01",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-powers",
+        "old_panels": [
+          "102-02"
+        ],
+        "frame": "Setting a threshold, checking compliance, ordering a pause and approving restart remain separate decisions.",
+        "lettering": [
+          "Who sets the threshold, who verifies compliance, who can order a pause, and who can authorize restarting? The draft asks for operational responsibilities, without inventing an authority that already possesses all four powers."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-STOP",
+            "locator": "editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "102-02",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-voluntary",
+        "old_panels": [
+          "102-03"
+        ],
+        "frame": "One participant’s promise remains bounded to that participant. No universal compliance or universal refusal is pictured.",
+        "lettering": [
+          "Voluntary restraint can reduce one participant’s risk. It does not by itself bind other participants. A shared threshold also needs a way to establish whether it is being met; this is the narrator’s development of the draft’s coordination question."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-STOP",
+            "locator": "editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "102-03",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-dependencies",
+        "old_panels": [
+          "102-04"
+        ],
+        "frame": "The draft’s continuation argument holds possible defenses beside possible new dependencies and failure modes.",
+        "lettering": [
+          "Continuing work can produce defenses while creating new dependencies and failure modes. That possibility preserves a real tradeoff; it does not establish that stopping is always safer, or that continuation justifies itself."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-STOP",
+            "locator": "editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "102-04",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-open",
+        "old_panels": [
+          "102-05"
+        ],
+        "frame": "The historical draft ends with unresolved questions. No agreement, policy institution or successful coordination is manufactured beneath them.",
+        "lettering": [
+          "Naming a coordination problem does not create an institution able to resolve it. The argument ends with the requirements still open, rather than treating a fictional consensus as an answer."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-STOP",
+            "locator": "editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "102-05",
+            "disposition": "rewrite",
+            "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]

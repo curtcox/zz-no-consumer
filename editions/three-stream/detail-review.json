@@ -3362,5 +3362,571 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "099-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-099-01-detail-01",
+        "original_sha256": "39302f7aa35408a42c84c3579bc90b15da8f71b6f840c0185b33b28b5bf70535",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-099-01-detail-03",
+        "original_sha256": "75f25d9518cefafd193b884cb8c38d88989c346f4bc7adcb8da231825b5131d2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-device"
+        ],
+        "reason": "Keep the explicit fiction disclosure while retiring the invented venue.",
+        "target_sha256": {
+          "prod-accountability-device": "746a812cf57ee1299177dbbf9d6844c71ff1032d3d427d6cd550cfcb59b19ab4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "099-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-099-02-detail-01",
+        "original_sha256": "0ab98c4e4b4a00fdc03a792599f4b1a2a3a70343005b8719d658275643f0957a",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-099-02-detail-03",
+        "original_sha256": "ee24b8a7c0f0946e7c0bd74917605b97068ddf37f2f68fc32a3e036a416bfa6e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-device"
+        ],
+        "reason": "Keep the disclosure that roles and dialogue were invented, without giving real people their lines.",
+        "target_sha256": {
+          "prod-accountability-device": "746a812cf57ee1299177dbbf9d6844c71ff1032d3d427d6cd550cfcb59b19ab4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "099-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-099-03-detail-01",
+        "original_sha256": "3f7ec643e1cc81489b8c612d47e57bfacd450d4c265f025ef52d63e9dc37216b",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-099-03-detail-03",
+        "original_sha256": "408b543e5c7afd8de61a65d3d7d264651666579f2225522d381818ec0797ae61",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-categories"
+        ],
+        "reason": "Retain the separation of events, source claims, tests and open questions as the narrator’s organizing rule.",
+        "target_sha256": {
+          "prod-accountability-categories": "e8fca8021d3109004d42d1b1187d1dd7bcc15d1f4cfd77ab7926c18c3f357290"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "099-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-099-04-detail-01",
+        "original_sha256": "a41dc4ba9c4052e1c7c95788fa6e7aa9a87bd8c69515ff75f9e9261731d550a7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-categories"
+        ],
+        "reason": "Retain the evidence categories and permission to ask rather than manufacture answers.",
+        "target_sha256": {
+          "prod-accountability-categories": "e8fca8021d3109004d42d1b1187d1dd7bcc15d1f4cfd77ab7926c18c3f357290"
+        }
+      },
+      {
+        "id": "legacy-099-04-detail-03",
+        "original_sha256": "46f6866fe76daca231b2ffa38f81234a18c0e6194b502b1c861547e030066b16",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-categories"
+        ],
+        "reason": "Retain the evidence categories and permission to ask rather than manufacture answers.",
+        "target_sha256": {
+          "prod-accountability-categories": "e8fca8021d3109004d42d1b1187d1dd7bcc15d1f4cfd77ab7926c18c3f357290"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "099-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-099-05-detail-01",
+        "original_sha256": "e36c1cb6c0622f69a9e517c389d473f57955ad8e098b9724ca2d7ed5a9fdca83",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-099-05-detail-02",
+        "original_sha256": "4600bd3c5ec111997f9c67a74b0049a1a882d3ea94fd4b1cf5e6086576961dde",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-099-05-detail-03",
+        "original_sha256": "6217420605808fa6ab56926fa2a2562b9acf19c1192c128ee707580ac5d352fe",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-099-05-detail-04",
+        "original_sha256": "10c9d77228a977b3b712a2f420451f83e7ae352ce7703baec8f1cd5616eae9c7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-recap"
+        ],
+        "reason": "Preserve the limit that reciting events does not settle motives, liability or effectiveness; omit the duplicate incident recap.",
+        "target_sha256": {
+          "prod-accountability-recap": "83d41f757763a6a1b44af12a96bcf6d139f718b2374df25ae4d6559a4c5060b9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "100-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-100-01-detail-01",
+        "original_sha256": "d3c3e504935f78dca51a366c489a74a81063fbdab3260ba2ef1aa95fdffbbdde",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-belief"
+        ],
+        "reason": "Retain the belief-versus-deployment distinction as a disputed draft exhibit without invented chair testimony or automatic reuse of the old image.",
+        "target_sha256": {
+          "prod-accountability-belief": "42807ba7b84368760fb63cb4be3d3f6d7296ffd9a8b163bdb6abc070b88b81e5"
+        }
+      },
+      {
+        "id": "legacy-100-01-detail-03",
+        "original_sha256": "ed69383c93836c912098908b3c0f8cdd5f29e1c8d94b53d9677730bf9b9f1c78",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-belief"
+        ],
+        "reason": "Retain the belief-versus-deployment distinction as a disputed draft exhibit without invented chair testimony or automatic reuse of the old image.",
+        "target_sha256": {
+          "prod-accountability-belief": "42807ba7b84368760fb63cb4be3d3f6d7296ffd9a8b163bdb6abc070b88b81e5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "100-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-100-02-detail-01",
+        "original_sha256": "2953a9908869ab629e92673b94419be57a65ddbb4690a34c6e32a8f63a14e48e",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-100-02-detail-02",
+        "original_sha256": "c189dbb220a119e69a281e84c96aa3a6254672c8c0916bd651315bddd612b73a",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-100-02-detail-03",
+        "original_sha256": "61dbdeeac498a23e6053431c3d415ba0f2f9bf01941f42c61a41f20161592857",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-causal"
+        ],
+        "reason": "Preserve the historical narrative argument while qualifying universal causation and retiring claims about what the new reader last saw.",
+        "target_sha256": {
+          "prod-accountability-causal": "0ddfcd0562cf727784316518bd9afe48247da9021d0633bce91b4f1559126651"
+        }
+      },
+      {
+        "id": "legacy-100-02-detail-04",
+        "original_sha256": "9891784d6238feff41303df7852cb691e0dbc86b1b3c00a953ceff99d9d3eb2e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-causal"
+        ],
+        "reason": "Preserve the historical narrative argument while qualifying universal causation and retiring claims about what the new reader last saw.",
+        "target_sha256": {
+          "prod-accountability-causal": "0ddfcd0562cf727784316518bd9afe48247da9021d0633bce91b4f1559126651"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "100-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-100-03-detail-01",
+        "original_sha256": "5a8d1c42149c0e7729f63b1cff2f847523ad7ab46bf4ef4c566abf369216b439",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-channel",
+          "prod-accountability-missing"
+        ],
+        "reason": "Preserve reach, sender authorization, correction content and grounds for acceptance as open requirements, not proof of an absent route.",
+        "target_sha256": {
+          "prod-accountability-channel": "afe5623e26baaeb7ec0b7bb9fe8e2f3ac309e704bd0809ea676fd7038285f11c",
+          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a"
+        }
+      },
+      {
+        "id": "legacy-100-03-detail-03",
+        "original_sha256": "3ac19ca0c5803efe68c4cf6d3f2a64b02b44ce04ab6ba03f77dc832b81b9edca",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-channel",
+          "prod-accountability-missing"
+        ],
+        "reason": "Preserve reach, sender authorization, correction content and grounds for acceptance as open requirements, not proof of an absent route.",
+        "target_sha256": {
+          "prod-accountability-channel": "afe5623e26baaeb7ec0b7bb9fe8e2f3ac309e704bd0809ea676fd7038285f11c",
+          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "100-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-100-04-detail-01",
+        "original_sha256": "5da0ac9445bb9538884e64e4888e3c3be28bd78ece2708c97a85e00e60b5dd29",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-remedies"
+        ],
+        "reason": "Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.",
+        "target_sha256": {
+          "prod-accountability-remedies": "cd176197852e149e29191a6ad8d608c0cf5060940572a0cd7232c3564a090a89"
+        }
+      },
+      {
+        "id": "legacy-100-04-detail-02",
+        "original_sha256": "14a1415f490115b83b44f5c32b092c2a01f36e4ad1766e4e3fbb37748ea03016",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-remedies"
+        ],
+        "reason": "Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.",
+        "target_sha256": {
+          "prod-accountability-remedies": "cd176197852e149e29191a6ad8d608c0cf5060940572a0cd7232c3564a090a89"
+        }
+      },
+      {
+        "id": "legacy-100-04-detail-03",
+        "original_sha256": "0c0289a8d7e599973892d65d031fd30bf82f3dab7924f0ca53d0c4e52240bb7f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-remedies"
+        ],
+        "reason": "Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.",
+        "target_sha256": {
+          "prod-accountability-remedies": "cd176197852e149e29191a6ad8d608c0cf5060940572a0cd7232c3564a090a89"
+        }
+      },
+      {
+        "id": "legacy-100-04-detail-04",
+        "original_sha256": "485458c358ca8de0174a48a567c88c87dcca3b9eab04c69f2c50fa5110d9e90f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-remedies"
+        ],
+        "reason": "Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.",
+        "target_sha256": {
+          "prod-accountability-remedies": "cd176197852e149e29191a6ad8d608c0cf5060940572a0cd7232c3564a090a89"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "100-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-100-05-detail-01",
+        "original_sha256": "2033ad3757b5f13ef57e287cc969817ab3abaaadabc6f37c3fadf61a3fbaae26",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-restraint",
+          "prod-accountability-human"
+        ],
+        "reason": "Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.",
+        "target_sha256": {
+          "prod-accountability-restraint": "748cfe649543169fb7a5340ba868c2e4a4301c349873c38ed5ee66d3dcdf084f",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      },
+      {
+        "id": "legacy-100-05-detail-02",
+        "original_sha256": "0841846e2e055244671596ab18d4589613a78dc752af977fcedfa48eb98367d1",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-restraint",
+          "prod-accountability-human"
+        ],
+        "reason": "Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.",
+        "target_sha256": {
+          "prod-accountability-restraint": "748cfe649543169fb7a5340ba868c2e4a4301c349873c38ed5ee66d3dcdf084f",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      },
+      {
+        "id": "legacy-100-05-detail-03",
+        "original_sha256": "9ff201343844d5fd2de488648a17881012674d1513f32bc136ce08d3aa249cf1",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-restraint",
+          "prod-accountability-human"
+        ],
+        "reason": "Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.",
+        "target_sha256": {
+          "prod-accountability-restraint": "748cfe649543169fb7a5340ba868c2e4a4301c349873c38ed5ee66d3dcdf084f",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      },
+      {
+        "id": "legacy-100-05-detail-04",
+        "original_sha256": "961575985ad3c09346db1f7c96d7530a61e0ec40911be60c497e09197e6d9af6",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-restraint",
+          "prod-accountability-human"
+        ],
+        "reason": "Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.",
+        "target_sha256": {
+          "prod-accountability-restraint": "748cfe649543169fb7a5340ba868c2e4a4301c349873c38ed5ee66d3dcdf084f",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "100-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-100-06-detail-01",
+        "original_sha256": "784b628aa956dd558a33ffabafd59a1c16e410b5a1d6491b924304edd7f799c3",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-missing",
+          "prod-accountability-human"
+        ],
+        "reason": "Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.",
+        "target_sha256": {
+          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      },
+      {
+        "id": "legacy-100-06-detail-03",
+        "original_sha256": "f72da2c08ea6daf8f9abf90edd1678f48d10917db5527f9423f44a28f4c8552f",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-missing",
+          "prod-accountability-human"
+        ],
+        "reason": "Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.",
+        "target_sha256": {
+          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      },
+      {
+        "id": "legacy-100-06-detail-04",
+        "original_sha256": "69c6ba09553c43d95226c44d1ee85504a0d359d3e6d44e0b6d196a3813e10ad9",
+        "disposition": "split",
+        "beats": [
+          "prod-accountability-missing",
+          "prod-accountability-human"
+        ],
+        "reason": "Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.",
+        "target_sha256": {
+          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a",
+          "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "102-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-102-01-detail-03",
+        "original_sha256": "307ecd737995de13d8b280c8b812f7fb69d0153a93558cb5a0e6c228fb379f88",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-scope"
+        ],
+        "reason": "Retain all six possible stopping scopes rather than one undefined action.",
+        "target_sha256": {
+          "prod-accountability-scope": "a382609738c9c13d25b75539b2533911842a922eef1c855f4e60e201ba43d387"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "102-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-102-02-detail-03",
+        "original_sha256": "80e8377bbc30171262a805f2eff2de23c9d8fe58b288a8ca0449f9e8269ef1a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-powers"
+        ],
+        "reason": "Retain all four separate threshold, verification, pause and restart responsibilities.",
+        "target_sha256": {
+          "prod-accountability-powers": "770656b3929ec983d564124c38e2c8a39546df243ccf846d78a016e8fc2f6c88"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "102-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-102-03-detail-03",
+        "original_sha256": "702e18ab3c22151291d544d1f51b874c2db181d6a0281a53de94c5b31b780628",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-voluntary"
+        ],
+        "reason": "Preserve the value and limitation of voluntary restraint and the need to assess a shared threshold; the longer current wording is narrator development, not misquoted historical text.",
+        "target_sha256": {
+          "prod-accountability-voluntary": "46857bd995aa9bfea1d6c92a90da07726a513b1ff306fbe77720de68b54bd113"
+        }
+      },
+      {
+        "id": "legacy-102-03-detail-04",
+        "original_sha256": "6dc14f8398e78b426351df94858d7e3391e9c818e1eadf0b3fcb88118778facd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-voluntary"
+        ],
+        "reason": "Preserve the value and limitation of voluntary restraint and the need to assess a shared threshold; the longer current wording is narrator development, not misquoted historical text.",
+        "target_sha256": {
+          "prod-accountability-voluntary": "46857bd995aa9bfea1d6c92a90da07726a513b1ff306fbe77720de68b54bd113"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "102-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-102-04-detail-03",
+        "original_sha256": "6d7ad63317d0298a696edd90ff835601fc898d0569efbb2c85872748e27eac7a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-dependencies"
+        ],
+        "reason": "Preserve defenses, dependencies and new failure modes as a conditional tradeoff.",
+        "target_sha256": {
+          "prod-accountability-dependencies": "85b66aaae1b976eb071ee993d36872f6db0e120bee4197483fd4717a42dcd6c1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "102-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-102-05-detail-01",
+        "original_sha256": "6169943417966b5f527c42d21f965f1927281d77378c5c14c0fb596680827591",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-102-05-detail-03",
+        "original_sha256": "a43cc7986667852b6d4564b8bce0266dd9e8ed934dc057a4d46cadcd6dce152f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-open"
+        ],
+        "reason": "Retain the unresolved institutional question without inventing a consensus or solution.",
+        "target_sha256": {
+          "prod-accountability-open": "4836f793b2c6e55005b94dab37bddd7c985019cd13be564f0bf593d9ffcc2a05"
+        }
+      }
+    ]
   }
 ]

@@ -489,3 +489,33 @@ All panels in frozen 092–098 now have individual dispositions; that local
 completion is not completeness of the whole old script or the new edition.
 The remaining aftermath, accountability, investigation and earlier incident
 material still require review. Final page allocation remains open.
+
+### Accountability questions without a hearing — 13 September 2026
+
+Added seventeen beats across two sequences in
+`manuscript/collaboration-accountability-questions.json`. The September 5
+review’s statements that no human told an agent and no correction channel
+existed are quoted exactly as production claims, not endorsed as incident
+findings. Both short quotations were verified against the preserved original
+message. The narrator’s qualification is not attributed to Claude as a correction
+made at that timestamp.
+
+Three exact historical Git artifacts from 7fa53878c4934571fee2dda8e025a050ff515761
+are preserved in `evidence/`: forum 097, correction 098 and stop 100. Those are
+historical source identities, corresponding to frozen 099, 100 and 102; they are
+not new-edition page assignments. Their September 5 commit precedes the
+September 6 manuscript-review context used for the narrator’s examination.
+All three copies were verified byte-for-byte against Git.
+
+All sixteen panels of frozen 099, 100 and 102 now have individual dispositions.
+Invented-room choreography and duplicate incident exhibits are explicitly omitted.
+The event/claim/check/question distinction, unresolved correction requirements,
+separate forms of restraint, stopping scopes, authority, voluntary-action limits
+and continuation tradeoffs survive. Missing documentation is not treated as proof
+of missing infrastructure. The source’s clarification objective corrects the old
+four-remedy diagram’s omission without claiming an implemented human channel.
+
+The real Black Hat continuation argument on frozen 101 remains to be sourced
+and reviewed; the historical hearing’s removal does not remove that argument.
+Other unreviewed incident, analysis and ending material remains. Draft checks
+and whitespace checks pass; no canonical allocation or frozen dependent changed.

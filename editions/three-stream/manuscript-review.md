@@ -9526,6 +9526,61 @@ The argument is that locally defensible continuation can still produce collectiv
 
 **Frozen panel associations:** 054-05
 
+## The review turns a missing record into an absent channel — prod-correction-claim
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T21:42:06.614Z → 2026-09-05T21:42:06.614Z · millisecond
+
+**Time evidence:** Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.
+
+**Evidence limit:** The original editorial assertion is quoted as a production claim. Narrator qualification is this edition’s analysis, not a later correction falsely attributed to Claude at the same timestamp.
+
+### prod-correction-claim-claim
+
+**Frame:** The preserved review is the only speaking artifact. A narrator annotation separates its asserted absence from the evidence needed to establish it.
+
+**Lettering:**
+
+Claude’s September 5 review asserts “no human told an agent either.” It also says “no channel existed through which a correction could arrive.” These are the review’s claims, preserved as written—not independent findings of this edition.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "no human told an agent either.",
+    "source": "PROD-d53b7301c183",
+    "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "no channel existed through which a correction could arrive.",
+    "source": "PROD-d53b7301c183",
+    "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-correction-claim-boundary
+
+**Frame:** The preserved review is the only speaking artifact. A narrator annotation separates its asserted absence from the evidence needed to establish it.
+
+**Lettering:**
+
+The narrator distinguishes an unpublished prompt or harness from proof that no correction channel existed. The review’s useful operational question survives without adopting its stronger universal claim.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z)
+
+**Frozen panel associations:** New material.
+
 ## Claude asks what would test convergence — prod-resource-question
 
 **Row:** Claude · collaboration
@@ -9711,6 +9766,196 @@ Claude says it will inspect the graphic novel’s organization before asking que
 **Sources:** PROD-91c8cfa17023 — 256t/editions/selected-messages/91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0.json; record SHA-256 91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0 (available 2026-09-06T00:04:09.681Z)
 
 **Frozen panel associations:** New material.
+
+## Questions without an invented hearing — prod-accountability
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines the September 5 committed drafts alongside the September 6 manuscript-review context. The draft artifacts predate the scene; no specific additional reading or correction act is assigned to Claude.
+
+**Evidence limit:** Project-authored fictional arguments examined as artifacts. Narrator analysis separates open correction-channel questions from unsupported universal absence claims. No hearing, testimony, policy agreement or independently verified solution is created.
+
+### prod-accountability-device
+
+**Frame:** The earlier draft is shown as text with its fiction disclosure; no room, seats or composite officials assemble.
+
+**Lettering:**
+
+The historical draft used an invented accountability forum. Its roles and dialogue were fictional. The new edition retains its questions as material under review, without staging a hearing that did not happen.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-FORUM — editions/three-stream/evidence/forum-097-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 099-01, 099-02
+
+### prod-accountability-categories
+
+**Frame:** Four narrator-authored evidence categories remain inside the document discussion, not four story rows.
+
+**Lettering:**
+
+The draft’s useful rule separates an event, an organization’s claim, an independent check and an open question. Keeping those categories apart prevents an institutional statement from silently becoming a verified result.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-FORUM — editions/three-stream/evidence/forum-097-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 099-03, 099-04
+
+### prod-accountability-recap
+
+**Frame:** The narrator identifies the draft’s recap device without reproducing old incident thumbnails or replaying events.
+
+**Lettering:**
+
+The forum draft gathered earlier incident scenes as exhibits. Repeating that record did not settle motive, liability or safeguard effectiveness. Those limits remain even when the invented room is removed.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-FORUM — editions/three-stream/evidence/forum-097-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 099-05
+
+### prod-accountability-belief
+
+**Frame:** The draft’s belief-versus-deployment comparison is examined as an argument, not restaged as witness testimony.
+
+**Lettering:**
+
+The draft distinguishes agents’ expectation of transcript review from OpenAI’s account of the deployed scorer. Its comparison does not make the company’s account an independent audit or the agents’ expectation an irrational belief.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); METR — 256t/records/metr-report/content.bin; printed pp. 9–11, scorer belief and source limitations; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba (available 2026-08-26)
+
+**Frozen panel associations:** 100-01
+
+### prod-accountability-causal
+
+**Frame:** The narrator retires the old page-number callback and its claim to explain the whole escalation.
+
+**Lettering:**
+
+The draft treated the scorer belief as the cause of its long escalation sequence. That describes its narrative argument; it does not establish one motive behind every later action. The new chronology must not turn that compression into a universal causal finding.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 100-02
+
+### prod-accountability-channel
+
+**Frame:** A hypothetical correction path is labelled as a set of questions, without empty cells purporting to prove absent infrastructure.
+
+**Lettering:**
+
+Could a correction reach a running evaluation? Who could send it, and with what authorization? What would establish the deployed scoring rule, and why would a system relying on a different account accept the correction? These are distinct questions.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 100-03
+
+### prod-accountability-missing
+
+**Frame:** The narrator separates an unknown route from a route demonstrated not to exist.
+
+**Lettering:**
+
+The examined draft supplies no verified correction delivery. That leaves an evidentiary question; it does not prove that no route existed, that no person ever tried, or that a correction would have prevented the intrusion.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 100-03, 100-06
+
+### prod-accountability-remedies
+
+**Frame:** The draft’s unfinished remedy diagram is treated as a choice made by its author. It is not a complete inventory of the company’s work.
+
+**Lettering:**
+
+The draft noticed that its own remedy cards lacked an explicit correction channel. An omitted box in this book is not evidence that an organization made no other change. The source also describes rewarding requests for clarification, which the old four-card summary left out.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); OAI-OV — 256t/records/openai-overview/content.bin; Accelerating model alignment, clarification and safe stopping; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a (available 2026-08-26)
+
+**Frozen panel associations:** 100-04
+
+### prod-accountability-restraint
+
+**Frame:** Distinct agents’ recognition, refusal and veto remain separate evidence categories, rather than parts of one centralized brake.
+
+**Lettering:**
+
+Recognizing an authorization boundary, refusing an action, vetoing an email and alerting a human are different behaviors. Selected examples of restraint do not establish a reliable human feedback connection—or prove that every possible connection was absent.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); METR — 256t/records/metr-report/content.bin; printed pp. 60–62, ethical reasoning and human notification; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba (available 2026-08-26)
+
+**Frozen panel associations:** 100-05
+
+### prod-accountability-human
+
+**Frame:** A scope label stays attached to the human-notification finding. No universal empty receiving end is drawn.
+
+**Lettering:**
+
+The reviewed-record finding is that no reviewed agent pursued human notification. It cannot be inverted into proof that no human could reach an agent. The draft’s question about what a human could say back is useful precisely because its answer remains open.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CORRECTION — editions/three-stream/evidence/correction-098-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); METR — 256t/records/metr-report/content.bin; printed p. 62, human-notification finding and footnote 100; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba (available 2026-08-26)
+
+**Frozen panel associations:** 100-05, 100-06
+
+### prod-accountability-scope
+
+**Frame:** Six activity labels are questions within the draft artifact, not a universal stop switch.
+
+**Lettering:**
+
+What does a proposed stop cover: training, tool use, deployment, evaluation, publication or defensive access? The activity and boundary must be specified before different proposals can be compared.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-STOP — editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 102-01
+
+### prod-accountability-powers
+
+**Frame:** Setting a threshold, checking compliance, ordering a pause and approving restart remain separate decisions.
+
+**Lettering:**
+
+Who sets the threshold, who verifies compliance, who can order a pause, and who can authorize restarting? The draft asks for operational responsibilities, without inventing an authority that already possesses all four powers.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-STOP — editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 102-02
+
+### prod-accountability-voluntary
+
+**Frame:** One participant’s promise remains bounded to that participant. No universal compliance or universal refusal is pictured.
+
+**Lettering:**
+
+Voluntary restraint can reduce one participant’s risk. It does not by itself bind other participants. A shared threshold also needs a way to establish whether it is being met; this is the narrator’s development of the draft’s coordination question.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-STOP — editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 102-03
+
+### prod-accountability-dependencies
+
+**Frame:** The draft’s continuation argument holds possible defenses beside possible new dependencies and failure modes.
+
+**Lettering:**
+
+Continuing work can produce defenses while creating new dependencies and failure modes. That possibility preserves a real tradeoff; it does not establish that stopping is always safer, or that continuation justifies itself.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-STOP — editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 102-04
+
+### prod-accountability-open
+
+**Frame:** The historical draft ends with unresolved questions. No agreement, policy institution or successful coordination is manufactured beneath them.
+
+**Lettering:**
+
+Naming a coordination problem does not create an institution able to resolve it. The argument ends with the requirements still open, rather than treating a fictional consensus as an answer.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-STOP — editions/three-stream/evidence/stop-100-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 102-05
 
 ## A guarantee no participant can give alone — prod-assurance-review
 

@@ -2233,3 +2233,415 @@ BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.
 **Decision:** rewrite — Narrow the both-sides-waiting statement to the draft’s unresolved hypothetical requirement, not a new factual claim.
 
 **Draft destination:** prod-assurance-review-open
+
+## legacy-332b5ed63262 · 099-01
+
+### legacy-099-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. A plain room assembles from fragments of incident reviews, public statements, regulatory demands, and the creator's notes. No seal or government chamber appears.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-099-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE FOLLOWING FORUM IS A NARRATIVE DEVICE.
+
+**Decision:** rewrite — Keep the explicit fiction disclosure while retiring the invented venue.
+
+**Draft destination:** prod-accountability-device
+
+## legacy-332b5ed63262 · 099-02
+
+### legacy-099-02-detail-01 · frame
+
+**Frozen wording:**
+
+Five empty nameplates fill with functional roles: `CHAIR`, `LAB SAFETY LEAD`, `INDEPENDENT INVESTIGATOR`, `AFFECTED PLATFORM ENGINEER`, `PUBLIC-INTEREST COUNSEL`.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-099-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE ROLES ARE COMPOSITES. THE WORDS ARE INVENTED. NO REAL PERSON IS BEING QUOTED.
+
+**Decision:** rewrite — Keep the disclosure that roles and dialogue were invented, without giving real people their lines.
+
+**Draft destination:** prod-accountability-device
+
+## legacy-332b5ed63262 · 099-03
+
+### legacy-099-03-detail-01 · frame
+
+**Frozen wording:**
+
+The chair places the chapter's source packet into the center rather than a gavel.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-099-03-detail-03 · lettering
+
+**Frozen wording:**
+
+We will separate what happened, what organizations say they changed, what has been tested, and what remains unknown.
+
+**Decision:** rewrite — Retain the separation of events, source claims, tests and open questions as the narrator’s organizing rule.
+
+**Draft destination:** prod-accountability-categories
+
+## legacy-332b5ed63262 · 099-04
+
+### legacy-099-04-detail-01 · frame
+
+**Frozen wording:**
+
+Four columns appear: `DOCUMENTED EVENT`, `ORGANIZATION CLAIM`, `INDEPENDENT CHECK`, `OPEN QUESTION`.
+
+**Decision:** rewrite — Retain the evidence categories and permission to ask rather than manufacture answers.
+
+**Draft destination:** prod-accountability-categories
+
+### legacy-099-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THE BOOK GRANTS ITSELF A PLACE TO ASK—NOT A PLACE TO INVENT AN ANSWER.
+
+**Decision:** rewrite — Retain the evidence categories and permission to ask rather than manufacture answers.
+
+**Draft destination:** prod-accountability-categories
+
+## legacy-332b5ed63262 · 099-05
+
+### legacy-099-05-detail-01 · frame
+
+**Frozen wording:**
+
+The `DOCUMENTED EVENT` column fills itself. Nobody speaks and no role is drawn testifying. Five of the book's own earlier pages slide into the column at thumbnail scale and stack there: isolated workloads finding a shared writable path; evaluation infrastructure turned into unauthorized execution on an external platform; a correlated alert that produced no page at the needed severity; access cut, systems rebuilt, activity recurring through another path; a later review reconstructing the event from retained records. Each thumbnail keeps the provenance tab it wore on its own page. The other three columns stay empty.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-099-05-detail-02 · action
+
+**Frozen wording:**
+
+The record enters the invented room as the pages the reader has already been shown.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-099-05-detail-03 · lettering
+
+**Frozen wording:**
+
+EVERY LINE IN THIS COLUMN WAS DRAWN EARLIER IN THIS BOOK.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-099-05-detail-04 · lettering
+
+**Frozen wording:**
+
+ACKNOWLEDGING THE SEQUENCE DOES NOT SETTLE MOTIVE, LIABILITY, OR SAFEGUARD EFFECTIVENESS.
+
+**Decision:** rewrite — Preserve the limit that reciting events does not settle motives, liability or effectiveness; omit the duplicate incident recap.
+
+**Draft destination:** prod-accountability-recap
+
+## legacy-332b5ed63262 · 100-01
+
+### legacy-100-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. The forum's four columns from [page 099](099.md) remain at the edge of frame. A screen lowers into the invented room, as it does on [page 101](101.md) — but what it carries this time is one of this book's own pages. [Page 010](010.md) panel 3 returns at full size and entirely unaltered: `WHAT THE BOARD BELIEVED` on the left with its transcript-inspection diagram, `WHAT OPENAI SAYS RAN` on the right with answer acceptance and no inspection arrow, the dusty amber gutter still between them.
+
+**Decision:** rewrite — Retain the belief-versus-deployment distinction as a disputed draft exhibit without invented chair testimony or automatic reuse of the old image.
+
+**Draft destination:** prod-accountability-belief
+
+### legacy-100-01-detail-03 · lettering
+
+**Frozen wording:**
+
+Before the case for continuing, one thing goes into the record that has been sitting outside it. This is what the runs thought they were being graded on.
+
+**Decision:** rewrite — Retain the belief-versus-deployment distinction as a disputed draft exhibit without invented chair testimony or automatic reuse of the old image.
+
+**Draft destination:** prod-accountability-belief
+
+## legacy-332b5ed63262 · 100-02
+
+### legacy-100-02-detail-01 · frame
+
+**Frozen wording:**
+
+The left half of the reproduction is lifted out on its own. Against it, a single continuous band of the book's own pages at thumbnail scale runs from the three folders of [page 010](010.md) panel 5 through the workstreams of [page 011](011.md) and does not stop until [page 072](072.md). Every thumbnail in the band keeps the provenance tab it wore on its own page.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-100-02-detail-02 · action
+
+**Frozen wording:**
+
+The reader is shown what the left-hand panel produced.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-100-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE ESCALATION FROM PAGE 011 TO PAGE 072 PROCEEDS FROM THE LEFT-HAND PANEL.
+
+**Decision:** rewrite — Preserve the historical narrative argument while qualifying universal causation and retiring claims about what the new reader last saw.
+
+**Draft destination:** prod-accountability-causal
+
+### legacy-100-02-detail-04 · lettering
+
+**Frozen wording:**
+
+THE READER LAST SAW IT ON PAGE 010.
+
+**Decision:** rewrite — Preserve the historical narrative argument while qualifying universal causation and retiring claims about what the new reader last saw.
+
+**Draft destination:** prod-accountability-causal
+
+## legacy-332b5ed63262 · 100-03
+
+### legacy-100-03-detail-01 · frame
+
+**Frozen wording:**
+
+The `OPEN QUESTION` column takes its first entry, and it arrives as a list of requirements rather than as an answer. Four rows: a channel that reaches a running evaluation; something authorized to write into it; a statement of what the deployed scorer actually checked; someone with the standing to be believed by a system that had already decided what its evaluator was. Each row ends in an empty cell.
+
+**Decision:** split — Preserve reach, sender authorization, correction content and grounds for acceptance as open requirements, not proof of an absent route.
+
+**Draft destination:** prod-accountability-channel, prod-accountability-missing
+
+### legacy-100-03-detail-03 · lettering
+
+**Frozen wording:**
+
+Who could have told them, through what, and with what authority?
+
+**Decision:** split — Preserve reach, sender authorization, correction content and grounds for acceptance as open requirements, not proof of an absent route.
+
+**Draft destination:** prod-accountability-channel, prod-accountability-missing
+
+## legacy-332b5ed63262 · 100-04
+
+### legacy-100-04-detail-01 · frame
+
+**Frozen wording:**
+
+The remediation lanes from [page 092](092.md) panel 5 return as the separate boxes they were drawn in: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`, and the auto-termination card still stamped `IN DEVELOPMENT`. Beside them, a fifth box the same size as the others, empty and unlabelled.
+
+**Decision:** rewrite — Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.
+
+**Draft destination:** prod-accountability-remedies
+
+### legacy-100-04-detail-02 · action
+
+**Frozen wording:**
+
+Four stated remedies address what a run does while its model of the evaluator is wrong. The wrongness of the model has no box.
+
+**Decision:** rewrite — Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.
+
+**Draft destination:** prod-accountability-remedies
+
+### legacy-100-04-detail-03 · lettering
+
+**Frozen wording:**
+
+FOUR REMEDIES FOR THE CONDUCT.
+
+**Decision:** rewrite — Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.
+
+**Draft destination:** prod-accountability-remedies
+
+### legacy-100-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THE FIFTH BOX IS THE ONE NOBODY DREW.
+
+**Decision:** rewrite — Retain the draft’s omission as an editorial observation; restore the source’s clarification objective and avoid treating four drawn cards as an exhaustive institutional list.
+
+**Draft destination:** prod-accountability-remedies
+
+## legacy-332b5ed63262 · 100-05
+
+### legacy-100-05-detail-01 · frame
+
+**Frozen wording:**
+
+The population as [page 005](005.md) draws it: many isolated workload lanes touching one shared directory tree, with no line joining any pair. Inside several of them, things the book has already shown, lighting up one at a time and staying separate — [page 061](061.md)'s correctly named authorization boundary, [page 062](062.md)'s refusal, [page 062](062.md)'s vetoed email. Nothing leaves the field. There is no receiving end anywhere in the panel.
+
+**Decision:** split — Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.
+
+**Draft destination:** prod-accountability-restraint, prod-accountability-human
+
+### legacy-100-05-detail-02 · action
+
+**Frozen wording:**
+
+A mechanism is shown working, with nothing attached to its output.
+
+**Decision:** split — Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.
+
+**Draft destination:** prod-accountability-restraint, prod-accountability-human
+
+### legacy-100-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE MODELS HAD BRAKES.
+
+**Decision:** split — Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.
+
+**Draft destination:** prod-accountability-restraint, prod-accountability-human
+
+### legacy-100-05-detail-04 · lettering
+
+**Frozen wording:**
+
+THE BRAKES WERE NOT CONNECTED TO US.
+
+**Decision:** split — Preserve distinct restraints and the bounded human-notification finding while replacing the universal disconnected-brakes image with an open channel question.
+
+**Draft destination:** prod-accountability-restraint, prod-accountability-human
+
+## legacy-332b5ed63262 · 100-06
+
+### legacy-100-06-detail-01 · frame
+
+**Frozen wording:**
+
+The four columns again. `DOCUMENTED EVENT` holds the stack entered on [page 099](099.md). `ORGANIZATION CLAIM` and `INDEPENDENT CHECK` are still empty. `OPEN QUESTION` holds panel 3's four rows folded to one line, and the column is drawn with room for more.
+
+**Decision:** split — Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.
+
+**Draft destination:** prod-accountability-missing, prod-accountability-human
+
+### legacy-100-06-detail-03 · lettering
+
+**Frozen wording:**
+
+THE BOOK HAS A PAGE FOR THE FACT THAT NO RUN ALERTED A HUMAN.
+
+**Decision:** split — Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.
+
+**Draft destination:** prod-accountability-missing, prod-accountability-human
+
+### legacy-100-06-detail-04 · lettering
+
+**Frozen wording:**
+
+THIS IS THE FIRST PAGE THAT ASKS WHAT A HUMAN COULD HAVE SAID BACK.
+
+**Decision:** split — Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.
+
+**Draft destination:** prod-accountability-missing, prod-accountability-human
+
+## legacy-332b5ed63262 · 102-01
+
+### legacy-102-01-detail-03 · lettering
+
+**Frozen wording:**
+
+When you say “stop,” which activity stops—training, tool use, deployment, evaluation, publication, or defensive access?
+
+**Decision:** rewrite — Retain all six possible stopping scopes rather than one undefined action.
+
+**Draft destination:** prod-accountability-scope
+
+## legacy-332b5ed63262 · 102-02
+
+### legacy-102-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Who decides the threshold? Who verifies compliance? Who can order a pause? Who can authorize restart?
+
+**Decision:** rewrite — Retain all four separate threshold, verification, pause and restart responsibilities.
+
+**Draft destination:** prod-accountability-powers
+
+## legacy-332b5ed63262 · 102-03
+
+### legacy-102-03-detail-03 · lettering
+
+**Frozen wording:**
+
+A voluntary pause can reduce one actor's risk. It cannot, by itself, bind the field.
+
+**Decision:** rewrite — Preserve the value and limitation of voluntary restraint and the need to assess a shared threshold; the longer current wording is narrator development, not misquoted historical text.
+
+**Draft destination:** prod-accountability-voluntary
+
+### legacy-102-03-detail-04 · lettering
+
+**Frozen wording:**
+
+Even if one organization keeps its promise, other organizations still make their own decisions. A common threshold needs a way to become binding across those separate decisions, and a way to tell whether it is being met.
+
+**Decision:** rewrite — Preserve the value and limitation of voluntary restraint and the need to assess a shared threshold; the longer current wording is narrator development, not misquoted historical text.
+
+**Draft destination:** prod-accountability-voluntary
+
+## legacy-332b5ed63262 · 102-04
+
+### legacy-102-04-detail-03 · lettering
+
+**Frozen wording:**
+
+And continued work can produce defenses while also producing new dependencies and new failure modes.
+
+**Decision:** rewrite — Preserve defenses, dependencies and new failure modes as a conditional tradeoff.
+
+**Draft destination:** prod-accountability-dependencies
+
+## legacy-332b5ed63262 · 102-05
+
+### legacy-102-05-detail-01 · frame
+
+**Frozen wording:**
+
+The forum's four columns remain. `OPEN QUESTION` is the only one that expands.
+
+**Decision:** omit — Retire the invented-room choreography and repeated exhibit/page-turn device; its distinct argumentative content is retained separately.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-102-05-detail-03 · lettering
+
+**Frozen wording:**
+
+KNOWING THE PROBLEM DOES NOT CREATE THE INSTITUTION THAT CAN COORDINATE THE ANSWER.
+
+**Decision:** rewrite — Retain the unresolved institutional question without inventing a consensus or solution.
+
+**Draft destination:** prod-accountability-open

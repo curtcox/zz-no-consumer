@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T16:42:20.039869+00:00",
+  "checked_at": "2026-09-13T16:47:31.821879+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -13,6 +13,7 @@
   ],
   "warnings": "Scoped draft check passed with frozen edition unchanged. Structural review checks do not establish full semantic coverage.",
   "files": {
+    "manuscript/collaboration-accountability-questions.json": "015f3b4fa5a73fa6d5f54a06543a53c4a90ecbcfda7ee2ed9b28c39d160f821c",
     "manuscript/collaboration-assurance-argument.json": "69b250ff955f3d503d8fb42371ded8490ac2e57968778c50bd2da7e8232473b8",
     "manuscript/collaboration-continuation-argument.json": "f0e1cea3071aabff5d692d4ac061ed1f2a40cf1de08bfdda3483f2a48bdda695",
     "manuscript/collaboration-oversight-record.json": "907a3b2eb4d3350b239b89e2b48b6ff6483a959eb62cf6b3aa7dcba48985c82b",
@@ -40,26 +41,29 @@
     "evidence/assurance-096-7fa53878c493.md": "91f0aea0dc5e0dbf309ef9015f6de6967a8738bf8e795bec6e4dc59369d1a04f",
     "evidence/continuation-053-1da1d895ab4e.md": "ade0e4424b626807144991cc265f90c11268f80819da3de68bfe7b94cab1055f",
     "evidence/continuation-054-1da1d895ab4e.md": "851e9ec7e795b08ab39976fe78fc62882c10c228885fd0bc7f0350a6188acb51",
+    "evidence/correction-098-7fa53878c493.md": "b347f34dd524af038b65d792e163f932fb52b113aac19c2ac211e5b41ec8b4e3",
+    "evidence/forum-097-7fa53878c493.md": "bc1527dec693c48148a080cad86536efbb08fc56de981d3e12f3a1e7f5866bf5",
     "evidence/public-announcement-source-review.md": "6b1807c59149608757c9f5cdc0ae049c69a722804105db9a662f0d5c2ac497db",
-    "detail-review.json": "e6d08678c991b8b2113388db8b75e933986a05ddca0186d590e18443d6b1c070",
+    "evidence/stop-100-7fa53878c493.md": "a4c77a4d7e868ad312ea58d3c0470ffc0c8a0f4d136874bc5c13ec6464b109cb",
+    "detail-review.json": "eddb67f18cfe5a8f6f58bda2e3c601bf6e43a5ee6506259f4595f3bb70e5490a",
     "production-selections.json": "9f202d27bf05c887147b3bd16dfed4482ce6a5f5a77c056ad9b94a70a60e909f",
-    "sources.json": "7573a5ab25172505460b46734b067e7e88a2d94ec4b85190cb152ad14a74235c"
+    "sources.json": "63671317cd5ecfe0b6d6d52d8b9c50ef28c415d3a2e83e483350c6743522e52d"
   },
   "counts": {
-    "scenes": 243,
-    "drafted_beats": 719,
+    "scenes": 245,
+    "drafted_beats": 736,
     "canonical_pages": null,
-    "associated_old_panels": 331,
+    "associated_old_panels": 347,
     "by_row": {
       "HuggingFace": 342,
       "GemStuffer": 58,
       "Collusion Wiki": 115,
       "Curt": 25,
       "Codex": 80,
-      "Claude": 99
+      "Claude": 116
     },
-    "reviewed_old_panels": 81,
-    "reviewed_source_elements": 207
+    "reviewed_old_panels": 97,
+    "reviewed_source_elements": 245
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -69,7 +73,7 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T16:38:36.967012+00:00",
+  "previous_checked_at": "2026-09-13T16:42:20.039869+00:00",
   "production_record_verification": {
     "result": "passed",
     "selected_records": 57,

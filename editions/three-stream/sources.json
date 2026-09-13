@@ -544,5 +544,26 @@
     "admission": "Official announcement of investigation and subpoena. Claims and allegations remain attributed; no liability finding.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/"
+  },
+  "DRAFT-FORUM": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/forum-097-7fa53878c493.md",
+    "admission": "Historical project-authored fictional forum draft preserved exactly from Git 7fa53878c4934571fee2dda8e025a050ff515761. Evidence of a draft argument, not a real hearing, testimony or independently established incident finding.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-CORRECTION": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/correction-098-7fa53878c493.md",
+    "admission": "Historical project-authored fictional forum draft preserved exactly from Git 7fa53878c4934571fee2dda8e025a050ff515761. Evidence of a draft argument, not a real hearing, testimony or independently established incident finding.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-STOP": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/stop-100-7fa53878c493.md",
+    "admission": "Historical project-authored fictional forum draft preserved exactly from Git 7fa53878c4934571fee2dda8e025a050ff515761. Evidence of a draft argument, not a real hearing, testimony or independently established incident finding.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }
