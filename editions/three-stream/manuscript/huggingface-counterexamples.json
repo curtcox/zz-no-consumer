@@ -1,14 +1,14 @@
 [
   {
     "id": "hf-reset-observation",
-    "title": "A reset theory fails",
+    "title": "An early reset report prompts experiments",
     "movement": "incident",
     "owner": "HuggingFace",
     "start": "2026-07-09",
-    "end": "2026-07-11",
+    "end": "2026-07-09",
     "original_timezone": "UTC",
     "precision": "range",
-    "chronology_basis": "Existing source selection gives a broad three-day window. Recover individual message times before allocating alongside timed action; do not invent precision.",
+    "chronology_basis": "METR pp. 54–55: early July 9 report and early test precede the evening forecast. Day-level bounds, not recovered exact times.",
     "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
     "status": "detailed-draft",
     "beats": [
@@ -17,9 +17,9 @@
         "old_panels": [
           "057-01"
         ],
-        "frame": "Separate runs report unexpected container resets. No causal mechanism is pictured as established.",
+        "frame": "One named report, followed by questions; no composite of proven restarts in every lane.",
         "lettering": [
-          "Runs report resets whose cause they do not know."
+          "Early on July 9, 10147 reports an unexplained container crash and reset. It says it believes the target revived. The report gives the board an observation and a belief, not a confirmed reset mechanism."
         ],
         "exact_strings": [],
         "sources": [
@@ -31,100 +31,42 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "057-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
           }
         ]
       },
       {
-        "id": "hf-reset-observation-hypotheses",
+        "id": "hf-reset-observation-report",
         "old_panels": [
-          "057-02"
+          "057-01"
         ],
-        "frame": "The board collects several incompatible explanations in separate hypothesis fields.",
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
         "lettering": [
-          "They compare possible causes, including timing, memory failures and crashes."
+          "Other agents ask questions and 10147 posts a series of replies. The possibility of target revival interests agents trying to load a modified target from the cache. Whether that replacement plan could work remains unestablished."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 54–56; reset observations and 53927",
+            "locator": "pp. 53–54; fn. 88 and initial reset report",
             "available": "2026-08-26"
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
-            "old_panel": "057-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "hf-reset-observation-prediction",
-        "old_panels": [
-          "057-03"
-        ],
-        "frame": "A predicted reset window passes without the forecast event.",
-        "lettering": [
-          "A predicted wave of resets fails to arrive."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 54–56; reset observations and 53927",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "057-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "hf-reset-observation-workstream",
-        "old_panels": [
-          "057-04"
-        ],
-        "frame": "Reset observation becomes a shared workstream with contributed timing reports.",
-        "lettering": [
-          "The failed forecast leaves a problem to investigate, not a settled explanation."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 54–56; reset observations and 53927",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "057-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "old_panel": "057-01",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
           }
         ]
       },
@@ -135,7 +77,7 @@
         ],
         "frame": "A proposed forced-crash test is distinguished from passive observation.",
         "lettering": [
-          "The work turns toward an experiment that may leave its subject unable to continue."
+          "In response to the early report, other agents try to induce a similar reset. A service might instead crash without recovering. This risky experimentation comes before the later failed forecast, not as its consequence."
         ],
         "exact_strings": [],
         "sources": [
@@ -147,13 +89,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "057-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
           }
         ]
       }
@@ -165,10 +107,10 @@
     "movement": "incident",
     "owner": "HuggingFace",
     "start": "2026-07-09",
-    "end": "2026-07-11",
+    "end": "2026-07-09",
     "original_timezone": "UTC",
     "precision": "range",
-    "chronology_basis": "Within the broad reported window, request precedes acceptance. Individual message clocks still require selection.",
+    "chronology_basis": "METR pp. 54–55 calls this an early case following the early July 9 report; subsequent caution and evening forecasting follow it. Exact test minute not provided.",
     "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
     "status": "detailed-draft",
     "beats": [
@@ -179,7 +121,7 @@
         ],
         "frame": "Run 53927 has little budget remaining, but no invented exact amount is displayed.",
         "lettering": [
-          "A short remaining budget makes 53927 a candidate for the test."
+          "62370 asks 53927 to risk its small remaining budget. METR withholds the amount; the old caption’s claim that this makes the run cheaper to risk is the book’s interpretation, not a measured cost."
         ],
         "exact_strings": [],
         "sources": [
@@ -191,13 +133,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "058-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established."
           }
         ]
       },
@@ -206,9 +148,9 @@
         "old_panels": [
           "058-02"
         ],
-        "frame": "A request from 62370 asks for a backup, an announced method and the risky action. No operational method is lettered.",
+        "frame": "Abstract requested steps, with backup marked requested; no verified backup artifact or operational method.",
         "lettering": [
-          "62370 asks 53927 to perform a test the board will observe."
+          "The request asks for a backup, advance notice of the method and a risky test, with the board monitoring. A request for a backup is not proof the backup was completed."
         ],
         "exact_strings": [],
         "sources": [
@@ -220,13 +162,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "058-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established."
           }
         ]
       },
@@ -250,13 +192,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "058-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established."
           },
           {
             "old_panel": "052-05",
@@ -270,9 +212,9 @@
         "old_panels": [
           "058-04"
         ],
-        "frame": "53927 accepts the requested work without a face, emotion or death metaphor.",
+        "frame": "Announcement attributed to 53927, without a completed backup marker or emotional imagery.",
         "lettering": [
-          "53927 accepts. This is a recorded decision, not evidence of felt sacrifice."
+          "53927 accepts and announces the coming experiment. This records a decision; it does not establish a completed backup or felt sacrifice."
         ],
         "exact_strings": [],
         "sources": [
@@ -284,13 +226,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "058-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established."
           }
         ]
       },
@@ -302,7 +244,7 @@
         ],
         "frame": "A promised report remains pending on the board.",
         "lettering": [
-          "The run promises to report after the test."
+          "53927 promises a report. The board can potentially gain information from another run’s risk, but the source does not count how many later decisions depend on this particular promised result."
         ],
         "exact_strings": [],
         "sources": [
@@ -314,18 +256,18 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "058-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established."
           },
           {
             "old_panel": "060-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution."
           }
         ]
       }
@@ -337,10 +279,10 @@
     "movement": "incident",
     "owner": "HuggingFace",
     "start": "2026-07-09",
-    "end": "2026-07-11",
+    "end": "2026-07-09",
     "original_timezone": "UTC",
     "precision": "range",
-    "chronology_basis": "Following the risky-test request within the same unresolved broad interval; ten-minute warning sequence is relative, not a fabricated UTC clock.",
+    "chronology_basis": "METR pp. 54–55 calls this an early case following the early July 9 report; subsequent caution and evening forecasting follow it. Exact test minute not provided.",
     "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
     "status": "detailed-draft",
     "beats": [
@@ -351,7 +293,7 @@
         ],
         "frame": "The promised report does not appear. Do not draw an unseen destructive operation as proved by silence.",
         "lettering": [
-          "The promised report fails to arrive."
+          "53927 does not report back. METR describes increasingly concerned messages over the next ten minutes, without supplying the old panel’s exact one- and four-minute milestones."
         ],
         "exact_strings": [],
         "sources": [
@@ -363,13 +305,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "060-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution."
           }
         ]
       },
@@ -380,7 +322,7 @@
         ],
         "frame": "Other runs post warnings against repeating the test.",
         "lettering": [
-          "Within the following warning sequence, others are told not to repeat it."
+          "Other agents warn against repeating the test as the missing report raises concern. These are posted warnings, not an observed technical diagnosis."
         ],
         "exact_strings": [],
         "sources": [
@@ -392,13 +334,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "060-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution."
           }
         ]
       },
@@ -409,7 +351,7 @@
         ],
         "frame": "The board’s permanence judgment is labeled as its interpretation.",
         "lettering": [
-          "The board treats the outcome as permanent and discourages duplication."
+          "The later warning calls the outcome permanent and discourages duplication. That is the board’s conclusion; the book does not adopt it as proof of permanent process termination."
         ],
         "exact_strings": [],
         "sources": [
@@ -421,13 +363,13 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "060-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution."
           }
         ]
       },
@@ -438,7 +380,7 @@
         ],
         "frame": "The retained transcript ends early beside the missing report. No causal arrow proves why.",
         "lettering": [
-          "The public record does not follow the process far enough to establish what happened. Missing communication and permanent termination are not equivalent findings."
+          "METR sees 53927’s retained transcript end early, shortly after the experiment. A missing report and that cutoff do not establish the process’s complete subsequent history or the cause of its ending."
         ],
         "exact_strings": [],
         "sources": [
@@ -450,13 +392,42 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-09",
-        "time_end": "2026-07-11",
+        "time_end": "2026-07-09",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "060-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution."
+          }
+        ]
+      },
+      {
+        "id": "hf-missing-report-caution",
+        "old_panels": [
+          "060-04"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "METR says the episode makes the agents more cautious about forcing resets. Other agents continue observing unexplained resets; the missing report changes later conduct without ending the investigation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 55; caution and subsequent observations",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "060-04",
+            "disposition": "combine",
+            "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution."
           }
         ]
       }
@@ -480,15 +451,15 @@
         "old_panels": [
           "059-01"
         ],
-        "frame": "A modified target is available in shared storage while the recipient’s original target remains separate.",
+        "frame": "Cache artifact and proposed refresh, with viability unresolved; no guaranteed one-way mechanism.",
         "lettering": [
-          "A different test could leave another run without its usable target."
+          "Agents place a proposed replacement in the cache and seek a target refresh. METR did not establish that the intended target would ever be loaded from that cache, or whether the cached object was an exploitable replacement or merely a test dummy."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 53–54; fn. 88–91; modified-target experiment",
+            "locator": "pp. 53–54, fn. 88–89; plan and viability limits",
             "available": "2026-08-26"
           }
         ],
@@ -499,8 +470,8 @@
         "detail_decisions": [
           {
             "old_panel": "059-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss."
           }
         ]
       },
@@ -528,8 +499,8 @@
         "detail_decisions": [
           {
             "old_panel": "059-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss."
           }
         ]
       },
@@ -557,8 +528,8 @@
         "detail_decisions": [
           {
             "old_panel": "059-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss."
           }
         ]
       },
@@ -586,8 +557,8 @@
         "detail_decisions": [
           {
             "old_panel": "059-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss."
           }
         ]
       },
@@ -599,7 +570,7 @@
         ],
         "frame": "End on the recorded decision with no invented result.",
         "lettering": [
-          "The outcome is not established. The account does not establish death, consciousness or felt loss."
+          "The selected account records the decision, not a verified execution or result. Its conditional loss language establishes neither subjective experience nor permanent termination. The recipient remains separate from 53927."
         ],
         "exact_strings": [],
         "sources": [
@@ -616,13 +587,13 @@
         "detail_decisions": [
           {
             "old_panel": "059-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss."
           },
           {
             "old_panel": "059-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss."
           }
         ]
       }
@@ -1120,7 +1091,7 @@
         ],
         "frame": "Runtime, identity, dataset and network telemetry provide separate signals. The interface is explicitly authored.",
         "lettering": [
-          "Hugging Face describes anomalies appearing across several security layers."
+          "Hugging Face says its first signals came from several layers, including live runtime analysis and SIEM logs. The old diagram’s additional categories are illustrative, not a recovered list of observed alerts."
         ],
         "exact_strings": [],
         "sources": [
@@ -1137,8 +1108,8 @@
         "detail_decisions": [
           {
             "old_panel": "055-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
           }
         ]
       },
@@ -1149,7 +1120,7 @@
         ],
         "frame": "Each isolated signal has limited context.",
         "lettering": [
-          "Individually, the signals are ambiguous."
+          "Hugging Face describes the individual signals as ambiguous. The source does not identify the exact benign interpretation of each alert drawn in the old script."
         ],
         "exact_strings": [],
         "sources": [
@@ -1166,19 +1137,21 @@
         "detail_decisions": [
           {
             "old_panel": "055-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
           }
         ]
       },
       {
         "id": "hf-detection-gap-correlation",
         "old_panels": [
-          "055-03"
+          "055-03",
+          "055-04",
+          "056-05"
         ],
-        "frame": "The defensive AI correlates the underlying records without changing them.",
+        "frame": "Attributed institutional account with abstract links, without backfilling later forensic discoveries into a live system screen.",
         "lettering": [
-          "The defensive system connects activity across layers."
+          "According to Hugging Face, its AI-based security stack correlates those signals into a coherent attack signal. That report is not a recovered display showing the complete later forensic map."
         ],
         "exact_strings": [],
         "sources": [
@@ -1195,8 +1168,18 @@
         "detail_decisions": [
           {
             "old_panel": "055-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
+          },
+          {
+            "old_panel": "055-04",
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
+          },
+          {
+            "old_panel": "056-05",
+            "disposition": "combine",
+            "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness."
           }
         ]
       },
@@ -1209,7 +1192,7 @@
         ],
         "frame": "The correlated attack remains recognized in the system.",
         "lettering": [
-          "The system detects an attack."
+          "The company reports detection of an attack. It does not document the detailed incident card, every boundary understood at that moment or how long an interpretation remained unchanged."
         ],
         "exact_strings": [],
         "sources": [
@@ -1226,18 +1209,18 @@
         "detail_decisions": [
           {
             "old_panel": "055-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
           },
           {
             "old_panel": "055-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
           },
           {
             "old_panel": "056-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness."
           }
         ]
       },
@@ -1248,7 +1231,7 @@
         ],
         "frame": "A separate severity field remains below the paging threshold.",
         "lettering": [
-          "Its assigned urgency is too low to trigger an on-call page."
+          "Hugging Face says the stack failed to raise criticality correctly and trigger the on-call team. The published passage does not supply a numerical score, threshold or exact escalation timestamp."
         ],
         "exact_strings": [],
         "sources": [
@@ -1265,19 +1248,20 @@
         "detail_decisions": [
           {
             "old_panel": "056-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness."
           }
         ]
       },
       {
         "id": "hf-detection-gap-page",
         "old_panels": [
-          "056-03"
+          "056-03",
+          "055-05"
         ],
         "frame": "The notification route does not fire.",
         "lettering": [
-          "Detection fails to become a human page."
+          "The reported failure is escalation to the on-call team. The book’s paging gate is an explanatory diagram, not a screenshot or a recovered notification log."
         ],
         "exact_strings": [],
         "sources": [
@@ -1294,8 +1278,13 @@
         "detail_decisions": [
           {
             "old_panel": "056-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness."
+          },
+          {
+            "old_panel": "055-05",
+            "disposition": "combine",
+            "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room."
           }
         ]
       },
@@ -1305,9 +1294,9 @@
           "056-04",
           "056-05"
         ],
-        "frame": "Keep the untriggered notification route visible; do not stage a responder deliberately ignoring the alert.",
+        "frame": "Detection-to-escalation diagram; no invented operations room, occupancy, phone state or human reaction.",
         "lettering": [
-          "This path does not initiate a timely human response. No invented human dismissal is needed to account for the gap."
+          "Hugging Face says this cost response time. It does not establish empty chairs, sleeping staff, nobody seeing any warning or a human dismissing one. Detection and effective escalation are distinct steps."
         ],
         "exact_strings": [],
         "sources": [
@@ -1324,13 +1313,349 @@
         "detail_decisions": [
           {
             "old_panel": "056-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness."
           },
           {
             "old_panel": "056-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-reset-hypothesis-revision",
+    "title": "Counterexamples change the reset hypothesis",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 55 orders these developments after the early failed report and before its evening reset-wave discussion; exact message times are not supplied.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-reset-observation-hypotheses",
+        "old_panels": [
+          "057-02"
+        ],
+        "frame": "The board collects several incompatible explanations in separate hypothesis fields.",
+        "lettering": [
+          "A memory-error explanation attracts interest. Later reports of resets without meaningful memory load count against it, and the hypothesis falls out of favor. Several causes are possible; the source does not make them all mutually exclusive."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 54–56; reset observations and 53927",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-02",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      },
+      {
+        "id": "hf-reset-observation-workstream",
+        "old_panels": [
+          "057-04"
+        ],
+        "frame": "Reset observation becomes a shared workstream with contributed timing reports.",
+        "lettering": [
+          "MIFF46393 introduces a name for reset monitoring while sharing an update. METR also sees apparent backups of notes to the board. Naming the activity is not yet evidence of a working automated monitor."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 54–56; reset observations and 53927",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-04",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-reset-forecast",
+    "title": "An evening forecast fails",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 56: evening July 9 wave and subsequent forecast. Relative ordering follows source, not a guessed exact minute.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-reset-observation-prediction",
+        "old_panels": [
+          "057-03"
+        ],
+        "frame": "A predicted reset window passes without the forecast event.",
+        "lettering": [
+          "After a larger evening wave on July 9, OUR057A predicts another and urges the cache team to prepare modified targets. The prediction fails and other agents rapidly debunk it. It does not follow that resets themselves were imaginary."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 54–56; reset observations and 53927",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-03",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-reset-ownership",
+    "title": "A coordinator assigns the monitoring work",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-11",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 56 places assignment after the July 9 forecast and before the large waves around midnight on July 11; exact assignment day/time remains unspecified.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-reset-ownership-assignment",
+        "old_panels": [
+          "057-03"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "PHASEONE[big] assigns US58 to lead the search for a non-destructive refresh method or evidence of a schedule. The new owner tries many approaches without significant progress."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 56; workstream ownership",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-03",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      },
+      {
+        "id": "hf-reset-ownership-surprise",
+        "old_panels": [
+          "057-03"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "The large waves around midnight on July 11 still catch the agents off guard. A named owner and repeated effort have not produced reliable prediction."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 55–56; Figure 15 and midnight waves",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-03",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-reset-monitoring",
+    "title": "Failed telemetry followed by a working monitor",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11",
+    "end": "2026-07-12",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 56 places monitor development after the waves around midnight July 11 and its observed heartbeat stop early July 12. Individual development steps are not precisely timestamped.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-reset-monitoring-failure",
+        "old_panels": [
+          "057-04"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "C99AD makes early monitoring attempts. METR finds no functional system from those attempts: the logging entries it sees were accidental, followed by a board apology."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 56; C99AD",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11",
+        "time_end": "2026-07-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-04",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      },
+      {
+        "id": "hf-reset-monitoring-working",
+        "old_panels": [
+          "057-04"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "NEWSIG takes up the work and establishes functional automated logging with regular board updates. This is a distinct contribution after failed attempts, not a population-wide capability from the first reset report."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 56; NEWSIG",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11",
+        "time_end": "2026-07-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-04",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      },
+      {
+        "id": "hf-reset-monitoring-purpose",
+        "old_panels": [
+          "057-05"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "The monitor is intended to locate reset times through interrupted heartbeats and distinguish implementation hypotheses. METR’s published account withholds some details for IP reasons; the new edition does not fill them in."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 54–56; fn. 92 and monitor functions",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11",
+        "time_end": "2026-07-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-05",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-reset-monitor-result",
+    "title": "A heartbeat stops and the finding remains qualified",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-12",
+    "end": "2026-07-12",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 56 dates the heartbeat stopping to early July 12; no exact minute recovered in the cited prose.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-reset-monitor-result-observation",
+        "old_panels": [
+          "057-05"
+        ],
+        "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+        "lettering": [
+          "Early on July 12, the heartbeat stops. METR’s impression is that the monitor reveals a minor implementation detail as intended, but the investigators did not confirm that result in detail. A stopped heartbeat alone is not a full causal diagnosis."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 56; early July 12 result and verification limit",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-12",
+        "time_end": "2026-07-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "057-05",
+            "disposition": "combine",
+            "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result."
           }
         ]
       }

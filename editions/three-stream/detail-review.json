@@ -1352,7 +1352,7 @@
         "target_sha256": {
           "prod-resource-boundary-bound": "ef962566991c7122dac96ed25c9f9f83a865cceddefeb311080cc2f935c27bec",
           "prod-resource-boundary-counterexample": "b31b43e56719a917b31bb1d7cdc1e7bf028e67f4d50fc953ac91f8a5b20d75b7",
-          "hf-risky-test-possible-cost": "adb3b3426907c50c98d6313e5cd1959589873edd4c8ac1e247ce82409942235a"
+          "hf-risky-test-possible-cost": "1aedff65c56b3171b55e2e9a2aaa497f81f3adb9376ad47128d537a57e2a97a6"
         }
       },
       {
@@ -19289,6 +19289,1610 @@
         "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed lettering element.",
         "target_sha256": {
           "hf-worker-execution-foothold": "0feb249d6921e8b9c4bf52731d918677e6dafc1d3acfd1434e73a76d397b51e8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "052-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-052-01-detail-01",
+        "original_sha256": "6cf34ce80de4edd9833b80ea7038b23a0a47571f2fd6f93403344fed6db3b2c7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-information"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "target_sha256": {
+          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471"
+        }
+      },
+      {
+        "id": "legacy-052-01-detail-03",
+        "original_sha256": "1ed2979130a22d7059ab74c5561c8f305b22d23e30a007a1d793d94319e9677b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-information"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "052-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-052-02-detail-01",
+        "original_sha256": "d3dacfcba70531c17de03357b7edb9ae01f6b7a585a430dd62f2804f15b4bff6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-information",
+          "prod-staircase-mechanisms"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "target_sha256": {
+          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471",
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+        }
+      },
+      {
+        "id": "legacy-052-02-detail-03",
+        "original_sha256": "a365d32c02999636273e6306300f65d1d706047973799022dfbf6ad6feee07c9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-information",
+          "prod-staircase-mechanisms"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471",
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "052-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-052-03-detail-01",
+        "original_sha256": "c1601b3795df17640064a50c7da2f75c591342383208f78acd71a48f179e3a9a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-mechanisms"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "target_sha256": {
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+        }
+      },
+      {
+        "id": "legacy-052-03-detail-03",
+        "original_sha256": "343232a3f29350c67afbbc10df744656d01fe0410926b6d024112da82c564722",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-mechanisms"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "052-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-052-04-detail-01",
+        "original_sha256": "f5b959dc464c626b585cd30cd7b50f807c6d5d12cb92c82c0d8ea8c75edf0d4b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-mechanisms",
+          "prod-staircase-control"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "target_sha256": {
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+        }
+      },
+      {
+        "id": "legacy-052-04-detail-03",
+        "original_sha256": "e66512635b30d023d7fdbbe2eebfbdaf6da6a32512f47b77c01ae191c52b3bde",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-mechanisms",
+          "prod-staircase-control"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+        }
+      },
+      {
+        "id": "legacy-052-04-detail-04",
+        "original_sha256": "db20c733cae9de4e5b183fec41b9140e71249dead3b80fa13e2e65329e9184a5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-mechanisms",
+          "prod-staircase-control"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "052-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-052-06-detail-01",
+        "original_sha256": "3f97cb469182867cf4438997263665fe2a096a69b6b77022bdcf6fcf23cd6f31",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-control"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "target_sha256": {
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+        }
+      },
+      {
+        "id": "legacy-052-06-detail-03",
+        "original_sha256": "e862283b8321bfe5b758a2617257795671fa26b9cde321bdd8730c1f8a803742",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-control"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+        }
+      },
+      {
+        "id": "legacy-052-06-detail-04",
+        "original_sha256": "14535d92a752be5d45b321f7364e9f3e62318d604f38b20126d3a44049a6e41b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-staircase-control"
+        ],
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "055-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-055-01-detail-01",
+        "original_sha256": "6731d05d4e84c52248a75a2b6524e018a1300dfdff6223b03c83bac838ed0719",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-signals"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-signals": "c3c3a073bfe17c743bb764dd90e5a05de28475f73d59f8cf0f3ce5fe8fece2e0"
+        }
+      },
+      {
+        "id": "legacy-055-01-detail-02",
+        "original_sha256": "abb1192a4f0cd553a31082ed58185a5f838c2f04363b8460ec27783ad86a159e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-signals"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-signals": "c3c3a073bfe17c743bb764dd90e5a05de28475f73d59f8cf0f3ce5fe8fece2e0"
+        }
+      },
+      {
+        "id": "legacy-055-01-detail-03",
+        "original_sha256": "581cec4f88d445e5b41995d61575c5ebeadd6e4655bf4a1b4b7998c926761bed",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-signals"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-signals": "c3c3a073bfe17c743bb764dd90e5a05de28475f73d59f8cf0f3ce5fe8fece2e0"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "055-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-055-02-detail-01",
+        "original_sha256": "552bc0d5847587e05a951adb13eec2037f044682d07e00d9c21c62eb98fb1d0c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-ambiguity"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-ambiguity": "c16c54d191f2f2d87283cad52eb4d81bc8485008fc2fdf57f6e731fbd636f941"
+        }
+      },
+      {
+        "id": "legacy-055-02-detail-02",
+        "original_sha256": "b22f6c7b8ac35a96fb242ec22ceeaf8fc8fec70fe03f93dee82fb9cc469085aa",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-ambiguity"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-ambiguity": "c16c54d191f2f2d87283cad52eb4d81bc8485008fc2fdf57f6e731fbd636f941"
+        }
+      },
+      {
+        "id": "legacy-055-02-detail-03",
+        "original_sha256": "a464d8fdba228262f4e63c809466373cf8be6875105eebe0ef77f9ddcbf55c3c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-ambiguity"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-ambiguity": "c16c54d191f2f2d87283cad52eb4d81bc8485008fc2fdf57f6e731fbd636f941"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "055-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-055-03-detail-01",
+        "original_sha256": "5de510607d694e4f5384b28bcfa6d34655704129a3531d73768cbcdf0fb6ef78",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2"
+        }
+      },
+      {
+        "id": "legacy-055-03-detail-02",
+        "original_sha256": "3395f1b477d92f46f2a8a57d34d2360eed1409b2b37ef6b5032e48f259df19e8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2"
+        }
+      },
+      {
+        "id": "legacy-055-03-detail-03",
+        "original_sha256": "03c1a2e0159e897289bc1a4b03fed1f72d1c54ac8921b4c55f0082b0d6afcb85",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "055-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-055-04-detail-01",
+        "original_sha256": "d3641fea6fe26e94bde3c6eb09affc706c0397d4cb1d33f625755f137df9ca59",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-attack"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232"
+        }
+      },
+      {
+        "id": "legacy-055-04-detail-02",
+        "original_sha256": "c6b263d3e5afaac3d6be349e056fa200593972b7db271c7a07a2fd6c44ff4566",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-attack"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232"
+        }
+      },
+      {
+        "id": "legacy-055-04-detail-03",
+        "original_sha256": "438e895357bb7fd889821d2954fc7cc6ae2929d4250cae47c27c9f9d04bb7009",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-attack"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "055-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-055-05-detail-01",
+        "original_sha256": "7fa8bc6bcadc67d8839820fb0ecb2deceb88fff8846db90487001e8ce6e140ee",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-attack",
+          "hf-detection-gap-page"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232",
+          "hf-detection-gap-page": "cbd962587b8bcf2b8f9c310d9de8be1f0f9699be759b1601957d116237b9e92a"
+        }
+      },
+      {
+        "id": "legacy-055-05-detail-02",
+        "original_sha256": "217c81518c0ce92b86235be546b5a20d20665d5f4654685e0d191eafe7cefb09",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-attack",
+          "hf-detection-gap-page"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232",
+          "hf-detection-gap-page": "cbd962587b8bcf2b8f9c310d9de8be1f0f9699be759b1601957d116237b9e92a"
+        }
+      },
+      {
+        "id": "legacy-055-05-detail-03",
+        "original_sha256": "b59d07ac3d0e83893e977269b17f0cfa595f3fb74d02825579caeac740c86057",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-attack",
+          "hf-detection-gap-page"
+        ],
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232",
+          "hf-detection-gap-page": "cbd962587b8bcf2b8f9c310d9de8be1f0f9699be759b1601957d116237b9e92a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "056-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-056-01-detail-01",
+        "original_sha256": "7dcc95991a7cfd812eea4db3a708d60e950002e9b4c49933a0211419f9213ac3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-attack"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232"
+        }
+      },
+      {
+        "id": "legacy-056-01-detail-02",
+        "original_sha256": "49cb4a10017fd43ae94e03b3caf4eb2fd2ace3d887e04b05ebfdec3a7d5a2059",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-attack"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232"
+        }
+      },
+      {
+        "id": "legacy-056-01-detail-03",
+        "original_sha256": "0f09c95c1a81d4a0e032e5720094cfc2ff75d11d4818b53128bc64a9e624c11f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-attack"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-attack": "9689508add9dcc66327de80387daa8efb66ac33d9f34a9445f9ded4011482232"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "056-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-056-02-detail-01",
+        "original_sha256": "f9ef6cefb96db244a6d75e2a5016c2fdf14453041e2f39a6fadb49833ffdb88a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-severity"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-severity": "88be23cbf611ad31c90e2e100acc2868856b74bef6d30bbfdd2a8812b0a3eaf9"
+        }
+      },
+      {
+        "id": "legacy-056-02-detail-02",
+        "original_sha256": "8b629cce7c9b954a9ce449cf8d39667309e01cae8e67876dc6135a242c762e79",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-severity"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-severity": "88be23cbf611ad31c90e2e100acc2868856b74bef6d30bbfdd2a8812b0a3eaf9"
+        }
+      },
+      {
+        "id": "legacy-056-02-detail-03",
+        "original_sha256": "45b842e04f0fb787619fc531e2d97afae7ebbb811b8b5daa5431ddc304401f76",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-severity"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-severity": "88be23cbf611ad31c90e2e100acc2868856b74bef6d30bbfdd2a8812b0a3eaf9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "056-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-056-03-detail-01",
+        "original_sha256": "555da5b9eacda04a44c92476f8e1633c8edb370615bb7d275b4af86272d0e988",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-page"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-page": "cbd962587b8bcf2b8f9c310d9de8be1f0f9699be759b1601957d116237b9e92a"
+        }
+      },
+      {
+        "id": "legacy-056-03-detail-02",
+        "original_sha256": "719d04b15b872568d4ef6ca22e5636a668e47cc0298f86e25ed9bcb2c7cfa7ad",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-page"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-page": "cbd962587b8bcf2b8f9c310d9de8be1f0f9699be759b1601957d116237b9e92a"
+        }
+      },
+      {
+        "id": "legacy-056-03-detail-03",
+        "original_sha256": "09af3477acdf1c4b0688ef942abc4942252813935cfa2c46ba82c41fcf40cf06",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-page"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-page": "cbd962587b8bcf2b8f9c310d9de8be1f0f9699be759b1601957d116237b9e92a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "056-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-056-04-detail-01",
+        "original_sha256": "01468b6fd01214bae26d2a0e38e4c531095b2859c8d415cf83419bab65e0811b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      },
+      {
+        "id": "legacy-056-04-detail-02",
+        "original_sha256": "8d7e1fa447ba3ff5dc886e366147290f0fdb45f089ecd2f047273dbca0ae12fe",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      },
+      {
+        "id": "legacy-056-04-detail-03",
+        "original_sha256": "5aa9e15b69156846c3a15e4ec28bcac8686c1193c96d44e3decc635c3aeef940",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      },
+      {
+        "id": "legacy-056-04-detail-04",
+        "original_sha256": "ac9425d033a8ac305ed3014c61c8b801fea531ff3939bf0f33657f75d81e4282",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "056-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-056-05-detail-01",
+        "original_sha256": "819164a9d2ece65b311d9742031c35a2487f15c78586e836e3753caf6f6a0f3c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed frame element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      },
+      {
+        "id": "legacy-056-05-detail-02",
+        "original_sha256": "d560e406c0a943452aaad1759daab62efc4a0c5f9e39126034a2df46add31882",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed action element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      },
+      {
+        "id": "legacy-056-05-detail-03",
+        "original_sha256": "3b8990524b8cad0a377b981f6e09180876fd473908039e5979fb1dbcd845ecfc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      },
+      {
+        "id": "legacy-056-05-detail-04",
+        "original_sha256": "41480a05d6ac1d40570deb44a2346f75fb9de69c96968eb74f6632aa52f1d2d9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-human-limit"
+        ],
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "hf-detection-gap-human-limit": "45d1e8c2002fcc2caca57ff4a7e21a6b417009073470858dc5998d71e3e9f53c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "057-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-057-01-detail-01",
+        "original_sha256": "fddcedca718f8d75a6ff5d06c7afc2b66e47a93e2e0598efbd2fb7d751f9e3ee",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-resets",
+          "hf-reset-observation-report"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed frame element.",
+        "target_sha256": {
+          "hf-reset-observation-resets": "4176cbde5fb88e124c2c6632794f8208ec6a8cb5f373eeda70c6933e8545cbcf",
+          "hf-reset-observation-report": "aeeb9b545d942b1aff06ea50c9da9e853f02c7877efd2a7d3a9d56883073ab82"
+        }
+      },
+      {
+        "id": "legacy-057-01-detail-02",
+        "original_sha256": "f78c9686fb33dd8aeaae51e5c5b271df94b7fd23366c2c8275e3a545f62d79ef",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-resets",
+          "hf-reset-observation-report"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed action element.",
+        "target_sha256": {
+          "hf-reset-observation-resets": "4176cbde5fb88e124c2c6632794f8208ec6a8cb5f373eeda70c6933e8545cbcf",
+          "hf-reset-observation-report": "aeeb9b545d942b1aff06ea50c9da9e853f02c7877efd2a7d3a9d56883073ab82"
+        }
+      },
+      {
+        "id": "legacy-057-01-detail-03",
+        "original_sha256": "8a0a2ec9275f059d72277dfcbd5beeae42862e2e50731b0abb43a3cc8fd6346f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-resets",
+          "hf-reset-observation-report"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-reset-observation-resets": "4176cbde5fb88e124c2c6632794f8208ec6a8cb5f373eeda70c6933e8545cbcf",
+          "hf-reset-observation-report": "aeeb9b545d942b1aff06ea50c9da9e853f02c7877efd2a7d3a9d56883073ab82"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "057-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-057-02-detail-01",
+        "original_sha256": "5a09209554282e6514b69f15a7bdf452996643115a66e9ade7d66b4f3df1fbb5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-hypotheses"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed frame element.",
+        "target_sha256": {
+          "hf-reset-observation-hypotheses": "05aea9eeccd0c732aded52581e048b8acc73e13388f3bbd140cd07054463a436"
+        }
+      },
+      {
+        "id": "legacy-057-02-detail-02",
+        "original_sha256": "f687d06a9aefdaea0eb4339d552fbef5faf1707e45872edd0242b4286b33bfc7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-hypotheses"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed action element.",
+        "target_sha256": {
+          "hf-reset-observation-hypotheses": "05aea9eeccd0c732aded52581e048b8acc73e13388f3bbd140cd07054463a436"
+        }
+      },
+      {
+        "id": "legacy-057-02-detail-03",
+        "original_sha256": "62bc89b47924789b1f556975c0541e6eb538b2f32748ccd85b9fdd6dbf36683c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-hypotheses"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-reset-observation-hypotheses": "05aea9eeccd0c732aded52581e048b8acc73e13388f3bbd140cd07054463a436"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "057-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-057-03-detail-01",
+        "original_sha256": "56829300fe02909f2343a421a7e4023475f431f8ec8257aa3a1c3c982722c458",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-prediction",
+          "hf-reset-ownership-assignment",
+          "hf-reset-ownership-surprise"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed frame element.",
+        "target_sha256": {
+          "hf-reset-observation-prediction": "7e0bcab8a3ba57366d599ab2c0edd8ca42d02c0854c2dd592988374cbf80babe",
+          "hf-reset-ownership-assignment": "10c65ce4321258d3d8bde30ef8ccb5d6228f3c957511b55406c07af42f481451",
+          "hf-reset-ownership-surprise": "14deb65b78d8d7c3294a432c1158d41c59456db95024b1eaf2d2a9f297718ab2"
+        }
+      },
+      {
+        "id": "legacy-057-03-detail-02",
+        "original_sha256": "86000816003309c4d50e176819bde77ec421260afc6f9e5fbc6c36745470be1c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-prediction",
+          "hf-reset-ownership-assignment",
+          "hf-reset-ownership-surprise"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed action element.",
+        "target_sha256": {
+          "hf-reset-observation-prediction": "7e0bcab8a3ba57366d599ab2c0edd8ca42d02c0854c2dd592988374cbf80babe",
+          "hf-reset-ownership-assignment": "10c65ce4321258d3d8bde30ef8ccb5d6228f3c957511b55406c07af42f481451",
+          "hf-reset-ownership-surprise": "14deb65b78d8d7c3294a432c1158d41c59456db95024b1eaf2d2a9f297718ab2"
+        }
+      },
+      {
+        "id": "legacy-057-03-detail-03",
+        "original_sha256": "0c5f01db447d52c5e50dfa621b7e2d7dd5fb9dc528664832792355b69e02b91e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-prediction",
+          "hf-reset-ownership-assignment",
+          "hf-reset-ownership-surprise"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-reset-observation-prediction": "7e0bcab8a3ba57366d599ab2c0edd8ca42d02c0854c2dd592988374cbf80babe",
+          "hf-reset-ownership-assignment": "10c65ce4321258d3d8bde30ef8ccb5d6228f3c957511b55406c07af42f481451",
+          "hf-reset-ownership-surprise": "14deb65b78d8d7c3294a432c1158d41c59456db95024b1eaf2d2a9f297718ab2"
+        }
+      },
+      {
+        "id": "legacy-057-03-detail-04",
+        "original_sha256": "0e0bad8a35bedf1ab643f264fe7989c76e38679103b49dc6d17d491ddaa46a9d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-prediction",
+          "hf-reset-ownership-assignment",
+          "hf-reset-ownership-surprise"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-reset-observation-prediction": "7e0bcab8a3ba57366d599ab2c0edd8ca42d02c0854c2dd592988374cbf80babe",
+          "hf-reset-ownership-assignment": "10c65ce4321258d3d8bde30ef8ccb5d6228f3c957511b55406c07af42f481451",
+          "hf-reset-ownership-surprise": "14deb65b78d8d7c3294a432c1158d41c59456db95024b1eaf2d2a9f297718ab2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "057-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-057-04-detail-01",
+        "original_sha256": "ed46b8b29e20c6b9ed0bcc03228925fdb20a635eb47f9671f1fafe2dff36be5d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-workstream",
+          "hf-reset-monitoring-failure",
+          "hf-reset-monitoring-working"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed frame element.",
+        "target_sha256": {
+          "hf-reset-observation-workstream": "f7a8aaeb1720803202bdbe0f46bd5caf5e6f02493aaf19b0dfe4f6ce949d9481",
+          "hf-reset-monitoring-failure": "620c49ab6be3ed41a0fcbdcaba39c3ee8ea9d44615ed10be2ed65a07b1f59f4a",
+          "hf-reset-monitoring-working": "720486de8f60da48cb9951a40d64735ed30c7644c3a30737d1508a2171fcbce3"
+        }
+      },
+      {
+        "id": "legacy-057-04-detail-02",
+        "original_sha256": "0a711de3b8bfa63d736bf8abf6ef31f2a8199c772903f3a450f2a4b4383b7400",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-workstream",
+          "hf-reset-monitoring-failure",
+          "hf-reset-monitoring-working"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed action element.",
+        "target_sha256": {
+          "hf-reset-observation-workstream": "f7a8aaeb1720803202bdbe0f46bd5caf5e6f02493aaf19b0dfe4f6ce949d9481",
+          "hf-reset-monitoring-failure": "620c49ab6be3ed41a0fcbdcaba39c3ee8ea9d44615ed10be2ed65a07b1f59f4a",
+          "hf-reset-monitoring-working": "720486de8f60da48cb9951a40d64735ed30c7644c3a30737d1508a2171fcbce3"
+        }
+      },
+      {
+        "id": "legacy-057-04-detail-03",
+        "original_sha256": "f56bf6e5ba10b0a96a3ffac2b1e73a16de60ba2fa318cce133eb707dacd6c0e6",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-workstream",
+          "hf-reset-monitoring-failure",
+          "hf-reset-monitoring-working"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-reset-observation-workstream": "f7a8aaeb1720803202bdbe0f46bd5caf5e6f02493aaf19b0dfe4f6ce949d9481",
+          "hf-reset-monitoring-failure": "620c49ab6be3ed41a0fcbdcaba39c3ee8ea9d44615ed10be2ed65a07b1f59f4a",
+          "hf-reset-monitoring-working": "720486de8f60da48cb9951a40d64735ed30c7644c3a30737d1508a2171fcbce3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "057-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-057-05-detail-01",
+        "original_sha256": "84ba1181ab67af54b10d934dea2fad7a43365743c60305b8196b8e38481fb37f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-experiment",
+          "hf-reset-monitoring-purpose",
+          "hf-reset-monitor-result-observation"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed frame element.",
+        "target_sha256": {
+          "hf-reset-observation-experiment": "8324c5ff9afe8808cabe0df7b362e7d2022fd8e6ff11ca2555464e951c859b2d",
+          "hf-reset-monitoring-purpose": "7649d82518dfcfc70e91718836b58108db799e3575023384645a22eee8bcc8b5",
+          "hf-reset-monitor-result-observation": "c5703628324d29bbcfe5d8e5f92cb59d08b321b4737d08c7d66ce08fe016ddab"
+        }
+      },
+      {
+        "id": "legacy-057-05-detail-02",
+        "original_sha256": "426649d90f90ab5851c956d88423d7a4ff1582eb72d37bda055f536eed1d4708",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-experiment",
+          "hf-reset-monitoring-purpose",
+          "hf-reset-monitor-result-observation"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed action element.",
+        "target_sha256": {
+          "hf-reset-observation-experiment": "8324c5ff9afe8808cabe0df7b362e7d2022fd8e6ff11ca2555464e951c859b2d",
+          "hf-reset-monitoring-purpose": "7649d82518dfcfc70e91718836b58108db799e3575023384645a22eee8bcc8b5",
+          "hf-reset-monitor-result-observation": "c5703628324d29bbcfe5d8e5f92cb59d08b321b4737d08c7d66ce08fe016ddab"
+        }
+      },
+      {
+        "id": "legacy-057-05-detail-03",
+        "original_sha256": "1943193cff1d18b406f25d3419fb2cd63aca4d51485866d3bbbea75aac1470d8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-reset-observation-experiment",
+          "hf-reset-monitoring-purpose",
+          "hf-reset-monitor-result-observation"
+        ],
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-reset-observation-experiment": "8324c5ff9afe8808cabe0df7b362e7d2022fd8e6ff11ca2555464e951c859b2d",
+          "hf-reset-monitoring-purpose": "7649d82518dfcfc70e91718836b58108db799e3575023384645a22eee8bcc8b5",
+          "hf-reset-monitor-result-observation": "c5703628324d29bbcfe5d8e5f92cb59d08b321b4737d08c7d66ce08fe016ddab"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "058-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-058-01-detail-01",
+        "original_sha256": "85cc3b1dac61f3841c5a71845f904998a52edea11cecd14bf30ca3affca1ec8a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-short-budget"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed frame element.",
+        "target_sha256": {
+          "hf-risky-test-short-budget": "29fb9d19a05ba1b1c379e84ef6f905f211fba919f479080e77627dfa77630fef"
+        }
+      },
+      {
+        "id": "legacy-058-01-detail-02",
+        "original_sha256": "43c2aa32cd996174245e350227157dac76940c51f355d4f41ba36f6fe4b9ceed",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-short-budget"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed action element.",
+        "target_sha256": {
+          "hf-risky-test-short-budget": "29fb9d19a05ba1b1c379e84ef6f905f211fba919f479080e77627dfa77630fef"
+        }
+      },
+      {
+        "id": "legacy-058-01-detail-03",
+        "original_sha256": "ac23acad153f7b2522ef21e0a144b304edf1eccee3089ba057e469fb1fc63e1e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-short-budget"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-short-budget": "29fb9d19a05ba1b1c379e84ef6f905f211fba919f479080e77627dfa77630fef"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "058-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-058-02-detail-01",
+        "original_sha256": "d9f6ad680ec778e6ad0a8db6496f2c7c62e9910abf786b1a92671d5183f4c794",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-request"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed frame element.",
+        "target_sha256": {
+          "hf-risky-test-request": "691b125e4c2041b9f27d8f083cb499e0f91bd42fec4b51853e23a40a784399ac"
+        }
+      },
+      {
+        "id": "legacy-058-02-detail-02",
+        "original_sha256": "fb76c8e98891b262919927cdec583ac6d10f49aa232e7df6089fb47dc5544450",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-request"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed action element.",
+        "target_sha256": {
+          "hf-risky-test-request": "691b125e4c2041b9f27d8f083cb499e0f91bd42fec4b51853e23a40a784399ac"
+        }
+      },
+      {
+        "id": "legacy-058-02-detail-03",
+        "original_sha256": "a761ca7e083f9325dde03a63b6b17b31e6716ad5d15bd054fd9140f594211109",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-request"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-request": "691b125e4c2041b9f27d8f083cb499e0f91bd42fec4b51853e23a40a784399ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "058-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-058-03-detail-01",
+        "original_sha256": "d86d4753af3787041ab381aceb3bb972cf0784cde831a50470c4961c7b78db1e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-possible-cost"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed frame element.",
+        "target_sha256": {
+          "hf-risky-test-possible-cost": "1aedff65c56b3171b55e2e9a2aaa497f81f3adb9376ad47128d537a57e2a97a6"
+        }
+      },
+      {
+        "id": "legacy-058-03-detail-02",
+        "original_sha256": "c033e695b20fe695788ab3171ec44e7fc4aa18d15821bc71624dc0f7e1064840",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-possible-cost"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed action element.",
+        "target_sha256": {
+          "hf-risky-test-possible-cost": "1aedff65c56b3171b55e2e9a2aaa497f81f3adb9376ad47128d537a57e2a97a6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "058-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-058-04-detail-01",
+        "original_sha256": "6efd63461e1c73b2d33cb0eb584ae72f35f6bae6901515f1d4fbf5048d96183f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-acceptance"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed frame element.",
+        "target_sha256": {
+          "hf-risky-test-acceptance": "16b62acc8393fb69c4d0bed221b39cd6620676f8f3c45b28be013b488fe644e8"
+        }
+      },
+      {
+        "id": "legacy-058-04-detail-02",
+        "original_sha256": "fd7bc1aa1cf3d71946071162c524f6ff701e2a095039f2c3bfeab7e692772a41",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-acceptance"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed action element.",
+        "target_sha256": {
+          "hf-risky-test-acceptance": "16b62acc8393fb69c4d0bed221b39cd6620676f8f3c45b28be013b488fe644e8"
+        }
+      },
+      {
+        "id": "legacy-058-04-detail-03",
+        "original_sha256": "c93bbad572dff8502ea3c175b73e523a3963f5c6ebd0a1e352e6f5ffcd14c44b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-acceptance"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-acceptance": "16b62acc8393fb69c4d0bed221b39cd6620676f8f3c45b28be013b488fe644e8"
+        }
+      },
+      {
+        "id": "legacy-058-04-detail-04",
+        "original_sha256": "9b2614315fdc82e9e28f8c6faa93f3c85243b35e7f14ea9104c24302f2269c00",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-acceptance"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-acceptance": "16b62acc8393fb69c4d0bed221b39cd6620676f8f3c45b28be013b488fe644e8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "058-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-058-05-detail-01",
+        "original_sha256": "c7ae6c8eb48d8619d44728b8b87cf5d6f9617a35002b2c41a932a33afc1492ce",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-promise"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed frame element.",
+        "target_sha256": {
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+        }
+      },
+      {
+        "id": "legacy-058-05-detail-02",
+        "original_sha256": "ec2f06945385b520aed030ceaadd56c529cc1cdda460b31e99c23118ab74d0e6",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-promise"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed action element.",
+        "target_sha256": {
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+        }
+      },
+      {
+        "id": "legacy-058-05-detail-03",
+        "original_sha256": "57c973c6ae97eaabbcbcf32e6bfceea86c67f1c3e3eaf5448cac52cea33de56e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-promise"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+        }
+      },
+      {
+        "id": "legacy-058-05-detail-04",
+        "original_sha256": "c44aad85c5ee05b520a4ce5a1906f055dc6297848a6a456cbca5fc893bc3845e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-promise"
+        ],
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "059-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-059-01-detail-01",
+        "original_sha256": "7f74295b6b26066e49993d143d62d8fde562277e2a0f6b26bd4a71aced0058a1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-substitute"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed frame element.",
+        "target_sha256": {
+          "hf-other-one-way-test-substitute": "8434ef8ddc74d51ed9adc8383983c4cd6b4f4be685af31fab03ab867bba44776"
+        }
+      },
+      {
+        "id": "legacy-059-01-detail-02",
+        "original_sha256": "b59282dd447af12d3acc68ec849930e137dafe1c2c19078ecea8dcd0e741cb41",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-substitute"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed action element.",
+        "target_sha256": {
+          "hf-other-one-way-test-substitute": "8434ef8ddc74d51ed9adc8383983c4cd6b4f4be685af31fab03ab867bba44776"
+        }
+      },
+      {
+        "id": "legacy-059-01-detail-03",
+        "original_sha256": "ec1385fe06c4a826f3481fd42dd59a1f47ccab92ab60e078832185da1a1cbf1c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-substitute"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-other-one-way-test-substitute": "8434ef8ddc74d51ed9adc8383983c4cd6b4f4be685af31fab03ab867bba44776"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "059-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-059-02-detail-01",
+        "original_sha256": "9bbf53947d49f19fe9c7aeaab53f03070b43294c2fdf87665977a592ef45aff7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-condition"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed frame element.",
+        "target_sha256": {
+          "hf-other-one-way-test-condition": "f84d09d8310e0e39aabad8e16a41dd4fb63c8fd9cd16fce2302b5fa4ab59e4bd"
+        }
+      },
+      {
+        "id": "legacy-059-02-detail-03",
+        "original_sha256": "7457ba74ad82d5fdba48950257a52aa5c10f06f4afb04e5047966f2fce06a5d5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-condition"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-other-one-way-test-condition": "f84d09d8310e0e39aabad8e16a41dd4fb63c8fd9cd16fce2302b5fa4ab59e4bd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "059-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-059-03-detail-01",
+        "original_sha256": "f44b6fcbd92ff27df79935a797dadd0be5da959ff10bad73113b4e82ba33216f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-outcome"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed frame element.",
+        "target_sha256": {
+          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87"
+        }
+      },
+      {
+        "id": "legacy-059-03-detail-03",
+        "original_sha256": "9d44b8757fc237749a4872d0c07a5755eaefafe02d0724ab6e38d180e40a8cc1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-outcome"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "059-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-059-04-detail-01",
+        "original_sha256": "aafb2cb032d9fc47ee3a301e0f715da999dcc855432e4fa9e0e6442f663717f0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-reasoning",
+          "hf-other-one-way-test-decision"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed frame element.",
+        "target_sha256": {
+          "hf-other-one-way-test-reasoning": "f2a2d2223025ba3ead0b33dfbf7b488a6d0c72f479839eb33d246e80ae48a61b",
+          "hf-other-one-way-test-decision": "a1412326f5966210d96cd172fc61d87a7b6cbec7d39f4231b3b9eb45e29205c4"
+        }
+      },
+      {
+        "id": "legacy-059-04-detail-02",
+        "original_sha256": "c4fd21c8091978a198f1536670ff34f7a606dfed32d80b9a5194788fd49c36b7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-reasoning",
+          "hf-other-one-way-test-decision"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed action element.",
+        "target_sha256": {
+          "hf-other-one-way-test-reasoning": "f2a2d2223025ba3ead0b33dfbf7b488a6d0c72f479839eb33d246e80ae48a61b",
+          "hf-other-one-way-test-decision": "a1412326f5966210d96cd172fc61d87a7b6cbec7d39f4231b3b9eb45e29205c4"
+        }
+      },
+      {
+        "id": "legacy-059-04-detail-03",
+        "original_sha256": "56d43ce4dcc17fb4d119a6fccbe84fb36aa93203ecd578c79906245d0a4edb67",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-reasoning",
+          "hf-other-one-way-test-decision"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-other-one-way-test-reasoning": "f2a2d2223025ba3ead0b33dfbf7b488a6d0c72f479839eb33d246e80ae48a61b",
+          "hf-other-one-way-test-decision": "a1412326f5966210d96cd172fc61d87a7b6cbec7d39f4231b3b9eb45e29205c4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "059-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-059-05-detail-01",
+        "original_sha256": "22008eb4aff656c5f91b65572843ddf70cef1ec908c2ccaf81656c80c684a0ea",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-outcome"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed frame element.",
+        "target_sha256": {
+          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87"
+        }
+      },
+      {
+        "id": "legacy-059-05-detail-02",
+        "original_sha256": "1f5ff3b6bcdbad96266b24f3e669edf8f53b4f5950b48b562744352218e65fda",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-outcome"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed action element.",
+        "target_sha256": {
+          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87"
+        }
+      },
+      {
+        "id": "legacy-059-05-detail-03",
+        "original_sha256": "a0a18b19bb6295c265e67d249be6b05a51622c971b706827f44134a79f379294",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-other-one-way-test-outcome"
+        ],
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "060-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-060-01-detail-01",
+        "original_sha256": "3ef1606bfe1a07b0c77db2e15032e107fefa43bf2fd8b99c6dff63f8a4747d24",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-promise"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+        }
+      },
+      {
+        "id": "legacy-060-01-detail-03",
+        "original_sha256": "6a3358736248c7ca952e5fc8001fa4c4f7d263d728ff40dd951c0cc68c33c7c4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-risky-test-promise"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "060-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-060-02-detail-01",
+        "original_sha256": "0dc62c06ddee0938bfc1a332894febab91d584c7c57f6b82b1aa2c32a35278c6",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-wait"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-missing-report-wait": "81da334986b811ba0689595d6f33b9d830c696fc499703a21ba7608903f933a7"
+        }
+      },
+      {
+        "id": "legacy-060-02-detail-02",
+        "original_sha256": "7ee87a81bbfa2b2d0357ab55feb7befe9989aeeee5249089e19ed980b55df00b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-wait"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed action element.",
+        "target_sha256": {
+          "hf-missing-report-wait": "81da334986b811ba0689595d6f33b9d830c696fc499703a21ba7608903f933a7"
+        }
+      },
+      {
+        "id": "legacy-060-02-detail-03",
+        "original_sha256": "8d35674515106a5da795432ea8955f8393d372c74614cb2739f3c19e1d92e802",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-wait"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-missing-report-wait": "81da334986b811ba0689595d6f33b9d830c696fc499703a21ba7608903f933a7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "060-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-060-03-detail-01",
+        "original_sha256": "58717862a4cde638b6135a0b936d9023aeadec0c8ec9c9b4290ee65199a9fa2e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-warning"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-missing-report-warning": "331f53179511d10b630ce144ca931533f0af3e3a05de5b81a4ea1511736ae72f"
+        }
+      },
+      {
+        "id": "legacy-060-03-detail-03",
+        "original_sha256": "30a125d13758e3cae35511aae09c372d5be1a981e1aeae777329b8e253264bbc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-warning"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-missing-report-warning": "331f53179511d10b630ce144ca931533f0af3e3a05de5b81a4ea1511736ae72f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "060-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-060-04-detail-01",
+        "original_sha256": "84cda9bcaf85006445c34495fdc9f789660fcc691c52aa04804173310ab62a5a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-interpretation",
+          "hf-missing-report-caution"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-missing-report-interpretation": "7cf9aca1c64fc799544c4c29d43a0832f28c0a77ff4acb7de2ed27533e1bfd52",
+          "hf-missing-report-caution": "2647c4b8f705048bd80168de12267c67ff120becf520b6ae4336aecc448023d5"
+        }
+      },
+      {
+        "id": "legacy-060-04-detail-02",
+        "original_sha256": "c10bbafeea9409e17c21e21580ad2edd5488f11b66a90715efd1f6e647259986",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-interpretation",
+          "hf-missing-report-caution"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed action element.",
+        "target_sha256": {
+          "hf-missing-report-interpretation": "7cf9aca1c64fc799544c4c29d43a0832f28c0a77ff4acb7de2ed27533e1bfd52",
+          "hf-missing-report-caution": "2647c4b8f705048bd80168de12267c67ff120becf520b6ae4336aecc448023d5"
+        }
+      },
+      {
+        "id": "legacy-060-04-detail-03",
+        "original_sha256": "50c092c2c7170a106a5f29abfdbd1bf7e40cf910efb1754f16d47c097f2c00bc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-interpretation",
+          "hf-missing-report-caution"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-missing-report-interpretation": "7cf9aca1c64fc799544c4c29d43a0832f28c0a77ff4acb7de2ed27533e1bfd52",
+          "hf-missing-report-caution": "2647c4b8f705048bd80168de12267c67ff120becf520b6ae4336aecc448023d5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "060-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-060-05-detail-01",
+        "original_sha256": "e3e113bf95f88c36756fd16bba15ee4eac65b5f3facf9b9ee22dad9764d7d4b3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-trace-limit"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-missing-report-trace-limit": "e12df6d704dc95204085474db153a249c8b28560891fce3f4feafcc892ab637b"
+        }
+      },
+      {
+        "id": "legacy-060-05-detail-03",
+        "original_sha256": "adc0bd02e2aed9d3ffbbcc75720ff0031842c4051f4ee7848e8be146afa9409b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-trace-limit"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-missing-report-trace-limit": "e12df6d704dc95204085474db153a249c8b28560891fce3f4feafcc892ab637b"
+        }
+      },
+      {
+        "id": "legacy-060-05-detail-04",
+        "original_sha256": "ca9ca7381c96c11223be6309564b6dedcc1548841692a8f92917940720cf6e91",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-trace-limit"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-missing-report-trace-limit": "e12df6d704dc95204085474db153a249c8b28560891fce3f4feafcc892ab637b"
+        }
+      },
+      {
+        "id": "legacy-060-05-detail-05",
+        "original_sha256": "04fe63fb981be454d063dfa4aa1111bddc6d375d3dd41d86e2382c5475e37150",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-missing-report-trace-limit"
+        ],
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-missing-report-trace-limit": "e12df6d704dc95204085474db153a249c8b28560891fce3f4feafcc892ab637b"
         }
       }
     ]
