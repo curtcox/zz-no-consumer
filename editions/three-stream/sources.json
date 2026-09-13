@@ -744,7 +744,7 @@
   "IOB-CIV": {
     "available": "2026-09-03",
     "record": "256t/records/internetofbugs-civilizations/content.bin",
-    "admission": "Carl Brown’s published critique: persistence-of-context thesis about the Artifactory/Hugging Face account, attributed and kept separate from the wiki finding and the invented composite. Short quotation verified against the preserved text copy; rights unresolved. Other claims are not admitted by this entry.",
+    "admission": "Carl Brown’s published critique: persistence-of-context, anti-anthropomorphism, malware and peer prompt-injection arguments, as arguments attributed to Brown, including his explicit uncertainty about the last explanation. Not independent proof of causation or knowledge continuity. Kept separate from wiki findings and invented composites. Short quotation verified against preserved text copy; rights unresolved. Other claims remain unadmitted.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret"
   },
@@ -808,6 +808,27 @@
     "available": "2026-09-05T22:33:29Z",
     "record": "editions/three-stream/evidence/recurrence-035-7fa53878c493.md",
     "admission": "Historical authored recurrence argument and comparative diagrams; not contemporaneous institutional theory, hidden actor knowledge or recovered extra boards.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-THESIS-038": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/thesis-038-7fa53878c493.md",
+    "admission": "Historical authored thesis and critique scenes. Invented Curt and ChatGPT dialogue is not production history; source arguments require their own attribution.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-THESIS-039": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/thesis-039-7fa53878c493.md",
+    "admission": "Historical authored thesis and critique scenes. Invented Curt and ChatGPT dialogue is not production history; source arguments require their own attribution.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-THESIS-040": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/thesis-040-7fa53878c493.md",
+    "admission": "Historical authored thesis and critique scenes. Invented Curt and ChatGPT dialogue is not production history; source arguments require their own attribution.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
   }

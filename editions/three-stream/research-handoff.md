@@ -1058,3 +1058,13 @@ identity continuity or require access to private predecessor context.
 Scoped checks and whitespace checks pass; frozen inputs unchanged. Continue
 at frozen 038. Full semantic coverage, final chronology/readability, Twitter
 and other-Mac evidence, and canonical page allocation remain unfinished.
+
+### 13 September — thesis and named-critic review (legacy 038–040)
+
+Reviewed all 16 panels against their preserved draft and the local source copies. Added eleven argument beats in `manuscript/collaboration-thesis-review.json`. Exact historical Git blobs for the three pages remain in `evidence/thesis-*`; their titles were checked against the original scenes. These are narrator annotations in the existing September 6 review context, not eleven additional acts of reading or claims that Claude said this wording.
+
+Separated instrumental usefulness from claims about final goals; retired the staged inference that a cache wipe proves discovery from scratch. Carl Brown’s anti-civilization, malware and peer prompt-injection arguments enter as his published interpretations, including his explicit uncertainty. Expanded only the isolated IOB-CIV admission after reading those sections in the preserved article. No paraphrase is set as a quotation or model output. OpenAI’s automatic Black Hat transcript at 13:58–14:12 and 16:58–17:21 supports an attributed training-overlap/recreation account, not an independent audit of particular weight updates. METR’s reported founder unawareness and that account concern different levels of continuity; their coexistence is not on its own a logical contradiction. The old claim that they necessarily conflict is not carried forward.
+
+The invented ChatGPT error, Curt concession and shrinking model window remain identified as authorship devices, not observations of either named collaborator. Retained the training/usefulness interaction and task-selection limit without claiming universal causal knowledge or ignorance. Merged 040-05 into the existing incident workstreams, removing its backward jump and extra transition. No incident, quotation or source-vault original was altered.
+
+`working_edition.py manuscript`, `check --draft` and Git whitespace checks pass. Current draft: 279 sequences, 913 beats; 384 old panels / 1097 source elements reviewed. These are inventory measures, not proof of narrative completeness or a page allocation. Next: legacy 041–047 causal search and intrusion sequence, then remaining middle-book panels. The large narrator-analysis clusters attached to a single dated review still require a pacing and actor-ownership pass before layout; they must not imply multiple undocumented actions. Twitter entrance, other-Mac history, complete source review and final three-row allocation remain open.

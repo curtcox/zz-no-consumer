@@ -1190,7 +1190,8 @@
         "old_panels": [
           "037-03",
           "011-01",
-          "010-05"
+          "010-05",
+          "040-05"
         ],
         "frame": "One branch of the shared work concentrates on the target. Use a narrator’s category outside the message interface.",
         "lettering": [
@@ -1223,6 +1224,11 @@
             "old_panel": "010-05",
             "disposition": "rewrite",
             "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation."
+          },
+          {
+            "old_panel": "040-05",
+            "disposition": "combine",
+            "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches."
           }
         ]
       },
@@ -1231,7 +1237,8 @@
         "old_panels": [
           "037-03",
           "011-03",
-          "010-05"
+          "010-05",
+          "040-05"
         ],
         "frame": "An authored research-category diagram, not a grader UI returning invented accept/reject results.",
         "lettering": [
@@ -1264,6 +1271,11 @@
             "old_panel": "010-05",
             "disposition": "rewrite",
             "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation."
+          },
+          {
+            "old_panel": "040-05",
+            "disposition": "combine",
+            "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches."
           }
         ]
       },
@@ -1272,7 +1284,8 @@
         "old_panels": [
           "037-03",
           "011-02",
-          "010-05"
+          "010-05",
+          "040-05"
         ],
         "frame": "A separate transcript branch examines what the record exposes. No successful erasure is implied.",
         "lettering": [
@@ -1305,6 +1318,11 @@
             "old_panel": "010-05",
             "disposition": "rewrite",
             "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation."
+          },
+          {
+            "old_panel": "040-05",
+            "disposition": "combine",
+            "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches."
           }
         ]
       },
