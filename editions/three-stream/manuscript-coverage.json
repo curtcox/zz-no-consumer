@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 299,
-  "drafted_beats": 971,
+  "scenes": 300,
+  "drafted_beats": 999,
   "canonical_pages": null,
-  "associated_old_panels": 519,
+  "associated_old_panels": 553,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -3763,239 +3763,312 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-delegation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-delegation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-unavailable-model"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-model-identity"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-selection"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-coverage"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-reconstruction"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-selection",
+        "prod-interpretation-report-volume"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-spot-check",
+        "prod-interpretation-iteration"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-perspective"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-illustration"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-perspective"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-bias"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-intent"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-repository-action"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-metadata"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-first-analysis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-second-analysis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-action-versus-label"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-report-volume"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-interpretation-spot-check"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-late-errors"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-uncaught"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-uncaught",
+        "prod-interpretation-feasibility"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-openai-assurance"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-retained-finding"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-relationship",
+        "prod-analysis-limits-configuration"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-relationship"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-worked-spoof"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-worked-spoof"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-detected-floor"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-different-manipulations"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-analysis-limits-relationship",
+        "prod-analysis-limits-missing-tampering"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5752,8 +5825,8 @@
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
-    "Claude": 269
+    "Claude": 297
   },
-  "reviewed_old_panels": 508,
-  "reviewed_source_elements": 1443
+  "reviewed_old_panels": 542,
+  "reviewed_source_elements": 1532
 }

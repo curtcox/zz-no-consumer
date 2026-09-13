@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T18:17:07.056333+00:00",
+  "checked_at": "2026-09-13T18:23:46.934954+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -13,7 +13,12 @@
   ],
   "warnings": "Scoped draft check passed with frozen edition unchanged. Structural review checks do not establish full semantic coverage.",
   "files": {
-    "detail-review.json": "1e97db182dabb8eb5c9a3924901e7e06f897178ab5b78a2c4ccb58974f88e49c",
+    "detail-review.json": "be49980c84cccba6abc81f01c8c7428609cd3b7c98728969dc1397da953d62c4",
+    "evidence/analysis-limits-078-7fa53878c493.md": "d1b242bfc2bf025d265c767d91c630fc04bfa6418b5f1af49c6d9bb7effa16ab",
+    "evidence/analysis-limits-079-7fa53878c493.md": "697606128541f1005865231d5a6c033ef838b9bd042a010109c44d514cf63b58",
+    "evidence/analysis-limits-080-7fa53878c493.md": "d911d82c8952931c3e4ca08a55a0cbc7d8f1cba6e67eb83b7496170352340fca",
+    "evidence/analysis-limits-081-7fa53878c493.md": "fc0b5a19ac1bca725cdcede742791c297955abc5b5db7e44016de316863680f3",
+    "evidence/analysis-limits-082-7fa53878c493.md": "90932d242044c63ec98398332e18d14ab959f05e893f874d052f167f548ded2f",
     "evidence/assurance-096-7fa53878c493.md": "91f0aea0dc5e0dbf309ef9015f6de6967a8738bf8e795bec6e4dc59369d1a04f",
     "evidence/branch-scope-067-7fa53878c493.md": "90246da6f0253f5ee1d6aa54ab4632292ce4d463f6ca8e125dcbd40e5ab5ef0f",
     "evidence/branch-scope-070-7fa53878c493.md": "e6c8358d7f5f43e9404860881bf3b0d8bac10ba065fde798d38bf9907a27500f",
@@ -31,6 +36,11 @@
     "evidence/forum-097-7fa53878c493.md": "bc1527dec693c48148a080cad86536efbb08fc56de981d3e12f3a1e7f5866bf5",
     "evidence/hypotheses-109-7fa53878c493.md": "adf0643a3247677eb79f15b7c742f7ef1b759b480348c213508bafad5254a9df",
     "evidence/impossible-114-7fa53878c493.md": "665e157fe9280ca65b80f1d706251cfe4991dfdebcd9962b9d9d1f86ea8ee9b2",
+    "evidence/interpretation-073-7fa53878c493.md": "6fc66cf66885e528ba226e6c58eef64c59b28b0d3af7b7036fdf71f7ba45fb82",
+    "evidence/interpretation-074-7fa53878c493.md": "b16bfaa59d94802be063c7a5c9de2091992cf2357b35af4bee0c0900cb976809",
+    "evidence/interpretation-075-7fa53878c493.md": "631bb11c347ad162af071261861ba939307262472012d79a37062d64a9504a32",
+    "evidence/interpretation-076-7fa53878c493.md": "2611ce2b0018ef49a105857c666d5d407045485450cf07de555b08329701048c",
+    "evidence/interpretation-077-7fa53878c493.md": "53cfe38eb32af7191d8e32a5a8320ab86bb51403b4819907249803abfb5eda09",
     "evidence/later-113-7fa53878c493.md": "2b26369f7ebc6d934c50db09a50f2f2c4ac7c253a5bfb42899c4bebd7e406ac9",
     "evidence/learning-101-7fa53878c493.md": "d0c56a652912fce1c30f2c26e64ab82213ba4b0a5ee6fa207d662d7727eb4097",
     "evidence/manuscript-ending-103-7fa53878c493.md": "bf1593c6728590a0d3b7607d555164f713dc02ec8d755d0ee4d969313388ea88",
@@ -52,6 +62,7 @@
     "evidence/writable-115-7fa53878c493.md": "f6fb6d46a6f4ae9c31229542143787556a8c26b5a92f4e7718db08692398d034",
     "manuscript/collaboration-accountability-questions.json": "449d48632b7e7c6f14214b6bbe86c92b00858090b06562e95c36f25182ab5928",
     "manuscript/collaboration-aftermath-ending.json": "25d17d0a5256861810deff9811a884e110ffafa9063ac8496fd383d583668e6a",
+    "manuscript/collaboration-analysis-limits-review.json": "b8176cf282c982bcc51a63bcf9ad16aa21aee693ace7252740b45fcfa343e163",
     "manuscript/collaboration-assurance-argument.json": "69b250ff955f3d503d8fb42371ded8490ac2e57968778c50bd2da7e8232473b8",
     "manuscript/collaboration-branch-scope-review.json": "b50e432a16450684557681bd03266ebc3de4cafdcfdf3201826de9ccb22a758a",
     "manuscript/collaboration-continuation-argument.json": "f0e1cea3071aabff5d692d4ac061ed1f2a40cf1de08bfdda3483f2a48bdda695",
@@ -59,13 +70,14 @@
     "manuscript/collaboration-creator-premise.json": "3405b8138ee876cf436a0d32af87445cbbbeb24ed62a86614aa52a0e83489d7a",
     "manuscript/collaboration-defensive-automation.json": "85109d65e10fe000f67d1dc91558cd1a3af8ea9a105a17fdadfb07138cb56ac3",
     "manuscript/collaboration-downstream-use.json": "35a5a62ef4245d4a60cb620defed2c6d4d5bcf181def66ebadff2d7d1e6a61fa",
+    "manuscript/collaboration-interpretation-review.json": "4a91ab63eaaefbd755056627e17d61105ffea53765223958a8d8a9af7e099e1e",
     "manuscript/collaboration-oversight-record.json": "907a3b2eb4d3350b239b89e2b48b6ff6483a959eb62cf6b3aa7dcba48985c82b",
     "manuscript/collaboration-pacing-account.json": "1d120e501c8cf85c44243f833aeec02b8a3e7918231098c226331bf10c006953",
     "manuscript/collaboration-public-clock.json": "a738ad26c9f2c52c6f390b54a2b8ee4b0be281cfc237dde601b7526b4a5107aa",
     "manuscript/collaboration-quotation-followup.json": "7b936a69ab2a5fb89b75a608294d80f790aa7795842ab5bee0bd19e078223b36",
     "manuscript/collaboration-quotation-rule.json": "4d152849e3575a899ec6c4cc65416a965eb16fc510cb5ec2997c6be7ea468b1b",
     "manuscript/collaboration-recurrence-review.json": "6231d80d83e79563901489c521445457e876311675619efc3f9e25cb0c4cae72",
-    "manuscript/collaboration-resource-argument.json": "675ec0fae41d13c445c3f391af9ac70a12cc8fc79c9635978f8f1a252c707033",
+    "manuscript/collaboration-resource-argument.json": "3ed092b21e4cf2072a3774edfd2d6b305c9883202936085a433d1456d9bc00dc",
     "manuscript/collaboration-response-controls.json": "619a9fdb75693005fdd33ff12b0a02b90529897832086910cbbf922f6d0f6220",
     "manuscript/collaboration-safeguard-assessment.json": "4bce0bad1c25223feac37e63f5b0ddc45978b35427672702967578dffb1c7724",
     "manuscript/collaboration-selected-messages.json": "d91040ee97bb1c1bcd63e382f15dabde9cbaabc8e4f7d752705ec8a4123c74c4",
@@ -90,23 +102,23 @@
     "manuscript/wiki-counterexamples.json": "2243e76e70ca47491a14541a1bc9f4ae39ac3147186a3fa9b48b661e42c2941a",
     "manuscript/wiki-selected-exchanges.json": "9a242a74d789439b5a7eff9d313f5fa570c8ff7ffe5daa58fe6041cb38f048fc",
     "production-selections.json": "12d2a401c9a08bc0b2f758d3891077ec156a627b82b98d58a661c7183bb50611",
-    "sources.json": "206cecea62792ae96e52e3b1cb41347378da5135a2e488a869c3044a09313f74"
+    "sources.json": "3be783c95c8c9328061345a1c0d1f81d4c263feaeb9aff436b42845832942cde"
   },
   "counts": {
-    "scenes": 298,
-    "drafted_beats": 954,
+    "scenes": 300,
+    "drafted_beats": 999,
     "canonical_pages": null,
-    "associated_old_panels": 504,
+    "associated_old_panels": 553,
     "by_row": {
       "HuggingFace": 400,
       "GemStuffer": 58,
       "Collusion Wiki": 118,
       "Curt": 28,
       "Codex": 98,
-      "Claude": 252
+      "Claude": 297
     },
-    "reviewed_old_panels": 492,
-    "reviewed_source_elements": 1404
+    "reviewed_old_panels": 542,
+    "reviewed_source_elements": 1532
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -116,7 +128,7 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T18:13:11.710007+00:00",
+  "previous_checked_at": "2026-09-13T18:21:08.335585+00:00",
   "production_record_verification": {
     "result": "passed",
     "selected_records": 67,

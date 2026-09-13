@@ -579,7 +579,8 @@
       {
         "id": "prod-interpretation-coverage",
         "old_panels": [
-          "075-04"
+          "075-04",
+          "077-01"
         ],
         "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
         "lettering": [
@@ -612,6 +613,11 @@
             "old_panel": "075-04",
             "disposition": "combine",
             "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation."
+          },
+          {
+            "old_panel": "077-01",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
           }
         ],
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
@@ -659,7 +665,8 @@
       {
         "id": "prod-interpretation-feasibility",
         "old_panels": [
-          "075-06"
+          "075-06",
+          "080-05"
         ],
         "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
         "lettering": [
@@ -692,6 +699,395 @@
             "old_panel": "075-06",
             "disposition": "combine",
             "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation."
+          },
+          {
+            "old_panel": "080-05",
+            "disposition": "combine",
+            "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-delegation",
+        "old_panels": [
+          "076-01",
+          "076-02"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "METR delegates much of the pattern analysis and snippet search to GPT-5.6 Sol agents, often managing nested subagents. The draft’s named branches illustrate functions; they are not a recovered organizational chart or proof that every question used exactly that sequence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-076",
+            "locator": "editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "p. 26; nested analysis and snippet selection",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "076-01",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          },
+          {
+            "old_panel": "076-02",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-unavailable-model",
+        "old_panels": [
+          "076-03"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "METR could not query HPIM. OpenAI told the investigators it was also unavailable to OpenAI researchers after deactivation, encryption and restricted research access. That second assertion remains OpenAI’s account, not an independently tested access result."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-076",
+            "locator": "editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "p. 22, fn. 47",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "076-03",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-model-identity",
+        "old_panels": [
+          "076-04"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "The GPT-5.6 Sol name appears in both minority incident transcripts and later analysis. That model-level overlap does not establish one continuous run, shared episodic memory or an incident participant investigating itself. The report also describes analysis-access variants; the shared name alone does not certify identical configurations."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-076",
+            "locator": "editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 22–24, fn. 45; analysis access and incident transcript models",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "076-04",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-selection",
+        "old_panels": [
+          "076-05",
+          "077-03"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "The investigators use analysis-generated snippets and reports to decide what deserves closer attention. Selection is already part of interpretation: a plausible anecdote can gain prominence while a less legible event remains obscure. This is a methodological concern, not proof of intentional suppression."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-076",
+            "locator": "editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 26–27; snippet selection and judgment limits",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "076-05",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          },
+          {
+            "old_panel": "077-03",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-reconstruction",
+        "old_panels": [
+          "077-02"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "Joining fragments, tracing writers and readers, and reconstructing action times make portions of the record inspectable. These operations do not supply missing events or guarantee that every message is matched. The process diagram is an explanation, not a complete log of one preprocessing run."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-077",
+            "locator": "editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 22–26; reconstruction and coverage",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "077-02",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-report-volume",
+        "old_panels": [
+          "077-03",
+          "080-01"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "The analysis agents generate well over a thousand pages of research, according to METR. The reports are often difficult to understand and do not reliably highlight the most important findings. Human review faces a second large body of material, not merely a few neatly selected snippets."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-077",
+            "locator": "editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "p. 26; report volume and inspection difficulty",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "077-03",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          },
+          {
+            "old_panel": "080-01",
+            "disposition": "combine",
+            "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-spot-check",
+        "old_panels": [
+          "077-04",
+          "080-02"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "METR attempts manual checks and validation but says surrounding context and report volume make this difficult. In practice it defers substantially to analysis agents. A human-review box must not imply that every anecdote received the same depth of checking."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-077",
+            "locator": "editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 26–27; spot checks and substantial deference",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "077-04",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          },
+          {
+            "old_panel": "080-02",
+            "disposition": "combine",
+            "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-iteration",
+        "old_panels": [
+          "077-04"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "The investigation returns to premises and broadens its datasets after raising construction and completeness questions. Iteration can improve coverage without proving that each earlier experiment or anecdote was repeated on the full later dataset."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-077",
+            "locator": "editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 2, 21–24; visits and fn. 44",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "077-04",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-interpretation-mediation",
+        "old_panels": [
+          "077-05"
+        ],
+        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
+        "lettering": [
+          "Published findings depend on records, selection, reconstruction and interpretation, but not every finding follows one identical chain. Some source claims remain institutional attestations; some analyses are manually checked more deeply than others. The relevant method and limit belong beside the particular claim."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-INTERPRETATION-077",
+            "locator": "editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 22–28; data and analysis limitations",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "077-05",
+            "disposition": "combine",
+            "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented."
           }
         ],
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
