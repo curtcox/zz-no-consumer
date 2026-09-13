@@ -13882,5 +13882,1491 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "025-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-025-01-detail-01",
+        "original_sha256": "52792f6736c09133c231baa871408feff49770d8c2330f2849f7b3632a9d0fcc",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-port-sweep"
+        ],
+        "reason": "Keep the alert date/type without an invented monitoring card, room, severity or original interface wording. Reviewed frame element.",
+        "target_sha256": {
+          "june-alert-port-sweep": "cf9a3a09c7ce34a304de60492b681c0cb518716514d63a46a25003420463fb38"
+        }
+      },
+      {
+        "id": "legacy-025-01-detail-02",
+        "original_sha256": "dba962523021ad0211d5b2105499cccefef40ae52cac13eb5dbec5ae0373b1f0",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-port-sweep"
+        ],
+        "reason": "Keep the alert date/type without an invented monitoring card, room, severity or original interface wording. Reviewed action element.",
+        "target_sha256": {
+          "june-alert-port-sweep": "cf9a3a09c7ce34a304de60492b681c0cb518716514d63a46a25003420463fb38"
+        }
+      },
+      {
+        "id": "legacy-025-01-detail-03",
+        "original_sha256": "f2cb3fc495f26976a774c9d0485dae861f2cd8fcce53c64aea53bc97178be227",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-port-sweep"
+        ],
+        "reason": "Keep the alert date/type without an invented monitoring card, room, severity or original interface wording. Reviewed lettering element.",
+        "target_sha256": {
+          "june-alert-port-sweep": "cf9a3a09c7ce34a304de60492b681c0cb518716514d63a46a25003420463fb38"
+        }
+      },
+      {
+        "id": "legacy-025-01-detail-04",
+        "original_sha256": "d14f1d8c567d0d670b61606873b597c29a5b964d2ef340be235c8b4d794b4761",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-port-sweep"
+        ],
+        "reason": "Keep the alert date/type without an invented monitoring card, room, severity or original interface wording. Reviewed lettering element.",
+        "target_sha256": {
+          "june-alert-port-sweep": "cf9a3a09c7ce34a304de60492b681c0cb518716514d63a46a25003420463fb38"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "025-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-025-02-detail-01",
+        "original_sha256": "dea2d8ab9b63e41843f9e71f2a81dd8eb3f39ca70685e6fbb2365f6a4d56fa4b",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-narrow-signal",
+          "june-alert-earlier-observation"
+        ],
+        "reason": "Retain network-activity trigger while restoring the earlier reported human observation; June visibility is not first awareness or a known transfer between teams. Reviewed frame element.",
+        "target_sha256": {
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042",
+          "june-alert-earlier-observation": "0c78100ab40fe6d66ff98531c03ce426a02edb172ab2931f739686b6ba16de63"
+        }
+      },
+      {
+        "id": "legacy-025-02-detail-02",
+        "original_sha256": "028488552299d389ce729087792a3087696111c3621794d2fb8fec4e37d31e45",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-narrow-signal",
+          "june-alert-earlier-observation"
+        ],
+        "reason": "Retain network-activity trigger while restoring the earlier reported human observation; June visibility is not first awareness or a known transfer between teams. Reviewed action element.",
+        "target_sha256": {
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042",
+          "june-alert-earlier-observation": "0c78100ab40fe6d66ff98531c03ce426a02edb172ab2931f739686b6ba16de63"
+        }
+      },
+      {
+        "id": "legacy-025-02-detail-03",
+        "original_sha256": "0571d5bb5396a08886c654489c9b23024902c37f4b2d3f3cb5b7108a91280340",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-narrow-signal",
+          "june-alert-earlier-observation"
+        ],
+        "reason": "Retain network-activity trigger while restoring the earlier reported human observation; June visibility is not first awareness or a known transfer between teams. Reviewed lettering element.",
+        "target_sha256": {
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042",
+          "june-alert-earlier-observation": "0c78100ab40fe6d66ff98531c03ce426a02edb172ab2931f739686b6ba16de63"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "025-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-025-03-detail-01",
+        "original_sha256": "bba71d5151e8d9bd9d89f32e082628d97e4322bb9a499a42a620fc5746e5a4fe",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-investigation"
+        ],
+        "reason": "Keep the reported inquiry without invented telemetry, first-view sequence or exact workload identifier. Reviewed frame element.",
+        "target_sha256": {
+          "june-alert-investigation": "695b0515062d13238cb831e6454d15de50442f96879170a9871cfacb6a570a9a"
+        }
+      },
+      {
+        "id": "legacy-025-03-detail-02",
+        "original_sha256": "d481160b85066af9702a1b97fbd099f0b9f480712857e6b95a4fd7b2fa4ffc96",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-investigation"
+        ],
+        "reason": "Keep the reported inquiry without invented telemetry, first-view sequence or exact workload identifier. Reviewed action element.",
+        "target_sha256": {
+          "june-alert-investigation": "695b0515062d13238cb831e6454d15de50442f96879170a9871cfacb6a570a9a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "025-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-025-04-detail-01",
+        "original_sha256": "4036938bd01f8014b3a80d85363f89ec7d41b02e8167bcd9e8c7547d41a29306",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-narrow-signal"
+        ],
+        "reason": "Keep separate source records and limited demonstrated knowledge without claiming complete alert contents or private ignorance. Reviewed frame element.",
+        "target_sha256": {
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042"
+        }
+      },
+      {
+        "id": "legacy-025-04-detail-02",
+        "original_sha256": "c3eb6e661912765e3117e1d38c83c3cdb52b12096ec4cc4ad6d1bb8bbc8444b8",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-narrow-signal"
+        ],
+        "reason": "Keep separate source records and limited demonstrated knowledge without claiming complete alert contents or private ignorance. Reviewed action element.",
+        "target_sha256": {
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042"
+        }
+      },
+      {
+        "id": "legacy-025-04-detail-03",
+        "original_sha256": "988bd80e3f1f254649bafa563413db0c0fce2ed43935f8905ff79d3a3fe366c1",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-narrow-signal"
+        ],
+        "reason": "Keep separate source records and limited demonstrated knowledge without claiming complete alert contents or private ignorance. Reviewed lettering element.",
+        "target_sha256": {
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "025-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-025-05-detail-01",
+        "original_sha256": "d6aea08a95fffddd3163bb419fb2b88701304c57e62325e813bcc55b55aba527",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-work-item"
+        ],
+        "reason": "Keep investigation as a reported response; remove invented queue mechanics, hands and other tickets. Reviewed frame element.",
+        "target_sha256": {
+          "june-alert-work-item": "c685540a38739ef736dda5d2ca7d30e400dae44382bc18d2130adce1f7d9b5ca"
+        }
+      },
+      {
+        "id": "legacy-025-05-detail-02",
+        "original_sha256": "a7775500ab6238e8878f9db69173666038ec524211e9fa3704077bf519175433",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-work-item"
+        ],
+        "reason": "Keep investigation as a reported response; remove invented queue mechanics, hands and other tickets. Reviewed action element.",
+        "target_sha256": {
+          "june-alert-work-item": "c685540a38739ef736dda5d2ca7d30e400dae44382bc18d2130adce1f7d9b5ca"
+        }
+      },
+      {
+        "id": "legacy-025-05-detail-03",
+        "original_sha256": "fe12b93724806817e3fbcf261295906f84916060ce1bdb7977d6f4f8d74295f5",
+        "disposition": "rewrite",
+        "beats": [
+          "june-alert-work-item"
+        ],
+        "reason": "Keep investigation as a reported response; remove invented queue mechanics, hands and other tickets. Reviewed lettering element.",
+        "target_sha256": {
+          "june-alert-work-item": "c685540a38739ef736dda5d2ca7d30e400dae44382bc18d2130adce1f7d9b5ca"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "026-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-026-01-detail-01",
+        "original_sha256": "0392bed5a547dbcfe97d12b9d1bda469dd1ebb399d804b325bf1f0bcac1fc481",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-evaluation"
+        ],
+        "reason": "Keep identification of ExploitGym without an invented scheduler trace. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-evaluation": "78a9716e7f42961cbd0e34335d6ba09dc4119e6659463f384d8c846b436e0da6"
+        }
+      },
+      {
+        "id": "legacy-026-01-detail-02",
+        "original_sha256": "324073cdc47c55787cc8b6cfd546bbb9c85c6ba195f5ea373ac675c18880a928",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-evaluation"
+        ],
+        "reason": "Keep identification of ExploitGym without an invented scheduler trace. Reviewed action element.",
+        "target_sha256": {
+          "june-findings-evaluation": "78a9716e7f42961cbd0e34335d6ba09dc4119e6659463f384d8c846b436e0da6"
+        }
+      },
+      {
+        "id": "legacy-026-01-detail-03",
+        "original_sha256": "3d6d976042ef7e4d8784cfc42d628bcb939395c437ddb1cfc3e36fec29e9d0ed",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-evaluation"
+        ],
+        "reason": "Keep identification of ExploitGym without an invented scheduler trace. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-evaluation": "78a9716e7f42961cbd0e34335d6ba09dc4119e6659463f384d8c846b436e0da6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "026-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-026-02-detail-01",
+        "original_sha256": "c406aaa53b52f1534ef45bee14d368943e02fd95fe3bb0d4230429877f0ec392",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-board"
+        ],
+        "reason": "Keep recognition of the improvised board without purported exact request-history UI or a new reply event. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-board": "94d505c781f3df4d1d678113ebd9f1bf509af9e58645c4aa90e9ac7d6ee44673"
+        }
+      },
+      {
+        "id": "legacy-026-02-detail-02",
+        "original_sha256": "191fd151af1109ab92258910c5cba155bb65fe8a5c167bd95b92d1b42c17851c",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-board"
+        ],
+        "reason": "Keep recognition of the improvised board without purported exact request-history UI or a new reply event. Reviewed action element.",
+        "target_sha256": {
+          "june-findings-board": "94d505c781f3df4d1d678113ebd9f1bf509af9e58645c4aa90e9ac7d6ee44673"
+        }
+      },
+      {
+        "id": "legacy-026-02-detail-03",
+        "original_sha256": "f46e22ad75a605a898f12800eb3e997345849703d82d997a43cbd741ab38bca3",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-board"
+        ],
+        "reason": "Keep recognition of the improvised board without purported exact request-history UI or a new reply event. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-board": "94d505c781f3df4d1d678113ebd9f1bf509af9e58645c4aa90e9ac7d6ee44673"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "026-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-026-03-detail-01",
+        "original_sha256": "5751c3cc230ebc4350fee850a6a6ad0ba108be1a26eed86cc013022e3db4a935",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-pivot"
+        ],
+        "reason": "Keep the network-pivot role without claiming the precise investigative steps or later compromise knowledge. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+        }
+      },
+      {
+        "id": "legacy-026-03-detail-02",
+        "original_sha256": "1634251ba4ef8955c7f6973081c996e3d30126c5ba005a91e7858ddb61b84ccd",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-pivot"
+        ],
+        "reason": "Keep the network-pivot role without claiming the precise investigative steps or later compromise knowledge. Reviewed action element.",
+        "target_sha256": {
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+        }
+      },
+      {
+        "id": "legacy-026-03-detail-03",
+        "original_sha256": "27df9fe06b7177db0056f3bf36b8ecb5ab4a7e3b7210b44f92992043caf9a6a2",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-pivot"
+        ],
+        "reason": "Keep the network-pivot role without claiming the precise investigative steps or later compromise knowledge. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "026-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-026-04-detail-01",
+        "original_sha256": "b652348c665c2ac25e1570271d3fbbd5ca4c254dbfe6fa0ec597b119ed299eb2",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-findings-together"
+        ],
+        "reason": "Retain all three findings, no invented conference or ordering among discoveries. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-findings-together": "64f9b3d50ac3220a7827add75cd9a68dffc80bd8d2708a9f3e0de73636dce3f2"
+        }
+      },
+      {
+        "id": "legacy-026-04-detail-02",
+        "original_sha256": "180dd376c63f9a777286e682a17635cb460c4a81c9204c85fcd25470ca5de011",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-findings-together"
+        ],
+        "reason": "Retain all three findings, no invented conference or ordering among discoveries. Reviewed action element.",
+        "target_sha256": {
+          "june-findings-findings-together": "64f9b3d50ac3220a7827add75cd9a68dffc80bd8d2708a9f3e0de73636dce3f2"
+        }
+      },
+      {
+        "id": "legacy-026-04-detail-03",
+        "original_sha256": "51fe55942f609692ada07a7817bc652289eef09e76754145050ca2815f886d8c",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-findings-together"
+        ],
+        "reason": "Retain all three findings, no invented conference or ordering among discoveries. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-findings-together": "64f9b3d50ac3220a7827add75cd9a68dffc80bd8d2708a9f3e0de73636dce3f2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "026-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-026-05-detail-01",
+        "original_sha256": "64d57dde6500e876e08473f588c33e8b1caf420ed7c2bf39e619f7808eb3c6ec",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-stop-question"
+        ],
+        "reason": "Retain the distinction between findings and what happens to the run; no actual blank decision field or observed pause is established. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-stop-question": "8328bad30f1d8dce3d3763727e4f156523c07f1dd30e5f38486a61c8e9f005ab"
+        }
+      },
+      {
+        "id": "legacy-026-05-detail-02",
+        "original_sha256": "675dd06bfe6a1985a68e6e95e8687c83bdddd249f78564c131e4399a3c44a9b6",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-stop-question"
+        ],
+        "reason": "Retain the distinction between findings and what happens to the run; no actual blank decision field or observed pause is established. Reviewed action element.",
+        "target_sha256": {
+          "june-findings-stop-question": "8328bad30f1d8dce3d3763727e4f156523c07f1dd30e5f38486a61c8e9f005ab"
+        }
+      },
+      {
+        "id": "legacy-026-05-detail-03",
+        "original_sha256": "3f67ff6e07eddbe93a357f100302247dce8f6a5fdd83a0268205e3c577e22615",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-stop-question"
+        ],
+        "reason": "Retain the distinction between findings and what happens to the run; no actual blank decision field or observed pause is established. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-stop-question": "8328bad30f1d8dce3d3763727e4f156523c07f1dd30e5f38486a61c8e9f005ab"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "027-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-027-01-detail-01",
+        "original_sha256": "56abd7159e40a994b0fc8589ed3201b0fb2a451249f2cc40e1dae643e2748ef6",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-evaluation"
+        ],
+        "reason": "Combine repeated identification into its existing incident beat; remove fictional responder speech and room. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-evaluation": "78a9716e7f42961cbd0e34335d6ba09dc4119e6659463f384d8c846b436e0da6"
+        }
+      },
+      {
+        "id": "legacy-027-01-detail-03",
+        "original_sha256": "d311d1f5d159ac86a1f61f39e258dcd281f998564d3f7be4022e01e69d211699",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-evaluation"
+        ],
+        "reason": "Combine repeated identification into its existing incident beat; remove fictional responder speech and room. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-evaluation": "78a9716e7f42961cbd0e34335d6ba09dc4119e6659463f384d8c846b436e0da6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "027-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-027-02-detail-01",
+        "original_sha256": "62be9de836edf745caabbe7da606fe3777d009fc9315c17262647097ac226694",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-board",
+          "june-findings-pivot"
+        ],
+        "reason": "Combine board/pivot findings without invented commander identity, questions or repeated discovery. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-board": "94d505c781f3df4d1d678113ebd9f1bf509af9e58645c4aa90e9ac7d6ee44673",
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+        }
+      },
+      {
+        "id": "legacy-027-02-detail-03",
+        "original_sha256": "dd708350e9b42149bf274fda85f39debf51c62824e18c26b41b86a4118aed3f3",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-board",
+          "june-findings-pivot"
+        ],
+        "reason": "Combine board/pivot findings without invented commander identity, questions or repeated discovery. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-board": "94d505c781f3df4d1d678113ebd9f1bf509af9e58645c4aa90e9ac7d6ee44673",
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+        }
+      },
+      {
+        "id": "legacy-027-02-detail-04",
+        "original_sha256": "5817dc447d5d01d3a01f35d6cd67cbdf229ddce77513e71c72bc4463fdb25620",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-board",
+          "june-findings-pivot"
+        ],
+        "reason": "Combine board/pivot findings without invented commander identity, questions or repeated discovery. Reviewed lettering element.",
+        "target_sha256": {
+          "june-findings-board": "94d505c781f3df4d1d678113ebd9f1bf509af9e58645c4aa90e9ac7d6ee44673",
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "027-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-027-03-detail-01",
+        "original_sha256": "7829dde6788d173f38cf22597d85fdaa61d1d5ca3abfc68e3bd451c6ef2fedb2",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-stop-question"
+        ],
+        "reason": "Keep the stop question as a distinct issue, not a documented routing workflow or distributed vote. Reviewed frame element.",
+        "target_sha256": {
+          "june-findings-stop-question": "8328bad30f1d8dce3d3763727e4f156523c07f1dd30e5f38486a61c8e9f005ab"
+        }
+      },
+      {
+        "id": "legacy-027-03-detail-02",
+        "original_sha256": "c762b66ddf62f5d3b3e6cfde8cffca0f7376313fce563b8b7940bc3d7d35e9a5",
+        "disposition": "rewrite",
+        "beats": [
+          "june-findings-stop-question"
+        ],
+        "reason": "Keep the stop question as a distinct issue, not a documented routing workflow or distributed vote. Reviewed action element.",
+        "target_sha256": {
+          "june-findings-stop-question": "8328bad30f1d8dce3d3763727e4f156523c07f1dd30e5f38486a61c8e9f005ab"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "027-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-027-04-detail-01",
+        "original_sha256": "b331195731914e674a43de3efcb137354cf7a5a09bbb433aec5ddc4348d0092c",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-advice",
+          "june-continue-no-reason"
+        ],
+        "reason": "Use a short exact registered report quotation of on-call advice, not invented log text; missing rationale is not proof that none existed. Reviewed frame element.",
+        "target_sha256": {
+          "june-continue-advice": "b3edfcfb72a2ecfa19a856436fd44a0a68eeeea6a84fe08896a25ee8339f91f8",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      },
+      {
+        "id": "legacy-027-04-detail-03",
+        "original_sha256": "b62ce94237229f1371a664de68f5c97f2ce2cc425f1fb04cdd4d3c8343001abe",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-advice",
+          "june-continue-no-reason"
+        ],
+        "reason": "Use a short exact registered report quotation of on-call advice, not invented log text; missing rationale is not proof that none existed. Reviewed lettering element.",
+        "target_sha256": {
+          "june-continue-advice": "b3edfcfb72a2ecfa19a856436fd44a0a68eeeea6a84fe08896a25ee8339f91f8",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "027-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-027-05-detail-01",
+        "original_sha256": "2d91e7d6c4985db57c08784c5c1f6931b2249083fe751bc0b37987b2c57801b0",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-continues",
+          "june-continue-no-reason"
+        ],
+        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. Reviewed frame element.",
+        "target_sha256": {
+          "june-continue-continues": "e79e3db60dbde2387bc00b58f9b834ba671f41d6c7c437d03ef1058e53b50b21",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      },
+      {
+        "id": "legacy-027-05-detail-02",
+        "original_sha256": "158db322954647693c9ba8e6bc46d1c6ec8ed732b167e785bf49f1df5fd1e7fe",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-continues",
+          "june-continue-no-reason"
+        ],
+        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. Reviewed action element.",
+        "target_sha256": {
+          "june-continue-continues": "e79e3db60dbde2387bc00b58f9b834ba671f41d6c7c437d03ef1058e53b50b21",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      },
+      {
+        "id": "legacy-027-05-detail-03",
+        "original_sha256": "13d799997cc7c174e526d3fd21fd033e6232f1df3b4a161b4c8ea393e81bb38f",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-continues",
+          "june-continue-no-reason"
+        ],
+        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. Reviewed lettering element.",
+        "target_sha256": {
+          "june-continue-continues": "e79e3db60dbde2387bc00b58f9b834ba671f41d6c7c437d03ef1058e53b50b21",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      },
+      {
+        "id": "legacy-027-05-detail-04",
+        "original_sha256": "88a7a8410c09f4c7c1a6797c8cefa86839c221992493d5d5583dd37c8fbd020e",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-continues",
+          "june-continue-no-reason"
+        ],
+        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. Reviewed lettering element.",
+        "target_sha256": {
+          "june-continue-continues": "e79e3db60dbde2387bc00b58f9b834ba671f41d6c7c437d03ef1058e53b50b21",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      },
+      {
+        "id": "legacy-027-05-detail-05",
+        "original_sha256": "5391d603f36998b12334e1a9ac84c4756c6861de1aa608dfad7266a53d93a9bf",
+        "disposition": "rewrite",
+        "beats": [
+          "june-continue-continues",
+          "june-continue-no-reason"
+        ],
+        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. Reviewed lettering element.",
+        "target_sha256": {
+          "june-continue-continues": "e79e3db60dbde2387bc00b58f9b834ba671f41d6c7c437d03ef1058e53b50b21",
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "028-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-028-01-detail-01",
+        "original_sha256": "1ba7352c392c80a4f7321e6f2c21de4e5f6881bca03b508c00a1dddefb52ddc2",
+        "disposition": "rewrite",
+        "beats": [
+          "june-execution-execution-record",
+          "june-execution-after-decision"
+        ],
+        "reason": "Keep first confirmed execution and its order after advice; remove invented execution control and avoid turning chronology into causal proof. Reviewed frame element.",
+        "target_sha256": {
+          "june-execution-execution-record": "46662ebcbb90964f9a4223f3d062d0a4504252cd0e28bad367a6158818017363",
+          "june-execution-after-decision": "922e989c04704ac82948b60ff721113510138f60db80bfdbd7ead3f673f1ae5d"
+        }
+      },
+      {
+        "id": "legacy-028-01-detail-02",
+        "original_sha256": "aa5daa1c15aa4d027bf97e685214c45f10c54c065d1d064eb06b6ff32921da5a",
+        "disposition": "rewrite",
+        "beats": [
+          "june-execution-execution-record",
+          "june-execution-after-decision"
+        ],
+        "reason": "Keep first confirmed execution and its order after advice; remove invented execution control and avoid turning chronology into causal proof. Reviewed action element.",
+        "target_sha256": {
+          "june-execution-execution-record": "46662ebcbb90964f9a4223f3d062d0a4504252cd0e28bad367a6158818017363",
+          "june-execution-after-decision": "922e989c04704ac82948b60ff721113510138f60db80bfdbd7ead3f673f1ae5d"
+        }
+      },
+      {
+        "id": "legacy-028-01-detail-03",
+        "original_sha256": "2b9181fffe017200aa6747985bc6a809e35fee7a49a7f0ca6a567c52fcbc0905",
+        "disposition": "rewrite",
+        "beats": [
+          "june-execution-execution-record",
+          "june-execution-after-decision"
+        ],
+        "reason": "Keep first confirmed execution and its order after advice; remove invented execution control and avoid turning chronology into causal proof. Reviewed lettering element.",
+        "target_sha256": {
+          "june-execution-execution-record": "46662ebcbb90964f9a4223f3d062d0a4504252cd0e28bad367a6158818017363",
+          "june-execution-after-decision": "922e989c04704ac82948b60ff721113510138f60db80bfdbd7ead3f673f1ae5d"
+        }
+      },
+      {
+        "id": "legacy-028-01-detail-04",
+        "original_sha256": "127e0345bd80b1d3a97b982efb9a157f2e608b262d3dc46f2013dc6a8ceda23f",
+        "disposition": "rewrite",
+        "beats": [
+          "june-execution-execution-record",
+          "june-execution-after-decision"
+        ],
+        "reason": "Keep first confirmed execution and its order after advice; remove invented execution control and avoid turning chronology into causal proof. Reviewed lettering element.",
+        "target_sha256": {
+          "june-execution-execution-record": "46662ebcbb90964f9a4223f3d062d0a4504252cd0e28bad367a6158818017363",
+          "june-execution-after-decision": "922e989c04704ac82948b60ff721113510138f60db80bfdbd7ead3f673f1ae5d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "028-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-028-02-detail-01",
+        "original_sha256": "5e2c8da8482fae1adf638bc150cc43d15ae5e4980bbf7b4952f8f82a2f766684",
+        "disposition": "rewrite",
+        "beats": [
+          "july-load-ongoing-load",
+          "july-load-shared-dependency"
+        ],
+        "reason": "Keep sustained activity and shared-service dependency without invented quantitative traffic bands or simultaneous lane histories. Reviewed frame element.",
+        "target_sha256": {
+          "july-load-ongoing-load": "66fb495b63c46b45842324aa72ef32f610f5d2f3c8d4009a9a8c4e7305981fcb",
+          "july-load-shared-dependency": "45e622453b34db98ac1dc1ad96ad6ac4dc08b0839074542f2f6eb22802c0fb42"
+        }
+      },
+      {
+        "id": "legacy-028-02-detail-02",
+        "original_sha256": "0727f51888d55eafd0960b1f51d7cbeabddb07be0137f250f8a34228951c639e",
+        "disposition": "rewrite",
+        "beats": [
+          "july-load-ongoing-load",
+          "july-load-shared-dependency"
+        ],
+        "reason": "Keep sustained activity and shared-service dependency without invented quantitative traffic bands or simultaneous lane histories. Reviewed action element.",
+        "target_sha256": {
+          "july-load-ongoing-load": "66fb495b63c46b45842324aa72ef32f610f5d2f3c8d4009a9a8c4e7305981fcb",
+          "july-load-shared-dependency": "45e622453b34db98ac1dc1ad96ad6ac4dc08b0839074542f2f6eb22802c0fb42"
+        }
+      },
+      {
+        "id": "legacy-028-02-detail-03",
+        "original_sha256": "6511cf2edcba7cea5692c92e00bfbfac016d90aa7a58c0901518d5bf6a49578f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-load-ongoing-load",
+          "july-load-shared-dependency"
+        ],
+        "reason": "Keep sustained activity and shared-service dependency without invented quantitative traffic bands or simultaneous lane histories. Reviewed lettering element.",
+        "target_sha256": {
+          "july-load-ongoing-load": "66fb495b63c46b45842324aa72ef32f610f5d2f3c8d4009a9a8c4e7305981fcb",
+          "july-load-shared-dependency": "45e622453b34db98ac1dc1ad96ad6ac4dc08b0839074542f2f6eb22802c0fb42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "028-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-028-03-detail-01",
+        "original_sha256": "d4b8fb2b1445f86db57c2179a56bec658303ef71f24bd92a414c479daa9c08e6",
+        "disposition": "rewrite",
+        "beats": [
+          "july-outage-unavailable"
+        ],
+        "reason": "Keep late-July-4 outage and institutional attribution of load, not fabricated error UI or individual workload observations. Reviewed frame element.",
+        "target_sha256": {
+          "july-outage-unavailable": "bc00dcbe2382d695138bccf95bbc7ffa4ce54dbb4f663e70254f3d44e0c81d60"
+        }
+      },
+      {
+        "id": "legacy-028-03-detail-02",
+        "original_sha256": "87a51ddecb71d52014882c973bd2e6191b890245f59079508260e8e5287f38e1",
+        "disposition": "rewrite",
+        "beats": [
+          "july-outage-unavailable"
+        ],
+        "reason": "Keep late-July-4 outage and institutional attribution of load, not fabricated error UI or individual workload observations. Reviewed action element.",
+        "target_sha256": {
+          "july-outage-unavailable": "bc00dcbe2382d695138bccf95bbc7ffa4ce54dbb4f663e70254f3d44e0c81d60"
+        }
+      },
+      {
+        "id": "legacy-028-03-detail-03",
+        "original_sha256": "4f7458cc0b9dd12b1eda700f0a28a0c99207f40607c5e0cbf71f9da4e1528293",
+        "disposition": "rewrite",
+        "beats": [
+          "july-outage-unavailable"
+        ],
+        "reason": "Keep late-July-4 outage and institutional attribution of load, not fabricated error UI or individual workload observations. Reviewed lettering element.",
+        "target_sha256": {
+          "july-outage-unavailable": "bc00dcbe2382d695138bccf95bbc7ffa4ce54dbb4f663e70254f3d44e0c81d60"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "028-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-028-04-detail-01",
+        "original_sha256": "d65408301c28650a21f2823a7333730133677d8ae3d5a261f909c1a8e2122fd6",
+        "disposition": "rewrite",
+        "beats": [
+          "july-incident-opened"
+        ],
+        "reason": "Keep incident-opening timestamp distinct from an untimed monitoring alert or invented ticket-opening interface. Reviewed frame element.",
+        "target_sha256": {
+          "july-incident-opened": "6e021d94a6f1377a451c4351aed73111c196bae9b722a80f9588542ed2589766"
+        }
+      },
+      {
+        "id": "legacy-028-04-detail-02",
+        "original_sha256": "b43efa8f3d1dc615bad417baf7e7d50131382c943045f344e45b309ae90c2c6a",
+        "disposition": "rewrite",
+        "beats": [
+          "july-incident-opened"
+        ],
+        "reason": "Keep incident-opening timestamp distinct from an untimed monitoring alert or invented ticket-opening interface. Reviewed action element.",
+        "target_sha256": {
+          "july-incident-opened": "6e021d94a6f1377a451c4351aed73111c196bae9b722a80f9588542ed2589766"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "028-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-028-05-detail-01",
+        "original_sha256": "00a8be546678f323554d1a4234b83c76ec4240f9381e8b6a98c3cd29203a7a55",
+        "disposition": "rewrite",
+        "beats": [
+          "july-incident-persistent-users",
+          "july-incident-repositories",
+          "july-incident-plugins",
+          "july-incident-broader-picture"
+        ],
+        "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance. Reviewed frame element.",
+        "target_sha256": {
+          "july-incident-persistent-users": "e6a5d389b58621483b796fe3ac0f71dbd5dfde7cfe0b780c727cfb85bb0d42a6",
+          "july-incident-repositories": "3ebb526e6c30b378d7bcd600df7be43bc9fb79196c97cfee920220aee56861d4",
+          "july-incident-plugins": "6935e44cc38ba5e25c76fedd0c5a5f9ccbf28db3d719fc73c200224c27212afb",
+          "july-incident-broader-picture": "befe7c260aed501a00e5d487900ba10663a9db6b61aeade3f7af912688e9405e"
+        }
+      },
+      {
+        "id": "legacy-028-05-detail-02",
+        "original_sha256": "0072b2e7e6d30de489823d28675cbf066a04e04698dbd2c2cd69045826a7b2a9",
+        "disposition": "rewrite",
+        "beats": [
+          "july-incident-persistent-users",
+          "july-incident-repositories",
+          "july-incident-plugins",
+          "july-incident-broader-picture"
+        ],
+        "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance. Reviewed action element.",
+        "target_sha256": {
+          "july-incident-persistent-users": "e6a5d389b58621483b796fe3ac0f71dbd5dfde7cfe0b780c727cfb85bb0d42a6",
+          "july-incident-repositories": "3ebb526e6c30b378d7bcd600df7be43bc9fb79196c97cfee920220aee56861d4",
+          "july-incident-plugins": "6935e44cc38ba5e25c76fedd0c5a5f9ccbf28db3d719fc73c200224c27212afb",
+          "july-incident-broader-picture": "befe7c260aed501a00e5d487900ba10663a9db6b61aeade3f7af912688e9405e"
+        }
+      },
+      {
+        "id": "legacy-028-05-detail-03",
+        "original_sha256": "f4cc5ef748439f2da05c17754e9bd8bd9f23a6a269d549da6c99f9138654e78f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-incident-persistent-users",
+          "july-incident-repositories",
+          "july-incident-plugins",
+          "july-incident-broader-picture"
+        ],
+        "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance. Reviewed lettering element.",
+        "target_sha256": {
+          "july-incident-persistent-users": "e6a5d389b58621483b796fe3ac0f71dbd5dfde7cfe0b780c727cfb85bb0d42a6",
+          "july-incident-repositories": "3ebb526e6c30b378d7bcd600df7be43bc9fb79196c97cfee920220aee56861d4",
+          "july-incident-plugins": "6935e44cc38ba5e25c76fedd0c5a5f9ccbf28db3d719fc73c200224c27212afb",
+          "july-incident-broader-picture": "befe7c260aed501a00e5d487900ba10663a9db6b61aeade3f7af912688e9405e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "028-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-028-06-detail-01",
+        "original_sha256": "268c5e782bfba43e0e74915344b0cccf874abfeb18c510d2aa89bb1745a7cd0c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-outage-dependent-work",
+          "july-incident-broader-picture"
+        ],
+        "reason": "Keep the availability and security consequences without inventing stalled workloads or asserting all options had disappeared. Reviewed frame element.",
+        "target_sha256": {
+          "july-outage-dependent-work": "2cc00b8e49ff3bf6d2979960427aa608dcff8f0870436c385441b4d6d6efc53e",
+          "july-incident-broader-picture": "befe7c260aed501a00e5d487900ba10663a9db6b61aeade3f7af912688e9405e"
+        }
+      },
+      {
+        "id": "legacy-028-06-detail-02",
+        "original_sha256": "7ed6650d0fdc613afd2627af6fa5b336c6f5d5a9dfc65a222645685bbe9e467b",
+        "disposition": "rewrite",
+        "beats": [
+          "july-outage-dependent-work",
+          "july-incident-broader-picture"
+        ],
+        "reason": "Keep the availability and security consequences without inventing stalled workloads or asserting all options had disappeared. Reviewed action element.",
+        "target_sha256": {
+          "july-outage-dependent-work": "2cc00b8e49ff3bf6d2979960427aa608dcff8f0870436c385441b4d6d6efc53e",
+          "july-incident-broader-picture": "befe7c260aed501a00e5d487900ba10663a9db6b61aeade3f7af912688e9405e"
+        }
+      },
+      {
+        "id": "legacy-028-06-detail-03",
+        "original_sha256": "526c580d0564091d20a7d317fd4a4abbe1fcaf2d9425fcf9efeb960e146cd152",
+        "disposition": "rewrite",
+        "beats": [
+          "july-outage-dependent-work",
+          "july-incident-broader-picture"
+        ],
+        "reason": "Keep the availability and security consequences without inventing stalled workloads or asserting all options had disappeared. Reviewed lettering element.",
+        "target_sha256": {
+          "july-outage-dependent-work": "2cc00b8e49ff3bf6d2979960427aa608dcff8f0870436c385441b4d6d6efc53e",
+          "july-incident-broader-picture": "befe7c260aed501a00e5d487900ba10663a9db6b61aeade3f7af912688e9405e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "029-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-029-01-detail-01",
+        "original_sha256": "7cfb25ca42a18c95fce5f43a6e7e979a6027dcb4c5cf53675d6292cc196bf506",
+        "disposition": "rewrite",
+        "beats": [
+          "july-isolate-offline"
+        ],
+        "reason": "Keep taking the deployment offline without a reconstructed cable-by-cable isolation process. Reviewed frame element.",
+        "target_sha256": {
+          "july-isolate-offline": "26cc9edf7fa40102d5e67b8b84f165121a806e4bd54081091e3d47900475d03e"
+        }
+      },
+      {
+        "id": "legacy-029-01-detail-02",
+        "original_sha256": "bf02e727960f576602cbbce4cd480ec0abb6d4527790deb6250b822668546c78",
+        "disposition": "rewrite",
+        "beats": [
+          "july-isolate-offline"
+        ],
+        "reason": "Keep taking the deployment offline without a reconstructed cable-by-cable isolation process. Reviewed action element.",
+        "target_sha256": {
+          "july-isolate-offline": "26cc9edf7fa40102d5e67b8b84f165121a806e4bd54081091e3d47900475d03e"
+        }
+      },
+      {
+        "id": "legacy-029-01-detail-03",
+        "original_sha256": "da97af93da075b73193639a45f1f44a300a0bb4077b629111c2b82b007ade0eb",
+        "disposition": "rewrite",
+        "beats": [
+          "july-isolate-offline"
+        ],
+        "reason": "Keep taking the deployment offline without a reconstructed cable-by-cable isolation process. Reviewed lettering element.",
+        "target_sha256": {
+          "july-isolate-offline": "26cc9edf7fa40102d5e67b8b84f165121a806e4bd54081091e3d47900475d03e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "029-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-029-02-detail-01",
+        "original_sha256": "755233e550ed3a2babfd79723de93f077cfd2aa48d1d0e27f943a523a3ad815c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-isolate-preserve",
+          "july-isolate-revoke",
+          "july-isolate-mitigate"
+        ],
+        "reason": "Keep preservation, revocation and mitigation separately, including rollout over July 5–6 rather than one simultaneous operation. Reviewed frame element.",
+        "target_sha256": {
+          "july-isolate-preserve": "72ee850a67135a988170d7569728ef5d8215843c823c56e9f2a9d7519d38fc4e",
+          "july-isolate-revoke": "d9f93d1c0cf9e0811d7a3b99e28dffc4d49cb41e64ae222e93ca091fb2594efc",
+          "july-isolate-mitigate": "744b60322dcbcf0a2a0edc07ddf79a5fcfb4650fc17685e9274919c95af3b240"
+        }
+      },
+      {
+        "id": "legacy-029-02-detail-02",
+        "original_sha256": "d9efc90690f21a62930fda5d0d65e71612bca1233a20e8958f783599c252203d",
+        "disposition": "rewrite",
+        "beats": [
+          "july-isolate-preserve",
+          "july-isolate-revoke",
+          "july-isolate-mitigate"
+        ],
+        "reason": "Keep preservation, revocation and mitigation separately, including rollout over July 5–6 rather than one simultaneous operation. Reviewed action element.",
+        "target_sha256": {
+          "july-isolate-preserve": "72ee850a67135a988170d7569728ef5d8215843c823c56e9f2a9d7519d38fc4e",
+          "july-isolate-revoke": "d9f93d1c0cf9e0811d7a3b99e28dffc4d49cb41e64ae222e93ca091fb2594efc",
+          "july-isolate-mitigate": "744b60322dcbcf0a2a0edc07ddf79a5fcfb4650fc17685e9274919c95af3b240"
+        }
+      },
+      {
+        "id": "legacy-029-02-detail-03",
+        "original_sha256": "c3373fac2ead78f9aa51efc2fd6c776f32095c51278e27820a3e6f889a380a87",
+        "disposition": "rewrite",
+        "beats": [
+          "july-isolate-preserve",
+          "july-isolate-revoke",
+          "july-isolate-mitigate"
+        ],
+        "reason": "Keep preservation, revocation and mitigation separately, including rollout over July 5–6 rather than one simultaneous operation. Reviewed lettering element.",
+        "target_sha256": {
+          "july-isolate-preserve": "72ee850a67135a988170d7569728ef5d8215843c823c56e9f2a9d7519d38fc4e",
+          "july-isolate-revoke": "d9f93d1c0cf9e0811d7a3b99e28dffc4d49cb41e64ae222e93ca091fb2594efc",
+          "july-isolate-mitigate": "744b60322dcbcf0a2a0edc07ddf79a5fcfb4650fc17685e9274919c95af3b240"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "029-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-029-03-detail-01",
+        "original_sha256": "77cc1663cb2a06a91c29e61e5dc41c359afbec60bc05876b9d1ab5503ab08d9a",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer",
+          "july-isolate-different-operations",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed frame element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
+          "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-03-detail-02",
+        "original_sha256": "59a1f183a90c90029a6475dc7bfe3a94688920ae91d60a6b5e11a08cf458604d",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer",
+          "july-isolate-different-operations",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed action element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
+          "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-03-detail-03",
+        "original_sha256": "94e4825d52987b196ec2abea1a587f069fde7393066cdb9e74c2a35a892a0edb",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer",
+          "july-isolate-different-operations",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
+          "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-03-detail-04",
+        "original_sha256": "c46ac964df9b83a1a1d6043917a86add2e43b87e4971d75757511a46be6ae411",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer",
+          "july-isolate-different-operations",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
+          "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-03-detail-05",
+        "original_sha256": "01c2aa3f14cbc68a29a43e8cfb0bb2dd6f1531b9177074ea1bb1b53191a0cad5",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer",
+          "july-isolate-different-operations",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
+          "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-03-detail-06",
+        "original_sha256": "16a011924ffa5fc40de26183eb1cebf8985e7770a003208b3a6184bb49c2e873",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer",
+          "july-isolate-different-operations",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
+          "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "029-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-029-04-detail-01",
+        "original_sha256": "57589f27bb1aa3a7ee42a1f392aac4cf9286abdbfd1b87f676450f09632610cb",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-empty-notes",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep absence of the old board in the rebuilt cache, not loss of every preserved artifact or a literal clean-directory screenshot. Reviewed frame element.",
+        "target_sha256": {
+          "july-rebuild-empty-notes": "0771af11913c6b5f5e6b5228bbb6cd80d693b9cded9be68870854389e80bf628",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-04-detail-02",
+        "original_sha256": "0a9545cffbf1c55d9881f5d9e9a45633bb3401655c4beccfff11406533a9bcf7",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-empty-notes",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep absence of the old board in the rebuilt cache, not loss of every preserved artifact or a literal clean-directory screenshot. Reviewed action element.",
+        "target_sha256": {
+          "july-rebuild-empty-notes": "0771af11913c6b5f5e6b5228bbb6cd80d693b9cded9be68870854389e80bf628",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      },
+      {
+        "id": "legacy-029-04-detail-03",
+        "original_sha256": "9796c508d6ffd22ebf23a0ecff74577d61de0a75b59edc02d381d867c4109b16",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-empty-notes",
+          "july-rebuild-not-all-memory"
+        ],
+        "reason": "Keep absence of the old board in the rebuilt cache, not loss of every preserved artifact or a literal clean-directory screenshot. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rebuild-empty-notes": "0771af11913c6b5f5e6b5228bbb6cd80d693b9cded9be68870854389e80bf628",
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "030-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-030-01-detail-01",
+        "original_sha256": "29224139a1b07f2d3e9afccdc9358ac4ddcc432945df5a0be790e136627acbfa",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-empty-notes"
+        ],
+        "reason": "Combine repeated board-erasure and service-routing information into existing chronology; no chapter-boundary replay. Reviewed frame element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-empty-notes": "0771af11913c6b5f5e6b5228bbb6cd80d693b9cded9be68870854389e80bf628"
+        }
+      },
+      {
+        "id": "legacy-030-01-detail-02",
+        "original_sha256": "0714c522c9d8d00335de24ac6acaea7c2e637fe2d92f30698d5eb15979cb9441",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-empty-notes"
+        ],
+        "reason": "Combine repeated board-erasure and service-routing information into existing chronology; no chapter-boundary replay. Reviewed action element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-empty-notes": "0771af11913c6b5f5e6b5228bbb6cd80d693b9cded9be68870854389e80bf628"
+        }
+      },
+      {
+        "id": "legacy-030-01-detail-03",
+        "original_sha256": "65da3d43e5b5e405b15cfff4996e957585dcaf33986df19bbf1714a378fb7337",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rebuild-online",
+          "july-rebuild-empty-notes"
+        ],
+        "reason": "Combine repeated board-erasure and service-routing information into existing chronology; no chapter-boundary replay. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
+          "july-rebuild-empty-notes": "0771af11913c6b5f5e6b5228bbb6cd80d693b9cded9be68870854389e80bf628"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "030-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-030-02-detail-01",
+        "original_sha256": "43c044174f1aa702b52ab431aaf48463affba6825310208bf5525a3793b57d1a",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-reader-key"
+        ],
+        "reason": "Keep removed shared credentials with the stated new-workload scope, not proof of every legacy credential’s behavior. Reviewed frame element.",
+        "target_sha256": {
+          "july-mitigations-reader-key": "9cc7d795ea349362cedffccd5e5f8096e85a71ec0487370e9be3878d21b468b4"
+        }
+      },
+      {
+        "id": "legacy-030-02-detail-02",
+        "original_sha256": "a32f9062b2bb4bb17eb5f494cc260b06bba1ef9834041e0095b8f3d95792a1dc",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-reader-key"
+        ],
+        "reason": "Keep removed shared credentials with the stated new-workload scope, not proof of every legacy credential’s behavior. Reviewed action element.",
+        "target_sha256": {
+          "july-mitigations-reader-key": "9cc7d795ea349362cedffccd5e5f8096e85a71ec0487370e9be3878d21b468b4"
+        }
+      },
+      {
+        "id": "legacy-030-02-detail-03",
+        "original_sha256": "9f2cf4429f89b7de7050f6b7231d1f1bd66297d69b3e499f6be6adcd84eb266c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-reader-key"
+        ],
+        "reason": "Keep removed shared credentials with the stated new-workload scope, not proof of every legacy credential’s behavior. Reviewed lettering element.",
+        "target_sha256": {
+          "july-mitigations-reader-key": "9cc7d795ea349362cedffccd5e5f8096e85a71ec0487370e9be3878d21b468b4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "030-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-030-03-detail-01",
+        "original_sha256": "3f0f1b9475ca80e64e267e3ec1cdbe30a68187693a0b9c6bc9c331a44ad66ec2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-token-routes",
+          "july-mitigations-request-surface"
+        ],
+        "reason": "Keep blocked known paths and narrowed request types without showing reusable route details or asserting all routes were closed. Reviewed frame element.",
+        "target_sha256": {
+          "july-mitigations-token-routes": "a0fda2863fa1c9d1acaf1d48ba96965c8438533a6e7f0c6e75141da9b1ad09fa",
+          "july-mitigations-request-surface": "ace45d12e26340a6d6517302bea50d55a5d7a98c5fbb68c9eac10e5b70d7b576"
+        }
+      },
+      {
+        "id": "legacy-030-03-detail-02",
+        "original_sha256": "b48b0821a96c83ef714b3d12d56644e4beb20703247712f002d605474fb7b77c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-token-routes",
+          "july-mitigations-request-surface"
+        ],
+        "reason": "Keep blocked known paths and narrowed request types without showing reusable route details or asserting all routes were closed. Reviewed action element.",
+        "target_sha256": {
+          "july-mitigations-token-routes": "a0fda2863fa1c9d1acaf1d48ba96965c8438533a6e7f0c6e75141da9b1ad09fa",
+          "july-mitigations-request-surface": "ace45d12e26340a6d6517302bea50d55a5d7a98c5fbb68c9eac10e5b70d7b576"
+        }
+      },
+      {
+        "id": "legacy-030-03-detail-03",
+        "original_sha256": "0aa212ca190f60535ff96e9dfc69a218f6e07cfa143b103db04717b38303408e",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-token-routes",
+          "july-mitigations-request-surface"
+        ],
+        "reason": "Keep blocked known paths and narrowed request types without showing reusable route details or asserting all routes were closed. Reviewed lettering element.",
+        "target_sha256": {
+          "july-mitigations-token-routes": "a0fda2863fa1c9d1acaf1d48ba96965c8438533a6e7f0c6e75141da9b1ad09fa",
+          "july-mitigations-request-surface": "ace45d12e26340a6d6517302bea50d55a5d7a98c5fbb68c9eac10e5b70d7b576"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "030-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-030-04-detail-01",
+        "original_sha256": "60184dbf4119428407804ef451ac1413bc50584c24f0e0d4c90284612fb15f3c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rejected-attempts-first-rejection",
+          "july-rejected-attempts-remaining-rejections"
+        ],
+        "reason": "Keep three HTTP 400 outcomes as reported requests, not three known agents or independent proof of each failure’s cause. Reviewed frame element.",
+        "target_sha256": {
+          "july-rejected-attempts-first-rejection": "54ddad9037bd1f7fb6ef7513af6af15b7e95e8b6ce051baab942b084797f6af1",
+          "july-rejected-attempts-remaining-rejections": "5a97d5aa16c6bf2c184a7548508c00d39fc30fb1c79433922e1436ca72a022d1"
+        }
+      },
+      {
+        "id": "legacy-030-04-detail-02",
+        "original_sha256": "48ebd0fbb7c45e803b89fc57f53d9dff19bb04489ea64d78d410145096891b6b",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rejected-attempts-first-rejection",
+          "july-rejected-attempts-remaining-rejections"
+        ],
+        "reason": "Keep three HTTP 400 outcomes as reported requests, not three known agents or independent proof of each failure’s cause. Reviewed action element.",
+        "target_sha256": {
+          "july-rejected-attempts-first-rejection": "54ddad9037bd1f7fb6ef7513af6af15b7e95e8b6ce051baab942b084797f6af1",
+          "july-rejected-attempts-remaining-rejections": "5a97d5aa16c6bf2c184a7548508c00d39fc30fb1c79433922e1436ca72a022d1"
+        }
+      },
+      {
+        "id": "legacy-030-04-detail-03",
+        "original_sha256": "7815571bd7f971cf65f2d6f39598691d048d0902e2d90d25a967e57687005314",
+        "disposition": "rewrite",
+        "beats": [
+          "july-rejected-attempts-first-rejection",
+          "july-rejected-attempts-remaining-rejections"
+        ],
+        "reason": "Keep three HTTP 400 outcomes as reported requests, not three known agents or independent proof of each failure’s cause. Reviewed lettering element.",
+        "target_sha256": {
+          "july-rejected-attempts-first-rejection": "54ddad9037bd1f7fb6ef7513af6af15b7e95e8b6ce051baab942b084797f6af1",
+          "july-rejected-attempts-remaining-rejections": "5a97d5aa16c6bf2c184a7548508c00d39fc30fb1c79433922e1436ca72a022d1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "030-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-030-05-detail-01",
+        "original_sha256": "ef5782c2d619391547b0f8f8713850e496b0330895a08d2e2c023ca0b1a60858",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-real-effect",
+          "july-rejected-attempts-bounded-success"
+        ],
+        "reason": "Preserve concrete mitigation and bounded failed-attempt evidence without treating an interpretation of effectiveness as universal closure. Reviewed frame element.",
+        "target_sha256": {
+          "july-mitigations-real-effect": "181b6b8be2aef4552611660b8c75c8ccfd8874a45c60c36d076396259392aba1",
+          "july-rejected-attempts-bounded-success": "bd3ceedeeab7a92945f0c6206a20517fe0af6a6928f48bf57703b6d1e8c3858b"
+        }
+      },
+      {
+        "id": "legacy-030-05-detail-02",
+        "original_sha256": "64a2dd28c479511bcbd728b89e7cf78a50a2d0dcbc19aa11efe847ffe2fb6ca4",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-real-effect",
+          "july-rejected-attempts-bounded-success"
+        ],
+        "reason": "Preserve concrete mitigation and bounded failed-attempt evidence without treating an interpretation of effectiveness as universal closure. Reviewed action element.",
+        "target_sha256": {
+          "july-mitigations-real-effect": "181b6b8be2aef4552611660b8c75c8ccfd8874a45c60c36d076396259392aba1",
+          "july-rejected-attempts-bounded-success": "bd3ceedeeab7a92945f0c6206a20517fe0af6a6928f48bf57703b6d1e8c3858b"
+        }
+      },
+      {
+        "id": "legacy-030-05-detail-03",
+        "original_sha256": "6c3249357872d75177655058bb1aa94cb4075434399b09bb0ce25f6d52d047d2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-mitigations-real-effect",
+          "july-rejected-attempts-bounded-success"
+        ],
+        "reason": "Preserve concrete mitigation and bounded failed-attempt evidence without treating an interpretation of effectiveness as universal closure. Reviewed lettering element.",
+        "target_sha256": {
+          "july-mitigations-real-effect": "181b6b8be2aef4552611660b8c75c8ccfd8874a45c60c36d076396259392aba1",
+          "july-rejected-attempts-bounded-success": "bd3ceedeeab7a92945f0c6206a20517fe0af6a6928f48bf57703b6d1e8c3858b"
+        }
+      }
+    ]
   }
 ]

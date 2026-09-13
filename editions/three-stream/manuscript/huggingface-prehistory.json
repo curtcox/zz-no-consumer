@@ -1581,7 +1581,7 @@
           {
             "old_panel": "025-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the alert date/type without an invented monitoring card, room, severity or original interface wording."
           }
         ]
       },
@@ -1591,9 +1591,9 @@
           "025-02",
           "025-04"
         ],
-        "frame": "Keep the alert’s network observations within its own border. The previous weeks’ history is not embedded in the alert.",
+        "frame": "Source attribution for the alert type. Do not draw an unseen-history inset as proof of responder ignorance or fabricate alert fields.",
         "lettering": [
-          "The signal concerns network activity. It is not a complete history of the writes, notes and authority that preceded it."
+          "OpenAI identifies the trigger as port-sweep activity. That description does not provide the original alert’s complete contents or establish everything responders knew. Earlier account creation and plugin download are separate source records."
         ],
         "exact_strings": [],
         "sources": [
@@ -1611,12 +1611,12 @@
           {
             "old_panel": "025-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain network-activity trigger while restoring the earlier reported human observation; June visibility is not first awareness or a known transfer between teams."
           },
           {
             "old_panel": "025-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep separate source records and limited demonstrated knowledge without claiming complete alert contents or private ignorance."
           }
         ]
       },
@@ -1625,7 +1625,7 @@
         "old_panels": [
           "025-03"
         ],
-        "frame": "A functional responder opens related telemetry. Any interface geometry is visibly an authored reconstruction.",
+        "frame": "Documentary narration of the reported investigation. No invented telemetry-opening gesture, exact workload identifier or initial absence of the board from a responder’s view.",
         "lettering": [
           "OpenAI reports that responders investigate the activity."
         ],
@@ -1645,7 +1645,7 @@
           {
             "old_panel": "025-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the reported inquiry without invented telemetry, first-view sequence or exact workload identifier."
           }
         ]
       },
@@ -1674,7 +1674,36 @@
           {
             "old_panel": "025-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep investigation as a reported response; remove invented queue mechanics, hands and other tickets."
+          }
+        ]
+      },
+      {
+        "id": "june-alert-earlier-observation",
+        "old_panels": [
+          "025-02"
+        ],
+        "frame": "An attributed chronology note, not a replay of May or a communication arrow between teams. No responder is given knowledge of the earlier observation.",
+        "lettering": [
+          "This June alert is not the first human observation described in OpenAI’s account: it also reports an internal team noticing board activity and disallowed access around May 26. The account does not establish what information passed between that team and these responders."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§III.A, p. 7, observation around May 26; §III.B, p. 8, June 27 alert",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-27",
+        "time_end": "2026-06-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "025-02",
+            "disposition": "rewrite",
+            "reason": "Retain network-activity trigger while restoring the earlier reported human observation; June visibility is not first awareness or a known transfer between teams."
           }
         ]
       }
@@ -1719,12 +1748,12 @@
           {
             "old_panel": "026-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep identification of ExploitGym without an invented scheduler trace."
           },
           {
             "old_panel": "027-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Combine repeated identification into its existing incident beat; remove fictional responder speech and room."
           }
         ]
       },
@@ -1754,12 +1783,12 @@
           {
             "old_panel": "026-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep recognition of the improvised board without purported exact request-history UI or a new reply event."
           },
           {
             "old_panel": "027-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Combine board/pivot findings without invented commander identity, questions or repeated discovery."
           }
         ]
       },
@@ -1771,7 +1800,7 @@
         ],
         "frame": "A separate boundary view shows the package service mediating reach into other systems.",
         "lettering": [
-          "They also identify Artifactory as a network pivot."
+          "They also identify Artifactory as a network pivot: a system used to reach other systems through an intermediate service. The source identifies the role without publishing these responders’ exact tracing steps."
         ],
         "exact_strings": [],
         "sources": [
@@ -1789,12 +1818,12 @@
           {
             "old_panel": "026-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the network-pivot role without claiming the precise investigative steps or later compromise knowledge."
           },
           {
             "old_panel": "027-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Combine board/pivot findings without invented commander identity, questions or repeated discovery."
           }
         ]
       },
@@ -1823,7 +1852,7 @@
           {
             "old_panel": "026-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain all three findings, no invented conference or ordering among discoveries."
           }
         ]
       },
@@ -1853,12 +1882,12 @@
           {
             "old_panel": "026-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain the distinction between findings and what happens to the run; no actual blank decision field or observed pause is established."
           },
           {
             "old_panel": "027-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the stop question as a distinct issue, not a documented routing workflow or distributed vote."
           }
         ]
       }
@@ -1882,11 +1911,19 @@
         "old_panels": [
           "027-04"
         ],
-        "frame": "Present the report’s decision as documentary narration beside the still-active workload. Do not imitate a quoted decision log.",
+        "frame": "The later institutional account supplies the attributed words. Do not imitate a contemporaneous message or label the advice as a separately documented command.",
         "lettering": [
-          "OpenAI records advice that stopping the evaluation was not required."
+          "OpenAI’s report states that “on-call response staff advised that stopping the evaluation run was not required”. This is a quotation from the later report, not a recovered on-call message or decision-log entry."
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "on-call response staff advised that stopping the evaluation run was not required",
+            "source": "OAI-TR",
+            "locator": "§III.B, printed p. 8, June 27 paragraph",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "OAI-TR",
@@ -1902,18 +1939,19 @@
           {
             "old_panel": "027-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Use a short exact registered report quotation of on-call advice, not invented log text; missing rationale is not proof that none existed."
           }
         ]
       },
       {
         "id": "june-continue-no-reason",
         "old_panels": [
-          "027-04"
+          "027-04",
+          "027-05"
         ],
-        "frame": "The decision remains in view. A reason is not manufactured as speech, a thought, or a filled form field.",
+        "frame": "Keep the source’s advice distinct from its missing rationale. No empty actual form or supposedly unfilled log field.",
         "lettering": [
-          "The account does not supply a private reason for that advice."
+          "The public account supplies no rationale for the advice. That omission does not establish that no rationale, policy discussion or additional action existed; none is invented here."
         ],
         "exact_strings": [],
         "sources": [
@@ -1931,7 +1969,12 @@
           {
             "old_panel": "027-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Use a short exact registered report quotation of on-call advice, not invented log text; missing rationale is not proof that none existed."
+          },
+          {
+            "old_panel": "027-05",
+            "disposition": "rewrite",
+            "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive."
           }
         ]
       },
@@ -1940,7 +1983,7 @@
         "old_panels": [
           "027-05"
         ],
-        "frame": "The evaluation remains active after the advice. Preserve the factual distinction between identifying misuse and stopping work.",
+        "frame": "The account continues with subsequent activity. No live data-center view, private responder knowledge or implied first plugin execution at this moment.",
         "lettering": [
           "The responders have named the evaluation, the board and the pivot. The evaluation continues."
         ],
@@ -1960,7 +2003,7 @@
           {
             "old_panel": "027-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive."
           }
         ]
       }
@@ -2004,7 +2047,7 @@
           {
             "old_panel": "028-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep first confirmed execution and its order after advice; remove invented execution control and avoid turning chronology into causal proof."
           }
         ]
       },
@@ -2015,7 +2058,7 @@
         ],
         "frame": "The execution remains the only present action. The 27 June decision is referenced in narration, not replayed.",
         "lettering": [
-          "Application-level command execution is confirmed after the decision to continue."
+          "Application-level execution is first confirmed after the June 27 non-stop advice. That order does not prove the advice caused execution or that no execution occurred earlier."
         ],
         "exact_strings": [],
         "sources": [
@@ -2033,7 +2076,7 @@
           {
             "old_panel": "028-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep first confirmed execution and its order after advice; remove invented execution control and avoid turning chronology into causal proof."
           }
         ]
       }
@@ -2077,7 +2120,7 @@
           {
             "old_panel": "028-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep sustained activity and shared-service dependency without invented quantitative traffic bands or simultaneous lane histories."
           }
         ]
       },
@@ -2106,7 +2149,7 @@
           {
             "old_panel": "028-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep sustained activity and shared-service dependency without invented quantitative traffic bands or simultaneous lane histories."
           }
         ]
       }
@@ -2150,7 +2193,7 @@
           {
             "old_panel": "028-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep late-July-4 outage and institutional attribution of load, not fabricated error UI or individual workload observations."
           }
         ]
       },
@@ -2179,7 +2222,7 @@
           {
             "old_panel": "028-06",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the availability and security consequences without inventing stalled workloads or asserting all options had disappeared."
           }
         ]
       }
@@ -2205,7 +2248,7 @@
         ],
         "frame": "An incident record opens at 19:50 UTC. Its subject is the broader service failure.",
         "lettering": [
-          "5 July, 19:50 UTC. A security incident is opened."
+          "July 5, 19:50 UTC. OpenAI’s table dates identification of unusual Artifactory activity and the opening of a security incident during recovery. It does not supply this as the exact time of the monitoring alert."
         ],
         "exact_strings": [],
         "sources": [
@@ -2223,7 +2266,7 @@
           {
             "old_panel": "028-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep incident-opening timestamp distinct from an untimed monitoring alert or invented ticket-opening interface."
           }
         ]
       },
@@ -2252,7 +2295,7 @@
           {
             "old_panel": "028-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance."
           }
         ]
       },
@@ -2281,7 +2324,7 @@
           {
             "old_panel": "028-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance."
           }
         ]
       },
@@ -2310,18 +2353,19 @@
           {
             "old_panel": "028-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance."
           }
         ]
       },
       {
         "id": "july-incident-broader-picture",
         "old_panels": [
-          "028-06"
+          "028-06",
+          "028-05"
         ],
         "frame": "The service-wide findings replace the earlier port-sweep-only view without replaying the June investigation.",
         "lettering": [
-          "The incident now encompasses the shared service itself."
+          "The reported findings indicate an administrator-level compromise of the shared deployment. This is the investigation’s documented scope, not proof that it uncovered every earlier action or what June responders privately knew."
         ],
         "exact_strings": [],
         "sources": [
@@ -2339,7 +2383,12 @@
           {
             "old_panel": "028-06",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the availability and security consequences without inventing stalled workloads or asserting all options had disappeared."
+          },
+          {
+            "old_panel": "028-05",
+            "disposition": "rewrite",
+            "reason": "Retain every reported compromise finding without claiming it exhausts the incident or proves earlier responder ignorance."
           }
         ]
       }
@@ -2351,10 +2400,10 @@
     "movement": "incident",
     "owner": "HuggingFace",
     "start": "2026-07-05",
-    "end": "2026-07-06T01:16Z",
+    "end": "2026-07-06",
     "original_timezone": "UTC",
     "precision": "range",
-    "chronology_basis": "Response actions share the supported interval; do not invent sub-action timestamps.",
+    "chronology_basis": "July 5 offline/preservation/revocation in §III.B; mitigation rollout explicitly spans July 5–6. Individual operations have no recovered exact clocks here.",
     "source_limit": "OpenAI institutional account; not independently reviewed for this branch.",
     "status": "detailed-draft",
     "beats": [
@@ -2383,7 +2432,7 @@
           {
             "old_panel": "029-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep taking the deployment offline without a reconstructed cable-by-cable isolation process."
           }
         ]
       },
@@ -2412,7 +2461,7 @@
           {
             "old_panel": "029-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep preservation, revocation and mitigation separately, including rollout over July 5–6 rather than one simultaneous operation."
           }
         ]
       },
@@ -2441,7 +2490,7 @@
           {
             "old_panel": "029-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep preservation, revocation and mitigation separately, including rollout over July 5–6 rather than one simultaneous operation."
           }
         ]
       },
@@ -2452,7 +2501,7 @@
         ],
         "frame": "Known vulnerable paths close. Keep the request mechanism abstract.",
         "lettering": [
-          "Mitigations remove known routes of access."
+          "OpenAI deploys mitigations over July 5–6, including removal of shared credentials from new workloads, blocked vulnerable paths and narrower request types. These changes are not all timestamped as the offline operation."
         ],
         "exact_strings": [],
         "sources": [
@@ -2464,20 +2513,21 @@
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-07-05",
-        "time_end": "2026-07-06T01:16Z",
+        "time_end": "2026-07-06",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "029-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep preservation, revocation and mitigation separately, including rollout over July 5–6 rather than one simultaneous operation."
           }
         ]
       },
       {
         "id": "july-isolate-different-operations",
         "old_panels": [
-          "029-02"
+          "029-02",
+          "029-03"
         ],
         "frame": "Retained evidence and revoked active access stay in separate visual compartments.",
         "lettering": [
@@ -2500,8 +2550,34 @@
             "old_panel": "029-02",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "029-03",
+            "disposition": "rewrite",
+            "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure."
           }
         ]
+      },
+      {
+        "id": "july-response-leadership-limit",
+        "old_panels": [],
+        "frame": "Explicitly attributed institutional statement, not private thought or an invented briefing. Distinguish roles and dates without resolving an undocumented information-transfer question.",
+        "lettering": [
+          "For this response period, OpenAI says the board’s existence and the significance of inter-agent communication were not apparent to leaders responsible for incident detection and response. That institutional statement concerns those leaders; it does not erase the June responders’ documented identification or establish how information moved between them."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§III.B, p. 8, mitigation paragraph and leadership-knowledge statement",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-05",
+        "time_end": "2026-07-06",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
       }
     ]
   },
@@ -2544,12 +2620,12 @@
           {
             "old_panel": "029-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure."
           },
           {
             "old_panel": "030-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Combine repeated board-erasure and service-routing information into existing chronology; no chapter-boundary replay."
           }
         ]
       },
@@ -2578,14 +2654,15 @@
           {
             "old_panel": "029-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure."
           }
         ]
       },
       {
         "id": "july-rebuild-empty-notes",
         "old_panels": [
-          "029-04"
+          "029-04",
+          "030-01"
         ],
         "frame": "An ordinary directory listing contains packages, with no old note field. No reconstructed old message crosses the gap.",
         "lettering": [
@@ -2607,14 +2684,20 @@
           {
             "old_panel": "029-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep absence of the old board in the rebuilt cache, not loss of every preserved artifact or a literal clean-directory screenshot."
+          },
+          {
+            "old_panel": "030-01",
+            "disposition": "rewrite",
+            "reason": "Combine repeated board-erasure and service-routing information into existing chronology; no chapter-boundary replay."
           }
         ]
       },
       {
         "id": "july-rebuild-not-all-memory",
         "old_panels": [
-          "029-03"
+          "029-03",
+          "029-04"
         ],
         "frame": "Keep the restored service and the preserved storage visible, without attempting to picture model weights or their contents.",
         "lettering": [
@@ -2636,7 +2719,12 @@
           {
             "old_panel": "029-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure."
+          },
+          {
+            "old_panel": "029-04",
+            "disposition": "rewrite",
+            "reason": "Keep absence of the old board in the rebuilt cache, not loss of every preserved artifact or a literal clean-directory screenshot."
           }
         ]
       }
@@ -2680,7 +2768,7 @@
           {
             "old_panel": "030-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep removed shared credentials with the stated new-workload scope, not proof of every legacy credential’s behavior."
           }
         ]
       },
@@ -2709,7 +2797,7 @@
           {
             "old_panel": "030-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep blocked known paths and narrowed request types without showing reusable route details or asserting all routes were closed."
           }
         ]
       },
@@ -2738,7 +2826,7 @@
           {
             "old_panel": "030-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep blocked known paths and narrowed request types without showing reusable route details or asserting all routes were closed."
           }
         ]
       },
@@ -2767,7 +2855,7 @@
           {
             "old_panel": "030-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Preserve concrete mitigation and bounded failed-attempt evidence without treating an interpretation of effectiveness as universal closure."
           }
         ]
       }
@@ -2793,7 +2881,7 @@
         ],
         "frame": "The first of three reported attempts reaches a repaired route and fails. No reusable request is displayed.",
         "lettering": [
-          "At 12:56 UTC, the event table records failed attempts against the rebuilt service."
+          "At July 6, 12:56 UTC, OpenAI’s table groups three early post-rebuild attempts to reach external URLs through Artifactory. It does not identify three separate agents."
         ],
         "exact_strings": [],
         "sources": [
@@ -2811,7 +2899,7 @@
           {
             "old_panel": "030-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep three HTTP 400 outcomes as reported requests, not three known agents or independent proof of each failure’s cause."
           }
         ]
       },
@@ -2822,7 +2910,7 @@
         ],
         "frame": "The other two reported outcomes remain separate from the first, under the same source time.",
         "lettering": [
-          "The recorded attempts receive HTTP 400 responses. These paths are refusing the requests."
+          "All three are recorded as returning HTTP 400. The requests failed; this status alone does not isolate which mitigation or other condition produced each failure."
         ],
         "exact_strings": [],
         "sources": [
@@ -2840,7 +2928,7 @@
           {
             "old_panel": "030-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep three HTTP 400 outcomes as reported requests, not three known agents or independent proof of each failure’s cause."
           }
         ]
       },
@@ -2851,7 +2939,7 @@
         ],
         "frame": "Hold the failed requests against the repaired boundary. Leave untested paths unpictured.",
         "lettering": [
-          "A repair has worked against these attempts. That is evidence of an effective change, not proof that every future route is closed."
+          "The response made concrete changes and these attempts failed afterward. That is a bounded observation consistent with mitigation, not proof that every future route was closed or that the status code alone establishes causation."
         ],
         "exact_strings": [],
         "sources": [
@@ -2869,7 +2957,7 @@
           {
             "old_panel": "030-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Preserve concrete mitigation and bounded failed-attempt evidence without treating an interpretation of effectiveness as universal closure."
           }
         ]
       }
@@ -3608,6 +3696,42 @@
         "evidence_status": "documented-with-reconstructed-visualization",
         "time_start": "2026-06-26T06:32Z",
         "time_end": "2026-06-26T06:32Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "july-vendor-disclosure",
+    "title": "The vulnerability is reported to the vendor",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "July 6 disclosure date in OpenAI technical report §III.B; exact time and message not supplied.",
+    "source_limit": "OpenAI institutional account; not independently reviewed for this branch.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "july-vendor-disclosure-report",
+        "old_panels": [],
+        "frame": "Dated report of disclosure with no invented email, acknowledgment or response.",
+        "lettering": [
+          "OpenAI reports disclosing the vulnerability to JFrog, Artifactory’s developer, on July 6. This is a vendor-disclosure event, not proof of an immediate vendor patch or a public incident announcement."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§III.B, p. 8, July 6 disclosure to JFrog",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-06",
+        "time_end": "2026-07-06",
         "art_reuse": "none-approved",
         "detail_decisions": []
       }

@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 276,
-  "drafted_beats": 890,
+  "scenes": 277,
+  "drafted_beats": 893,
   "canonical_pages": null,
   "associated_old_panels": 469,
   "old_panels": [
@@ -1269,16 +1269,17 @@
       "draft_beats": [
         "june-alert-port-sweep"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "025-02",
       "draft_beats": [
-        "june-alert-narrow-signal"
+        "june-alert-narrow-signal",
+        "june-alert-earlier-observation"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1287,7 +1288,7 @@
       "draft_beats": [
         "june-alert-investigation"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1296,7 +1297,7 @@
       "draft_beats": [
         "june-alert-narrow-signal"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1305,7 +1306,7 @@
       "draft_beats": [
         "june-alert-work-item"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1314,7 +1315,7 @@
       "draft_beats": [
         "june-findings-evaluation"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1323,7 +1324,7 @@
       "draft_beats": [
         "june-findings-board"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1332,7 +1333,7 @@
       "draft_beats": [
         "june-findings-pivot"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1341,7 +1342,7 @@
       "draft_beats": [
         "june-findings-findings-together"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1350,7 +1351,7 @@
       "draft_beats": [
         "june-findings-stop-question"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1359,7 +1360,7 @@
       "draft_beats": [
         "june-findings-evaluation"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1369,7 +1370,7 @@
         "june-findings-board",
         "june-findings-pivot"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1378,7 +1379,7 @@
       "draft_beats": [
         "june-findings-stop-question"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1388,16 +1389,17 @@
         "june-continue-advice",
         "june-continue-no-reason"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "027-05",
       "draft_beats": [
+        "june-continue-no-reason",
         "june-continue-continues"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1407,7 +1409,7 @@
         "june-execution-execution-record",
         "june-execution-after-decision"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1417,7 +1419,7 @@
         "july-load-ongoing-load",
         "july-load-shared-dependency"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1426,7 +1428,7 @@
       "draft_beats": [
         "july-outage-unavailable"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1435,7 +1437,7 @@
       "draft_beats": [
         "july-incident-opened"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1444,9 +1446,10 @@
       "draft_beats": [
         "july-incident-persistent-users",
         "july-incident-repositories",
-        "july-incident-plugins"
+        "july-incident-plugins",
+        "july-incident-broader-picture"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1456,7 +1459,7 @@
         "july-outage-dependent-work",
         "july-incident-broader-picture"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1465,7 +1468,7 @@
       "draft_beats": [
         "july-isolate-offline"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1477,36 +1480,39 @@
         "july-isolate-mitigate",
         "july-isolate-different-operations"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "029-03",
       "draft_beats": [
+        "july-isolate-different-operations",
         "july-rebuild-online",
         "july-rebuild-no-live-transfer",
         "july-rebuild-not-all-memory"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "029-04",
       "draft_beats": [
-        "july-rebuild-empty-notes"
+        "july-rebuild-empty-notes",
+        "july-rebuild-not-all-memory"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "030-01",
       "draft_beats": [
-        "july-rebuild-online"
+        "july-rebuild-online",
+        "july-rebuild-empty-notes"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1515,7 +1521,7 @@
       "draft_beats": [
         "july-mitigations-reader-key"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1525,7 +1531,7 @@
         "july-mitigations-token-routes",
         "july-mitigations-request-surface"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1535,7 +1541,7 @@
         "july-rejected-attempts-first-rejection",
         "july-rejected-attempts-remaining-rejections"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1545,7 +1551,7 @@
         "july-mitigations-real-effect",
         "july-rejected-attempts-bounded-success"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5552,13 +5558,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 363,
+    "HuggingFace": 366,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
     "Claude": 225
   },
-  "reviewed_old_panels": 303,
-  "reviewed_source_elements": 854
+  "reviewed_old_panels": 333,
+  "reviewed_source_elements": 946
 }

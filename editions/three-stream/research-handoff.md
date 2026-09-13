@@ -991,3 +991,35 @@ The original source copy remains unchanged.
 Scoped and whitespace checks pass; frozen edition unchanged. Continue at
 frozen 025 for the response sequence. Full review, final chronology and
 readability, Twitter/other-Mac evidence and canonical allocation remain open.
+
+### Alert, advice, outage and rebuild — 13 September 2026
+
+Reviewed all thirty frozen 025–030 panels. The June alert is not the first
+reported human observation: May’s internal-team observation remains in the
+chronology. Alert type does not establish complete alert contents, exact
+investigative steps or responders’ private knowledge. Removed invented rooms,
+commander dialogue, routing, tickets, decision fields and repeated discoveries.
+A short exact quotation registers the technical report’s on-call advice; it
+is not a contemporaneous message or a decision-log reproduction. Missing
+rationale does not establish that none existed.
+
+Continued through first-confirmed execution, sustained activity, outage,
+incident opening and compromise findings. Chronology after the advice does
+not prove causation. The July 5 19:50 timestamp is the incident-opening
+record, not necessarily the alert time. All four compromise categories remain;
+they do not prove that every earlier event or motive was uncovered.
+
+Offline operation, preservation, revocation and July 5–6 mitigation rollout
+remain distinct. Restored OpenAI’s scoped statement about incident-response
+leaders’ understanding and the July 6 vendor disclosure to JFrog. This does
+not erase the June responders’ findings or resolve the missing information
+transfer between roles. Vendor disclosure is not an immediate patch or public
+announcement. Live cache removal does not erase preserved evidence or prove
+anything about retained training.
+
+Three July 6 attempts returned HTTP 400. They are requests, not three known
+agents; the code alone does not isolate the failure cause. Mitigations are
+concrete, but these outcomes do not prove that every future route was closed.
+Scoped checks and whitespace checks pass; frozen edition unchanged. Continue
+at frozen 031. Final semantic coverage, chronology/readability, Twitter and
+other-Mac evidence, and page allocation remain open.
