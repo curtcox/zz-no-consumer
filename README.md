@@ -390,6 +390,54 @@ python3 scripts/cadence.py list      # every contrast, with aphorism candidates 
 
 **There is no `check` subcommand, deliberately.** Negation is not a defect here: most instances are claim boundaries the [truth contract](content/story-contract.md) requires, and deleting one would upgrade a claim. What the tool separates out is the *abstract aphorism* — a linking verb setting one abstract noun phrase against another while bounding no source, date, count, or object in the record. That is the set worth thinning, and which of its members to thin is an editorial judgement no exit code should make. The counting method, and what it corrects in the earlier estimate, are in [`research/read-through-findings.md`](research/read-through-findings.md).
 
+## Lettering budget reports
+
+`scripts/text_budget.py` compares reader-facing lettering with the approximate
+180-word page guideline. It uses the shared `panels.py` lettering and word model,
+with `reader_view.py` identifying fields. It reports words used, allowance, percentage,
+remaining words and excess, plus lettering elements versus the four slots per image.
+Titles, frame/action directions, provenance and source references do not count.
+
+```sh
+python3 scripts/text_budget.py report
+python3 scripts/text_budget.py report --level pages --sort usage
+python3 scripts/text_budget.py report --pages 001-015 --level panels --show-text
+python3 scripts/text_budget.py report --chapter 03 --level panels --sort remaining --limit 20
+python3 scripts/text_budget.py report --page-budget 120
+python3 scripts/text_budget.py report --format json > /tmp/text-budget.json
+python3 scripts/text_budget.py report --format tsv --level pages > /tmp/page-text-budget.tsv
+python3 scripts/text_budget.py report --format tsv --level panels --show-text > /tmp/panel-text-budget.tsv
+python3 scripts/text_budget.py check
+```
+
+The default summary includes chapter totals, distributions (minimum, median, mean,
+nearest-rank 90th percentile and maximum), usage bands, lettering-type totals, and the
+sparsest and fullest pages. `--level pages`, `panels`, or `all` adds detail in text output;
+it selects exported row types in TSV. `--sort used` and `usage` order ascending;
+`remaining` orders descending. `--limit` limits displayed detail and rankings, never
+the totals. Page and chapter filters intersect and restrict all totals. JSON always
+exports the complete selected data, including panel lettering and methodology,
+regardless of detail/sort/limit options. Reports write only to stdout.
+
+**Panel word budgets are estimates.** No authored panel allowance exists: the tool
+reserves persistent banner words once per page, then divides the remaining page
+allowance equally among declared panels. A grouped run stays one row with its combined
+share; the report never guesses which cell owns its words. Panel distributions count
+these runs once. Page totals include the banner once, matching the shared script census;
+a separate total estimates banner repetition across image slots. Panel detail excludes
+banner words but includes banner elements in slot usage. “Zero words” means no text in
+that row, so a panel can still carry its page's banner. Unused allowances on sparse pages
+and excess on dense pages are also totaled separately, so they cannot cancel invisibly.
+
+The allowance is a guideline, not a target or a readability score; dossier exceptions
+are not automatically inferred. `--page-budget` explores another allowance without
+changing policy. Element slots count field blocks (and repeated banner lines), not
+words or measured balloon capacity. The report does not inspect art, measure physical
+fit or determine whether readers understand a scene. Use `letterpress.py audit` for
+layout fit. `check` exercises accounting and export fixtures and reconciles every
+current page with `panels.py`; low utilization is an editorial finding, not an error.
+This read-only tool is independent of the site build and is not part of publication CI.
+
 ## Site builds
 
 The default build is the story-first public surface. It excludes research, source packets, prompts, design notes, and production artifacts:
