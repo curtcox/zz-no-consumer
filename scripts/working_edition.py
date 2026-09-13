@@ -405,11 +405,35 @@ def check(edition, draft=False, *, fixtures=True):
               f"{len(model['old-panels'])} old panels inventoried; frozen edition unchanged.")
 
 
+def audit(edition, show_all=False):
+    """Print advisory collaboration findings. Always exits 0: these are a work list, not a gate."""
+    import edition_detail
+    import production_history
+    attribution = production_history.RESULT
+    result = json.loads(attribution.read_text()) if attribution.is_file() else None
+    baseline = json.loads((edition / "baseline.json").read_text())["commit"]
+    findings = edition_detail.audit(edition, result, baseline)
+    notes = {"order": "beats that start before the previous beat in their scene",
+             "instant": "collaboration beats sharing one instant (more than three per actor and clock)",
+             "narrator": "collaboration scenes that describe narrator analysis, not the row actor's act",
+             "no-owner-record": "collaboration beats citing no production record by the row's actor at the beat's time",
+             "draft-author": "beats whose old panel wording was typed by a different actor than the row"}
+    if result is None:
+        notes["draft-author"] += " (skipped: run production_history.py attribute)"
+    for kind, items in findings.items():
+        print(f"{kind}: {len(items)} — {notes[kind]}")
+        for item in items if show_all else items[:5]:
+            print("  " + item)
+        if len(items) > 5 and not show_all:
+            print(f"  … {len(items) - 5} more (--all)")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("command", choices=("snapshot", "inventory", "manuscript", "check"))
+    parser.add_argument("command", choices=("snapshot", "inventory", "manuscript", "check", "audit"))
     parser.add_argument("--edition", type=Path, default=DEFAULT)
     parser.add_argument("--draft", action="store_true", help="validate incomplete cut without claiming completion")
+    parser.add_argument("--all", action="store_true", help="audit: list every finding, not the first few per kind")
     args = parser.parse_args(argv)
     try:
         if args.command == "snapshot":
@@ -420,6 +444,8 @@ def main(argv=None):
         elif args.command == "manuscript":
             import edition_detail
             edition_detail.write_manuscript(args.edition)
+        elif args.command == "audit":
+            audit(args.edition, args.all)
         else:
             check(args.edition, args.draft)
     except (ValueError, KeyError, OSError) as error:

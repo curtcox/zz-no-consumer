@@ -135,8 +135,15 @@ manuscript changes.
 
 ## On the first Mac, after transfer
 
-Verify the tar's SHA-256 and `SHA256SUMS`, extract it under `256t/editions/`, and treat
-the `other-mac` inventory exactly as `256t/editions/current-mac-messages.json` is treated:
+```sh
+python3 scripts/production_history.py verify-bundle 256t/editions/other-mac-bundle-….tar --extract
+python3 scripts/production_history.py attribute
+```
+
+The first command checks member paths, `SHA256SUMS` and transcript hashes before extracting
+into `256t/editions/other-mac/`; the second folds the bundled transcripts into commit
+attribution. Treat the `other-mac` inventory exactly as
+`256t/editions/current-mac-messages.json` is treated:
 select records individually, preserve each selected record by its hash, and keep product
 and actor identities as the records give them. Commit metadata alone does not identify an
 authoring agent; see the restructure plan.

@@ -12,6 +12,20 @@ completion. `collaboration_records.py` catalogs explicitly supplied local histor
 as byte/hash locators without exporting message bodies. The initial condensed
 chronology is withdrawn as a manuscript candidate; its count is not a target.
 
+Who wrote what is established from session transcripts, never from commit metadata:
+
+| Command | Answers |
+| --- | --- |
+| `production_history.py attribute` | for every commit under the authored paths, which Codex or Claude session supplied each added line in a tool call, inside the window after the previous commit to that file; also which sessions edited or named the file there. Reads this Mac's `~/.codex` and `~/.claude` histories plus an extracted other-Mac bundle; writes the ignored `256t/editions/attribution.json` (locators and counts, no bodies) in about ten seconds |
+| `production_history.py panel 073-02` / `commit SHA` / `summary` | the origin commits and typing sessions of a frozen panel's wording (blame at the baseline, cached in the vault); one commit's attribution; matched lines by actor and day, and commits with little transcript support |
+| `production_history.py verify-bundle TAR [--extract]` | an other-Mac bundle from [the collection prompt](../tasks/other-mac-production-records.md): safe member paths, `SHA256SUMS`, and bundled transcripts against their inventory hashes, before extracting into the vault |
+| `personal_records.py inventory EXPORT…` | dated, matching rows from Curt's own exports — YouTube watch history, X posts and likes, ChatGPT and claude.ai conversations, podcast OPML — as locators and URLs without titles or bodies, in the ignored `256t/editions/personal/` |
+| `working_edition.py audit [--all]` | advisory collaboration findings: beats sharing one instant, scenes describing narrator analysis, beats with no production record by the row's actor at their time, beats running backwards in a scene, and old wording typed by a different actor than the row (uses the attribution result when present). Always exits 0 |
+
+A text match shows a session typed the words, not that it originated, reviewed or accepted
+them. An unmatched line is not human authorship: scripts, tools, uninventoried machines and
+cloud services leave no local tool-call text.
+
 Every tool here is `python3`, **standard library only**, run from the repository root:
 
 ```bash
@@ -103,7 +117,10 @@ establish current status.
 
 CI also runs `python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.py'`, which
 covers `test_knowledge_map_local.py` and `test_knowledge_map_finish.py` — the offline
-generation boundaries, so a CI run can never reach for an image model.
+generation boundaries, so a CI run can never reach for an image model — and
+`test_production_history.py`, whose fixture repository and transcripts cover commit-window
+attribution, bundle verification, personal-export inventories and the collaboration audit
+without reading any real history.
 
 **`pagination.py check`, `panels.py check`, and `letterpress.py audit` run in CI.** The lettering audit checks the effective reader layout, including storyboard boxes, and fails on unplaced or truncated text. Run the structural checks directly whenever you touch pages or panels.
 

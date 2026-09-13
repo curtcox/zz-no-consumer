@@ -116,6 +116,25 @@ silently given a fabricated order. The completion check rejects unresolved overl
 deferred panels, missing transition, unfinished readiness and the withdrawn study.
 `check --draft` passing never means the book is complete or approved.
 
+## Production history and the collaboration rule
+
+Commit metadata does not identify an authoring agent. Transcripts do:
+
+```sh
+python3 scripts/production_history.py attribute
+python3 scripts/production_history.py panel 073-02
+python3 scripts/working_edition.py audit
+```
+
+`attribute` matches each committed line to the Codex or Claude session that supplied it in
+a tool call inside the commit's window and writes the ignored `256t/editions/attribution.json`.
+`panel` gives a frozen panel's origin commits and typing sessions. `audit` lists collaboration
+beats that do not yet show the row actor's own dated act, following the working rule in
+[the restructure plan](../../tasks/three-stream-restructure.md): beats sharing one instant,
+narrator-analysis scenes, and old wording typed by a different actor than the row. Its
+findings are a work list; the draft check does not fail on them. Other-Mac records arrive
+through [the collection prompt](../../tasks/other-mac-production-records.md).
+
 ## Dependency inventory
 
 | Identity consumer | Graphic-only working edition | Frozen / deferred |

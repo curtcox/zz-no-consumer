@@ -32,6 +32,24 @@ Owner decisions, 13 September 2026:
   transcripts establish who authored it. Do not infer Codex or Claude participation from
   a commit's author, committer or trailers alone.
 
+Working rule for analysis in the collaboration movement, 13 September 2026: an analytic or
+interpretive point enters a collaborator's row only as the dated act that produced it.
+Resolve each point by the first case that applies:
+
+1. A preserved message or file change made the point: place the beat at that record's time,
+   in that actor's row, and show the artifact rather than summarizing it in a caption.
+2. The point exists only in an old script panel: the act is the writing of that panel, at
+   its origin commit's window and by the session that typed it. A later correction by
+   another actor is a separate beat with its own record.
+3. The point was produced during the restructuring itself: it is collaboration material at
+   its own dated time, since the movement runs until the book is finished.
+4. No act can be found: the point stays out of the rows and waits for the deferred appendix
+   and novella resynchronization. Do not attach it to an unrelated record's clock, and do
+   not add a narrator layer outside the rows.
+
+`scripts/production_history.py` finds origin commits and typing sessions (`panel`, `commit`);
+`scripts/working_edition.py audit` lists beats that do not yet satisfy this rule.
+
 ## Governing form
 
 - Pages advance chronologically, without the existing cold open and rewind.

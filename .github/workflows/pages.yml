@@ -65,6 +65,9 @@ jobs:
       - name: Test offline knowledge-map finish boundaries
         run: python -m unittest discover -s scripts -p test_knowledge_map_finish.py
 
+      - name: Test production-history attribution fixtures
+        run: python -m unittest discover -s scripts -p test_production_history.py
+
       - name: Check independent SVG components
         run: python scripts/svg_components.py check
 

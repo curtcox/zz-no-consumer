@@ -4,9 +4,11 @@ This does not allocate new pages or claim that extracted fields are fully decomp
 events. Each frame, action and lettering element must receive individual editorial
 disposition before a condensed event can be called its complete replacement.
 """
+from collections import Counter
 import json
 import hashlib
 from pathlib import Path
+import re
 
 import panels
 import crossref
@@ -257,3 +259,53 @@ def errors(root):
     if records != expected:
         return ["stale detail inventory; regenerate from frozen panels and research seeds"]
     return []
+
+
+NARRATOR = re.compile(r"narrator|no specific read time|no additional reading act", re.IGNORECASE)
+
+
+def audit(root, attribution=None, baseline=None):
+    """Advisory findings for the collaboration rule; none of them blocks a draft check.
+
+    A collaboration beat belongs to the actor performing its central act at that act's time.
+    These findings mark beats that do not yet show such an act: analysis parked on an
+    unrelated record's clock, no cited record by the row's actor, beats that run backwards
+    within a scene, and old wording whose transcript author differs from the row.
+    """
+    from working_edition import bound
+    selections = {"PROD-" + r["record_sha256"][:12]: r
+                  for r in json.loads((root / "production-selections.json").read_text())}
+    findings = {"order": [], "instant": [], "narrator": [], "no-owner-record": [], "draft-author": []}
+    instants = {}
+    for scene in manuscript(root):
+        times = [bound(b["time_start"]) for b in scene["beats"]]
+        for previous, (beat, current) in zip(times, list(zip(scene["beats"], times))[1:]):
+            if current < previous:
+                findings["order"].append(f"{beat['id']}: starts {beat['time_start']}, before the previous beat in {scene['id']}")
+        if scene["movement"] != "collaboration":
+            continue
+        if NARRATOR.search(scene["chronology_basis"] + " " + scene["source_limit"]):
+            findings["narrator"].append(f"{scene['id']} ({scene['owner']}, {len(scene['beats'])} beats): "
+                                        "describes narrator analysis rather than the row actor's act")
+        for beat in scene["beats"]:
+            instants.setdefault((scene["owner"], beat["time_start"], beat["time_end"]), []).append(beat["id"])
+            records = [selections[s["key"]] for s in beat["sources"] if s["key"] in selections]
+            own = [r for r in records if r["actor"] == scene["owner"]
+                   and bound(beat["time_start"]) <= bound(r["utc"]) <= bound(beat["time_end"], True)]
+            if not own:
+                cited = ", ".join(sorted({f"{r['actor']} {r['utc']}" for r in records})) or "no production record"
+                findings["no-owner-record"].append(f"{beat['id']} ({scene['owner']} row): cites {cited}")
+            if attribution and beat["old_panels"]:
+                import production_history
+                actors = Counter()
+                for key in beat["old_panels"]:
+                    actors += production_history.panel_actors(attribution, key, baseline)
+                if actors and scene["owner"] not in actors:
+                    findings["draft-author"].append(
+                        f"{beat['id']} ({scene['owner']} row): old wording in {', '.join(beat['old_panels'])} was typed by "
+                        + ", ".join(f"{actor} ({count} lines)" for actor, count in actors.most_common()))
+    for (owner, start, end), beats in sorted(instants.items()):
+        if len(beats) > 3:
+            findings["instant"].append(f"{owner} {start}: {len(beats)} beats share one instant "
+                                       f"({beats[0]} … {beats[-1]})")
+    return findings
