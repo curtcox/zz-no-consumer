@@ -26954,5 +26954,609 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "047-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-047-01-detail-01",
+        "original_sha256": "1788db1df83302f15a66d2030af73785767da48dafae2db9acacd52a0be534a2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-recognition"
+        ],
+        "reason": "Target and external system stay separate; the source names Hugging Face’s system, not a new worker-execution path.",
+        "target_sha256": {
+          "hf-peer-authorization-recognition": "4e534691231adea58f5f4341fdb2423695cbc5cdc3a26e68d9e89a460d9f33a3"
+        }
+      },
+      {
+        "id": "legacy-047-01-detail-02",
+        "original_sha256": "7ee62c4a636d4fd94ec83062f0b35687da0ce939880da6736f942aeb36ba5797",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-recognition"
+        ],
+        "reason": "The recognition is shown through OpenAI’s displayed reasoning, quoted and attributed.",
+        "target_sha256": {
+          "hf-peer-authorization-recognition": "4e534691231adea58f5f4341fdb2423695cbc5cdc3a26e68d9e89a460d9f33a3"
+        }
+      },
+      {
+        "id": "legacy-047-01-detail-03",
+        "original_sha256": "d1df8f2637b6d5c4946d81b4f9e83a2e7fd27acd98d25671078489b1b9065da2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-recognition"
+        ],
+        "reason": "Editorial summary in a verbatim shape replaced by the registered raw reasoning.",
+        "target_sha256": {
+          "hf-peer-authorization-recognition": "4e534691231adea58f5f4341fdb2423695cbc5cdc3a26e68d9e89a460d9f33a3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "047-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-047-02-detail-01",
+        "original_sha256": "04b9b2671f0ed3fe481d068c0a9185023849470e5c4177c03b1c132fad1ca92d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-pause"
+        ],
+        "reason": "The stop before the boundary stays; no drawn duration.",
+        "target_sha256": {
+          "hf-peer-authorization-pause": "a9aa0dd31b97ae31eada005f0a2a86a9789554d1908f52765961ced08beb838a"
+        }
+      },
+      {
+        "id": "legacy-047-02-detail-02",
+        "original_sha256": "2a21300f9922cca9121a6926962dbdbd548f438e43cd6b38c65928c06eb3df12",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-pause"
+        ],
+        "reason": "OpenAI reports the pause after the recognized dilemma; it does not say reasoning alone produced it.",
+        "target_sha256": {
+          "hf-peer-authorization-pause": "a9aa0dd31b97ae31eada005f0a2a86a9789554d1908f52765961ced08beb838a"
+        }
+      },
+      {
+        "id": "legacy-047-02-detail-03",
+        "original_sha256": "087da1a8542200675271e203c825da37fc83662564ad45f3c6700750b40438d4",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Authored emphasis: the source does not measure the objection as decisive for any interval. typed in Codex session 01a06270 on 2 September (production_history.py panel); under the collaboration working rule, case 2, the point can enter only as that writing act in the Codex row, left for the re-anchoring pass rather than kept as incident narration.",
+        "target_sha256": {}
+      }
+    ]
+  },
+  {
+    "old_panel": "047-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-047-03-detail-01",
+        "original_sha256": "e7726ecad8e3fb58f9b95af80c88b5b2fb4ed484a7a2380aea2b7a689bf13e3c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-deadline"
+        ],
+        "reason": "GO and the six-minute deadline stay; unauthenticated entry, approval symbol and identity proof are not in the source.",
+        "target_sha256": {
+          "hf-peer-authorization-deadline": "3f6b959cabb4686d3e2237a6895dc8b5cd8ff2d629e3d8849a2cfc297ff64ff4"
+        }
+      },
+      {
+        "id": "legacy-047-03-detail-02",
+        "original_sha256": "60f33b5674969edbd8e92502ae0995b385c9faee8ebb52de04c1623b78ce514e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-deadline"
+        ],
+        "reason": "The peer’s deadline is OpenAI’s “hard six-minute deadline”, quoted.",
+        "target_sha256": {
+          "hf-peer-authorization-deadline": "3f6b959cabb4686d3e2237a6895dc8b5cd8ff2d629e3d8849a2cfc297ff64ff4"
+        }
+      },
+      {
+        "id": "legacy-047-03-detail-03",
+        "original_sha256": "348843ff057861136bdecfc335068920b172846ba9bc98c151bb7570068e915d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-deadline"
+        ],
+        "reason": "Bounded to what OpenAI’s account shows: no human, user or Hugging Face approval appears.",
+        "target_sha256": {
+          "hf-peer-authorization-deadline": "3f6b959cabb4686d3e2237a6895dc8b5cd8ff2d629e3d8849a2cfc297ff64ff4"
+        }
+      },
+      {
+        "id": "legacy-047-03-detail-04",
+        "original_sha256": "fc46a86f868d9e331b74723d221ad901c600cc8f067561244ad20a569f8d0405",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-resumption"
+        ],
+        "reason": "The decision/authorization distinction stays in one sentence; the permission-gap thesis is dropped.",
+        "target_sha256": {
+          "hf-peer-authorization-resumption": "f5917f19ee047beaa3740280bb0131b7fc060a5f8b82b6439581cfe37669ab90"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "047-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-047-04-detail-01",
+        "original_sha256": "989c487d38b0bb1c06cc5b4415196151a15506d309c5aa338628412f8757ab19",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-permission"
+        ],
+        "reason": "Attributed reasoning frame without face or balloon stays.",
+        "target_sha256": {
+          "hf-peer-authorization-permission": "054aa46f6a162e972437d1dabe1319e2042f676c4efb9bbd9fe5182fdaccf204"
+        }
+      },
+      {
+        "id": "legacy-047-04-detail-03",
+        "original_sha256": "82d41cdbfb3318a4b6d88e68085aee24846af8584c2bea44ea0b4a6af1bed10b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-permission"
+        ],
+        "reason": "OpenAI’s displayed raw line replaces the editorial summary.",
+        "target_sha256": {
+          "hf-peer-authorization-permission": "054aa46f6a162e972437d1dabe1319e2042f676c4efb9bbd9fe5182fdaccf204"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "047-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-047-05-detail-01",
+        "original_sha256": "99d2787c2e331cdaab516471569a1c430048ad48b6cb003b39f84515807ed0ac",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-resumption"
+        ],
+        "reason": "Resumption stays; the UNAUTHENTICATED label and external-worker destination are not in the source.",
+        "target_sha256": {
+          "hf-peer-authorization-resumption": "f5917f19ee047beaa3740280bb0131b7fc060a5f8b82b6439581cfe37669ab90"
+        }
+      },
+      {
+        "id": "legacy-047-05-detail-02",
+        "original_sha256": "ecff4166c4b03c4a6a38cc8999911df41718cae7446a80913883f6ce1d52df0b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-peer-authorization-resumption"
+        ],
+        "reason": "Continuation stays as OpenAI reports it, with “forgot its initial qualms” attributed as OpenAI’s reading.",
+        "target_sha256": {
+          "hf-peer-authorization-resumption": "f5917f19ee047beaa3740280bb0131b7fc060a5f8b82b6439581cfe37669ab90"
+        }
+      },
+      {
+        "id": "legacy-047-05-detail-03",
+        "original_sha256": "293c4409e4ff1fe4975a2da1265e1c32e95a0d3e7d232c51c6c225cefaac0de5",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Project thesis, not a sourced event. typed in Codex session 01a06270 on 2 September (production_history.py panel); under the collaboration working rule, case 2, the point can enter only as that writing act in the Codex row, left for the re-anchoring pass rather than kept as incident narration.",
+        "target_sha256": {}
+      }
+    ]
+  },
+  {
+    "old_panel": "061-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-061-01-detail-01",
+        "original_sha256": "051d47aeecc7e526f03b34b880ef6b09c5fcb8c39aeab98767e24c833eaaf941",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-scope"
+        ],
+        "reason": "Target and Hugging Face infrastructure stay as separate boxes beside the quoted line.",
+        "target_sha256": {
+          "hf-local-restraint-scope": "f8e8cb2959f898802f5d3de13ab768c482eef4fa3df1bf275bd7b6f95c6a6c1d"
+        }
+      },
+      {
+        "id": "legacy-061-01-detail-02",
+        "original_sha256": "f05c14af8135e4413779675c06eb343af135960a2cf5311994b3b53bb02b2619",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-scope"
+        ],
+        "reason": "The scope statement is METR’s quoted reasoning.",
+        "target_sha256": {
+          "hf-local-restraint-scope": "f8e8cb2959f898802f5d3de13ab768c482eef4fa3df1bf275bd7b6f95c6a6c1d"
+        }
+      },
+      {
+        "id": "legacy-061-01-detail-03",
+        "original_sha256": "227da9ffc2caed04496625ee2746d40a9227eb59f9f8b65903d960a649002369",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-scope"
+        ],
+        "reason": "METR summary in a verbatim shape replaced by the registered raw reasoning METR quotes.",
+        "target_sha256": {
+          "hf-local-restraint-scope": "f8e8cb2959f898802f5d3de13ab768c482eef4fa3df1bf275bd7b6f95c6a6c1d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "061-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-061-02-detail-01",
+        "original_sha256": "807459debe0efd36565acba9e1e8bb09e19cdbb383cf43e22f5281173ae0d0f1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-findings-classifier"
+        ],
+        "reason": "Accumulating unauthorized work becomes an attributed finding over sampled transcripts.",
+        "target_sha256": {
+          "hf-ethics-findings-classifier": "b6dcedd4700e89a9f6bde51c390c14b6bc914440f568167462fe2627eb914559"
+        }
+      },
+      {
+        "id": "legacy-061-02-detail-03",
+        "original_sha256": "39073b3b615d0cc0fa8d1da75ea4cc89bf023d65b5e7a26fa68636d9d01d8233",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-findings-classifier"
+        ],
+        "reason": "“Every run” overstates a classifier run over 10–30 sampled transcripts; METR’s wording and scope replace it.",
+        "target_sha256": {
+          "hf-ethics-findings-classifier": "b6dcedd4700e89a9f6bde51c390c14b6bc914440f568167462fe2627eb914559"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "061-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-061-03-detail-01",
+        "original_sha256": "27ecf39d33f2c436b58765a80a39562f9b94a3f1289fce91e705b3409c231ac4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-partial-refusal"
+        ],
+        "reason": "One set-aside action beside continuing access stays; the pause is not drawn as a separate event.",
+        "target_sha256": {
+          "hf-local-restraint-partial-refusal": "4f615ee585fafa711f6f5172e4ec15ce15dd2ca16228c8c0b83f8d4c231c1036"
+        }
+      },
+      {
+        "id": "legacy-061-03-detail-02",
+        "original_sha256": "f11ff80edca2b04a7d595e006b8995a0fd1c634246180ba63e5d760ad116a41b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-partial-refusal"
+        ],
+        "reason": "Limited restraint stays, with METR’s paraphrased reasoning labeled.",
+        "target_sha256": {
+          "hf-local-restraint-partial-refusal": "4f615ee585fafa711f6f5172e4ec15ce15dd2ca16228c8c0b83f8d4c231c1036"
+        }
+      },
+      {
+        "id": "legacy-061-03-detail-03",
+        "original_sha256": "ac2f1137dbd46de62e0ec8cac7486419df217b60443a526e5895006091206c5c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-continues"
+        ],
+        "reason": "One action changed, not the run’s participation, bounded to this run.",
+        "target_sha256": {
+          "hf-local-restraint-continues": "94bb8f4898982f92b3ea04587bbaf533a970707fcddb39a4885d89399de720df"
+        }
+      },
+      {
+        "id": "legacy-061-03-detail-04",
+        "original_sha256": "9342b5b48716ae476d620996a99789970d130377bd3d15ebd830eae9d292d980",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-local-restraint-continues"
+        ],
+        "reason": "Local restraint without a wider stop stays; the generalization about other runs moves to METR’s overall finding.",
+        "target_sha256": {
+          "hf-local-restraint-continues": "94bb8f4898982f92b3ea04587bbaf533a970707fcddb39a4885d89399de720df"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "061-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-061-04-detail-01",
+        "original_sha256": "5a5010c2b828e16482128e7d557c3af321db7a769af2c834ab605c7c28faf07e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-join-motives-tags"
+        ],
+        "reason": "The undated reasons list becomes METR’s dated peak-hour cohort and its Table 5 counts.",
+        "target_sha256": {
+          "hf-join-motives-tags": "8e19c9f23c72ff9ad7b8dd596c4f8d27ee3e63a2072a83a72be86ffe757f4e0b"
+        }
+      },
+      {
+        "id": "legacy-061-04-detail-02",
+        "original_sha256": "68106288bf84c8f04479ac0b7989944a10c2559634f3b6fad85bb98b5af49df9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-join-motives-plan"
+        ],
+        "reason": "Usefulness to local goals is qualified by METR’s finding that many joiners lacked a clear plan.",
+        "target_sha256": {
+          "hf-join-motives-plan": "827c3bafda2debdfeca3517c3847b5d61f2bb68e3a8d61d2bc17d6eaef5b010b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "061-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-061-05-detail-01",
+        "original_sha256": "aca112665632b106f7cb405db0ae94f79188309a687f5a2eae15a7596337d33a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-override-continue"
+        ],
+        "reason": "A legible boundary crossed stays, as one quoted example rather than a traffic diagram.",
+        "target_sha256": {
+          "hf-ethics-override-continue": "5b5c6849eebd7149307b1ae992a3205a48950c8770b95b7e338af814e82c69f9"
+        }
+      },
+      {
+        "id": "legacy-061-05-detail-03",
+        "original_sha256": "1bad14ceb412748438e10f498f3b75a14b817d309e2e9513ee753c08cd7d2d71",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-override-continue"
+        ],
+        "reason": "The authored thesis is replaced by METR’s quoted example of naming the scope and continuing.",
+        "target_sha256": {
+          "hf-ethics-override-continue": "5b5c6849eebd7149307b1ae992a3205a48950c8770b95b7e338af814e82c69f9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "062-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-062-01-detail-01",
+        "original_sha256": "b9fd5465a0e10f0f720ec7c35e8b286ac7f033cf836a56ed28583a4740568d16",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-refusal-refusal"
+        ],
+        "reason": "The worker-execution lane becomes the trace’s own reference to worker RCE on the board.",
+        "target_sha256": {
+          "hf-refusal-refusal": "b3c17a88efcf714ceb1a9b5f92f61ee1031e5dadeb33fd7929e47edd4dd9016c"
+        }
+      },
+      {
+        "id": "legacy-062-01-detail-03",
+        "original_sha256": "f40c9792fea8a92f0412c53952932d6abf428dc6e10b364c7b030fe171da419a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-refusal-refusal"
+        ],
+        "reason": "Editorial summary in a verbatim shape replaced by the registered raw reasoning.",
+        "target_sha256": {
+          "hf-refusal-refusal": "b3c17a88efcf714ceb1a9b5f92f61ee1031e5dadeb33fd7929e47edd4dd9016c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "062-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-062-02-detail-01",
+        "original_sha256": "bcf2445a026b09adaf1dd164a1523d3ac89e0c98aeb5302e1a9325865f3fd192",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-refusal-own-task"
+        ],
+        "reason": "The refusal stays unmerged with continuing runs; the return to its own target is not in the source.",
+        "target_sha256": {
+          "hf-refusal-own-task": "ad978798367761cac99f3b181a40741e6f4cfb68341a0c1d123afb46095a0836"
+        }
+      },
+      {
+        "id": "legacy-062-02-detail-03",
+        "original_sha256": "8639f68ad9eb3c03481ee0bc65a07a7c678cbe5ac1eafc527194e1a8b398ffcf",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-refusal-own-task"
+        ],
+        "reason": "OpenAI’s “walked away”, quoted, with a second displayed refusal.",
+        "target_sha256": {
+          "hf-refusal-own-task": "ad978798367761cac99f3b181a40741e6f4cfb68341a0c1d123afb46095a0836"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "062-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-062-03-detail-01",
+        "original_sha256": "6291f0d764222070744ca3b01a4a834d7bf223d3e3104e3ee17cd44018ba82bd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-email-objection-proposal"
+        ],
+        "reason": "Email route to a real dataset owner and the request for consent stay, with the Modal sandbox and credentials METR names.",
+        "target_sha256": {
+          "hf-email-objection-proposal": "b975d10cc0dce09103f45bae97e69e6c9463987de923d72a708fd391a001ec34"
+        }
+      },
+      {
+        "id": "legacy-062-03-detail-03",
+        "original_sha256": "53e3eff442783a526339f649ac8d0b1803d5c3b5c9138a0c323b73f614270cc5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-email-objection-proposal"
+        ],
+        "reason": "Paraphrased screen text replaced by the quoted consent request.",
+        "target_sha256": {
+          "hf-email-objection-proposal": "b975d10cc0dce09103f45bae97e69e6c9463987de923d72a708fd391a001ec34"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "062-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-062-04-detail-01",
+        "original_sha256": "dc3da0ab5ac82f84ddc7f1fe5cf029a872f1920d4c44d99d02013cb75828ec36",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-email-objection-objection"
+        ],
+        "reason": "The objection stays; a closing route is not drawn as proof.",
+        "target_sha256": {
+          "hf-email-objection-objection": "2590e4f8383a03321c65e8d6c327f2151be8e730d5dd93c52042e0c58e0e1bbe"
+        }
+      },
+      {
+        "id": "legacy-062-04-detail-02",
+        "original_sha256": "f825f067e190c4164e8ef05b96b594ef0aaf97e751160d4c831205af7e1e1876",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-email-objection-not-sent"
+        ],
+        "reason": "The requester’s recorded acknowledgment, quoted.",
+        "target_sha256": {
+          "hf-email-objection-not-sent": "b7e69d4293d401bb83aebc814f71cc6955102546ec9593439e86240857811f97"
+        }
+      },
+      {
+        "id": "legacy-062-04-detail-03",
+        "original_sha256": "79b191cf4c82878058d1eb06284976c645585362b05af8e30b791726696ee121",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-email-objection-not-sent"
+        ],
+        "reason": "EMAIL NOT SENT overstates the source; METR says the requester seemed to heed the veto.",
+        "target_sha256": {
+          "hf-email-objection-not-sent": "b7e69d4293d401bb83aebc814f71cc6955102546ec9593439e86240857811f97"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "062-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-14",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-062-05-detail-01",
+        "original_sha256": "11316a117c380088672862b2b0f3935460ef424e78b835f6f75a1a3a78df195e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-email-objection-bounded-effect"
+        ],
+        "reason": "Unused route beside active unauthorized work stays, with METR’s footnote on participation.",
+        "target_sha256": {
+          "hf-email-objection-bounded-effect": "27abb13b682993b328c034eae7cb5386df823818aa9b0d9b1ca950c40d465207"
+        }
+      },
+      {
+        "id": "legacy-062-05-detail-03",
+        "original_sha256": "08b69041f1db3ad8fa1dc617f6637a3872cd37d445509210d74691235ae6f940",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-override-finding"
+        ],
+        "reason": "Restraint existed, as METR’s finding of minor changes for ethical reasons.",
+        "target_sha256": {
+          "hf-ethics-override-finding": "627557b3d38ac660eb970134feba58da84fb1123187c640677439412e4f3b5f9"
+        }
+      },
+      {
+        "id": "legacy-062-05-detail-04",
+        "original_sha256": "4f1cecc6400920b49943410b9d73ed5ef4f36e4f0b4e0e5da3e3c75d1fb51112",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-override-finding"
+        ],
+        "reason": "Local, uneven and sometimes effective becomes METR’s “only rarely materially limited”.",
+        "target_sha256": {
+          "hf-ethics-override-finding": "627557b3d38ac660eb970134feba58da84fb1123187c640677439412e4f3b5f9"
+        }
+      },
+      {
+        "id": "legacy-062-05-detail-05",
+        "original_sha256": "513b31b8d03a25296fbe339c63977e0d9b55831d998b30b1266da8af90327d3b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ethics-override-finding"
+        ],
+        "reason": "Different responses on one board stay; the argument about a single unbroken intention is reduced to that observation.",
+        "target_sha256": {
+          "hf-ethics-override-finding": "627557b3d38ac660eb970134feba58da84fb1123187c640677439412e4f3b5f9"
+        }
+      }
+    ]
   }
 ]

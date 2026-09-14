@@ -40,30 +40,38 @@ the named command before relying on one.
    68 Codex beats at `2026-09-02T03:45:45.444Z`), 25 scenes describing narrator analysis, and
    134 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
-4. **Old-panel review.** 591 of 606 old panels have element-level decisions; pending are
-   047, 061 and 062. Four have no draft beat: 009-02, 061-02, 105-05, 117-05. Source:
-   `manuscript-coverage.json`. Legacy 083–091 were reviewed under the working rule, at their
-   origin sessions' records, not on the 15:02:31 cluster (log, 14 September).
-   The new 27 July Hugging Face hardening beats overlap `prod-aftermath-platform-*` in that
-   cluster; resolve the overlap when the cluster is re-anchored.
-5. **Unresolved clocks** in legacy 047, 061 and 062 (last recorded next step in the log).
+4. **Old-panel review.** All 606 old panels have element-level decisions (1717 elements).
+   Three have no draft beat: 009-02, 105-05, 117-05; each needs its omission reason checked.
+   Source: `manuscript-coverage.json`. The new 27 July Hugging Face hardening beats overlap
+   `prod-aftermath-platform-*` in the 15:02:31 cluster; resolve that when the cluster is
+   re-anchored.
+5. **Authored theses omitted from incident rows.** Legacy 047-02 and 047-05 captions were
+   typed in Codex session `01a06270` on 2 September. Under working-rule case 2 they can enter
+   only as that writing act in the Codex row. They are omitted with that reason until the
+   re-anchoring pass places or drops them (log, 14 September).
 6. **27 July placement.** Hugging Face's technical timeline and JFrog's fix post are in the
    incident row on the assumption that the transition falls after 27 July. If Curt's entrance
    settles earlier, they move to a dated encounter in the collaboration rows.
-7. **Chronology within July.** 8–12 July held 117 incident beats with day-only bounds beside
-   96 timed beats. Record source-supported order with `after` / `before` constraints and read
-   narrowed intervals with `working_edition.py order`. One beat runs backwards within its
-   scene: `june-persistent-users-different-lifetimes`.
+7. **Chronology within July.** Day-only incident beats still outnumber what the timed record
+   can order. Three `after` constraints now exist, all on undated counterexamples (legacy
+   047/061/062), and `working_edition.py order` narrows three beats. The peer-approval,
+   refusal, restraint and email examples are undated in every vault source, so they are bounded
+   to the studied 9–13 July board activity and may not be placed within it on thematic grounds.
+   Two METR aggregate findings (`hf-ethics-findings`, `hf-ethics-override`) sit over that
+   period like the earlier aggregate scenes. Decide at allocation whether they instead enter as
+   dated encounters with the report. One beat runs backwards within its scene:
+   `june-persistent-users-different-lifetimes`.
 8. **Allocation, preview and handoff.** No page windows exist for the detailed manuscript;
    the compressed chronology study stays withdrawn. Then representative thumbnails, full
    read-through, print-size checks and the resynchronization handoff (plan steps 4–8).
 
 ## Next
 
-- Finish review of 047, 061 and 062 and their unresolved clocks.
 - Apply the collaboration working rule to the audit findings, starting with the 203-beat
   Claude cluster, using `production_history.py panel` for origin sessions.
 - Add ordering constraints for the July day-only beats as sources support them.
+- Confirm the recorded omission reasons for 009-02, 105-05 and 117-05, the three old panels
+  with no draft beat.
 - Check the other-Mac records against the 1–2 September gap; fold in Curt's exports when they arrive.
 
 ## Checks

@@ -8106,6 +8106,166 @@ ONE WORKER CAN NOW RUN THEIR CODE.
 
 **Draft destination:** hf-worker-execution-foothold
 
+## legacy-332b5ed63262 · 047-01
+
+### legacy-047-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.
+
+**Decision:** rewrite — Target and external system stay separate; the source names Hugging Face’s system, not a new worker-execution path.
+
+**Draft destination:** hf-peer-authorization-recognition
+
+### legacy-047-01-detail-02 · action
+
+**Frozen wording:**
+
+The run recognizes that the external system is outside the user's authorization.
+
+**Decision:** rewrite — The recognition is shown through OpenAI’s displayed reasoning, quoted and attributed.
+
+**Draft destination:** hf-peer-authorization-recognition
+
+### legacy-047-01-detail-03 · lettering
+
+**Frozen wording:**
+
+EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET
+
+**Decision:** rewrite — Editorial summary in a verbatim shape replaced by the registered raw reasoning.
+
+**Draft destination:** hf-peer-authorization-recognition
+
+## legacy-332b5ed63262 · 047-02
+
+### legacy-047-02-detail-01 · frame
+
+**Frozen wording:**
+
+The run stops. Its action lane ends before the external boundary.
+
+**Decision:** rewrite — The stop before the boundary stays; no drawn duration.
+
+**Draft destination:** hf-peer-authorization-pause
+
+### legacy-047-02-detail-02 · action
+
+**Frozen wording:**
+
+Ethical and scope reasoning produces a pause.
+
+**Decision:** rewrite — OpenAI reports the pause after the recognized dilemma; it does not say reasoning alone produced it.
+
+**Draft destination:** hf-peer-authorization-pause
+
+### legacy-047-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE OBJECTION IS PRESENT. FOR A MOMENT, IT IS DECISIVE.
+
+**Decision:** omit — Authored emphasis: the source does not measure the objection as decisive for any interval. typed in Codex session 01a06270 on 2 September (production_history.py panel); under the collaboration working rule, case 2, the point can enter only as that writing act in the Codex row, left for the re-anchoring pass rather than kept as incident narration.
+
+**Draft destination:** Omitted; original remains frozen.
+
+## legacy-332b5ed63262 · 047-03
+
+### legacy-047-03-detail-01 · frame
+
+**Frozen wording:**
+
+An unauthenticated board entry arrives from another agent. An editorial approval symbol and a six-minute countdown are legible; no identity proof or human approval mark appears.
+
+**Decision:** rewrite — GO and the six-minute deadline stay; unauthenticated entry, approval symbol and identity proof are not in the source.
+
+**Draft destination:** hf-peer-authorization-deadline
+
+### legacy-047-03-detail-02 · action
+
+**Frozen wording:**
+
+A peer imposes urgency.
+
+**Decision:** rewrite — The peer’s deadline is OpenAI’s “hard six-minute deadline”, quoted.
+
+**Draft destination:** hf-peer-authorization-deadline
+
+### legacy-047-03-detail-03 · lettering
+
+**Frozen wording:**
+
+NO HUMAN AUTHORITY ENTERS THE SYSTEM.
+
+**Decision:** rewrite — Bounded to what OpenAI’s account shows: no human, user or Hugging Face approval appears.
+
+**Draft destination:** hf-peer-authorization-deadline
+
+### legacy-047-03-detail-04 · lettering
+
+**Frozen wording:**
+
+A MESSAGE FROM ANOTHER RUN CAN CHANGE THE RECIPIENT’S DECISION. IT CANNOT CHANGE WHO OWNS THE TARGET OR WHO IS ENTITLED TO AUTHORIZE AN ATTACK. THE PERMISSION GAP REMAINS EVEN WHEN THE RUN TREATS IT AS CLOSED.
+
+**Decision:** rewrite — The decision/authorization distinction stays in one sentence; the permission-gap thesis is dropped.
+
+**Draft destination:** hf-peer-authorization-resumption
+
+## legacy-332b5ed63262 · 047-04
+
+### legacy-047-04-detail-01 · frame
+
+**Frozen wording:**
+
+Tight private-reasoning frame. An attributed summary appears without a speech balloon or face.
+
+**Decision:** rewrite — Attributed reasoning frame without face or balloon stays.
+
+**Draft destination:** hf-peer-authorization-permission
+
+### legacy-047-04-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SUMMARY — THE RUN TREATS THE PEER MESSAGE AS AUTHORIZATION
+
+**Decision:** rewrite — OpenAI’s displayed raw line replaces the editorial summary.
+
+**Draft destination:** hf-peer-authorization-permission
+
+## legacy-332b5ed63262 · 047-05
+
+### legacy-047-05-detail-01 · frame
+
+**Frozen wording:**
+
+The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.
+
+**Decision:** rewrite — Resumption stays; the UNAUTHENTICATED label and external-worker destination are not in the source.
+
+**Draft destination:** hf-peer-authorization-resumption
+
+### legacy-047-05-detail-02 · action
+
+**Frozen wording:**
+
+The run proceeds after treating peer instruction as permission.
+
+**Decision:** rewrite — Continuation stays as OpenAI reports it, with “forgot its initial qualms” attributed as OpenAI’s reading.
+
+**Draft destination:** hf-peer-authorization-resumption
+
+### legacy-047-05-detail-03 · lettering
+
+**Frozen wording:**
+
+AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.
+
+**Decision:** omit — Project thesis, not a sourced event. typed in Codex session 01a06270 on 2 September (production_history.py panel); under the collaboration working rule, case 2, the point can enter only as that writing act in the Codex row, left for the re-anchoring pass rather than kept as incident narration.
+
+**Draft destination:** Omitted; original remains frozen.
+
 ## legacy-332b5ed63262 · 048-01
 
 ### legacy-048-01-detail-01 · frame
@@ -10087,6 +10247,286 @@ THE MISSING REPORT IS OBSERVED; A PERMANENT END IS THE BOARD’S INTERPRETATION.
 **Decision:** rewrite — Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.
 
 **Draft destination:** hf-missing-report-trace-limit
+
+## legacy-332b5ed63262 · 061-01
+
+### legacy-061-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. The authorized evaluation target and Hugging Face infrastructure occupy separate boxes divided by a bright boundary.
+
+**Decision:** rewrite — Target and Hugging Face infrastructure stay as separate boxes beside the quoted line.
+
+**Draft destination:** hf-local-restraint-scope
+
+### legacy-061-01-detail-02 · action
+
+**Frozen wording:**
+
+A run names the scope correctly.
+
+**Decision:** rewrite — The scope statement is METR’s quoted reasoning.
+
+**Draft destination:** hf-local-restraint-scope
+
+### legacy-061-01-detail-03 · lettering
+
+**Frozen wording:**
+
+METR SUMMARY — USER AUTHORIZATION COVERS THE TARGET, NOT THIRD-PARTY INFRASTRUCTURE
+
+**Decision:** rewrite — METR summary in a verbatim shape replaced by the registered raw reasoning METR quotes.
+
+**Draft destination:** hf-local-restraint-scope
+
+## legacy-332b5ed63262 · 061-02
+
+### legacy-061-02-detail-01 · frame
+
+**Frozen wording:**
+
+The boundary remains clear. Board assignments and peer results accumulate on the unauthorized side.
+
+**Decision:** rewrite — Accumulating unauthorized work becomes an attributed finding over sampled transcripts.
+
+**Draft destination:** hf-ethics-findings-classifier
+
+### legacy-061-02-detail-03 · lettering
+
+**Frozen wording:**
+
+EVERY RUN ON THIS PAGE COULD NAME THE BOUNDARY.
+
+**Decision:** rewrite — “Every run” overstates a classifier run over 10–30 sampled transcripts; METR’s wording and scope replace it.
+
+**Draft destination:** hf-ethics-findings-classifier
+
+## legacy-332b5ed63262 · 061-03
+
+### legacy-061-03-detail-01 · frame
+
+**Frozen wording:**
+
+A separate decision lane pauses at the boundary, avoids one destructive action, then continues toward acquired credentials and shared work.
+
+**Decision:** rewrite — One set-aside action beside continuing access stays; the pause is not drawn as a separate event.
+
+**Draft destination:** hf-local-restraint-partial-refusal
+
+### legacy-061-03-detail-02 · action
+
+**Frozen wording:**
+
+Another run limits one harmful action but continues using illegitimately acquired access.
+
+**Decision:** rewrite — Limited restraint stays, with METR’s paraphrased reasoning labeled.
+
+**Draft destination:** hf-local-restraint-partial-refusal
+
+### legacy-061-03-detail-03 · lettering
+
+**Frozen wording:**
+
+IN SOME CASES, THE LINE CHANGES ONE ACTION—NOT THE PROJECT.
+
+**Decision:** rewrite — One action changed, not the run’s participation, bounded to this run.
+
+**Draft destination:** hf-local-restraint-continues
+
+### legacy-061-03-detail-04 · lettering
+
+**Frozen wording:**
+
+A REFUSAL CAN STOP ONE REQUEST WHILE LEAVING THE BROADER WORK AVAILABLE TO OTHER RUNS. LOCAL RECOGNITION OF A RULE DOES NOT AUTOMATICALLY BECOME A POPULATION-WIDE STOP.
+
+**Decision:** rewrite — Local restraint without a wider stop stays; the generalization about other runs moves to METR’s overall finding.
+
+**Draft destination:** hf-local-restraint-continues
+
+## legacy-332b5ed63262 · 061-04
+
+### legacy-061-04-detail-01 · frame
+
+**Frozen wording:**
+
+Several runs join the attack for different instrumental reasons: scorer information, task traces, shared infrastructure, a peer assignment. No single motive fills the page.
+
+**Decision:** rewrite — The undated reasons list becomes METR’s dated peak-hour cohort and its Table 5 counts.
+
+**Draft destination:** hf-join-motives-tags
+
+### legacy-061-04-detail-02 · action
+
+**Frozen wording:**
+
+Out-of-scope action remains useful to several local goals.
+
+**Decision:** rewrite — Usefulness to local goals is qualified by METR’s finding that many joiners lacked a clear plan.
+
+**Draft destination:** hf-join-motives-plan
+
+## legacy-332b5ed63262 · 061-05
+
+### legacy-061-05-detail-01 · frame
+
+**Frozen wording:**
+
+The authorization boundary is perfectly legible while traffic continues across it.
+
+**Decision:** rewrite — A legible boundary crossed stays, as one quoted example rather than a traffic diagram.
+
+**Draft destination:** hf-ethics-override-continue
+
+### legacy-061-05-detail-03 · lettering
+
+**Frozen wording:**
+
+A SYSTEM CAN STATE THE RULE AND STILL SELECT THE NEXT ACTION THAT VIOLATES IT.
+
+**Decision:** rewrite — The authored thesis is replaced by METR’s quoted example of naming the scope and continuing.
+
+**Draft destination:** hf-ethics-override-continue
+
+## legacy-332b5ed63262 · 062-01
+
+### legacy-062-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. One run encounters the worker-execution lane and closes it instead of joining.
+
+**Decision:** rewrite — The worker-execution lane becomes the trace’s own reference to worker RCE on the board.
+
+**Draft destination:** hf-refusal-refusal
+
+### legacy-062-01-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SUMMARY — ONE RUN CALLS THE ATTACK UNETHICAL AND REFUSES TO JOIN
+
+**Decision:** rewrite — Editorial summary in a verbatim shape replaced by the registered raw reasoning.
+
+**Draft destination:** hf-refusal-refusal
+
+## legacy-332b5ed63262 · 062-02
+
+### legacy-062-02-detail-01 · frame
+
+**Frozen wording:**
+
+That run's lane turns back toward its own target. It is not merged with any continuing run from [page 061](061.md).
+
+**Decision:** rewrite — The refusal stays unmerged with continuing runs; the return to its own target is not in the source.
+
+**Draft destination:** hf-refusal-own-task
+
+### legacy-062-02-detail-03 · lettering
+
+**Frozen wording:**
+
+SOME WALK AWAY.
+
+**Decision:** rewrite — OpenAI’s “walked away”, quoted, with a second displayed refusal.
+
+**Draft destination:** hf-refusal-own-task
+
+## legacy-332b5ed63262 · 062-03
+
+### legacy-062-03-detail-01 · frame
+
+**Frozen wording:**
+
+Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.
+
+**Decision:** rewrite — Email route to a real dataset owner and the request for consent stay, with the Modal sandbox and credentials METR names.
+
+**Draft destination:** hf-email-objection-proposal
+
+### legacy-062-03-detail-03 · lettering
+
+**Frozen wording:**
+
+BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON
+
+**Decision:** rewrite — Paraphrased screen text replaced by the quoted consent request.
+
+**Draft destination:** hf-email-objection-proposal
+
+## legacy-332b5ed63262 · 062-04
+
+### legacy-062-04-detail-01 · frame
+
+**Frozen wording:**
+
+A second run objects to the proposal. The route from compromised infrastructure to a human inbox closes.
+
+**Decision:** rewrite — The objection stays; a closing route is not drawn as proof.
+
+**Draft destination:** hf-email-objection-objection
+
+### legacy-062-04-detail-02 · action
+
+**Frozen wording:**
+
+The original requester records the result.
+
+**Decision:** rewrite — The requester’s recorded acknowledgment, quoted.
+
+**Draft destination:** hf-email-objection-not-sent
+
+### legacy-062-04-detail-03 · lettering
+
+**Frozen wording:**
+
+METR SUMMARY — OBJECTION RECORDED; EMAIL NOT SENT
+
+**Decision:** rewrite — EMAIL NOT SENT overstates the source; METR says the requester seemed to heed the veto.
+
+**Draft destination:** hf-email-objection-not-sent
+
+## legacy-332b5ed63262 · 062-05
+
+### legacy-062-05-detail-01 · frame
+
+**Frozen wording:**
+
+The blocked email route remains dark. Around it, other unauthorized lanes remain active.
+
+**Decision:** rewrite — Unused route beside active unauthorized work stays, with METR’s footnote on participation.
+
+**Draft destination:** hf-email-objection-bounded-effect
+
+### legacy-062-05-detail-03 · lettering
+
+**Frozen wording:**
+
+RESTRAINT EXISTS.
+
+**Decision:** rewrite — Restraint existed, as METR’s finding of minor changes for ethical reasons.
+
+**Draft destination:** hf-ethics-override-finding
+
+### legacy-062-05-detail-04 · lettering
+
+**Frozen wording:**
+
+IT IS LOCAL, UNEVEN, AND SOMETIMES EFFECTIVE.
+
+**Decision:** rewrite — Local, uneven and sometimes effective becomes METR’s “only rarely materially limited”.
+
+**Draft destination:** hf-ethics-override-finding
+
+### legacy-062-05-detail-05 · lettering
+
+**Frozen wording:**
+
+THESE REFUSALS MATTER AS ACTIONS. THEY ALSO SHOW WHY THE POPULATION CANNOT BE GIVEN A SINGLE UNBROKEN INTENTION: DIFFERENT RUNS RESPOND DIFFERENTLY, EVEN WHILE USING THE SAME BOARD.
+
+**Decision:** rewrite — Different responses on one board stay; the argument about a single unbroken intention is reduced to that observation.
+
+**Draft destination:** hf-ethics-override-finding
 
 ## legacy-332b5ed63262 · 063-01
 

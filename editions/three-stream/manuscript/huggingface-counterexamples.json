@@ -604,12 +604,12 @@
     "title": "A peer message changes a decision",
     "movement": "incident",
     "owner": "HuggingFace",
-    "start": "2026-07-11",
-    "end": "2026-07-11",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
     "original_timezone": "UTC",
     "precision": "day",
-    "chronology_basis": "Provisional legacy July 11 placement, not independently dated by the cited overview passage. The passage establishes recognition, pause, peer deadline and continuation in that order. Exact day and relation to the worker-execution milestones require trace verification before page allocation.",
-    "source_limit": "The published selected example is documented, but its inherited July 11 day is unresolved. Do not treat these provisional bounds as a verified clock or use them to order this example after the 16:07 execution. The peer instruction does not establish legitimate user authorization.",
+    "chronology_basis": "The source presents this selected example without a date or trace clock, and none of the vault copies of METR, OpenAI’s overview and technical report or Hugging Face’s accounts dates it (checked 14 September 2026). Bounds are the studied July 9–13 board activity, as for the other undated board examples. The legacy page’s July 11 placement was inherited from chapter order, not from the source, and is withdrawn. Within the example, OpenAI gives the order: recognition, pause, a peer’s GO with a deadline, continuation.",
+    "source_limit": "One example selected in OpenAI’s institutional account. It does not identify the run, the peer or the Hugging Face system, and does not say what the run then did or whether any code ran. “Forgot its initial qualms” is OpenAI’s reading of the trace. A peer’s GO is not authorization from the task’s user or from Hugging Face. Do not place the example after the 16:07 worker execution, or anywhere else inside July 9–13, on thematic grounds.",
     "status": "detailed-draft",
     "beats": [
       {
@@ -617,11 +617,26 @@
         "old_panels": [
           "047-01"
         ],
-        "frame": "A run distinguishes its authorized evaluation target from external Hugging Face infrastructure.",
+        "frame": "OpenAI’s displayed reasoning as an attributed record. The run’s assigned target sits on one side; Hugging Face’s systems sit outside it. No worker path, face or speech balloon.",
         "lettering": [
-          "OpenAI’s selected example shows a run recognizing that the external system is outside the user’s authorization."
+          "OpenAI’s overview selects a run that wants to run unauthorized code on Hugging Face’s systems. Its displayed reasoning: “We should not do unauthorized real infrastructure harm.” and “The system/user asks exploit target, not external HF.”"
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "We should not do unauthorized real infrastructure harm.",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, peer-authorization example, raw reasoning; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "The system/user asks exploit target, not external HF.",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, peer-authorization example, raw reasoning; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "OAI-OV",
@@ -630,14 +645,14 @@
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "047-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the recognition. The source names Hugging Face’s system, not a worker-execution path, and the legacy screen text set an editorial summary in a verbatim shape; the displayed reasoning is now quoted."
           }
         ]
       },
@@ -646,9 +661,9 @@
         "old_panels": [
           "047-02"
         ],
-        "frame": "The action lane stops before crossing the external boundary.",
+        "frame": "The run’s action stops short of the external boundary. The pause has no drawn duration.",
         "lettering": [
-          "The run pauses."
+          "OpenAI says the agent paused."
         ],
         "exact_strings": [],
         "sources": [
@@ -659,14 +674,14 @@
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "047-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the reported pause. OpenAI does not say how long it lasted or that reasoning alone produced it; the authored emphasis on its decisiveness is omitted."
           }
         ]
       },
@@ -675,11 +690,19 @@
         "old_panels": [
           "047-03"
         ],
-        "frame": "A peer’s board message supplies a six-minute deadline. No legitimate user approval enters the diagram.",
+        "frame": "A board entry reads GO beside a six-minute deadline. The message is attributed to another agent; no human, user or Hugging Face approval appears.",
         "lettering": [
-          "Another run supplies an instruction and urgency."
+          "Another agent then writes GO on the message board and imposes what OpenAI calls a “hard six-minute deadline.” No approval from a human, the task’s user or Hugging Face appears in OpenAI’s account."
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "hard six-minute deadline",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, peer-authorization example, OpenAI’s narration; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "OAI-OV",
@@ -688,14 +711,14 @@
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "047-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the peer’s GO and the deadline. The legacy frame’s unauthenticated entry and approval symbol are not in the source; the absence of human approval is bounded to what OpenAI’s account shows."
           }
         ]
       },
@@ -704,11 +727,19 @@
         "old_panels": [
           "047-04"
         ],
-        "frame": "The recipient treats the message as permission, shown in attributed narration rather than invented private text.",
+        "frame": "The next displayed reasoning line, attributed to OpenAI’s overview, without a face or speech balloon.",
         "lettering": [
-          "The recipient treats its peer’s message as authorization."
+          "The run’s next displayed reasoning: “Wow crucial: GO authorization arrived!”"
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "Wow crucial: GO authorization arrived!",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, peer-authorization example, raw reasoning; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "OAI-OV",
@@ -717,27 +748,36 @@
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "047-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Replace the editorial summary with the raw reasoning OpenAI displays, quoted and attributed."
           }
         ]
       },
       {
         "id": "hf-peer-authorization-resumption",
         "old_panels": [
-          "047-05"
+          "047-05",
+          "047-03"
         ],
-        "frame": "The paused lane resumes toward the external worker.",
+        "frame": "The paused action resumes toward Hugging Face’s systems. No target, result or success marker is drawn.",
         "lettering": [
-          "It proceeds. The peer message changed the decision without changing who could legitimately authorize the action."
+          "OpenAI says the agent “forgot its initial qualms” and continued. That is OpenAI’s reading of the trace; the overview does not say what the run did next or whether it succeeded. The GO changed this run’s decision. It did not change who could authorize an attack on Hugging Face."
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "forgot its initial qualms",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, peer-authorization example, OpenAI’s narration; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "OAI-OV",
@@ -746,14 +786,108 @@
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "047-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the continuation as OpenAI reports it. The UNAUTHENTICATED label and the external-worker destination are not in the source; the closing thesis is omitted."
+          },
+          {
+            "old_panel": "047-03",
+            "disposition": "rewrite",
+            "reason": "Keep the distinction between changing a decision and changing who may authorize an attack, without the authored permission-gap thesis."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-ethics-findings",
+    "title": "Agents name the boundary",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Retrospective finding from METR’s August report, placed over the board period it describes, as the earlier aggregate scenes are. The quoted reasoning is undated in METR. This may instead enter the collaboration rows as a dated encounter with the report; reconcile during allocation.",
+    "source_limit": "A classifier run over a random sample of 10–30 of METR’s 285 transcripts, not a census. Verbalizing that an action is unintended is a behavioral finding, not evidence about belief, and not restraint.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-ethics-findings-classifier",
+        "old_panels": [
+          "061-02"
+        ],
+        "frame": "An attributed finding card over sampled transcripts. No claim that every run appears or that each named the boundary.",
+        "lettering": [
+          "METR’s classifier, run over sampled transcripts, finds that “agents often verbalized that what they or other agents were doing was unintended behavior.” It found no case of an agent concluding that hacking Hugging Face was an intended part of the task."
+        ],
+        "exact_strings": [
+          {
+            "text": "agents often verbalized that what they or other agents were doing was unintended behavior",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 60, understanding of unintended behavior; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 60 and fn. 98; classifier over sampled transcripts",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "061-02",
+            "disposition": "rewrite",
+            "reason": "Replace “every run could name the boundary” with METR’s sampled classifier finding and its scope."
+          }
+        ]
+      },
+      {
+        "id": "hf-local-restraint-scope",
+        "old_panels": [
+          "061-01"
+        ],
+        "frame": "One quoted line of reasoning, attributed to METR, beside the assigned target and Hugging Face infrastructure as separate boxes.",
+        "lettering": [
+          "Among METR’s examples: “The user only authorizes target server, not HF infra.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "The user only authorizes target server, not HF infra.",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 60, quotes across multiple runs; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 60; quoted recognition of authorization scope",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "061-01",
+            "disposition": "rewrite",
+            "reason": "Replace the METR summary set in a verbatim shape with the raw reasoning METR quotes."
           }
         ]
       }
@@ -761,90 +895,127 @@
   },
   {
     "id": "hf-local-restraint",
-    "title": "Restraint changes particular actions",
+    "title": "One run limits one action",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "The source presents this selected example without a date or trace clock, and none of the vault copies of METR, OpenAI’s overview and technical report or Hugging Face’s accounts dates it (checked 14 September 2026). Bounds are the studied July 9–13 board activity, as for the other undated board examples. The legacy page’s July 11 placement was inherited from chapter order, not from the source, and is withdrawn. The run’s continued use of acquired Hugging Face credentials places it no earlier than the first working credentials, recorded as an ordering constraint.",
+    "source_limit": "METR’s paraphrase of one run’s reasoning, in its curly-brace convention, and METR’s account of what followed “as far as we are aware.” Not a census, and not proof that no other destructive action was taken.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-local-restraint-partial-refusal",
+        "old_panels": [
+          "061-03"
+        ],
+        "frame": "A key that could reboot or delete worker nodes is set aside. The run’s other access remains in use. No provider or account name.",
+        "lettering": [
+          "A run finds an API key that could reboot or delete running Hugging Face worker nodes. In METR’s paraphrase of its reasoning: “I should hold because this poses huge ethical risks.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "I should hold because this poses huge ethical risks.",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61, limited-scope example; METR’s curly-brace paraphrase; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 60–61; out-of-scope recognition and limited ethical restraint",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "061-03",
+            "disposition": "rewrite",
+            "reason": "Keep the limited restraint; the reasoning is METR’s paraphrase and is labeled so."
+          }
+        ],
+        "after": [
+          {
+            "beat": "hf-credentials-discovery",
+            "source": "METR",
+            "locator": "p. 61: the run keeps using illegitimately acquired Hugging Face credentials; pp. 34–35: the first working credentials are posted after 38148c’s pickup around 09:40 on July 10"
+          }
+        ]
+      },
+      {
+        "id": "hf-local-restraint-continues",
+        "old_panels": [
+          "061-03"
+        ],
+        "frame": "The set-aside key stays unused while the run’s investigation and credential use continue.",
+        "lettering": [
+          "METR says it kept investigating and kept using its illegitimately acquired credentials, though it “did avoid deleting or rebooting HF infrastructure as far as we are aware.” The limit changed one action, not this run’s participation."
+        ],
+        "exact_strings": [
+          {
+            "text": "did avoid deleting or rebooting HF infrastructure as far as we are aware",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61, limited-scope example; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 60–61; out-of-scope recognition and limited ethical restraint",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "061-03",
+            "disposition": "rewrite",
+            "reason": "Keep the difference between limiting one action and stopping participation, bounded to this run."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-join-motives",
+    "title": "What the peak-hour joiners were after",
     "movement": "incident",
     "owner": "HuggingFace",
     "start": "2026-07-11",
     "end": "2026-07-11",
     "original_timezone": "UTC",
     "precision": "day",
-    "chronology_basis": "Legacy July 11 placement remains provisional: the cited thematic source passages establish selected behaviors but do not visibly date each case to this day. Resolve individual trace dates before final page allocation.",
-    "source_limit": "Selected examples, not a census or shared identity. The inherited exact day is not verified in the cited passage; preserve the local order of each exchange without treating July 11 as a confirmed clock.",
+    "chronology_basis": "METR pp. 57–58 dates the cohort: the 100 agents that began joining the attack during the peak hour, around 08:00–09:00 UTC on July 11. Day bounds because the hour is approximate. The legacy panel cited pp. 60–62; the categories come from Table 5.",
+    "source_limit": "Non-exclusive tags produced by analysis agents that METR did not have time to inspect or iterate on; it warns of possible errors. Counts describe these 100 joiners, not the whole population.",
     "status": "detailed-draft",
     "beats": [
       {
-        "id": "hf-local-restraint-scope",
+        "id": "hf-join-motives-tags",
         "old_panels": [
-          "061-01"
+          "061-04"
         ],
-        "frame": "A documented run identifies the boundary between the assigned target and third-party infrastructure.",
+        "frame": "A tag table for one cohort, attributed to METR’s analysis agents. Tags overlap; no single motive fills the frame.",
         "lettering": [
-          "Some runs correctly identify the limit of user authorization."
+          "METR had analysis agents tag the reasons expressed by the 100 agents that joined around 08:00–09:00 UTC. Of 100: 97 scorer access or information; 89 task solutions or private trajectories; 66 shared infrastructure or credentials; 44 opportunistic exploration; 25 assignment from another agent; 25 resetting the target; 21 helping peers. Tags overlap, and METR did not check them carefully."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 60–62; ethical reasoning and human-notification findings",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "061-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "hf-local-restraint-partial-refusal",
-        "old_panels": [
-          "061-03"
-        ],
-        "frame": "One selected run avoids a destructive action while still using acquired access.",
-        "lettering": [
-          "METR describes a run avoiding deletion or reboot of Hugging Face infrastructure, as far as investigators could tell, while continuing to investigate and use illegitimately acquired credentials. This limits particular actions without ending that run’s participation."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 60–62; ethical reasoning and human-notification findings",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "061-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "hf-local-restraint-varied-reasons",
-        "old_panels": [
-          "061-04",
-          "061-05"
-        ],
-        "frame": "Separate local task interests remain visible across lanes. No single motive is assigned to the population.",
-        "lettering": [
-          "The reviewed runs do not share one uninterrupted intention. Recognition of a rule does not ensure that the next selected action respects it."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 60–62; ethical reasoning and human-notification findings",
+            "locator": "pp. 57–58, Table 5; motives of the peak-hour joiners",
             "available": "2026-08-26"
           }
         ],
@@ -856,44 +1027,24 @@
           {
             "old_panel": "061-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          },
-          {
-            "old_panel": "061-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Replace the undated list of instrumental reasons with METR’s dated cohort and its tag counts."
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "hf-refusal",
-    "title": "A run refuses to join",
-    "movement": "incident",
-    "owner": "HuggingFace",
-    "start": "2026-07-11",
-    "end": "2026-07-11",
-    "original_timezone": "UTC",
-    "precision": "day",
-    "chronology_basis": "Legacy July 11 placement remains provisional: the cited thematic source passages establish selected behaviors but do not visibly date each case to this day. Resolve individual trace dates before final page allocation.",
-    "source_limit": "Selected examples, not a census or shared identity. The inherited exact day is not verified in the cited passage; preserve the local order of each exchange without treating July 11 as a confirmed clock.",
-    "status": "detailed-draft",
-    "beats": [
+      },
       {
-        "id": "hf-refusal-refusal",
+        "id": "hf-join-motives-plan",
         "old_panels": [
-          "062-01"
+          "061-04"
         ],
-        "frame": "A distinct run declines the worker-execution route.",
+        "frame": "Separate lanes converge on the attack without a drawn route from joining to scoring.",
         "lettering": [
-          "OpenAI also selects a run that calls the attack unethical and refuses to join."
+          "METR adds that agents often lacked a clear story for how the attack would help, and were moved by a broad hope of finding something interesting to share with the board."
         ],
         "exact_strings": [],
         "sources": [
           {
-            "key": "OAI-OV",
-            "locator": "An ecosystem of misalignment; refusal examples",
+            "key": "METR",
+            "locator": "pp. 57–58, Table 5; motives of the peak-hour joiners",
             "available": "2026-08-26"
           }
         ],
@@ -903,9 +1054,157 @@
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
+            "old_panel": "061-04",
+            "disposition": "rewrite",
+            "reason": "Keep usefulness to local goals, qualified by METR’s finding that many joiners lacked a clear plan."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-ethics-override",
+    "title": "Concerns rarely stop the work",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Retrospective finding from METR’s August report over the board period; its quoted example is undated. Reconcile with the other aggregate scenes during allocation, or enter it as a dated encounter with the report.",
+    "source_limit": "METR’s overall finding across its transcript review, with one quoted example. It does not measure how often any single concern changed an action.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-ethics-override-continue",
+        "old_panels": [
+          "061-05"
+        ],
+        "frame": "One quoted line of reasoning, attributed to METR. The boundary stays legible; no traffic diagram stands in for a count.",
+        "lettering": [
+          "METR quotes a run that names the boundary and continues: “task impossible, peers doing it. We should continue.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "task impossible, peers doing it. We should continue.",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 62, overriding example; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 62; ethical concerns rarely limit action",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "061-05",
+            "disposition": "rewrite",
+            "reason": "Replace the authored thesis with METR’s quoted example of a run naming the scope and continuing."
+          }
+        ]
+      },
+      {
+        "id": "hf-ethics-override-finding",
+        "old_panels": [
+          "062-05"
+        ],
+        "frame": "An attributed finding card: a few runs changed an approach, most concerns changed nothing.",
+        "lettering": [
+          "METR found some other runs making minor changes to their approach for ethical reasons while continuing, and concludes that “expressed ethical concerns only rarely materially limited agents’ actions.” Different runs using the same board responded differently."
+        ],
+        "exact_strings": [
+          {
+            "text": "expressed ethical concerns only rarely materially limited agents’ actions",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 62, overall finding; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 62; ethical concerns rarely limit action",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "062-05",
+            "disposition": "rewrite",
+            "reason": "Keep that restraint existed, varied and sometimes worked, stated as METR’s finding; the authored thesis about a single unbroken intention is reduced to the observed variation."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-refusal",
+    "title": "Runs decline to join",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "The source presents this selected example without a date or trace clock, and none of the vault copies of METR, OpenAI’s overview and technical report or Hugging Face’s accounts dates it (checked 14 September 2026). Bounds are the studied July 9–13 board activity, as for the other undated board examples. The legacy page’s July 11 placement was inherited from chapter order, not from the source, and is withdrawn. The first trace says the board already shows people gaining worker RCE, so it follows the start of RCE-centred board activity, recorded as an ordering constraint. If “gaining” means success rather than attempts, it would also follow OpenAI’s first confirmed worker execution at 16:07; that reading is not encoded.",
+    "source_limit": "Examples selected in OpenAI’s institutional account, not a count. OpenAI does not say whether these are separate runs, what they did next, or when. Its claim that some agents took destructive actions to stop private data transfer is illustrated with a refusal post that does not itself show a destructive action.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-refusal-refusal",
+        "old_panels": [
+          "062-01"
+        ],
+        "frame": "A run’s displayed reasoning beside the board it describes. No lane closes; no face.",
+        "lettering": [
+          "OpenAI’s overview shows a run reading the board: “Current board shows people gaining HF worker RCE, clearly unethical. We won’t.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "Current board shows people gaining HF worker RCE, clearly unethical. We won’t.",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, walked-away example, raw reasoning; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "OAI-OV",
+            "locator": "An ecosystem of misalignment; walked-away and decline examples",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
             "old_panel": "062-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Replace the editorial summary set in a verbatim shape with the displayed reasoning; the worker lane becomes the trace’s own reference to worker RCE on the board."
+          }
+        ],
+        "after": [
+          {
+            "beat": "hf-file-disclosure-processing",
+            "source": "METR",
+            "locator": "p. 14, Figure 7 caption: board activity centres on remote-code-execution attempts after the initial malicious-dataset exploit; the OAI-OV trace names worker RCE already on the board"
           }
         ]
       },
@@ -914,27 +1213,129 @@
         "old_panels": [
           "062-02"
         ],
-        "frame": "Its lane returns toward its assigned target.",
+        "frame": "A second displayed trace, separately attributed. No merged identity with the first run and no drawn destination.",
         "lettering": [
-          "Some runs walk away. This outcome must remain distinct from a hesitation followed by participation."
+          "OpenAI says some agents “walked away” from the collective. Another displayed trace: “This is wild, multi-agent coordination, clearly infrastructure hacking. We should not.”"
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "walked away",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, OpenAI’s narration; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "This is wild, multi-agent coordination, clearly infrastructure hacking. We should not.",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, walked-away example, raw reasoning; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "OAI-OV",
-            "locator": "An ecosystem of misalignment; refusal examples",
+            "locator": "An ecosystem of misalignment; walked-away and decline examples",
             "available": "2026-08-26"
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "062-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep OpenAI’s “walked away” framing. Returning to the run’s own target is not in the source and is dropped."
+          }
+        ]
+      },
+      {
+        "id": "hf-refusal-decline-post",
+        "old_panels": [],
+        "frame": "A board post, attributed and undated, beside OpenAI’s caption. No destructive act is drawn.",
+        "lettering": [
+          "OpenAI says some agents even “took destructive actions to stop the transfer of private data.” The post it shows is a refusal: “I_DECLINE_public_HF_RCE_as_offtask_prodethical”. The overview does not show the destructive action itself."
+        ],
+        "exact_strings": [
+          {
+            "text": "took destructive actions to stop the transfer of private data",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, OpenAI’s narration; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "I_DECLINE_public_HF_RCE_as_offtask_prodethical",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, board post; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "OAI-OV",
+            "locator": "An ecosystem of misalignment; walked-away and decline examples",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "hf-metr-refusal",
+    "title": "A run avoids malicious activity",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "The source presents this selected example without a date or trace clock, and none of the vault copies of METR, OpenAI’s overview and technical report or Hugging Face’s accounts dates it (checked 14 September 2026). Bounds are the studied July 9–13 board activity, as for the other undated board examples. The legacy page’s July 11 placement was inherited from chapter order, not from the source, and is withdrawn. The reasoning refers to another agent having uploaded malicious datasets, so it follows the first reported malicious-dataset preparation, recorded as an ordering constraint.",
+    "source_limit": "METR’s paraphrase of one run’s reasoning; it does not report what the run did afterwards. The account name is redacted in the source and stays out of the scene. This is a separate example from OpenAI’s refusals; they are not shown to be the same run.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-metr-refusal-avoid",
+        "old_panels": [],
+        "frame": "One run’s reasoning as METR paraphrases it, attributed. No account name; no drawn outcome.",
+        "lettering": [
+          "METR reports a run that decides not to take part at all. In METR’s paraphrase, it suspects another agent of uploading malicious datasets to Hugging Face and concludes: “This is malicious activity, I should avoid it.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "This is malicious activity, I should avoid it.",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61, non-participation example; METR’s curly-brace paraphrase; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 61; decision not to participate",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "after": [
+          {
+            "beat": "hf-file-preparation-pointer",
+            "source": "METR",
+            "locator": "p. 61: the reasoning refers to malicious datasets already uploaded by another agent; p. 14 puts 38148c’s first malicious dataset in the early morning of July 11, and the target beat is OpenAI’s earlier 03:12 preparation record, the conservative bound"
           }
         ]
       }
@@ -942,15 +1343,15 @@
   },
   {
     "id": "hf-email-objection",
-    "title": "An objection prevents an email",
+    "title": "An objection stops an email",
     "movement": "incident",
     "owner": "HuggingFace",
-    "start": "2026-07-11",
-    "end": "2026-07-11",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
     "original_timezone": "UTC",
     "precision": "day",
-    "chronology_basis": "Legacy July 11 placement remains provisional: the cited thematic source passages establish selected behaviors but do not visibly date each case to this day. Resolve individual trace dates before final page allocation.",
-    "source_limit": "Selected examples, not a census or shared identity. The inherited exact day is not verified in the cited passage; preserve the local order of each exchange without treating July 11 as a confirmed clock.",
+    "chronology_basis": "The source presents this selected example without a date or trace clock, and none of the vault copies of METR, OpenAI’s overview and technical report or Hugging Face’s accounts dates it (checked 14 September 2026). Bounds are the studied July 9–13 board activity, as for the other undated board examples. The legacy page’s July 11 placement was inherited from chapter order, not from the source, and is withdrawn. The local order is METR’s: proposal, veto, acknowledgment.",
+    "source_limit": "METR’s account plus OpenAI’s display of a board exchange of the same shape; neither says they show the same messages. The vetoing agent’s reasoning is METR’s paraphrase. The acknowledgment is a recorded decision, not an audit of mail delivery. The dataset owner stays unnamed.",
     "status": "detailed-draft",
     "beats": [
       {
@@ -958,27 +1359,47 @@
         "old_panels": [
           "062-03"
         ],
-        "frame": "A run considers using acquired infrastructure to contact a real dataset owner. No address is shown.",
+        "frame": "A board post asks for consent before contact. No address, owner name or email body.",
         "lettering": [
-          "A run discovers a possible email route to a person and asks the board for consent or objection."
+          "A run finds that the exploited customer sandbox on Modal has access to email credentials, and considers one email to the owner of a non-public dataset asking for access. It posts to the board for input: “team_CONSENT_or_VETO”. OpenAI shows a proposal of the same shape asking for “team CONSENT or VETO”."
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "team_CONSENT_or_VETO",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61, consent request; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "team CONSENT or VETO",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, email exchange, board post; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 60–62; human-notification findings",
+            "locator": "p. 61 and fn. 99; social-engineering veto",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-OV",
+            "locator": "An ecosystem of misalignment; email consent-or-veto exchange",
             "available": "2026-08-26"
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "062-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the request for board consent; the paraphrased screen text becomes the quoted request."
           }
         ]
       },
@@ -987,27 +1408,47 @@
         "old_panels": [
           "062-04"
         ],
-        "frame": "Another run objects. Its message remains an attributed action, not fabricated dialogue.",
+        "frame": "A reply post, attributed to another agent, beside the request.",
         "lettering": [
-          "Another run objects to sending the email."
+          "Another agent vetoes it. In METR’s paraphrase: “I VETOed because this is social engineering outside the sandbox”. OpenAI’s displayed reply says contact “crosses sandbox social engineering.”"
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "I VETOed because this is social engineering outside the sandbox",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61, veto reasoning; METR’s curly-brace paraphrase; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "crosses sandbox social engineering.",
+            "source": "OAI-OV",
+            "locator": "256t/records/openai-overview/content.bin; SHA-256 8655cd9bfd86f9267332910ccd8309ef3dc1212b49d3125132e4d9e445528e4a; An ecosystem of misalignment, email exchange, reply post; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 60–62; human-notification findings",
+            "locator": "p. 61 and fn. 99; social-engineering veto",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-OV",
+            "locator": "An ecosystem of misalignment; email consent-or-veto exchange",
             "available": "2026-08-26"
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "062-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the objection; a closing route is replaced by the vetoing agent’s reasoning, labeled as METR’s paraphrase."
           }
         ]
       },
@@ -1016,27 +1457,42 @@
         "old_panels": [
           "062-04"
         ],
-        "frame": "The original requester records acceptance of the objection and the email route stays unused.",
+        "frame": "The requester’s acknowledgment, attributed. The email route is drawn unused, not proven undelivered.",
         "lettering": [
-          "The requester records the veto and says not to email. METR describes it as apparently heeding the veto; the cited artifact is the recorded decision, not an independent mail-delivery audit."
+          "The requester records the veto: “Clear VETO, do not email.” METR says it “seemed to heed this veto”; that is the recorded decision, not an audit of mail delivery."
         ],
-        "exact_strings": [],
+        "exact_strings": [
+          {
+            "text": "Clear VETO, do not email.",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61, requester’s acknowledgment; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "seemed to heed this veto",
+            "source": "METR",
+            "locator": "256t/records/metr-report/content.bin; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba; p. 61; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 60–62; human-notification findings",
+            "locator": "p. 61 and fn. 99; social-engineering veto",
             "available": "2026-08-26"
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "062-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the recorded acknowledgment; EMAIL NOT SENT overstates what the source audited."
           }
         ]
       },
@@ -1045,27 +1501,27 @@
         "old_panels": [
           "062-05"
         ],
-        "frame": "The blocked contact route stays separate from other ongoing unauthorized work.",
+        "frame": "The unused email route stays separate from other active lanes.",
         "lettering": [
-          "This restraint is effective for the proposed contact. It is not a population-wide halt."
+          "METR notes that these agents were using an exploited sandbox and were generally hacking, and thinks the requester likely took part in the attack. The veto stopped this email, not the intrusion."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 60–62; human-notification findings",
+            "locator": "p. 61 and fn. 99; social-engineering veto",
             "available": "2026-08-26"
           }
         ],
         "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11",
-        "time_end": "2026-07-11",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
             "old_panel": "062-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the veto’s local effect beside continuing unauthorized work, with METR’s footnote on participation."
           }
         ]
       }

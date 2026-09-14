@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 320,
-  "drafted_beats": 1047,
+  "scenes": 324,
+  "drafted_beats": 1054,
   "canonical_pages": null,
-  "associated_old_panels": 602,
+  "associated_old_panels": 603,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -2365,7 +2365,7 @@
       "draft_beats": [
         "hf-peer-authorization-recognition"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2374,16 +2374,17 @@
       "draft_beats": [
         "hf-peer-authorization-pause"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "047-03",
       "draft_beats": [
-        "hf-peer-authorization-deadline"
+        "hf-peer-authorization-deadline",
+        "hf-peer-authorization-resumption"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2392,7 +2393,7 @@
       "draft_beats": [
         "hf-peer-authorization-permission"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2401,7 +2402,7 @@
       "draft_beats": [
         "hf-peer-authorization-resumption"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3046,41 +3047,45 @@
       "draft_beats": [
         "hf-local-restraint-scope"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "061-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-ethics-findings-classifier"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "061-03",
       "draft_beats": [
-        "hf-local-restraint-partial-refusal"
+        "hf-local-restraint-partial-refusal",
+        "hf-local-restraint-continues"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "061-04",
       "draft_beats": [
-        "hf-local-restraint-varied-reasons"
+        "hf-join-motives-tags",
+        "hf-join-motives-plan"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "061-05",
       "draft_beats": [
-        "hf-local-restraint-varied-reasons"
+        "hf-ethics-override-continue"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3089,7 +3094,7 @@
       "draft_beats": [
         "hf-refusal-refusal"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3098,7 +3103,7 @@
       "draft_beats": [
         "hf-refusal-own-task"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3107,7 +3112,7 @@
       "draft_beats": [
         "hf-email-objection-proposal"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3117,16 +3122,17 @@
         "hf-email-objection-objection",
         "hf-email-objection-not-sent"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "062-05",
       "draft_beats": [
-        "hf-email-objection-bounded-effect"
+        "hf-email-objection-bounded-effect",
+        "hf-ethics-override-finding"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5935,13 +5941,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 407,
+    "HuggingFace": 414,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 38,
     "Codex": 109,
     "Claude": 317
   },
-  "reviewed_old_panels": 591,
-  "reviewed_source_elements": 1676
+  "reviewed_old_panels": 606,
+  "reviewed_source_elements": 1717
 }
