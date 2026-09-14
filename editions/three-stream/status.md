@@ -30,21 +30,32 @@ the named command before relying on one.
    YouTube watch history, X posts and likes, ChatGPT and claude.ai exports and podcast OPML.
    Requested: YouTube watch history and X `tweets.js` for 16 July–1 September, ChatGPT and
    claude.ai exports, and a dated written recollection of why the book began on 1 September.
-2. **Other-Mac production records.** Collected: `256t/editions/other-mac-bundle-20260913T2302Z.tar`
-   is extracted, and the current `256t/editions/attribution.json` indexes its 24 records from
-   three Codex sessions on 2 September, 12:26–13:18 UTC. One of them (`01a06215`) supplied
-   lines in legacy 084–085 and 088–090. Not yet re-examined: whether these records close the
-   1–2 September setup and incident-dossier gap, whose first commit carries a −0700 offset.
+   Unexamined lead: the other-Mac `early-mentions.json` index lists a Codex user-role record on
+   3 August, 14:31 UTC, in another project, matching the token `HuggingFace`. Its body is not in
+   the bundle, and the token also names a software library; nothing about Curt's awareness
+   follows from the index row.
+2. **The 1–2 September setup gap.** The other-Mac bundle's Codex records cover only 2 September,
+   12:26–13:18 UTC. Session `01a06215` there drafted prologue pages 001–015 (now in the Codex
+   row). The planning files those pages follow — `content/story-outline.md`, `premise.md`,
+   `themes.md`, `continuity.md`, `visual-bible.md` — first entered in commit `c15b1e6e2`,
+   2 September 02:13 UTC, and match no transcript on either Mac. The outline already holds the
+   creator interlude, both maxims and the nine-panel convergence grid, so their author is
+   unestablished. Curt's ChatGPT export (item 1) is the remaining place to look.
 3. **Collaboration rows that do not show the row actor's act.** `working_edition.py audit`:
-   10 clocks with more than three beats (203 Claude beats at `2026-09-06T15:02:31.590Z`,
-   68 Codex beats at `2026-09-02T03:45:45.444Z`), 25 scenes describing narrator analysis, and
-   134 beats whose old wording was typed by a different actor than the row. Each needs the
+   10 clocks with more than three beats (178 Claude beats at `2026-09-06T15:02:31.590Z`,
+   68 Codex beats at `2026-09-02T03:45:45.444Z`), 22 scenes describing narrator analysis, and
+   118 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
+   Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016 (log, 14 September).
+   Two traps found there: `attribution.json` keeps the earliest record containing a line, which
+   can be a patch the session then reports as not applied; and a line can predate every
+   transcript, so the typing session only carried it forward.
 4. **Old-panel review.** All 606 old panels have element-level decisions (1717 elements).
-   Three have no draft beat: 009-02, 105-05, 117-05; each needs its omission reason checked.
-   Source: `manuscript-coverage.json`. The new 27 July Hugging Face hardening beats overlap
-   `prod-aftermath-platform-*` in the 15:02:31 cluster; resolve that when the cluster is
-   re-anchored.
+   Three have no draft beat; their omission reasons are checked (log, 14 September): 105-05 and
+   117-05 are staging with no claim. 009-02's caption comes from the unattributed outline
+   (item 2), so it stays out of the rows under working-rule case 4. The new 27 July Hugging
+   Face hardening beats overlap `prod-aftermath-platform-*` in the 15:02:31 cluster; resolve
+   that when the cluster is re-anchored.
 5. **Authored theses omitted from incident rows.** Legacy 047-02 and 047-05 captions were
    typed in Codex session `01a06270` on 2 September. Under working-rule case 2 they can enter
    only as that writing act in the Codex row. They are omitted with that reason until the
@@ -67,12 +78,15 @@ the named command before relying on one.
 
 ## Next
 
-- Apply the collaboration working rule to the audit findings, starting with the 203-beat
-  Claude cluster, using `production_history.py panel` for origin sessions.
+- Continue re-anchoring the 178-beat Claude cluster by the same method: line origins from
+  `attribution.json`, then the applied record, then any earlier file that already held the
+  line. Remaining sequences, in legacy order: recurrence 031–036, thesis 038–040, staircase
+  052, resource 052/073, branch scope 067–070, interpretation 073–080, analysis limits
+  078–082, assurance 098, accountability 099–102, defense 101, aftermath 103–105, wiki
+  overlap and hypotheses 109–111, downstream use 112–118.
+- Apply the same method to the 68-beat Codex cluster and to the 047-02/047-05 theses.
 - Add ordering constraints for the July day-only beats as sources support them.
-- Confirm the recorded omission reasons for 009-02, 105-05 and 117-05, the three old panels
-  with no draft beat.
-- Check the other-Mac records against the 1–2 September gap; fold in Curt's exports when they arrive.
+- Fold in Curt's exports when they arrive.
 
 ## Checks
 

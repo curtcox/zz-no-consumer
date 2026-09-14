@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 324,
-  "drafted_beats": 1054,
+  "scenes": 330,
+  "drafted_beats": 1050,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -245,9 +245,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-01",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -256,9 +254,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-02",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -267,9 +263,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-03",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -278,9 +272,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-04",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -289,9 +281,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-05",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -300,9 +290,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-06",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -311,9 +299,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-07",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -322,9 +308,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-08",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -333,9 +317,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "006-09",
       "draft_beats": [
-        "prod-convergence-plurality",
-        "prod-convergence-failures",
-        "prod-convergence-states"
+        "prod-prologue-grids-006"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -344,9 +326,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-01",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -355,9 +336,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-02",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -366,9 +346,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-03",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -377,9 +356,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-04",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -388,9 +366,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-05",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -399,9 +376,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-06",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -410,9 +386,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-07",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -421,9 +396,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-08",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -432,9 +406,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "007-09",
       "draft_beats": [
-        "prod-convergence-resources",
-        "prod-convergence-mechanisms",
-        "prod-convergence-limits"
+        "prod-prologue-grids-007",
+        "prod-prologue-grids-captions"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -690,7 +663,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "013-01",
       "draft_beats": [
-        "prod-creator-premise-entrance"
+        "prod-prologue-interlude-013",
+        "prod-prologue-held-strings-office"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -699,7 +673,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "013-02",
       "draft_beats": [
-        "prod-creator-premise-reaction"
+        "prod-prologue-interlude-013",
+        "prod-prologue-held-strings-office"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -708,7 +683,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "013-03",
       "draft_beats": [
-        "prod-creator-premise-reaction"
+        "prod-prologue-interlude-013",
+        "prod-prologue-held-strings-office"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -718,7 +694,7 @@
       "old_panel": "013-04",
       "draft_beats": [
         "prod-setup-request-message",
-        "prod-creator-premise-decision"
+        "prod-prologue-interlude-013"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -727,7 +703,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "013-05",
       "draft_beats": [
-        "prod-creator-premise-disclosure"
+        "prod-prologue-interlude-013",
+        "prod-prologue-held-strings-office"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -736,7 +713,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "014-01",
       "draft_beats": [
-        "prod-creator-premise-visuals"
+        "prod-prologue-interlude-014"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -745,7 +722,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "014-02",
       "draft_beats": [
-        "prod-creator-premise-visuals"
+        "prod-prologue-interlude-014"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -764,7 +741,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "014-04",
       "draft_beats": [
-        "prod-creator-premise-labels"
+        "prod-prologue-interlude-014",
+        "prod-prologue-held-strings-cards"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -773,7 +751,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "014-05",
       "draft_beats": [
-        "prod-creator-premise-invention"
+        "prod-prologue-interlude-014",
+        "prod-prologue-held-strings-cards"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -782,8 +761,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "014-06",
       "draft_beats": [
-        "prod-creator-premise-labels",
-        "prod-creator-premise-invention"
+        "prod-prologue-interlude-014",
+        "prod-prologue-held-strings-cards"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -792,7 +771,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "015-01",
       "draft_beats": [
-        "prod-creator-premise-ideas"
+        "prod-prologue-interlude-015"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -801,7 +780,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "015-02",
       "draft_beats": [
-        "prod-creator-premise-constraint"
+        "prod-prologue-interlude-015"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -810,8 +789,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "015-03",
       "draft_beats": [
-        "prod-creator-premise-maxim",
-        "prod-creator-premise-constraint"
+        "prod-prologue-interlude-015"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -820,8 +798,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "015-04",
       "draft_beats": [
-        "prod-creator-premise-maxim",
-        "prod-creator-premise-constraint"
+        "prod-prologue-interlude-015"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -830,7 +807,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "015-05",
       "draft_beats": [
-        "prod-creator-premise-rewind"
+        "prod-prologue-interlude-015",
+        "prod-prologue-read-through-catchphrase"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -849,8 +827,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "016-02",
       "draft_beats": [
-        "prod-training-configuration-communication",
-        "prod-training-configuration-pressure",
+        "prod-training-configuration-cards",
         "prod-training-configuration-network"
       ],
       "detail_review": "elements-reviewed",
@@ -870,7 +847,7 @@
       "old_panel": "016-04",
       "draft_beats": [
         "may-training-unintended-tasks",
-        "prod-training-configuration-tasks"
+        "prod-training-configuration-network"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -5944,9 +5921,9 @@
     "HuggingFace": 414,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
-    "Curt": 38,
-    "Codex": 109,
-    "Claude": 317
+    "Curt": 41,
+    "Codex": 120,
+    "Claude": 299
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717

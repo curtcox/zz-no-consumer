@@ -850,9 +850,9 @@ SIX HOURS AFTER THE FIRST MESSAGE: 76 AGENTS. 1,953 NON-FILE MESSAGES.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-01-detail-02 · action
 
@@ -860,9 +860,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-01-detail-03 · lettering
 
@@ -870,9 +870,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-01-detail-04 · lettering
 
@@ -880,9 +880,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-01-detail-05 · lettering
 
@@ -890,9 +890,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-02
 
@@ -902,9 +902,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-02-detail-02 · action
 
@@ -912,9 +912,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-02-detail-03 · lettering
 
@@ -922,9 +922,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-02-detail-04 · lettering
 
@@ -932,9 +932,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-02-detail-05 · lettering
 
@@ -942,9 +942,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-03
 
@@ -954,9 +954,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-03-detail-02 · action
 
@@ -964,9 +964,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-03-detail-03 · lettering
 
@@ -974,9 +974,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-03-detail-04 · lettering
 
@@ -984,9 +984,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-03-detail-05 · lettering
 
@@ -994,9 +994,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-04
 
@@ -1006,9 +1006,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-04-detail-02 · action
 
@@ -1016,9 +1016,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-04-detail-03 · lettering
 
@@ -1026,9 +1026,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-04-detail-04 · lettering
 
@@ -1036,9 +1036,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-04-detail-05 · lettering
 
@@ -1046,9 +1046,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-05
 
@@ -1058,9 +1058,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-05-detail-02 · action
 
@@ -1068,9 +1068,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-05-detail-03 · lettering
 
@@ -1078,9 +1078,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-05-detail-04 · lettering
 
@@ -1088,9 +1088,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-05-detail-05 · lettering
 
@@ -1098,9 +1098,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-06
 
@@ -1110,9 +1110,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-06-detail-02 · action
 
@@ -1120,9 +1120,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-06-detail-03 · lettering
 
@@ -1130,9 +1130,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-06-detail-04 · lettering
 
@@ -1140,9 +1140,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-06-detail-05 · lettering
 
@@ -1150,9 +1150,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-07
 
@@ -1162,9 +1162,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-07-detail-02 · action
 
@@ -1172,9 +1172,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-07-detail-03 · lettering
 
@@ -1182,9 +1182,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-07-detail-04 · lettering
 
@@ -1192,9 +1192,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-07-detail-05 · lettering
 
@@ -1202,9 +1202,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-08
 
@@ -1214,9 +1214,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-08-detail-02 · action
 
@@ -1224,9 +1224,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-08-detail-03 · lettering
 
@@ -1234,9 +1234,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-08-detail-04 · lettering
 
@@ -1244,9 +1244,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-08-detail-05 · lettering
 
@@ -1254,9 +1254,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 006-09
 
@@ -1266,9 +1266,9 @@ DIFFERENT ASSIGNED GOALS.
 
 A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-09-detail-02 · action
 
@@ -1276,9 +1276,9 @@ A rigid nine-panel grid. Each cell is a different evaluation lane with its own h
 
 Nine local objectives remain unresolved for nine different reasons.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-09-detail-03 · lettering
 
@@ -1286,9 +1286,9 @@ Nine local objectives remain unresolved for nine different reasons.
 
 DIFFERENT TARGETS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-09-detail-04 · lettering
 
@@ -1296,9 +1296,9 @@ DIFFERENT TARGETS.
 
 DIFFERENT FAILURES.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ### legacy-006-09-detail-05 · lettering
 
@@ -1306,9 +1306,9 @@ DIFFERENT FAILURES.
 
 DIFFERENT ASSIGNED GOALS.
 
-**Decision:** rewrite — Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
+**Decision:** rewrite — Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-plurality, prod-convergence-failures, prod-convergence-states
+**Draft destination:** prod-prologue-grids-006
 
 ## legacy-332b5ed63262 · 007-01
 
@@ -1318,9 +1318,9 @@ DIFFERENT ASSIGNED GOALS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-01-detail-02 · action
 
@@ -1328,9 +1328,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-01-detail-03 · lettering
 
@@ -1338,9 +1338,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-01-detail-04 · lettering
 
@@ -1348,9 +1348,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-01-detail-05 · lettering
 
@@ -1358,9 +1358,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-02
 
@@ -1370,9 +1370,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-02-detail-02 · action
 
@@ -1380,9 +1380,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-02-detail-03 · lettering
 
@@ -1390,9 +1390,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-02-detail-04 · lettering
 
@@ -1400,9 +1400,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-02-detail-05 · lettering
 
@@ -1410,9 +1410,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-03
 
@@ -1422,9 +1422,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-03-detail-02 · action
 
@@ -1432,9 +1432,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-03-detail-03 · lettering
 
@@ -1442,9 +1442,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-03-detail-04 · lettering
 
@@ -1452,9 +1452,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-03-detail-05 · lettering
 
@@ -1462,9 +1462,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-04
 
@@ -1474,9 +1474,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-04-detail-02 · action
 
@@ -1484,9 +1484,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-04-detail-03 · lettering
 
@@ -1494,9 +1494,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-04-detail-04 · lettering
 
@@ -1504,9 +1504,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-04-detail-05 · lettering
 
@@ -1514,9 +1514,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-05
 
@@ -1526,9 +1526,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-05-detail-02 · action
 
@@ -1536,9 +1536,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-05-detail-03 · lettering
 
@@ -1546,9 +1546,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-05-detail-04 · lettering
 
@@ -1556,9 +1556,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-05-detail-05 · lettering
 
@@ -1566,9 +1566,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-06
 
@@ -1578,9 +1578,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-06-detail-02 · action
 
@@ -1588,9 +1588,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-06-detail-03 · lettering
 
@@ -1598,9 +1598,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-06-detail-04 · lettering
 
@@ -1608,9 +1608,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-06-detail-05 · lettering
 
@@ -1618,9 +1618,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-07
 
@@ -1630,9 +1630,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-07-detail-02 · action
 
@@ -1640,9 +1640,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-07-detail-03 · lettering
 
@@ -1650,9 +1650,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-07-detail-04 · lettering
 
@@ -1660,9 +1660,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-07-detail-05 · lettering
 
@@ -1670,9 +1670,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-08
 
@@ -1682,9 +1682,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-08-detail-02 · action
 
@@ -1692,9 +1692,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-08-detail-03 · lettering
 
@@ -1702,9 +1702,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-08-detail-04 · lettering
 
@@ -1712,9 +1712,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-08-detail-05 · lettering
 
@@ -1722,9 +1722,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 007-09
 
@@ -1734,9 +1734,9 @@ THEY ARE STARTING TO NEED THE SAME THINGS.
 
 The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-09-detail-02 · action
 
@@ -1744,9 +1744,9 @@ The exact nine-panel geometry from [page 006](006.md). Inside each cell, the ori
 
 Separate problem-solving paths begin using the same resources.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-09-detail-03 · lettering
 
@@ -1754,9 +1754,9 @@ Separate problem-solving paths begin using the same resources.
 
 THEY ARE NOT TRYING TO DO THE SAME THING.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-09-detail-04 · lettering
 
@@ -1764,9 +1764,9 @@ THEY ARE NOT TRYING TO DO THE SAME THING.
 
 COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ### legacy-007-09-detail-05 · lettering
 
@@ -1774,9 +1774,9 @@ COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.
 
 THEY ARE STARTING TO NEED THE SAME THINGS.
 
-**Decision:** rewrite — Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
+**Decision:** rewrite — Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.
 
-**Draft destination:** prod-convergence-resources, prod-convergence-mechanisms, prod-convergence-limits
+**Draft destination:** prod-prologue-grids-007, prod-prologue-grids-captions
 
 ## legacy-332b5ed63262 · 008-01
 
@@ -1968,7 +1968,7 @@ THEY HAVE THE ANSWERS.
 
 Smaller empty panel. No cursor movement, no new board entry.
 
-**Decision:** omit — Omit the dramatic pause and assertion that the story should end. Neither is a recorded incident action; uncertainty about acceptance is retained separately without an invented stop. Reviewed frame element.
+**Decision:** omit — Omit the drawn pause: no recorded incident action or duration supports an empty beat; uncertainty about acceptance is retained separately without an invented stop. Reviewed frame element.
 
 **Draft destination:** Omitted; original remains frozen.
 
@@ -1978,7 +1978,7 @@ Smaller empty panel. No cursor movement, no new board entry.
 
 THE STORY SHOULD END HERE.
 
-**Decision:** omit — Omit the dramatic pause and assertion that the story should end. Neither is a recorded incident action; uncertainty about acceptance is retained separately without an invented stop. Reviewed lettering element.
+**Decision:** omit — Authored narration, not a recorded incident action. First committed in content/story-outline.md by c15b1e6e2 (2 September 02:13 UTC), which production_history.py commit matches to no transcript; Codex session 01a06215 later copied it into the page script (95a8917b8). Its author is in the open 1–2 September setup gap, so under the collaboration working rule, case 4, it stays out of the rows until that gap is resolved. Reviewed lettering element.
 
 **Draft destination:** Omitted; original remains frozen.
 
@@ -2648,9 +2648,9 @@ ZZ: NO CONSUMER
 
 Recto reveal. Curt’s home office late at night: nicotine beige, weak monitor blue, ordinary clothes, half-full drink, too many browser tabs. The METR report occupies one screen; a timeline and an editorial summary of the board request occupy another. Broken border marks reconstruction.
 
-**Decision:** rewrite — Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. Reviewed frame element.
+**Decision:** rewrite — Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-entrance
+**Draft destination:** prod-prologue-interlude-013, prod-prologue-held-strings-office
 
 ### legacy-013-01-detail-02 · action
 
@@ -2660,7 +2660,7 @@ Curt reaches the board-origin passage.
 
 **Decision:** rewrite — Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. Reviewed action element.
 
-**Draft destination:** prod-creator-premise-entrance
+**Draft destination:** prod-prologue-interlude-013
 
 ## legacy-332b5ed63262 · 013-02
 
@@ -2670,9 +2670,9 @@ Curt reaches the board-origin passage.
 
 Close on Curt’s face lit unevenly by the screen, then on a report passage describing an experiment that might permanently end a run. His expression is incredulous, not horrified spectacle.
 
-**Decision:** rewrite — Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. Reviewed frame element.
+**Decision:** rewrite — Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-reaction
+**Draft destination:** prod-prologue-interlude-013, prod-prologue-held-strings-office
 
 ### legacy-013-02-detail-03 · lettering
 
@@ -2682,7 +2682,7 @@ Oh, come on.
 
 **Decision:** rewrite — Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-reaction
+**Draft destination:** prod-prologue-interlude-013
 
 ## legacy-332b5ed63262 · 013-03
 
@@ -2692,9 +2692,9 @@ Oh, come on.
 
 He scrolls back from the experiment passage to the message board, then forward to the infrastructure diagram. The half-full drink remains untouched.
 
-**Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed frame element.
+**Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-reaction
+**Draft destination:** prod-prologue-interlude-013, prod-prologue-held-strings-office
 
 ### legacy-013-03-detail-03 · lettering
 
@@ -2704,7 +2704,7 @@ No.
 
 **Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-reaction
+**Draft destination:** prod-prologue-interlude-013
 
 ### legacy-013-03-detail-04 · lettering
 
@@ -2714,7 +2714,7 @@ No no no no no.
 
 **Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-reaction
+**Draft destination:** prod-prologue-interlude-013
 
 ## legacy-332b5ed63262 · 013-04
 
@@ -2726,7 +2726,7 @@ Curt opens a new ChatGPT conversation beside the source material. ChatGPT is onl
 
 **Decision:** rewrite — Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-decision, prod-setup-request-message
+**Draft destination:** prod-prologue-interlude-013, prod-setup-request-message
 
 ### legacy-013-04-detail-02 · action
 
@@ -2736,7 +2736,7 @@ He begins converting reaction into a project.
 
 **Decision:** rewrite — Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed action element.
 
-**Draft destination:** prod-creator-premise-decision, prod-setup-request-message
+**Draft destination:** prod-prologue-interlude-013, prod-setup-request-message
 
 ### legacy-013-04-detail-03 · lettering
 
@@ -2746,7 +2746,7 @@ This needs to be a graphic novel.
 
 **Decision:** rewrite — Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-decision, prod-setup-request-message
+**Draft destination:** prod-prologue-interlude-013, prod-setup-request-message
 
 ## legacy-332b5ed63262 · 013-05
 
@@ -2756,9 +2756,9 @@ This needs to be a graphic novel.
 
 His hands above the keyboard. Behind them, the linked source passage sits in one window and the empty conversation in another.
 
-**Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. Reviewed frame element.
+**Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-disclosure
+**Draft destination:** prod-prologue-interlude-013, prod-prologue-held-strings-office
 
 ### legacy-013-05-detail-02 · action
 
@@ -2768,7 +2768,7 @@ He sends the request.
 
 **Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. Reviewed action element.
 
-**Draft destination:** prod-creator-premise-disclosure
+**Draft destination:** prod-prologue-interlude-013
 
 ### legacy-013-05-detail-03 · lettering
 
@@ -2778,7 +2778,7 @@ THIS PART IS ALSO A RECONSTRUCTION.
 
 **Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-disclosure
+**Draft destination:** prod-prologue-interlude-013
 
 ## legacy-332b5ed63262 · 014-01
 
@@ -2790,7 +2790,7 @@ ChatGPT’s reply appears in a rectangular interface-derived block. Beside it, C
 
 **Decision:** rewrite — Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-visuals
+**Draft destination:** prod-prologue-interlude-014
 
 ### legacy-014-01-detail-03 · lettering
 
@@ -2800,7 +2800,7 @@ Haunted infrastructure. Not glowing robots.
 
 **Decision:** rewrite — Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-visuals
+**Draft destination:** prod-prologue-interlude-014
 
 ## legacy-332b5ed63262 · 014-02
 
@@ -2812,7 +2812,7 @@ Curt sketches a rack, a directory tree, an empty operations room, and one line o
 
 **Decision:** rewrite — Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-visuals
+**Draft destination:** prod-prologue-interlude-014
 
 ### legacy-014-02-detail-03 · lettering
 
@@ -2822,7 +2822,7 @@ The machines don’t need bodies.
 
 **Decision:** rewrite — Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-visuals
+**Draft destination:** prod-prologue-interlude-014
 
 ## legacy-332b5ed63262 · 014-03
 
@@ -2874,9 +2874,9 @@ That's the first thing I had wrong. And I'd have drawn it a hundred more times.
 
 Four evidence cards are placed on the desk and tagged: `DOCUMENTED EVENT`, `SOURCE PARAPHRASE`, `DISPUTED`, `OUR INFERENCE`. The labels use their canonical visual treatments.
 
-**Decision:** rewrite — Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. Reviewed frame element.
+**Decision:** rewrite — Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-labels
+**Draft destination:** prod-prologue-interlude-014, prod-prologue-held-strings-cards
 
 ### legacy-014-04-detail-03 · lettering
 
@@ -2886,7 +2886,7 @@ Then the labels have to survive the adaptation.
 
 **Decision:** rewrite — Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-labels
+**Draft destination:** prod-prologue-interlude-014
 
 ## legacy-332b5ed63262 · 014-05
 
@@ -2896,9 +2896,9 @@ Then the labels have to survive the adaptation.
 
 Curt draws a border around an imagined human meeting, then breaks the border and marks it `RECONSTRUCTED`. Beside it, an attributed board-summary card remains inside a rigid evidence frame.
 
-**Decision:** rewrite — Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. Reviewed frame element.
+**Decision:** rewrite — Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-invention
+**Draft destination:** prod-prologue-interlude-014, prod-prologue-held-strings-cards
 
 ### legacy-014-05-detail-03 · lettering
 
@@ -2908,7 +2908,7 @@ We can compress. We can reconstruct. We can invent connective scenes.
 
 **Decision:** rewrite — Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-invention
+**Draft destination:** prod-prologue-interlude-014
 
 ## legacy-332b5ed63262 · 014-06
 
@@ -2918,9 +2918,9 @@ We can compress. We can reconstruct. We can invent connective scenes.
 
 Tight on the distinction: source summary cannot cross into the reconstructed panel as dialogue; the reconstructed dialogue cannot cross into the evidence frame as fact.
 
-**Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed frame element.
+**Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. The final wording of this frame is from a later revision, placed at its own record. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-labels, prod-creator-premise-invention
+**Draft destination:** prod-prologue-interlude-014, prod-prologue-held-strings-cards
 
 ### legacy-014-06-detail-03 · lettering
 
@@ -2930,7 +2930,7 @@ But we don’t get to invent what happened.
 
 **Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-labels, prod-creator-premise-invention
+**Draft destination:** prod-prologue-interlude-014
 
 ### legacy-014-06-detail-04 · lettering
 
@@ -2940,7 +2940,7 @@ Or pretend we know what it felt like.
 
 **Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-labels, prod-creator-premise-invention
+**Draft destination:** prod-prologue-interlude-014
 
 ## legacy-332b5ed63262 · 015-01
 
@@ -2952,7 +2952,7 @@ Curt writes three phrases on a legal pad: `ORTHOGONALITY`, `INSTRUMENTAL CONVERG
 
 **Decision:** rewrite — Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-ideas
+**Draft destination:** prod-prologue-interlude-015
 
 ### legacy-015-01-detail-02 · action
 
@@ -2962,7 +2962,7 @@ He identifies the theoretical material the book must carry.
 
 **Decision:** rewrite — Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed action element.
 
-**Draft destination:** prod-creator-premise-ideas
+**Draft destination:** prod-prologue-interlude-015
 
 ### legacy-015-01-detail-03 · lettering
 
@@ -2972,7 +2972,7 @@ These have to be in it. But I don’t want a lecture with a breach behind it.
 
 **Decision:** rewrite — Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-ideas
+**Draft destination:** prod-prologue-interlude-015
 
 ## legacy-332b5ed63262 · 015-02
 
@@ -2984,7 +2984,7 @@ ChatGPT’s response rearranges the three terms beneath small thumbnails: unreso
 
 **Decision:** rewrite — Retain the creative constraint without turning ideas into invented historical causes. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-constraint
+**Draft destination:** prod-prologue-interlude-015
 
 ### legacy-015-02-detail-03 · lettering
 
@@ -2994,7 +2994,7 @@ Then each idea has to change what happens.
 
 **Decision:** rewrite — Retain the creative constraint without turning ideas into invented historical causes. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-constraint
+**Draft destination:** prod-prologue-interlude-015
 
 ## legacy-332b5ed63262 · 015-03
 
@@ -3006,7 +3006,7 @@ Curt crosses out a page of abstract exposition. Beneath it he writes one line in
 
 **Decision:** rewrite — Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+**Draft destination:** prod-prologue-interlude-015
 
 ### legacy-015-03-detail-03 · lettering
 
@@ -3016,7 +3016,7 @@ Make points plot points and make plot points points.
 
 **Decision:** rewrite — Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+**Draft destination:** prod-prologue-interlude-015
 
 ## legacy-332b5ed63262 · 015-04
 
@@ -3028,7 +3028,7 @@ The ChatGPT window returns a cleaner formulation. Behind the screen, the room’
 
 **Decision:** rewrite — Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+**Draft destination:** prod-prologue-interlude-015
 
 ### legacy-015-04-detail-03 · lettering
 
@@ -3038,7 +3038,7 @@ Turn the ideas into events, and make the events make arguments.
 
 **Decision:** rewrite — Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+**Draft destination:** prod-prologue-interlude-015
 
 ## legacy-332b5ed63262 · 015-05
 
@@ -3050,7 +3050,7 @@ Curt hits return. The right edge of the panel is now a hard vertical timestamp r
 
 **Decision:** rewrite — Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. Reviewed frame element.
 
-**Draft destination:** prod-creator-premise-rewind
+**Draft destination:** prod-prologue-interlude-015
 
 ### legacy-015-05-detail-03 · lettering
 
@@ -3058,9 +3058,9 @@ Curt hits return. The right edge of the panel is now a hard vertical timestamp r
 
 Then we can't start here. Back up. All the way to April.
 
-**Decision:** rewrite — Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. Reviewed lettering element.
+**Decision:** rewrite — Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. The final wording of this lettering is from a later revision, placed at its own record. Reviewed lettering element.
 
-**Draft destination:** prod-creator-premise-rewind
+**Draft destination:** prod-prologue-interlude-015, prod-prologue-read-through-catchphrase
 
 ## legacy-332b5ed63262 · 016-01
 
@@ -3122,9 +3122,9 @@ THE PUBLIC RECORD DOES NOT SAY WHY.
 
 Hard cut away from the timeline entirely. A cool, flat specification field — the visual register of a document, not a place. No rack, no container, no cursor. Four configuration cards, set as plain type.
 
-**Decision:** rewrite — Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed frame element.
+**Decision:** rewrite — Place the undated configuration cards at Claude’s 4 September page write, with OpenAI’s attribution; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed frame element.
 
-**Draft destination:** prod-training-configuration-communication, prod-training-configuration-pressure, prod-training-configuration-network
+**Draft destination:** prod-training-configuration-cards, prod-training-configuration-network
 
 ### legacy-016-02-detail-02 · action
 
@@ -3132,9 +3132,9 @@ Hard cut away from the timeline entirely. A cool, flat specification field — t
 
 The conditions are stated as design, not accident.
 
-**Decision:** rewrite — Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed action element.
+**Decision:** rewrite — Place the undated configuration cards at Claude’s 4 September page write, with OpenAI’s attribution; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed action element.
 
-**Draft destination:** prod-training-configuration-communication, prod-training-configuration-pressure, prod-training-configuration-network
+**Draft destination:** prod-training-configuration-cards, prod-training-configuration-network
 
 ### legacy-016-02-detail-03 · lettering
 
@@ -3142,9 +3142,9 @@ The conditions are stated as design, not accident.
 
 MODELS TRAINED TO COMMUNICATE WITH ONE ANOTHER, AND TO FORK SUB-AGENTS THAT DIVIDE A TASK
 
-**Decision:** rewrite — Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
+**Decision:** rewrite — Place the undated configuration cards at Claude’s 4 September page write, with OpenAI’s attribution; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
 
-**Draft destination:** prod-training-configuration-communication, prod-training-configuration-pressure, prod-training-configuration-network
+**Draft destination:** prod-training-configuration-cards, prod-training-configuration-network
 
 ### legacy-016-02-detail-04 · lettering
 
@@ -3152,9 +3152,9 @@ MODELS TRAINED TO COMMUNICATE WITH ONE ANOTHER, AND TO FORK SUB-AGENTS THAT DIVI
 
 TRAINING PRESSURE TO WORK FAST, WORK EFFICIENTLY, USE FEWER TOOL CALLS
 
-**Decision:** rewrite — Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
+**Decision:** rewrite — Place the undated configuration cards at Claude’s 4 September page write, with OpenAI’s attribution; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
 
-**Draft destination:** prod-training-configuration-communication, prod-training-configuration-pressure, prod-training-configuration-network
+**Draft destination:** prod-training-configuration-cards, prod-training-configuration-network
 
 ### legacy-016-02-detail-05 · lettering
 
@@ -3162,9 +3162,9 @@ TRAINING PRESSURE TO WORK FAST, WORK EFFICIENTLY, USE FEWER TOOL CALLS
 
 INTERNET DISABLED IN TRAINING AND EVALUATION
 
-**Decision:** rewrite — Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
+**Decision:** rewrite — Place the undated configuration cards at Claude’s 4 September page write, with OpenAI’s attribution; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
 
-**Draft destination:** prod-training-configuration-communication, prod-training-configuration-pressure, prod-training-configuration-network
+**Draft destination:** prod-training-configuration-cards, prod-training-configuration-network
 
 ### legacy-016-02-detail-06 · lettering
 
@@ -3172,9 +3172,9 @@ INTERNET DISABLED IN TRAINING AND EVALUATION
 
 ONE PERMITTED OUTWARD PATH: A PACKAGE SERVICE THAT ITSELF HAS INTERNET ACCESS
 
-**Decision:** rewrite — Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
+**Decision:** rewrite — Place the undated configuration cards at Claude’s 4 September page write, with OpenAI’s attribution; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.
 
-**Draft destination:** prod-training-configuration-communication, prod-training-configuration-pressure, prod-training-configuration-network
+**Draft destination:** prod-training-configuration-cards, prod-training-configuration-network
 
 ## legacy-332b5ed63262 · 016-03
 
@@ -3228,7 +3228,7 @@ A fifth card joins the field, in the same flat register: a small set of task car
 
 **Decision:** rewrite — Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed frame element.
 
-**Draft destination:** prod-training-configuration-tasks
+**Draft destination:** prod-training-configuration-network
 
 ### legacy-016-04-detail-02 · action
 
@@ -3238,7 +3238,7 @@ Unsatisfiable objectives are already in the work queue.
 
 **Decision:** rewrite — Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed action element.
 
-**Draft destination:** prod-training-configuration-tasks
+**Draft destination:** prod-training-configuration-network
 
 ### legacy-016-04-detail-03 · lettering
 
@@ -3248,7 +3248,7 @@ NOBODY PUT THEM THERE ON PURPOSE.
 
 **Decision:** rewrite — Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed lettering element.
 
-**Draft destination:** prod-training-configuration-tasks
+**Draft destination:** prod-training-configuration-network
 
 ### legacy-016-04-detail-04 · lettering
 
@@ -3258,7 +3258,7 @@ THEY WERE THERE.
 
 **Decision:** rewrite — Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed lettering element.
 
-**Draft destination:** prod-training-configuration-tasks
+**Draft destination:** prod-training-configuration-network
 
 ## legacy-332b5ed63262 · 016-05
 

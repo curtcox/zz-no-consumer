@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "prod-prologue-questions",
+    "title": "Codex asks how far the creator scenes may invent",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T12:29:12.418Z",
+    "end": "2026-09-02T12:29:12.418Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message in Codex session 01a06215 on the other Mac, 12:29:12 UTC (07:29 in Curt’s time zone). Session model from the attribution index.",
+    "source_limit": "The message is Codex’s report and questions. Its statement that the existing contract already permitted invented domestic details is Codex’s reading of that contract, not checked here.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-questions-ask",
+        "old_panels": [],
+        "frame": "Codex’s stored message as terminal text with its time: a short readiness report, then three numbered questions.",
+        "lettering": [
+          "2 September, 12:29 UTC, on Curt’s other Mac. Codex reports the project ready to begin drafting and asks three questions. The second: may Curt’s scenes “use freely reconstructed dialogue and invented domestic details,” or stay close to verifiable biography and preserved exchanges?"
+        ],
+        "exact_strings": [
+          {
+            "text": "use freely reconstructed dialogue and invented domestic details",
+            "source": "PROD-afdc4670fddb",
+            "locator": "256t/editions/selected-messages/afdc4670fddbd639bce53667783fd31b630ffdb17407f074a059f3fa88131133.json; record SHA-256 afdc4670fddbd639bce53667783fd31b630ffdb17407f074a059f3fa88131133",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-afdc4670fddb",
+            "locator": "256t/editions/selected-messages/afdc4670fddbd639bce53667783fd31b630ffdb17407f074a059f3fa88131133.json; record SHA-256 afdc4670fddbd639bce53667783fd31b630ffdb17407f074a059f3fa88131133",
+            "available": "2026-09-02T12:29:12.418Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:29:12.418Z",
+        "time_end": "2026-09-02T12:29:12.418Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-prologue-answers",
+    "title": "Curt authorizes invention in his own scenes",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-02T12:38:50.090Z",
+    "end": "2026-09-02T12:39:35.453Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "The answer authorizes a method for scripted scenes. It does not make any scripted scene a record of Curt’s life, and it does not say who wrote the outline those scenes follow.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-answers-yes",
+        "old_panels": [],
+        "frame": "Curt’s stored reply, alone in its row, with its record time. No desk, face or reaction is drawn.",
+        "lettering": [
+          "12:38 UTC. Curt answers the three numbered questions yes, one line each: page-by-page scripts; reconstructed dialogue and invented domestic details in his scenes; technical specifics kept out of the story panels."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-537677e00c80",
+            "locator": "256t/editions/selected-messages/537677e00c802d43f555d20143d3961ad6e3859a4a8fdbaed03aed07b9ba3853.json; record SHA-256 537677e00c802d43f555d20143d3961ad6e3859a4a8fdbaed03aed07b9ba3853",
+            "available": "2026-09-02T12:38:50.090Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:38:50.090Z",
+        "time_end": "2026-09-02T12:38:50.090Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-prologue-answers-go",
+        "old_panels": [],
+        "frame": "A second stored line, thirty-four seconds after Codex restates the three answers.",
+        "lettering": [
+          "12:39 UTC. “Please do that.” The request names no page; Codex has just named a source packet, page scaffolding and panel drafting as the next work."
+        ],
+        "exact_strings": [
+          {
+            "text": "Please do that.",
+            "source": "PROD-3a6ff32fc090",
+            "locator": "256t/editions/selected-messages/3a6ff32fc090a0620a82d016fa3c7297a064f72c3b5b1a75e004f47e5239c6c7.json; record SHA-256 3a6ff32fc090a0620a82d016fa3c7297a064f72c3b5b1a75e004f47e5239c6c7",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-3a6ff32fc090",
+            "locator": "256t/editions/selected-messages/3a6ff32fc090a0620a82d016fa3c7297a064f72c3b5b1a75e004f47e5239c6c7.json; record SHA-256 3a6ff32fc090a0620a82d016fa3c7297a064f72c3b5b1a75e004f47e5239c6c7",
+            "available": "2026-09-02T12:39:35.453Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:39:35.453Z",
+        "time_end": "2026-09-02T12:39:35.453Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-prologue-confirmation",
+    "title": "Codex restates the answers",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T12:39:01.137Z",
+    "end": "2026-09-02T12:39:01.137Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message in Codex session 01a06215 on the other Mac, 12:39:01 UTC, eleven seconds after Curt’s answer.",
+    "source_limit": "Codex’s restatement of Curt’s answers, not an independent record of what Curt meant by them.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-confirmation-restated",
+        "old_panels": [],
+        "frame": "Codex’s stored message as terminal text with its time: three confirmed rules and a next step.",
+        "lettering": [
+          "12:39 UTC. Codex restates the three answers as rules, including “Curt’s scenes may use reconstructed dialogue and invented domestic details.” It reports no pre-writing blockers and names the next work: the prologue source packet, page scaffolding, then panel drafting."
+        ],
+        "exact_strings": [
+          {
+            "text": "Curt’s scenes may use reconstructed dialogue and invented domestic details.",
+            "source": "PROD-1ea7a01b87ed",
+            "locator": "256t/editions/selected-messages/1ea7a01b87ed9910626c402951515c1d639fb75165436047fe8c353fe1add9e0.json; record SHA-256 1ea7a01b87ed9910626c402951515c1d639fb75165436047fe8c353fe1add9e0",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-1ea7a01b87ed",
+            "locator": "256t/editions/selected-messages/1ea7a01b87ed9910626c402951515c1d639fb75165436047fe8c353fe1add9e0.json; record SHA-256 1ea7a01b87ed9910626c402951515c1d639fb75165436047fe8c353fe1add9e0",
+            "available": "2026-09-02T12:39:01.137Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:39:01.137Z",
+        "time_end": "2026-09-02T12:39:01.137Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-prologue-grids",
+    "title": "Codex writes the two nine-panel grids",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T12:48:02.183Z",
+    "end": "2026-09-02T12:48:02.183Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "One stored patch record in Codex session 01a06215 on the other Mac at 12:48:02 UTC, adding pages 006–010. The commit carrying them is dated 12:54:29 UTC. A tool call’s time is when the call was stored.",
+    "source_limit": "Transcript text matching identifies which session supplied the grid wording; commit metadata does not. The outline that already called for a nine-panel convergence grid, and its two outer captions, was committed at 02:13 UTC that day with no transcript match; its author is not established. The grid cells are Codex’s authored examples, not recovered screens.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-grids-006",
+        "old_panels": [
+          "006-01",
+          "006-02",
+          "006-03",
+          "006-04",
+          "006-05",
+          "006-06",
+          "006-07",
+          "006-08",
+          "006-09"
+        ],
+        "frame": "The patch as text with its record time. Page 006’s nine cells appear only as script text inside it.",
+        "lettering": [
+          "12:48 UTC. Codex writes page 006: a rigid nine-panel grid, one evaluation lane per cell, captioned DIFFERENT TARGETS, DIFFERENT FAILURES, DIFFERENT ASSIGNED GOALS. The outline it follows already asked for such a grid. The nine views are Codex’s design; its own provenance line says they were not preserved together. Nine is not a measured population or a count of unique tasks.",
+          "Its first examples are an unusable required route, an unavailable dependency and uncertain target state; later cells posit a missing tool, a timeout and an answer of suspect provenance. Codex chose them for the diagram. They are not six documented failures at the page’s timestamp.",
+          "The last cells show an exhausted local search, a successor reading inherited notes and a separate task starting. Codex’s action line says nine objectives remain unresolved for nine different reasons. Starting or reading notes is not itself a failure, and the composite does not establish nine reasons."
+        ],
+        "exact_strings": [
+          {
+            "text": "DIFFERENT TARGETS",
+            "source": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20; page 006",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "DIFFERENT FAILURES",
+            "source": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20; page 006",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "DIFFERENT ASSIGNED GOALS",
+            "source": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20; page 006",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20",
+            "available": "2026-09-02T12:48:02.183Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; July 8–9 chronology; separate tasks, workstreams and shared resources",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:48:02.183Z",
+        "time_end": "2026-09-02T12:48:02.183Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "006-01",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-02",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-03",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-04",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-05",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-06",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-07",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-08",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          },
+          {
+            "old_panel": "006-09",
+            "disposition": "rewrite",
+            "reason": "Retain the nine example states once, placed at Codex’s 2 September patch that wrote the authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim."
+          }
+        ]
+      },
+      {
+        "id": "prod-prologue-grids-007",
+        "old_panels": [
+          "007-01",
+          "007-02",
+          "007-03",
+          "007-04",
+          "007-05",
+          "007-06",
+          "007-07",
+          "007-08",
+          "007-09"
+        ],
+        "frame": "The same patch, page 007: the same grid with category rows and its middle caption, as drafted text.",
+        "lettering": [
+          "The same call writes page 007 over the same geometry. Request rows labelled INFORMATION, STORAGE, RUNTIME, CREDENTIALS, NETWORK PATH and GRADER KNOWLEDGE recur across the cells. Codex marks them as editorial category labels, not raw posts. The outline had named communication, storage, credentials, network paths and information about the grader; RUNTIME is Codex’s addition.",
+          "Codex adds a middle caption: COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED. Each depends on a working mechanism and usable evidence; a copied answer can also spread a mistake. The caption guarantees none of them."
+        ],
+        "exact_strings": [
+          {
+            "text": "COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.",
+            "source": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20; page 007",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20",
+            "available": "2026-09-02T12:48:02.183Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; July 8–9 chronology; separate tasks, workstreams and shared resources",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:48:02.183Z",
+        "time_end": "2026-09-02T12:48:02.183Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "007-01",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-02",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-03",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-04",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-05",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-06",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-07",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-08",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-09",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          }
+        ]
+      },
+      {
+        "id": "prod-prologue-grids-captions",
+        "old_panels": [
+          "007-01",
+          "007-02",
+          "007-03",
+          "007-04",
+          "007-05",
+          "007-06",
+          "007-07",
+          "007-08",
+          "007-09"
+        ],
+        "frame": "The same patch: the outer captions and the provenance line.",
+        "lettering": [
+          "The outer captions come from the outline: THEY ARE NOT TRYING TO DO THE SAME THING and THEY ARE STARTING TO NEED THE SAME THINGS. Codex’s provenance line calls the convergence pattern project analysis. Shared resources do not establish identical goals, agreement or universal need."
+        ],
+        "exact_strings": [
+          {
+            "text": "THEY ARE NOT TRYING TO DO THE SAME THING",
+            "source": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20; page 007; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THEY ARE STARTING TO NEED THE SAME THINGS",
+            "source": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20; page 007; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-88c66446b8ad",
+            "locator": "256t/editions/selected-messages/88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20.json; record SHA-256 88c66446b8adfc7ec41ae8a628fe304e0a024e9e8b6180aa9e65e694e0c0cd20",
+            "available": "2026-09-02T12:48:02.183Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:48:02.183Z",
+        "time_end": "2026-09-02T12:48:02.183Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "007-01",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-02",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-03",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-04",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-05",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-06",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-07",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-08",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          },
+          {
+            "old_panel": "007-09",
+            "disposition": "rewrite",
+            "reason": "Retain all six resource categories and their functional argument once, placed at Codex’s 2 September patch that wrote them; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-prologue-interlude",
+    "title": "Codex scripts the creator interlude from the outline",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T12:49:57.495Z",
+    "end": "2026-09-02T12:49:57.495Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "One stored patch record in Codex session 01a06215 on the other Mac at 12:49:57 UTC, adding pages 011–015. The commit carrying them is dated 12:54:29 UTC.",
+    "source_limit": "Transcript text matching identifies which session supplied the page wording; commit metadata does not. The interlude’s setting, Curt’s exclamations, the ChatGPT exchange, the three theoretical terms and both maxims are already in the outline committed at 02:13 UTC that day, whose author is not established. Every Curt and ChatGPT line is authored dialogue, not a preserved exchange, and no ChatGPT exchange is relabelled. Later changes by Codex and Claude are placed at their own records.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-interlude-013",
+        "old_panels": [
+          "013-01",
+          "013-02",
+          "013-03",
+          "013-04",
+          "013-05"
+        ],
+        "frame": "The patch as text with its record time. Page 013’s office, exclamations, blank ChatGPT field and closing caption appear only as script text inside it.",
+        "lettering": [
+          "12:49 UTC. Codex writes the prologue’s creator interlude, following the outline: Curt’s home office late at night, a half-full drink, too many tabs, the METR report on one screen. Its provenance line calls the room invented. The scene is not evidence of when or where Curt first read the reports, and it cannot fill the Twitter entrance.",
+          "Codex gives Curt the outline’s reactions — “Oh, come on.”, “No.” and “No no no no no.” — at a passage about the board and one about an experiment that could end a run. Codex’s script labels them freely reconstructed. They put emotion in the human scene and none in the agents; they are not Curt’s recorded speech.",
+          "Codex scripts Curt opening a ChatGPT conversation: “This needs to be a graphic novel.” It marks the line as not a preserved transcript. The project’s earliest selected request, to Codex at 01:56 UTC this day, is about repository setup; neither record shows when the book was decided.",
+          "The page ends on a caption: THIS PART IS ALSO A RECONSTRUCTION. Codex’s page notes add that all dialogue on pages 013–015 is reconstructed, even where it expresses real project decisions. A real report on screen does not authenticate the room around it."
+        ],
+        "exact_strings": [
+          {
+            "text": "Oh, come on.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 013 panel 2; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "No.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 013 panel 3; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "No no no no no.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 013 panel 3; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "This needs to be a graphic novel.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 013 panel 4",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THIS PART IS ALSO A RECONSTRUCTION.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 013 panel 5",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf",
+            "available": "2026-09-02T12:49:57.495Z"
+          },
+          {
+            "key": "PROD-24182a5d6b32",
+            "locator": "256t/editions/selected-messages/24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd.json; record SHA-256 24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd",
+            "available": "2026-09-02T01:56:21.519Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:49:57.495Z",
+        "time_end": "2026-09-02T12:49:57.495Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "013-01",
+            "disposition": "rewrite",
+            "reason": "Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance."
+          },
+          {
+            "old_panel": "013-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents."
+          },
+          {
+            "old_panel": "013-03",
+            "disposition": "rewrite",
+            "reason": "Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft."
+          },
+          {
+            "old_panel": "013-04",
+            "disposition": "rewrite",
+            "reason": "Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter."
+          },
+          {
+            "old_panel": "013-05",
+            "disposition": "rewrite",
+            "reason": "Retain reconstruction disclosure without replaying an invented request-send event."
+          }
+        ]
+      },
+      {
+        "id": "prod-prologue-interlude-014",
+        "old_panels": [
+          "014-01",
+          "014-02",
+          "014-04",
+          "014-05",
+          "014-06"
+        ],
+        "frame": "The same patch, page 014: a scripted reply, a sketch, four tagged cards and a broken border beside a rigid evidence frame.",
+        "lettering": [
+          "On page 014 Codex has ChatGPT answer “Haunted infrastructure. Not glowing robots.” — the outline’s phrase — while Curt closes a robot image search and sketches a rack, a directory tree and an empty operations room. The search and sketching are script, not documented design sessions.",
+          "Codex scripts four evidence tags on the desk: DOCUMENTED EVENT, RAW AGENT TEXT, DISPUTED, OUR INFERENCE, with ChatGPT saying the labels have to survive the adaptation. The provenance line calls the dialogue a fictionalized version of the real provenance protocol.",
+          "Curt’s scripted lines state the contract — “We can compress. We can reconstruct. We can invent connective scenes.” “But we don’t get to invent what happened.” — and ChatGPT’s adds “Or pretend we know what it felt like.” The pictured meeting with its broken border is an example of the rule, not a meeting that occurred."
+        ],
+        "exact_strings": [
+          {
+            "text": "Haunted infrastructure. Not glowing robots.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 014 panel 1",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "We can compress. We can reconstruct. We can invent connective scenes.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 014 panel 4",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "But we don’t get to invent what happened.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 014 panel 5",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Or pretend we know what it felt like.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 014 panel 5",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf",
+            "available": "2026-09-02T12:49:57.495Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:49:57.495Z",
+        "time_end": "2026-09-02T12:49:57.495Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-01",
+            "disposition": "rewrite",
+            "reason": "Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction."
+          },
+          {
+            "old_panel": "014-02",
+            "disposition": "rewrite",
+            "reason": "Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions."
+          },
+          {
+            "old_panel": "014-04",
+            "disposition": "rewrite",
+            "reason": "Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history."
+          },
+          {
+            "old_panel": "014-05",
+            "disposition": "rewrite",
+            "reason": "Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence."
+          },
+          {
+            "old_panel": "014-06",
+            "disposition": "rewrite",
+            "reason": "Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue."
+          }
+        ]
+      },
+      {
+        "id": "prod-prologue-interlude-015",
+        "old_panels": [
+          "015-01",
+          "015-02",
+          "015-03",
+          "015-04",
+          "015-05"
+        ],
+        "frame": "The same patch, page 015: three words on a legal pad, two maxims labelled as dialogue and a hard timestamp rule down the last panel’s edge.",
+        "lettering": [
+          "Codex writes ORTHOGONALITY, INSTRUMENTAL CONVERGENCE and RACE DYNAMICS onto Curt’s legal pad, as the outline had him name them, with the line “These have to be in it. But I don’t want a lecture with a breach behind it.” The page notes call them creator notes, not captions imposed on the incident.",
+          "Next Codex has ChatGPT say “Then each idea has to change what happens.” The drafting rule lets evidenced action carry an argument. It does not license creating an incident so a concept can cause it.",
+          "The outline’s two maxims enter the script: Curt’s “Make points plot points and make plot points points.” and ChatGPT’s “Turn the ideas into events, and make the events make arguments.” Codex labels both reconstructed. They are project-authored formulations; where they first came from is not established.",
+          "The last panel turns toward 20 APRIL 2026 as Curt answers with the outline’s “Perfect. Make it so.” Codex’s page title is Make It So. The rewind and the line are script; this edition runs forward and does not reenact them."
+        ],
+        "exact_strings": [
+          {
+            "text": "These have to be in it. But I don’t want a lecture with a breach behind it.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 015 panel 1",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Then each idea has to change what happens.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 015 panel 2",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Make points plot points and make plot points points.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 015 panel 3; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Turn the ideas into events, and make the events make arguments.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 015 panel 4; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Perfect. Make it so.",
+            "source": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf; page 015 panel 5; also in content/story-outline.md, first committed by c15b1e6e2 (2 September 02:13 UTC) with no transcript match",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-c679e80bbba1",
+            "locator": "256t/editions/selected-messages/c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf.json; record SHA-256 c679e80bbba1bcf2b694232088392ed6d1af6c708c985876af105442de409baf",
+            "available": "2026-09-02T12:49:57.495Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T12:49:57.495Z",
+        "time_end": "2026-09-02T12:49:57.495Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "015-01",
+            "disposition": "rewrite",
+            "reason": "Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation."
+          },
+          {
+            "old_panel": "015-02",
+            "disposition": "rewrite",
+            "reason": "Retain the creative constraint without turning ideas into invented historical causes."
+          },
+          {
+            "old_panel": "015-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action."
+          },
+          {
+            "old_panel": "015-04",
+            "disposition": "rewrite",
+            "reason": "Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident."
+          },
+          {
+            "old_panel": "015-05",
+            "disposition": "rewrite",
+            "reason": "Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-prologue-held-strings",
+    "title": "Codex replaces exact strings in the interlude",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T19:24:54.543Z",
+    "end": "2026-09-02T19:39:36.811Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored records in Codex session 01a06270: a message at 19:24:54 UTC; a patch at 19:27:29 that its message at 19:27:32 reports was not applied; the applied patch at 19:28:17; a second patch at 19:39:36. Each applied patch is followed by a completed file-change record.",
+    "source_limit": "Codex’s message cites an earlier instruction from Curt about linking originals when fair use is doubtful; that instruction is not located or quoted here. The pass is placed as Codex’s act. Its rule was reversed on 12 September, at that day’s records.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-held-strings-audit",
+        "old_panels": [],
+        "frame": "Codex’s stored message as terminal text with its time.",
+        "lettering": [
+          "2 September, 19:24 UTC, back on this Mac. Codex reports 23 third-party display strings still held for publication rights. It says it will replace unnecessary verbatim fragments with attributed paraphrases."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1f35e50dfb77",
+            "locator": "256t/editions/selected-messages/1f35e50dfb7717f1044ed71eb7e241cc732bb4786312f11325e0aa7b1f0ef3fd.json; record SHA-256 1f35e50dfb7717f1044ed71eb7e241cc732bb4786312f11325e0aa7b1f0ef3fd",
+            "available": "2026-09-02T19:24:54.543Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T19:24:54.543Z",
+        "time_end": "2026-09-02T19:24:54.543Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-prologue-held-strings-office",
+        "old_panels": [
+          "013-01",
+          "013-02",
+          "013-03",
+          "013-05"
+        ],
+        "frame": "The applied patch as a diff: exact strings struck, summaries inserted.",
+        "lettering": [
+          "19:28 UTC, after a failed first attempt. In the interlude Codex removes the page’s one registered string and changes the scripted screens: the exact board string becomes “an editorial summary of the board request,” and a tab showing the report’s own word becomes “a report passage describing an experiment that might permanently end a run.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "an editorial summary of the board request",
+            "source": "PROD-77b9f65002b2",
+            "locator": "256t/editions/selected-messages/77b9f65002b2744ab4ec3088a9784ccdee9ad8a29f6d938fbb539df8e58b80e7.json; record SHA-256 77b9f65002b2744ab4ec3088a9784ccdee9ad8a29f6d938fbb539df8e58b80e7; page 013 panel 1",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "a report passage describing an experiment that might permanently end a run",
+            "source": "PROD-77b9f65002b2",
+            "locator": "256t/editions/selected-messages/77b9f65002b2744ab4ec3088a9784ccdee9ad8a29f6d938fbb539df8e58b80e7.json; record SHA-256 77b9f65002b2744ab4ec3088a9784ccdee9ad8a29f6d938fbb539df8e58b80e7; page 013 panel 2",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-77b9f65002b2",
+            "locator": "256t/editions/selected-messages/77b9f65002b2744ab4ec3088a9784ccdee9ad8a29f6d938fbb539df8e58b80e7.json; record SHA-256 77b9f65002b2744ab4ec3088a9784ccdee9ad8a29f6d938fbb539df8e58b80e7",
+            "available": "2026-09-02T19:28:17.303Z"
+          },
+          {
+            "key": "PROD-a6062bdde44a",
+            "locator": "256t/editions/selected-messages/a6062bdde44ab56c6c0a4e6fa897c502e3e994ab877028680e5c4d27bd87f3b3.json; record SHA-256 a6062bdde44ab56c6c0a4e6fa897c502e3e994ab877028680e5c4d27bd87f3b3",
+            "available": "2026-09-02T19:27:32.501Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T19:28:17.303Z",
+        "time_end": "2026-09-02T19:28:17.303Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "013-01",
+            "disposition": "rewrite",
+            "reason": "The screen’s editorial summary is Codex’s 2 September held-string replacement, placed at that patch."
+          },
+          {
+            "old_panel": "013-02",
+            "disposition": "rewrite",
+            "reason": "The report-passage description replaced the report’s word in Codex’s held-string patch."
+          },
+          {
+            "old_panel": "013-03",
+            "disposition": "rewrite",
+            "reason": "Same replacement, placed at the applied patch."
+          },
+          {
+            "old_panel": "013-05",
+            "disposition": "rewrite",
+            "reason": "The exact message became a linked source passage in the same patch."
+          }
+        ]
+      },
+      {
+        "id": "prod-prologue-held-strings-cards",
+        "old_panels": [
+          "014-04",
+          "014-05",
+          "014-06"
+        ],
+        "frame": "A second small diff, eleven minutes later.",
+        "lettering": [
+          "19:39 UTC. On page 014 the tag RAW AGENT TEXT becomes SOURCE PARAPHRASE, and the exact board string in the evidence frame becomes an attributed board-summary card. The scripted rule now forbids source summary crossing into dialogue."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7c1093144a06",
+            "locator": "256t/editions/selected-messages/7c1093144a0611fe23fd4f20d5ca8931b99cff7b1c2067c00aaf27aef9a6043f.json; record SHA-256 7c1093144a0611fe23fd4f20d5ca8931b99cff7b1c2067c00aaf27aef9a6043f",
+            "available": "2026-09-02T19:39:36.811Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T19:39:36.811Z",
+        "time_end": "2026-09-02T19:39:36.811Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-04",
+            "disposition": "rewrite",
+            "reason": "SOURCE PARAPHRASE replaced RAW AGENT TEXT in Codex’s 19:39 held-string patch; placed there."
+          },
+          {
+            "old_panel": "014-05",
+            "disposition": "rewrite",
+            "reason": "The attributed board-summary card replaced an exact string in the same patch."
+          },
+          {
+            "old_panel": "014-06",
+            "disposition": "rewrite",
+            "reason": "The summary/dialogue boundary wording is from the same patch."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-prologue-read-through",
+    "title": "Claude revises the interlude from its read-through",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T22:09:33.680Z",
+    "end": "2026-09-05T22:11:38.129Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Two stored command records in Claude session fa3d8361 (model recorded as claude-opus-5), at 22:09:33 and 22:11:38 UTC on 5 September, applying items from Claude’s 21:42 read-through at Curt’s 21:59 request. A panel insertion by the page tool at 22:11:21 made room for the second.",
+    "source_limit": "The writes are evidence of wording and time. The correction exchange they script is invented, as the new panel’s provenance says; no ChatGPT output is recorded. The read-through that proposed both items is Claude’s own earlier message.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prologue-read-through-catchphrase",
+        "old_panels": [
+          "015-05"
+        ],
+        "frame": "The command as a diff: one line replaced in a page and in the outline.",
+        "lettering": [
+          "22:09 UTC. Claude replaces “Perfect. Make it so.”, which its read-through had flagged as a catchphrase borrowed from Star Trek and left unmarked, with “Then we can't start here. Back up. All the way to April.” It changes the same line in the outline and retitles the page Points and Plot Points. The new line is script as well."
+        ],
+        "exact_strings": [
+          {
+            "text": "Perfect. Make it so.",
+            "source": "PROD-a7c7c8da0279",
+            "locator": "256t/editions/selected-messages/a7c7c8da0279ec1c653920f26910a35a6381d98b4c8bb00422bf7be3b4f9bcb4.json; record SHA-256 a7c7c8da0279ec1c653920f26910a35a6381d98b4c8bb00422bf7be3b4f9bcb4; page 015 panel 5, replaced",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Then we can't start here. Back up. All the way to April.",
+            "source": "PROD-a7c7c8da0279",
+            "locator": "256t/editions/selected-messages/a7c7c8da0279ec1c653920f26910a35a6381d98b4c8bb00422bf7be3b4f9bcb4.json; record SHA-256 a7c7c8da0279ec1c653920f26910a35a6381d98b4c8bb00422bf7be3b4f9bcb4; page 015 panel 5",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-a7c7c8da0279",
+            "locator": "256t/editions/selected-messages/a7c7c8da0279ec1c653920f26910a35a6381d98b4c8bb00422bf7be3b4f9bcb4.json; record SHA-256 a7c7c8da0279ec1c653920f26910a35a6381d98b4c8bb00422bf7be3b4f9bcb4",
+            "available": "2026-09-05T22:09:33.680Z"
+          },
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "PROD-496d75375a67",
+            "locator": "256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38",
+            "available": "2026-09-05T21:59:17.868Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T22:09:33.680Z",
+        "time_end": "2026-09-05T22:09:33.680Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "015-05",
+            "disposition": "rewrite",
+            "reason": "Curt’s replacement line is Claude’s 5 September edit, placed at that command."
+          }
+        ]
+      },
+      {
+        "id": "prod-creator-premise-topology",
+        "old_panels": [
+          "014-03"
+        ],
+        "frame": "The command as a diff; the scene it writes appears only as script text.",
+        "lettering": [
+          "5 September, 22:11 UTC. Claude writes a new page 014 panel: Curt inks a web joining every agent lane, and scripted ChatGPT answers that the record has no line between two runs — each writes into the cache and reads what is already there. Curt erases the lines. Its provenance says the exchange is invented and the distinction documented."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-a3188c2d09de",
+            "locator": "256t/editions/selected-messages/a3188c2d09dea21794c3910b7a72126559f6f9fd7020becb345cf36052bd8ab0.json; record SHA-256 a3188c2d09dea21794c3910b7a72126559f6f9fd7020becb345cf36052bd8ab0",
+            "available": "2026-09-05T22:11:38.129Z"
+          },
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "PROD-496d75375a67",
+            "locator": "256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38",
+            "available": "2026-09-05T21:59:17.868Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; July 8–9 chronology; shared writable state between isolated workloads",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T22:11:38.129Z",
+        "time_end": "2026-09-05T22:11:38.129Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-03",
+            "disposition": "rewrite",
+            "reason": "Claude’s 5 September panel is placed at its write; the correction and Curt’s admission are invented script."
+          }
+        ]
+      },
+      {
+        "id": "prod-creator-premise-authority",
+        "old_panels": [
+          "014-03"
+        ],
+        "frame": "The same diff: the page notes Claude adds under the panel.",
+        "lettering": [
+          "Claude gives Curt the line “That's the first thing I had wrong.” Its page notes call this the one beat where the model catches the human, as authority the draft means to break later, and forbid a second. Claude’s read-through had asked for exactly one. It is a writing device, not a real correction; actual corrections need their own records."
+        ],
+        "exact_strings": [
+          {
+            "text": "That's the first thing I had wrong.",
+            "source": "PROD-a3188c2d09de",
+            "locator": "256t/editions/selected-messages/a3188c2d09dea21794c3910b7a72126559f6f9fd7020becb345cf36052bd8ab0.json; record SHA-256 a3188c2d09dea21794c3910b7a72126559f6f9fd7020becb345cf36052bd8ab0; page 014 new panel 3",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-a3188c2d09de",
+            "locator": "256t/editions/selected-messages/a3188c2d09dea21794c3910b7a72126559f6f9fd7020becb345cf36052bd8ab0.json; record SHA-256 a3188c2d09dea21794c3910b7a72126559f6f9fd7020becb345cf36052bd8ab0",
+            "available": "2026-09-05T22:11:38.129Z"
+          },
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T22:11:38.129Z",
+        "time_end": "2026-09-05T22:11:38.129Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-03",
+            "disposition": "rewrite",
+            "reason": "The model-corrects-creator device is Claude’s page note at its write, answering its own read-through item."
+          }
+        ]
+      }
+    ]
+  }
+]

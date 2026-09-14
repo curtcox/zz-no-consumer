@@ -1125,5 +1125,110 @@
     "admission": "Hard Fork, 4 September: Ajeya Cotra’s attributed account of her investigation, from the automatic video transcript Curt supplied. Admitted only for item 1, model-built navigation tooling and subagent reading; not verified against audio or METR’s report. Hosts’ framing and numbers remain unadmitted.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://www.youtube.com/watch?v=JtmUbZRCpEI"
+  },
+  "PROD-afdc4670fddb": {
+    "available": "2026-09-02T12:29:12.418Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Prologue readiness questions: Codex reports no pre-writing blockers and asks three questions, including whether Curt's scenes may use freely reconstructed dialogue and invented domestic details. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-537677e00c80": {
+    "available": "2026-09-02T12:38:50.090Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Prologue readiness answers: Curt answers Codex's three numbered questions yes. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-3a6ff32fc090": {
+    "available": "2026-09-02T12:39:35.453Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Prologue drafting request: Curt asks Codex to do the proposed prologue work. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-88c66446b8ad": {
+    "available": "2026-09-02T12:48:02.183Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Prologue drafting: Codex's tool call adds page scripts 006–010, including the two nine-panel grids (frozen 006 and 007). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-c679e80bbba1": {
+    "available": "2026-09-02T12:49:57.495Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Prologue drafting: Codex's tool call adds page scripts 011–015, including the creator interlude (frozen 013–015). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-1f35e50dfb77": {
+    "available": "2026-09-02T19:24:54.543Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex reports 23 third-party display strings still held for publication rights and says it will replace unnecessary verbatim fragments with attributed paraphrases. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-a6062bdde44a": {
+    "available": "2026-09-02T19:27:32.501Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex reports that one patch failed to apply and nothing from it was applied. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-77b9f65002b2": {
+    "available": "2026-09-02T19:28:17.303Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex's tool call replaces the exact board string and exact report wording in the creator interlude (frozen 013) with editorial summaries. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-7c1093144a06": {
+    "available": "2026-09-02T19:39:36.811Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex's tool call changes the creator interlude's evidence cards from raw agent text and an exact board string to source paraphrase and an attributed summary (frozen 014). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-a7c7c8da0279": {
+    "available": "2026-09-05T22:09:33.680Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Read-through revisions: Claude's command replaces Curt's scripted 'Make it so' line on page 015 and in the outline, and retitles the page. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-a3188c2d09de": {
+    "available": "2026-09-05T22:11:38.129Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Read-through revisions: Claude's command writes the new page 014 panel in which scripted ChatGPT corrects Curt's drawing, with page notes limiting it to one correction. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-28b95e282969": {
+    "available": "2026-09-04T00:36:59.659Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Training-configuration request: Curt says training and breeding goals and techniques are missing from Claude's priorities although they are behind it all. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-8082d4a71d87": {
+    "available": "2026-09-04T03:12:35.432Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Training configuration page: Claude's Write rebuilds page 016 around OpenAI's conference account of training and evaluation configuration. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-fe739f87919e": {
+    "available": "2026-09-06T14:51:06.728Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Five-defect fixes: Claude's command changes the page 016 caption from 'three weeks afterward' to 'weeks later'. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-1ea7a01b87ed": {
+    "available": "2026-09-02T12:39:01.137Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Prologue readiness confirmation: Codex restates Curt's three answers, including that Curt's scenes may use reconstructed dialogue and invented domestic details, and names the prologue source packet, page scaffolding and panel drafting as next. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }
