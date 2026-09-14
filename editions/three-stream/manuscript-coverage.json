@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 300,
-  "drafted_beats": 999,
+  "scenes": 320,
+  "drafted_beats": 1047,
   "canonical_pages": null,
-  "associated_old_panels": 553,
+  "associated_old_panels": 602,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4074,344 +4074,459 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "083-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-integrity-access"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "083-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-integrity-access"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "083-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-integrity-scan",
+        "prod-observer-integrity-conclusion"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "083-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-integrity-scan"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "083-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-integrity-conclusion"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "084-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "084-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "084-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "084-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "084-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "085-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "085-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "085-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation",
+        "prod-mirror-caption"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "085-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation",
+        "prod-mirror-traffic"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "085-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-mediation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "086-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-lane"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "086-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-lane"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "086-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-fallback-notice",
+        "prod-instrument-record-correction",
+        "prod-instrument-pages-notices"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "086-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-record-earlier",
+        "prod-instrument-pages-notices"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "086-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-fallback-notice",
+        "prod-instrument-record-earlier",
+        "prod-instrument-pages-notices"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "086-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-fallback-retracted",
+        "prod-instrument-fallback-successor",
+        "prod-instrument-record-gaps",
+        "prod-instrument-pages-notices"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "087-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-column"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "087-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-column"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "087-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-column"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "087-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-trade"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "087-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-trade"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "087-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-instrument-pages-trade"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-ranking-tag",
+        "prod-ranking-survives"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-ranking-survives",
+        "prod-critic-delegation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-labels"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-labels"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-labels"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-labels"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "088-07",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-labels"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "089-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "089-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "089-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis",
+        "prod-critic-selection"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "089-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis",
+        "prod-critic-selection"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "089-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "090-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "090-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-pressure"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "090-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "090-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "090-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-observer-thesis"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "091-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-hardening-paths"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "091-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-hardening-metadata",
+        "hf-hardening-rotation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "091-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-hardening-rebuild",
+        "hf-hardening-connector"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "091-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-hardening-detection"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "091-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-vendor-fix-release"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5820,13 +5935,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 400,
+    "HuggingFace": 407,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
-    "Curt": 28,
-    "Codex": 98,
-    "Claude": 297
+    "Curt": 38,
+    "Codex": 109,
+    "Claude": 317
   },
-  "reviewed_old_panels": 542,
-  "reviewed_source_elements": 1532
+  "reviewed_old_panels": 591,
+  "reviewed_source_elements": 1676
 }

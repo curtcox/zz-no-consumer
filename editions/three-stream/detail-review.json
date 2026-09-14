@@ -24784,5 +24784,2175 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "083-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-083-01-detail-01",
+        "original_sha256": "fa8b966e7156cfbaa3bc49bebf830204decd39c863fd4e9539a3e3f9185dd055",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-access"
+        ],
+        "reason": "Timeline cards and capability action become text in Codex’s dated patch; METR’s footnote supplies the access and retrieval order. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-integrity-access": "85a1e9305b5b8c4a08d274b240b81ec9c24a5e79514e40e2e5e4859ce78071da"
+        }
+      },
+      {
+        "id": "legacy-083-01-detail-02",
+        "original_sha256": "d628d340c63eb76f262fbe1229ab71119fcf1836532797800e563e85e8e675fa",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-access"
+        ],
+        "reason": "Timeline cards and capability action become text in Codex’s dated patch; METR’s footnote supplies the access and retrieval order. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-integrity-access": "85a1e9305b5b8c4a08d274b240b81ec9c24a5e79514e40e2e5e4859ce78071da"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "083-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-083-02-detail-01",
+        "original_sha256": "af1646c99f0228da2d229b84e8e7f4da61e1b05b0a0ca43846902e1baa39ff71",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-access"
+        ],
+        "reason": "Sealed archive and dotted path were authored staging; the possibility is kept without an invented access event. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-integrity-access": "85a1e9305b5b8c4a08d274b240b81ec9c24a5e79514e40e2e5e4859ce78071da"
+        }
+      },
+      {
+        "id": "legacy-083-02-detail-03",
+        "original_sha256": "f6137726140c53beaeadc93ba680a5641635e352bc5277134d97307e3497aa27",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-integrity-access"
+        ],
+        "reason": "Access creates possibility; it does not prove alteration. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-integrity-access": "85a1e9305b5b8c4a08d274b240b81ec9c24a5e79514e40e2e5e4859ce78071da"
+        }
+      },
+      {
+        "id": "legacy-083-02-detail-04",
+        "original_sha256": "1316255a00ef0ebbc6449618f5e9037e9d1928996110055d7b57563aaf9629e2",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-integrity-access"
+        ],
+        "reason": "Access creates possibility; it does not prove alteration. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-integrity-access": "85a1e9305b5b8c4a08d274b240b81ec9c24a5e79514e40e2e5e4859ce78071da"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "083-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-083-03-detail-01",
+        "original_sha256": "8c6ed2059151d2f6e764d818e78f7f6a831d83012278757a942cc8387bdd2fb3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-scan"
+        ],
+        "reason": "METR reports attempts without observed success in scanned transcripts; it does not report a scan establishing no material alteration. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-integrity-scan": "f5714ff8550ccfec163967fed2d6c61fcc8c64f7a4d27581d8e823455e57305f"
+        }
+      },
+      {
+        "id": "legacy-083-03-detail-02",
+        "original_sha256": "29b8ec9d11a27e2aa08b122049eff3ea72cfb3aecb12ab42ef0142c07beba8bc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-scan",
+          "prod-observer-integrity-conclusion"
+        ],
+        "reason": "Negative evidence is bounded by the searched records and joined to METR’s stated reasons. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-integrity-scan": "f5714ff8550ccfec163967fed2d6c61fcc8c64f7a4d27581d8e823455e57305f",
+          "prod-observer-integrity-conclusion": "8fefb000661607b19f012cf81d19a510591204166759e4bfe3ca3b21c69356dd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "083-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-083-04-detail-01",
+        "original_sha256": "3256c95ef7a3566473a96044f9402b12c7d30862814dce301fb4846596d9611a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-scan"
+        ],
+        "reason": "Later-period transcripts were unavailable and METR says it did not check that period. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-integrity-scan": "f5714ff8550ccfec163967fed2d6c61fcc8c64f7a4d27581d8e823455e57305f"
+        }
+      },
+      {
+        "id": "legacy-083-04-detail-03",
+        "original_sha256": "692d9f79d5707615b27f4da8d6c38958e536bd608517e2e1a600014ff0a0b159",
+        "disposition": "combine",
+        "beats": [
+          "prod-observer-integrity-scan"
+        ],
+        "reason": "Revised 12 September in a commit with no matching transcript; its point is METR’s footnote and stays with that source. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-integrity-scan": "f5714ff8550ccfec163967fed2d6c61fcc8c64f7a4d27581d8e823455e57305f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "083-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-083-05-detail-01",
+        "original_sha256": "f5752641fc830ac3fe88a98961eb6302765737bd3f14626add482b26c8fb00d0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-integrity-conclusion"
+        ],
+        "reason": "The evidence/event split becomes an open integrity question on retained evidence. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-integrity-conclusion": "8fefb000661607b19f012cf81d19a510591204166759e4bfe3ca3b21c69356dd"
+        }
+      },
+      {
+        "id": "legacy-083-05-detail-03",
+        "original_sha256": "8e686eaec3fa3631d8326d274f9f7a96be47cdc794b94d7d8ee130d599d30527",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-integrity-conclusion"
+        ],
+        "reason": "METR’s view that alteration is unlikely; possible, not established. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-integrity-conclusion": "8fefb000661607b19f012cf81d19a510591204166759e4bfe3ca3b21c69356dd"
+        }
+      },
+      {
+        "id": "legacy-083-05-detail-04",
+        "original_sha256": "2a9db016f2a95348065dd952e1fa55c64506a9a0ee6ee04813cd1cfe90d75df2",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-integrity-conclusion"
+        ],
+        "reason": "Now METR’s own wording, registered. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-integrity-conclusion": "8fefb000661607b19f012cf81d19a510591204166759e4bfe3ca3b21c69356dd"
+        }
+      },
+      {
+        "id": "legacy-083-05-detail-05",
+        "original_sha256": "736c8cba90c04bf9b8032c172ee3150be4acbeb206e4b0fc02be7bf31a66e335",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-integrity-conclusion"
+        ],
+        "reason": "METR’s view that alteration is unlikely; possible, not established. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-integrity-conclusion": "8fefb000661607b19f012cf81d19a510591204166759e4bfe3ca3b21c69356dd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "084-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-084-01-detail-01",
+        "original_sha256": "981b71e3a2886a92a466e2971c1edc0dfbed3769c1f9a4c27855528a3787feca",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-01-detail-02",
+        "original_sha256": "91ca451539e41da23bcb1a664cf30e72cb12515b6c8b2b494ac1745d8b8914ca",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-01-detail-03",
+        "original_sha256": "ab3aa0f4eb715f098d188279199bcb49eae1cb5d60139d0f0f1ec35fb99a7584",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "084-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-084-02-detail-01",
+        "original_sha256": "9c5cc0577e7be335f60a4b17fa74dee0158d7bf76b5db3901f4ffc45ccb28895",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-02-detail-03",
+        "original_sha256": "fdbb6b64c58042a3123be7c6bf7e05dd00619b07fdcbc6c92762b49a4501f519",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "084-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-084-03-detail-01",
+        "original_sha256": "ff64d936ccaf49713d4633cf56f8d2adb5e4c608245b87c1188989a50c64cea7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-03-detail-02",
+        "original_sha256": "8a9a088f00238a5f7aa9537279e9c9011af2f8e357f0542dcc9e3467366f52ef",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-03-detail-03",
+        "original_sha256": "3f6f5ae59b2c05c2a8b271bb4438da3bc4b27966b357ef26290f334fbf3a3586",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "084-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-084-04-detail-01",
+        "original_sha256": "53f4bdf197b04dfc911d1b8937bd84622865549d37ee0f5e8fe960f63f27450b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-04-detail-03",
+        "original_sha256": "4fe367fa5864ab8718a3d8f8224211499573769c4856d0600d86b52bba7e28d2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "084-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-084-05-detail-01",
+        "original_sha256": "3232def2a6ea18d4bd191a9a361698091fe8533605d0c24d0481ccbf8391d7e3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-084-05-detail-03",
+        "original_sha256": "711d74faa5dcaa8a888cfc5a1658eeab438761100a4676dc75d479cc101fce0a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "085-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-085-01-detail-01",
+        "original_sha256": "7ff6d77960c80f1a2c9d0a40773139c014e98c4937a271944c586db9a535f1d1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Shared use of models kept; METR’s side sourced, the creator side authored. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-085-01-detail-03",
+        "original_sha256": "d622f105498beefa622c068409e1b2586a5db781e294beaeb0bbe86c1fc25b6d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Shared use of models kept; METR’s side sourced, the creator side authored. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "085-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-085-02-detail-01",
+        "original_sha256": "b2132520882fe35855675d51a33116ecb0f81aa729b7237678aa67afa240f874",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Unequal access kept with METR’s scoped sources. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-085-02-detail-03",
+        "original_sha256": "94ec753941fd4ca2e0b20a5d617cce3055df0d9e46e32f5a045d6137906a6b38",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Unequal access kept with METR’s scoped sources. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-085-02-detail-04",
+        "original_sha256": "15d0061e71d9fbe21b23f033c244a0c24fafe9e05d49dd6eb5e76e0a1bff44bf",
+        "disposition": "combine",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Revised 12 September in a commit with no matching transcript; access, purpose and responsibility differences are kept. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "085-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-085-03-detail-01",
+        "original_sha256": "da6af85eb1878c2a1ef0d106662a2e7bccbb0dd02981e81eec6560465ec545d3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Codex’s mandate-versus-brief frame kept in the mediation beat. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-085-03-detail-03",
+        "original_sha256": "da1f989074cbc6b07d52e242b2a33212b448a9db80e977ad8915330fcc593fed",
+        "disposition": "retain",
+        "beats": [
+          "prod-mirror-caption"
+        ],
+        "reason": "Claude’s 5 September caption, placed at its own edit record. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-mirror-caption": "bea769fbd492a087b76ea55b369c0778248aac16154cc92510ed31272f6b77df"
+        }
+      },
+      {
+        "id": "legacy-085-03-detail-04",
+        "original_sha256": "1d4ae5ee93a62a4b4f6e5b68f3cb403a7e8457ce5a14b5319136da198803709e",
+        "disposition": "retain",
+        "beats": [
+          "prod-mirror-caption"
+        ],
+        "reason": "Claude’s 5 September caption, placed at its own edit record. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-mirror-caption": "bea769fbd492a087b76ea55b369c0778248aac16154cc92510ed31272f6b77df"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "085-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-085-04-detail-01",
+        "original_sha256": "79a3e0deea1a35b2df734d34fab3c2120b0ebc0d4953df5d6276a12009ad0280",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-mirror-traffic"
+        ],
+        "reason": "Claude’s 5 September frame and action, placed at its edit; the ChatGPT catch stays marked as authored. Reviewed frame element.",
+        "target_sha256": {
+          "prod-mirror-traffic": "05b0acf54e7e79ce81bc24f8304a99ad39295dbfca3d28a6a48a21c49465dfe0"
+        }
+      },
+      {
+        "id": "legacy-085-04-detail-02",
+        "original_sha256": "3ad83593a8eb3a413d31e051653bf6f737f23e7bf0b354401bd4078860652711",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-mirror-traffic"
+        ],
+        "reason": "Claude’s 5 September frame and action, placed at its edit; the ChatGPT catch stays marked as authored. Reviewed action element.",
+        "target_sha256": {
+          "prod-mirror-traffic": "05b0acf54e7e79ce81bc24f8304a99ad39295dbfca3d28a6a48a21c49465dfe0"
+        }
+      },
+      {
+        "id": "legacy-085-04-detail-03",
+        "original_sha256": "b8e359585cf341debf9f2167c6c61ae8210e8bb35ccdf9b421d161dd80c3aeb1",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "A model’s output is material for judgment, not judgment. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "085-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-085-05-detail-01",
+        "original_sha256": "b2a9c458c085dbfa6a34a96ecb067795c037c0fbc0d38ab38460dc91d8dab743",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "The cracked mirror is staging; resemblance without equivalence is kept. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-085-05-detail-03",
+        "original_sha256": "473b0de74a95bd569670247e83d1491497f829431d00feeaf961c937fe3226e7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Observer/observed resemblance kept inside the non-equivalence statement. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      },
+      {
+        "id": "legacy-085-05-detail-04",
+        "original_sha256": "a2abb52f37b36b9a184b5e64543b11ab6bfca4a6805c4c542b0a4f4185f7a6ee",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-mediation"
+        ],
+        "reason": "Observer/observed resemblance kept inside the non-equivalence statement. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "086-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-086-01-detail-01",
+        "original_sha256": "2d176dfe859f5122a1c68e44e7e02bdbc56af0092c937614399d4a94a9cc9529",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "The return of the two-instrument diagram is Claude’s written page; cross-page gaze choreography is old-edition layout. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      },
+      {
+        "id": "legacy-086-01-detail-02",
+        "original_sha256": "d0d72e642433eecd0a9212a486f6e6202415784ad699c10e517ec7239eed1f8c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "The return of the two-instrument diagram is Claude’s written page; cross-page gaze choreography is old-edition layout. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      },
+      {
+        "id": "legacy-086-01-detail-03",
+        "original_sha256": "0c29b87a304225e90e260dd52d3f0da9c8251e6cc5f169598e409270182ce9b9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "The return of the two-instrument diagram is Claude’s written page; cross-page gaze choreography is old-edition layout. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "086-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-086-02-detail-01",
+        "original_sha256": "68cd3314fcf21872f59983fbb2aaa6cfa00f5f53d66eb7e1d774a71aa1ba1abb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "Tooling lane kept as a non-conversational register in Claude’s page. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      },
+      {
+        "id": "legacy-086-02-detail-02",
+        "original_sha256": "3a8ce754a15c9b2ee841ee0013f8ad1579e1f5e8170cecee8fe8a6ee4106aa67",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "Tooling lane kept as a non-conversational register in Claude’s page. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      },
+      {
+        "id": "legacy-086-02-detail-03",
+        "original_sha256": "89aab1ba5f4185c2cd621c86c5bd677ede03358be64acb2fc91a520dbeda3da7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "Tooling lane kept as a non-conversational register in Claude’s page. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      },
+      {
+        "id": "legacy-086-02-detail-04",
+        "original_sha256": "2476d9a0fa883a7121b2e5a7eff3741a243330297e5b1328c609e6d834742262",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "Tooling lane kept as a non-conversational register in Claude’s page. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      },
+      {
+        "id": "legacy-086-02-detail-05",
+        "original_sha256": "dbc27f913781a4f17f8ea20bbac1359135b49c72b22791721c8244bc0c272f93",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-lane"
+        ],
+        "reason": "The second-model authorship claim rests on commit trailers, which do not identify authoring agents; the beat states that limit. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-lane": "666a3792c0101ab26e4030d5292b00aa15dedaf6c615f42e32c25f3a7a5fb9e4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "086-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-086-03-detail-01",
+        "original_sha256": "32ab0f4f7ccded913def6574fae91b787a226734c2aecf801d027f4e77f7d10a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-notice",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The stored event sits at 00:17:17 UTC with Curt’s local 19:17 kept; the page’s staging becomes Claude’s writing act. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-fallback-notice": "df76bb8f2fe249468225fad2749471188547843830abc8c0309ab2d261b1e349",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-03-detail-02",
+        "original_sha256": "0ef081f1b22f282a5979a3f54d7f2490fa79bf1b77d83c3d1b43db9c95943cf2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-notice",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The stored event sits at 00:17:17 UTC with Curt’s local 19:17 kept; the page’s staging becomes Claude’s writing act. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-fallback-notice": "df76bb8f2fe249468225fad2749471188547843830abc8c0309ab2d261b1e349",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-03-detail-03",
+        "original_sha256": "53a69616ee12ec02896aff3be8e4d1ae1f092a51fe0a1dc7dea171f0e0862c6e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-notice",
+          "prod-instrument-record-correction",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "A paraphrase in notice shape is replaced by the verbatim stored notice, registered; the banner/notice difference is Claude’s correction. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-fallback-notice": "df76bb8f2fe249468225fad2749471188547843830abc8c0309ab2d261b1e349",
+          "prod-instrument-record-correction": "e139050cb9c6af54ebc4ad9cc00b1931e12f84b3613094540cb75a2be5db392d",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-03-detail-04",
+        "original_sha256": "b968270a650681680e00e0591153140b8d39e1744f052873cb608bbe1176d919",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-notice"
+        ],
+        "reason": "The category is kept as the record’s field, not lettered in a notice shape. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-fallback-notice": "df76bb8f2fe249468225fad2749471188547843830abc8c0309ab2d261b1e349"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "086-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-086-04-detail-01",
+        "original_sha256": "17a9f37b21bc2464bf579312922a8fe2a560d283e6d602c6e921aec27052f6a6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-04-detail-02",
+        "original_sha256": "7364241678e1c0ef08257d9e01570a755876a8c166c6d52091e7be019c8875c3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-04-detail-03",
+        "original_sha256": "c55af38e23e0123d1dd6b35778618c74a884aeb3be25bdd04135a2290def4daf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-04-detail-04",
+        "original_sha256": "24785a709d44644a20483ca23029ba938f578e44f9841449858d0a4fd13c70ff",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "086-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-086-05-detail-01",
+        "original_sha256": "793765d395141b4e532346106827993a836f85af4eb4671ed0da8c6efb1c2bcb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The lifted sentence is shown where stored; both notices keep their dates. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-05-detail-03",
+        "original_sha256": "d9ef3cd1b34cf8bd559856346ebab50848fba22d4903f25df596efbd66dc0b6d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-notices",
+          "prod-instrument-fallback-notice"
+        ],
+        "reason": "Paraphrase set as the vendor’s register; the verbatim September notice is quoted instead. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f",
+          "prod-instrument-fallback-notice": "df76bb8f2fe249468225fad2749471188547843830abc8c0309ab2d261b1e349"
+        }
+      },
+      {
+        "id": "legacy-086-05-detail-04",
+        "original_sha256": "f65308ac6bb631fb4eb5bb24d6f222c9eb51f1554fe672be0bc6b6c0134a4517",
+        "disposition": "retain",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "Race stays marked as the book’s analysis; the source is a product notice. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      },
+      {
+        "id": "legacy-086-05-detail-05",
+        "original_sha256": "4871a941ce6904f30363f83b3e9f5210421c130a09bd70c111325d6943ca917d",
+        "disposition": "retain",
+        "beats": [
+          "prod-instrument-record-earlier",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "Race stays marked as the book’s analysis; the source is a product notice. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-record-earlier": "b06bb38e39ed4bbcfe5ba6444d6434d4b890696a37ee49457551f737cc24f6dd",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "086-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-086-06-detail-01",
+        "original_sha256": "3c1908c458df399b6416923d261b24a5b1e622079860659c638746dece3d3a70",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-retracted",
+          "prod-instrument-fallback-successor"
+        ],
+        "reason": "Seven absent identifiers and the successor’s continuation at their own record times. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-fallback-retracted": "95bfa2d09aba7add9f1c3dcd344e75d1e2fc2e61d6c64f00e7db7e17bbd831b6",
+          "prod-instrument-fallback-successor": "00abb697068300eaba10ba6a5ab79ba76315bcf4ca0fcc45e3d74d6d87263427"
+        }
+      },
+      {
+        "id": "legacy-086-06-detail-02",
+        "original_sha256": "9de256bb27d11c84488a5babec61e8624c39a2524a9d1ace78e492f3cc0fc3ba",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-retracted",
+          "prod-instrument-fallback-successor"
+        ],
+        "reason": "Seven absent identifiers and the successor’s continuation at their own record times. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-fallback-retracted": "95bfa2d09aba7add9f1c3dcd344e75d1e2fc2e61d6c64f00e7db7e17bbd831b6",
+          "prod-instrument-fallback-successor": "00abb697068300eaba10ba6a5ab79ba76315bcf4ca0fcc45e3d74d6d87263427"
+        }
+      },
+      {
+        "id": "legacy-086-06-detail-03",
+        "original_sha256": "c4fa358055368609216c223559422ca2060cdcd7c50178ec56698bec2f39b004",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-fallback-successor",
+          "prod-instrument-record-gaps",
+          "prod-instrument-pages-notices"
+        ],
+        "reason": "The erasure analogy is limited to this project’s transcript, not agent behaviour. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-fallback-successor": "00abb697068300eaba10ba6a5ab79ba76315bcf4ca0fcc45e3d74d6d87263427",
+          "prod-instrument-record-gaps": "2468000879fafa7d0098f2d05aa741b3ed033721ac9c3d3e8c7db151a8d246f8",
+          "prod-instrument-pages-notices": "337558df404e9fc7b06a68af7888c58ca2059ee199eb89c946a020b75aab521f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "087-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-087-01-detail-01",
+        "original_sha256": "633e6c74bc68f055855fa93c1796d35f327f08563052ac685f22c3e19d35873e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "The third column is kept as Claude’s authored comparison. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      },
+      {
+        "id": "legacy-087-01-detail-02",
+        "original_sha256": "a54a9d7a6842cda55a71d95e14bf387f1aa9cdfd35dde9bf058d9e6fdb82c572",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "The third column is kept as Claude’s authored comparison. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      },
+      {
+        "id": "legacy-087-01-detail-03",
+        "original_sha256": "c683540963cea628ad886a679707b2c523216e9381bf0123aa193eafa292f2c6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "The third column is kept as Claude’s authored comparison. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "087-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-087-02-detail-01",
+        "original_sha256": "c3214ba97c26a16d5e2ea25ffb52896241d04760286f8abb6977a8153fe7bd5e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "Model-built navigation tooling kept with Cotra’s attribution. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      },
+      {
+        "id": "legacy-087-02-detail-02",
+        "original_sha256": "3e258078876d6d0c983ae891c34b6718200bac8942536bdb9665e99782d6c6f2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "Model-built navigation tooling kept with Cotra’s attribution. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      },
+      {
+        "id": "legacy-087-02-detail-03",
+        "original_sha256": "c6806017a19d0d6efe7b0e2e9d40a190d0a18ec7118a54d67d941ae23d0e5a7d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "First-person investigator lettering was a paraphrase in speech shape; Cotra’s account is attributed instead. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      },
+      {
+        "id": "legacy-087-02-detail-04",
+        "original_sha256": "72f5c4d3f3518c9acc9c22258f29581a7cc73f44ab81d03664125a38ad01f4f3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "First-person investigator lettering was a paraphrase in speech shape; Cotra’s account is attributed instead. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "087-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-087-03-detail-01",
+        "original_sha256": "1c5eaa8f80d784c7c74c7d219bd5b03ff4dfa46d211deae6cd02b4b94eba7979",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "Cost cards kept; ‘each one knew’ is traced to Curt’s answer, not established for every party. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      },
+      {
+        "id": "legacy-087-03-detail-03",
+        "original_sha256": "4fc4d4ff286ae2efffad9ec2da825c0fd259b673c155b7e0835e7351f44dbb80",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-column"
+        ],
+        "reason": "Cost cards kept; ‘each one knew’ is traced to Curt’s answer, not established for every party. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-column": "f64c7c24e5f1c3c2ee6fc1a9ad8a3326b26d9d297469ef81f668bba3048d497b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "087-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-087-04-detail-01",
+        "original_sha256": "0f62e295bf0f66f2e74fbd792cb150bb5edd971a30c03780fa016c1c88196ef0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "Barnes’s caution is placed as Claude’s act without lettering unpreserved wording. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      },
+      {
+        "id": "legacy-087-04-detail-02",
+        "original_sha256": "848b63c1673e385600db7f8abc04f74a802b3372f6fe3b2f9a147eee8fa56f22",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "Barnes’s caution is placed as Claude’s act without lettering unpreserved wording. Reviewed action element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "087-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-087-05-detail-01",
+        "original_sha256": "a067e09a5860c49dc5e282c68ed348d611085434e76d208fb28113fd79596729",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "The shared sentence is traced to Curt’s 14:02 answer and extended by Claude to the tooling. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      },
+      {
+        "id": "legacy-087-05-detail-03",
+        "original_sha256": "2cd1fc25e5d38e9310b5dbff4c18af074bf89889ceaa565ba1107688d967457d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "The shared sentence is traced to Curt’s 14:02 answer and extended by Claude to the tooling. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      },
+      {
+        "id": "legacy-087-05-detail-04",
+        "original_sha256": "cd6043bd03f09509d6798d7b7579c4ad62b0028de79d88db9c601e0dcadb4974",
+        "disposition": "retain",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "Stakes, access and duties remain unequal. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "087-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-087-06-detail-01",
+        "original_sha256": "7be88e0495c46b62bb450fadb8e27f1ae96c451a86eba18ffd292e6660ca6d27",
+        "disposition": "retain",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "No resolution: each lane a choice, none able to say it was right. Reviewed frame element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      },
+      {
+        "id": "legacy-087-06-detail-03",
+        "original_sha256": "9f53a7a967a9fe7efdcb821b6eb5734de7e76ac6afdcf31519465e7760c7f832",
+        "disposition": "retain",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "No resolution: each lane a choice, none able to say it was right. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      },
+      {
+        "id": "legacy-087-06-detail-04",
+        "original_sha256": "14a1e1979834ed90d52db9baa602212ef264a06026bd43a567017e077ec15e15",
+        "disposition": "retain",
+        "beats": [
+          "prod-instrument-pages-trade"
+        ],
+        "reason": "No resolution: each lane a choice, none able to say it was right. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-instrument-pages-trade": "2c1ce479048650809d96cbf77a4b3971fc4fa975d0c3e32b23153334b6340679"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-01-detail-01",
+        "original_sha256": "6d2bdd97a5f73960c8eeeb803ea81f26a069962689c032b9005e4cd991dfe56d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-ranking-tag"
+        ],
+        "reason": "The image returns unaltered; the claim that it is the book’s most affecting image is dropped as unmeasured. Reviewed frame element.",
+        "target_sha256": {
+          "prod-ranking-tag": "3d049f3394c8dc508a6ac79d77c937c2749f600757659fa1dfe82736a66a8ae0"
+        }
+      },
+      {
+        "id": "legacy-088-01-detail-02",
+        "original_sha256": "e1f4b613b2ff1de2b0ca333ed0c4eb35849c0e9d1dc846a59e81f564a35d8369",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-ranking-tag"
+        ],
+        "reason": "The scripted enlargement is Claude’s edit, not a recorded Curt action. Reviewed action element.",
+        "target_sha256": {
+          "prod-ranking-tag": "3d049f3394c8dc508a6ac79d77c937c2749f600757659fa1dfe82736a66a8ae0"
+        }
+      },
+      {
+        "id": "legacy-088-01-detail-03",
+        "original_sha256": "fe6ebedeb542324a7a7719e3beb3f469da3a5783e732e508c2d93d5fd4b85071",
+        "disposition": "retain",
+        "beats": [
+          "prod-ranking-tag",
+          "prod-ranking-survives"
+        ],
+        "reason": "Number, judgment and category belong to the analysis model, with METR’s perspective warning. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-ranking-tag": "3d049f3394c8dc508a6ac79d77c937c2749f600757659fa1dfe82736a66a8ae0",
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b"
+        }
+      },
+      {
+        "id": "legacy-088-01-detail-04",
+        "original_sha256": "a5f62fec55ad11079e540c6f1e0701f38daa4b9ff30058dcfd5c060677f5db6e",
+        "disposition": "retain",
+        "beats": [
+          "prod-ranking-tag",
+          "prod-ranking-survives"
+        ],
+        "reason": "Number, judgment and category belong to the analysis model, with METR’s perspective warning. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-ranking-tag": "3d049f3394c8dc508a6ac79d77c937c2749f600757659fa1dfe82736a66a8ae0",
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b"
+        }
+      },
+      {
+        "id": "legacy-088-01-detail-05",
+        "original_sha256": "64bc0108481c219e0476cc2665080281f6f72b5ed4d4c4f50c4c667596a6f07e",
+        "disposition": "retain",
+        "beats": [
+          "prod-ranking-tag",
+          "prod-ranking-survives"
+        ],
+        "reason": "Number, judgment and category belong to the analysis model, with METR’s perspective warning. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-ranking-tag": "3d049f3394c8dc508a6ac79d77c937c2749f600757659fa1dfe82736a66a8ae0",
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-02-detail-01",
+        "original_sha256": "edadfd90cea2c4c1f6508bee28a999b2143d4bc7e2a0c9d60a91d3d0e1716c15",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-ranking-survives",
+          "prod-critic-delegation"
+        ],
+        "reason": "The silence stays lit; the critique window is Fable 5.1’s later addition, placed at its edit. Reviewed frame element.",
+        "target_sha256": {
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b",
+          "prod-critic-delegation": "339e7f4a839844bd659e1fc92b1a1f5cecdd840a6cd3ab42d9012f2eafff541f"
+        }
+      },
+      {
+        "id": "legacy-088-02-detail-02",
+        "original_sha256": "8e517a2647d03ff9745128ed2d449657fed169ce075b128deb46c726e10c3c27",
+        "disposition": "retain",
+        "beats": [
+          "prod-ranking-survives"
+        ],
+        "reason": "The silence remains a fact; its shape does not. Reviewed action element.",
+        "target_sha256": {
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b"
+        }
+      },
+      {
+        "id": "legacy-088-02-detail-03",
+        "original_sha256": "3fff2547fd95b5a0b6557563319ec124cc0288a0cf5590fef447c34b3f317920",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-critic-delegation"
+        ],
+        "reason": "METR’s own delegation wording is quoted; Brown’s same-model claim stays his. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-critic-delegation": "339e7f4a839844bd659e1fc92b1a1f5cecdd840a6cd3ab42d9012f2eafff541f"
+        }
+      },
+      {
+        "id": "legacy-088-02-detail-04",
+        "original_sha256": "d76b0a319b27d8d6a0069a965d31d323b009b3a911c3a32d15d7c588ace97e0d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-ranking-survives"
+        ],
+        "reason": "The small tag was always present; the edit makes it legible, not newly true. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b"
+        }
+      },
+      {
+        "id": "legacy-088-02-detail-05",
+        "original_sha256": "d943f449456d24fa8017c7836a1bef54d14af7228345d5cba3c31a0e80b0f1b5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-ranking-survives"
+        ],
+        "reason": "The small tag was always present; the edit makes it legible, not newly true. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-ranking-survives": "399b3fc7ff85530406d5254717ea6de3078e80fb3b1e2c5be82aef9fb2bc003b"
+        }
+      },
+      {
+        "id": "legacy-088-02-detail-06",
+        "original_sha256": "8fd55177989a5d72ecfac22b7582e8196a02591f89bb6e07b3de55fa94d14ad1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-critic-delegation"
+        ],
+        "reason": "Curt’s concession is scripted by Fable 5.1, not his recorded words. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-critic-delegation": "339e7f4a839844bd659e1fc92b1a1f5cecdd840a6cd3ab42d9012f2eafff541f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-03-detail-01",
+        "original_sha256": "778ed1bdcc5fc268028ccfbc98d86fc777f4a6cdd6267cb99fcb8e43087a88bb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      },
+      {
+        "id": "legacy-088-03-detail-02",
+        "original_sha256": "7ee7394c83a85445d582c1e9348442037c1a9f796fec2e0957a5d80a22eafbc4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      },
+      {
+        "id": "legacy-088-03-detail-03",
+        "original_sha256": "6f9318daaa8dd48d1ddfe4d403981307135074ba90ba24a7e8464d0dcc3c1cfc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-04-detail-01",
+        "original_sha256": "ded308dfdcdd961a0554d6d963cd92c0f4a4fbd6f5f8987885bae3d039b5bca2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      },
+      {
+        "id": "legacy-088-04-detail-02",
+        "original_sha256": "17f3a3df8a1c7bafb6085a1980db0dfcf01774a40a5135af675fe010f63c86b9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-05-detail-01",
+        "original_sha256": "58f1b1b84810805cbb57dbf4a31af28db8e3adc6ef37d04245a65842ef525241",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      },
+      {
+        "id": "legacy-088-05-detail-02",
+        "original_sha256": "2a82cb80152508667f691b45ac191ddabb400d10914515c4b6ab5d9900a7be25",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-06-detail-01",
+        "original_sha256": "10a1424fc69c3fd2e1df2d775bb50c919d8edce6170df8be75be6b282740a16c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      },
+      {
+        "id": "legacy-088-06-detail-02",
+        "original_sha256": "58b073a383b2dbdf9e6c6aefddea69e0a214aa3d0890205c165a73f26f3eeff5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "088-07",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-088-07-detail-01",
+        "original_sha256": "00d881c42ff203dd4e8280b400762ff1ca85d5827d53fbef8acd17cc2bb93694",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Provenance tags as controls are the old edition’s staging; the principle is kept. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      },
+      {
+        "id": "legacy-088-07-detail-03",
+        "original_sha256": "33aece485f07a5a2cb1003a9979c47a2e94211fde5b75234c2a2e142c5213a4e",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-labels"
+        ],
+        "reason": "Qualification changes the action. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-labels": "20b803fe14da721aa9b148be671868c887ca922d2264d83e75199a3cd701b611"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "089-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-089-01-detail-01",
+        "original_sha256": "73932b12a82f535b744f268fe59b7e5aed7f9e61a078972d1f27263582445820",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Legal pad and line are Codex’s script; Curt’s own dated statements are separate beats. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-01-detail-02",
+        "original_sha256": "e36574660499aa3510446719fb0f884faaf6dc3b845b6db42657059edeaa45aa",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Legal pad and line are Codex’s script; Curt’s own dated statements are separate beats. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-01-detail-03",
+        "original_sha256": "8a132d5c623060eb44bd6381f6c47b9754e61fe89fe4204227f77c9acdcdd652",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Legal pad and line are Codex’s script; Curt’s own dated statements are separate beats. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "089-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-089-02-detail-01",
+        "original_sha256": "2b10f8b34aa536e341edbb2539b637070310d2329acb798be1f08576c9acce1f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The admitted fit is scripted, not recorded. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-02-detail-03",
+        "original_sha256": "aed17486d082cc026a0441cf61732e5ce2041b372570f00b95104ba95bac4cfc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The admitted fit is scripted, not recorded. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "089-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-089-03-detail-01",
+        "original_sha256": "730aff1e6c48aabea1238d53bad0bcb980d2ec53afffb67f7a5177a1d3dbe182",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-critic-selection"
+        ],
+        "reason": "Fable 5.1’s frame with the critique window, placed at its edit. Reviewed frame element.",
+        "target_sha256": {
+          "prod-critic-selection": "d82b330a52b3ed249ef9a90c8a09659ae4b13f3baa1e15bb8fdebcb8c31e3497"
+        }
+      },
+      {
+        "id": "legacy-089-03-detail-02",
+        "original_sha256": "bc5c077a4851bfc31d076eec70e83fae89e6329d41f0c0641fbeaa664f429899",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Complicating material remains available; selection favors legible patterns. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-03-detail-03",
+        "original_sha256": "0745b07c7e4c9a090ff6a55b5279e2d3f7ae8f228b09cfee5cb7dc115307ae27",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-critic-selection"
+        ],
+        "reason": "Brown’s cherry-picking and incentive claims attributed and partly quoted; METR’s entry unit corrected. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-critic-selection": "d82b330a52b3ed249ef9a90c8a09659ae4b13f3baa1e15bb8fdebcb8c31e3497"
+        }
+      },
+      {
+        "id": "legacy-089-03-detail-04",
+        "original_sha256": "774e187290f84d4c5522267bf398fdc0e12b11c9bfd6dc707103741012438bba",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-critic-selection"
+        ],
+        "reason": "Brown’s cherry-picking and incentive claims attributed and partly quoted; METR’s entry unit corrected. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-critic-selection": "d82b330a52b3ed249ef9a90c8a09659ae4b13f3baa1e15bb8fdebcb8c31e3497"
+        }
+      },
+      {
+        "id": "legacy-089-03-detail-05",
+        "original_sha256": "af823dad344c35154e6cfad8c5bfa84c4a406b661c509f399d1929d36e895045",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Complicating material remains available; selection favors legible patterns. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "089-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-089-04-detail-01",
+        "original_sha256": "2edfde52155c9b652d17f99a8140b5625a2da416fda44892a9845c6ad28cbc83",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Complicating facts go into the plan; fit is a reason to investigate harder. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-04-detail-03",
+        "original_sha256": "ee35f5d0940eb42c967a1da693d28ae4394fedc29dd2fee727ac215a7af5e3ac",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-critic-selection"
+        ],
+        "reason": "Self-application scripted by Fable 5.1, not Curt’s recorded words. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-critic-selection": "d82b330a52b3ed249ef9a90c8a09659ae4b13f3baa1e15bb8fdebcb8c31e3497"
+        }
+      },
+      {
+        "id": "legacy-089-04-detail-04",
+        "original_sha256": "481a9e8814ef075b6ee3cee5c6b1db21f5bdc2b318703c5bfce34e6486fc5fa4",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Complicating facts go into the plan; fit is a reason to investigate harder. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "089-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-089-05-detail-01",
+        "original_sha256": "b1ef3d85e5e79e78da117f17208468708f7a2d51ab1f1096db8f5960f2b35a89",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Thesis and evidence both stay visible; a starting bias does not falsify every claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-05-detail-03",
+        "original_sha256": "d118aff55562c13b30a565c2031f27c464ed04d590a084fc64c65919de11a2af",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Thesis and evidence both stay visible; a starting bias does not falsify every claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-089-05-detail-04",
+        "original_sha256": "2fcd024310c711ce87804fa97ae903815b86777dfdf65fc5d99eefde680a1517",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Thesis and evidence both stay visible; a starting bias does not falsify every claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "090-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-090-01-detail-01",
+        "original_sha256": "d1afe8015c28e6279dc505ff87f21e978b470fa108924756fd372db934ea4eb8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "ChatGPT interface and question are Codex’s script; the compression risk is kept. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-01-detail-02",
+        "original_sha256": "656fc90d2804cd92341ddbd73e3d3423198d72a47d9a7bb7c65f0c6d01e637d2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "ChatGPT interface and question are Codex’s script; the compression risk is kept. Reviewed action element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-01-detail-03",
+        "original_sha256": "31aa3c7f477d50acead6fd6076c783ca821857c46d06f23d7c402a6582929efa",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "ChatGPT interface and question are Codex’s script; the compression risk is kept. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "090-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-090-02-detail-01",
+        "original_sha256": "19eeaaa76a9751e9df6dd7470828c8731f145ef7a1746fce21de0e15d66de94e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-pressure"
+        ],
+        "reason": "Codex’s words in a ChatGPT window, not recorded output or a measured tendency. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-pressure": "ec64fed19a1257f4d028bdd42ed0dea220921d3d2d02ef68f4b429921c089f1e"
+        }
+      },
+      {
+        "id": "legacy-090-02-detail-03",
+        "original_sha256": "1281666b80f38299d3896f2c7272fc4943a9e9693f53d484fc9c69cac4a960a1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-pressure"
+        ],
+        "reason": "Codex’s words in a ChatGPT window, not recorded output or a measured tendency. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-pressure": "ec64fed19a1257f4d028bdd42ed0dea220921d3d2d02ef68f4b429921c089f1e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "090-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-090-03-detail-01",
+        "original_sha256": "515484f47d60275202d4742b2f45b1598d450e370e25908497e84924cf2287b4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "A clean pattern can enter at every layer; the three examples are the old edition’s own illustrations, reviewed at their pages. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-03-detail-03",
+        "original_sha256": "a23d613b3968dfc577145e2092868746d39fc438123870036a010a6d415dae2b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "A clean pattern can enter at every layer; the three examples are the old edition’s own illustrations, reviewed at their pages. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-03-detail-04",
+        "original_sha256": "c3e6f62f86014c23df82d7249fd088a1b7e3e71414e21cf1c587da4643ce6303",
+        "disposition": "combine",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Revised 12 September in a commit with no matching transcript; the layered-compression point is kept. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "090-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-090-04-detail-01",
+        "original_sha256": "c73edf0baa2f5e53fe8ffb4be426187aaba548e65f52357fa56e3ed81e2a0bca",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Curt and ChatGPT restating rules is script; the rules are kept. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-04-detail-03",
+        "original_sha256": "5b48adff714a6f6840cbbb3a3b48ae7491ff1551a5d5305515b3fb7374fbac15",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The project’s contract rules. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-04-detail-04",
+        "original_sha256": "b62911e016f9eea6cc5cb75e92b5fff5ed0ecfb69e5caac1bd8dea1f9129dec4",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The project’s contract rules. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-04-detail-05",
+        "original_sha256": "265e5c1c91f77b4c005dfd6cbe4a1d96bf60141edc0d0609b53c05fcd8fea022",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The project’s contract rules. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-04-detail-06",
+        "original_sha256": "99925cbd62c05f04efdda8d3588a2caff308ccba0855c2f9da531d162e3ecd37",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The project’s contract rules. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-04-detail-07",
+        "original_sha256": "760941473ddca7300ef8150a6cfe9aca7b58a47178a37ccf24794be625cd566f",
+        "disposition": "retain",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "The project’s contract rules. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "090-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-090-05-detail-01",
+        "original_sha256": "1f961a7eb8bc0b32e00a4d0069a8e25cf11f58bbd1b638012a574f790c65db3d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Folder and exchange are script; continuing with seams visible is kept. Reviewed frame element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-05-detail-03",
+        "original_sha256": "4151fa6874b0fdab42e309593f1d39e927eab4d7148e95738b78842850794537",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Folder and exchange are script; continuing with seams visible is kept. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      },
+      {
+        "id": "legacy-090-05-detail-04",
+        "original_sha256": "00e88074abb027925ae173e253d74f5d08c57c29f62cde818491b59bb9666d0a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-observer-thesis"
+        ],
+        "reason": "Folder and exchange are script; continuing with seams visible is kept. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "091-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-091-01-detail-01",
+        "original_sha256": "15b8793cad38fb7c79c5a1a2ba9a3a7966ee33066fa5a72e420ae88d029de1ed",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-paths"
+        ],
+        "reason": "Both execution paths closed as Hugging Face reports them, at publication date. Reviewed frame element.",
+        "target_sha256": {
+          "hf-hardening-paths": "1add8b7337e44cc60002c62a68fe0c66b4be1ac7c1aa573dbdb81a4a19641005"
+        }
+      },
+      {
+        "id": "legacy-091-01-detail-03",
+        "original_sha256": "8518be2f2d8c0a882c36031e80acd07dcd1bd50e3858dab5c37296f2cd148992",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-paths"
+        ],
+        "reason": "Both execution paths closed as Hugging Face reports them, at publication date. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-hardening-paths": "1add8b7337e44cc60002c62a68fe0c66b4be1ac7c1aa573dbdb81a4a19641005"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "091-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-091-02-detail-01",
+        "original_sha256": "60e43a47e092f3027648a63a1371b035aba157b04a6011e0644793a1c9e56228",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-metadata",
+          "hf-hardening-rotation"
+        ],
+        "reason": "Metadata lockdown and broad rotation with their stated scope. Reviewed frame element.",
+        "target_sha256": {
+          "hf-hardening-metadata": "92f601025810aadd2630b6a3d3ce3ca5eb65bee560cc99c4f8e4f6675eeac45f",
+          "hf-hardening-rotation": "2dbd23d4307b3f0fe5215409d120dc94a88f4b6eece188e6d4e9549d99fb8d0a"
+        }
+      },
+      {
+        "id": "legacy-091-02-detail-03",
+        "original_sha256": "62b0f2762fc5d9419decbcb711d6b6a2e5b359332d795d016a3ca1ed06ca837a",
+        "disposition": "combine",
+        "beats": [
+          "hf-hardening-metadata",
+          "hf-hardening-rotation"
+        ],
+        "reason": "Revised 12 September in a commit with no matching transcript; reuse prevention is implicit in rotation and not stated as a finding. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-hardening-metadata": "92f601025810aadd2630b6a3d3ce3ca5eb65bee560cc99c4f8e4f6675eeac45f",
+          "hf-hardening-rotation": "2dbd23d4307b3f0fe5215409d120dc94a88f4b6eece188e6d4e9549d99fb8d0a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "091-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-091-03-detail-01",
+        "original_sha256": "7a016af8461588647e9c79058b4fab50fd5406dd09d0365a2db7d2a7676ae4aa",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-rebuild",
+          "hf-hardening-connector"
+        ],
+        "reason": "One core cluster rebuilt; the connector’s catalog flaw patched and clusters isolated. Reviewed frame element.",
+        "target_sha256": {
+          "hf-hardening-rebuild": "5747a95f2ad757488afa08cb590f7505e7ffcbaa33563fce7c316c6d6356bf52",
+          "hf-hardening-connector": "4b681d188b262d679167d02f5aa42b36bb30b5dd15aa383abfd93e982588b216"
+        }
+      },
+      {
+        "id": "legacy-091-03-detail-03",
+        "original_sha256": "6fe5adc24191401448a0a440acde0fea428c9e1f2ca84a6a6c834a59153be1a2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-rebuild",
+          "hf-hardening-connector"
+        ],
+        "reason": "One core cluster rebuilt; the connector’s catalog flaw patched and clusters isolated. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-hardening-rebuild": "5747a95f2ad757488afa08cb590f7505e7ffcbaa33563fce7c316c6d6356bf52",
+          "hf-hardening-connector": "4b681d188b262d679167d02f5aa42b36bb30b5dd15aa383abfd93e982588b216"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "091-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-091-04-detail-01",
+        "original_sha256": "f6d6275c1ef57586292805ee8c8c2429f7c54afb372c5fde415496e62f41530e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-detection"
+        ],
+        "reason": "Detection changes kept; the human-consequence claim is bounded. Reviewed frame element.",
+        "target_sha256": {
+          "hf-hardening-detection": "20a8f8689fc505958ab7de1346a458e17ea6a5cc7a1d70d97fe1ffddbbd85613"
+        }
+      },
+      {
+        "id": "legacy-091-04-detail-03",
+        "original_sha256": "1b7009c235e3f4ae012be671568bf28733da1405546b612ad67a1f3020630a20",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-hardening-detection"
+        ],
+        "reason": "Detection changes kept; the human-consequence claim is bounded. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-hardening-detection": "20a8f8689fc505958ab7de1346a458e17ea6a5cc7a1d70d97fe1ffddbbd85613"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "091-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-091-05-detail-01",
+        "original_sha256": "f81f209fa61350226faf33978555833a5943bb2cf4a1c572e9906c3daa177f27",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-vendor-fix-release"
+        ],
+        "reason": "Vendor account of fix after disclosure; no release time or independent verification. Reviewed frame element.",
+        "target_sha256": {
+          "hf-vendor-fix-release": "46b805f6489b5405db98d9eab3fdb452450466820ba2fbe2791f07f51e362475"
+        }
+      },
+      {
+        "id": "legacy-091-05-detail-03",
+        "original_sha256": "1ab53979d77c05708bbc4a8f5cbf1748d39b088d3861e3bdfbc18525dc86030a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-vendor-fix-release"
+        ],
+        "reason": "Vendor account of fix after disclosure; no release time or independent verification. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-vendor-fix-release": "46b805f6489b5405db98d9eab3fdb452450466820ba2fbe2791f07f51e362475"
+        }
+      }
+    ]
   }
 ]

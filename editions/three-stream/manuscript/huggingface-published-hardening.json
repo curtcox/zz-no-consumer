@@ -1,0 +1,235 @@
+[
+  {
+    "id": "hf-hardening-account",
+    "title": "What the technical timeline says was changed",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Dated act of publication: Hugging Face’s technical timeline, 27 July. The reported changes were made before or around publication; the source gives no per-change time. This placement assumes the collaboration movement begins after 27 July; if the entrance date settles earlier, this publication enters through a dated encounter instead.",
+    "source_limit": "Hugging Face’s institutional account of its own changes. Reported changes are not independently verified or shown to prevent later intrusions.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-hardening-paths",
+        "old_panels": [
+          "091-01"
+        ],
+        "frame": "The dated technical timeline is the active object; a margin diagram marks two separate execution paths closed. No repair is reenacted.",
+        "lettering": [
+          "On July 27 Hugging Face publishes its technical timeline, including what it changed. It says it closed both code-execution paths: it shut down the evaluation sandbox with the third-party vendor’s help, and its dataset config renderer no longer evaluates template expressions in data fields or wrongly processes HDF5 external references."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "256t/records/huggingface-timeline/content.bin; What we changed",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27",
+        "time_end": "2026-07-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-01",
+            "disposition": "rewrite",
+            "reason": "Both paths: evaluation sandbox shut down with the vendor’s help and the dataset renderer changed; report date, not per-repair time."
+          }
+        ]
+      },
+      {
+        "id": "hf-hardening-metadata",
+        "old_panels": [
+          "091-02"
+        ],
+        "frame": "A pod and the instance metadata service with the path between them closed, as an authored margin diagram.",
+        "lettering": [
+          "Some workloads could reach the instance metadata service. Pod-level access to it is now blocked for all workloads, so that remote code execution in a pod cannot trivially become node credentials."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "256t/records/huggingface-timeline/content.bin; What we changed",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27",
+        "time_end": "2026-07-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-02",
+            "disposition": "rewrite",
+            "reason": "Keep metadata lockdown and broad rotation with their stated scope; the 12 September revision has no identified author."
+          }
+        ]
+      },
+      {
+        "id": "hf-hardening-rotation",
+        "old_panels": [
+          "091-02"
+        ],
+        "frame": "Credential cards from accessed and unaccessed clusters, all marked rotated, kept visually distinct.",
+        "lettering": [
+          "It reports rotating all tokens and credentials used by its infrastructure, including on clusters that were not accessed, and moving to workload identity where it was not yet used. Rotating a credential does not mean it was stolen."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "256t/records/huggingface-timeline/content.bin; What we changed",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27",
+        "time_end": "2026-07-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-02",
+            "disposition": "rewrite",
+            "reason": "Keep metadata lockdown and broad rotation with their stated scope; the 12 September revision has no identified author."
+          }
+        ]
+      },
+      {
+        "id": "hf-hardening-rebuild",
+        "old_panels": [
+          "091-03"
+        ],
+        "frame": "One core cluster, not the whole platform, drawn wiped and rebuilt.",
+        "lettering": [
+          "After finding the pivot into one of its core clusters, Hugging Face says it wiped and rebuilt that cluster from scratch as an extra precaution."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "256t/records/huggingface-timeline/content.bin; What we changed",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27",
+        "time_end": "2026-07-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-03",
+            "disposition": "rewrite",
+            "reason": "One core cluster rebuilt as a precaution; the connector’s full cluster catalog was patched and clusters isolated — not a broad credential swapped for a scoped one."
+          }
+        ]
+      },
+      {
+        "id": "hf-hardening-connector",
+        "old_panels": [
+          "091-03"
+        ],
+        "frame": "The internal connector returning one cluster instead of a catalog, as an authored diagram.",
+        "lettering": [
+          "It calls the service connector’s behavior a subtle configuration flaw: it should not have returned a full cluster catalog to a single ephemeral client. Hugging Face says it patched the flaw and that each cluster is now fully isolated."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "256t/records/huggingface-timeline/content.bin; What we changed",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27",
+        "time_end": "2026-07-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-03",
+            "disposition": "rewrite",
+            "reason": "One core cluster rebuilt as a precaution; the connector’s full cluster catalog was patched and clusters isolated — not a broad credential swapped for a scoped one."
+          }
+        ]
+      },
+      {
+        "id": "hf-hardening-detection",
+        "old_panels": [
+          "091-04"
+        ],
+        "frame": "Alert rules and a token-origin flag as separate authored dashboard elements; no responder is drawn answering them.",
+        "lettering": [
+          "It reports critical-severity alerting on the attack’s behavioral signatures, tighter enforcement of network origins, and tooling that flags tokens used from unexpected origins. A higher-severity alert is a change to what should reach a person; this account does not measure a response after the change."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "256t/records/huggingface-timeline/content.bin; What we changed",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27",
+        "time_end": "2026-07-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-04",
+            "disposition": "rewrite",
+            "reason": "Keep critical-severity alerting, origin enforcement and token-origin flags; no measured human response after the change is claimed."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-vendor-fix-account",
+    "title": "The vendor describes its fix",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-27T21:30:01Z",
+    "end": "2026-07-27T21:30:01Z",
+    "original_timezone": "UTC",
+    "precision": "second",
+    "chronology_basis": "Dated act of publication: the page’s recorded publication time, 27 July 21:30:01 UTC. The fix itself is undated in the post. Same transition assumption as the timeline scene.",
+    "source_limit": "JFrog’s account of its own response. The preserved copy was retrieved 2 September and carries a 5 August update above the original text; the earlier version is not separately preserved.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-vendor-fix-release",
+        "old_panels": [
+          "091-05"
+        ],
+        "frame": "A dated vendor post, with the earlier July 6 disclosure on a separate line; no checkmark covers the whole system.",
+        "lettering": [
+          "JFrog writes that OpenAI’s security team disclosed the Artifactory zero-days responsibly and immediately, and that JFrog developed, validated and released a fix for all customers. Cloud customers, it says, are already protected; self-hosted customers have been told to upgrade. The post gives no release time, and its account is not independently verified."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "JFROG",
+            "locator": "256t/records/jfrog-findings/blobs/17cbafb9832f767e002cdeaee5ebbc197bdae8a2bb292339fede71846043429f.bin; JFrog’s role, and how we operate",
+            "available": "2026-07-27T21:30:01Z"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-27T21:30:01Z",
+        "time_end": "2026-07-27T21:30:01Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "091-05",
+            "disposition": "rewrite",
+            "reason": "JFrog’s account of disclosure, fix, validation and release, with no release time and no independent verification."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "id": "prod-ranking-curt-race",
+    "title": "Curt names the race he sees",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-04T02:37:39.451Z",
+    "end": "2026-09-04T02:37:39.451Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "Curt’s stated view at that time, in his own words. It is not evidence that race dynamics caused the incident.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-ranking-curt-race-message",
+        "old_panels": [],
+        "frame": "Curt’s stored message; the long conference transcript pasted beneath it is drawn as an attachment, not as his words.",
+        "lettering": [
+          "4 September, 02:37 UTC. Curt tells Claude that Carl Brown makes very strong arguments that OpenAI and Hugging Face largely inflicted their own wounds through inadequate security, and that he agrees. Brown, he writes, falls short of mentioning the “move fast and break things” race dynamics that make those failures seem inevitable to him."
+        ],
+        "exact_strings": [
+          {
+            "text": "move fast and break things",
+            "source": "PROD-231039c5d7db",
+            "locator": "256t/editions/selected-messages/231039c5d7db92fd053d54fe916679b26b73669233002259199b24aeb06e6ee5.json; record SHA-256 231039c5d7db92fd053d54fe916679b26b73669233002259199b24aeb06e6ee5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-231039c5d7db",
+            "locator": "256t/editions/selected-messages/231039c5d7db92fd053d54fe916679b26b73669233002259199b24aeb06e6ee5.json; record SHA-256 231039c5d7db92fd053d54fe916679b26b73669233002259199b24aeb06e6ee5",
+            "available": "2026-09-04T02:37:39.451Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T02:37:39.451Z",
+        "time_end": "2026-09-04T02:37:39.451Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-ranking-curt-go",
+    "title": "Curt delegates the order of changes",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-04T03:02:21.089Z",
+    "end": "2026-09-04T03:02:21.089Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "A general authorization. It names no specific page or change.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-ranking-curt-go-message",
+        "old_panels": [],
+        "frame": "Curt’s stored one-sentence instruction.",
+        "lettering": [
+          "Twenty-five minutes later he asks Claude to make the changes it thinks would have the most impact, in whatever order makes most sense."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-647e531a97b3",
+            "locator": "256t/editions/selected-messages/647e531a97b315f0e802a40f1d81fa3931bec4f253c21225f51910ed36410920.json; record SHA-256 647e531a97b315f0e802a40f1d81fa3931bec4f253c21225f51910ed36410920",
+            "available": "2026-09-04T03:02:21.089Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:02:21.089Z",
+        "time_end": "2026-09-04T03:02:21.089Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-ranking-disclosure",
+    "title": "The ranking behind the silence",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T03:11:29.099Z",
+    "end": "2026-09-04T03:11:29.099Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored tool-use record in Claude session 6ac98831 (model recorded as claude-opus-5). The page was then numbered 086.",
+    "source_limit": "The edit is evidence of what Claude wrote and when. METR’s ranking and limits are METR’s account; the reader’s and the book’s reactions in the script are authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-ranking-tag",
+        "old_panels": [
+          "088-01"
+        ],
+        "frame": "Claude’s edit record as a diff, labelled Opus 5: the coordinator-lanes image unchanged, its small tag enlarged.",
+        "lettering": [
+          "03:11 UTC. Claude edits the book’s coordinator-silence page. The image of eleven quiet lanes stays unaltered; its small tag, as ranked by GPT-5.6 Sol, becomes the largest text in the panel. METR reports that the eleven were the runs its analysis model classified as the most important coordinators, and warns that its analysis agents often took the perspective of the agents they reviewed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-fe74c6a8d1e4",
+            "locator": "256t/editions/selected-messages/fe74c6a8d1e4b0d7aaa9d61b3cdacc9df661408060a3a62fcdd34f235cf1ba35.json; record SHA-256 fe74c6a8d1e4b0d7aaa9d61b3cdacc9df661408060a3a62fcdd34f235cf1ba35",
+            "available": "2026-09-04T03:11:29.099Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 26–27, 38–39, fn. 74–76; ranking and analysis limitations",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:11:29.099Z",
+        "time_end": "2026-09-04T03:11:29.099Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "088-01",
+            "disposition": "rewrite",
+            "reason": "Keep the enlarged ranking tag and METR’s classification and perspective-adoption limits; drop the old evaluative claim about the image."
+          }
+        ]
+      },
+      {
+        "id": "prod-ranking-survives",
+        "old_panels": [
+          "088-01",
+          "088-02"
+        ],
+        "frame": "The same diff: the lanes stay lit; the three model-derived words dim.",
+        "lettering": [
+          "What survives is that the lanes went silent. Eleven, important and coordinator are the analysis model’s number, judgment and category. The tag had been printed small all along; the edit makes it legible, not newly true."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-fe74c6a8d1e4",
+            "locator": "256t/editions/selected-messages/fe74c6a8d1e4b0d7aaa9d61b3cdacc9df661408060a3a62fcdd34f235cf1ba35.json; record SHA-256 fe74c6a8d1e4b0d7aaa9d61b3cdacc9df661408060a3a62fcdd34f235cf1ba35",
+            "available": "2026-09-04T03:11:29.099Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 38–39, fn. 74–76; classifier selection of coordinators",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:11:29.099Z",
+        "time_end": "2026-09-04T03:11:29.099Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "088-01",
+            "disposition": "rewrite",
+            "reason": "Keep the enlarged ranking tag and METR’s classification and perspective-adoption limits; drop the old evaluative claim about the image."
+          },
+          {
+            "old_panel": "088-02",
+            "disposition": "rewrite",
+            "reason": "Opus 5’s survival statement and Fable 5.1’s critic return are placed at their own edits; the concession is scripted."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-critic-admit",
+    "title": "Curt admits the critique",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-05T14:59:16.792Z",
+    "end": "2026-09-05T14:59:16.792Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "An admission decision for one post. It does not endorse the post’s claims.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-critic-admit-message",
+        "old_panels": [],
+        "frame": "Curt’s stored instruction as a single line.",
+        "lettering": [
+          "5 September, 14:59 UTC. Curt: “Admit it and continue.” The post he means is Carl Brown’s critique of the incident coverage."
+        ],
+        "exact_strings": [
+          {
+            "text": "Admit it and continue.",
+            "source": "PROD-f3bf92aeb610",
+            "locator": "256t/editions/selected-messages/f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4.json; record SHA-256 f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-f3bf92aeb610",
+            "locator": "256t/editions/selected-messages/f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4.json; record SHA-256 f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4",
+            "available": "2026-09-05T14:59:16.792Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:59:16.792Z",
+        "time_end": "2026-09-05T14:59:16.792Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-critic-returns",
+    "title": "The critic returns beside the ranking",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T15:02:29.827Z",
+    "end": "2026-09-05T15:02:29.827Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored tool-use record in Claude session 10748eb5 (model recorded as claude-fable-5-1). Those pages were then numbered 086 and 087.",
+    "source_limit": "Brown’s claims are arguments attributed to him, not findings. The Curt lines this edit scripts are not his recorded statements.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-critic-delegation",
+        "old_panels": [
+          "088-02"
+        ],
+        "frame": "Claude’s edit record as a diff, labelled with the model recorded for the session: Fable 5.1. The critique appears as text on a screen with its byline and date.",
+        "lettering": [
+          "15:02 UTC. Claude, running as Fable 5.1, sets Brown’s argument beside the ranking disclosure. METR itself says it “heavily delegated our analysis to often-unreliable AI agents”; Brown adds that many were the same model as the agents behind the attacks. The script has Curt concede that Brown was right about the instrument as well as the channel. The concession is script; the post is the record."
+        ],
+        "exact_strings": [
+          {
+            "text": "heavily delegated our analysis to often-unreliable AI agents",
+            "source": "METR",
+            "locator": "p. 26, section heading; checked against the vault PDF text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-b6df24d0968a",
+            "locator": "256t/editions/selected-messages/b6df24d0968a5aa0790876c0394f4a11fc46187f4b7d433367369e67927058ec.json; record SHA-256 b6df24d0968a5aa0790876c0394f4a11fc46187f4b7d433367369e67927058ec",
+            "available": "2026-09-05T15:02:29.827Z"
+          },
+          {
+            "key": "METR",
+            "locator": "p. 26; heading on delegated analysis",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; delegated-analysis argument",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T15:02:29.827Z",
+        "time_end": "2026-09-05T15:02:29.827Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "088-02",
+            "disposition": "rewrite",
+            "reason": "Opus 5’s survival statement and Fable 5.1’s critic return are placed at their own edits; the concession is scripted."
+          }
+        ]
+      },
+      {
+        "id": "prod-critic-selection",
+        "old_panels": [
+          "089-03",
+          "089-04"
+        ],
+        "frame": "The same diff, on the thesis page: Brown’s window opens at the desk’s edge.",
+        "lettering": [
+          "The same edit adds Brown’s selection and incentive arguments, which he aims at OpenAI and METR: from twenty million log entries a predisposed reader could cherry-pick support for a story, and the reports come from people with “a financial incentive to try to make themselves and their industry look as powerful and important as possible.” METR’s twenty million are file and directory entries, not messages. Claude’s script then has Curt turn the argument on himself — no balance sheet, only a thesis. That line is script, not Curt’s recorded words."
+        ],
+        "exact_strings": [
+          {
+            "text": "a financial incentive to try to make themselves and their industry look as powerful and important as possible",
+            "source": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; propaganda and incentive paragraph; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-b6df24d0968a",
+            "locator": "256t/editions/selected-messages/b6df24d0968a5aa0790876c0394f4a11fc46187f4b7d433367369e67927058ec.json; record SHA-256 b6df24d0968a5aa0790876c0394f4a11fc46187f4b7d433367369e67927058ec",
+            "available": "2026-09-05T15:02:29.827Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; selection and incentive arguments",
+            "available": "2026-09-03"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 22–24; namespace entries and reconstructed messages",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T15:02:29.827Z",
+        "time_end": "2026-09-05T15:02:29.827Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "089-03",
+            "disposition": "rewrite",
+            "reason": "Codex’s complicating-facts frame and selection-pressure line kept here; Fable 5.1’s critic lines are placed at its edit."
+          },
+          {
+            "old_panel": "089-04",
+            "disposition": "rewrite",
+            "reason": "Codex’s investigate-harder line kept here; the self-application Fable 5.1 added is placed at its edit."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-mirror-request",
+    "title": "Curt asks for the read-through changes",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-05T21:59:17.868Z",
+    "end": "2026-09-05T21:59:17.868Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "The request names a findings file, not these panels. Who wrote that file is not established here.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-mirror-request-message",
+        "old_panels": [],
+        "frame": "Curt’s stored instruction as a single line.",
+        "lettering": [
+          "21:59 UTC. Curt asks Claude to read the project’s read-through findings and make the suggested changes."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-496d75375a67",
+            "locator": "256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38",
+            "available": "2026-09-05T21:59:17.868Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:59:17.868Z",
+        "time_end": "2026-09-05T21:59:17.868Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-mirror-revision",
+    "title": "Claude revises the mirror",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T22:12:00.452Z",
+    "end": "2026-09-05T22:14:10.015Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Two stored tool-use records in Claude session fa3d8361 (model recorded as claude-opus-5), at 22:12:00 and 22:14:10 UTC.",
+    "source_limit": "The edits are evidence of what Claude wrote. The ChatGPT catch they refer to is an authored scene, not a preserved exchange.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-mirror-traffic",
+        "old_panels": [
+          "085-04"
+        ],
+        "frame": "Claude’s edit record as a diff under the split mirror: two small lower panels, one on each side.",
+        "lettering": [
+          "22:12 UTC. Claude adds traffic running the other way beneath the mirror. On the investigators’ side, METR’s analysis agents surface snippets from a corpus too large for its team to read. On the creator’s side, an earlier scripted moment in which ChatGPT catches Curt drawing connections the record does not contain. The first is METR’s account; the second is an authored scene."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9cb031eb3a62",
+            "locator": "256t/editions/selected-messages/9cb031eb3a6257b960148a2903c781ee8264a216a035c1d4a6b79892be3d2b81.json; record SHA-256 9cb031eb3a6257b960148a2903c781ee8264a216a035c1d4a6b79892be3d2b81",
+            "available": "2026-09-05T22:12:00.452Z"
+          },
+          {
+            "key": "METR",
+            "locator": "p. 26; delegation at scale",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T22:12:00.452Z",
+        "time_end": "2026-09-05T22:12:00.452Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "085-04",
+            "disposition": "rewrite",
+            "reason": "Opposite-direction correction kept on both sides; the ChatGPT catch stays marked as authored."
+          }
+        ]
+      },
+      {
+        "id": "prod-mirror-caption",
+        "old_panels": [
+          "085-03"
+        ],
+        "frame": "A two-line caption diff: a repeated denial removed, two specific lines added.",
+        "lettering": [
+          "Two minutes later Claude replaces a caption repeating the previous panel’s denial of equivalence with what the two sides are: one answers scoped questions under a mandate; one is testing a thesis it already has."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-0c9fc5a09b09",
+            "locator": "256t/editions/selected-messages/0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8.json; record SHA-256 0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8",
+            "available": "2026-09-05T22:14:10.015Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T22:14:10.015Z",
+        "time_end": "2026-09-05T22:14:10.015Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "085-03",
+            "disposition": "retain",
+            "reason": "Claude’s replacement caption states the mandate/thesis difference; placed at its edit."
+          }
+        ]
+      }
+    ]
+  }
+]

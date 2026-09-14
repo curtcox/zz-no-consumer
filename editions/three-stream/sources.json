@@ -744,7 +744,7 @@
   "IOB-CIV": {
     "available": "2026-09-03",
     "record": "256t/records/internetofbugs-civilizations/content.bin",
-    "admission": "Carl Brown’s published critique: persistence-of-context, anti-anthropomorphism, malware and peer prompt-injection arguments, as arguments attributed to Brown, including his explicit uncertainty about the last explanation. Not independent proof of causation or knowledge continuity. Kept separate from wiki findings and invented composites. Short quotation verified against preserved text copy; rights unresolved. Other claims remain unadmitted.",
+    "admission": "Carl Brown’s published critique: persistence-of-context, anti-anthropomorphism, malware and peer prompt-injection arguments, as arguments attributed to Brown, including his explicit uncertainty about the last explanation. Not independent proof of causation or knowledge continuity. Kept separate from wiki findings and invented composites. Short quotation verified against preserved text copy; rights unresolved. Other claims remain unadmitted. Also admits, 13 September, Brown’s delegated-analysis, cherry-picking and financial-incentive arguments aimed at OpenAI and METR, as his arguments; not evidence that any cited record was selected in bad faith.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret"
   },
@@ -922,5 +922,208 @@
     "admission": "Historical analysis-error and log-integrity scenes, not exact unpublished model outputs, a recovered review-room chronology or proof of an architectural contradiction.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
+  },
+  "PROD-514c4b07eb44": {
+    "available": "2026-09-02T15:41:51.525Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Curt's recorded request to Codex is the single word Continue. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-93443241a790": {
+    "available": "2026-09-02T15:41:58.493Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex says it will fix the evidence pipeline before criticizing the method. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-449de3174796": {
+    "available": "2026-09-02T15:43:40.298Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex states the feasibility/confidence balance it will keep from METR. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-ff96d4e94638": {
+    "available": "2026-09-02T15:48:25.719Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex's tool call supplies the evidence-integrity page text (frozen 083). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-8a628a4202a5": {
+    "available": "2026-09-02T15:50:13.134Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex's tool call supplies the creator-mediation, mirror, label-correction and thesis pages (frozen 084, 085, 088–090). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-310106c4ed96": {
+    "available": "2026-09-02T15:50:59.002Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex reports the chapter's central correction. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-3909d4defc39": {
+    "available": "2026-09-02T15:51:37.256Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex's tool call revises the scripted ChatGPT self-description (frozen 090-02). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-ba235c81ee02": {
+    "available": "2026-09-02T15:51:55.851Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex reports its audit and the two failure modes the chapter blocks. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-231039c5d7db": {
+    "available": "2026-09-04T02:37:39.451Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Ranking disclosure: Curt agrees with Brown on security failures and adds race dynamics. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-647e531a97b3": {
+    "available": "2026-09-04T03:02:21.089Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Ranking disclosure: Curt asks Claude to make the highest-impact changes. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-fe74c6a8d1e4": {
+    "available": "2026-09-04T03:11:29.099Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Ranking disclosure: Claude's edit supplies the ranking-disclosure panels (frozen 088-01, 088-02). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-f3bf92aeb610": {
+    "available": "2026-09-05T14:59:16.792Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critic returns: Curt tells Claude to admit Brown's post and continue. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-b6df24d0968a": {
+    "available": "2026-09-05T15:02:29.827Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critic returns: Claude (Fable 5.1) supplies Brown's delegated-analysis and selection arguments (frozen 088-02, 089-03, 089-04). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-496d75375a67": {
+    "available": "2026-09-05T21:59:17.868Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Mirror revision: Curt asks Claude to apply the read-through findings. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-9cb031eb3a62": {
+    "available": "2026-09-05T22:12:00.452Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Mirror revision: Claude's edit adds opposite-direction corrections beneath the mirror (frozen 085-04). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-0c9fc5a09b09": {
+    "available": "2026-09-05T22:14:10.015Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Mirror revision: Claude's edit replaces a repeated caption (frozen 085-03). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-436cc7f1473e": {
+    "available": "2026-09-06T00:17:17.070Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Safeguard fallback: The session stores an automatic model-refusal fallback from Fable 5.1 to Opus 4.8, category cyber, seven retracted message identifiers. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-033355341c83": {
+    "available": "2026-09-06T00:17:50.993Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Safeguard fallback: The first visible message recorded as Opus 4.8 continues the task. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-e93c71aa58fc": {
+    "available": "2026-09-06T14:02:00.726Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Curt supplies the refusal banner and his answer about the investigators' trade. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-b42c7edf8e95": {
+    "available": "2026-09-06T14:05:31.065Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Claude proposes where the banner belongs and flags the tool-building claim as untracked. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-a3f8ad85ef77": {
+    "available": "2026-09-06T14:15:08.920Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Curt asks for the interview to be recorded and the refusal context to be found and framed accurately. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-286bae5d03b5": {
+    "available": "2026-09-06T14:20:38.165Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Claude reports that the stored record corrects its earlier framing. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-561928832013": {
+    "available": "2026-09-06T14:38:36.979Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Curt pastes the interview video transcript and asks about the character-file argument. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-270e31b8b68b": {
+    "available": "2026-09-06T14:42:26.605Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Claude relocates the stake argument and reports Cotra's tool-building account. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-2e1d6d4b4325": {
+    "available": "2026-09-06T14:48:24.894Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Curt asks Claude to gather evidence and make the updates. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-07944425362b": {
+    "available": "2026-09-06T14:56:55.269Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Claude writes the second-instrument page (frozen 086). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-9b9fc185820e": {
+    "available": "2026-09-06T14:57:34.234Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Creator instrument: Claude writes the shared-trade page (frozen 087). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "JFROG": {
+    "available": "2026-07-27T21:30:01Z",
+    "record": "256t/records/jfrog-findings/blobs/17cbafb9832f767e002cdeaee5ebbc197bdae8a2bb292339fede71846043429f.bin",
+    "admission": "JFrog’s published account of its collaboration with OpenAI and its Artifactory fix; vendor’s account of its own response, not independent verification. Page metadata gives the publication time; the preserved copy (retrieved 2 September) carries a 5 August update above the original text.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/"
+  },
+  "HF-POD": {
+    "available": "2026-09-04",
+    "record": "research/cotra-hardfork-interview.md",
+    "admission": "Hard Fork, 4 September: Ajeya Cotra’s attributed account of her investigation, from the automatic video transcript Curt supplied. Admitted only for item 1, model-built navigation tooling and subagent reading; not verified against audio or METR’s report. Hosts’ framing and numbers remain unadmitted.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://www.youtube.com/watch?v=JtmUbZRCpEI"
   }
 }

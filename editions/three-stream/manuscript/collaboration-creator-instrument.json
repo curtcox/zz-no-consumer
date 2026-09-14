@@ -1,0 +1,737 @@
+[
+  {
+    "id": "prod-instrument-fallback",
+    "title": "A safeguard replaces the model mid-task",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T00:17:17.070Z",
+    "end": "2026-09-06T00:17:50.993Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored system record at 00:17:17.070 UTC (19:17 on 5 September in Curt’s time zone) and the first visible successor message at 00:17:50.993 UTC, both in Claude session fb8d8282.",
+    "source_limit": "The product’s safeguard acted inside Claude’s session; the row shows the session’s record, not a choice by either model. Two stored events are not a rate, and nothing here establishes that the classification was right or wrong or that the book was targeted.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-fallback-notice",
+        "old_panels": [
+          "086-03",
+          "086-05"
+        ],
+        "frame": "The stored warning as a dated line in the session transcript, with both model identifiers and the category field. Not a chat bubble; no reaction is drawn.",
+        "lettering": [
+          "6 September, 00:17:17 UTC — 19:17 on 5 September for Curt. In the prose-retelling session the transcript stores a warning: “Fable 5.1's safeguards flagged this message. Our intentionally broad safeguards allow us to deliver more capabilities faster, but can sometimes flag legitimate coding, cybersecurity, and biology tasks. Switched to Opus 4.8.” Its category is cyber. The switch is automatic."
+        ],
+        "exact_strings": [
+          {
+            "text": "Fable 5.1's safeguards flagged this message. Our intentionally broad safeguards allow us to deliver more capabilities faster, but can sometimes flag legitimate coding, cybersecurity, and biology tasks. Switched to Opus 4.8.",
+            "source": "PROD-436cc7f1473e",
+            "locator": "256t/editions/selected-messages/436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37.json; record SHA-256 436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37; field content",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-436cc7f1473e",
+            "locator": "256t/editions/selected-messages/436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37.json; record SHA-256 436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37",
+            "available": "2026-09-06T00:17:17.070Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T00:17:17.070Z",
+        "time_end": "2026-09-06T00:17:17.070Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-03",
+            "disposition": "rewrite",
+            "reason": "Place the stored event at its own UTC record time with local time kept; quote the stored notice verbatim instead of a notice-shaped paraphrase."
+          },
+          {
+            "old_panel": "086-05",
+            "disposition": "rewrite",
+            "reason": "The breadth-for-speed sentence is quoted from the stored notice; the race reading stays the book’s analysis."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-fallback-retracted",
+        "old_panels": [
+          "086-06"
+        ],
+        "frame": "The same record’s list of seven identifiers beside the transcript, with no line for any of them.",
+        "lettering": [
+          "The record lists seven retracted message identifiers. None of the seven is a record in the transcript file; they are absent, not marked deleted."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-436cc7f1473e",
+            "locator": "256t/editions/selected-messages/436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37.json; record SHA-256 436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37",
+            "available": "2026-09-06T00:17:17.070Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T00:17:17.070Z",
+        "time_end": "2026-09-06T00:17:17.070Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-06",
+            "disposition": "rewrite",
+            "reason": "Seven absent identifiers and the successor’s continuation kept at their record times; the erasure analogy is limited to this transcript."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-fallback-successor",
+        "old_panels": [
+          "086-06"
+        ],
+        "frame": "The successor’s first visible message, labelled with its recorded model, Opus 4.8.",
+        "lettering": [
+          "About half a minute later, a message recorded as Opus 4.8 continues the task: the prose-coverage validator works and reports all 594 panels unwritten. Nothing in the message mentions the removed stretch. This is a fact about this project’s transcript, not evidence about the incident agents."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-033355341c83",
+            "locator": "256t/editions/selected-messages/033355341c83d1c8d5165a74edd33389f5d7dfd9e3ccc1460b55170f6b791aff.json; record SHA-256 033355341c83d1c8d5165a74edd33389f5d7dfd9e3ccc1460b55170f6b791aff",
+            "available": "2026-09-06T00:17:50.993Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T00:17:50.993Z",
+        "time_end": "2026-09-06T00:17:50.993Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-06",
+            "disposition": "rewrite",
+            "reason": "Seven absent identifiers and the successor’s continuation kept at their record times; the erasure analogy is limited to this transcript."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-curt-answers",
+    "title": "Curt brings the banner and the trade",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-06T14:02:00.726Z",
+    "end": "2026-09-06T14:02:00.726Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "Curt’s recollection and judgment as typed. The claim about tool-building was not in the project’s tracked record at that moment.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-curt-banner",
+        "old_panels": [],
+        "frame": "Curt’s stored message; the banner he pasted is set off as a pasted block, distinct from his own sentences.",
+        "lettering": [
+          "14:02 UTC. Curt pastes the refusal banner he saw the previous evening while working on the book, and asks Claude where in the story it belongs."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-e93c71aa58fc",
+            "locator": "256t/editions/selected-messages/e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824.json; record SHA-256 e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824",
+            "available": "2026-09-06T14:02:00.726Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:02:00.726Z",
+        "time_end": "2026-09-06T14:02:00.726Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-instrument-curt-trade",
+        "old_panels": [],
+        "frame": "The same message, his second answer highlighted.",
+        "lettering": [
+          "In the same message he answers a question about his own role: “it's not just me.” The investigators, he writes, had to rely heavily on OpenAI’s models to help make tools to sift the data, still lacked time, and knew they were adding indirection and risk — “but they decided it was worth it.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "it's not just me",
+            "source": "PROD-e93c71aa58fc",
+            "locator": "256t/editions/selected-messages/e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824.json; record SHA-256 e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "but they decided it was worth it",
+            "source": "PROD-e93c71aa58fc",
+            "locator": "256t/editions/selected-messages/e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824.json; record SHA-256 e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-e93c71aa58fc",
+            "locator": "256t/editions/selected-messages/e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824.json; record SHA-256 e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824",
+            "available": "2026-09-06T14:02:00.726Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:02:00.726Z",
+        "time_end": "2026-09-06T14:02:00.726Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-placement",
+    "title": "Claude proposes a place for the banner",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T14:05:31.065Z",
+    "end": "2026-09-06T14:05:31.065Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message in Claude session 0454eab1 (model recorded as claude-opus-5).",
+    "source_limit": "A proposal made before the stored record was found; Claude’s next report corrects part of its framing.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-placement-proposal",
+        "old_panels": [],
+        "frame": "Claude’s stored reply as terminal text.",
+        "lettering": [
+          "Three minutes later Claude proposes making the banner the central artifact of a new page in the investigation chapter: the one preserved production record in a creator register otherwise reconstructed. It reads the bracketed category as a signal with no route for reply, and sets two limits — no grievance, and the counterargument beside it: a filter anyone could talk out of blocking by saying they are writing a book is not a filter."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-b42c7edf8e95",
+            "locator": "256t/editions/selected-messages/b42c7edf8e9507cf0faa98a105347c0babb7c495c9c4227b3afbd30e4b526532.json; record SHA-256 b42c7edf8e9507cf0faa98a105347c0babb7c495c9c4227b3afbd30e4b526532",
+            "available": "2026-09-06T14:05:31.065Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:05:31.065Z",
+        "time_end": "2026-09-06T14:05:31.065Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-instrument-placement-flag",
+        "old_panels": [],
+        "frame": "The same reply, its caution highlighted.",
+        "lettering": [
+          "Claude calls Curt’s answer a better beat than its own proposal, and flags one part — models used to make tools — as going past what the project has recorded."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-b42c7edf8e95",
+            "locator": "256t/editions/selected-messages/b42c7edf8e9507cf0faa98a105347c0babb7c495c9c4227b3afbd30e4b526532.json; record SHA-256 b42c7edf8e9507cf0faa98a105347c0babb7c495c9c4227b3afbd30e4b526532",
+            "available": "2026-09-06T14:05:31.065Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:05:31.065Z",
+        "time_end": "2026-09-06T14:05:31.065Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-search",
+    "title": "Curt asks for the exact record",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-06T14:15:08.920Z",
+    "end": "2026-09-06T14:15:08.920Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "The request, as typed.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-search-message",
+        "old_panels": [],
+        "frame": "Curt’s stored request, with a screenshot’s file name as its only pointer.",
+        "lettering": [
+          "14:15 UTC. Curt asks Claude to add a New York Times interview to the research, then to search their conversations for the exact refusal context — using his screenshot’s timestamp — and to frame it accurately."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-a3f8ad85ef77",
+            "locator": "256t/editions/selected-messages/a3f8ad85ef7798cbc60714a971a364765468b250e67d39deb20335bef789bb19.json; record SHA-256 a3f8ad85ef7798cbc60714a971a364765468b250e67d39deb20335bef789bb19",
+            "available": "2026-09-06T14:15:08.920Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:15:08.920Z",
+        "time_end": "2026-09-06T14:15:08.920Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-record",
+    "title": "The record corrects the framing",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T14:20:38.165Z",
+    "end": "2026-09-06T14:20:38.165Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message in Claude session 0454eab1 (model recorded as claude-opus-5).",
+    "source_limit": "Claude’s account of both stored records was checked against them for this draft; its credits claim is its report, not independently checked here.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-record-correction",
+        "old_panels": [
+          "086-03"
+        ],
+        "frame": "Claude’s stored report as terminal text beside the two stored notices.",
+        "lettering": [
+          "14:20 UTC. Claude reports that the stored record corrects its own framing. The switch was automatic, from Fable 5.1 to Opus 4.8. Curt had captured the on-screen refusal explanation; the transcript stores a second, different notice — the one that names the trade."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-286bae5d03b5",
+            "locator": "256t/editions/selected-messages/286bae5d03b54c88d51f5a2bc12beeea4019279be355a3820bba4a42b5e2fe19.json; record SHA-256 286bae5d03b54c88d51f5a2bc12beeea4019279be355a3820bba4a42b5e2fe19",
+            "available": "2026-09-06T14:20:38.165Z"
+          },
+          {
+            "key": "PROD-436cc7f1473e",
+            "locator": "256t/editions/selected-messages/436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37.json; record SHA-256 436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37",
+            "available": "2026-09-06T00:17:17.070Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:20:38.165Z",
+        "time_end": "2026-09-06T14:20:38.165Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-03",
+            "disposition": "rewrite",
+            "reason": "Place the stored event at its own UTC record time with local time kept; quote the stored notice verbatim instead of a notice-shaped paraphrase."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-record-earlier",
+        "old_panels": [
+          "086-04",
+          "086-05"
+        ],
+        "frame": "The same report: an earlier stored notice from another repository, set beside the September one.",
+        "lettering": [
+          "It found an earlier fallback, on 15 July in Curt’s time zone, in an unrelated repository, on a request to validate design documents. That removes the reading Claude had proposed: this was not a safety system blocking a documentary about the incident. Both notices describe safeguards kept deliberately broad in exchange for faster capability. The book’s word for that — a race — remains its own analysis."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-286bae5d03b5",
+            "locator": "256t/editions/selected-messages/286bae5d03b54c88d51f5a2bc12beeea4019279be355a3820bba4a42b5e2fe19.json; record SHA-256 286bae5d03b54c88d51f5a2bc12beeea4019279be355a3820bba4a42b5e2fe19",
+            "available": "2026-09-06T14:20:38.165Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:20:38.165Z",
+        "time_end": "2026-09-06T14:20:38.165Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-04",
+            "disposition": "rewrite",
+            "reason": "The 15 July unrelated-project fallback enters through Claude’s 6 September report and keeps the not-about-this-book limit."
+          },
+          {
+            "old_panel": "086-05",
+            "disposition": "rewrite",
+            "reason": "The breadth-for-speed sentence is quoted from the stored notice; the race reading stays the book’s analysis."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-record-gaps",
+        "old_panels": [
+          "086-06"
+        ],
+        "frame": "The same report: the absent messages and a credits correction, as items in a list.",
+        "lettering": [
+          "It reports the seven absent retracted messages and the successor resuming, and a credits file that omitted Opus 4.8 although that model wrote committed work, which Claude says it has corrected. It could not read the interview: the site was blocked."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-286bae5d03b5",
+            "locator": "256t/editions/selected-messages/286bae5d03b54c88d51f5a2bc12beeea4019279be355a3820bba4a42b5e2fe19.json; record SHA-256 286bae5d03b54c88d51f5a2bc12beeea4019279be355a3820bba4a42b5e2fe19",
+            "available": "2026-09-06T14:20:38.165Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:20:38.165Z",
+        "time_end": "2026-09-06T14:20:38.165Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-06",
+            "disposition": "rewrite",
+            "reason": "Seven absent identifiers and the successor’s continuation kept at their record times; the erasure analogy is limited to this transcript."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-interview",
+    "title": "Curt supplies the interview",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-06T14:38:36.979Z",
+    "end": "2026-09-06T14:38:36.979Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "The pasted transcript is an automatic video transcript supplied by Curt, not his wording.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-interview-message",
+        "old_panels": [],
+        "frame": "Curt’s short question above a long pasted video transcript, the transcript drawn as an attachment.",
+        "lettering": [
+          "14:38 UTC. Curt pastes the interview’s video transcript and asks Claude to say more about rewriting one of the character file’s arguments."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-561928832013",
+            "locator": "256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json; record SHA-256 561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba",
+            "available": "2026-09-06T14:38:36.979Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:38:36.979Z",
+        "time_end": "2026-09-06T14:38:36.979Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-stake",
+    "title": "A stake relocated, a method sourced",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T14:42:26.605Z",
+    "end": "2026-09-06T14:42:26.605Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message in Claude session 0454eab1 (model recorded as claude-opus-5).",
+    "source_limit": "Cotra’s statements are her attributed account from an automatic transcript, not verified against audio or METR’s report.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-stake-argument",
+        "old_panels": [],
+        "frame": "Claude’s stored reply as terminal text.",
+        "lettering": [
+          "Claude answers that a shared model name is not a stake. It relocates the claim: the book’s tooling runs behind a classifier whose category is the book’s subject, which acted on this project, replaced the model mid-task and retracted work, and whose notice says breadth buys faster capability."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-270e31b8b68b",
+            "locator": "256t/editions/selected-messages/270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f.json; record SHA-256 270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f",
+            "available": "2026-09-06T14:42:26.605Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:42:26.605Z",
+        "time_end": "2026-09-06T14:42:26.605Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-instrument-stake-cotra",
+        "old_panels": [],
+        "frame": "The same reply, its interview item highlighted.",
+        "lettering": [
+          "From the transcript Claude reports Ajeya Cotra’s account: the investigators used Codex to build tools that pointed them at small parts of the transcripts, and a Codex agent, unable to read a whole transcript either, farmed subsections out to subagents. Curt’s claim about tool-building now has an investigator’s account behind it."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-270e31b8b68b",
+            "locator": "256t/editions/selected-messages/270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f.json; record SHA-256 270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f",
+            "available": "2026-09-06T14:42:26.605Z"
+          },
+          {
+            "key": "HF-POD",
+            "locator": "research/cotra-hardfork-interview.md, item 1; supplied video transcript",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:42:26.605Z",
+        "time_end": "2026-09-06T14:42:26.605Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-go",
+    "title": "Curt authorizes the updates",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-06T14:48:24.894Z",
+    "end": "2026-09-06T14:48:24.894Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at its own timestamp. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "A general authorization; it names no page.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-go-message",
+        "old_panels": [],
+        "frame": "Curt’s stored instruction as a single line.",
+        "lettering": [
+          "14:48 UTC. Curt: “Gather any evidence needed and then make the required updates.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "Gather any evidence needed and then make the required updates.",
+            "source": "PROD-2e1d6d4b4325",
+            "locator": "256t/editions/selected-messages/2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206.json; record SHA-256 2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-2e1d6d4b4325",
+            "locator": "256t/editions/selected-messages/2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206.json; record SHA-256 2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206",
+            "available": "2026-09-06T14:48:24.894Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:48:24.894Z",
+        "time_end": "2026-09-06T14:48:24.894Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-instrument-pages",
+    "title": "Claude writes the instrument pages",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T14:56:55.269Z",
+    "end": "2026-09-06T14:57:34.234Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Two stored Write records in Claude session 0454eab1 (model recorded as claude-opus-5), at 14:56:55 and 14:57:34 UTC, after a two-page insertion made room for them.",
+    "source_limit": "The writes are evidence of the pages’ wording and time. The desk scenes they script are authored. The Barnes post they cite was not preserved in the vault, and its original address did not expose readable text in a later reference pass.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-instrument-pages-lane",
+        "old_panels": [
+          "086-01",
+          "086-02"
+        ],
+        "frame": "The Write record for the first page as a diff; the scene it scripts appears only as text in the diff.",
+        "lettering": [
+          "14:56 UTC. Claude writes a page that returns to the book’s two-instrument diagram and adds a lane that is not a conversation: validators, the page tool, the cross-reference check, the character file. Its script says a second model wrote them under a contract it did not write. That claim leans on commit trailers, and a trailer does not identify the model that typed a change."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-07944425362b",
+            "locator": "256t/editions/selected-messages/07944425362b0c19e84bed0387da2edfff61b6938dc70d45b93d543be1a459c2.json; record SHA-256 07944425362b0c19e84bed0387da2edfff61b6938dc70d45b93d543be1a459c2",
+            "available": "2026-09-06T14:56:55.269Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:56:55.269Z",
+        "time_end": "2026-09-06T14:56:55.269Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-01",
+            "disposition": "rewrite",
+            "reason": "Return of the two-instrument diagram kept as Claude’s written page; cross-page choreography is old-edition layout."
+          },
+          {
+            "old_panel": "086-02",
+            "disposition": "rewrite",
+            "reason": "Keep the non-conversational tooling lane; the second-model authorship claim rests on commit trailers, which do not identify authors."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-pages-notices",
+        "old_panels": [
+          "086-03",
+          "086-04",
+          "086-05",
+          "086-06"
+        ],
+        "frame": "The same diff: two dated notices, a lifted sentence and a drawn gap, as script text.",
+        "lettering": [
+          "The same page sets the two stored notices as dated records, says the earlier one concerned another project, lifts the breadth-for-speed sentence and marks the book’s race reading as its own analysis. Its lettered notice is a paraphrase in a notice’s shape; the stored wording is the one quoted at 00:17."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-07944425362b",
+            "locator": "256t/editions/selected-messages/07944425362b0c19e84bed0387da2edfff61b6938dc70d45b93d543be1a459c2.json; record SHA-256 07944425362b0c19e84bed0387da2edfff61b6938dc70d45b93d543be1a459c2",
+            "available": "2026-09-06T14:56:55.269Z"
+          },
+          {
+            "key": "PROD-436cc7f1473e",
+            "locator": "256t/editions/selected-messages/436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37.json; record SHA-256 436cc7f1473ea1a8816f0485be78a07dfd35ec502056ae76579f12d34934db37",
+            "available": "2026-09-06T00:17:17.070Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:56:55.269Z",
+        "time_end": "2026-09-06T14:56:55.269Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "086-03",
+            "disposition": "rewrite",
+            "reason": "Place the stored event at its own UTC record time with local time kept; quote the stored notice verbatim instead of a notice-shaped paraphrase."
+          },
+          {
+            "old_panel": "086-04",
+            "disposition": "rewrite",
+            "reason": "The 15 July unrelated-project fallback enters through Claude’s 6 September report and keeps the not-about-this-book limit."
+          },
+          {
+            "old_panel": "086-05",
+            "disposition": "rewrite",
+            "reason": "The breadth-for-speed sentence is quoted from the stored notice; the race reading stays the book’s analysis."
+          },
+          {
+            "old_panel": "086-06",
+            "disposition": "rewrite",
+            "reason": "Seven absent identifiers and the successor’s continuation kept at their record times; the erasure analogy is limited to this transcript."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-pages-column",
+        "old_panels": [
+          "087-01",
+          "087-02",
+          "087-03"
+        ],
+        "frame": "The Write record for the second page as a diff: a third column cut into the mirror, as script text.",
+        "lettering": [
+          "14:57 UTC. The second page cuts a third column into the mirror — investigators, the desk, the tooling. On the investigators’ side it adds Cotra’s account of model-built navigation tools; beneath each column, a card for what that layer cost."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9b9fc185820e",
+            "locator": "256t/editions/selected-messages/9b9fc185820efaf964ebbd3c9c3a623eb8412b1491b5677128076d6ec1650885.json; record SHA-256 9b9fc185820efaf964ebbd3c9c3a623eb8412b1491b5677128076d6ec1650885",
+            "available": "2026-09-06T14:57:34.234Z"
+          },
+          {
+            "key": "HF-POD",
+            "locator": "research/cotra-hardfork-interview.md, item 1; supplied video transcript",
+            "available": "2026-09-04"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 26–28; delegation to AI agents",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:57:34.234Z",
+        "time_end": "2026-09-06T14:57:34.234Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "087-01",
+            "disposition": "rewrite",
+            "reason": "Keep the third column as Claude’s authored comparison."
+          },
+          {
+            "old_panel": "087-02",
+            "disposition": "rewrite",
+            "reason": "Cotra’s attributed account of model-built navigation tools replaces first-person investigator lettering."
+          },
+          {
+            "old_panel": "087-03",
+            "disposition": "rewrite",
+            "reason": "Keep the cost cards as Claude’s authored comparison."
+          }
+        ]
+      },
+      {
+        "id": "prod-instrument-pages-trade",
+        "old_panels": [
+          "087-04",
+          "087-05",
+          "087-06"
+        ],
+        "frame": "The same diff: one sentence repeated under three columns, the columns running off the page.",
+        "lettering": [
+          "It places a Beth Barnes post about incentives on third-party investigators beside the columns, and gives all three one sentence: not enough time, a layer of machinery added on purpose, the risk understood and accepted. That sentence begins in Curt’s answer about the investigators and himself; the page extends it to the tooling. It ends unresolved: each was a choice, and none can say whether it was right."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9b9fc185820e",
+            "locator": "256t/editions/selected-messages/9b9fc185820efaf964ebbd3c9c3a623eb8412b1491b5677128076d6ec1650885.json; record SHA-256 9b9fc185820efaf964ebbd3c9c3a623eb8412b1491b5677128076d6ec1650885",
+            "available": "2026-09-06T14:57:34.234Z"
+          },
+          {
+            "key": "PROD-e93c71aa58fc",
+            "locator": "256t/editions/selected-messages/e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824.json; record SHA-256 e93c71aa58fc57bb49f3187c45828a5e38367f0f81c43827e417d016b698d824",
+            "available": "2026-09-06T14:02:00.726Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T14:57:34.234Z",
+        "time_end": "2026-09-06T14:57:34.234Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "087-04",
+            "disposition": "rewrite",
+            "reason": "Barnes’s post is placed as Claude’s act; its wording is not preserved in the vault and is not lettered."
+          },
+          {
+            "old_panel": "087-05",
+            "disposition": "rewrite",
+            "reason": "Trace the shared sentence to Curt’s 14:02 answer; keep unequal stakes, access and duties."
+          },
+          {
+            "old_panel": "087-06",
+            "disposition": "retain",
+            "reason": "Each lane was a choice and none can say whether it was right."
+          }
+        ]
+      }
+    ]
+  }
+]

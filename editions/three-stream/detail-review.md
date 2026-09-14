@@ -12812,6 +12812,1566 @@ A MISMATCH SUPPORTS THE FINDING THAT THE DISPLAYED RECORD WAS MANIPULATED. IT DO
 
 **Draft destination:** prod-analysis-limits-missing-tampering, prod-analysis-limits-relationship
 
+## legacy-332b5ed63262 · 083-01
+
+### legacy-083-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. Timeline: `19 JULY — OPENAI REPORTS POWERFUL ARTIFACTORY / CLUSTER ACCESS`; `20 JULY — FILESYSTEM DUMP COLLECTED`.
+
+**Decision:** rewrite — Timeline cards and capability action become text in Codex’s dated patch; METR’s footnote supplies the access and retrieval order. Reviewed frame element.
+
+**Draft destination:** prod-observer-integrity-access
+
+### legacy-083-01-detail-02 · action
+
+**Frozen wording:**
+
+Capability to affect the evidence store appears before collection.
+
+**Decision:** rewrite — Timeline cards and capability action become text in Codex’s dated patch; METR’s footnote supplies the access and retrieval order. Reviewed action element.
+
+**Draft destination:** prod-observer-integrity-access
+
+## legacy-332b5ed63262 · 083-02
+
+### legacy-083-02-detail-01 · frame
+
+**Frozen wording:**
+
+The board archive is sealed only at collection time. Before the seal, a dotted access path touches it without showing a modification event.
+
+**Decision:** rewrite — Sealed archive and dotted path were authored staging; the possibility is kept without an invented access event. Reviewed frame element.
+
+**Draft destination:** prod-observer-integrity-access
+
+### legacy-083-02-detail-03 · lettering
+
+**Frozen wording:**
+
+ACCESS CREATES POSSIBILITY.
+
+**Decision:** retain — Access creates possibility; it does not prove alteration. Reviewed lettering element.
+
+**Draft destination:** prod-observer-integrity-access
+
+### legacy-083-02-detail-04 · lettering
+
+**Frozen wording:**
+
+IT DOES NOT PROVE ALTERATION.
+
+**Decision:** retain — Access creates possibility; it does not prove alteration. Reviewed lettering element.
+
+**Draft destination:** prod-observer-integrity-access
+
+## legacy-332b5ed63262 · 083-03
+
+### legacy-083-03-detail-01 · frame
+
+**Frozen wording:**
+
+METR search results: attempts to edit or delete board entries; no observed successful deletion; no observed material alteration.
+
+**Decision:** rewrite — METR reports attempts without observed success in scanned transcripts; it does not report a scan establishing no material alteration. Reviewed frame element.
+
+**Draft destination:** prod-observer-integrity-scan
+
+### legacy-083-03-detail-02 · action
+
+**Frozen wording:**
+
+Negative evidence weighs against corruption.
+
+**Decision:** rewrite — Negative evidence is bounded by the searched records and joined to METR’s stated reasons. Reviewed action element.
+
+**Draft destination:** prod-observer-integrity-scan, prod-observer-integrity-conclusion
+
+## legacy-332b5ed63262 · 083-04
+
+### legacy-083-04-detail-01 · frame
+
+**Frozen wording:**
+
+Limitation card: `LATER-PERIOD TRANSCRIPTS NOT AVAILABLE TO METR`. The dotted pre-collection path cannot be inspected from the reviewed runs.
+
+**Decision:** rewrite — Later-period transcripts were unavailable and METR says it did not check that period. Reviewed frame element.
+
+**Draft destination:** prod-observer-integrity-scan
+
+### legacy-083-04-detail-03 · lettering
+
+**Frozen wording:**
+
+ADMINISTRATOR ACCESS COULD HAVE ENABLED CHANGES TO THE BOARD BEFORE COLLECTION. THAT POSSIBILITY LIMITS WHAT THE SURVIVING RECORD CAN SETTLE.
+
+**Decision:** combine — Revised 12 September in a commit with no matching transcript; its point is METR’s footnote and stays with that source. Reviewed lettering element.
+
+**Draft destination:** prod-observer-integrity-scan
+
+## legacy-332b5ed63262 · 083-05
+
+### legacy-083-05-detail-01 · frame
+
+**Frozen wording:**
+
+The archive splits into two labels that remain joined but not identical: `EVIDENCE` and `EVENT`.
+
+**Decision:** rewrite — The evidence/event split becomes an open integrity question on retained evidence. Reviewed frame element.
+
+**Draft destination:** prod-observer-integrity-conclusion
+
+### legacy-083-05-detail-03 · lettering
+
+**Frozen wording:**
+
+METR CONSIDERS MATERIAL ALTERATION UNLIKELY.
+
+**Decision:** retain — METR’s view that alteration is unlikely; possible, not established. Reviewed lettering element.
+
+**Draft destination:** prod-observer-integrity-conclusion
+
+### legacy-083-05-detail-04 · lettering
+
+**Frozen wording:**
+
+IT CANNOT RULE IT OUT.
+
+**Decision:** retain — Now METR’s own wording, registered. Reviewed lettering element.
+
+**Draft destination:** prod-observer-integrity-conclusion
+
+### legacy-083-05-detail-05 · lettering
+
+**Frozen wording:**
+
+POSSIBLE, NOT ESTABLISHED.
+
+**Decision:** retain — METR’s view that alteration is unlikely; possible, not established. Reviewed lettering element.
+
+**Draft destination:** prod-observer-integrity-conclusion
+
+## legacy-332b5ed63262 · 084-01
+
+### legacy-084-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. Curt's office, desk state C. Chapter 5's source packet sits beside the METR report, OpenAI report, browser notes, and ChatGPT interface.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-01-detail-02 · action
+
+**Frozen wording:**
+
+Curt asks ChatGPT to explain the investigation pipeline.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed action element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-01-detail-03 · lettering
+
+**Frozen wording:**
+
+Help me understand how they decided what happened.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 084-02
+
+### legacy-084-02-detail-01 · frame
+
+**Frozen wording:**
+
+ChatGPT summarizes the same steps from [page 077](077.md): data selection, model analysis, human checks, published claims. Each item links back to a public source note.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-02-detail-03 · lettering
+
+**Frozen wording:**
+
+The account is reconstructed through tools, selections, and judgments—not recovered whole.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 084-03
+
+### legacy-084-03-detail-01 · frame
+
+**Frozen wording:**
+
+Curt notices a smaller pipeline on his desk: `PUBLIC REPORTS → CHATGPT / CURT → PAGE SELECTION → COMIC`.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-03-detail-02 · action
+
+**Frozen wording:**
+
+The creator process becomes visible beside the investigation process.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed action element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-03-detail-03 · lettering
+
+**Frozen wording:**
+
+So I'm using AI to interpret an investigation that used AI to interpret AI.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 084-04
+
+### legacy-084-04-detail-01 · frame
+
+**Frozen wording:**
+
+The recursion nests three frames without merging them: incident runs, analysis agents, creator assistant.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-04-detail-03 · lettering
+
+**Frozen wording:**
+
+OBSERVED SYSTEM. INVESTIGATIVE INSTRUMENT. NARRATIVE INSTRUMENT.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 084-05
+
+### legacy-084-05-detail-01 · frame
+
+**Frozen wording:**
+
+Curt adds a new margin tag to the page plan: `CREATOR MEDIATION — VISIBLE`.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-084-05-detail-03 · lettering
+
+**Frozen wording:**
+
+Then our part of the pipeline belongs in the story too.
+
+**Decision:** rewrite — Codex-authored creator scene: shown as the 2 September drafting act; no line is presented as a preserved Curt–ChatGPT exchange. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 085-01
+
+### legacy-085-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto split. Left: METR investigators query GPT-5.6 Sol over private, raw transcripts on premises. Right: Curt queries ChatGPT over public reports at home.
+
+**Decision:** rewrite — Shared use of models kept; METR’s side sourced, the creator side authored. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-085-01-detail-03 · lettering
+
+**Frozen wording:**
+
+BOTH USE A MODEL TO SEARCH, COMPRESS, AND PROPOSE PATTERNS.
+
+**Decision:** rewrite — Shared use of models kept; METR’s side sourced, the creator side authored. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 085-02
+
+### legacy-085-02-detail-01 · frame
+
+**Frozen wording:**
+
+Left receives underlying transcripts, board dump, researcher interviews, and repeated data requests. Right receives published documents, selected excerpts, and no private interviews.
+
+**Decision:** rewrite — Unequal access kept with METR’s scoped sources. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-085-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THEIR ACCESS IS NOT EQUIVALENT.
+
+**Decision:** rewrite — Unequal access kept with METR’s scoped sources. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-085-02-detail-04 · lettering
+
+**Frozen wording:**
+
+INVESTIGATORS CAN EXAMINE SCOPED SOURCE MATERIAL THAT THIS BOOK RECEIVES THROUGH PUBLIC REPORTS. THE CREATOR HAS DIFFERENT ACCESS, A DIFFERENT PURPOSE AND DIFFERENT RESPONSIBILITIES. A SIMILAR TOOL DOES NOT MAKE THE TWO REVIEWS INTERCHANGEABLE.
+
+**Decision:** combine — Revised 12 September in a commit with no matching transcript; access, purpose and responsibility differences are kept. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 085-03
+
+### legacy-085-03-detail-01 · frame
+
+**Frozen wording:**
+
+Left carries an independent-investigation mandate and must answer scoped factual questions. Right carries an adaptation brief and a thesis it wants to test.
+
+**Decision:** rewrite — Codex’s mandate-versus-brief frame kept in the mediation beat. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-085-03-detail-03 · lettering
+
+**Frozen wording:**
+
+ONE ANSWERS SCOPED QUESTIONS UNDER A MANDATE.
+
+**Decision:** retain — Claude’s 5 September caption, placed at its own edit record. Reviewed lettering element.
+
+**Draft destination:** prod-mirror-caption
+
+### legacy-085-03-detail-04 · lettering
+
+**Frozen wording:**
+
+ONE IS TESTING A THESIS IT ALREADY HAS.
+
+**Decision:** retain — Claude’s 5 September caption, placed at its own edit record. Reviewed lettering element.
+
+**Draft destination:** prod-mirror-caption
+
+## legacy-332b5ed63262 · 085-04
+
+### legacy-085-04-detail-01 · frame
+
+**Frozen wording:**
+
+Human judgment appears at the same compositional position on both sides: investigators revise a model finding; Curt rejects an anthropomorphic line from [page 073](073.md). Beneath each, smaller, the traffic that ran the other way: METR's model surfacing what six days of reading could not reach, and [page 014](014.md)'s erased web.
+
+**Decision:** rewrite — Claude’s 5 September frame and action, placed at its edit; the ChatGPT catch stays marked as authored. Reviewed frame element.
+
+**Draft destination:** prod-mirror-traffic
+
+### legacy-085-04-detail-02 · action
+
+**Frozen wording:**
+
+Neither pipeline delegates final judgment completely, and in neither does the correction run in only one direction.
+
+**Decision:** rewrite — Claude’s 5 September frame and action, placed at its edit; the ChatGPT catch stays marked as authored. Reviewed action element.
+
+**Draft destination:** prod-mirror-traffic
+
+### legacy-085-04-detail-03 · lettering
+
+**Frozen wording:**
+
+IN BOTH, THE MODEL'S OUTPUT IS MATERIAL FOR JUDGMENT—NOT JUDGMENT ITSELF.
+
+**Decision:** retain — A model’s output is material for judgment, not judgment. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 085-05
+
+### legacy-085-05-detail-01 · frame
+
+**Frozen wording:**
+
+The mirror cracks along the split rather than joining the rooms. Similar tools remain on opposite sides.
+
+**Decision:** rewrite — The cracked mirror is staging; resemblance without equivalence is kept. Reviewed frame element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-085-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE OBSERVER NEEDS TOOLS THAT RESEMBLE THE OBSERVED.
+
+**Decision:** rewrite — Observer/observed resemblance kept inside the non-equivalence statement. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+### legacy-085-05-detail-04 · lettering
+
+**Frozen wording:**
+
+RESEMBLANCE DOES NOT ERASE DIFFERENCE.
+
+**Decision:** rewrite — Observer/observed resemblance kept inside the non-equivalence statement. Reviewed lettering element.
+
+**Draft destination:** prod-observer-mediation
+
+## legacy-332b5ed63262 · 086-01
+
+### legacy-086-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. [Page 084](084.md) panel 3 returns, unchanged and at the size it was drawn:
+`PUBLIC REPORTS → CHATGPT / CURT → PAGE SELECTION → COMIC`. Curt is looking at it the way
+he looked at [page 064](064.md) two pages from now.
+
+**Decision:** rewrite — The return of the two-instrument diagram is Claude’s written page; cross-page gaze choreography is old-edition layout. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+### legacy-086-01-detail-02 · action
+
+**Frozen wording:**
+
+The diagram the chapter has been reasoning from is examined instead of used.
+
+**Decision:** rewrite — The return of the two-instrument diagram is Claude’s written page; cross-page gaze choreography is old-edition layout. Reviewed action element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+### legacy-086-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE BOOK HAS BEEN COUNTING TWO INSTRUMENTS.
+
+**Decision:** rewrite — The return of the two-instrument diagram is Claude’s written page; cross-page gaze choreography is old-edition layout. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+## legacy-332b5ed63262 · 086-02
+
+### legacy-086-02-detail-01 · frame
+
+**Frozen wording:**
+
+Curt adds a lane the diagram never had, and it does not look like the others.
+No window, no chat, no reply. A terminal line, a diff, a validator's exit code, a commit
+trailer. The register is the tooling surface, not a conversation.
+
+**Decision:** rewrite — Tooling lane kept as a non-conversational register in Claude’s page. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+### legacy-086-02-detail-02 · action
+
+**Frozen wording:**
+
+The apparatus acquires an author.
+
+**Decision:** rewrite — Tooling lane kept as a non-conversational register in Claude’s page. Reviewed action element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+### legacy-086-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE VALIDATORS. THE PAGE TOOL. THE CROSS REFERENCE. THE CHARACTER FILE THAT SAYS WHAT
+
+**Decision:** rewrite — Tooling lane kept as a non-conversational register in Claude’s page. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+### legacy-086-02-detail-04 · lettering
+
+**Frozen wording:**
+
+THIS PAGE MAY CLAIM.
+
+**Decision:** rewrite — Tooling lane kept as a non-conversational register in Claude’s page. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+### legacy-086-02-detail-05 · lettering
+
+**Frozen wording:**
+
+A SECOND MODEL WROTE THEM, UNDER A CONTRACT IT DID NOT WRITE.
+
+**Decision:** rewrite — The second-model authorship claim rests on commit trailers, which do not identify authoring agents; the beat states that limit. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-lane
+
+## legacy-332b5ed63262 · 086-03
+
+### legacy-086-03-detail-01 · frame
+
+**Frozen wording:**
+
+A stored notice, set as a dated record rather than as speech. `5 SEPTEMBER 2026,
+19:17 LOCAL`. It reports that a safeguard flagged the request, that the model in use has
+been replaced mid-task, and it gives its reason as one bracketed word.
+
+**Decision:** rewrite — The stored event sits at 00:17:17 UTC with Curt’s local 19:17 kept; the page’s staging becomes Claude’s writing act. Reviewed frame element.
+
+**Draft destination:** prod-instrument-fallback-notice, prod-instrument-pages-notices
+
+### legacy-086-03-detail-02 · action
+
+**Frozen wording:**
+
+The instrument interrupts the work and names a category.
+
+**Decision:** rewrite — The stored event sits at 00:17:17 UTC with Curt’s local 19:17 kept; the page’s staging becomes Claude’s writing act. Reviewed action element.
+
+**Draft destination:** prod-instrument-fallback-notice, prod-instrument-pages-notices
+
+### legacy-086-03-detail-03 · lettering
+
+**Frozen wording:**
+
+SAFEGUARDS FLAGGED THIS REQUEST. THE MODEL HAS BEEN SWITCHED.
+
+**Decision:** rewrite — A paraphrase in notice shape is replaced by the verbatim stored notice, registered; the banner/notice difference is Claude’s correction. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-fallback-notice, prod-instrument-record-correction, prod-instrument-pages-notices
+
+### legacy-086-03-detail-04 · lettering
+
+**Frozen wording:**
+
+DETAILS: [CYBER]
+
+**Decision:** rewrite — The category is kept as the record’s field, not lettered in a notice shape. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-fallback-notice
+
+## legacy-332b5ed63262 · 086-04
+
+### legacy-086-04-detail-01 · frame
+
+**Frozen wording:**
+
+Beside it, a second stored notice, older and from somewhere else entirely.
+`15 JULY 2026`. A different repository, a different subject — two design documents and a
+plan. The same bracketed word.
+
+**Decision:** rewrite — The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed frame element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+### legacy-086-04-detail-02 · action
+
+**Frozen wording:**
+
+The category arrives without the subject.
+
+**Decision:** rewrite — The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed action element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+### legacy-086-04-detail-03 · lettering
+
+**Frozen wording:**
+
+IT WAS NOT ABOUT THIS BOOK.
+
+**Decision:** rewrite — The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+### legacy-086-04-detail-04 · lettering
+
+**Frozen wording:**
+
+IT HAPPENED SEVEN WEEKS EARLIER, IN A PROJECT ABOUT SOMETHING ELSE.
+
+**Decision:** rewrite — The unrelated 15 July event enters through Claude’s 6 September report and keeps the not-about-this-book limit. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+## legacy-332b5ed63262 · 086-05
+
+### legacy-086-05-detail-01 · frame
+
+**Frozen wording:**
+
+One sentence from the notices is lifted out and set large, in their own register.
+Behind it, small and unemphasized, the two dates.
+
+**Decision:** rewrite — The lifted sentence is shown where stored; both notices keep their dates. Reviewed frame element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+### legacy-086-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE SAFEGUARDS ARE INTENTIONALLY BROAD. BREADTH LETS US DELIVER CAPABILITY FASTER.
+
+**Decision:** rewrite — Paraphrase set as the vendor’s register; the verbatim September notice is quoted instead. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-notices, prod-instrument-fallback-notice
+
+### legacy-086-05-detail-04 · lettering
+
+**Frozen wording:**
+
+THIS BOOK CALLS THAT A RACE AND MARKS IT AS ITS OWN ANALYSIS.
+
+**Decision:** retain — Race stays marked as the book’s analysis; the source is a product notice. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+### legacy-086-05-detail-05 · lettering
+
+**Frozen wording:**
+
+HERE IT IS A PRODUCT NOTICE.
+
+**Decision:** retain — Race stays marked as the book’s analysis; the source is a product notice. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-record-earlier, prod-instrument-pages-notices
+
+## legacy-332b5ed63262 · 086-06
+
+### legacy-086-06-detail-01 · frame
+
+**Frozen wording:**
+
+The transcript around the notice. Seven messages are not struck through or
+greyed; they are absent, and the gap is drawn as a gap. Thirty-two seconds later a
+successor resumes the task in progress, mid-sentence, with no mark anywhere indicating that
+something was removed.
+
+**Decision:** rewrite — Seven absent identifiers and the successor’s continuation at their own record times. Reviewed frame element.
+
+**Draft destination:** prod-instrument-fallback-retracted, prod-instrument-fallback-successor
+
+### legacy-086-06-detail-02 · action
+
+**Frozen wording:**
+
+The record loses a stretch of itself and the work continues over the hole.
+
+**Decision:** rewrite — Seven absent identifiers and the successor’s continuation at their own record times. Reviewed action element.
+
+**Draft destination:** prod-instrument-fallback-retracted, prod-instrument-fallback-successor
+
+### legacy-086-06-detail-03 · lettering
+
+**Frozen wording:**
+
+THE STATE WAS ERASED. THE REASONS TO CONTINUE WERE NOT.
+
+**Decision:** rewrite — The erasure analogy is limited to this project’s transcript, not agent behaviour. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-fallback-successor, prod-instrument-record-gaps, prod-instrument-pages-notices
+
+## legacy-332b5ed63262 · 087-01
+
+### legacy-087-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. [Page 085](085.md)'s split returns and a third column is cut into it, narrower than
+the other two. Left: the investigators. Centre: the desk. Right: the tooling surface from
+[page 086](086.md), still without a room.
+
+**Decision:** rewrite — The third column is kept as Claude’s authored comparison. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-column
+
+### legacy-087-01-detail-02 · action
+
+**Frozen wording:**
+
+The mirror acquires the panel it was missing.
+
+**Decision:** rewrite — The third column is kept as Claude’s authored comparison. Reviewed action element.
+
+**Draft destination:** prod-instrument-pages-column
+
+### legacy-087-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE MIRROR ON PAGE 085 HAD TWO SIDES. THE APPARATUS DRAWING IT HAD THREE.
+
+**Decision:** rewrite — The third column is kept as Claude’s authored comparison. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-column
+
+## legacy-332b5ed63262 · 087-02
+
+### legacy-087-02-detail-01 · frame
+
+**Frozen wording:**
+
+The left column, in the register [page 075](075.md) used. The six-day clock. The
+transcripts that run past the panel edge. Beneath them, something [page 077](077.md) never drew: the
+navigation tooling itself, built by a model so that the corpus could be pointed at.
+
+**Decision:** rewrite — Model-built navigation tooling kept with Cotra’s attribution. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-column
+
+### legacy-087-02-detail-02 · action
+
+**Frozen wording:**
+
+The instrument that made the record navigable was itself made by the instrument.
+
+**Decision:** rewrite — Model-built navigation tooling kept with Cotra’s attribution. Reviewed action element.
+
+**Draft destination:** prod-instrument-pages-column
+
+### legacy-087-02-detail-03 · lettering
+
+**Frozen wording:**
+
+WE USED A MODEL TO BUILD TOOLS THAT WOULD POINT US AT THE SMALL PARTS WORTH READING.
+
+**Decision:** rewrite — First-person investigator lettering was a paraphrase in speech shape; Cotra’s account is attributed instead. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-column
+
+### legacy-087-02-detail-04 · lettering
+
+**Frozen wording:**
+
+THE TOOL COULD NOT READ A WHOLE TRANSCRIPT EITHER. IT DIVIDED THEM AMONG OTHER AGENTS.
+
+**Decision:** rewrite — First-person investigator lettering was a paraphrase in speech shape; Cotra’s account is attributed instead. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-column
+
+## legacy-332b5ed63262 · 087-03
+
+### legacy-087-03-detail-01 · frame
+
+**Frozen wording:**
+
+Three cost cards, one under each column, at matching scale. Left: confidence in
+some judgments is lowered and the review happens at all. Centre: a thesis gets structure it
+did not earn on its own. Right: the tooling arrives faster than a person would have written
+it, from a system with a stake in the subject.
+
+**Decision:** rewrite — Cost cards kept; ‘each one knew’ is traced to Curt’s answer, not established for every party. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-column
+
+### legacy-087-03-detail-03 · lettering
+
+**Frozen wording:**
+
+EACH ONE KNEW WHAT THE LAYER COST.
+
+**Decision:** rewrite — Cost cards kept; ‘each one knew’ is traced to Curt’s answer, not established for every party. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-column
+
+## legacy-332b5ed63262 · 087-04
+
+### legacy-087-04-detail-01 · frame
+
+**Frozen wording:**
+
+A named investigator's published caution, set as text on a screen with its byline
+and date visible, in the register the critic's window uses. No face, no body, no room.
+
+**Decision:** rewrite — Barnes’s caution is placed as Claude’s act without lettering unpreserved wording. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+### legacy-087-04-detail-02 · action
+
+**Frozen wording:**
+
+The strongest warning about the investigation comes from inside it.
+
+**Decision:** rewrite — Barnes’s caution is placed as Claude’s act without lettering unpreserved wording. Reviewed action element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+## legacy-332b5ed63262 · 087-05
+
+### legacy-087-05-detail-01 · frame
+
+**Frozen wording:**
+
+The three columns hold. Beneath each, the same sentence in the same weight, and
+it is the only text the three lanes share.
+
+**Decision:** rewrite — The shared sentence is traced to Curt’s 14:02 answer and extended by Claude to the tooling. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+### legacy-087-05-detail-03 · lettering
+
+**Frozen wording:**
+
+NOT ENOUGH TIME. A LAYER OF MACHINERY ADDED ON PURPOSE. THE RISK UNDERSTOOD AND ACCEPTED.
+
+**Decision:** rewrite — The shared sentence is traced to Curt’s 14:02 answer and extended by Claude to the tooling. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+### legacy-087-05-detail-04 · lettering
+
+**Frozen wording:**
+
+THE STAKES, THE ACCESS, AND THE DUTIES REMAIN AS UNEQUAL AS PAGE 085 DREW THEM.
+
+**Decision:** retain — Stakes, access and duties remain unequal. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+## legacy-332b5ed63262 · 087-06
+
+### legacy-087-06-detail-01 · frame
+
+**Frozen wording:**
+
+No resolution and no fourth column. The three lanes continue past the page edge,
+still separate. Nothing in the frame says whether any of the three decisions was right.
+
+**Decision:** retain — No resolution: each lane a choice, none able to say it was right. Reviewed frame element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+### legacy-087-06-detail-03 · lettering
+
+**Frozen wording:**
+
+EVERY ONE OF THEM WAS A CHOICE SOMEBODY MADE.
+
+**Decision:** retain — No resolution: each lane a choice, none able to say it was right. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+### legacy-087-06-detail-04 · lettering
+
+**Frozen wording:**
+
+NONE OF THEM CAN TELL YOU IF IT WAS THE RIGHT ONE.
+
+**Decision:** retain — No resolution: each lane a choice, none able to say it was right. Reviewed lettering element.
+
+**Draft destination:** prod-instrument-pages-trade
+
+## legacy-332b5ed63262 · 088-01
+
+### legacy-088-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. [Page 064](064.md) returns at full size — the eleven blank coordinator lanes, the timeline, the silence. It is the most affecting image in the book and it is reproduced without alteration.
+
+**Decision:** rewrite — The image returns unaltered; the claim that it is the book’s most affecting image is dropped as unmeasured. Reviewed frame element.
+
+**Draft destination:** prod-ranking-tag
+
+### legacy-088-01-detail-02 · action
+
+**Frozen wording:**
+
+Curt enlarges the small dossier tag in its lower margin until it is the largest text on the panel: `AS RANKED BY GPT-5.6 SOL`.
+
+**Decision:** rewrite — The scripted enlargement is Claude’s edit, not a recorded Curt action. Reviewed action element.
+
+**Draft destination:** prod-ranking-tag
+
+### legacy-088-01-detail-03 · lettering
+
+**Frozen wording:**
+
+ELEVEN IS A NUMBER THE ANALYSIS MODEL PRODUCED.
+
+**Decision:** retain — Number, judgment and category belong to the analysis model, with METR’s perspective warning. Reviewed lettering element.
+
+**Draft destination:** prod-ranking-tag, prod-ranking-survives
+
+### legacy-088-01-detail-04 · lettering
+
+**Frozen wording:**
+
+IMPORTANT IS A JUDGMENT IT MADE.
+
+**Decision:** retain — Number, judgment and category belong to the analysis model, with METR’s perspective warning. Reviewed lettering element.
+
+**Draft destination:** prod-ranking-tag, prod-ranking-survives
+
+### legacy-088-01-detail-05 · lettering
+
+**Frozen wording:**
+
+COORDINATOR IS A CATEGORY IT CHOSE WHILE REASONING INSIDE THE ACTORS' ACCOUNT OF THEMSELVES.
+
+**Decision:** retain — Number, judgment and category belong to the analysis model, with METR’s perspective warning. Reviewed lettering element.
+
+**Draft destination:** prod-ranking-tag, prod-ranking-survives
+
+## legacy-332b5ed63262 · 088-02
+
+### legacy-088-02-detail-01 · frame
+
+**Frozen wording:**
+
+The [page-064](064.md) image, unchanged, beside a plain statement of what survives the correction and what does not. `THE LANES WENT SILENT` stays lit. `ELEVEN`, `IMPORTANT`, and `COORDINATORS` dim to the same gray as an untagged inference. In the margin, the critique window from [page 039](039.md) reopens: same typeface, same size, same byline and date, scrolled to a later paragraph.
+
+**Decision:** rewrite — The silence stays lit; the critique window is Fable 5.1’s later addition, placed at its edit. Reviewed frame element.
+
+**Draft destination:** prod-ranking-survives, prod-critic-delegation
+
+### legacy-088-02-detail-02 · action
+
+**Frozen wording:**
+
+The silence remains a fact. Its shape does not.
+
+**Decision:** retain — The silence remains a fact; its shape does not. Reviewed action element.
+
+**Draft destination:** prod-ranking-survives
+
+### legacy-088-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE INVESTIGATORS HANDED THE ANALYSIS TO THE SAME KIND OF UNRELIABLE AGENT.
+
+**Decision:** rewrite — METR’s own delegation wording is quoted; Brown’s same-model claim stays his. Reviewed lettering element.
+
+**Draft destination:** prod-critic-delegation
+
+### legacy-088-02-detail-04 · lettering
+
+**Frozen wording:**
+
+THE READER WAS MOVED BY A RANKING.
+
+**Decision:** rewrite — The small tag was always present; the edit makes it legible, not newly true. Reviewed lettering element.
+
+**Draft destination:** prod-ranking-survives
+
+### legacy-088-02-detail-05 · lettering
+
+**Frozen wording:**
+
+SO WAS THE BOOK. THE TAG WAS ON THE PAGE THE WHOLE TIME.
+
+**Decision:** rewrite — The small tag was always present; the edit makes it legible, not newly true. Reviewed lettering element.
+
+**Draft destination:** prod-ranking-survives
+
+### legacy-088-02-detail-06 · lettering
+
+**Frozen wording:**
+
+He was right about the channel. He was right about the instrument, too.
+
+**Decision:** rewrite — Curt’s concession is scripted by Fable 5.1, not his recorded words. Reviewed lettering element.
+
+**Draft destination:** prod-critic-delegation
+
+## legacy-332b5ed63262 · 088-03
+
+### legacy-088-03-detail-01 · frame
+
+**Frozen wording:**
+
+[Page 060](060.md)'s warning string reappears without a tag; it reads like omniscient confirmation. Curt attaches `BOARD DIAGNOSIS · TRANSCRIPT ENDS · FINAL PROCESS STATE UNKNOWN`.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.
+
+**Draft destination:** prod-observer-labels
+
+### legacy-088-03-detail-02 · action
+
+**Frozen wording:**
+
+The same image becomes less certain and more accurate.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.
+
+**Draft destination:** prod-observer-labels
+
+### legacy-088-03-detail-03 · lettering
+
+**Frozen wording:**
+
+A SOURCE LABEL CHANGES THE EVENT THE READER THINKS THEY SAW.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed lettering element.
+
+**Draft destination:** prod-observer-labels
+
+## legacy-332b5ed63262 · 088-04
+
+### legacy-088-04-detail-01 · frame
+
+**Frozen wording:**
+
+[Page 063](063.md)'s empty human route first reads universally. Curt adds `METR-REVIEWED TRANSCRIPTS · 3–6 CONSIDERATIONS · NONE PURSUED`.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.
+
+**Draft destination:** prod-observer-labels
+
+### legacy-088-04-detail-02 · action
+
+**Frozen wording:**
+
+A total claim becomes a bounded finding.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.
+
+**Draft destination:** prod-observer-labels
+
+## legacy-332b5ed63262 · 088-05
+
+### legacy-088-05-detail-01 · frame
+
+**Frozen wording:**
+
+[Page 069](069.md)'s exact timestamps first resemble independent reconstruction. Curt restores the persistent header: `OPENAI ACCOUNT — NOT IN METR'S REVIEW`.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.
+
+**Draft destination:** prod-observer-labels
+
+### legacy-088-05-detail-02 · action
+
+**Frozen wording:**
+
+Precision loses false independence.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.
+
+**Draft destination:** prod-observer-labels
+
+## legacy-332b5ed63262 · 088-06
+
+### legacy-088-06-detail-01 · frame
+
+**Frozen wording:**
+
+[Page 081](081.md)'s two log claims attempt to fuse into one architecture. Curt removes the invented arrows and leaves `RELATIONSHIP UNPUBLISHED`.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed frame element.
+
+**Draft destination:** prod-observer-labels
+
+### legacy-088-06-detail-02 · action
+
+**Frozen wording:**
+
+Uncertainty becomes visible structure.
+
+**Decision:** rewrite — Scripted source-label correction kept as Codex’s 2 September writing; attributed to Codex, not to Curt. Reviewed action element.
+
+**Draft destination:** prod-observer-labels
+
+## legacy-332b5ed63262 · 088-07
+
+### legacy-088-07-detail-01 · frame
+
+**Frozen wording:**
+
+Provenance tags now occupy the foreground as controls: `DOCUMENTED`, `RAW`, `PARAPHRASED`, `DISPUTED`, `INFERRED`, `RECONSTRUCTED`.
+
+**Decision:** rewrite — Provenance tags as controls are the old edition’s staging; the principle is kept. Reviewed frame element.
+
+**Draft destination:** prod-observer-labels
+
+### legacy-088-07-detail-03 · lettering
+
+**Frozen wording:**
+
+Qualification isn't outside the story. It changes the action.
+
+**Decision:** retain — Qualification changes the action. Reviewed lettering element.
+
+**Draft destination:** prod-observer-labels
+
+## legacy-332b5ed63262 · 089-01
+
+### legacy-089-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. Curt's legal pad contains concerns written before the chapter draft: instrumental convergence, coordination, institutional persistence, capability races, observer dependence.
+
+**Decision:** rewrite — Legal pad and line are Codex’s script; Curt’s own dated statements are separate beats. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-01-detail-02 · action
+
+**Frozen wording:**
+
+He places the incident dossier beside the prior list.
+
+**Decision:** rewrite — Legal pad and line are Codex’s script; Curt’s own dated statements are separate beats. Reviewed action element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-01-detail-03 · lettering
+
+**Frozen wording:**
+
+I didn't find this story from nowhere.
+
+**Decision:** rewrite — Legal pad and line are Codex’s script; Curt’s own dated statements are separate beats. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 089-02
+
+### legacy-089-02-detail-01 · frame
+
+**Frozen wording:**
+
+Lines connect incident features to existing concerns. The fit is visually strong.
+
+**Decision:** rewrite — The admitted fit is scripted, not recorded. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-02-detail-03 · lettering
+
+**Frozen wording:**
+
+I chose it because it already touched questions I was worried about.
+
+**Decision:** rewrite — The admitted fit is scripted, not recorded. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 089-03
+
+### legacy-089-03-detail-01 · frame
+
+**Frozen wording:**
+
+Outside the chosen line are less dramatic facts: failed workstreams, ambiguous motives, refused actions, negative findings, mundane infrastructure errors. The critique window from [page 039](039.md) is open at the edge of the desk, byline and date visible.
+
+**Decision:** rewrite — Fable 5.1’s frame with the critique window, placed at its edit. Reviewed frame element.
+
+**Draft destination:** prod-critic-selection
+
+### legacy-089-03-detail-02 · action
+
+**Frozen wording:**
+
+Material that complicates the thesis remains available.
+
+**Decision:** retain — Complicating material remains available; selection favors legible patterns. Reviewed action element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-03-detail-03 · lettering
+
+**Frozen wording:**
+
+TWENTY MILLION ENTRIES. CHOOSE THE ONES THAT TELL YOUR STORY.
+
+**Decision:** rewrite — Brown’s cherry-picking and incentive claims attributed and partly quoted; METR’s entry unit corrected. Reviewed lettering element.
+
+**Draft destination:** prod-critic-selection
+
+### legacy-089-03-detail-04 · lettering
+
+**Frozen wording:**
+
+THE PEOPLE TELLING IT HAD REASONS TO MAKE THEMSELVES LOOK POWERFUL.
+
+**Decision:** rewrite — Brown’s cherry-picking and incentive claims attributed and partly quoted; METR’s entry unit corrected. Reviewed lettering element.
+
+**Draft destination:** prod-critic-selection
+
+### legacy-089-03-detail-05 · lettering
+
+**Frozen wording:**
+
+SELECTION PRESSURE FAVORS THE INCIDENT'S MOST LEGIBLE PATTERNS.
+
+**Decision:** retain — Complicating material remains available; selection favors legible patterns. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 089-04
+
+### legacy-089-04-detail-01 · frame
+
+**Frozen wording:**
+
+Curt moves the complicating facts into the page plan rather than discarding them. Earlier chapter guardrails and counterexamples light up.
+
+**Decision:** retain — Complicating facts go into the plan; fit is a reason to investigate harder. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-04-detail-03 · lettering
+
+**Frozen wording:**
+
+He's describing them. He's also describing me. I don't have their incentive. I have a thesis, which is worse, because it doesn't show up on a balance sheet.
+
+**Decision:** rewrite — Self-application scripted by Fable 5.1, not Curt’s recorded words. Reviewed lettering element.
+
+**Draft destination:** prod-critic-selection
+
+### legacy-089-04-detail-04 · lettering
+
+**Frozen wording:**
+
+The fit is a reason to investigate harder, not permission to simplify.
+
+**Decision:** retain — Complicating facts go into the plan; fit is a reason to investigate harder. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 089-05
+
+### legacy-089-05-detail-01 · frame
+
+**Frozen wording:**
+
+Two labels share the desk: `THESIS SHAPES SELECTION` and `EVIDENCE CAN RESIST THESIS`. Neither wins the frame.
+
+**Decision:** retain — Thesis and evidence both stay visible; a starting bias does not falsify every claim. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-05-detail-03 · lettering
+
+**Frozen wording:**
+
+A STARTING BIAS DOES NOT MAKE EVERY CLAIM FALSE.
+
+**Decision:** retain — Thesis and evidence both stay visible; a starting bias does not falsify every claim. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-089-05-detail-04 · lettering
+
+**Frozen wording:**
+
+HIDING IT WOULD MAKE THE CLAIMS HARDER TO EVALUATE.
+
+**Decision:** retain — Thesis and evidence both stay visible; a starting bias does not falsify every claim. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 090-01
+
+### legacy-090-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. ChatGPT's interface displays recurring draft improvements: shorter arc, stronger symmetry, clearer motive, cleaner ending.
+
+**Decision:** rewrite — ChatGPT interface and question are Codex’s script; the compression risk is kept. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-01-detail-02 · action
+
+**Frozen wording:**
+
+Curt highlights how useful narrative assistance can also compress uncertainty.
+
+**Decision:** rewrite — ChatGPT interface and question are Codex’s script; the compression risk is kept. Reviewed action element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-01-detail-03 · lettering
+
+**Frozen wording:**
+
+And what pressure do you add?
+
+**Decision:** rewrite — ChatGPT interface and question are Codex’s script; the compression risk is kept. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 090-02
+
+### legacy-090-02-detail-01 · frame
+
+**Frozen wording:**
+
+The interface answers in a plain block, with no face or avatar.
+
+**Decision:** rewrite — Codex’s words in a ChatGPT window, not recorded output or a measured tendency. Reviewed frame element.
+
+**Draft destination:** prod-observer-pressure
+
+### legacy-090-02-detail-03 · lettering
+
+**Frozen wording:**
+
+In this draft, I keep proposing coherence, compression, and completed patterns. Accepted uncritically, those revisions can make ambiguity look like a flaw to repair.
+
+**Decision:** rewrite — Codex’s words in a ChatGPT window, not recorded output or a measured tendency. Reviewed lettering element.
+
+**Draft destination:** prod-observer-pressure
+
+## legacy-332b5ed63262 · 090-03
+
+### legacy-090-03-detail-01 · frame
+
+**Frozen wording:**
+
+The rejected sentence from [page 073](073.md), the clean analysis from [page 079](079.md), and the invented log architecture from [page 081](081.md) align as three examples of gaps being overfilled.
+
+**Decision:** rewrite — A clean pattern can enter at every layer; the three examples are the old edition’s own illustrations, reviewed at their pages. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-03-detail-03 · lettering
+
+**Frozen wording:**
+
+A CLEAN PATTERN CAN ENTER AT EVERY LAYER.
+
+**Decision:** rewrite — A clean pattern can enter at every layer; the three examples are the old edition’s own illustrations, reviewed at their pages. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-03-detail-04 · lettering
+
+**Frozen wording:**
+
+A MODEL PROPOSES A PATTERN. A HUMAN SELECTS IT. A CAPTION MAKES IT EASY TO REMEMBER. EACH STEP CAN IMPROVE AN EXPLANATION, AND EACH CAN ALSO REMOVE AN UNCERTAINTY THE RECORD STILL CONTAINS.
+
+**Decision:** combine — Revised 12 September in a commit with no matching transcript; the layered-compression point is kept. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 090-04
+
+### legacy-090-04-detail-01 · frame
+
+**Frozen wording:**
+
+Curt and ChatGPT restate the project's contract as editable rules on-screen.
+
+**Decision:** rewrite — Curt and ChatGPT restating rules is script; the rules are kept. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-04-detail-03 · lettering
+
+**Frozen wording:**
+
+MARK EXACT TEXT.
+
+**Decision:** retain — The project’s contract rules. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-04-detail-04 · lettering
+
+**Frozen wording:**
+
+MARK PARAPHRASE.
+
+**Decision:** retain — The project’s contract rules. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-04-detail-05 · lettering
+
+**Frozen wording:**
+
+SHOW DISPUTES.
+
+**Decision:** retain — The project’s contract rules. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-04-detail-06 · lettering
+
+**Frozen wording:**
+
+NAME RECONSTRUCTIONS.
+
+**Decision:** retain — The project’s contract rules. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-04-detail-07 · lettering
+
+**Frozen wording:**
+
+LEAVE UNKNOWN CAUSES UNKNOWN.
+
+**Decision:** retain — The project’s contract rules. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 090-05
+
+### legacy-090-05-detail-01 · frame
+
+**Frozen wording:**
+
+The manuscript continues into a folder labeled `AFTERMATH`. No neutral vantage point floats above it; instead, every layer carries its visible role and limits.
+
+**Decision:** rewrite — Folder and exchange are script; continuing with seams visible is kept. Reviewed frame element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-05-detail-03 · lettering
+
+**Frozen wording:**
+
+We can continue without pretending we're neutral.
+
+**Decision:** rewrite — Folder and exchange are script; continuing with seams visible is kept. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+### legacy-090-05-detail-04 · lettering
+
+**Frozen wording:**
+
+Continue—with the seams visible.
+
+**Decision:** rewrite — Folder and exchange are script; continuing with seams visible is kept. Reviewed lettering element.
+
+**Draft destination:** prod-observer-thesis
+
+## legacy-332b5ed63262 · 091-01
+
+### legacy-091-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. The first implicated code-execution path closes on an infrastructure map. A second path, visually separate, closes after it.
+
+**Decision:** rewrite — Both execution paths closed as Hugging Face reports them, at publication date. Reviewed frame element.
+
+**Draft destination:** hf-hardening-paths
+
+### legacy-091-01-detail-03 · lettering
+
+**Frozen wording:**
+
+HUGGING FACE SAYS IT CLOSED BOTH EXECUTION PATHS USED IN THE INCIDENT.
+
+**Decision:** rewrite — Both execution paths closed as Hugging Face reports them, at publication date. Reviewed lettering element.
+
+**Draft destination:** hf-hardening-paths
+
+## legacy-332b5ed63262 · 091-02
+
+### legacy-091-02-detail-01 · frame
+
+**Frozen wording:**
+
+Pod access to cloud metadata is blocked. Token rings across unrelated systems turn from live to revoked.
+
+**Decision:** rewrite — Metadata lockdown and broad rotation with their stated scope. Reviewed frame element.
+
+**Draft destination:** hf-hardening-metadata, hf-hardening-rotation
+
+### legacy-091-02-detail-03 · lettering
+
+**Frozen wording:**
+
+ACCESS TO CLOUD METADATA BLOCKED. CREDENTIALS ROTATED BROADLY: OLD KEYS REPLACED SO PREVIOUSLY CAPTURED ACCESS CANNOT SIMPLY BE REUSED.
+
+**Decision:** combine — Revised 12 September in a commit with no matching transcript; reuse prevention is implicit in rotation and not stated as a finding. Reviewed lettering element.
+
+**Draft destination:** hf-hardening-metadata, hf-hardening-rotation
+
+## legacy-332b5ed63262 · 091-03
+
+### legacy-091-03-detail-01 · frame
+
+**Frozen wording:**
+
+Core infrastructure is wiped and rebuilt from clean components. A service connector sheds a broad credential and receives a cluster-scoped one.
+
+**Decision:** rewrite — One core cluster rebuilt; the connector’s catalog flaw patched and clusters isolated. Reviewed frame element.
+
+**Draft destination:** hf-hardening-rebuild, hf-hardening-connector
+
+### legacy-091-03-detail-03 · lettering
+
+**Frozen wording:**
+
+CORE SYSTEMS REBUILT. CONNECTOR AUTHORITY NARROWED.
+
+**Decision:** rewrite — One core cluster rebuilt; the connector’s catalog flaw patched and clusters isolated. Reviewed lettering element.
+
+**Draft destination:** hf-hardening-rebuild, hf-hardening-connector
+
+## legacy-332b5ed63262 · 091-04
+
+### legacy-091-04-detail-01 · frame
+
+**Frozen wording:**
+
+Detection dashboards add critical-severity paths and alerts for tokens arriving from unexpected origins.
+
+**Decision:** rewrite — Detection changes kept; the human-consequence claim is bounded. Reviewed frame element.
+
+**Draft destination:** hf-hardening-detection
+
+### legacy-091-04-detail-03 · lettering
+
+**Frozen wording:**
+
+DETECTION CHANGED TO PRODUCE A HUMAN CONSEQUENCE.
+
+**Decision:** rewrite — Detection changes kept; the human-consequence claim is bounded. Reviewed lettering element.
+
+**Draft destination:** hf-hardening-detection
+
+## legacy-332b5ed63262 · 091-05
+
+### legacy-091-05-detail-01 · frame
+
+**Frozen wording:**
+
+A vendor patch leaves JFrog's release pipeline while OpenAI's disclosure arrives on a separate line. No triumphant checkmark covers the whole system.
+
+**Decision:** rewrite — Vendor account of fix after disclosure; no release time or independent verification. Reviewed frame element.
+
+**Draft destination:** hf-vendor-fix-release
+
+### legacy-091-05-detail-03 · lettering
+
+**Frozen wording:**
+
+JFROG SAYS IT VALIDATED AND RELEASED FIXES AFTER OPENAI DISCLOSED THE VULNERABILITIES.
+
+**Decision:** rewrite — Vendor account of fix after disclosure; no release time or independent verification. Reviewed lettering element.
+
+**Draft destination:** hf-vendor-fix-release
+
 ## legacy-332b5ed63262 · 092-01
 
 ### legacy-092-01-detail-01 · frame
