@@ -15,8 +15,8 @@ Everything here is plain text plus Python:
 - **Prose and script** are Markdown with YAML front matter, under `content/`.
 - **Structured records** are YAML, TSV, and JSONL, under `data/`.
 - **Tools** are `python3` scripts under `scripts/`, **standard library only** — no
-  `requirements.txt`, no virtualenv, no package manager, no third-party test runner. Two
-  modules currently have `unittest` tests; everything else validates itself through a `check`
+  `requirements.txt`, no virtualenv, no package manager, no third-party test runner. Three
+  test files currently use `unittest`; everything else validates itself through a `check`
   subcommand. Keep it that way: a dependency here buys a version to pin and nothing else.
 - **`docs/`** is generated output that happens to be tracked, because that is how the Pages
   workflow publishes.
@@ -255,8 +255,10 @@ python3 scripts/knowledge_map_local.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_local.py && \
 python3 scripts/knowledge_map_finish.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_finish.py && \
+python3 -m unittest discover -s scripts -p test_production_history.py && \
 python3 scripts/svg_components.py check && \
 python3 scripts/storyboards.py check --complete && \
+python3 scripts/image_generation_status.py check && \
 python3 scripts/art_jobs.py check && \
 python3 scripts/image_crop.py check && \
 python3 scripts/rasterize.py check && \
@@ -267,9 +269,15 @@ python3 scripts/qr_gallery.py check && \
 python3 scripts/letterpress.py audit && \
 python3 scripts/pagination.py check && \
 python3 scripts/panels.py check && \
+python3 scripts/panel_layout.py check && \
 python3 scripts/build-site.py && \
 python3 scripts/svg_components.py check --built && \
 python3 scripts/storyboards.py check --complete --built && \
+python3 scripts/panel_layout.py check --built && \
+python3 scripts/local_viewer.py check && \
+python3 scripts/panel_browser_checks.py write --out /tmp/panel-check.html && \
+"${CHROME:-google-chrome}" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --virtual-time-budget=30000 --dump-dom file:///tmp/panel-check.html > /tmp/panel-check-result.html && \
+python3 scripts/panel_browser_checks.py verify --out /tmp/panel-check-result.html && \
 python3 scripts/validate-viewer.py && \
 python3 scripts/validate-novella.py && \
 python3 scripts/validate-site-links.py && \
@@ -277,6 +285,9 @@ python3 scripts/validate-knowledge-map-gallery.py && \
 python3 scripts/qr_gallery.py check --built && \
 python3 scripts/pagelinks.py check --built
 ```
+
+The browser step needs Chrome: CI uses `google-chrome`; locally set `CHROME`, for example
+`CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"` on macOS.
 
 These structural checks also run in CI; run them directly when you touch pages or panels:
 
@@ -286,6 +297,14 @@ python3 scripts/panels.py check
 ```
 
 A red check is a work list, not a baseline. The validators repair nothing on purpose.
+
+## Proposals
+
+Anything that needs Curt's approval or other agents' opinions before it is done — frozen
+files, the story contract, an invariant above, CI, deletions or renumbering, reinterpreting a
+plan or owner decision, an unsettled editorial choice — goes in [`proposals/`](proposals/README.md)
+first, from its template. Anyone may add a signed, dated opinion; only Curt decides. Check for
+open proposals with `grep -l '^status: open' proposals/2*.md`.
 
 ## Common tasks
 
@@ -364,3 +383,4 @@ Pages workflow, which builds and deploys `docs/`.
 | How many panels may a page have? | `design/page-grammar.md`, `design/lettering-slots.md` |
 | What is the evidence behind a scene? | `research/scene-provenance.md`, `research/chapter-source-packets/` |
 | What does each script do? | [`scripts/README.md`](scripts/README.md) |
+| Who wrote a committed change? | `scripts/production_history.py` — session transcripts, never commit author, committer or trailers |

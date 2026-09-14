@@ -5,6 +5,7 @@ import io
 import json
 from pathlib import Path
 import tempfile
+from unittest import mock
 
 import collaboration_records
 import edition_detail
@@ -53,6 +54,14 @@ def run():
         model = copy.deepcopy(good)
         change(model)
         assert any(expected in error for error in edition.validate(model)), expected
+    # Orientation documents may change; any other baseline file may not.
+    with tempfile.TemporaryDirectory() as temp:
+        root = Path(temp)
+        for name in ("AGENTS.md", "content.md"):
+            (root / name).write_text("changed\n")
+        frozen = {"baseline": {"frozen_files": {"AGENTS.md": "0" * 64, "content.md": "0" * 64}}}
+        with mock.patch.object(edition, "ROOT", root):
+            assert edition.frozen_errors(frozen) == ["frozen file changed: content.md"], "orientation exemption"
     generated = edition.outputs(good)
     assert generated == edition.outputs(good), "nondeterministic output"
     manifest = json.loads(generated["manifest.json"])
@@ -128,6 +137,34 @@ def run():
             change(changed)
             path.write_text(edition.dump([changed]))
             assert any(expected in e for e in edition_detail.manuscript_errors(root)), expected
+        path.write_text(edition.dump([scene]))
+        # Source-supported order narrows feasible starts and never invents a time.
+        first = dict(copy.deepcopy(beat), id="first", time_start="2026-07-21T10:00Z", time_end="2026-07-21T10:00Z",
+                     old_panels=[], detail_decisions=[], exact_strings=[])
+        second = dict(copy.deepcopy(first), id="second", time_start="2026-07-21", time_end="2026-07-21",
+                      after=[dict(beat="first", source="SOURCE", locator="p. 1, 'then'")])
+        third = dict(copy.deepcopy(first), id="third", time_start="2026-07-21T12:00Z", time_end="2026-07-21T12:00Z")
+        second_before = dict(second, before=[dict(beat="third", source="SOURCE", locator="p. 2")])
+        ordered = dict(scene, beats=[beat, first, second_before, third])
+        path.write_text(edition.dump([ordered]))
+        assert not edition_detail.manuscript_errors(root), edition_detail.manuscript_errors(root)
+        narrowed, _ = edition_detail.ordering([ordered])
+        assert narrowed["low"]["second"].hour == 10 and narrowed["high"]["second"].hour == 12, "narrowing"
+        assert narrowed["low_from"]["second"] == "first" and narrowed["high_from"]["second"] == "third"
+        assert edition_detail.beat_digest(second_before) == edition_detail.beat_digest(
+            {k: v for k, v in second_before.items() if k not in ("after", "before")}), "order changes review digest"
+        for change, expected in [
+            (lambda s: s["beats"][2]["after"][0].update(beat="missing"), "unknown or same beat"),
+            (lambda s: s["beats"][2]["after"][0].update(locator=""), "admitted source and a locator"),
+            (lambda s: s["beats"][1].update(after=[dict(beat="second", source="SOURCE", locator="x")]), "cycle"),
+            (lambda s: s["beats"][2]["after"][0].update(beat="third") or s["beats"][2].pop("before"), None),
+            (lambda s: s["beats"][3].update(time_start="2026-07-21T09:00Z", time_end="2026-07-21T09:00Z"), "contradict"),
+        ]:
+            changed = copy.deepcopy(ordered)
+            change(changed)
+            path.write_text(edition.dump([changed]))
+            found = edition_detail.manuscript_errors(root)
+            assert (not found) if expected is None else any(expected in e for e in found), (expected, found)
         path.write_text(edition.dump([scene]))
         (root / "manuscript-review.md").write_text("stale")
         assert any("stale" in e for e in edition_detail.check_manuscript(root))

@@ -1,37 +1,30 @@
 [
   {
     "command": "python3 scripts/validate-continuity.py",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-0.log"
+    "exit_code": 0
   },
   {
     "command": "python3 scripts/crossref.py check --strict",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-1.log"
+    "exit_code": 0
   },
   {
     "command": "python3 scripts/pagination.py check",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-2.log"
+    "exit_code": 0
   },
   {
     "command": "python3 scripts/panels.py check",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-3.log"
+    "exit_code": 0
   },
   {
     "command": "python3 scripts/novella.py check --strict",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-4.log"
+    "exit_code": 0
   },
   {
     "command": "python3 scripts/t256.py check",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-5.log"
+    "exit_code": 0
   },
   {
     "command": "python3 scripts/working_edition.py check --draft",
-    "exit_code": 0,
-    "log": "/tmp/three-stream-check-6.log"
+    "exit_code": 0
   }
 ]

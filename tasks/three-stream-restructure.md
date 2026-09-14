@@ -255,6 +255,13 @@ Events known only to a broad interval need a page wide enough to contain that un
 or a later dated report panel. If that creates an irresolvable ordering problem, flag it
 for editorial decision rather than silently imposing an order.
 
+A source-supported order is evidence; an order chosen for layout is not. Record the former
+as a beat's `after` / `before` constraints, each with an admitted source and locator. The
+draft check rejects unknown targets, cycles and constraints that contradict absolute bounds;
+`working_edition.py order` prints each beat's narrowed feasible start and the chain of
+constraints that produced it (adopted 13 September 2026 from
+[the ordering proposal](../proposals/2026-09-13-relative-ordering-constraints.md)).
+
 Proposed default geometry: three equal-height rows, each with one to three panel positions
 as the action needs. Test two positions per row as the ordinary six-panel form; do not
 make that a ceiling. Empty positions have no art or lettering. Stream labels and page

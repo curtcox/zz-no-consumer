@@ -21,6 +21,7 @@ Who wrote what is established from session transcripts, never from commit metada
 | `production_history.py verify-bundle TAR [--extract]` | an other-Mac bundle from [the collection prompt](../tasks/other-mac-production-records.md): safe member paths, `SHA256SUMS`, and bundled transcripts against their inventory hashes, before extracting into the vault |
 | `personal_records.py inventory EXPORT…` | dated, matching rows from Curt's own exports — YouTube watch history, X posts and likes, ChatGPT and claude.ai conversations, podcast OPML — as locators and URLs without titles or bodies, in the ignored `256t/editions/personal/` |
 | `working_edition.py audit [--all]` | advisory collaboration findings: beats sharing one instant, scenes describing narrator analysis, beats with no production record by the row's actor at their time, beats running backwards in a scene, and old wording typed by a different actor than the row (uses the attribution result when present). Always exits 0 |
+| `working_edition.py order [beat…]` | feasible start intervals narrowed by source-supported `after` / `before` constraints on manuscript beats, with the constraint chain behind each bound; `check --draft` rejects unknown targets, cycles and contradictions with absolute bounds |
 
 A text match shows a session typed the words, not that it originated, reviewed or accepted
 them. An unmatched line is not human authorship: scripts, tools, uninventoried machines and

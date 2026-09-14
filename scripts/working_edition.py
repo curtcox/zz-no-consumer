@@ -332,9 +332,15 @@ def outputs(model):
     return files
 
 
+# Orientation for agents, not edition content: no site build or dependent edition reads them.
+# baseline.json keeps their original hashes; only the drift check skips them (approved in
+# proposals/2026-09-13-unfreeze-orientation-docs.md).
+ORIENTATION = frozenset({"AGENTS.md", "CLAUDE.md", "README.md"})
+
+
 def frozen_errors(model):
     return ["frozen file changed: " + name for name, sha in model["baseline"]["frozen_files"].items()
-            if not (ROOT / name).is_file() or digest(ROOT / name) != sha]
+            if name not in ORIENTATION and (not (ROOT / name).is_file() or digest(ROOT / name) != sha)]
 
 
 def migrate(edition, apply=False, draft=False):
@@ -428,9 +434,44 @@ def audit(edition, show_all=False):
             print(f"  … {len(items) - 5} more (--all)")
 
 
+def order(edition, keys):
+    """Print feasible start intervals narrowed by source-supported order, with their chains."""
+    import edition_detail
+    scenes = edition_detail.manuscript(edition)
+    result, errors = edition_detail.ordering(scenes)
+    if errors:
+        raise ValueError("\n".join(errors))
+    beats = {b["id"]: b for s in scenes for b in s["beats"]}
+    unknown = [k for k in keys if k not in beats]
+    if unknown:
+        raise ValueError("unknown beat: " + ", ".join(unknown))
+    edges = result["edges"]
+    shown = keys or sorted(set(result["low_from"]) | set(result["high_from"]))
+    print(f"{len(edges)} ordering constraints; {len(set(result['low_from']) | set(result['high_from']))} beats narrowed.")
+
+    def via(links, key):
+        steps, node = [], key
+        while node in links:
+            other = links[node]
+            pair = (other, node) if links is result["low_from"] else (node, other)
+            edge = edges[pair]
+            steps.append(f"{edge['declared_on']} {edge['field']} {edge['beat']} ({edge['source']} — {edge['locator']})")
+            node = other
+        return steps
+
+    for key in shown:
+        beat = beats[key]
+        print(f"{key}: recorded {beat['time_start']} → {beat['time_end']}; feasible start "
+              f"{result['low'][key].isoformat(timespec='milliseconds')} → {result['high'][key].isoformat(timespec='milliseconds')}")
+        for label, links in (("earliest", result["low_from"]), ("latest", result["high_from"])):
+            for step in via(links, key):
+                print(f"  {label} via {step}")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("command", choices=("snapshot", "inventory", "manuscript", "check", "audit"))
+    parser.add_argument("command", choices=("snapshot", "inventory", "manuscript", "check", "audit", "order"))
+    parser.add_argument("beats", nargs="*", help="order: beat IDs to show (default: every narrowed beat)")
     parser.add_argument("--edition", type=Path, default=DEFAULT)
     parser.add_argument("--draft", action="store_true", help="validate incomplete cut without claiming completion")
     parser.add_argument("--all", action="store_true", help="audit: list every finding, not the first few per kind")
@@ -446,6 +487,8 @@ def main(argv=None):
             edition_detail.write_manuscript(args.edition)
         elif args.command == "audit":
             audit(args.edition, args.all)
+        elif args.command == "order":
+            order(args.edition, args.beats)
         else:
             check(args.edition, args.draft)
     except (ValueError, KeyError, OSError) as error:

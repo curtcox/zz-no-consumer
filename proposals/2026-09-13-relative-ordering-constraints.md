@@ -1,6 +1,6 @@
 ---
 title: Record source-supported event order without inventing clock times
-status: open
+status: done
 proposed: 2026-09-13
 proposed_by: Claude (claude-opus-5)
 decision_needed_from: Curt
@@ -9,8 +9,8 @@ affects:
   - editions/three-stream/manuscript/*.json
   - scripts/edition_detail.py
   - tasks/three-stream-restructure.md
-decided:
-decided_by:
+decided: 2026-09-13
+decided_by: Curt
 ---
 
 # Record source-supported event order without inventing clock times
@@ -60,3 +60,18 @@ so review can check it. More fields for the authoring agent to maintain.
 ## Opinions
 
 ## Decision
+
+Approved by Curt on 13 September 2026, in chat: "Adopt all 3 proposals." Recorded by
+Claude (claude-opus-5), which then carried it out:
+
+- `scripts/edition_detail.py`: optional `after` / `before` beat fields (`beat`, `source`,
+  `locator`); `manuscript_errors` requires an admitted source and locator and rejects unknown
+  targets, cycles and contradictions with absolute bounds; `ordering()` propagates feasible
+  starts; the generated scene review prints constraints when present.
+- Order fields are excluded from `beat_digest`, so adding a constraint does not invalidate an
+  element-level review (a consequence found while implementing; it keeps the proposal's
+  intent without forcing re-review).
+- `scripts/working_edition.py order [beat…]`: narrowed intervals with their constraint
+  chains. The allocator does not exist yet; it should consume `ordering()`.
+- Fixtures in `scripts/working_edition_checks.py`; plan sentence added to the timestamp rules.
+- No constraints have been authored yet; that is manuscript work.

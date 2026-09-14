@@ -4,8 +4,7 @@ alwaysApply: true
 ---
 
 Read `AGENTS.md` first; it is the shared source of working instructions. These agreements
-add what it cannot yet say (it is frozen during the three-stream restructure; see
-`proposals/2026-09-13-unfreeze-orientation-docs.md`).
+restate Curt's standing preferences for tools that load rules rather than `AGENTS.md`.
 
 - **No branches unless Curt asks.** Work on the current branch, normally `main`.
 - **Commit only when asked; never push unless asked.** A push to `main` deploys the site.

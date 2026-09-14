@@ -18,4 +18,5 @@ authoritative; the traps most often hit:
   added, never replaced.
 - **Write page references as plain `page 039`** and run `pagelinks.py link --apply`.
 - **During the three-stream restructure the published edition is frozen.**
-  `python3 scripts/working_edition.py check --draft` fails if any baseline file changes.
+  `python3 scripts/working_edition.py check --draft` fails if any baseline file changes,
+  except the orientation documents `AGENTS.md`, `CLAUDE.md` and `README.md`.

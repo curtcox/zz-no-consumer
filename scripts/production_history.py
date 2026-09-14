@@ -50,7 +50,8 @@ BUNDLE_SOURCES = VAULT / "other-mac/sources"
 DEFAULT_PATHS = ["content", "research", "design", "prompts", "tasks", "site", "scripts",
                  "editions/three-stream/manuscript", "editions/three-stream/detail-review.json",
                  "editions/three-stream/sources.json", "editions/three-stream/README.md",
-                 "editions/three-stream/research-handoff.md", "data/pages.yaml", "data/chapters.yaml",
+                 "editions/three-stream/research-handoff.md", "editions/three-stream/status.md",
+                 "editions/three-stream/log", "data/pages.yaml", "data/chapters.yaml",
                  "data/storyboards.json", "AGENTS.md", "CLAUDE.md", "README.md"]
 # Identifiers, hashes and markup fragments are not authored wording; require a short phrase.
 MIN_CHARS = 16

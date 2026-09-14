@@ -4,7 +4,7 @@ This does not allocate new pages or claim that extracted fields are fully decomp
 events. Each frame, action and lettering element must receive individual editorial
 disposition before a condensed event can be called its complete replacement.
 """
-from collections import Counter
+from collections import Counter, defaultdict
 import json
 import hashlib
 from pathlib import Path
@@ -20,8 +20,78 @@ def manuscript(root):
             for scene in json.loads(path.read_text())]
 
 
+# Source-supported order between beats. It constrains placement, not what a beat shows, so it
+# is kept out of the reviewed-content digest: adding an order must not invalidate a review.
+ORDER_FIELDS = ("after", "before")
+
+
 def beat_digest(beat):
-    return hashlib.sha256(json.dumps(beat, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+    content = {key: value for key, value in beat.items() if key not in ORDER_FIELDS}
+    return hashlib.sha256(json.dumps(content, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+
+
+def ordering(scenes):
+    """Narrow each beat's feasible start by propagating ``after`` / ``before`` constraints.
+
+    ``after: [{beat, source, locator}]`` means this beat begins no earlier than the named beat
+    begins; ``before`` is the converse. A beat's feasible start runs from its ``time_start``
+    lower bound to its ``time_end`` upper bound. Propagation only narrows those bounds, so a
+    narrowed interval is still evidence-bounded: it never invents a clock time. Returns the
+    narrowed bounds with the beat that set each one, and errors for unknown targets, cycles
+    and constraints that contradict absolute bounds.
+    """
+    from working_edition import bound
+    beats = {b["id"]: b for s in scenes for b in s["beats"]}
+    edges, errors = {}, []
+    for beat in beats.values():
+        for field in ORDER_FIELDS:
+            for item in beat.get(field, []):
+                target = item.get("beat") if isinstance(item, dict) else None
+                if target not in beats or target == beat["id"]:
+                    errors.append(f"{beat['id']}: {field} names unknown or same beat {target!r}")
+                    continue
+                pair = (target, beat["id"]) if field == "after" else (beat["id"], target)
+                edges[pair] = dict(item, declared_on=beat["id"], field=field)
+    successors, indegree = defaultdict(list), {key: 0 for key in beats}
+    for earlier, later in edges:
+        successors[earlier].append(later)
+        indegree[later] += 1
+    ready, order = sorted(k for k, n in indegree.items() if n == 0), []
+    while ready:
+        node = ready.pop()
+        order.append(node)
+        for later in successors[node]:
+            indegree[later] -= 1
+            if not indegree[later]:
+                ready.append(later)
+    if len(order) != len(beats):
+        cyclic = sorted(k for k, n in indegree.items() if n)
+        errors.append("ordering constraints form a cycle among: " + ", ".join(cyclic))
+        return dict(low={}, high={}, low_from={}, high_from={}, edges=edges), errors
+    low = {k: bound(b["time_start"]) for k, b in beats.items()}
+    high = {k: bound(b["time_end"], True) for k, b in beats.items()}
+    low_from, high_from = {}, {}
+    for node in order:
+        for later in successors[node]:
+            if low[node] > low[later]:
+                low[later], low_from[later] = low[node], node
+    for node in reversed(order):
+        for later in successors[node]:
+            if high[later] < high[node]:
+                high[node], high_from[node] = high[later], later
+    for key in order:
+        if low[key] > high[key]:
+            errors.append(f"{key}: ordering constraints contradict absolute bounds "
+                          f"(earliest start {low[key].isoformat()} via {chain(low_from, key)}; "
+                          f"latest start {high[key].isoformat()} via {chain(high_from, key)})")
+    return dict(low=low, high=high, low_from=low_from, high_from=high_from, edges=edges), errors
+
+
+def chain(links, key):
+    steps = [key]
+    while steps[-1] in links:
+        steps.append(links[steps[-1]])
+    return " ← ".join(steps) if len(steps) > 1 else "own bounds"
 
 
 def detail_reviews(root):
@@ -122,6 +192,11 @@ def manuscript_errors(root):
                     errors.append(f"{bid}: quotation source missing from beat references")
                 if registration.get("text") and registration["text"] not in "\n".join(beat["lettering"]):
                     errors.append(f"{bid}: registered wording absent from lettering")
+            for field in ORDER_FIELDS:
+                for item in beat.get(field, []):
+                    if not isinstance(item, dict) or not item.get("locator") or item.get("source") not in sources:
+                        errors.append(f"{bid}: {field} constraint needs an admitted source and a locator")
+    errors += ordering(manuscript(root))[1]
     return errors + review_errors(root)
 
 
@@ -149,8 +224,12 @@ def manuscript_outputs(root):
                 associations.setdefault(key, []).append(b["id"])
             lines += [f"### {b['id']}", "", f"**Frame:** {b['frame']}", "", "**Lettering:**", ""]
             lines += b["lettering"] or ["None."]
-            lines += ["", "**Sources:** " + "; ".join(f"{r['key']} — {r['locator']} (available {r['available']})" for r in b["sources"]), "",
-                      "**Frozen panel associations:** " + (", ".join(b["old_panels"]) or "New material."), ""]
+            lines += ["", "**Sources:** " + "; ".join(f"{r['key']} — {r['locator']} (available {r['available']})" for r in b["sources"]), ""]
+            for field in ORDER_FIELDS:
+                if b.get(field):
+                    lines += [f"**Order — {field}:** " + "; ".join(
+                        f"`{c['beat']}` ({c['source']} — {c['locator']})" for c in b[field]), ""]
+            lines += ["**Frozen panel associations:** " + (", ".join(b["old_panels"]) or "New material."), ""]
             if b["exact_strings"]:
                 lines += ["**Quotation registrations:**", "", "```json", dump(b["exact_strings"]).rstrip(), "```", ""]
     coverage = dict(status="incomplete; associations are not full-detail dispositions", scenes=len(scenes),

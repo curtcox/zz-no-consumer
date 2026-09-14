@@ -47,10 +47,9 @@ Status values: `open`, `approved`, `declined`, `withdrawn` (by its proposer), `s
 
 Decided proposals stay here. They are the record of why the repository is the way it is.
 
-Agent support: Cursor and Devin load `.cursor/rules/working-with-curt.mdc`, which points
-here; Devin and other skill-aware agents can use `.agents/skills/propose/`. Codex and Claude
-read `AGENTS.md`, which cannot mention this directory until
-[the orientation proposal](2026-09-13-unfreeze-orientation-docs.md) is decided.
+Agent support: `AGENTS.md` (read by Codex, Claude, Cursor and Devin) points here, as does
+`.cursor/rules/working-with-curt.mdc`; Devin and other skill-aware agents can also use
+`.agents/skills/propose/`.
 
 ## Finding open proposals
 

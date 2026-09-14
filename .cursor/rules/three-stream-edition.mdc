@@ -5,7 +5,9 @@ alwaysApply: false
 ---
 
 The plan is `tasks/three-stream-restructure.md`; the workspace guide is
-`editions/three-stream/README.md`. Read both before editing here.
+`editions/three-stream/README.md`; what is open now is `editions/three-stream/status.md`.
+Read them before editing here. Rewrite `status.md` rather than appending to it; add dated
+work notes to `editions/three-stream/log/YYYY-MM-DD.md` (UTC day), never rewriting old entries.
 
 - **Authored inputs** are `manuscript/*.json`, `detail-review.json`, `sources.json`,
   `ledger.json`, `windows.json` and the README. `manuscript-review.md`,

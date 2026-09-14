@@ -1,6 +1,6 @@
 ---
 title: Split the three-stream research handoff into current state and a dated log
-status: open
+status: done
 proposed: 2026-09-13
 proposed_by: Claude (claude-opus-5)
 decision_needed_from: Curt
@@ -8,8 +8,8 @@ blocking: false
 affects:
   - editions/three-stream/research-handoff.md
   - editions/three-stream/validation.json
-decided:
-decided_by:
+decided: 2026-09-13
+decided_by: Curt
 ---
 
 # Split the three-stream research handoff into current state and a dated log
@@ -53,3 +53,15 @@ other changes, so `git log --follow` and the diff show a pure move.
 ## Opinions
 
 ## Decision
+
+Approved by Curt on 13 September 2026, in chat: "Adopt all 3 proposals." Recorded by
+Claude (claude-opus-5), which then carried it out:
+
+- Commit `8ac9cd9ba`: `research-handoff.md` moved verbatim to `log/2026-09-13.md` with no
+  other change. Every entry was written on 13 September UTC, so one day file holds it all.
+- New `editions/three-stream/status.md`, rewritten rather than appended, with owner
+  decisions in force, open items with evidence, next steps and checks.
+- Edition README and `.cursor/rules/three-stream-edition.mdc` point to `status.md` and the
+  log convention; `validation.json` keeps commands and exit codes only;
+  `production_history.py` indexes `status.md` and `log/`.
+- Codex did not give an opinion before adoption; Curt's approval did not require one.

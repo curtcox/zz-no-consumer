@@ -1,6 +1,6 @@
 ---
 title: Let orientation documents change during the three-stream restructure
-status: open
+status: done
 proposed: 2026-09-13
 proposed_by: Claude (claude-opus-5)
 decision_needed_from: Curt
@@ -10,8 +10,8 @@ affects:
   - AGENTS.md
   - CLAUDE.md
   - README.md
-decided:
-decided_by:
+decided: 2026-09-13
+decided_by: Curt
 ---
 
 # Let orientation documents change during the three-stream restructure
@@ -68,3 +68,16 @@ three files. `CREDITS.md` feeds the site and stays frozen.
 ## Opinions
 
 ## Decision
+
+Approved by Curt on 13 September 2026, in chat: "Adopt all 3 proposals." Recorded by
+Claude (claude-opus-5), which then carried it out:
+
+- `scripts/working_edition.py`: `ORIENTATION` exempts `AGENTS.md`, `CLAUDE.md` and
+  `README.md` from the frozen-file check; `baseline.json` is unchanged.
+- `scripts/working_edition_checks.py`: fixture shows an orientation edit passes and any other
+  baseline file still fails.
+- `AGENTS.md`: CI block synchronized with the Pages workflow (it had also been missing
+  `image_generation_status`, `panel_layout`, `local_viewer` and the browser panel check, now
+  included with a local `CHROME` note), test-file count, a Proposals section, and a
+  production-history row in "Where to read next".
+- `proposals/README.md` and `.cursor/rules/` no longer describe `AGENTS.md` as frozen.

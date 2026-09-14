@@ -13,6 +13,9 @@ Mac and the GitHub repository. No invented exchange substitutes for that work.
 
 ## What to work from
 
+- [Current state](status.md): open questions, blockers, next steps and owner decisions in
+  force. Start here.
+
 - [Detailed scene draft](manuscript-review.md): readable, generated review of the
   authored sequences in [manuscript/](manuscript/). These now include decomposed
   incident action, failed attempts, counterexamples, the July 16 response and forensic
@@ -169,6 +172,8 @@ thumbnails, complete read-through, print-size checks and final handoff remain op
 The current text preview is neither approved artwork nor final lettering. Do not
 infer readiness from a generated file or a passing draft check.
 
-See [research-handoff.md](research-handoff.md) for evidence already found and the
-missing production records. Counts are measurements from the tools, not promises
-about how long this book should be.
+See [status.md](status.md) for what is open now and what comes next; rewrite it rather
+than appending. Evidence already found and dated work notes are in [log/](log/), one file
+per UTC day (`log/YYYY-MM-DD.md`), appended and never rewritten; the 13 September file is
+the former research handoff, moved verbatim. Counts are measurements from the tools, not
+promises about how long this book should be.
