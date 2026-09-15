@@ -107,6 +107,15 @@ class AttributionFixture(unittest.TestCase):
         found = history.fragments(f"*** Begin Patch\n@@\n {LINE_A}\n-{LINE_C}\n+{LINE_B}\n*** End Patch")
         self.assertEqual(found, {LINE_B})
 
+    def test_blockquote_marker_is_not_wording(self):
+        # A script that appends "\n> " + caption supplies the caption without its marker.
+        found = history.fragments("additions = {('052', 4): ('inference', '" + LINE_B + "')}")
+        self.assertIn(history.committed_value("content/pages/052.md", "> " + LINE_B), found)
+        self.assertEqual(history.committed_value("content/pages/052.md", ">"), None)
+        # A short caption stays matchable in its quoted form rather than dropping below the threshold.
+        short = "> DIFFERENT TARGETS."
+        self.assertIn(history.committed_value("content/pages/006.md", short), history.fragments(f"cat > page.md <<'EOF'\n{short}\nEOF"))
+
     def test_panel_origins_read_the_blame_at_a_commit(self):
         result = self.run_attribution()
         with mock.patch.object(history, "VAULT", Path(self.tmp.name) / "vault"):

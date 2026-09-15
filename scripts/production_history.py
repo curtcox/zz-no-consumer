@@ -63,6 +63,8 @@ ESCAPE = re.compile(r"\\(u[0-9a-fA-F]{4}|.)")
 PATH_TOKEN = re.compile(r"[\w.@+-]*(?:/[\w.@+-]+)*\.(?:md|json|jsonl|py|ya?ml|tsv|html|css|js|txt|svg)\b")
 PATCH_FILE = re.compile(r"^\*\*\* (?:Add|Update|Delete) File: (.+)$", re.MULTILINE)
 SPACE = re.compile(r"\s+")
+# A Markdown blockquote marker is layout, not wording: scripts often insert "> " + text.
+QUOTE_MARKER = re.compile(r"^(?:>\s?)+")
 
 
 def utc(stamp: str) -> float:
@@ -78,6 +80,12 @@ def iso(seconds: float) -> str:
 
 def norm(line: str) -> str:
     return SPACE.sub(" ", line).strip()
+
+
+def unquoted(value: str) -> str:
+    """The wording without a leading blockquote marker, when that wording is still attributable."""
+    bare = QUOTE_MARKER.sub("", value).strip()
+    return bare if bare != value and attributable(bare) else value
 
 
 def attributable(value: str) -> bool:
@@ -116,6 +124,7 @@ def fragments(text: str, *, patch_only: bool = False) -> set[str]:
                 value = norm(line)
                 if attributable(value):
                     found.add(value)
+                    found.add(unquoted(value))
             following += [unescape(m.group(1) or m.group(2)) for m in QUOTED.finditer(piece)]
         layer = following
         if not layer:
@@ -130,7 +139,7 @@ def committed_value(path: str, line: str) -> str | None:
         value = norm(max(values, key=len)) if values else ""
     else:
         value = norm(line)
-    return value if attributable(value) else None
+    return unquoted(value) if attributable(value) else None
 
 
 def relative(path: str, projects: list[str]) -> str | None:
