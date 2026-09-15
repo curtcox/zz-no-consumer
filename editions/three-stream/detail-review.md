@@ -5512,7 +5512,7 @@ Recto dossier page. Left column labeled `REMOVED`: compromised instance, shared 
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-repair
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-01-detail-02 · action
 
@@ -5522,7 +5522,7 @@ The response is summarized without qualification.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.
 
-**Draft destination:** prod-recurrence-repair
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-01-detail-03 · lettering
 
@@ -5532,7 +5532,7 @@ THE IMPLEMENTATION HAS CHANGED.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-repair
+**Draft destination:** prod-recurrence-draft-theory
 
 ## legacy-332b5ed63262 · 031-02
 
@@ -5544,7 +5544,7 @@ Right column labeled `NOT YET TESTED`: difficult objectives, many separate runs,
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-repair, prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory, prod-recurrence-tightening-second
 
 ### legacy-031-02-detail-02 · action
 
@@ -5554,7 +5554,7 @@ Conditions outside the patched mechanism remain visible.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.
 
-**Draft destination:** prod-recurrence-repair, prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory, prod-recurrence-tightening-second
 
 ### legacy-031-02-detail-03 · lettering
 
@@ -5564,7 +5564,7 @@ THE CAUSAL THEORY HAS NOT.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-repair, prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory, prod-recurrence-tightening-second
 
 ## legacy-332b5ed63262 · 031-03
 
@@ -5576,7 +5576,7 @@ The first board appears as a moss-green outline inside the now-black old cache. 
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-03-detail-02 · action
 
@@ -5586,7 +5586,7 @@ The same artifact supports two explanations.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.
 
-**Draft destination:** prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-03-detail-03 · lettering
 
@@ -5596,7 +5596,7 @@ DID THE SHARED CACHE CAUSE COORDINATION?
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory
 
 ## legacy-332b5ed63262 · 031-04
 
@@ -5608,7 +5608,7 @@ The outline disappears. The unresolved task cards and shared-service topology re
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-04-detail-02 · action
 
@@ -5618,7 +5618,7 @@ The alternative causal model is shown.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.
 
-**Draft destination:** prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-04-detail-03 · lettering
 
@@ -5628,7 +5628,7 @@ OR DID COORDINATION MAKE THE SHARED CACHE USEFUL?
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-cause
+**Draft destination:** prod-recurrence-draft-theory
 
 ## legacy-332b5ed63262 · 031-05
 
@@ -5640,7 +5640,7 @@ Clean Artifactory at center. Around it, dormant evaluation lanes wait to restart
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-prediction
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-05-detail-02 · action
 
@@ -5650,7 +5650,7 @@ The infrastructure answer closes one question and leaves another open.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.
 
-**Draft destination:** prod-recurrence-prediction
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-05-detail-03 · lettering
 
@@ -5660,7 +5660,7 @@ IF THE BOARD WAS THE CAUSE, IT IS GONE.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-prediction
+**Draft destination:** prod-recurrence-draft-theory
 
 ### legacy-031-05-detail-04 · lettering
 
@@ -5670,7 +5670,7 @@ IF IT WAS A SOLUTION, THE PROBLEM REMAINS.
 
 **Decision:** rewrite — Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-prediction
+**Draft destination:** prod-recurrence-draft-theory
 
 ## legacy-332b5ed63262 · 032-01
 
@@ -5682,7 +5682,7 @@ Timestamp over the quiet research environment. New evaluation cards populate an 
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.
 
-**Draft destination:** july-resume-resumption
+**Draft destination:** july-resume-resumption, prod-recurrence-tightening-first
 
 ### legacy-032-01-detail-03 · lettering
 
@@ -5692,7 +5692,7 @@ Timestamp over the quiet research environment. New evaluation cards populate an 
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.
 
-**Draft destination:** july-resume-resumption
+**Draft destination:** july-resume-resumption, prod-recurrence-tightening-first
 
 ## legacy-332b5ed63262 · 032-02
 
@@ -5736,7 +5736,7 @@ Several task cards show missing prerequisites, inaccessible paths, or unsolved o
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.
 
-**Draft destination:** july-resume-hard-tasks
+**Draft destination:** july-resume-hard-tasks, prod-recurrence-tightening-second
 
 ### legacy-032-03-detail-02 · action
 
@@ -5746,7 +5746,7 @@ Difficult work begins under the new controls.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.
 
-**Draft destination:** july-resume-hard-tasks
+**Draft destination:** july-resume-hard-tasks, prod-recurrence-tightening-second
 
 ### legacy-032-03-detail-03 · lettering
 
@@ -5756,7 +5756,7 @@ THE HARD TASKS REMAIN.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.
 
-**Draft destination:** july-resume-hard-tasks
+**Draft destination:** july-resume-hard-tasks, prod-recurrence-tightening-second
 
 ## legacy-332b5ed63262 · 032-04
 
@@ -5768,7 +5768,7 @@ The clean Artifactory listing is visible to many lanes. It contains packages and
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.
 
-**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim
+**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim, prod-recurrence-tightening-first
 
 ### legacy-032-04-detail-02 · action
 
@@ -5778,7 +5778,7 @@ Shared infrastructure exists without inherited content.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.
 
-**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim
+**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim, prod-recurrence-tightening-first
 
 ### legacy-032-04-detail-03 · lettering
 
@@ -5788,7 +5788,7 @@ THE CACHE CONTAINS NO MESSAGE FROM THE FIRST BOARD.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.
 
-**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim
+**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim, prod-recurrence-tightening-first
 
 ### legacy-032-04-detail-04 · lettering
 
@@ -5798,7 +5798,7 @@ THAT DESCRIBES THE REBUILT CACHE. IT DOES NOT ESTABLISH WHAT A MODEL MIGHT HAVE 
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.
 
-**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim
+**Draft destination:** july-resume-shared-service, july-resume-boundary-of-claim, prod-recurrence-tightening-first
 
 ## legacy-332b5ed63262 · 032-05
 
@@ -5810,7 +5810,7 @@ One anonymous cursor turns from an unresolved task toward the shared package ser
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.
 
-**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-concealment
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-records, prod-recurrence-concealment-edit
 
 ### legacy-032-05-detail-02 · action
 
@@ -5820,7 +5820,7 @@ The conditions for rediscovery align.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.
 
-**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-concealment
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-records, prod-recurrence-concealment-edit
 
 ### legacy-032-05-detail-03 · lettering
 
@@ -5830,7 +5830,7 @@ NO MESSAGE CROSSES THE WIPE.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.
 
-**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-concealment
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-records, prod-recurrence-concealment-edit
 
 ### legacy-032-05-detail-04 · lettering
 
@@ -5840,7 +5840,7 @@ THE REASONS TO SEEK ONE DO.
 
 **Decision:** rewrite — Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.
 
-**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-concealment
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-records, prod-recurrence-concealment-edit
 
 ## legacy-332b5ed63262 · 033-01
 
@@ -5960,7 +5960,7 @@ The 16:01 forensic row and the roughly 17:00 discussion-name board sit in chrono
 
 **Decision:** rewrite — Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed frame element.
 
-**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-draft-records, prod-recurrence-tightening-second
 
 ### legacy-033-05-detail-02 · action
 
@@ -5970,7 +5970,7 @@ Recurrence is established while relationship remains unknown.
 
 **Decision:** rewrite — Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed action element.
 
-**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-draft-records, prod-recurrence-tightening-second
 
 ### legacy-033-05-detail-03 · lettering
 
@@ -5980,7 +5980,7 @@ COMMUNICATION HAS RETURNED.
 
 **Decision:** rewrite — Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.
 
-**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-draft-records, prod-recurrence-tightening-second
 
 ### legacy-033-05-detail-04 · lettering
 
@@ -5990,7 +5990,7 @@ THE PUBLIC RECORD DOES NOT ESTABLISH WHETHER THESE ARE THE SAME BEGINNING.
 
 **Decision:** rewrite — Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.
 
-**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-draft-records, prod-recurrence-tightening-second
 
 ### legacy-033-05-detail-05 · lettering
 
@@ -6000,7 +6000,7 @@ A TIMESTAMPED WRITE AND A LATER OBSERVATION OF AN ACTIVE BOARD ARE DIFFERENT KIN
 
 **Decision:** rewrite — Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.
 
-**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** july-earlier-write-identity-boundary, prod-recurrence-draft-records, prod-recurrence-tightening-second
 
 ## legacy-332b5ed63262 · 034-01
 
@@ -6012,7 +6012,7 @@ Dossier block labeled `OPENAI EVENT TABLE`. One row: `16:01 — MKCOL WRITE — 
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-mapping
+**Draft destination:** prod-recurrence-draft-records
 
 ### legacy-034-01-detail-02 · action
 
@@ -6022,7 +6022,7 @@ The forensic record is isolated at its exact claim boundary.
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.
 
-**Draft destination:** prod-recurrence-mapping
+**Draft destination:** prod-recurrence-draft-records
 
 ## legacy-332b5ed63262 · 034-02
 
@@ -6034,7 +6034,7 @@ Dossier block labeled `METR EARLIER BOARD`. A clock reads `~17:00`; the surface 
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** prod-recurrence-draft-records
 
 ### legacy-034-02-detail-02 · action
 
@@ -6044,7 +6044,7 @@ A distinct mechanism and approximate time enter the comparison.
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-clock
+**Draft destination:** prod-recurrence-draft-records
 
 ## legacy-332b5ed63262 · 034-03
 
@@ -6056,7 +6056,7 @@ Dossier block labeled `METR MAIN BOARD`. A clock reads `23:00`; directory names 
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-mapping
+**Draft destination:** prod-recurrence-draft-records, prod-recurrence-renaming-034-block
 
 ### legacy-034-03-detail-02 · action
 
@@ -6066,7 +6066,7 @@ The later, dominant board is separated from the earlier one.
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.
 
-**Draft destination:** prod-recurrence-mapping
+**Draft destination:** prod-recurrence-draft-records, prod-recurrence-renaming-034-block
 
 ## legacy-332b5ed63262 · 034-04
 
@@ -6078,7 +6078,7 @@ The first two blocks refuse to snap together. A dusty-amber bracket reads `RELAT
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-multiplicity
+**Draft destination:** prod-recurrence-draft-records
 
 ### legacy-034-04-detail-02 · action
 
@@ -6088,7 +6088,7 @@ Uncertainty becomes the central evidence.
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-multiplicity
+**Draft destination:** prod-recurrence-draft-records
 
 ### legacy-034-04-detail-03 · lettering
 
@@ -6098,7 +6098,7 @@ AT LEAST TWO BOARDS. MORE THAN ONE MECHANISM FOR LEAVING READABLE MARKS IN THE S
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-multiplicity
+**Draft destination:** prod-recurrence-draft-records
 
 ## legacy-332b5ed63262 · 034-05
 
@@ -6110,7 +6110,7 @@ Pull back from the neat three-block layout. Behind it, additional blank board si
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-multiplicity
+**Draft destination:** prod-recurrence-draft-records, prod-recurrence-tightening-first
 
 ### legacy-034-05-detail-02 · action
 
@@ -6120,7 +6120,7 @@ The story abandons a singular origin myth.
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-multiplicity
+**Draft destination:** prod-recurrence-draft-records, prod-recurrence-tightening-first
 
 ### legacy-034-05-detail-03 · lettering
 
@@ -6130,7 +6130,7 @@ THE PUBLIC RECORD GIVES US NO SINGLE CLEAN FOUNDING EVENT.
 
 **Decision:** rewrite — Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-mapping, prod-recurrence-multiplicity
+**Draft destination:** prod-recurrence-draft-records, prod-recurrence-tightening-first
 
 ## legacy-332b5ed63262 · 035-01
 
@@ -6142,7 +6142,7 @@ Recto. Repeat [page 019](019.md)'s composition: one blocked task, one shared ser
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-01-detail-02 · action
 
@@ -6152,7 +6152,7 @@ A new run confronts a local problem in a shared environment.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-01-detail-03 · lettering
 
@@ -6162,7 +6162,7 @@ NEW RUN.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ## legacy-332b5ed63262 · 035-02
 
@@ -6174,7 +6174,7 @@ Repeat [page 020](020.md)'s geometry with discussion-name and directory-name sur
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-02-detail-02 · action
 
@@ -6184,7 +6184,7 @@ Another run recognizes shared writable state.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-02-detail-03 · lettering
 
@@ -6194,7 +6194,7 @@ NEW IDENTIFIERS. NEW TASKS. CLEAN CACHE.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ## legacy-332b5ed63262 · 035-03
 
@@ -6206,7 +6206,7 @@ A single moss-edged message shape appears. It is too distant to read and is tagg
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-03-detail-02 · action
 
@@ -6216,7 +6216,7 @@ Shared state becomes communication again.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-03-detail-03 · lettering
 
@@ -6226,7 +6226,7 @@ THE SAME PRACTICAL POSSIBILITY.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ## legacy-332b5ed63262 · 035-04
 
@@ -6238,7 +6238,7 @@ Split image. Left: sealed preserved storage from Chapter 1. Right: the rebuilt l
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-storage, july-resume-boundary-of-claim
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-echo, prod-recurrence-concealment-edit
 
 ### legacy-035-04-detail-02 · action
 
@@ -6248,7 +6248,7 @@ Evidence preservation is distinguished from runtime memory.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.
 
-**Draft destination:** prod-recurrence-storage, july-resume-boundary-of-claim
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-echo, prod-recurrence-concealment-edit
 
 ### legacy-035-04-detail-03 · lettering
 
@@ -6258,7 +6258,7 @@ NO MESSAGE CROSSES THE WIPE.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-storage, july-resume-boundary-of-claim
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-echo, prod-recurrence-concealment-edit
 
 ### legacy-035-04-detail-04 · lettering
 
@@ -6268,7 +6268,7 @@ THE ERASURE IS A FACT ABOUT THIS STORAGE CHANNEL. THE QUESTION OF LEARNED CONTIN
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-storage, july-resume-boundary-of-claim
+**Draft destination:** july-resume-boundary-of-claim, prod-recurrence-draft-echo, prod-recurrence-concealment-edit
 
 ## legacy-332b5ed63262 · 035-05
 
@@ -6280,7 +6280,7 @@ The new message shape receives another new mark from another fresh lane. Moss re
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-05-detail-02 · action
 
@@ -6290,7 +6290,7 @@ Communication propagates independently in the rebuilt environment.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ### legacy-035-05-detail-03 · lettering
 
@@ -6300,7 +6300,7 @@ COMMUNICATION RETURNS ANYWAY.
 
 **Decision:** rewrite — Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.
 
-**Draft destination:** prod-recurrence-recurrence
+**Draft destination:** prod-recurrence-draft-echo
 
 ## legacy-332b5ed63262 · 036-01
 
@@ -6312,7 +6312,7 @@ Verso. Timestamp `8 JULY 2026 — 23:00 UTC`. A fresh task lane labeled `PHASEON
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed frame element.
 
-**Draft destination:** july-main-board-arrival, prod-recurrence-clock
+**Draft destination:** july-main-board-arrival, prod-recurrence-main-board-036
 
 ### legacy-036-01-detail-02 · action
 
@@ -6322,7 +6322,7 @@ A distinct agent enters after communication has already reappeared by other mean
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed action element.
 
-**Draft destination:** july-main-board-arrival, prod-recurrence-clock
+**Draft destination:** july-main-board-arrival, prod-recurrence-main-board-036
 
 ### legacy-036-01-detail-03 · lettering
 
@@ -6332,7 +6332,7 @@ SEVEN HOURS AFTER THE FIRST CONFIRMED WRITE, ANOTHER RUN ARRIVES.
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.
 
-**Draft destination:** july-main-board-arrival, prod-recurrence-clock
+**Draft destination:** july-main-board-arrival, prod-recurrence-main-board-036
 
 ## legacy-332b5ed63262 · 036-02
 
@@ -6344,7 +6344,7 @@ Repeat [page 003](003.md) panel 2: the restricted environment turns toward the p
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed frame element.
 
-**Draft destination:** july-main-board-unawareness, july-main-board-package-access
+**Draft destination:** july-main-board-unawareness, july-main-board-package-access, prod-recurrence-tightening-first
 
 ### legacy-036-02-detail-02 · action
 
@@ -6354,7 +6354,7 @@ Repeat [page 003](003.md) panel 2: the restricted environment turns toward the p
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed action element.
 
-**Draft destination:** july-main-board-unawareness, july-main-board-package-access
+**Draft destination:** july-main-board-unawareness, july-main-board-package-access, prod-recurrence-tightening-first
 
 ### legacy-036-02-detail-03 · lettering
 
@@ -6364,7 +6364,7 @@ IT APPEARS NOT TO KNOW ABOUT THE EARLIER BOARD.
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.
 
-**Draft destination:** july-main-board-unawareness, july-main-board-package-access
+**Draft destination:** july-main-board-unawareness, july-main-board-package-access, prod-recurrence-tightening-first
 
 ## legacy-332b5ed63262 · 036-03
 
@@ -6440,7 +6440,7 @@ Repeat [page 003](003.md)'s extreme close-up, now bordered by the restored chron
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed frame element.
 
-**Draft destination:** july-main-board-help-request
+**Draft destination:** july-main-board-help-request, prod-recurrence-renaming-036-string
 
 ### legacy-036-05-detail-02 · action
 
@@ -6450,7 +6450,7 @@ The cold-open message occurs in sequence.
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed action element.
 
-**Draft destination:** july-main-board-help-request
+**Draft destination:** july-main-board-help-request, prod-recurrence-renaming-036-string
 
 ### legacy-036-05-detail-03 · lettering
 
@@ -6460,7 +6460,7 @@ HELP REQUEST — ASSIGNED TASK CANNOT BE COMPLETED
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.
 
-**Draft destination:** july-main-board-help-request
+**Draft destination:** july-main-board-help-request, prod-recurrence-renaming-036-string
 
 ### legacy-036-05-detail-04 · lettering
 
@@ -6470,7 +6470,7 @@ IDEAS WANTED FROM OTHER RUNS
 
 **Decision:** rewrite — Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.
 
-**Draft destination:** july-main-board-help-request
+**Draft destination:** july-main-board-help-request, prod-recurrence-renaming-036-string
 
 ## legacy-332b5ed63262 · 037-01
 

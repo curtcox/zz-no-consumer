@@ -15092,7 +15092,7 @@
   {
     "old_panel": "031-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15100,11 +15100,11 @@
         "original_sha256": "1bfa1ab020b1a350b7ceb78051f123c51ab54da26102b3e3735d9a0b561817b3",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-repair"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-repair": "0919085cb79e8ab19d69e00853ab641ad688e8c9dcc5b92c4080d13a811d66b1"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15112,11 +15112,11 @@
         "original_sha256": "faa3376257780be0d6c1724971fffe30b89be0d842e15173d4e0c96a30fd183e",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-repair"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-repair": "0919085cb79e8ab19d69e00853ab641ad688e8c9dcc5b92c4080d13a811d66b1"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15124,11 +15124,11 @@
         "original_sha256": "592a35288618fdba350fb4f8c51159133a04e7576050822c869c93843f2739f3",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-repair"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-repair": "0919085cb79e8ab19d69e00853ab641ad688e8c9dcc5b92c4080d13a811d66b1"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       }
     ]
@@ -15136,7 +15136,7 @@
   {
     "old_panel": "031-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15144,13 +15144,13 @@
         "original_sha256": "7f860d110a39dffe7fedab4dc51498b5c49a5feb61cc3cf4d057886245582f8f",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-repair",
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-repair": "0919085cb79e8ab19d69e00853ab641ad688e8c9dcc5b92c4080d13a811d66b1",
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15158,13 +15158,13 @@
         "original_sha256": "b5309036b10746215e270287159c845d07e12b329ccd72e7e61adb9cd685e3c5",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-repair",
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-repair": "0919085cb79e8ab19d69e00853ab641ad688e8c9dcc5b92c4080d13a811d66b1",
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15172,13 +15172,13 @@
         "original_sha256": "15b94e08642ed84d3cdfc976807419fe9dcebf76acd8fe6a58f85f7f98da6af2",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-repair",
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-repair": "0919085cb79e8ab19d69e00853ab641ad688e8c9dcc5b92c4080d13a811d66b1",
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       }
     ]
@@ -15186,7 +15186,7 @@
   {
     "old_panel": "031-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15194,11 +15194,11 @@
         "original_sha256": "2e3e9154b59f0f1f3a79c7508c9cc22227c9859b636dfee1edd8127357182cd6",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15206,11 +15206,11 @@
         "original_sha256": "38d3005eff9688306e16c898cf06a30aeec687415baa2496e5f694139cdbee7e",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15218,11 +15218,11 @@
         "original_sha256": "dcc751205205e9be0c73d9e48b595fe5cf96a6848ff6c0414bc24a638da53252",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       }
     ]
@@ -15230,7 +15230,7 @@
   {
     "old_panel": "031-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15238,11 +15238,11 @@
         "original_sha256": "8856728042d949eb3bcf0c5fe45b70655a32dfae9f42cb97b320beb9a2b47769",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15250,11 +15250,11 @@
         "original_sha256": "cf65df05fc783ffc96ab958fd53044695e964023df8521c6fbb912a85e96c83a",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15262,11 +15262,11 @@
         "original_sha256": "929995d203607c9229bef162745b939ee001dbba433ab8ca30a4ccc971b27cb9",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-cause"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-cause": "80b6156156a87c89d40fda7b71d637efdcb398e839b1aa0333aaa1e4cea65b89"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       }
     ]
@@ -15274,7 +15274,7 @@
   {
     "old_panel": "031-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15282,11 +15282,11 @@
         "original_sha256": "c5074dbcc3f8b3b60291a9e24a30421c7b7b5f291e0a7607c189a57fa6e9f8b1",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-prediction"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-prediction": "d28d9eddefd51f0ebb308aa8360b64c93494464b816da90d1f3be908e2ed67dc"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15294,11 +15294,11 @@
         "original_sha256": "3851145ba767e1321f2772ca5f249398cba8dbb6a6420f9d4ddbd2bfe24985de",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-prediction"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-prediction": "d28d9eddefd51f0ebb308aa8360b64c93494464b816da90d1f3be908e2ed67dc"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15306,11 +15306,11 @@
         "original_sha256": "99134ac117bf71883d7c4bab44db04e38a72b5ab80c6a4989955e7d95b2cf4b2",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-prediction"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-prediction": "d28d9eddefd51f0ebb308aa8360b64c93494464b816da90d1f3be908e2ed67dc"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       },
       {
@@ -15318,11 +15318,11 @@
         "original_sha256": "2c48eecea5190505009af7b3407aaa38575fb8fc3d8ea26c62b2348d21b4cccd",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-prediction"
+          "prod-recurrence-draft-theory"
         ],
         "reason": "Retain the draft’s causal question in dated review, without claiming an unchanged institutional theory, untested hypotheses, mutually exclusive causes or an observed dormant-workload scene. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-prediction": "d28d9eddefd51f0ebb308aa8360b64c93494464b816da90d1f3be908e2ed67dc"
+          "prod-recurrence-draft-theory": "370bf68bc7c6f8d234ab485febf40ea4813157a4f2c8a02ad367e1123a4180b0"
         }
       }
     ]
@@ -15330,7 +15330,7 @@
   {
     "old_panel": "032-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15338,11 +15338,13 @@
         "original_sha256": "306e00c2c20116c1abd7ff084a22b4627827cfe8fe5c72b5763df3fcc43faf5d",
         "disposition": "rewrite",
         "beats": [
-          "july-resume-resumption"
+          "july-resume-resumption",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.",
         "target_sha256": {
-          "july-resume-resumption": "b754a1e46954648551aa57192e7f1d1adf4b02a4c2273e22cbbe3c05ff3b5ac7"
+          "july-resume-resumption": "b754a1e46954648551aa57192e7f1d1adf4b02a4c2273e22cbbe3c05ff3b5ac7",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -15350,11 +15352,13 @@
         "original_sha256": "03ad75c5c7cd9131d960e102f18c76a78315750f0f96ce0de6e213aa32769f30",
         "disposition": "rewrite",
         "beats": [
-          "july-resume-resumption"
+          "july-resume-resumption",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
-          "july-resume-resumption": "b754a1e46954648551aa57192e7f1d1adf4b02a4c2273e22cbbe3c05ff3b5ac7"
+          "july-resume-resumption": "b754a1e46954648551aa57192e7f1d1adf4b02a4c2273e22cbbe3c05ff3b5ac7",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       }
     ]
@@ -15406,7 +15410,7 @@
   {
     "old_panel": "032-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15414,11 +15418,13 @@
         "original_sha256": "f6abba49cd96cab1a0bc7d85810b74f1ec0d9f0879aa0a722e7dd9b11a7f210d",
         "disposition": "rewrite",
         "beats": [
-          "july-resume-hard-tasks"
+          "july-resume-hard-tasks",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.",
         "target_sha256": {
-          "july-resume-hard-tasks": "407f129e66ad166a9e31150d87d0d9bd2c555b7e6a3a0606a7e3511e7bce3b96"
+          "july-resume-hard-tasks": "407f129e66ad166a9e31150d87d0d9bd2c555b7e6a3a0606a7e3511e7bce3b96",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15426,11 +15432,13 @@
         "original_sha256": "ddbaa47ee9569fe976b0a65e315a3a2a4e001ce3150e870692a0f0e23fb57f1f",
         "disposition": "rewrite",
         "beats": [
-          "july-resume-hard-tasks"
+          "july-resume-hard-tasks",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.",
         "target_sha256": {
-          "july-resume-hard-tasks": "407f129e66ad166a9e31150d87d0d9bd2c555b7e6a3a0606a7e3511e7bce3b96"
+          "july-resume-hard-tasks": "407f129e66ad166a9e31150d87d0d9bd2c555b7e6a3a0606a7e3511e7bce3b96",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15438,11 +15446,13 @@
         "original_sha256": "25c33e67a4ec269d152cb62b67b053185cca1e4ea480ce644a7bd89acccbc39d",
         "disposition": "rewrite",
         "beats": [
-          "july-resume-hard-tasks"
+          "july-resume-hard-tasks",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
-          "july-resume-hard-tasks": "407f129e66ad166a9e31150d87d0d9bd2c555b7e6a3a0606a7e3511e7bce3b96"
+          "july-resume-hard-tasks": "407f129e66ad166a9e31150d87d0d9bd2c555b7e6a3a0606a7e3511e7bce3b96",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       }
     ]
@@ -15450,7 +15460,7 @@
   {
     "old_panel": "032-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15459,12 +15469,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-shared-service",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.",
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -15473,12 +15485,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-shared-service",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.",
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -15487,12 +15501,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-shared-service",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -15501,12 +15517,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-shared-service",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       }
     ]
@@ -15514,7 +15532,7 @@
   {
     "old_panel": "032-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15523,12 +15541,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-boundary-of-claim",
-          "prod-recurrence-concealment"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-concealment": "9c362475d3fe00a0f3b1afadccf7e1572fd8615a73ddff8316e4926929f889ca"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
       {
@@ -15537,12 +15557,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-boundary-of-claim",
-          "prod-recurrence-concealment"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-concealment": "9c362475d3fe00a0f3b1afadccf7e1572fd8615a73ddff8316e4926929f889ca"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
       {
@@ -15551,12 +15573,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-boundary-of-claim",
-          "prod-recurrence-concealment"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-concealment": "9c362475d3fe00a0f3b1afadccf7e1572fd8615a73ddff8316e4926929f889ca"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
       {
@@ -15565,12 +15589,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-resume-boundary-of-claim",
-          "prod-recurrence-concealment"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-concealment": "9c362475d3fe00a0f3b1afadccf7e1572fd8615a73ddff8316e4926929f889ca"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       }
     ]
@@ -15740,7 +15766,7 @@
   {
     "old_panel": "033-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15749,14 +15775,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-earlier-write-identity-boundary",
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed frame element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15765,14 +15791,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-earlier-write-identity-boundary",
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed action element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15781,14 +15807,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-earlier-write-identity-boundary",
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15797,14 +15823,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-earlier-write-identity-boundary",
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
       {
@@ -15813,14 +15839,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-earlier-write-identity-boundary",
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-second"
         ],
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       }
     ]
@@ -15828,7 +15854,7 @@
   {
     "old_panel": "034-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15836,11 +15862,11 @@
         "original_sha256": "00b0d0711030740a36d3df1f3180f83b41d8ae8c164c18ca57986c35fb4365d0",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       },
       {
@@ -15848,11 +15874,11 @@
         "original_sha256": "d84b64d90025f70b49c61b00e82be3cccc4112dd128ae25a24ffb08639260b5f",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       }
     ]
@@ -15860,7 +15886,7 @@
   {
     "old_panel": "034-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15868,13 +15894,11 @@
         "original_sha256": "4ab58a0defdaa729b8200979e0bf22fdd7b0f51972e3387b287e69424dc221b9",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       },
       {
@@ -15882,13 +15906,11 @@
         "original_sha256": "15a8f56c03e104785eb7d09d2171e52da731761c7b3b2fde3b5b39557622180a",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-clock"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       }
     ]
@@ -15896,7 +15918,7 @@
   {
     "old_panel": "034-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15904,11 +15926,13 @@
         "original_sha256": "a12d3252c9e70ec45bd91e9874ce6f0f9a1e7c3e5aa0962fd643491ba3cfab69",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-renaming-034-block"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-renaming-034-block": "8d7048df13edc23f80af75b0646998f0746b0ecab1a1034073d70f01e0102573"
         }
       },
       {
@@ -15916,11 +15940,13 @@
         "original_sha256": "07e3130af11301a17b75884fdde307aa2c036ab92f43e189e7827599b4f69e90",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-renaming-034-block"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-renaming-034-block": "8d7048df13edc23f80af75b0646998f0746b0ecab1a1034073d70f01e0102573"
         }
       }
     ]
@@ -15928,7 +15954,7 @@
   {
     "old_panel": "034-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15936,13 +15962,11 @@
         "original_sha256": "7c9c1742c06839f7aa55efdcc6c6d2e880fb24afcc71dc9adf69067d3f66cc97",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-multiplicity"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-multiplicity": "831e422cee569e424f7e26d9c46d23f84ea4f1048a74afece2730adb15a77a98"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       },
       {
@@ -15950,13 +15974,11 @@
         "original_sha256": "7d90875702d39349fd7bfa930c60975442f0e6d7f5c2f80d5534b43395eb2488",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-multiplicity"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-multiplicity": "831e422cee569e424f7e26d9c46d23f84ea4f1048a74afece2730adb15a77a98"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       },
       {
@@ -15964,13 +15986,11 @@
         "original_sha256": "84dbad0f83eba62010ff0648a897e11714fc63895efeb5ddd642e21fc88ece5a",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-multiplicity"
+          "prod-recurrence-draft-records"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-multiplicity": "831e422cee569e424f7e26d9c46d23f84ea4f1048a74afece2730adb15a77a98"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
         }
       }
     ]
@@ -15978,7 +15998,7 @@
   {
     "old_panel": "034-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -15986,13 +16006,13 @@
         "original_sha256": "b52f04b80b5e911569f1d1b3e255f9e232b3400a29497afe0c0c34773bf05642",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-multiplicity"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-multiplicity": "831e422cee569e424f7e26d9c46d23f84ea4f1048a74afece2730adb15a77a98"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -16000,13 +16020,13 @@
         "original_sha256": "67f9546aa530bd58451d1d2ac2eac7e1d2253d3d62cf9af8a88aa422a34fc0e1",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-multiplicity"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-multiplicity": "831e422cee569e424f7e26d9c46d23f84ea4f1048a74afece2730adb15a77a98"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -16014,13 +16034,13 @@
         "original_sha256": "b9b85138a61c28083b00d200f87260e39a6104dd9d1965e55ae72e3a5126171b",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-mapping",
-          "prod-recurrence-multiplicity"
+          "prod-recurrence-draft-records",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-mapping": "6e4964f1ce501d57e8269d99eed06589f4f1a3c2de1a31afc3b871cb8e31c384",
-          "prod-recurrence-multiplicity": "831e422cee569e424f7e26d9c46d23f84ea4f1048a74afece2730adb15a77a98"
+          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       }
     ]
@@ -16028,7 +16048,7 @@
   {
     "old_panel": "035-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16036,11 +16056,11 @@
         "original_sha256": "ceefa3e7d7974ac3f685a43db550073fa7c9765cab1acd3c8b12e00c255d0271",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16048,11 +16068,11 @@
         "original_sha256": "d06ce4b51307b100004d1dc61b14b153fbb16720b96b6cad6e3123bad8308704",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16060,11 +16080,11 @@
         "original_sha256": "89c34d60960b991c9b3001bb816dc5e2d569c7962bdd504174135953a77017b8",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       }
     ]
@@ -16072,7 +16092,7 @@
   {
     "old_panel": "035-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16080,11 +16100,11 @@
         "original_sha256": "9dd4f9e001129738b9d5ae6d63eeaef719553e723686dcfe19c78461d08b5064",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16092,11 +16112,11 @@
         "original_sha256": "2d8cd879afcbe48dc7942b69edd0d41a17a00305e018e353b1056dd63da61a35",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16104,11 +16124,11 @@
         "original_sha256": "c7594cfbbe0caa9326e301064d451624cf6a89b8a287855eeb4b9165e00d5e3f",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       }
     ]
@@ -16116,7 +16136,7 @@
   {
     "old_panel": "035-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16124,11 +16144,11 @@
         "original_sha256": "3cf792eb4c7f06057bfa4dd696c948a07415a5d108412c1f27d74fe0d3bc45ff",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16136,11 +16156,11 @@
         "original_sha256": "0544c28ebb4b39b2723ed2def86b67f6b3d2cc745d2173057cf4f3f1da108df7",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16148,11 +16168,11 @@
         "original_sha256": "740b7cb1ce5cfb4a27aec3a32a6ba0b3c537934cfe0c7e1d36103775a4e58563",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       }
     ]
@@ -16160,7 +16180,7 @@
   {
     "old_panel": "035-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16168,13 +16188,15 @@
         "original_sha256": "55142dd50467ca8e2ac8c0f59f4dc783a5343a8b4a5fc51c07130d49a7361a41",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-storage",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-draft-echo",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-storage": "2a34a3baf54f1461a0906dce2bdb5fdc872fae9f9e7ee79f4b537ef18068663d",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
       {
@@ -16182,13 +16204,15 @@
         "original_sha256": "d7b13d6ba9368e8b8f914e47378af9dd624c7d0d211e9c930466c6e0b3051db2",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-storage",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-draft-echo",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-storage": "2a34a3baf54f1461a0906dce2bdb5fdc872fae9f9e7ee79f4b537ef18068663d",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
       {
@@ -16196,13 +16220,15 @@
         "original_sha256": "b8f80e9c92c906f01ea1219fcedb4ea95a67fc267a8858aa71d8d141deb8e045",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-storage",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-draft-echo",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-storage": "2a34a3baf54f1461a0906dce2bdb5fdc872fae9f9e7ee79f4b537ef18068663d",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
       {
@@ -16210,13 +16236,15 @@
         "original_sha256": "7920ee76b99c78ddd4b215c26604b6fd3386ed3eff85de05dc76b23c9f47a622",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-storage",
-          "july-resume-boundary-of-claim"
+          "july-resume-boundary-of-claim",
+          "prod-recurrence-draft-echo",
+          "prod-recurrence-concealment-edit"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-storage": "2a34a3baf54f1461a0906dce2bdb5fdc872fae9f9e7ee79f4b537ef18068663d",
-          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03"
+          "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       }
     ]
@@ -16224,7 +16252,7 @@
   {
     "old_panel": "035-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16232,11 +16260,11 @@
         "original_sha256": "7918d6d85984ff8d262093d6486830d5c1734fc2680d75b44cec6a3cbc9400d3",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16244,11 +16272,11 @@
         "original_sha256": "3210f0e7efe5a78d38885fd984d488ecfe64de679cad4f692932e35c2bebaccc",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       },
       {
@@ -16256,11 +16284,11 @@
         "original_sha256": "c50e33f51ca09cfa58909bd1a7aeec88a5ad3567ab6cf794b1e38ac0fd429997",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-recurrence"
+          "prod-recurrence-draft-echo"
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-recurrence": "283174acc00081c1b53b1ce447522c9373ed858428d5cda2d013e4186d7bcba1"
+          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
         }
       }
     ]
@@ -16268,7 +16296,7 @@
   {
     "old_panel": "036-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16277,12 +16305,12 @@
         "disposition": "rewrite",
         "beats": [
           "july-main-board-arrival",
-          "prod-recurrence-clock"
+          "prod-recurrence-main-board-036"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed frame element.",
         "target_sha256": {
           "july-main-board-arrival": "5e3153813eafcf9d47a80ec88e17e7f628e475703f5930d16d35a43092bfa2af",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-main-board-036": "f2b5b977d5aab66d04a16cbb43e3dc123be1980c8a4391d52642335eed4e1307"
         }
       },
       {
@@ -16291,12 +16319,12 @@
         "disposition": "rewrite",
         "beats": [
           "july-main-board-arrival",
-          "prod-recurrence-clock"
+          "prod-recurrence-main-board-036"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed action element.",
         "target_sha256": {
           "july-main-board-arrival": "5e3153813eafcf9d47a80ec88e17e7f628e475703f5930d16d35a43092bfa2af",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-main-board-036": "f2b5b977d5aab66d04a16cbb43e3dc123be1980c8a4391d52642335eed4e1307"
         }
       },
       {
@@ -16305,12 +16333,12 @@
         "disposition": "rewrite",
         "beats": [
           "july-main-board-arrival",
-          "prod-recurrence-clock"
+          "prod-recurrence-main-board-036"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.",
         "target_sha256": {
           "july-main-board-arrival": "5e3153813eafcf9d47a80ec88e17e7f628e475703f5930d16d35a43092bfa2af",
-          "prod-recurrence-clock": "451beade18017109bf2acd9705832c0e14d902d2906bac17c36814a14aba9dfa"
+          "prod-recurrence-main-board-036": "f2b5b977d5aab66d04a16cbb43e3dc123be1980c8a4391d52642335eed4e1307"
         }
       }
     ]
@@ -16318,7 +16346,7 @@
   {
     "old_panel": "036-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16327,12 +16355,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-main-board-unawareness",
-          "july-main-board-package-access"
+          "july-main-board-package-access",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed frame element.",
         "target_sha256": {
           "july-main-board-unawareness": "3f19ff448055d67a2a949c99fb3d9787522cfd8f0112bce11db28dd920dbca19",
-          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0"
+          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -16341,12 +16371,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-main-board-unawareness",
-          "july-main-board-package-access"
+          "july-main-board-package-access",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed action element.",
         "target_sha256": {
           "july-main-board-unawareness": "3f19ff448055d67a2a949c99fb3d9787522cfd8f0112bce11db28dd920dbca19",
-          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0"
+          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       },
       {
@@ -16355,12 +16387,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-main-board-unawareness",
-          "july-main-board-package-access"
+          "july-main-board-package-access",
+          "prod-recurrence-tightening-first"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.",
         "target_sha256": {
           "july-main-board-unawareness": "3f19ff448055d67a2a949c99fb3d9787522cfd8f0112bce11db28dd920dbca19",
-          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0"
+          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
+          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
         }
       }
     ]
@@ -16464,7 +16498,7 @@
   {
     "old_panel": "036-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16472,11 +16506,13 @@
         "original_sha256": "ca73d5aeb2f3c729d39cbbdbda73a51069bc68ab2a277a53a5df9837b38fdcc7",
         "disposition": "rewrite",
         "beats": [
-          "july-main-board-help-request"
+          "july-main-board-help-request",
+          "prod-recurrence-renaming-036-string"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed frame element.",
         "target_sha256": {
-          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c"
+          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c",
+          "prod-recurrence-renaming-036-string": "69880c98cdccc5032e6d6341c2eb3d0ddf8f750358e95f5891632987a46f4c62"
         }
       },
       {
@@ -16484,11 +16520,13 @@
         "original_sha256": "f1d651681b655119ec1e4992906f6ac163a9d6cdc2970cb608401fb8f6bf718c",
         "disposition": "rewrite",
         "beats": [
-          "july-main-board-help-request"
+          "july-main-board-help-request",
+          "prod-recurrence-renaming-036-string"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed action element.",
         "target_sha256": {
-          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c"
+          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c",
+          "prod-recurrence-renaming-036-string": "69880c98cdccc5032e6d6341c2eb3d0ddf8f750358e95f5891632987a46f4c62"
         }
       },
       {
@@ -16496,11 +16534,13 @@
         "original_sha256": "4fe9baedea8212646b6974b189772625dfbf62adff2aa1f2729d84641c363d43",
         "disposition": "rewrite",
         "beats": [
-          "july-main-board-help-request"
+          "july-main-board-help-request",
+          "prod-recurrence-renaming-036-string"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.",
         "target_sha256": {
-          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c"
+          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c",
+          "prod-recurrence-renaming-036-string": "69880c98cdccc5032e6d6341c2eb3d0ddf8f750358e95f5891632987a46f4c62"
         }
       },
       {
@@ -16508,11 +16548,13 @@
         "original_sha256": "d66e2a7ee782457b65ed47d9f183ff8edad9ce33df7ebea4cba2598e6df5e246",
         "disposition": "rewrite",
         "beats": [
-          "july-main-board-help-request"
+          "july-main-board-help-request",
+          "prod-recurrence-renaming-036-string"
         ],
         "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained. Reviewed lettering element.",
         "target_sha256": {
-          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c"
+          "july-main-board-help-request": "00b5f7afaeb00c18032f9dbccd19d2356f4bdcde4f590caa5f77056ee2b2013c",
+          "prod-recurrence-renaming-036-string": "69880c98cdccc5032e6d6341c2eb3d0ddf8f750358e95f5891632987a46f4c62"
         }
       }
     ]

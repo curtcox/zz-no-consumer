@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 330,
-  "drafted_beats": 1050,
+  "scenes": 336,
+  "drafted_beats": 1059,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -1535,7 +1535,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "031-01",
       "draft_beats": [
-        "prod-recurrence-repair"
+        "prod-recurrence-draft-theory"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1544,8 +1544,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "031-02",
       "draft_beats": [
-        "prod-recurrence-repair",
-        "prod-recurrence-cause"
+        "prod-recurrence-draft-theory",
+        "prod-recurrence-tightening-second"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1554,7 +1554,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "031-03",
       "draft_beats": [
-        "prod-recurrence-cause"
+        "prod-recurrence-draft-theory"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1563,7 +1563,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "031-04",
       "draft_beats": [
-        "prod-recurrence-cause"
+        "prod-recurrence-draft-theory"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1572,7 +1572,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "031-05",
       "draft_beats": [
-        "prod-recurrence-prediction"
+        "prod-recurrence-draft-theory"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1581,7 +1581,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "032-01",
       "draft_beats": [
-        "july-resume-resumption"
+        "july-resume-resumption",
+        "prod-recurrence-tightening-first"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1599,7 +1600,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "032-03",
       "draft_beats": [
-        "july-resume-hard-tasks"
+        "july-resume-hard-tasks",
+        "prod-recurrence-tightening-second"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1609,7 +1611,8 @@
       "old_panel": "032-04",
       "draft_beats": [
         "july-resume-shared-service",
-        "july-resume-boundary-of-claim"
+        "july-resume-boundary-of-claim",
+        "prod-recurrence-tightening-first"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1619,7 +1622,8 @@
       "old_panel": "032-05",
       "draft_beats": [
         "july-resume-boundary-of-claim",
-        "prod-recurrence-concealment"
+        "prod-recurrence-draft-records",
+        "prod-recurrence-concealment-edit"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1668,8 +1672,8 @@
       "draft_beats": [
         "july-discussion-board-unresolved-origin",
         "july-earlier-write-identity-boundary",
-        "prod-recurrence-mapping",
-        "prod-recurrence-clock"
+        "prod-recurrence-draft-records",
+        "prod-recurrence-tightening-second"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1679,7 +1683,7 @@
       "old_panel": "034-01",
       "draft_beats": [
         "july-earlier-write-operation",
-        "prod-recurrence-mapping"
+        "prod-recurrence-draft-records"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1689,8 +1693,7 @@
       "old_panel": "034-02",
       "draft_beats": [
         "july-discussion-board-cached-names",
-        "prod-recurrence-mapping",
-        "prod-recurrence-clock"
+        "prod-recurrence-draft-records"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1699,7 +1702,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "034-03",
       "draft_beats": [
-        "prod-recurrence-mapping"
+        "prod-recurrence-draft-records",
+        "prod-recurrence-renaming-034-block"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1710,8 +1714,7 @@
       "draft_beats": [
         "july-discussion-board-unresolved-origin",
         "july-earlier-write-identity-boundary",
-        "prod-recurrence-mapping",
-        "prod-recurrence-multiplicity"
+        "prod-recurrence-draft-records"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1721,8 +1724,8 @@
       "old_panel": "034-05",
       "draft_beats": [
         "july-discussion-board-unresolved-origin",
-        "prod-recurrence-mapping",
-        "prod-recurrence-multiplicity"
+        "prod-recurrence-draft-records",
+        "prod-recurrence-tightening-first"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1731,7 +1734,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "035-01",
       "draft_beats": [
-        "prod-recurrence-recurrence"
+        "prod-recurrence-draft-echo"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1740,7 +1743,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "035-02",
       "draft_beats": [
-        "prod-recurrence-recurrence"
+        "prod-recurrence-draft-echo"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1749,7 +1752,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "035-03",
       "draft_beats": [
-        "prod-recurrence-recurrence"
+        "prod-recurrence-draft-echo"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1759,7 +1762,8 @@
       "old_panel": "035-04",
       "draft_beats": [
         "july-resume-boundary-of-claim",
-        "prod-recurrence-storage"
+        "prod-recurrence-draft-echo",
+        "prod-recurrence-concealment-edit"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1769,7 +1773,7 @@
       "old_panel": "035-05",
       "draft_beats": [
         "july-discussion-board-readers",
-        "prod-recurrence-recurrence"
+        "prod-recurrence-draft-echo"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1779,7 +1783,7 @@
       "old_panel": "036-01",
       "draft_beats": [
         "july-main-board-arrival",
-        "prod-recurrence-clock"
+        "prod-recurrence-main-board-036"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1789,7 +1793,8 @@
       "old_panel": "036-02",
       "draft_beats": [
         "july-main-board-package-access",
-        "july-main-board-unawareness"
+        "july-main-board-unawareness",
+        "prod-recurrence-tightening-first"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -1817,7 +1822,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "036-05",
       "draft_beats": [
-        "july-main-board-help-request"
+        "july-main-board-help-request",
+        "prod-recurrence-renaming-036-string"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -5921,9 +5927,9 @@
     "HuggingFace": 414,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
-    "Curt": 41,
-    "Codex": 120,
-    "Claude": 299
+    "Curt": 42,
+    "Codex": 135,
+    "Claude": 292
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717
