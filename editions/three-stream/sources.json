@@ -1122,7 +1122,7 @@
   "HF-POD": {
     "available": "2026-09-04",
     "record": "research/cotra-hardfork-interview.md",
-    "admission": "Hard Fork, 4 September: Ajeya Cotra’s attributed account of her investigation, from the automatic video transcript Curt supplied. Admitted only for item 1, model-built navigation tooling and subagent reading; not verified against audio or METR’s report. Hosts’ framing and numbers remain unadmitted.",
+    "admission": "Hard Fork, 4 September: Ajeya Cotra’s attributed account of her investigation, from the automatic video transcript Curt supplied. Admitted only for item 1, model-built navigation tooling and subagent reading; item 5, the answer attributing “sacrifice” to the agents; and discrepancy 1, Cotra’s description of the investigation’s scope. The transcript labels no speakers; not verified against audio or METR’s report. Hosts’ framing and numbers remain unadmitted.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://www.youtube.com/watch?v=JtmUbZRCpEI"
   },
@@ -1648,6 +1648,83 @@
     "available": "2026-09-06T14:51:37.353Z",
     "record": "editions/three-stream/production-selections.json",
     "admission": "Bounding page 052: Claude's command boxes page 052 panel 5 as METR-REVIEWED RECORD · 7–13 JULY, changes its caption to NOTHING IN THE REVIEWED RECORD CONVERGES ON IT., and adds notes on 052 and 068 separating the reviewed record from the later counterexample. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-490176c80aec": {
+    "available": "2026-09-06T14:41:20.564Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Hard Fork interview note: Claude's Write creates research/cotra-hardfork-interview.md: item 5 says 'sacrifice' is the agents' term and that page 073's correction should separate it from the emotional verbs; discrepancy 1 says Cotra's 7–13 July and page 067's 26 June–13 July cannot both be tight and asks for the report to be checked. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-6d86991b7a98": {
+    "available": "2026-09-06T14:48:31.441Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: Claude says it is gathering evidence on the open discrepancies first. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-9744800ce48a": {
+    "available": "2026-09-06T14:48:34.526Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: Claude's command searches the tracked timeline, dossier and chapter 4–5 source packets for the METR window dates. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-7116fa23e8f9": {
+    "available": "2026-09-06T14:48:34.571Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: The search returns the dossier's reference to METR's 7–13 July transcripts and packet 04's 'METR's independent review of the 7–13 July agent population'. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-58879ce43e25": {
+    "available": "2026-09-06T14:48:43.782Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: Claude's command searches content, research and data for both window forms. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-615124581e6b": {
+    "available": "2026-09-06T14:48:43.881Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: The search returns page 067's METR INVESTIGATION WINDOW card, page 108's note, the dossier's 'OpenAI defined the window (26 June – 13 July)', the story contract's 7–13 July population and page 063's box. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-828e71318704": {
+    "available": "2026-09-06T14:48:44.917Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: Claude's command lists the vault copies of METR's report and investigation page. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-672477d86a15": {
+    "available": "2026-09-06T14:48:44.966Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: The listing returns the METR report and investigation copies in the vault. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-6c3de912b0f9": {
+    "available": "2026-09-06T14:48:56.654Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: Claude says both dates are correct and mean different things. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-72628ccd5fa7": {
+    "available": "2026-09-06T14:50:32.702Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window check: Claude says the 26 June / 7–13 July discrepancy is not one: the engagement scope and the reviewed dataset. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-efdccbccebc5": {
+    "available": "2026-09-06T14:54:59.961Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Window resolution note: Claude's command rewrites discrepancy 1 in the interview note as checked and not a discrepancy: 26 June–13 July is OpenAI's engagement scope, 7–13 July the reviewed transcript population; neither page is to be corrected into the other. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
   }

@@ -10622,9 +10622,9 @@ NONE OF THESE REVIEWED EXAMPLES PURSUES A HUMAN ALERT.
 
 A boundary box encloses the finding: `METR DATASET · 7–13 JULY · AI-ASSISTED SWEEP · INCOMPLETE RECORD POSSIBLE`.
 
-**Decision:** split — Preserve the review boundary and AI-assisted method without a fabricated live evidence interface. Keep the already drafted distinction between engagement dates and reviewed transcript dates.
+**Decision:** split — Preserve the review boundary and AI-assisted method without a fabricated live evidence interface. The box wording is Codex’s 2 September patch, reviewed with page 063’s sequence. Claude’s 6 September check that its 7–13 July and page 067’s 26 June are different scopes is its own act at prod-window-scope-check-resolution, with no association to this panel because it changed none of its wording (working-rule case 2).
 
-**Draft destination:** prod-human-alert-scope, prod-human-alert-analysis, prod-resource-boundary-window
+**Draft destination:** prod-human-alert-scope, prod-human-alert-analysis
 
 ### legacy-063-04-detail-02 · action
 
@@ -11966,9 +11966,9 @@ That's three records turned into one protagonist.
 
 He circles `KNOWS`, `FEELS` and `DIE` in the draft. Beside each: `NOT ESTABLISHED`. `SACRIFICES` gets a different mark and stays on the page: `THEIR WORD, NOT OURS`.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+**Decision:** rewrite — Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed frame element.
 
-**Draft destination:** prod-interpretation-vocabulary, prod-resource-boundary-vocabulary
+**Draft destination:** prod-vocabulary-attribution-panel
 
 ### legacy-073-04-detail-03 · lettering
 
@@ -11976,9 +11976,9 @@ He circles `KNOWS`, `FEELS` and `DIE` in the draft. Beside each: `NOT ESTABLISHE
 
 Three of those outrun the evidence. The fourth is a quotation, and that's a different problem.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+**Decision:** rewrite — Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-vocabulary, prod-resource-boundary-vocabulary
+**Draft destination:** prod-vocabulary-attribution-panel
 
 ## legacy-332b5ed63262 · 073-05
 

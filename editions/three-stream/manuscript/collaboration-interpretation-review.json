@@ -100,46 +100,6 @@
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
       },
       {
-        "id": "prod-interpretation-vocabulary",
-        "old_panels": [
-          "073-04"
-        ],
-        "frame": "Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.",
-        "lettering": [
-          "METR reproduces agent language about sacrifice. Attribution preserves that vocabulary as evidence of what the agents wrote; it does not establish feeling, consciousness, death or a privileged account of inner experience. A loaded source word and an invented experiential framing need separate treatment."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "PROD-47704e3a3f45",
-            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
-            "available": "2026-09-06T15:02:31.590Z"
-          },
-          {
-            "key": "DRAFT-INTERPRETATION-073",
-            "locator": "editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes",
-            "available": "2026-09-05T22:33:29Z"
-          },
-          {
-            "key": "METR",
-            "locator": "pp. 52–55; quoted agent vocabulary and experiment decisions",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-message-with-reconstructed-visualization",
-        "time_start": "2026-09-06T15:02:31.590Z",
-        "time_end": "2026-09-06T15:02:31.590Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "073-04",
-            "disposition": "combine",
-            "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients."
-          }
-        ],
-        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
-      },
-      {
         "id": "prod-interpretation-rejected-draft",
         "old_panels": [
           "073-02",

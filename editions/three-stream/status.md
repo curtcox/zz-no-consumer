@@ -42,12 +42,13 @@ the named command before relying on one.
    creator interlude, both maxims and the nine-panel convergence grid, so their author is
    unestablished. Curt's ChatGPT export (item 1) is the remaining place to look.
 3. **Collaboration rows that do not show the row actor's act.** `working_edition.py audit`:
-   10 clocks with more than three beats (152 Claude beats at `2026-09-06T15:02:31.590Z`,
+   10 clocks with more than three beats (151 Claude beats at `2026-09-06T15:02:31.590Z`,
    68 Codex beats at `2026-09-02T03:45:45.444Z`), 19 scenes describing narrator analysis, and
-   107 beats whose old wording was typed by a different actor than the row. Each needs the
+   106 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
-   Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016, 031–036, 038–040
-   and 052, plus the 12–13 September caption expansions (log, 14 September).
+   Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016, 031–036, 038–040,
+   052, 073-04's vocabulary and 063-04's window, plus the 12–13 September caption expansions
+   (log, 14 September).
    Five traps found there. `attribution.json` keeps the earliest record containing a line, which
    can be a patch the session then reports as not applied. A line can predate every transcript,
    so the typing session only carried it forward. A script can supply a caption without its
@@ -85,11 +86,11 @@ the named command before relying on one.
 
 ## Next
 
-- Continue re-anchoring the 152-beat Claude cluster by the same method: line origins from
+- Continue re-anchoring the 151-beat Claude cluster by the same method: line origins from
   `attribution.json`, then the applied record, then any earlier file that already held the
   line; check quoted critics and transcripts against their vault copies. Remaining sequences,
-  in legacy order: resource vocabulary and window 073-04/063-04, branch scope 067–070, interpretation
-  073–080, analysis limits 078–082, assurance 098, accountability 099–102, defense 101,
+  in legacy order: branch scope 067–070, interpretation 073–080 (starting from Codex's
+  2 September 15:34:11 patch, which wrote 073-04's first wording), analysis limits 078–082, assurance 098, accountability 099–102, defense 101,
   aftermath 103–105, wiki overlap and hypotheses 109–111, downstream use 112–118.
 - Apply the same method to the 68-beat Codex cluster and to the 047-02/047-05 theses.
 - Add ordering constraints for the July day-only beats as sources support them.

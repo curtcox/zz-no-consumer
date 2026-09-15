@@ -1541,14 +1541,12 @@
         "disposition": "split",
         "beats": [
           "prod-human-alert-scope",
-          "prod-human-alert-analysis",
-          "prod-resource-boundary-window"
+          "prod-human-alert-analysis"
         ],
-        "reason": "Preserve the review boundary and AI-assisted method without a fabricated live evidence interface. Keep the already drafted distinction between engagement dates and reviewed transcript dates.",
+        "reason": "Preserve the review boundary and AI-assisted method without a fabricated live evidence interface. The box wording is Codex’s 2 September patch, reviewed with page 063’s sequence. Claude’s 6 September check that its 7–13 July and page 067’s 26 June are different scopes is its own act at prod-window-scope-check-resolution, with no association to this panel because it changed none of its wording (working-rule case 2).",
         "target_sha256": {
           "prod-human-alert-scope": "5c47e22ee57e552bd2fdd367ff3adbd8ac0ecd31b84e15b859b8d2184816e765",
-          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0",
-          "prod-resource-boundary-window": "f595f33f4f95ded057cc94c1a7a88c6724f843d9fa5baa28fd3b856f85b44ac6"
+          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0"
         }
       },
       {
@@ -22802,7 +22800,7 @@
   {
     "old_panel": "073-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22810,13 +22808,11 @@
         "original_sha256": "e9b63a7788ff30d928aa1df71814bb0a322dd92bedc3736546fc3c80781db39a",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-vocabulary",
-          "prod-resource-boundary-vocabulary"
+          "prod-vocabulary-attribution-panel"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "reason": "Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-vocabulary": "53e4d056ef487f2b41f007a953d49140c3078a88956cf493bc13f00ab23ddfad",
-          "prod-resource-boundary-vocabulary": "52e9d1e3ea6806b9bf437da5703db07db65064cfb7058d0f88f3fc8fb808b0f1"
+          "prod-vocabulary-attribution-panel": "791c05d45dc9641d50e8aafb30a63f7c1ef428924103de2300c4c3c2ff4e99ae"
         }
       },
       {
@@ -22824,13 +22820,11 @@
         "original_sha256": "16efecd463d5bd69900608f009b1eb9132efdf3e8a4eebb4e4f649eab77d55ee",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-vocabulary",
-          "prod-resource-boundary-vocabulary"
+          "prod-vocabulary-attribution-panel"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "reason": "Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-vocabulary": "53e4d056ef487f2b41f007a953d49140c3078a88956cf493bc13f00ab23ddfad",
-          "prod-resource-boundary-vocabulary": "52e9d1e3ea6806b9bf437da5703db07db65064cfb7058d0f88f3fc8fb808b0f1"
+          "prod-vocabulary-attribution-panel": "791c05d45dc9641d50e8aafb30a63f7c1ef428924103de2300c4c3c2ff4e99ae"
         }
       }
     ]

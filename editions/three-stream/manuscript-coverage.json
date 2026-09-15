@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 365,
-  "drafted_beats": 1103,
+  "scenes": 366,
+  "drafted_beats": 1110,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -3198,7 +3198,6 @@
       "draft_beats": [
         "prod-human-alert-scope",
         "prod-human-alert-analysis",
-        "prod-resource-boundary-window",
         "prod-captions-second-middle"
       ],
       "detail_review": "elements-reviewed",
@@ -3685,8 +3684,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "073-04",
       "draft_beats": [
-        "prod-interpretation-vocabulary",
-        "prod-resource-boundary-vocabulary"
+        "prod-vocabulary-attribution-panel"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -6017,7 +6015,7 @@
     "Collusion Wiki": 118,
     "Curt": 53,
     "Codex": 159,
-    "Claude": 301
+    "Claude": 308
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717

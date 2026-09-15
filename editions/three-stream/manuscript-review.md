@@ -15528,6 +15528,429 @@ It reports the seven absent retracted messages and the successor resuming, and a
 
 **Frozen panel associations:** New material.
 
+## Claude separates the agents’ word from the draft’s verbs — prod-vocabulary-attribution
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T14:41:20.564Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** A Write at 14:41:20 UTC, a message at 14:42:26, a command at 14:51:06 and a message at 15:02:31 in Claude session 0454eab1 (claude-opus-5) on 6 September. Curt’s pasted transcript (14:38) and his 14:48 instruction are placed in the creator-instrument scenes.
+
+**Evidence limit:** Transcript text matching places the frozen 073-04 dialogue in the 14:51:06 command; its frame and provenance lines are in the same command. The earlier wording that command replaces is an earlier drafting act, reviewed with pages 073–080. Cotra’s attribution is from an automatic transcript without speaker labels, not verified against audio. The agents’ word is evidence of what they wrote, not of experience.
+
+### prod-vocabulary-attribution-note
+
+**Frame:** The Write as text with its record time, cropped to item 5 of the new interview note.
+
+**Lettering:**
+
+6 September, 14:41 UTC. Under three minutes after Curt pastes the Hard Fork transcript, Claude writes the interview note. Item 5: “Cotra explicitly marks "sacrifice" as the agents' term and not the investigators'.” It “cuts against a current page”: page 073 rejects a draft built on knows, feels, dies and sacrifices, and its correction should separate them — “the emotional verbs outrun the evidence”.
+In the automatic transcript, the answer to the host’s question about agents “sacrificing” is “So this is the agents words, not ours to be clear.” The transcript labels no speakers, and elsewhere in it someone says “sacrificing themselves for the collective” in their own sentence. METR prints the word inside agents’ messages — “Sacrifice rational.” That shows the agents wrote it, not what they experienced.
+
+**Sources:** PROD-490176c80aec — 256t/editions/selected-messages/490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1.json; record SHA-256 490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1 (available 2026-09-06T14:41:20.564Z); PROD-561928832013 — 256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json; record SHA-256 561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba (available 2026-09-06T14:38:36.979Z); HF-POD — research/cotra-hardfork-interview.md, item 5; automatic video transcript as supplied in PROD-561928832013 (256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json) (available 2026-09-04); METR — p. 53; EARLY[big]’s reasoning as quoted; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Cotra explicitly marks \"sacrifice\" as the agents' term and not the investigators'.",
+    "source": "PROD-490176c80aec",
+    "locator": "256t/editions/selected-messages/490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1.json; record SHA-256 490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "cuts against a current page",
+    "source": "PROD-490176c80aec",
+    "locator": "256t/editions/selected-messages/490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1.json; record SHA-256 490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the emotional verbs outrun the evidence",
+    "source": "PROD-490176c80aec",
+    "locator": "256t/editions/selected-messages/490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1.json; record SHA-256 490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "So this is the agents words, not ours to be clear.",
+    "source": "HF-POD",
+    "locator": "automatic video transcript as supplied in PROD-561928832013 (256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json), 33:37",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "sacrificing themselves for the collective",
+    "source": "HF-POD",
+    "locator": "automatic video transcript as supplied in PROD-561928832013 (256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json), 22:47",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Sacrifice rational.",
+    "source": "METR",
+    "locator": "p. 53; EARLY[big]’s reasoning as quoted; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-vocabulary-attribution-message
+
+**Frame:** Claude’s stored message, cropped to its page 073 paragraph and the first of its unchecked items.
+
+**Lettering:**
+
+14:42 UTC. Claude tells Curt the book “currently treats the whole phrase as the model's invention, and "sacrifice" is a quoted artifact of the record. Page 073's correction should separate them.” The same message lists “Four things I won't letter without checking”; the first is the investigation window.
+
+**Sources:** PROD-270e31b8b68b — 256t/editions/selected-messages/270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f.json; record SHA-256 270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f (available 2026-09-06T14:42:26.605Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "currently treats the whole phrase as the model's invention, and \"sacrifice\" is a quoted artifact of the record. Page 073's correction should separate them.",
+    "source": "PROD-270e31b8b68b",
+    "locator": "256t/editions/selected-messages/270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f.json; record SHA-256 270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Four things I won't letter without checking",
+    "source": "PROD-270e31b8b68b",
+    "locator": "256t/editions/selected-messages/270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f.json; record SHA-256 270e31b8b68bc78dbf26df1a94998a9ff6d792a179b02f999261a0171cb6da5f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-vocabulary-attribution-panel
+
+**Frame:** The command as text with its record time, cropped to its page 073 replacements: the panel’s earlier wording beside the new.
+
+**Lettering:**
+
+14:51 UTC. Claude rewrites page 073’s fourth panel. Before, Curt circles all four words beside NOT ESTABLISHED and says “And every emotional verb outruns the evidence.” Now KNOWS, FEELS and DIE keep that mark; SACRIFICES gets a different one and stays: THEIR WORD, NOT OURS. Curt: “Three of those outrun the evidence. The fourth is a quotation, and that's a different problem.” A new note: SACRIFICES “is not struck with the other three, and this is the point of the panel.” And: “Do not let a later pass tidy the fourth circle into the other three.”
+The panel gives the correction to Curt as reconstructed dialogue. In the record, Curt supplied the transcript and Claude drew the distinction from it. In the transcript, “not ours” meant the investigators; on the page it reads as the book’s.
+
+**Sources:** PROD-fe739f87919e — 256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac (available 2026-09-06T14:51:06.728Z); PROD-561928832013 — 256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json; record SHA-256 561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba (available 2026-09-06T14:38:36.979Z)
+
+**Frozen panel associations:** 073-04
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "And every emotional verb outruns the evidence.",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THEIR WORD, NOT OURS",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Three of those outrun the evidence. The fourth is a quotation, and that's a different problem.",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "is not struck with the other three, and this is the point of the panel.",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Do not let a later pass tidy the fourth circle into the other three.",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+### prod-vocabulary-attribution-report
+
+**Frame:** Claude’s stored message, cropped to its page 073 paragraph.
+
+**Lettering:**
+
+15:02 UTC. Claude’s report: “`SACRIFICES` is no longer struck with the other three.” It calls the change “the harder correction”: “Keeping a loaded quotation while deleting an invented interior is the harder correction.”
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "`SACRIFICES` is no longer struck with the other three.",
+    "source": "PROD-47704e3a3f45",
+    "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Keeping a loaded quotation while deleting an invented interior is the harder correction.",
+    "source": "PROD-47704e3a3f45",
+    "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude checks the investigation window — prod-window-scope-check
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T14:41:20.564Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Stored records in Claude session 0454eab1 (claude-opus-5) on 6 September: the note at 14:41:20 UTC, messages and searches from 14:48:31 to 14:50:32, the note rewrite at 14:54:59 and the report at 15:02:31. Curt’s 14:48:24 instruction is placed in the creator-instrument scenes.
+
+**Evidence limit:** The session’s own records show which files were searched and that no command opened METR’s report between the listing and the resolution. METR’s text is checked here, not by Claude then. Cotra’s phrasing is from an automatic transcript. Page 063’s box and page 067’s card keep their own drafting records.
+
+### prod-window-scope-check-note
+
+**Frame:** The Write as text, cropped to its first discrepancy.
+
+**Lettering:**
+
+14:41 UTC. The interview note’s first discrepancy: Cotra describes the scope as the attack on Hugging Face from 7 to 13 July, while page 067 letters METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY and page 108’s notes repeat 26 June. “One of these is loose.” Check the report before touching either. In the automatic transcript, the answer to a question about her investigation’s limits gives its scope as “the uh attack of Hugging Face from July 7th through 13th”.
+
+**Sources:** PROD-490176c80aec — 256t/editions/selected-messages/490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1.json; record SHA-256 490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1 (available 2026-09-06T14:41:20.564Z); HF-POD — research/cotra-hardfork-interview.md, discrepancy 1; automatic video transcript as supplied in PROD-561928832013 (256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json) (available 2026-09-04)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "One of these is loose.",
+    "source": "PROD-490176c80aec",
+    "locator": "256t/editions/selected-messages/490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1.json; record SHA-256 490176c80aecf3e66eeb5fd35adb96d59acc14541765b5d92b4d214bb7eb80a1",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the uh attack of Hugging Face from July 7th through 13th",
+    "source": "HF-POD",
+    "locator": "automatic video transcript as supplied in PROD-561928832013 (256t/editions/selected-messages/561928832013d7e3fe434b51cc9277a3ebb4889cd5b95ab43dbbe427e0e269ba.json), 1:00:21",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-window-scope-check-research
+
+**Frame:** Claude’s one-line message, then its search and output as text.
+
+**Lettering:**
+
+14:48 UTC, seconds after Curt’s instruction to gather evidence: “Gathering evidence on the open discrepancies first.” Claude searches the tracked timeline, dossier and source packets. Packet 04 describes “METR's independent review of the 7–13 July agent population”.
+
+**Sources:** PROD-6d86991b7a98 — 256t/editions/selected-messages/6d86991b7a981426e43350fbb736441a3dc6ec70e5b5f225e224e90c39b48682.json; record SHA-256 6d86991b7a981426e43350fbb736441a3dc6ec70e5b5f225e224e90c39b48682 (available 2026-09-06T14:48:31.441Z); PROD-9744800ce48a — 256t/editions/selected-messages/9744800ce48a8d29b71fb59fb18215e701c038556e378f2da9c9c1bc0f4bce4c.json; record SHA-256 9744800ce48a8d29b71fb59fb18215e701c038556e378f2da9c9c1bc0f4bce4c (available 2026-09-06T14:48:34.526Z); PROD-7116fa23e8f9 — 256t/editions/selected-messages/7116fa23e8f9445efdc9e220e582508e20653a3fc27e5939628cdf60a62a4fc2.json; record SHA-256 7116fa23e8f9445efdc9e220e582508e20653a3fc27e5939628cdf60a62a4fc2 (available 2026-09-06T14:48:34.571Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Gathering evidence on the open discrepancies first.",
+    "source": "PROD-6d86991b7a98",
+    "locator": "256t/editions/selected-messages/6d86991b7a981426e43350fbb736441a3dc6ec70e5b5f225e224e90c39b48682.json; record SHA-256 6d86991b7a981426e43350fbb736441a3dc6ec70e5b5f225e224e90c39b48682",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "METR's independent review of the 7–13 July agent population",
+    "source": "PROD-7116fa23e8f9",
+    "locator": "256t/editions/selected-messages/7116fa23e8f9445efdc9e220e582508e20653a3fc27e5939628cdf60a62a4fc2.json; record SHA-256 7116fa23e8f9445efdc9e220e582508e20653a3fc27e5939628cdf60a62a4fc2",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-window-scope-check-pages
+
+**Frame:** A second search and a vault listing as text with their outputs.
+
+**Lettering:**
+
+Nine seconds later it searches the pages, research and data for both date forms. The output shows page 067’s card, page 108’s note, page 063’s 7–13 JULY box, the story contract’s 7–13 July population and the dossier’s “OpenAI defined the window (26 June – 13 July)”. The next command lists the vault’s copies of METR’s report.
+
+**Sources:** PROD-58879ce43e25 — 256t/editions/selected-messages/58879ce43e253c3bb5314c5e303154d3fa52dec0290107dce21000bf05061ed3.json; record SHA-256 58879ce43e253c3bb5314c5e303154d3fa52dec0290107dce21000bf05061ed3 (available 2026-09-06T14:48:43.782Z); PROD-615124581e6b — 256t/editions/selected-messages/615124581e6b9509518d45ae6b1d21b09dc1cf416e657dadaab437c3849a3c3f.json; record SHA-256 615124581e6b9509518d45ae6b1d21b09dc1cf416e657dadaab437c3849a3c3f (available 2026-09-06T14:48:43.881Z); PROD-828e71318704 — 256t/editions/selected-messages/828e7131870473e94c74a0426550424655ce6cb1492bdb10274ffb6779fb7d85.json; record SHA-256 828e7131870473e94c74a0426550424655ce6cb1492bdb10274ffb6779fb7d85 (available 2026-09-06T14:48:44.917Z); PROD-672477d86a15 — 256t/editions/selected-messages/672477d86a15e29793d3e566410efc33c36d911fa9a80e811cb18a5696b253ce.json; record SHA-256 672477d86a15e29793d3e566410efc33c36d911fa9a80e811cb18a5696b253ce (available 2026-09-06T14:48:44.966Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "OpenAI defined the window (26 June – 13 July)",
+    "source": "PROD-615124581e6b",
+    "locator": "256t/editions/selected-messages/615124581e6b9509518d45ae6b1d21b09dc1cf416e657dadaab437c3849a3c3f.json; record SHA-256 615124581e6b9509518d45ae6b1d21b09dc1cf416e657dadaab437c3849a3c3f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-window-scope-check-answer
+
+**Frame:** Claude’s one-line message with its record time.
+
+**Lettering:**
+
+Twelve seconds after the listing, with no command opening either copy: “Both dates are correct and mean different things.” At 14:50 Claude says the “discrepancy” is not one: “they're the engagement scope and the reviewed dataset.”
+
+**Sources:** PROD-6c3de912b0f9 — 256t/editions/selected-messages/6c3de912b0f9a1b7af5a4f6fbf0f23e127ed557f4b8ff2b5c2f73feb7e0540a1.json; record SHA-256 6c3de912b0f9a1b7af5a4f6fbf0f23e127ed557f4b8ff2b5c2f73feb7e0540a1 (available 2026-09-06T14:48:56.654Z); PROD-72628ccd5fa7 — 256t/editions/selected-messages/72628ccd5fa7cf416e2fff0576cfec2c45b2a2ff9420ba9ce935d9da2c3ad695.json; record SHA-256 72628ccd5fa7cf416e2fff0576cfec2c45b2a2ff9420ba9ce935d9da2c3ad695 (available 2026-09-06T14:50:32.702Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Both dates are correct and mean different things.",
+    "source": "PROD-6c3de912b0f9",
+    "locator": "256t/editions/selected-messages/6c3de912b0f9a1b7af5a4f6fbf0f23e127ed557f4b8ff2b5c2f73feb7e0540a1.json; record SHA-256 6c3de912b0f9a1b7af5a4f6fbf0f23e127ed557f4b8ff2b5c2f73feb7e0540a1",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "they're the engagement scope and the reviewed dataset",
+    "source": "PROD-72628ccd5fa7",
+    "locator": "256t/editions/selected-messages/72628ccd5fa7cf416e2fff0576cfec2c45b2a2ff9420ba9ce935d9da2c3ad695.json; record SHA-256 72628ccd5fa7cf416e2fff0576cfec2c45b2a2ff9420ba9ce935d9da2c3ad695",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-window-scope-check-resolution
+
+**Frame:** The command as text with its record time, cropped to the rewritten discrepancy.
+
+**Lettering:**
+
+14:54 UTC. Claude rewrites the note’s first item: “checked 6 September 2026, and this is not a discrepancy.” “Both dates are correct and name different things.” 26 June–13 July is the engagement scope OpenAI defined, cited to the dossier; 7–13 July is the reviewed transcript population page 063 boxes. Cotra “compresses the two.” “Neither page needs changing”.
+METR’s text agrees, though Claude cited the dossier: “OpenAI defined the dates in scope for this investigation as June 26th, 2026 through July 13th, 2026”, and “Virtually all transcripts we reviewed were dated to July 7th or later”. Virtually all is not all. METR also discusses the in-scope precursor activity, so 7–13 July is where its review focused, not a closed dataset.
+
+**Sources:** PROD-efdccbccebc5 — 256t/editions/selected-messages/efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc.json; record SHA-256 efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc (available 2026-09-06T14:54:59.961Z); METR — p. 2 and fn. 2; p. 20, scope of this investigation, and fn. 42–43; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "checked 6 September 2026, and this is not a discrepancy.",
+    "source": "PROD-efdccbccebc5",
+    "locator": "256t/editions/selected-messages/efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc.json; record SHA-256 efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Both dates are correct and name different things.",
+    "source": "PROD-efdccbccebc5",
+    "locator": "256t/editions/selected-messages/efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc.json; record SHA-256 efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "compresses the two",
+    "source": "PROD-efdccbccebc5",
+    "locator": "256t/editions/selected-messages/efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc.json; record SHA-256 efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Neither page needs changing",
+    "source": "PROD-efdccbccebc5",
+    "locator": "256t/editions/selected-messages/efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc.json; record SHA-256 efdccbccebc55cd05fec9816ca065cda973081a35f30285bc571f15baa86a0cc",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "OpenAI defined the dates in scope for this investigation as June 26th, 2026 through July 13th, 2026",
+    "source": "METR",
+    "locator": "p. 2, fn. 2; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Virtually all transcripts we reviewed were dated to July 7th or later",
+    "source": "METR",
+    "locator": "p. 2, fn. 2; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-window-scope-check-report
+
+**Frame:** Claude’s stored message, cropped to its first flagged item.
+
+**Lettering:**
+
+15:02 UTC. Claude’s report: “The window "discrepancy" wasn't one.” Pages 067 and 063 are both right. “Recorded so nobody "fixes" one into the other.”
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "The window \"discrepancy\" wasn't one.",
+    "source": "PROD-47704e3a3f45",
+    "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Recorded so nobody \"fixes\" one into the other.",
+    "source": "PROD-47704e3a3f45",
+    "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## A stake relocated, a method sourced — prod-instrument-stake
 
 **Row:** Claude · collaboration
@@ -16994,18 +17417,6 @@ The modified-target recipient, 53927’s experiment and the later board diagnosi
 
 **Frozen panel associations:** 073-03
 
-### prod-interpretation-vocabulary
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR reproduces agent language about sacrifice. Attribution preserves that vocabulary as evidence of what the agents wrote; it does not establish feeling, consciousness, death or a privileged account of inner experience. A loaded source word and an invented experiential framing need separate treatment.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 52–55; quoted agent vocabulary and experiment decisions (available 2026-08-26)
-
-**Frozen panel associations:** 073-04
-
 ### prod-interpretation-rejected-draft
 
 **Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
@@ -17281,40 +17692,6 @@ Published findings depend on records, selection, reconstruction and interpretati
 **Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-077 — editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–28; data and analysis limitations (available 2026-08-26)
 
 **Frozen panel associations:** 077-05
-
-## Claude reports bounding the draft’s counterargument — prod-resource-boundary
-
-**Row:** Claude · collaboration
-
-**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
-
-**Time evidence:** Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.
-
-**Evidence limit:** Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed.
-
-### prod-resource-boundary-vocabulary
-
-**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
-
-**Lettering:**
-
-The same report distinguishes the draft’s invented experiential claims from a loaded word found in the source record. Claude says sacrifice remains as attributed vocabulary, while knows, feels and die stay unsupported.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
-
-**Frozen panel associations:** 073-04
-
-### prod-resource-boundary-window
-
-**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
-
-**Lettering:**
-
-It also distinguishes the engagement period, June 26–July 13, from the reviewed transcript population, July 7–13. Those dates answer different scope questions; the report says they are not a discrepancy to repair.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
-
-**Frozen panel associations:** 063-04
 
 ## Whose questions are on the map? — prod-wiki-hypotheses-review
 
