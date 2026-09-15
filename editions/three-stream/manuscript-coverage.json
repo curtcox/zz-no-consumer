@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 361,
-  "drafted_beats": 1100,
+  "scenes": 365,
+  "drafted_beats": 1103,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -2634,7 +2634,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "052-01",
       "draft_beats": [
-        "prod-staircase-information"
+        "prod-staircase-codex-steps"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -2643,8 +2643,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "052-02",
       "draft_beats": [
-        "prod-staircase-information",
-        "prod-staircase-mechanisms"
+        "prod-staircase-codex-steps"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -2653,7 +2652,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "052-03",
       "draft_beats": [
-        "prod-staircase-mechanisms"
+        "prod-staircase-codex-steps"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -2662,8 +2661,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "052-04",
       "draft_beats": [
-        "prod-staircase-mechanisms",
-        "prod-staircase-control",
+        "prod-staircase-codex-steps",
         "prod-captions-second-middle"
       ],
       "detail_review": "elements-reviewed",
@@ -2674,10 +2672,8 @@
       "old_panel": "052-05",
       "draft_beats": [
         "hf-risky-test-possible-cost",
-        "prod-resource-boundary-bound",
-        "prod-resource-boundary-counterexample",
-        "prod-resource-boundary-asymmetry",
-        "prod-resource-boundary-status"
+        "prod-staircase-negative-panel",
+        "prod-staircase-bound-edit"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -2686,7 +2682,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "052-06",
       "draft_beats": [
-        "prod-staircase-control"
+        "prod-staircase-codex-thesis"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -6019,9 +6015,9 @@
     "HuggingFace": 414,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
-    "Curt": 51,
-    "Codex": 157,
-    "Claude": 302
+    "Curt": 53,
+    "Codex": 159,
+    "Claude": 301
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717

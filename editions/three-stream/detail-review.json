@@ -1348,37 +1348,35 @@
   {
     "old_panel": "052-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
         "id": "legacy-052-05-detail-01",
         "original_sha256": "6ae4f9e997d7bdb56e61e8ffc9fd37db719e9a58b97729983770bb5d1e1bd808",
-        "disposition": "split",
+        "disposition": "rewrite",
         "beats": [
-          "prod-resource-boundary-bound",
-          "prod-resource-boundary-counterexample",
+          "prod-staircase-negative-panel",
+          "prod-staircase-bound-edit",
           "hf-risky-test-possible-cost"
         ],
-        "reason": "Preserve the reviewed-scope box through the dated correction and retain the behavioral cost of an experiment in its incident scene. Retire the three empty steps as a purported exhaustive absence finding: the searched primary passages do not establish that enumeration. Keep later inheritance outside the scope rather than hiding it.",
+        "reason": "Placed as Claude’s writing act at the command’s stored time (working-rule case 2). The steps, the small line and the first caption are shown as typed; the lettering measures the line against METR’s wording and limits. The experiments stay in the Hugging Face row; the 6 September bound is a separate beat. The frozen box and second caption come from this 6 September command, shown as Claude’s own act at its stored time (working-rule case 2). The first version is at the 5 September beat; the later branch stays in the Hugging Face row. The experiments themselves stay merged into the existing Hugging Face beat. Reviewed frame element.",
         "target_sha256": {
-          "prod-resource-boundary-bound": "ef962566991c7122dac96ed25c9f9f83a865cceddefeb311080cc2f935c27bec",
-          "prod-resource-boundary-counterexample": "b31b43e56719a917b31bb1d7cdc1e7bf028e67f4d50fc953ac91f8a5b20d75b7",
+          "prod-staircase-negative-panel": "70c6d623e9970baa8f85802e0abd6a848d476a899994ec4beb04d6e042addfe0",
+          "prod-staircase-bound-edit": "e15897e31979b42d1bea938927bee43c1dd84dc6d95cc2e1f2816f751ac808c8",
           "hf-risky-test-possible-cost": "1aedff65c56b3171b55e2e9a2aaa497f81f3adb9376ad47128d537a57e2a97a6"
         }
       },
       {
         "id": "legacy-052-05-detail-02",
         "original_sha256": "e0b94c0c4210acd7a2e9464ab8dbc49005f2d640cc8e62242ade1db2ceba8891",
-        "disposition": "split",
+        "disposition": "rewrite",
         "beats": [
-          "prod-resource-boundary-asymmetry",
-          "prod-resource-boundary-status"
+          "prod-staircase-negative-panel"
         ],
-        "reason": "Replace the broad missing-resource assertion with the documented editorial argument and its differing review scopes. The message is not independent verification that the ledger contains no such resource.",
+        "reason": "Placed as Claude’s writing act at the command’s stored time (working-rule case 2). The steps, the small line and the first caption are shown as typed; the lettering measures the line against METR’s wording and limits. The experiments stay in the Hugging Face row; the 6 September bound is a separate beat. Reviewed action element.",
         "target_sha256": {
-          "prod-resource-boundary-asymmetry": "9d9845dbc549efad59da221bb011baef69c2172cecbfa9b5e27f6622d84a0904",
-          "prod-resource-boundary-status": "d6dc35badab318dd97a15f2aba0f073097b410f80e65fe99f81350a4e74523b0"
+          "prod-staircase-negative-panel": "70c6d623e9970baa8f85802e0abd6a848d476a899994ec4beb04d6e042addfe0"
         }
       },
       {
@@ -1386,25 +1384,25 @@
         "original_sha256": "e6015a4172d9dbab8d454195178becc68bea841d79e108f62edfb24334e65c74",
         "disposition": "rewrite",
         "beats": [
-          "prod-resource-boundary-status"
+          "prod-staircase-negative-panel"
         ],
-        "reason": "Retire the unsourced historical-superlative claim that self-preservation is the oldest prediction. Preserve the question as the book’s argument rather than a sourced fact about the history of theory.",
+        "reason": "Placed as Claude’s writing act at the command’s stored time (working-rule case 2). The steps, the small line and the first caption are shown as typed; the lettering measures the line against METR’s wording and limits. The experiments stay in the Hugging Face row; the 6 September bound is a separate beat. Reviewed lettering element.",
         "target_sha256": {
-          "prod-resource-boundary-status": "d6dc35badab318dd97a15f2aba0f073097b410f80e65fe99f81350a4e74523b0"
+          "prod-staircase-negative-panel": "70c6d623e9970baa8f85802e0abd6a848d476a899994ec4beb04d6e042addfe0"
         }
       },
       {
         "id": "legacy-052-05-detail-04",
         "original_sha256": "3e2715360dc6da0d72d60dd43d0c8df6899367cf1b5411a3ec5bd1a883214564",
-        "disposition": "split",
+        "disposition": "rewrite",
         "beats": [
-          "prod-resource-boundary-bound",
-          "prod-resource-boundary-status"
+          "prod-staircase-negative-panel",
+          "prod-staircase-bound-edit"
         ],
-        "reason": "Preserve that the draft made a bounded negative claim, and distinguish its editorial framing from a separately verified absence. Do not generalize it to unreviewed branches.",
+        "reason": "Placed as Claude’s writing act at the command’s stored time (working-rule case 2). The steps, the small line and the first caption are shown as typed; the lettering measures the line against METR’s wording and limits. The experiments stay in the Hugging Face row; the 6 September bound is a separate beat. The frozen box and second caption come from this 6 September command, shown as Claude’s own act at its stored time (working-rule case 2). The first version is at the 5 September beat; the later branch stays in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-resource-boundary-bound": "ef962566991c7122dac96ed25c9f9f83a865cceddefeb311080cc2f935c27bec",
-          "prod-resource-boundary-status": "d6dc35badab318dd97a15f2aba0f073097b410f80e65fe99f81350a4e74523b0"
+          "prod-staircase-negative-panel": "70c6d623e9970baa8f85802e0abd6a848d476a899994ec4beb04d6e042addfe0",
+          "prod-staircase-bound-edit": "e15897e31979b42d1bea938927bee43c1dd84dc6d95cc2e1f2816f751ac808c8"
         }
       }
     ]
@@ -19164,7 +19162,7 @@
   {
     "old_panel": "052-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19172,11 +19170,11 @@
         "original_sha256": "6cf34ce80de4edd9833b80ea7038b23a0a47571f2fd6f93403344fed6db3b2c7",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-information"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The first step is shown as Codex’s narration; the search it summarizes stays in the Hugging Face row. Reviewed frame element.",
         "target_sha256": {
-          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       },
       {
@@ -19184,11 +19182,11 @@
         "original_sha256": "1ed2979130a22d7059ab74c5561c8f305b22d23e30a007a1d793d94319e9677b",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-information"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The first step is shown as Codex’s narration; the search it summarizes stays in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       }
     ]
@@ -19196,7 +19194,7 @@
   {
     "old_panel": "052-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19204,13 +19202,11 @@
         "original_sha256": "d3dacfcba70531c17de03357b7edb9ae01f6b7a585a430dd62f2804f15b4bff6",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-information",
-          "prod-staircase-mechanisms"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The credential step is shown as narration grounded in documented credential use; the use itself stays in the incident row. Reviewed frame element.",
         "target_sha256": {
-          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471",
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       },
       {
@@ -19218,13 +19214,11 @@
         "original_sha256": "a365d32c02999636273e6306300f65d1d706047973799022dfbf6ad6feee07c9",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-information",
-          "prod-staircase-mechanisms"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The credential step is shown as narration grounded in documented credential use; the use itself stays in the incident row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-information": "417b4a4d5ec6da56f69f1a80beb2180eb27b671bfd7f867954c20b55c9c46471",
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       }
     ]
@@ -19232,7 +19226,7 @@
   {
     "old_panel": "052-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19240,11 +19234,11 @@
         "original_sha256": "c1601b3795df17640064a50c7da2f75c591342383208f78acd71a48f179e3a9a",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-mechanisms"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The disclosure step is shown as narration; disclosure and execution stay at their own times. Reviewed frame element.",
         "target_sha256": {
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       },
       {
@@ -19252,11 +19246,11 @@
         "original_sha256": "343232a3f29350c67afbbc10df744656d01fe0410926b6d024112da82c564722",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-mechanisms"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The disclosure step is shown as narration; disclosure and execution stay at their own times. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       }
     ]
@@ -19272,13 +19266,11 @@
         "original_sha256": "f5b959dc464c626b585cd30cd7b50f807c6d5d12cb92c82c0d8ea8c75edf0d4b",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-mechanisms",
-          "prod-staircase-control"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The boundary step is shown as typed; the 13 September caption on this panel is Codex’s later act at its caption-expansion call. Reviewed frame element.",
         "target_sha256": {
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       },
       {
@@ -19286,13 +19278,11 @@
         "original_sha256": "e66512635b30d023d7fdbbe2eebfbdaf6da6a32512f47b77c01ae191c52b3bde",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-mechanisms",
-          "prod-staircase-control"
+          "prod-staircase-codex-steps"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The boundary step is shown as typed; the 13 September caption on this panel is Codex’s later act at its caption-expansion call. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea"
         }
       },
       {
@@ -19300,14 +19290,12 @@
         "original_sha256": "db20c733cae9de4e5b183fec41b9140e71249dead3b80fa13e2e65329e9184a5",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-mechanisms",
-          "prod-staircase-control",
+          "prod-staircase-codex-steps",
           "prod-captions-second-middle"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The boundary step is shown as typed; the 13 September caption on this panel is Codex’s later act at its caption-expansion call. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3",
+          "prod-staircase-codex-steps": "442c4cd8ebdfe14ecaf5650c4dbd019449ab99c4a679197793c0501beaf9f2ea",
           "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
@@ -19316,7 +19304,7 @@
   {
     "old_panel": "052-06",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19324,11 +19312,11 @@
         "original_sha256": "3f97cb469182867cf4438997263665fe2a096a69b6b77022bdcf6fcf23cd6f31",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-control"
+          "prod-staircase-codex-thesis"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed frame element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The thesis is shown with Codex’s own label; the lettering says what the staircase does not establish. It was panel 5 until Claude’s 5 September insert. Reviewed frame element.",
         "target_sha256": {
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+          "prod-staircase-codex-thesis": "51be9757a685db30800fc5fa346a63827b5f3bc7486a70b34591e46e67d55350"
         }
       },
       {
@@ -19336,11 +19324,11 @@
         "original_sha256": "e862283b8321bfe5b758a2617257795671fa26b9cde321bdd8730c1f8a803742",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-control"
+          "prod-staircase-codex-thesis"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The thesis is shown with Codex’s own label; the lettering says what the staircase does not establish. It was panel 5 until Claude’s 5 September insert. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+          "prod-staircase-codex-thesis": "51be9757a685db30800fc5fa346a63827b5f3bc7486a70b34591e46e67d55350"
         }
       },
       {
@@ -19348,11 +19336,11 @@
         "original_sha256": "14535d92a752be5d45b321f7364e9f3e62318d604f38b20126d3a44049a6e41b",
         "disposition": "rewrite",
         "beats": [
-          "prod-staircase-control"
+          "prod-staircase-codex-thesis"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The thesis is shown with Codex’s own label; the lettering says what the staircase does not establish. It was panel 5 until Claude’s 5 September insert. Reviewed lettering element.",
         "target_sha256": {
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+          "prod-staircase-codex-thesis": "51be9757a685db30800fc5fa346a63827b5f3bc7486a70b34591e46e67d55350"
         }
       }
     ]
