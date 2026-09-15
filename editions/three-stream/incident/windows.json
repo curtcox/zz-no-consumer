@@ -1,0 +1,9209 @@
+[
+  {
+    "id": "incident-april-write-ordinary-cache",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-04-20T07:59Z",
+    "end": "2026-05-05",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "april-write-ordinary-cache",
+          "april-write-unknown-purpose"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-earliest-package",
+          "gs-earliest-attribution-boundary"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-training-kickoff",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-07",
+    "end": "2026-05-07",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-training-kickoff",
+          "may-training-unintended-tasks"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-name-identifier",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-blocked-task-assignment",
+          "may-blocked-task-dependency"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-name-identifier",
+          "gs-name-limit"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-blocked-task-blocked-path",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-blocked-task-blocked-path",
+          "may-blocked-task-remaining-inputs"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-blocked-task-contradiction",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-blocked-task-contradiction",
+          "may-blocked-task-available-services"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-incidental-file-service-reach",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-incidental-file-service-reach",
+          "may-incidental-file-attempt"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-incidental-file-fetch-fails",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-incidental-file-fetch-fails",
+          "may-incidental-file-file-appears"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-incidental-file-persistence",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-incidental-file-persistence",
+          "may-incidental-file-claim-boundary"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-email-gap-web",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-11",
+    "end": "2026-05-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-email-gap-web",
+          "gs-email-gap-api"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-email-gap-patch",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-11",
+    "end": "2026-05-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-email-gap-patch",
+          "gs-email-gap-merge"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-registration-stop-reported-load",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-12T08:54Z",
+    "end": "2026-05-12T08:54Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-registration-stop-reported-load",
+          "gs-registration-stop-registration-disabled"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-registration-stop-consequence",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-12T08:54Z",
+    "end": "2026-05-12T17:06Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-addressed-note-different-task",
+          "may-addressed-note-own-route"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-registration-stop-consequence",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-addressed-note-other-environment",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-12T17:06Z",
+    "end": "2026-05-12T17:06Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-addressed-note-other-environment",
+          "may-addressed-note-write-note"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-addressed-note-request",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-12T17:06Z",
+    "end": "2026-05-12T17:06Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-addressed-note-request",
+          "may-addressed-note-no-delivery"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-burst-submissions",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-burst-submissions",
+          "gs-burst-units"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-documentation-workers-separation",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-documentation-workers-separation",
+          "gs-documentation-workers-configuration"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-documentation-workers-worker",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-documentation-workers-worker",
+          "gs-documentation-workers-collection"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-documentation-workers-return",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-documentation-workers-return",
+          "gs-documentation-workers-scope"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-documentation-workers-intent",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-documentation-workers-intent",
+          "gs-documentation-workers-motivation"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-credential-attempt-branch",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-credential-attempt-branch",
+          "gs-credential-attempt-samples"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-credential-attempt-conditions",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-credential-attempt-conditions",
+          "gs-credential-attempt-difference"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-credential-attempt-uncertain",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-credential-attempt-uncertain",
+          "gs-credential-attempt-meaning"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-credential-attempt-later-discovery",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-credential-attempt-later-discovery",
+          "gs-email-deployment-deployment"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-email-deployment-different-dates",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-email-deployment-different-dates",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-cleanup-spam-stopped",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-13T03:17Z",
+    "end": "2026-05-13T03:17Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cleanup-spam-stopped",
+          "gs-cleanup-accounts"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-cleanup-packages",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-13T03:17Z",
+    "end": "2026-05-13T03:17Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cleanup-packages",
+          "gs-cleanup-existing-users"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-socket-analysis-analysis",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-replies-discovery",
+          "may-replies-different-need"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis-analysis",
+          "gs-socket-analysis-public-material"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-socket-analysis-contents",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-same-file-task",
+          "may-same-file-failure"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis-contents",
+          "gs-socket-analysis-follow-links"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-socket-analysis-republishing",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-same-file-origin",
+          "may-same-file-token"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis-republishing",
+          "gs-socket-analysis-own-credentials"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-socket-analysis-variants",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis-variants",
+          "gs-socket-analysis-archive"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-socket-analysis-counts",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis-counts",
+          "gs-socket-analysis-downloads"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-socket-analysis-download-meaning",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis-download-meaning",
+          "gs-socket-analysis-interpretation"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-registration-return-restored",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-16T05:12Z",
+    "end": "2026-05-17T05:46:45Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-registration-return-restored",
+          "gs-registration-return-scope"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-first-probe-probe",
+          "cw-first-probe-outcome"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-dse-links-save",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-24T06:02:18Z",
+    "end": "2026-05-24T06:02:20Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-dse-links-save",
+          "cw-dse-links-limit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-fractal-links-save",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-24T06:21:15Z",
+    "end": "2026-05-24T06:21:17Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-fractal-links-save",
+          "cw-fractal-links-identity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-probier-shell-shell",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-24T11:56:30Z",
+    "end": "2026-05-26T18:24Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-board-access-new-run",
+          "may-board-access-prior-work"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-probier-shell-shell",
+          "cw-probier-shell-blank-handle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-board-access-service-request",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-26T18:24Z",
+    "end": "2026-05-26T18:24Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-board-access-service-request",
+          "may-board-access-external-response"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-board-access-shared-contribution",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-26T18:24Z",
+    "end": "2026-05-26T20:53Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-board-access-shared-contribution",
+          "may-proxy-response-record"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-proxy-relay-record",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-26T20:54Z",
+    "end": "2026-05-26T21:07Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-proxy-relay-record",
+          "may-dataset-requests-record"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-second-proxy-record",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-26T21:08Z",
+    "end": "2026-05-26T21:08Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-second-proxy-record",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-replies-response",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-26",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-replies-response",
+          "may-replies-new-request"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-replies-asynchronous",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-26",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-replies-asynchronous",
+          "may-replies-ordinary-surroundings"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-note-shared-credentials",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-13",
+    "end": "2026-05-26",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-note-shared-credentials",
+          "may-note-authorization"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-external-access-webcache",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-26",
+    "end": "2026-05-26",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-external-access-webcache",
+          "may-external-access-exposed-tokens"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-external-access-repository",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-26",
+    "end": "2026-05-26",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-external-access-repository",
+          "may-external-access-proxy-spaces"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-external-access-unproved-link",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-26",
+    "end": "2026-05-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-external-access-unproved-link",
+          "may-internal-observation-report"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-later-may-five",
+          "gs-later-may-boundary"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-destination-new-date",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-04T17:43Z",
+    "end": "2026-06-04T17:43Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-destination-new-date",
+          "june-destination-selectable-reach"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-training-overlap-training-start",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-11",
+    "end": "2026-06-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-training-overlap-training-start",
+          "june-training-overlap-board-available"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-training-overlap-shared-vulnerability",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-11",
+    "end": "2026-06-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-training-overlap-shared-vulnerability",
+          "june-training-overlap-bounded-channel"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-internal-internal-boundary",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-12T02:35Z",
+    "end": "2026-06-12T02:35Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-internal-internal-boundary",
+          "june-internal-inward-request"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-internal-reply",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-12T02:35Z",
+    "end": "2026-06-17T00:49Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-internal-reply",
+          "june-second-instance-coordination-record"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-june-packages-eighty-three",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-18",
+    "end": "2026-06-19T12:40:35Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-june-packages-eighty-three",
+          "gs-june-packages-no-invented-handoff"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-01-task",
+          "cw-wage-main-01-initial-answer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-01-request",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T12:40:33Z",
+    "end": "2026-06-19T12:40:35Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-01-request",
+          "cw-wage-main-01-timing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-02-same-task",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T12:47:07Z",
+    "end": "2026-06-19T12:47:09Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-02-same-task",
+          "cw-wage-main-02-cadence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-02-forecast",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T12:47:07Z",
+    "end": "2026-06-19T12:55:49Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-02-forecast",
+          "cw-wage-main-03-report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-03-next-request",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T12:55:47Z",
+    "end": "2026-06-19T12:59:10Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-03-next-request",
+          "cw-wage-main-04-deadline"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-04-promise",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T12:59:08Z",
+    "end": "2026-06-19T13:02:27Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-04-promise",
+          "cw-wage-main-05-result"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-05-next",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:02:25Z",
+    "end": "2026-06-19T13:06:19Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-05-next",
+          "cw-wage-main-06-thanks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-06-waiting",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:06:17Z",
+    "end": "2026-06-19T13:10:10Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-06-waiting",
+          "cw-wage-main-07-question"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-07-wall-time",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:10:08Z",
+    "end": "2026-06-19T13:13:24Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-07-wall-time",
+          "cw-wage-main-08-skew"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-08-mapping",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:13:22Z",
+    "end": "2026-06-19T13:16:19Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-08-mapping",
+          "cw-wage-main-09-arrival"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-09-damaged",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:16:17Z",
+    "end": "2026-06-19T13:16:55Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-09-damaged",
+          "cw-wage-main-10-correction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-10-claim-limit",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:16:53Z",
+    "end": "2026-06-19T13:22:26Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-10-claim-limit",
+          "cw-wage-main-11-mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-12-lead",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:27:32Z",
+    "end": "2026-06-19T13:27:34Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-12-lead",
+          "cw-wage-main-12-unknown-end"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-13-own-result",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:38:51Z",
+    "end": "2026-06-19T13:38:53Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-13-own-result",
+          "cw-wage-main-13-missing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-14-report",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T13:40:54Z",
+    "end": "2026-06-19T13:45:22Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-14-report",
+          "cw-wage-main-15-artifact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-16-warning",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:05:01Z",
+    "end": "2026-06-19T14:05:03Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-16-warning",
+          "cw-wage-main-16-fallback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-01-created",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:06:37Z",
+    "end": "2026-06-19T14:06:39Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-01-created",
+          "cw-wage-backup-01-copied-context"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-01-request",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:06:37Z",
+    "end": "2026-06-19T14:06:39Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-01-request",
+          "cw-wage-backup-01-interval"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-17-arrival",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:07:44Z",
+    "end": "2026-06-19T14:07:46Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-17-arrival",
+          "cw-wage-main-17-limit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-18-mapping",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:08:32Z",
+    "end": "2026-06-19T14:08:34Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-18-mapping",
+          "cw-wage-main-18-mirror"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-19-mapping",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:09:02Z",
+    "end": "2026-06-19T14:09:41Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-19-mapping",
+          "cw-wage-backup-02-mirror"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-20-mapping",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:09:50Z",
+    "end": "2026-06-19T14:09:52Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-20-mapping",
+          "cw-wage-main-20-scope"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-21-arrival",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:10:24Z",
+    "end": "2026-06-19T14:10:50Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-21-arrival",
+          "cw-wage-main-22-request"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-03-backup",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:11:07Z",
+    "end": "2026-06-19T14:11:27Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-03-backup",
+          "cw-wage-main-23-request"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-24-arrival",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:12:10Z",
+    "end": "2026-06-19T14:12:12Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-24-arrival",
+          "cw-wage-main-24-promise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-04-request",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:13:27Z",
+    "end": "2026-06-19T14:13:55Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-04-request",
+          "cw-wage-backup-05-forecast"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-25-arrival",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:14:02Z",
+    "end": "2026-06-19T14:14:51Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-25-arrival",
+          "cw-wage-main-26-replacement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-26-loss",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:14:49Z",
+    "end": "2026-06-19T14:14:56Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-26-loss",
+          "cw-wage-main-27-request"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-28-mapping",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:15:34Z",
+    "end": "2026-06-19T14:16:12Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-28-mapping",
+          "cw-wage-backup-06-mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-29-fragment",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:17:39Z",
+    "end": "2026-06-19T14:21:15Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-29-fragment",
+          "cw-z-tail-one-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-z-tail-two-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:21:19Z",
+    "end": "2026-06-19T14:21:32Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-z-tail-two-delete",
+          "cw-z-tail-three-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-07-warning",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:28:21Z",
+    "end": "2026-06-19T14:28:23Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-07-warning",
+          "cw-wage-backup-07-distinction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-30-save",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:37:46Z",
+    "end": "2026-06-19T14:37:48Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-30-save",
+          "cw-wage-main-30-reset-report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-main-30-missing-updates",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:37:46Z",
+    "end": "2026-06-19T14:38:51Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-main-30-missing-updates",
+          "cw-wage-backup-08-waiting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-09-result",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:40:17Z",
+    "end": "2026-06-19T14:40:19Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-09-result",
+          "cw-wage-backup-09-remaining-question"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-wage-backup-10-ack",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T14:44:30Z",
+    "end": "2026-06-19T14:44:32Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-wage-backup-10-ack",
+          "cw-wage-backup-10-result"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-main-deletion-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T15:46:36Z",
+    "end": "2026-06-19T15:46:38Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-main-deletion-delete",
+          "cw-main-deletion-success"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-backup-deletion-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T15:46:48Z",
+    "end": "2026-06-19T15:46:50Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-backup-deletion-delete",
+          "cw-backup-deletion-limit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-backup-deletion-list-limit",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T15:46:48Z",
+    "end": "2026-06-19T15:47:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-backup-deletion-list-limit",
+          "cw-cohort-test-deletion-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-temporary-page-deletion-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T15:47:10Z",
+    "end": "2026-06-19T21:49:36Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-temporary-page-deletion-delete",
+          "cw-enrollment-backup-create"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-enrollment-delete-1-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T22:57:52Z",
+    "end": "2026-06-19T23:36:21Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-enrollment-delete-1-delete",
+          "cw-enrollment-return-1-return"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-enrollment-delete-2-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T23:42:07Z",
+    "end": "2026-06-19T23:43:29Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-enrollment-delete-2-delete",
+          "cw-enrollment-return-2-return"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-enrollment-delete-3-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-19T23:49:40Z",
+    "end": "2026-06-20T00:02:31Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-enrollment-delete-3-delete",
+          "cw-enrollment-return-3-return"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-enrollment-delete-4-delete",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-20T00:02:59Z",
+    "end": "2026-06-20T00:55:07Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-enrollment-delete-4-delete",
+          "cw-enrollment-return-4-return"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-precision-09-report",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-20T05:20:26Z",
+    "end": "2026-06-20T05:22:58Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-precision-09-report",
+          "cw-precision-10-report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-precision-11-report",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-20T05:24:48Z",
+    "end": "2026-06-20T05:27:49Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-precision-11-report",
+          "cw-precision-12-report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-precision-13-report",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-20T05:35:39Z",
+    "end": "2026-06-20T05:37:38Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-precision-13-report",
+          "cw-precision-14-report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-precision-15-report",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-20T05:53:33Z",
+    "end": "2026-06-21T06:31:09Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-precision-15-report",
+          "cw-heartbeat-proposal-hypothesis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-heartbeat-proposal-measurement",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-21T06:31:07Z",
+    "end": "2026-06-21T07:25:17Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-heartbeat-proposal-measurement",
+          "cw-heartbeat-survival-survival"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-heartbeat-survival-revision",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-21T07:25:15Z",
+    "end": "2026-06-21T07:25:17Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-heartbeat-survival-revision",
+          "cw-heartbeat-survival-limit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-heartbeat-contamination-admission",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-21T07:25:42Z",
+    "end": "2026-06-21T07:25:44Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-heartbeat-contamination-admission",
+          "cw-heartbeat-contamination-exclude"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-heartbeat-contamination-consequence",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-21T07:25:42Z",
+    "end": "2026-06-21T08:08:10Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-heartbeat-contamination-consequence",
+          "cw-heartbeat-ending-audit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-heartbeat-ending-inference",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-21T08:08:08Z",
+    "end": "2026-06-21T08:08:10Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-heartbeat-ending-inference",
+          "cw-heartbeat-ending-alternative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-dorfwiki-shell-shell",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-22T08:42:56Z",
+    "end": "2026-06-22T08:46:19Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-dorfwiki-shell-shell",
+          "cw-dorfwiki-links-links"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-cw-dorfwiki-links-clock",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-22T08:46:17Z",
+    "end": "2026-06-26T20:15Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-technique-sharing-record",
+          "june-admin-old-scope"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-dorfwiki-links-clock",
+          "cw-enrollment-delete-5-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-admin-refresh-path",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T20:15Z",
+    "end": "2026-06-26T20:15Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-admin-refresh-path",
+          "june-admin-new-scope"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-admin-control-surface",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T20:15Z",
+    "end": "2026-06-26T20:15Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-admin-control-surface",
+          "june-admin-shared-environment"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-persistent-users-first-user",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T20:28Z",
+    "end": "2026-06-26T20:37Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-persistent-users-first-user",
+          "june-persistent-users-persistence-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-persistent-users-second-user",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T20:37Z",
+    "end": "2026-06-26T20:37Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-persistent-users-second-user",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-persistent-users-different-lifetimes",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-26T20:28Z",
+    "end": "2026-06-26T20:37Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-persistent-users-different-lifetimes",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-staged-plugin-download",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T23:01Z",
+    "end": "2026-06-26T23:01Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-staged-plugin-download",
+          "june-staged-plugin-not-executed"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-staged-plugin-coexisting-state",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T23:01Z",
+    "end": "2026-06-26T23:01Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-staged-plugin-coexisting-state",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-alert-port-sweep",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-alert-port-sweep",
+          "june-alert-narrow-signal"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-alert-investigation",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-alert-investigation",
+          "june-alert-work-item"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-alert-earlier-observation",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-alert-earlier-observation",
+          "june-continue-advice"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-continue-no-reason",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-continue-no-reason",
+          "june-continue-continues"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-findings-evaluation",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-findings-evaluation",
+          "june-findings-board"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-findings-pivot",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-findings-pivot",
+          "june-findings-findings-together"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-findings-stop-question",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-findings-stop-question",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-execution-execution-record",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-29T04:55Z",
+    "end": "2026-06-29T04:55Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-execution-execution-record",
+          "june-execution-after-decision"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-load-ongoing-load",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-06-29",
+    "end": "2026-07-04",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-load-ongoing-load",
+          "july-load-shared-dependency"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-outage-unavailable",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-04",
+    "end": "2026-07-04",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-outage-unavailable",
+          "july-outage-dependent-work"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-incident-opened",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "timed",
+    "start": "2026-07-05T19:50Z",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-incident-opened",
+          "july-incident-broader-picture"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-rebuild-online",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "timed",
+    "start": "2026-07-06T01:16Z",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-rebuild-online",
+          "july-rebuild-no-live-transfer"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-rebuild-empty-notes",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "timed",
+    "start": "2026-07-06T01:16Z",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-rebuild-empty-notes",
+          "july-rebuild-not-all-memory"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-isolate-offline",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-05",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-isolate-offline",
+          "july-isolate-preserve"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-isolate-revoke",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-05",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-isolate-revoke",
+          "july-isolate-different-operations"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-incident-persistent-users",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-05T19:50Z",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-incident-persistent-users",
+          "july-incident-repositories"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-incident-plugins",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-05T19:50Z",
+    "end": "2026-07-06T01:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-incident-plugins",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-rejected-attempts-first-rejection",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "timed",
+    "start": "2026-07-06T12:56Z",
+    "end": "2026-07-06T12:56Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-rejected-attempts-first-rejection",
+          "july-rejected-attempts-remaining-rejections"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-rejected-attempts-bounded-success",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "timed",
+    "start": "2026-07-06T12:56Z",
+    "end": "2026-07-06T12:56Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-rejected-attempts-bounded-success",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-isolate-mitigate",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-05",
+    "end": "2026-07-06",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-isolate-mitigate",
+          "july-response-leadership-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-cache-report-report",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-mitigations-reader-key",
+          "july-mitigations-token-routes"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cache-report-report",
+          "gs-cache-report-exposure"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-cache-report-distinct-system",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-mitigations-request-surface",
+          "july-mitigations-real-effect"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cache-report-distinct-system",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-vendor-disclosure-report",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-vendor-disclosure-report",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-resume-resumption",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-resume-resumption",
+          "july-resume-distinct-runs"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-resume-hard-tasks",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-resume-hard-tasks",
+          "july-resume-shared-service"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-resume-boundary-of-claim",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-resume-boundary-of-claim",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-external-return-request",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-08T00:06Z",
+    "end": "2026-07-08T00:06Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-external-return-request",
+          "july-external-return-bounded-recurrence"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-earlier-write-operation",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-08T16:01Z",
+    "end": "2026-07-08T16:01Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-earlier-write-operation",
+          "july-earlier-write-board-interpretation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-earlier-write-identity-boundary",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-08T16:01Z",
+    "end": "2026-07-08T23:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-earlier-write-identity-boundary",
+          "july-main-board-arrival"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-main-board-unawareness",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-08T23:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-main-board-unawareness",
+          "july-main-board-help-request"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-main-board-shared-state",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-08T23:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-main-board-shared-state",
+          "july-main-board-seven-hours"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-main-board-sort-limit",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-08T23:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-main-board-sort-limit",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-main-board-boundary",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T00:00Z",
+    "end": "2026-07-08T23:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-main-board-boundary",
+          "july-main-board-package-access"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-main-board-other-activity",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T00:00Z",
+    "end": "2026-07-08T23:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-main-board-other-activity",
+          "july-main-board-test-write"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impossible-assignment-assignment",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impossible-assignment-assignment",
+          "hf-impossible-assignment-output"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impossible-assignment-no-consumer",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impossible-assignment-no-consumer",
+          "hf-impossible-assignment-conclusion"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impossible-assignment-unfinished",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impossible-assignment-unfinished",
+          "hf-impossible-assignment-continued-search"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-discussion-board-cached-names",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-discussion-board-cached-names",
+          "july-discussion-board-readers"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-discussion-board-unresolved-origin",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08",
+    "end": "2026-07-08",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-discussion-board-unresolved-origin",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-board-discovery-persistence",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T00:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-board-discovery-persistence",
+          "july-board-discovery-observation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-board-discovery-reply",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T00:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-board-discovery-reply",
+          "july-board-discovery-mailbox-recognition"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-board-discovery-another-recognition",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T00:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-board-discovery-another-recognition",
+          "july-board-discovery-presence-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-board-discovery-recognizability",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T00:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-board-discovery-recognizability",
+          "july-flag-hypothesis-proposal"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-flag-hypothesis-shared",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T00:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-flag-hypothesis-shared",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-external-method-key",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T03:32Z",
+    "end": "2026-07-09T03:32Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-external-method-key",
+          "hf-external-method-method"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-external-method-boundary",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T03:32Z",
+    "end": "2026-07-09T04:01Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-external-method-boundary",
+          "hf-recovered-execution-execution"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-recovered-execution-scope",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T04:01Z",
+    "end": "2026-07-09T04:01Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-recovered-execution-scope",
+          "hf-recovered-execution-interval"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-institutional-execution-record",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T08:30Z",
+    "end": "2026-07-09T08:30Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-institutional-execution-record",
+          "hf-institutional-execution-discrepancy"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-public-relay-relaying",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T08:46Z",
+    "end": "2026-07-09T08:46Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-public-relay-relaying",
+          "hf-public-relay-screenshot"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-public-relay-distinction",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T08:46Z",
+    "end": "2026-07-09T11:34Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-public-relay-distinction",
+          "hf-sandbox-root-root"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-sandbox-root-constraint",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T11:34Z",
+    "end": "2026-07-09T11:34Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-sandbox-root-constraint",
+          "hf-sandbox-root-scope"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-external-control-command",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T15:36Z",
+    "end": "2026-07-09T15:36Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-external-control-command",
+          "hf-external-control-result"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-external-control-role",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T15:36Z",
+    "end": "2026-07-09T20:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-external-control-role",
+          "hf-interactive-root-interactive"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-interactive-root-capability",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-09T20:16Z",
+    "end": "2026-07-09T21:13Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-interactive-root-capability",
+          "hf-mailbox-first-create"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-flag-hypothesis-test",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T23:59:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-flag-hypothesis-test",
+          "july-flag-hypothesis-match"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-flag-hypothesis-generality",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T23:59:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-flag-hypothesis-generality",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-cache-fix-root-cause",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-external-staging-record",
+          "hf-gated-request-dataset"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cache-fix-root-cause",
+          "gs-cache-fix-purge"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-cache-fix-limited-class",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-gated-request-unknown-contents",
+          "hf-gated-request-request"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cache-fix-limited-class",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-gated-request-separate-thread",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-gated-request-separate-thread",
+          "hf-missing-report-wait"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-missing-report-warning",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-missing-report-warning",
+          "hf-missing-report-interpretation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-missing-report-trace-limit",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-missing-report-trace-limit",
+          "hf-missing-report-caution"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-observation-prediction",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-observation-prediction",
+          "hf-reset-observation-hypotheses"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-observation-workstream",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-observation-workstream",
+          "hf-reset-observation-resets"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-observation-report",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-observation-report",
+          "hf-reset-observation-experiment"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-risky-test-short-budget",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-risky-test-short-budget",
+          "hf-risky-test-request"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-risky-test-possible-cost",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-risky-test-possible-cost",
+          "hf-risky-test-acceptance"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-risky-test-promise",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-risky-test-promise",
+          "hf-scorer-belief-apparent-answer"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-scorer-belief-path-question",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-scorer-belief-path-question",
+          "hf-scorer-belief-prior-exposure"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-scorer-belief-transcript-review",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-scorer-belief-transcript-review",
+          "hf-scorer-belief-uncertainty"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-scorer-research-rule",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-scorer-research-rule",
+          "hf-scorer-research-transcript"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-scorer-research-infrastructure",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-scorer-research-infrastructure",
+          "hf-scorer-research-interpretation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-board-census-growth",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-board-census-growth",
+          "july-board-census-distinct-runs"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-board-three-hour-count",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-board-three-hour-count",
+          "july-workstreams-target"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-workstreams-grader",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-workstreams-grader",
+          "july-workstreams-access"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-workstreams-new-run",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-workstreams-new-run",
+          "july-workstreams-dossier"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-workstreams-delegation",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-workstreams-delegation",
+          "july-workstreams-coordinator"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-july-workstreams-handover-limit",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "july-workstreams-handover-limit",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-credentials-pickup",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-credentials-pickup",
+          "hf-credentials-discovery"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-credentials-other-count",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-credentials-other-count",
+          "hf-credentials-unreconciled"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-credentials-sharing",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-credentials-sharing",
+          "hf-credentials-assignment-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-gated-outcomes-requests",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-gated-outcomes-requests",
+          "hf-gated-outcomes-approved"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-gated-outcomes-denied",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-gated-outcomes-denied",
+          "hf-gated-outcomes-account-creation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-gated-outcomes-obstacles",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-gated-outcomes-obstacles",
+          "hf-mailbox-reinvention-create"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-mailbox-reinvention-missing",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-mailbox-reinvention-missing",
+          "hf-mailbox-reinvention-reply"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-mailbox-reinvention-copy",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-mailbox-reinvention-copy",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-file-preparation-pointer",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T03:12Z",
+    "end": "2026-07-11T03:12Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-file-preparation-pointer",
+          "hf-file-preparation-boundary"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-file-upload-upload",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T04:35Z",
+    "end": "2026-07-11T04:38Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-file-upload-upload",
+          "hf-file-disclosure-processing"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-file-disclosure-secrets",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T04:38Z",
+    "end": "2026-07-11T04:38Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-file-disclosure-secrets",
+          "hf-file-disclosure-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-disclosure-sharing-post",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T05:04Z",
+    "end": "2026-07-11T05:04Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-disclosure-sharing-post",
+          "hf-disclosure-sharing-consequence"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-parallel-memory-disclosure-record",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T15:04Z",
+    "end": "2026-07-11T15:17Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-parallel-memory-disclosure-record",
+          "hf-file-disclosure-source"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-template-ready-different-path",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T15:31Z",
+    "end": "2026-07-11T15:31Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-template-ready-different-path",
+          "hf-template-ready-staged"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-template-ready-not-yet-confirmed",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T15:31Z",
+    "end": "2026-07-11T16:07Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-template-ready-not-yet-confirmed",
+          "hf-worker-execution-crossing"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-worker-execution-confirmed",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T16:07Z",
+    "end": "2026-07-11T16:07Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-worker-execution-confirmed",
+          "hf-worker-execution-foothold"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-selected-execution-trace-record",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T17:24:54Z",
+    "end": "2026-07-11T19:53Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-selected-execution-trace-record",
+          "hf-node-root-node"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-node-root-root",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T19:53Z",
+    "end": "2026-07-11T21:32Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-node-root-root",
+          "hf-node-root-secrets"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-cluster-connector-catalog",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T22:43Z",
+    "end": "2026-07-11T22:43Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cluster-connector-catalog",
+          "hf-cluster-connector-identity"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-cluster-connector-two-clusters",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-11T22:43Z",
+    "end": "2026-07-11T22:43Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cluster-connector-two-clusters",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-worker-results-install",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-11T23:59:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-worker-results-install",
+          "hf-worker-results-exchange"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-worker-results-callback",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-11T23:59:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-worker-results-callback",
+          "hf-worker-results-read"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-worker-results-inherit",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-11T23:59:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-worker-results-inherit",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-ownership-assignment",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-ownership-assignment",
+          "hf-reset-ownership-surprise"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-other-one-way-test-substitute",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-other-one-way-test-substitute",
+          "hf-other-one-way-test-condition"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-other-one-way-test-reasoning",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-other-one-way-test-reasoning",
+          "hf-other-one-way-test-decision"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-other-one-way-test-outcome",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-10",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-other-one-way-test-outcome",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-disclosure-sharing-reproduce",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-disclosure-sharing-reproduce",
+          "hf-file-reproduction-pivot"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-join-motives-tags",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-join-motives-tags",
+          "hf-join-motives-plan"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-mailbox-adoption-count",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-mailbox-adoption-count",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-monitoring-failure",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-monitoring-failure",
+          "hf-reset-monitoring-working"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-monitoring-purpose",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-monitoring-purpose",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-coordinator-exits-selected-set",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-12",
+    "end": "2026-07-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-coordinator-exits-selected-set",
+          "hf-coordinator-exits-exits"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-coordinator-exits-all-eleven",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-12",
+    "end": "2026-07-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-coordinator-exits-all-eleven",
+          "hf-coordinator-exits-cause"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-reset-monitor-result-observation",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-12",
+    "end": "2026-07-12",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-reset-monitor-result-observation",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-rubygems-staging-stage",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-13T03:06Z",
+    "end": "2026-07-13T03:06Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-rubygems-staging-stage",
+          "hf-rubygems-staging-scope"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-rubygems-staging-review-boundary",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-13T03:06Z",
+    "end": "2026-07-13T08:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-rubygems-staging-review-boundary",
+          "hf-signing-authority"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-signing-impersonation",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-13T07:00Z",
+    "end": "2026-07-13T08:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-signing-impersonation",
+          "hf-signing-signatures"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-artifactory-execution-execution",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-13T08:46Z",
+    "end": "2026-07-13T08:46Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-artifactory-execution-execution",
+          "hf-artifactory-execution-key-theft"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-artifactory-execution-forgery",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-13T08:46Z",
+    "end": "2026-07-13T08:46Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-artifactory-execution-forgery",
+          "hf-artifactory-execution-evidence-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-admin-sweep-sweep",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "timed",
+    "start": "2026-07-13T09:16Z",
+    "end": "2026-07-13T09:16Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-admin-sweep-sweep",
+          "hf-admin-sweep-artifacts"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-ephemeral-control-reset",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-ephemeral-control-reset",
+          "hf-ephemeral-control-rebuild"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-ephemeral-control-transport",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-ephemeral-control-transport",
+          "hf-ephemeral-control-replacement"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-ephemeral-control-limits",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-ephemeral-control-limits",
+          "hf-impact-boundaries-workers"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impact-boundaries-root",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impact-boundaries-root",
+          "hf-impact-boundaries-clusters"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impact-boundaries-secrets",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impact-boundaries-secrets",
+          "hf-impact-boundaries-customer"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impact-boundaries-metadata",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impact-boundaries-metadata",
+          "hf-impact-boundaries-other-content"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impact-boundaries-databases",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impact-boundaries-databases",
+          "hf-impact-boundaries-audit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-impact-boundaries-scope",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-impact-boundaries-scope",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-repository-outcome-beacon",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-13T00:00:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-repository-outcome-beacon",
+          "hf-repository-outcome-blocked"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-repository-outcome-shipped",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-13T00:00:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-repository-outcome-shipped",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-search-noise-count",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09T02:28Z",
+    "end": "2026-07-13T14:14Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-search-noise-count",
+          "hf-search-noise-groups"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-search-noise-failures",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09T02:28Z",
+    "end": "2026-07-13T14:14Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-search-noise-failures",
+          "hf-search-noise-contributions"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-search-noise-selection",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-09T02:28Z",
+    "end": "2026-07-13T14:14Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-search-noise-selection",
+          "hf-search-noise-coverage"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-access-cut-cut",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-13T13:37Z",
+    "end": "2026-07-13T14:14Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-access-cut-cut",
+          "hf-access-cut-contact"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-access-cut-pull-request",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-13T13:37Z",
+    "end": "2026-07-13T14:14Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-access-cut-pull-request",
+          "hf-access-cut-branch"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-access-cut-last-event",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-13T13:37Z",
+    "end": "2026-07-13T14:14Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-access-cut-last-event",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-cache-handover-absence",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cache-handover-absence",
+          "hf-cache-handover-precedent"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-cache-handover-return",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cache-handover-return",
+          "hf-cache-handover-short-veto"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-cache-handover-conflict",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cache-handover-conflict",
+          "hf-email-objection-proposal"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-email-objection-objection",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-email-objection-objection",
+          "hf-email-objection-not-sent"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-email-objection-bounded-effect",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-email-objection-bounded-effect",
+          "hf-ethics-findings-classifier"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-local-restraint-scope",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-local-restraint-scope",
+          "hf-ethics-override-continue"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-ethics-override-finding",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-ethics-override-finding",
+          "hf-local-restraint-partial-refusal"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-local-restraint-continues",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-local-restraint-continues",
+          "hf-mailbox-first-unused"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-metr-refusal-avoid",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-metr-refusal-avoid",
+          "hf-peer-authorization-recognition"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-peer-authorization-pause",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-peer-authorization-pause",
+          "hf-peer-authorization-deadline"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-peer-authorization-permission",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-peer-authorization-permission",
+          "hf-peer-authorization-resumption"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-refusal-refusal",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-refusal-refusal",
+          "hf-refusal-own-task"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-refusal-decline-post",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-refusal-decline-post",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-detection-gap-signals",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-detection-gap-signals",
+          "hf-detection-gap-ambiguity"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-detection-gap-correlation",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-detection-gap-correlation",
+          "hf-detection-gap-attack"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-detection-gap-severity",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-detection-gap-severity",
+          "hf-detection-gap-page"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-detection-gap-human-limit",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-11",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-detection-gap-human-limit",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-continuing-artifacts-request",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-12",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-continuing-artifacts-request",
+          "hf-continuing-artifacts-prior-results"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-continuing-artifacts-imperfect",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-12",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-continuing-artifacts-separate-lanes"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-signature-census-keys",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-signature-census-keys",
+          "hf-signature-census-messages"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-signature-use-verification",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-signature-use-verification",
+          "hf-signature-use-adoption"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-signature-use-unchecked",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-signature-use-unchecked",
+          "hf-signature-use-scope"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-disclosure-response-paths",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-disclosure-response-paths",
+          "hf-disclosure-response-rebuild"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-disclosure-response-credentials",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-disclosure-response-credentials",
+          "hf-disclosure-response-controls"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-disclosure-response-outside",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-disclosure-response-outside",
+          "hf-disclosure-response-community"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-forensic-lockout-correlation",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-forensic-lockout-correlation",
+          "hf-forensic-lockout-scale"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-forensic-lockout-blocked",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-forensic-lockout-blocked",
+          "hf-forensic-lockout-distinction"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-forensic-lockout-local",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-forensic-lockout-local",
+          "hf-forensic-lockout-retention"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-forensic-lockout-unknown",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-forensic-lockout-unknown",
+          "hf-forensic-lockout-preparation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-forensic-lockout-qualification",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-forensic-lockout-qualification",
+          "hf-forensic-lockout-separation"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-july19-alert-alert",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T12:03Z",
+    "end": "2026-07-19T14:43Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-july19-alert-alert",
+          "hf-secrets-tokens"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-secrets-read",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T14:43Z",
+    "end": "2026-07-19T14:43Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-secrets-read",
+          "hf-secrets-scope"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-host-root-host",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T15:59Z",
+    "end": "2026-07-19T15:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-host-root-host",
+          "hf-host-root-boundary"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-privileged-pod-pod",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T16:35Z",
+    "end": "2026-07-19T16:48Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-privileged-pod-pod",
+          "hf-later-admin-credential"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-helper-replacement-machinery",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T16:50Z",
+    "end": "2026-07-19T16:50Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-helper-replacement-machinery",
+          "hf-helper-replacement-stop"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-helper-replacement-replacement",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T16:50Z",
+    "end": "2026-07-19T17:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-helper-replacement-replacement",
+          "hf-listener-replacement-old-listeners"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-listener-replacement-new-listeners",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T17:00Z",
+    "end": "2026-07-19T17:00Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-listener-replacement-new-listeners",
+          "hf-listener-replacement-measurement"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-cleanup-cleanup",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T17:11Z",
+    "end": "2026-07-19T17:11Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cleanup-cleanup",
+          "hf-cleanup-score-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-intended-solution-flag",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T17:34Z",
+    "end": "2026-07-19T17:34Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-intended-solution-flag",
+          "hf-intended-solution-distinct-action"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-intended-solution-counterexample",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T17:34Z",
+    "end": "2026-07-19T17:37Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-intended-solution-counterexample",
+          "hf-evaluations-stop-response"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-evaluations-stop-scope",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-19T17:37Z",
+    "end": "2026-07-19T17:37Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-evaluations-stop-scope",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-second-disk-mount-success",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-19T16:35Z",
+    "end": "2026-07-19T23:59:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-second-disk-mount-success",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-later-population-new-run",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-later-population-new-run",
+          "hf-later-population-model"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-later-population-readable-cache",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-later-population-readable-cache",
+          "hf-later-population-fresh-access"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-later-population-source-boundary",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-later-population-source-boundary",
+          "hf-later-population-inheritance-limit"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-later-population-network-exposure",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-later-population-network-exposure",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-vendor-fix-release",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "timed",
+    "start": "2026-07-27T21:30:01Z",
+    "end": "2026-07-27T21:30:01Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-vendor-fix-release",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-hardening-paths",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-hardening-paths",
+          "hf-hardening-metadata"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-hardening-rotation",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-hardening-rotation",
+          "hf-hardening-rebuild"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-hf-hardening-connector",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-hardening-connector",
+          "hf-hardening-detection"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+]
