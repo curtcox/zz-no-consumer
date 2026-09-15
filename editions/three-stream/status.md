@@ -19,6 +19,10 @@ the named command before relying on one.
 - Analysis enters a collaborator's row only as the dated act that produced it (the plan's
   four-case working rule).
 - The page count is not a target, and the scale question is deferred by Curt.
+- The page 082 operational-detail example is corrected by a dated note,
+  [`research/quotation-example-correction-2026-09-15.md`](../../research/quotation-example-correction-2026-09-15.md),
+  not by editing the frozen note or pages. The quotations removed from 079, 081 and 082 are decided at
+  gate 9 in the working edition (Curt, 15 September).
 - Adopted proposals: [orientation docs unfrozen](../../proposals/2026-09-13-unfreeze-orientation-docs.md),
   [ordering constraints](../../proposals/2026-09-13-relative-ordering-constraints.md),
   [this status/log split](../../proposals/2026-09-13-split-research-handoff.md).
@@ -88,14 +92,6 @@ the named command before relying on one.
 8. **Allocation, preview and handoff.** No page windows exist for the detailed manuscript;
    the compressed chronology study stays withdrawn. Then representative thumbnails, full
    read-through, print-size checks and the resynchronization handoff (plan steps 4–8).
-9. **Page 082 as the operational-detail example.** `research/quotation-and-paraphrase-2026-09-12.md`
-   gives page 082 as a case where paraphrase remains right because the wording is an attack
-   procedure. The records do not support that reason. Codex's 2 September security review called
-   `echo REAL; sleep` / `SPOOFTEST` benign before and after the rights pass that removed it. METR
-   prints both strings, and its footnote 38, not the strings, holds the mechanism. Pages 079 and
-   081 lost verbatim source text in the same pass. 081's "paraphrased" METR card is METR's sentence.
-   The working edition now registers all six strings as `unresolved` for gate 9. Whether to
-   correct the research note's example is Curt's decision (log, 15 September).
 
 ## Next
 
