@@ -53,7 +53,7 @@
     "original_timezone": "UTC",
     "precision": "millisecond",
     "chronology_basis": "Each beat sits at its own stored record in Codex session 01a06270: messages at 15:41:58, 15:43:40, 15:50:59 and 15:51:55 UTC; page-writing tool calls at 15:48:25, 15:50:13 and 15:51:37 UTC. A tool call’s time is when the call was stored; the commit carrying these pages is dated 15:57:13 UTC.",
-    "source_limit": "Transcript text matching identifies which session supplied the old wording; commit metadata does not. Curt and ChatGPT lines that Codex wrote are authored dialogue, not preserved exchanges, and no ChatGPT exchange is relabelled. Wording later changed by Claude sessions is placed at those sessions’ records. Four lines changed on 12 September match no transcript; their author remains unidentified.",
+    "source_limit": "Transcript text matching identifies which session supplied the old wording; commit metadata does not. Curt and ChatGPT lines that Codex wrote are authored dialogue, not preserved exchanges, and no ChatGPT exchange is relabelled. Wording later changed by Claude sessions is placed at those sessions’ records. Four captions changed on 13 September are Codex’s, placed at its caption-expansion calls.",
     "status": "detailed-draft",
     "beats": [
       {

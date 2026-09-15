@@ -44,16 +44,19 @@ the named command before relying on one.
 3. **Collaboration rows that do not show the row actor's act.** `working_edition.py audit`:
    10 clocks with more than three beats (158 Claude beats at `2026-09-06T15:02:31.590Z`,
    68 Codex beats at `2026-09-02T03:45:45.444Z`), 20 scenes describing narrator analysis, and
-   108 beats whose old wording was typed by a different actor than the row. Each needs the
+   110 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
    Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016, 031–036 and 038–040
    (log, 14 September).
-   Four traps found there: `attribution.json` keeps the earliest record containing a line, which
-   can be a patch the session then reports as not applied; a line can predate every
-   transcript, so the typing session only carried it forward; and lines added by the 12
-   September commits `8cb18f621` / `091ae1c75` match no transcript, so their points stay with
-   their sources and no actor is guessed; and a moved line can change case, so the index credits
-   the mover (040-03's caption began as Codex's ChatGPT line).
+   Five traps found there. `attribution.json` keeps the earliest record containing a line, which
+   can be a patch the session then reports as not applied. A line can predate every transcript,
+   so the typing session only carried it forward. A script can supply a caption without its
+   `> ` marker; the matcher now pairs both forms (the 12–13 September captions once reported as
+   unattributed are Codex's, placed in `collaboration-caption-expansion.json`). A moved line can
+   change case, so the index credits the mover (040-03's caption began as Codex's ChatGPT line).
+   And a substring `.replace()` inside a line is invisible to whole-line matching: search the
+   transcripts for the new wording before calling a line unattributed (040-03's frame, 039's
+   page note).
 4. **Old-panel review.** All 606 old panels have element-level decisions (1717 elements).
    Three have no draft beat; their omission reasons are checked (log, 14 September): 105-05 and
    117-05 are staging with no claim. 009-02's caption comes from the unattributed outline

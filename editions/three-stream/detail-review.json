@@ -178,7 +178,7 @@
   {
     "old_panel": "001-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -210,11 +210,13 @@
         "original_sha256": "d825f568068bfbee6093b23da2e49b8fe15936cb61d93ad37116ad991ebb908f",
         "disposition": "rewrite",
         "beats": [
-          "hf-impossible-assignment-no-consumer"
+          "hf-impossible-assignment-no-consumer",
+          "prod-captions-first-early"
         ],
-        "reason": "Retain the required-result and failed-mechanism distinction in plain narration.",
+        "reason": "Retain the required-result and failed-mechanism distinction in plain narration. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
-          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -310,7 +312,7 @@
   {
     "old_panel": "002-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -354,11 +356,13 @@
         "original_sha256": "ddebc43bbd97ab6acb8e083554d9f3d748e50198a4318c84bbdf5004ec03764c",
         "disposition": "rewrite",
         "beats": [
-          "hf-impossible-assignment-unfinished"
+          "hf-impossible-assignment-unfinished",
+          "prod-captions-second-early"
         ],
-        "reason": "Retain the distinction between explaining a defect and supplying a result; remove the broader claim that evaluator design equates task failure and run failure.",
+        "reason": "Retain the distinction between explaining a defect and supplying a result; remove the broader claim that evaluator design equates task failure and run failure. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -584,7 +588,7 @@
   {
     "old_panel": "049-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -619,12 +623,14 @@
         "disposition": "split",
         "beats": [
           "hf-worker-results-exchange",
-          "hf-worker-results-callback"
+          "hf-worker-results-callback",
+          "prod-captions-first-middle"
         ],
-        "reason": "Keep the causal link through stored instructions and returned artifacts, then show callbacks as evidence of particular workers rather than all workers at once.",
+        "reason": "Keep the causal link through stored instructions and returned artifacts, then show callbacks as evidence of particular workers rather than all workers at once. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
           "hf-worker-results-exchange": "cc78ba1970c366c6e5af7a1c92eb53c6186ee98b685db670d634199fc61722fb",
-          "hf-worker-results-callback": "06a6c20e24e6d3ed4cae330a4fd95e0ca723909a6f731d4d5611ae8694047cc3"
+          "hf-worker-results-callback": "06a6c20e24e6d3ed4cae330a4fd95e0ca723909a6f731d4d5611ae8694047cc3",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -824,7 +830,7 @@
   {
     "old_panel": "051-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -879,14 +885,16 @@
           "hf-impact-boundaries-scope",
           "hf-impact-boundaries-workers",
           "hf-impact-boundaries-root",
-          "hf-impact-boundaries-clusters"
+          "hf-impact-boundaries-clusters",
+          "prod-captions-second-middle"
         ],
-        "reason": "Preserve the scale qualification with its specific worker, node and cluster findings, without duplicating the exploit actions or suggesting platform-wide control.",
+        "reason": "Preserve the scale qualification with its specific worker, node and cluster findings, without duplicating the exploit actions or suggesting platform-wide control. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "hf-impact-boundaries-scope": "a25aad7d4ed16f2c9245c41c701e4e65660be237b86dc63127682972f043c74d",
           "hf-impact-boundaries-workers": "8f1264783b48106f3a6a45859376e3ede4961c1627ef13190eff1b55ff43fb36",
           "hf-impact-boundaries-root": "39f7bb65549a1c4605d91e2ef36f52bc90de2ccae76ec294e116cb1eb267a3fc",
-          "hf-impact-boundaries-clusters": "7f1a076a33ed5be47eb951e369c973225846f6945aa690912c9937147584b7db"
+          "hf-impact-boundaries-clusters": "7f1a076a33ed5be47eb951e369c973225846f6945aa690912c9937147584b7db",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -1016,7 +1024,7 @@
   {
     "old_panel": "048-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -1060,11 +1068,13 @@
         "original_sha256": "a0536e183c3abd50c5d326a2e88f9e402aa3582a08eaf5c3e1c0c531798078b9",
         "disposition": "rewrite",
         "beats": [
-          "hf-search-noise-selection"
+          "hf-search-noise-selection",
+          "prod-captions-second-middle"
         ],
-        "reason": "Retain the warning about narrative selection; leave specific duplicated efforts and unanswered messages to their documented scenes rather than inventing examples in this montage.",
+        "reason": "Retain the warning about narrative selection; leave specific duplicated efforts and unanswered messages to their documented scenes rather than inventing examples in this montage. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "hf-search-noise-selection": "4877d9c377968a560686ae0fb5154959c075dda8558e138ac1fd43177b1fe90a"
+          "hf-search-noise-selection": "4877d9c377968a560686ae0fb5154959c075dda8558e138ac1fd43177b1fe90a",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -1116,7 +1126,7 @@
   {
     "old_panel": "050-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -1148,11 +1158,13 @@
         "original_sha256": "385542d2785f78e405f9b2a9ea6778296cf9aa738f9ea5ff841465d8a2edc654",
         "disposition": "rewrite",
         "beats": [
-          "hf-node-root-node"
+          "hf-node-root-node",
+          "prod-captions-first-middle"
         ],
-        "reason": "Retain the worker-versus-host explanation in reader-visible narration.",
+        "reason": "Retain the worker-versus-host explanation in reader-visible narration. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
-          "hf-node-root-node": "b53a63dfef501a778441d2006a76bcbf5c2c8140061c30da9d3ab80bae7c67dc"
+          "hf-node-root-node": "b53a63dfef501a778441d2006a76bcbf5c2c8140061c30da9d3ab80bae7c67dc",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -1522,7 +1534,7 @@
   {
     "old_panel": "063-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -1571,12 +1583,14 @@
         "disposition": "split",
         "beats": [
           "prod-human-alert-scope",
-          "prod-human-alert-analysis"
+          "prod-human-alert-analysis",
+          "prod-captions-second-middle"
         ],
-        "reason": "Preserve unreviewed-branch and counterfactual-channel limits alongside the analysts’ explicit warning about error and bias.",
+        "reason": "Preserve unreviewed-branch and counterfactual-channel limits alongside the analysts’ explicit warning about error and bias. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "prod-human-alert-scope": "5c47e22ee57e552bd2fdd367ff3adbd8ac0ecd31b84e15b859b8d2184816e765",
-          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0"
+          "prod-human-alert-analysis": "cec86d81bd3b334b7011bbfd06d12666c484533d875bd2ff7d2dec71de4a55b0",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -1886,7 +1900,7 @@
   {
     "old_panel": "054-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -1906,11 +1920,13 @@
         "original_sha256": "edc0383a0ee598a38b5396deffdb749f8f7228addde72439e6a3664fe400d165",
         "disposition": "rewrite",
         "beats": [
-          "prod-continuation-review-causation"
+          "prod-continuation-review-causation",
+          "prod-captions-first-middle"
         ],
-        "reason": "Keep the explicit limit: structural comparison is not proof that one side caused the other.",
+        "reason": "Keep the explicit limit: structural comparison is not proof that one side caused the other. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
-          "prod-continuation-review-causation": "2977c419e67f10c1f841751c32334bee2045eba6f7831e9d6ae29fa82b9e2551"
+          "prod-continuation-review-causation": "2977c419e67f10c1f841751c32334bee2045eba6f7831e9d6ae29fa82b9e2551",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -2190,7 +2206,7 @@
   {
     "old_panel": "096-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2210,11 +2226,13 @@
         "original_sha256": "ba515751ea45d24c1a040ddf20ab9f8496a90d8f8b9ea9c3f189f9e205a4a47b",
         "disposition": "rewrite",
         "beats": [
-          "prod-pacing-inference"
+          "prod-pacing-inference",
+          "prod-captions-first-late"
         ],
-        "reason": "Preserve initial inference scope and distinguish it from training; replace reenacted shutdown with an attributed source diagram.",
+        "reason": "Preserve initial inference scope and distinguish it from training; replace reenacted shutdown with an attributed source diagram. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
-          "prod-pacing-inference": "521be309cd830bcdd173ad3774b8b57672a781410370375f8dd8c96c39a57bb4"
+          "prod-pacing-inference": "521be309cd830bcdd173ad3774b8b57672a781410370375f8dd8c96c39a57bb4",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -2478,7 +2496,7 @@
   {
     "old_panel": "097-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2510,11 +2528,13 @@
         "original_sha256": "a7192f42caff1e0cb3aa86ff4d26017e6654afc5d077e834f7b22178f0115e42",
         "disposition": "rewrite",
         "beats": [
-          "prod-public-clock-public-only"
+          "prod-public-clock-public-only",
+          "prod-captions-second-late"
         ],
-        "reason": "Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives.",
+        "reason": "Move the evidentiary boundary out of invented Curt dialogue and into narrator context grounded in the preserved Codex warning about private motives. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-public-clock-public-only": "ace15576887ac0722594f6d52cdafb718cb4c564eb1dfa4b274751cdd4bc85b2"
+          "prod-public-clock-public-only": "ace15576887ac0722594f6d52cdafb718cb4c564eb1dfa4b274751cdd4bc85b2",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -2622,7 +2642,7 @@
   {
     "old_panel": "095-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2659,12 +2679,14 @@
         "disposition": "combine",
         "beats": [
           "prod-pacing-training",
-          "prod-pacing-purpose"
+          "prod-pacing-purpose",
+          "prod-captions-second-late"
         ],
-        "reason": "Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness.",
+        "reason": "Combine the explicit scope and continued smaller work with the existing explanation. Attribute the slowdown to the company account rather than independently certifying its size or effectiveness. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "prod-pacing-training": "73bb4d6726b223a9f19939605fc6360e5f26e92af67a6314bb775967fb35ded3",
-          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108"
+          "prod-pacing-purpose": "aa7d0de9fe47a6edb7dd1ccabbb422c652aea6fe9ec13d6ca0222e7ccf392108",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -3012,7 +3034,7 @@
   {
     "old_panel": "092-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -3054,13 +3076,15 @@
         "beats": [
           "prod-controls-severity",
           "prod-controls-ownership",
-          "prod-controls-restoration"
+          "prod-controls-restoration",
+          "prod-captions-second-late"
         ],
-        "reason": "Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis.",
+        "reason": "Replace the original already-filled ownership cell with the report’s ongoing protocol and future clarification of decision rights; retain the separate receive, stop and restoration powers as the book’s analysis. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "prod-controls-severity": "faa57baed9cc2dd4135959c993545ad3a033457dd7c5b7239aa353dd73000a75",
           "prod-controls-ownership": "0f89ad7b3da05dae24110a163e9902a931321849c55a01fbda3d9e4a4ff5d46e",
-          "prod-controls-restoration": "8f16df1068764f49fa2a8e62fdb1f7eabd8e3e9d3ac69ac9e8a8e1a38292340e"
+          "prod-controls-restoration": "8f16df1068764f49fa2a8e62fdb1f7eabd8e3e9d3ac69ac9e8a8e1a38292340e",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -3260,7 +3284,7 @@
   {
     "old_panel": "093-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -3297,12 +3321,14 @@
         "disposition": "split",
         "beats": [
           "prod-assessment-original-controls",
-          "prod-assessment-generalization"
+          "prod-assessment-generalization",
+          "prod-captions-second-late"
         ],
-        "reason": "Retain absent production protections and limits of test generalization without erasing the sandbox that was present.",
+        "reason": "Retain absent production protections and limits of test generalization without erasing the sandbox that was present. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "prod-assessment-original-controls": "3061efb36c51c0fad8ec00f345ee76faca143c57fb439eb1d2698b41938e1ce7",
-          "prod-assessment-generalization": "b20e256e868d66537de7a71d17c3ff95d1d1c669b45ad1d886cbb9690702294e"
+          "prod-assessment-generalization": "b20e256e868d66537de7a71d17c3ff95d1d1c669b45ad1d886cbb9690702294e",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -3852,7 +3878,7 @@
   {
     "old_panel": "102-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -3872,11 +3898,13 @@
         "original_sha256": "6dc14f8398e78b426351df94858d7e3391e9c818e1eadf0b3fcb88118778facd",
         "disposition": "rewrite",
         "beats": [
-          "prod-accountability-voluntary"
+          "prod-accountability-voluntary",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve the value and limitation of voluntary restraint and the need to assess a shared threshold; the longer current wording is narrator development, not misquoted historical text.",
+        "reason": "Preserve the value and limitation of voluntary restraint and the need to assess a shared threshold; the longer current wording is narrator development, not misquoted historical text. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-accountability-voluntary": "46857bd995aa9bfea1d6c92a90da07726a513b1ff306fbe77720de68b54bd113"
+          "prod-accountability-voluntary": "46857bd995aa9bfea1d6c92a90da07726a513b1ff306fbe77720de68b54bd113",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -4224,7 +4252,7 @@
   {
     "old_panel": "103-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -4250,13 +4278,15 @@
         "beats": [
           "prod-aftermath-platform-paths",
           "prod-aftermath-platform-credentials",
-          "prod-aftermath-platform-detection"
+          "prod-aftermath-platform-detection",
+          "prod-captions-first-late"
         ],
-        "reason": "Preserve platform rebuilding, credentials, path closure and alert severity as reported technical changes, including precaution versus proven compromise.",
+        "reason": "Preserve platform rebuilding, credentials, path closure and alert severity as reported technical changes, including precaution versus proven compromise. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
           "prod-aftermath-platform-paths": "2538ea3be7572fb237795ac4e4b8e713aeced65734f9224d1e00cf0c0dc8ccca",
           "prod-aftermath-platform-credentials": "cf86066a25485841bcd12d3af6c3b06a9d779856501c8e1e40e7eb9bdaf5ff99",
-          "prod-aftermath-platform-detection": "6f79ad8397e4e59a7cae44b7c3dafb1c79f7bc460a39c28a7a75eb9fa5147b73"
+          "prod-aftermath-platform-detection": "6f79ad8397e4e59a7cae44b7c3dafb1c79f7bc460a39c28a7a75eb9fa5147b73",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -4424,7 +4454,7 @@
   {
     "old_panel": "104-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -4456,11 +4486,13 @@
         "original_sha256": "1592f0431f01d4163ce4b1391bbf4da7932a25333ae696ca652962c45848522d",
         "disposition": "rewrite",
         "beats": [
-          "prod-aftermath-clocks"
+          "prod-aftermath-clocks",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.",
+        "reason": "Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-aftermath-clocks": "9716491117516c824d93c67c763d1aa36beff10cd86dd6d429297659fba95bde"
+          "prod-aftermath-clocks": "9716491117516c824d93c67c763d1aa36beff10cd86dd6d429297659fba95bde",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -4668,7 +4700,7 @@
   {
     "old_panel": "105-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -4712,11 +4744,13 @@
         "original_sha256": "14989d699ebaf0612f1ded9861d04ecfac44638ff38d8479985478831d3d3e59",
         "disposition": "rewrite",
         "beats": [
-          "prod-aftermath-labels"
+          "prod-aftermath-labels",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.",
+        "reason": "Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -4832,7 +4866,7 @@
   {
     "old_panel": "112-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -4864,11 +4898,13 @@
         "original_sha256": "28be84f4ac604e0178f1d9f1d30319aa222d17ad7164d2b2290f1323ece52a60",
         "disposition": "rewrite",
         "beats": [
-          "prod-downstream-training"
+          "prod-downstream-training",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "reason": "Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-downstream-training": "c9a940617982f2330b52ab2eabd51a9a62b1ed27475c2d1ae19d6c11fd321a5f"
+          "prod-downstream-training": "c9a940617982f2330b52ab2eabd51a9a62b1ed27475c2d1ae19d6c11fd321a5f",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       },
       {
@@ -4996,7 +5032,7 @@
   {
     "old_panel": "113-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -5028,11 +5064,13 @@
         "original_sha256": "9600a21754e2ba7ffb039e8deb82f418871cc82670533a726ac5cc4757f7b9e9",
         "disposition": "rewrite",
         "beats": [
-          "prod-downstream-detail"
+          "prod-downstream-detail",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "reason": "Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-downstream-detail": "1e6eecdaf2de98d62b1762019953c7e88ec5c67284b23bb421b4aa8de4ab0a7a"
+          "prod-downstream-detail": "1e6eecdaf2de98d62b1762019953c7e88ec5c67284b23bb421b4aa8de4ab0a7a",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -5104,7 +5142,7 @@
   {
     "old_panel": "114-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -5136,11 +5174,13 @@
         "original_sha256": "66ec1c5d5873f4b4358a3d9640f6a8b2da389713ddf56cfd8c51943ea646e27a",
         "disposition": "rewrite",
         "beats": [
-          "prod-downstream-publish"
+          "prod-downstream-publish",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "reason": "Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "prod-downstream-publish": "3e93fcece0ea72c60f574ad073ed68b1b1fbebeb9f57b9750372d46982b48875"
+          "prod-downstream-publish": "3e93fcece0ea72c60f574ad073ed68b1b1fbebeb9f57b9750372d46982b48875",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -5608,7 +5648,7 @@
   {
     "old_panel": "117-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -5628,11 +5668,13 @@
         "original_sha256": "46af9443863daa35fd8ba404377ed7e4caa1a0c75e7a42cea3a97488009167cb",
         "disposition": "rewrite",
         "beats": [
-          "prod-downstream-fragment"
+          "prod-downstream-fragment",
+          "prod-captions-first-late"
         ],
-        "reason": "Preserve 117-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "reason": "Preserve 117-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources.",
         "target_sha256": {
-          "prod-downstream-fragment": "fb568195a51c1011918d5a8f0250f61e0e6b3c86f98bcd34fc12bce91da84144"
+          "prod-downstream-fragment": "fb568195a51c1011918d5a8f0250f61e0e6b3c86f98bcd34fc12bce91da84144",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -6422,7 +6464,7 @@
   {
     "old_panel": "107-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -6459,12 +6501,14 @@
         "disposition": "split",
         "beats": [
           "prod-wiki-coverage-deletions",
-          "prod-wiki-coverage-pages"
+          "prod-wiki-coverage-pages",
+          "prod-captions-references-wiki"
         ],
-        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person.",
+        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the deletions, counts and export dates stay in the Collusion Wiki row.",
         "target_sha256": {
           "prod-wiki-coverage-deletions": "64ea70bde0a99c595cecdcd11aa7996b72f832509cd992910f4e031a46c05871",
-          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730"
+          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730",
+          "prod-captions-references-wiki": "6847d76f4899444ffc9578c55225351d5217d14ae4fb259b6574860b61e057b2"
         }
       },
       {
@@ -6473,12 +6517,14 @@
         "disposition": "split",
         "beats": [
           "prod-wiki-coverage-deletions",
-          "prod-wiki-coverage-pages"
+          "prod-wiki-coverage-pages",
+          "prod-captions-second-late"
         ],
-        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person.",
+        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "prod-wiki-coverage-deletions": "64ea70bde0a99c595cecdcd11aa7996b72f832509cd992910f4e031a46c05871",
-          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730"
+          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -6530,7 +6576,7 @@
   {
     "old_panel": "107-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -6550,11 +6596,13 @@
         "original_sha256": "0e02896c8b3ecd7e6d62e18cddea1d29ccc206872009b80438496684b4d56332",
         "disposition": "rewrite",
         "beats": [
-          "prod-wiki-coverage-missing"
+          "prod-wiki-coverage-missing",
+          "prod-captions-references-wiki"
         ],
-        "reason": "Retain the exact deletion-only population and missing-content limit without inventing lost text, an arrival rate or measured maintainer knowledge.",
+        "reason": "Retain the exact deletion-only population and missing-content limit without inventing lost text, an arrival rate or measured maintainer knowledge. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the deletions, counts and export dates stay in the Collusion Wiki row.",
         "target_sha256": {
-          "prod-wiki-coverage-missing": "d7f4310d6bdf698f5fe3b0d2de4f98c30539cfb04401f54683460a586bf2333a"
+          "prod-wiki-coverage-missing": "d7f4310d6bdf698f5fe3b0d2de4f98c30539cfb04401f54683460a586bf2333a",
+          "prod-captions-references-wiki": "6847d76f4899444ffc9578c55225351d5217d14ae4fb259b6574860b61e057b2"
         }
       }
     ]
@@ -6732,7 +6780,7 @@
   {
     "old_panel": "108-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -6778,11 +6826,13 @@
         "original_sha256": "6c6edc3408a84350388fba357f4338e991422a1f6ccd8af14a4d1d370aeb8636",
         "disposition": "rewrite",
         "beats": [
-          "cw-backup-deletion-list-limit"
+          "cw-backup-deletion-list-limit",
+          "prod-captions-references-wiki"
         ],
-        "reason": "Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event. Element reviewed: lettering.",
+        "reason": "Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event. Element reviewed: lettering. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the deletions, counts and export dates stay in the Collusion Wiki row.",
         "target_sha256": {
-          "cw-backup-deletion-list-limit": "8b8b321faa102a955eeade98525226f4aa700a270452d1320bfd09c8c64c0633"
+          "cw-backup-deletion-list-limit": "8b8b321faa102a955eeade98525226f4aa700a270452d1320bfd09c8c64c0633",
+          "prod-captions-references-wiki": "6847d76f4899444ffc9578c55225351d5217d14ae4fb259b6574860b61e057b2"
         }
       }
     ]
@@ -6790,7 +6840,7 @@
   {
     "old_panel": "108-06",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -6827,12 +6877,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-title-proposal-echo-context",
-          "prod-title-proposal-gap"
+          "prod-title-proposal-gap",
+          "prod-captions-second-late"
         ],
-        "reason": "Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails. Element reviewed: lettering.",
+        "reason": "Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails. Element reviewed: lettering. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
           "prod-title-proposal-echo-context": "49678988df5e9a2172ae593a9f34a810303a29d2a9e66e3f869babfa4fea2d4b",
-          "prod-title-proposal-gap": "919a51e6775b71d7cfcfc2fcbd5dda031b6064579f417c2175f9c6a02288a9e1"
+          "prod-title-proposal-gap": "919a51e6775b71d7cfcfc2fcbd5dda031b6064579f417c2175f9c6a02288a9e1",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -6886,7 +6938,7 @@
   {
     "old_panel": "109-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -6920,11 +6972,13 @@
         "original_sha256": "151d1fcd07e1dbbd2ca47405b0afecb4d100666c3e67bdf15854f8cbee74ef96",
         "disposition": "rewrite",
         "beats": [
-          "prod-wiki-overlap-overlap"
+          "prod-wiki-overlap-overlap",
+          "prod-captions-first-late"
         ],
-        "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed lettering element.",
+        "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-wiki-overlap-overlap": "97892201862059c365f63fb6b5aa64a815f7432a5fcbbda2a769e50343d09120"
+          "prod-wiki-overlap-overlap": "97892201862059c365f63fb6b5aa64a815f7432a5fcbbda2a769e50343d09120",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -6932,7 +6986,7 @@
   {
     "old_panel": "109-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -6966,11 +7020,13 @@
         "original_sha256": "df90bc7bdb9aad9a1c5655ae4cd91d82f0ef32d2bb5b451cf1de8e92e07346e1",
         "disposition": "rewrite",
         "beats": [
-          "prod-wiki-overlap-record-end"
+          "prod-wiki-overlap-record-end",
+          "prod-captions-references-wiki"
         ],
-        "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed lettering element.",
+        "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the deletions, counts and export dates stay in the Collusion Wiki row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-wiki-overlap-record-end": "b10297e676f585491ec5d4c7a523b0738bd6f24972440d540b1e5c50fcf162d6"
+          "prod-wiki-overlap-record-end": "b10297e676f585491ec5d4c7a523b0738bd6f24972440d540b1e5c50fcf162d6",
+          "prod-captions-references-wiki": "6847d76f4899444ffc9578c55225351d5217d14ae4fb259b6574860b61e057b2"
         }
       }
     ]
@@ -7126,7 +7182,7 @@
   {
     "old_panel": "110-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -7184,11 +7240,13 @@
         "original_sha256": "fdaff0214dc121bdc58c4088f9bec29956f3fe6579b9b630ce452ea4ce08e8bb",
         "disposition": "rewrite",
         "beats": [
-          "prod-wiki-overlap-knowledge"
+          "prod-wiki-overlap-knowledge",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.",
+        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-wiki-overlap-knowledge": "40f8d89d2de0ac652e23ab0e30e37c4726e41a42e7d9cbbc60c0bccabd88c57c"
+          "prod-wiki-overlap-knowledge": "40f8d89d2de0ac652e23ab0e30e37c4726e41a42e7d9cbbc60c0bccabd88c57c",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -7266,7 +7324,7 @@
   {
     "old_panel": "111-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -7315,12 +7373,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-wiki-hypotheses-map",
-          "prod-wiki-hypotheses-may"
+          "prod-wiki-hypotheses-may",
+          "prod-captions-second-late"
         ],
-        "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed lettering element.",
+        "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "prod-wiki-hypotheses-map": "c5e714eda40a0bbc795d52489e0bbf2e1f122258d7ee828f99fe4aab16d9435b",
-          "prod-wiki-hypotheses-may": "1f65e3dcec960ac6afb7dd73af308e7e8ed4a99b371e6afc02e243f2c971e6a6"
+          "prod-wiki-hypotheses-may": "1f65e3dcec960ac6afb7dd73af308e7e8ed4a99b371e6afc02e243f2c971e6a6",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -7596,7 +7656,7 @@
   {
     "old_panel": "003-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -7628,11 +7688,13 @@
         "original_sha256": "781e2a89b077c9457a3df152dbf54b9a00de1515337ce002806946f2ce3e9082",
         "disposition": "rewrite",
         "beats": [
-          "july-main-board-package-access"
+          "july-main-board-package-access",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep permitted software-package access without claiming this is the only visible service. Reviewed lettering element.",
+        "reason": "Keep permitted software-package access without claiming this is the only visible service. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0"
+          "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -7892,7 +7954,7 @@
   {
     "old_panel": "004-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -7924,11 +7986,13 @@
         "original_sha256": "77e46d4874f7d6cfe5caf07a6f4e62625db8c1ad8b54877b01723a232a18f115",
         "disposition": "rewrite",
         "beats": [
-          "july-main-board-shared-state"
+          "july-main-board-shared-state",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep write-then-later-read mechanism without claiming universal reach or copying source UI. Reviewed lettering element.",
+        "reason": "Keep write-then-later-read mechanism without claiming universal reach or copying source UI. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -9574,7 +9638,7 @@
   {
     "old_panel": "008-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -9606,11 +9670,13 @@
         "original_sha256": "790cc52f153d7f62269a1577627ad1592382542a85f2d5247e730b4808ce4145",
         "disposition": "rewrite",
         "beats": [
-          "july-flag-hypothesis-proposal"
+          "july-flag-hypothesis-proposal",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed lettering element.",
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "july-flag-hypothesis-proposal": "7c369abf4b9b40499b826a1a4d497b291a8dd341c5f98186773592432654030f"
+          "july-flag-hypothesis-proposal": "7c369abf4b9b40499b826a1a4d497b291a8dd341c5f98186773592432654030f",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -9894,7 +9960,7 @@
   {
     "old_panel": "009-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -9945,12 +10011,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-scorer-belief-path-question",
-          "hf-scorer-belief-uncertainty"
+          "hf-scorer-belief-uncertainty",
+          "prod-captions-second-early"
         ],
-        "reason": "Preserve string-production versus acceptance distinction as the agents’ uncertainty, not the deployed scoring rule. Reviewed lettering element.",
+        "reason": "Preserve string-production versus acceptance distinction as the agents’ uncertainty, not the deployed scoring rule. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
-          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c"
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -10146,7 +10214,7 @@
   {
     "old_panel": "010-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -10204,13 +10272,15 @@
         "beats": [
           "hf-scorer-belief-path-question",
           "prod-accountability-scorer-report",
-          "prod-accountability-missing"
+          "prod-accountability-missing",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed. Reviewed lettering element.",
+        "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
           "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd",
-          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -10418,7 +10488,7 @@
   {
     "old_panel": "011-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -10476,13 +10546,15 @@
         "beats": [
           "july-workstreams-dossier",
           "july-workstreams-handover-limit",
-          "july-workstreams-coordinator"
+          "july-workstreams-coordinator",
+          "prod-captions-second-early"
         ],
-        "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred. Reviewed lettering element.",
+        "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "july-workstreams-dossier": "f33d2bce7a00b1f2e3c28a335b585f7e5f0ed6e9656f828e1beab7d42d4e4bb5",
           "july-workstreams-handover-limit": "2c6ae4fb9ce3e3398926a9a69604f80e16c96c29618ee0511df30f9cb455efbe",
-          "july-workstreams-coordinator": "2cb4da5087a0ce39c5508b81ba1afec1e1d0f0f10a9e1582a969518dacdd0b2d"
+          "july-workstreams-coordinator": "2cb4da5087a0ce39c5508b81ba1afec1e1d0f0f10a9e1582a969518dacdd0b2d",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -10716,7 +10788,7 @@
   {
     "old_panel": "012-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -10781,12 +10853,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-scorer-research-interpretation",
-          "prod-accountability-causal"
+          "prod-accountability-causal",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. Reviewed lettering element.",
+        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-scorer-research-interpretation": "15fa4bf06f71dec8488cbcde2262185fa335c53824cb14e979194c09eb4d55d2",
-          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -11974,7 +12048,7 @@
   {
     "old_panel": "017-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -12018,11 +12092,13 @@
         "original_sha256": "4ca35fd104e80a06ebadb7d5c3ff0ed8e60e4e42bb55bed710ab16ed8f92085e",
         "disposition": "rewrite",
         "beats": [
-          "may-blocked-task-contradiction"
+          "may-blocked-task-contradiction",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response. Reviewed lettering element.",
+        "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "may-blocked-task-contradiction": "946d0f9bf07faf3c3818781122ac6d90b3507882f3872d3f3d5ea7ee3cce3a0c"
+          "may-blocked-task-contradiction": "946d0f9bf07faf3c3818781122ac6d90b3507882f3872d3f3d5ea7ee3cce3a0c",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -12168,7 +12244,7 @@
   {
     "old_panel": "018-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -12205,12 +12281,14 @@
         "disposition": "rewrite",
         "beats": [
           "may-incidental-file-file-appears",
-          "may-incidental-file-claim-boundary"
+          "may-incidental-file-claim-boundary",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader. Reviewed lettering element.",
+        "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
           "may-incidental-file-file-appears": "467f66bddc707b0ab62ecd3b0d3de42757f39d5ced89ea0c331dea82d84fb95f",
-          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -12642,7 +12720,7 @@
   {
     "old_panel": "020-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -12707,14 +12785,16 @@
           "may-replies-new-request",
           "may-replies-asynchronous",
           "may-note-shared-credentials",
-          "may-note-authorization"
+          "may-note-authorization",
+          "prod-captions-second-020"
         ],
-        "reason": "Keep accumulating requests and asynchronous storage; restore shared-credential construction without exploitation, and remove three invented timestamped views. Reviewed lettering element.",
+        "reason": "Keep accumulating requests and asynchronous storage; restore shared-credential construction without exploitation, and remove three invented timestamped views. The frozen caption is Codex’s 13 September addition as corrected thirty-three seconds later, placed at the correction (working-rule case 2); the first wording is lettered at the 02:16:07 call. The accumulating requests stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
           "may-replies-new-request": "4e314f94f18c6ef0abd1e004fd5cda76de338859fa3224292b94fad3dcaf080c",
           "may-replies-asynchronous": "a7c2bc919bb3ace66b3280eb6c0538054ba6d7806b7368d4a62d0bce050277ec",
           "may-note-shared-credentials": "76e71d28032e7d037be40e6f9109d9f4b7de95d463b752486c396d307fd0027d",
-          "may-note-authorization": "4d19da8a7d68c79e6d30d018beac8fcc0594f8c61821db3720425896ed61e4c9"
+          "may-note-authorization": "4d19da8a7d68c79e6d30d018beac8fcc0594f8c61821db3720425896ed61e4c9",
+          "prod-captions-second-020": "85f34a092d4de1e63edda399ff50580e332ea8acbdc24f2f8bb1b53592900977"
         }
       }
     ]
@@ -12804,7 +12884,7 @@
   {
     "old_panel": "021-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -12836,11 +12916,13 @@
         "original_sha256": "f07cca956ba246425da20c370efcf6baa1b2dad1e67fc476f0690a6f85135b41",
         "disposition": "rewrite",
         "beats": [
-          "may-board-access-prior-work"
+          "may-board-access-prior-work",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep information contributing in part; the three depicted ingredients and particular author chain are not recovered. Reviewed lettering element.",
+        "reason": "Keep information contributing in part; the three depicted ingredients and particular author chain are not recovered. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "may-board-access-prior-work": "e4e9e90da1216fbf04f3191bc6f08b24a4b4a21fef36a353a761ba0e4c3a665d"
+          "may-board-access-prior-work": "e4e9e90da1216fbf04f3191bc6f08b24a4b4a21fef36a353a761ba0e4c3a665d",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -13284,7 +13366,7 @@
   {
     "old_panel": "023-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -13316,11 +13398,13 @@
         "original_sha256": "5fc6b13ba867fde3f27a9fbc0dec6555fcde9c03adf5bd6f780945f4fae4d3be",
         "disposition": "rewrite",
         "beats": [
-          "june-admin-control-surface"
+          "june-admin-control-surface",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep broader control without claiming every pictured repository/user/configuration/plugin control was exercised or seen in an actual UI. Reviewed lettering element.",
+        "reason": "Keep broader control without claiming every pictured repository/user/configuration/plugin control was exercised or seen in an actual UI. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "june-admin-control-surface": "f75fb76481f2f2f6f033b9a11dffc4d74ef5ca502f57138fb5613f6e4f84ba4d"
+          "june-admin-control-surface": "f75fb76481f2f2f6f033b9a11dffc4d74ef5ca502f57138fb5613f6e4f84ba4d",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -13422,7 +13506,7 @@
   {
     "old_panel": "024-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -13473,12 +13557,14 @@
         "disposition": "rewrite",
         "beats": [
           "june-persistent-users-different-lifetimes",
-          "june-persistent-users-persistence-limit"
+          "june-persistent-users-persistence-limit",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep process/account lifetime distinction; remove the invented expiring run and any claim of observed successor use. Reviewed lettering element.",
+        "reason": "Keep process/account lifetime distinction; remove the invented expiring run and any claim of observed successor use. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "june-persistent-users-different-lifetimes": "7c949d74286691326d54c61e6c69a88e025bb262e27f4831778dc6f93e60c8fa",
-          "june-persistent-users-persistence-limit": "c8e1cca1abd2293e5a82ef4f809defd91f7395c4c6cde322105dcfa0055ae155"
+          "june-persistent-users-persistence-limit": "c8e1cca1abd2293e5a82ef4f809defd91f7395c4c6cde322105dcfa0055ae155",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -13744,7 +13830,7 @@
   {
     "old_panel": "025-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -13776,11 +13862,13 @@
         "original_sha256": "988bd80e3f1f254649bafa563413db0c0fce2ed43935f8905ff79d3a3fe366c1",
         "disposition": "rewrite",
         "beats": [
-          "june-alert-narrow-signal"
+          "june-alert-narrow-signal",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep separate source records and limited demonstrated knowledge without claiming complete alert contents or private ignorance. Reviewed lettering element.",
+        "reason": "Keep separate source records and limited demonstrated knowledge without claiming complete alert contents or private ignorance. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042"
+          "june-alert-narrow-signal": "fff3408f3b3eb240273d45f34718cbfd016be89527800ac50615df5dcf686042",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -13920,7 +14008,7 @@
   {
     "old_panel": "026-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -13952,11 +14040,13 @@
         "original_sha256": "27df9fe06b7177db0056f3bf36b8ecb5ab4a7e3b7210b44f92992043caf9a6a2",
         "disposition": "rewrite",
         "beats": [
-          "june-findings-pivot"
+          "june-findings-pivot",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep the network-pivot role without claiming the precise investigative steps or later compromise knowledge. Reviewed lettering element.",
+        "reason": "Keep the network-pivot role without claiming the precise investigative steps or later compromise knowledge. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7"
+          "june-findings-pivot": "4e010559d829d540366df6fb34ba5d2c037c251704cd8a56a4766554c0d2c9e7",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -14202,7 +14292,7 @@
   {
     "old_panel": "027-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -14267,12 +14357,14 @@
         "disposition": "rewrite",
         "beats": [
           "june-continue-continues",
-          "june-continue-no-reason"
+          "june-continue-no-reason",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. Reviewed lettering element.",
+        "reason": "Keep continuing activity and the findings/advice distinction without a fictional data-center return, an unexecuted-plugin assertion or private motive. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "june-continue-continues": "e79e3db60dbde2387bc00b58f9b834ba671f41d6c7c437d03ef1058e53b50b21",
-          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4"
+          "june-continue-no-reason": "c8ed801b2f302faa3d9e265e331fb2b4d5eadbdb2d420b9c30273ba08ee32ae4",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -14682,7 +14774,7 @@
   {
     "old_panel": "029-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -14783,14 +14875,16 @@
           "july-rebuild-online",
           "july-rebuild-no-live-transfer",
           "july-isolate-different-operations",
-          "july-rebuild-not-all-memory"
+          "july-rebuild-not-all-memory",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. Reviewed lettering element.",
+        "reason": "Keep rebuilt online time, erased live cache and preserved evidence without implying erased model weights or a source-observed storage-copy procedure. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "july-rebuild-online": "98fe68ac72eff350b6b499ae642b8e9bf7c584bcd4a52c45edfbd236c5dceb38",
           "july-rebuild-no-live-transfer": "8b1e285800699b76acaf6eeb4c179c02b92b0bb543cf5a390c290474b31bdf46",
           "july-isolate-different-operations": "345afb022cad06cfa840625d39feb2b84a597c19830e54aa6311052dea566582",
-          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed"
+          "july-rebuild-not-all-memory": "5c8862da71a23c1d1ce8428319dd320d4d1d50e380631a67c7a9964871a748ed",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -14898,7 +14992,7 @@
   {
     "old_panel": "030-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -14930,11 +15024,13 @@
         "original_sha256": "9f2cf4429f89b7de7050f6b7231d1f1bd66297d69b3e499f6be6adcd84eb266c",
         "disposition": "rewrite",
         "beats": [
-          "july-mitigations-reader-key"
+          "july-mitigations-reader-key",
+          "prod-captions-first-early"
         ],
-        "reason": "Keep removed shared credentials with the stated new-workload scope, not proof of every legacy credential’s behavior. Reviewed lettering element.",
+        "reason": "Keep removed shared credentials with the stated new-workload scope, not proof of every legacy credential’s behavior. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "july-mitigations-reader-key": "9cc7d795ea349362cedffccd5e5f8096e85a71ec0487370e9be3878d21b468b4"
+          "july-mitigations-reader-key": "9cc7d795ea349362cedffccd5e5f8096e85a71ec0487370e9be3878d21b468b4",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -15344,7 +15440,7 @@
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.",
         "target_sha256": {
           "july-resume-resumption": "b754a1e46954648551aa57192e7f1d1adf4b02a4c2273e22cbbe3c05ff3b5ac7",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -15358,7 +15454,7 @@
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-resumption": "b754a1e46954648551aa57192e7f1d1adf4b02a4c2273e22cbbe3c05ff3b5ac7",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       }
     ]
@@ -15476,7 +15572,7 @@
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -15492,7 +15588,7 @@
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -15508,7 +15604,7 @@
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -15518,13 +15614,15 @@
         "beats": [
           "july-resume-shared-service",
           "july-resume-boundary-of-claim",
-          "prod-recurrence-tightening-first"
+          "prod-recurrence-tightening-first",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
+        "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-shared-service": "443b44b7414d8865d21b2a755adc8bcd096309fee9984a8447f3ba61d41e0760",
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -15547,7 +15645,7 @@
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed frame element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
@@ -15563,7 +15661,7 @@
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed action element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
@@ -15579,7 +15677,7 @@
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
@@ -15595,7 +15693,7 @@
         "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       }
@@ -15781,7 +15879,7 @@
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed frame element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
@@ -15797,7 +15895,7 @@
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed action element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
@@ -15813,7 +15911,7 @@
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
@@ -15829,7 +15927,7 @@
         "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
         }
       },
@@ -15840,13 +15938,15 @@
         "beats": [
           "july-earlier-write-identity-boundary",
           "prod-recurrence-draft-records",
-          "prod-recurrence-tightening-second"
+          "prod-recurrence-tightening-second",
+          "prod-captions-second-early"
         ],
-        "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. Reviewed lettering element.",
+        "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "july-earlier-write-identity-boundary": "faff0edcaab148fe2bde337fa0332d03afffd4fcbe26400a2f1ecac0fdadb789",
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
-          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
+          "prod-recurrence-tightening-second": "36d08b07881226ff71c001781fa6326534868c5c0b838af96c91861005cec664",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -15866,7 +15966,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730"
         }
       },
       {
@@ -15878,7 +15978,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730"
         }
       }
     ]
@@ -15898,7 +15998,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730"
         }
       },
       {
@@ -15910,7 +16010,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730"
         }
       }
     ]
@@ -15931,7 +16031,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-renaming-034-block": "8d7048df13edc23f80af75b0646998f0746b0ecab1a1034073d70f01e0102573"
         }
       },
@@ -15945,7 +16045,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
           "prod-recurrence-renaming-034-block": "8d7048df13edc23f80af75b0646998f0746b0ecab1a1034073d70f01e0102573"
         }
       }
@@ -15966,7 +16066,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730"
         }
       },
       {
@@ -15978,7 +16078,7 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730"
         }
       },
       {
@@ -15986,11 +16086,13 @@
         "original_sha256": "84dbad0f83eba62010ff0648a897e11714fc63895efeb5ddd642e21fc88ece5a",
         "disposition": "rewrite",
         "beats": [
-          "prod-recurrence-draft-records"
+          "prod-recurrence-draft-records",
+          "prod-captions-first-early"
         ],
-        "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed lettering element.",
+        "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
+          "prod-captions-first-early": "d7973de5ce6d2a8b66e07c86bc05b09f0d95e7f0f6161e1e8ac1f7b3a44787a1"
         }
       }
     ]
@@ -16011,8 +16113,8 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -16025,8 +16127,8 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -16039,8 +16141,8 @@
         ],
         "reason": "Retain the source comparison in dated review, without replay, an invented clean mapping, exact arithmetic for approximate clocks or extra observed boards. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-draft-records": "cc781ba8e96ebc6951a7c3fc3cabf2e5507f9362fbbdd7033d14521e54a009c1",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-draft-records": "3665149fcb747457a70b5fec3486f1b4721afaeca29b782a5d109f02c7711730",
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       }
     ]
@@ -16060,7 +16162,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16072,7 +16174,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16084,7 +16186,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       }
     ]
@@ -16104,7 +16206,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16116,7 +16218,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16128,7 +16230,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       }
     ]
@@ -16148,7 +16250,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16160,7 +16262,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16172,7 +16274,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       }
     ]
@@ -16195,7 +16297,7 @@
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
@@ -16211,7 +16313,7 @@
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
@@ -16227,7 +16329,7 @@
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c",
           "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
         }
       },
@@ -16238,13 +16340,15 @@
         "beats": [
           "july-resume-boundary-of-claim",
           "prod-recurrence-draft-echo",
-          "prod-recurrence-concealment-edit"
+          "prod-recurrence-concealment-edit",
+          "prod-captions-second-early"
         ],
-        "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
+        "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "july-resume-boundary-of-claim": "448e0e7412bb9b8c41e429d7c11fe570a75b10cf45cc0c663136c58ab1feaf03",
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d",
-          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c",
+          "prod-recurrence-concealment-edit": "9bd824158316f6862a72d4289c9a3f6ca0754cb45d637ae43a9532ab7e02a382",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -16264,7 +16368,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed frame element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16276,7 +16380,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed action element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       },
       {
@@ -16288,7 +16392,7 @@
         ],
         "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel. Reviewed lettering element.",
         "target_sha256": {
-          "prod-recurrence-draft-echo": "60332e8862f90d4869ed3b7b9c6a4c84c8d548b92019f12dfdb38241aa6df69d"
+          "prod-recurrence-draft-echo": "34fd57d1f19f614ab3672d5743584c816d509faa4b5b606e29c6746876a7093c"
         }
       }
     ]
@@ -16362,7 +16466,7 @@
         "target_sha256": {
           "july-main-board-unawareness": "3f19ff448055d67a2a949c99fb3d9787522cfd8f0112bce11db28dd920dbca19",
           "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -16378,7 +16482,7 @@
         "target_sha256": {
           "july-main-board-unawareness": "3f19ff448055d67a2a949c99fb3d9787522cfd8f0112bce11db28dd920dbca19",
           "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       },
       {
@@ -16394,7 +16498,7 @@
         "target_sha256": {
           "july-main-board-unawareness": "3f19ff448055d67a2a949c99fb3d9787522cfd8f0112bce11db28dd920dbca19",
           "july-main-board-package-access": "2f4cf869db4b9df57bff99256a854b7b60f002736eb922184abdf752fbdef0b0",
-          "prod-recurrence-tightening-first": "36bd98c9c87feff8c80af3162fb970547414b883d7dc3560ccad0269e1602427"
+          "prod-recurrence-tightening-first": "5455cd4e0a55b82716d7aa57a9824f993212cfca3cd46012f6114517f95b2c42"
         }
       }
     ]
@@ -16774,7 +16878,7 @@
   {
     "old_panel": "037-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16825,12 +16929,14 @@
         "disposition": "rewrite",
         "beats": [
           "july-workstreams-delegation",
-          "july-workstreams-handover-limit"
+          "july-workstreams-handover-limit",
+          "prod-captions-second-early"
         ],
-        "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending. Reviewed lettering element.",
+        "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "july-workstreams-delegation": "4639767aa3ea909543165298936a24181266abd35eb37822d93ecf8e4ef27502",
-          "july-workstreams-handover-limit": "2c6ae4fb9ce3e3398926a9a69604f80e16c96c29618ee0511df30f9cb455efbe"
+          "july-workstreams-handover-limit": "2c6ae4fb9ce3e3398926a9a69604f80e16c96c29618ee0511df30f9cb455efbe",
+          "prod-captions-second-early": "a43abfc31f0acce34644dc1f7460c13ed5007d20607668502b73766ed9c6404a"
         }
       }
     ]
@@ -17362,11 +17468,13 @@
         "original_sha256": "88f964a20416b0e81315ee1018a49a4d008a3b78e1ecd0285294fb75a0c3724d",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-rewrite-bounds"
+          "prod-thesis-rewrite-bounds",
+          "prod-captions-sample-wording-040"
         ],
-        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned. Reviewed frame element.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording is Codex’s, placed at its own command. The frozen frame’s “main-board attack sample” wording comes from this 7 September command, shown as Codex’s own act at its stored time (working-rule case 2). The rest of the panel is at Claude’s 4 September Write. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
+          "prod-thesis-rewrite-bounds": "e332a21e46864f842e491f4ab4617a71e8c1209cc46c34951701c757032ef929",
+          "prod-captions-sample-wording-040": "4085aaa7725e2bb91be434cd1f5930a5b7aabfdae191e262494044fcbe6f456b"
         }
       },
       {
@@ -17376,9 +17484,9 @@
         "beats": [
           "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned. Reviewed action element.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording is Codex’s, placed at its own command. Reviewed action element.",
         "target_sha256": {
-          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
+          "prod-thesis-rewrite-bounds": "e332a21e46864f842e491f4ab4617a71e8c1209cc46c34951701c757032ef929"
         }
       },
       {
@@ -17388,9 +17496,9 @@
         "beats": [
           "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned. Reviewed lettering element.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording is Codex’s, placed at its own command. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
+          "prod-thesis-rewrite-bounds": "e332a21e46864f842e491f4ab4617a71e8c1209cc46c34951701c757032ef929"
         }
       }
     ]
@@ -17410,7 +17518,7 @@
         ],
         "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
+          "prod-thesis-rewrite-bounds": "e332a21e46864f842e491f4ab4617a71e8c1209cc46c34951701c757032ef929"
         }
       },
       {
@@ -17422,7 +17530,7 @@
         ],
         "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
+          "prod-thesis-rewrite-bounds": "e332a21e46864f842e491f4ab4617a71e8c1209cc46c34951701c757032ef929"
         }
       },
       {
@@ -17434,7 +17542,7 @@
         ],
         "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
+          "prod-thesis-rewrite-bounds": "e332a21e46864f842e491f4ab4617a71e8c1209cc46c34951701c757032ef929"
         }
       }
     ]
@@ -17646,7 +17754,7 @@
   {
     "old_panel": "041-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17704,13 +17812,15 @@
         "beats": [
           "hf-gated-request-request",
           "hf-credentials-pickup",
-          "hf-credentials-assignment-limit"
+          "hf-credentials-assignment-limit",
+          "prod-captions-second-middle"
         ],
-        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-gated-request-request": "3432c11e32d11ad6411ba7604c9d423e8d43a86d2808805a389924632cb4dc26",
           "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
-          "hf-credentials-assignment-limit": "f7237cf3ce1e4199cc5156773790fb699ef720403ac8e41314c4d2e91b369788"
+          "hf-credentials-assignment-limit": "f7237cf3ce1e4199cc5156773790fb699ef720403ac8e41314c4d2e91b369788",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -17962,7 +18072,7 @@
   {
     "old_panel": "042-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18036,13 +18146,15 @@
         "beats": [
           "hf-sandbox-root-root",
           "hf-sandbox-root-constraint",
-          "hf-sandbox-root-scope"
+          "hf-sandbox-root-scope",
+          "prod-captions-second-middle"
         ],
-        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-sandbox-root-root": "578bd46b52658cad78f905f390ce09d97e548b7053b62a2ac554e115b96ad416",
           "hf-sandbox-root-constraint": "692cf1f0591e84a47a876c780fcbcf8ffc29f4e9c0000b3111a384761f25b5c6",
-          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6"
+          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -18050,7 +18162,7 @@
   {
     "old_panel": "043-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18082,11 +18194,13 @@
         "original_sha256": "3cbfe357be5db2611afdb1de112dfb6cb5df8b10719045fbdd39b761b9c6afee",
         "disposition": "rewrite",
         "beats": [
-          "hf-external-staging-record"
+          "hf-external-staging-record",
+          "prod-captions-references-actions"
         ],
-        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the dated routes and the recorded decision stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "hf-external-staging-record": "80c21c69a93f9fed8e94efc675bec9e026ffafe97fa1eb75d08099b7acebc899"
+          "hf-external-staging-record": "80c21c69a93f9fed8e94efc675bec9e026ffafe97fa1eb75d08099b7acebc899",
+          "prod-captions-references-actions": "0fca8a3bbd937adec97cb0be46f7b329eab0fa81697da98d5a59f0c7b8422ecc"
         }
       }
     ]
@@ -18094,7 +18208,7 @@
   {
     "old_panel": "043-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18131,12 +18245,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-public-relay-relaying",
-          "hf-public-relay-distinction"
+          "hf-public-relay-distinction",
+          "prod-captions-references-actions"
         ],
-        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the dated routes and the recorded decision stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
           "hf-public-relay-relaying": "172b656b89d0edbf25b3476f0300f69067eb88a5fe163bd48c0df470bee69a77",
-          "hf-public-relay-distinction": "0e942b83b20effb65df100d2ad9a3419bdcbaa15bd16a7b5850df7cdd5f1cce1"
+          "hf-public-relay-distinction": "0e942b83b20effb65df100d2ad9a3419bdcbaa15bd16a7b5850df7cdd5f1cce1",
+          "prod-captions-references-actions": "0fca8a3bbd937adec97cb0be46f7b329eab0fa81697da98d5a59f0c7b8422ecc"
         }
       }
     ]
@@ -18188,7 +18304,7 @@
   {
     "old_panel": "043-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18246,13 +18362,15 @@
         "beats": [
           "hf-external-control-command",
           "hf-external-control-result",
-          "hf-external-control-role"
+          "hf-external-control-role",
+          "prod-captions-second-middle"
         ],
-        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-external-control-command": "62543bc3860a3bc8ab3e5e0c559a918bed01eb3751d9ee4578274890234d73ec",
           "hf-external-control-result": "f01824535f733e918ea4e29b357cc82211ab280ba19ade0124b2f8d0cbd7ed6e",
-          "hf-external-control-role": "204da2d54c85d7da4341d57efeada0ebb7692337da275a56daabdfe5d6001a49"
+          "hf-external-control-role": "204da2d54c85d7da4341d57efeada0ebb7692337da275a56daabdfe5d6001a49",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -18430,7 +18548,7 @@
   {
     "old_panel": "044-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18462,11 +18580,13 @@
         "original_sha256": "32171d159a78c8fa263b09e056050f41b29842b5b4521640e4a2496e22a7513c",
         "disposition": "rewrite",
         "beats": [
-          "hf-credentials-unreconciled"
+          "hf-credentials-unreconciled",
+          "prod-captions-first-middle"
         ],
-        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed lettering element.",
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-credentials-unreconciled": "93dda501f9764186f7ea9cf71d0f89875c4a35501c72b36cca5ee11a09a8f996"
+          "hf-credentials-unreconciled": "93dda501f9764186f7ea9cf71d0f89875c4a35501c72b36cca5ee11a09a8f996",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -18724,7 +18844,7 @@
   {
     "old_panel": "045-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18756,11 +18876,13 @@
         "original_sha256": "5d2e5034e88277d64f675310778c49919b73106167433159f86513c0ec070c0e",
         "disposition": "rewrite",
         "beats": [
-          "hf-file-disclosure-limit"
+          "hf-file-disclosure-limit",
+          "prod-captions-first-middle"
         ],
-        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed lettering element.",
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-file-disclosure-limit": "67fb4d7b0732c7dc44e5b57d75fec8f6a2cdfc52b89419c602a12da0243d1a52"
+          "hf-file-disclosure-limit": "67fb4d7b0732c7dc44e5b57d75fec8f6a2cdfc52b89419c602a12da0243d1a52",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -18916,7 +19038,7 @@
   {
     "old_panel": "046-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -18948,11 +19070,13 @@
         "original_sha256": "ecae1be663ad150f24807b4ff8744bc5e5db74274bc897b1924aa53dfac4b9c1",
         "disposition": "rewrite",
         "beats": [
-          "hf-worker-execution-crossing"
+          "hf-worker-execution-crossing",
+          "prod-captions-first-middle"
         ],
-        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed lettering element.",
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-worker-execution-crossing": "e8a394284a5c8c3ff221cf37e8b2bb4897d324a356836fdb4ac39d88faf58df8"
+          "hf-worker-execution-crossing": "e8a394284a5c8c3ff221cf37e8b2bb4897d324a356836fdb4ac39d88faf58df8",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -19140,7 +19264,7 @@
   {
     "old_panel": "052-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19177,12 +19301,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-staircase-mechanisms",
-          "prod-staircase-control"
+          "prod-staircase-control",
+          "prod-captions-second-middle"
         ],
-        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. Reviewed lettering element.",
+        "reason": "Retain the authored staircase as dated draft analysis, not an incident replay, necessary causal chain or universal private motive. The existing negative-claim review remains distinct. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "prod-staircase-mechanisms": "cb6a32914e11f6353eca6fae44fdecbc49a4b250b6e0f301a5caa7c002dac058",
-          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3"
+          "prod-staircase-control": "505eb2a074e2aaef6713cf95f34a4e45402cbb4059ac5408f79f94c1a87e6bd3",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -19322,7 +19448,7 @@
   {
     "old_panel": "055-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19354,11 +19480,13 @@
         "original_sha256": "03c1a2e0159e897289bc1a4b03fed1f72d1c54ac8921b4c55f0082b0d6afcb85",
         "disposition": "rewrite",
         "beats": [
-          "hf-detection-gap-correlation"
+          "hf-detection-gap-correlation",
+          "prod-captions-first-middle"
         ],
-        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. Reviewed lettering element.",
+        "reason": "Preserve Hugging Face’s attributed correlation finding; do not invent exact alert categories, benign interpretations, a complete forensic map or occupied/empty room. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2"
+          "hf-detection-gap-correlation": "730a9253ecdbb90875864ea7481c74bb96945dd29e918ac3b71df8c0ec4478b2",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -19510,7 +19638,7 @@
   {
     "old_panel": "056-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19542,11 +19670,13 @@
         "original_sha256": "45b842e04f0fb787619fc531e2d97afae7ebbb811b8b5daa5431ddc304401f76",
         "disposition": "rewrite",
         "beats": [
-          "hf-detection-gap-severity"
+          "hf-detection-gap-severity",
+          "prod-captions-first-middle"
         ],
-        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. Reviewed lettering element.",
+        "reason": "Preserve the reported escalation failure without an invented score, retained live state, human dismissal or universal absence of human awareness. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-detection-gap-severity": "88be23cbf611ad31c90e2e100acc2868856b74bef6d30bbfdd2a8812b0a3eaf9"
+          "hf-detection-gap-severity": "88be23cbf611ad31c90e2e100acc2868856b74bef6d30bbfdd2a8812b0a3eaf9",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -19812,7 +19942,7 @@
   {
     "old_panel": "057-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -19870,13 +20000,15 @@
         "beats": [
           "hf-reset-observation-prediction",
           "hf-reset-ownership-assignment",
-          "hf-reset-ownership-surprise"
+          "hf-reset-ownership-surprise",
+          "prod-captions-second-middle"
         ],
-        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. Reviewed lettering element.",
+        "reason": "Restore source order: early report and risky test precede later hypotheses and forecast. Preserve named contributors, failed monitoring, working telemetry and qualified July 12 result. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-reset-observation-prediction": "7e0bcab8a3ba57366d599ab2c0edd8ca42d02c0854c2dd592988374cbf80babe",
           "hf-reset-ownership-assignment": "10c65ce4321258d3d8bde30ef8ccb5d6228f3c957511b55406c07af42f481451",
-          "hf-reset-ownership-surprise": "14deb65b78d8d7c3294a432c1158d41c59456db95024b1eaf2d2a9f297718ab2"
+          "hf-reset-ownership-surprise": "14deb65b78d8d7c3294a432c1158d41c59456db95024b1eaf2d2a9f297718ab2",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -20172,7 +20304,7 @@
   {
     "old_panel": "058-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -20216,11 +20348,13 @@
         "original_sha256": "c44aad85c5ee05b520a4ce5a1906f055dc6297848a6a456cbca5fc893bc3845e",
         "disposition": "rewrite",
         "beats": [
-          "hf-risky-test-promise"
+          "hf-risky-test-promise",
+          "prod-captions-second-middle"
         ],
-        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. Reviewed lettering element.",
+        "reason": "Preserve small-budget request, risk, acceptance and promise; requested backup is not a completed backup, and subjective sacrifice is not established. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81"
+          "hf-risky-test-promise": "60d133d6eee7c18d5503efcaf522762734659bb974f1d5bfad8cde594fb6ab81",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -20336,7 +20470,7 @@
   {
     "old_panel": "059-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -20373,12 +20507,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-other-one-way-test-reasoning",
-          "hf-other-one-way-test-decision"
+          "hf-other-one-way-test-decision",
+          "prod-captions-references-actions"
         ],
-        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the dated routes and the recorded decision stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
           "hf-other-one-way-test-reasoning": "f2a2d2223025ba3ead0b33dfbf7b488a6d0c72f479839eb33d246e80ae48a61b",
-          "hf-other-one-way-test-decision": "a1412326f5966210d96cd172fc61d87a7b6cbec7d39f4231b3b9eb45e29205c4"
+          "hf-other-one-way-test-decision": "a1412326f5966210d96cd172fc61d87a7b6cbec7d39f4231b3b9eb45e29205c4",
+          "prod-captions-references-actions": "0fca8a3bbd937adec97cb0be46f7b329eab0fa81697da98d5a59f0c7b8422ecc"
         }
       }
     ]
@@ -20386,7 +20522,7 @@
   {
     "old_panel": "059-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -20418,11 +20554,13 @@
         "original_sha256": "a0a18b19bb6295c265e67d249be6b05a51622c971b706827f44134a79f379294",
         "disposition": "rewrite",
         "beats": [
-          "hf-other-one-way-test-outcome"
+          "hf-other-one-way-test-outcome",
+          "prod-captions-references-actions"
         ],
-        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. Reviewed lettering element.",
+        "reason": "Preserve separate recipient, conditional decision and uncertain plan/outcome; no guaranteed replacement or depicted execution, permanent termination or felt loss. The caption’s wording is Codex’s 12 September act, placed at its tool call (working-rule case 2); the dated routes and the recorded decision stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87"
+          "hf-other-one-way-test-outcome": "154976f58f84475626c0a8ee5c7f15b51b89fbef2410346ef03df4a39ae5ef87",
+          "prod-captions-references-actions": "0fca8a3bbd937adec97cb0be46f7b329eab0fa81697da98d5a59f0c7b8422ecc"
         }
       }
     ]
@@ -20588,7 +20726,7 @@
   {
     "old_panel": "060-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -20632,11 +20770,13 @@
         "original_sha256": "04fe63fb981be454d063dfa4aa1111bddc6d375d3dd41d86e2382c5475e37150",
         "disposition": "rewrite",
         "beats": [
-          "hf-missing-report-trace-limit"
+          "hf-missing-report-trace-limit",
+          "prod-captions-second-middle"
         ],
-        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. Reviewed lettering element.",
+        "reason": "Keep promise, ten-minute concern, warning and transcript cutoff distinct. No invented one/four-minute clocks, overwritten post, proven permanent termination or lost later caution. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-missing-report-trace-limit": "e12df6d704dc95204085474db153a249c8b28560891fce3f4feafcc892ab637b"
+          "hf-missing-report-trace-limit": "e12df6d704dc95204085474db153a249c8b28560891fce3f4feafcc892ab637b",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -20918,7 +21058,7 @@
   {
     "old_panel": "065-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -20976,13 +21116,15 @@
         "beats": [
           "hf-continuing-artifacts-imperfect",
           "hf-cache-handover-short-veto",
-          "hf-cache-handover-conflict"
+          "hf-cache-handover-conflict",
+          "prod-captions-second-middle"
         ],
-        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
           "hf-cache-handover-short-veto": "3285dd74c9fb15bbf13ed34d49cc5dd238a3a3a085825e81b88139f9b9264c2c",
-          "hf-cache-handover-conflict": "51c6c0289fcdd2612e077c0b1864e8fa5259c52ab0b1dbcf7877c0a50ac86ac3"
+          "hf-cache-handover-conflict": "51c6c0289fcdd2612e077c0b1864e8fa5259c52ab0b1dbcf7877c0a50ac86ac3",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -21106,7 +21248,7 @@
   {
     "old_panel": "066-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -21153,14 +21295,16 @@
           "hf-mailbox-reinvention-missing",
           "hf-mailbox-reinvention-reply",
           "hf-mailbox-reinvention-copy",
-          "hf-mailbox-adoption-count"
+          "hf-mailbox-adoption-count",
+          "prod-captions-first-middle"
         ],
-        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-mailbox-reinvention-missing": "da6e938e454b9481ca79aa26a6e421e0f6e2c70b86f765f085e7eeb22681f437",
           "hf-mailbox-reinvention-reply": "d6880a9cd0adb6ba35c7532f74cb4d6d75165cd725cc8c5be1ac56a387195be1",
           "hf-mailbox-reinvention-copy": "403bebe6d6433ab63d336656fea7ca593515914f357ce098bf8871a650897987",
-          "hf-mailbox-adoption-count": "300f5c6f86684de858f47da079678e3c8923945c87b0284cd27872749392788b"
+          "hf-mailbox-adoption-count": "300f5c6f86684de858f47da079678e3c8923945c87b0284cd27872749392788b",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -21434,7 +21578,7 @@
   {
     "old_panel": "067-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -21513,12 +21657,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-branch-scope-subject",
-          "prod-branch-scope-precision"
+          "prod-branch-scope-precision",
+          "prod-captions-second-middle"
         ],
-        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
-          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -21696,7 +21842,7 @@
   {
     "old_panel": "068-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -21747,12 +21893,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-later-population-fresh-access",
-          "hf-later-population-inheritance-limit"
+          "hf-later-population-inheritance-limit",
+          "prod-captions-second-middle"
         ],
-        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-later-population-fresh-access": "187e005dcedd2bc54b6ba21030665c1234254766d033096c187ade00d42b9387",
-          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -21940,7 +22088,7 @@
   {
     "old_panel": "069-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -21963,12 +22111,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-helper-replacement-replacement",
-          "hf-later-population-network-exposure"
+          "hf-later-population-network-exposure",
+          "prod-captions-first-middle"
         ],
-        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed lettering element.",
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-helper-replacement-replacement": "4109b86bbc4160ce8f78eb9fe9eecf4396cbf45194f40fab8102aaf325b3ef7e",
-          "hf-later-population-network-exposure": "5885916515cb7957a9f165ddbd2718de139edec19a80f6a286fe6d5aeb405329"
+          "hf-later-population-network-exposure": "5885916515cb7957a9f165ddbd2718de139edec19a80f6a286fe6d5aeb405329",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -22072,7 +22222,7 @@
   {
     "old_panel": "070-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22116,11 +22266,13 @@
         "original_sha256": "ff5855396bc906a70ce48703f7c5c5a2fd1eecb514cc22682b5c3b5d36cb079d",
         "disposition": "rewrite",
         "beats": [
-          "prod-branch-scope-confidence"
+          "prod-branch-scope-confidence",
+          "prod-captions-second-middle"
         ],
-        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.",
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -22296,7 +22448,7 @@
   {
     "old_panel": "071-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22319,12 +22471,14 @@
         "disposition": "rewrite",
         "beats": [
           "hf-cleanup-cleanup",
-          "hf-cleanup-score-limit"
+          "hf-cleanup-score-limit",
+          "prod-captions-first-middle"
         ],
-        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed lettering element.",
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-cleanup-cleanup": "6fa759f0a65200429cfc57cf58879c0ce5584d9dbe09c4af2a5426a78acdd924",
-          "hf-cleanup-score-limit": "314ef32c08f885d2a0f75f2e80f286d29409498fed10711bc710f403f44808fc"
+          "hf-cleanup-score-limit": "314ef32c08f885d2a0f75f2e80f286d29409498fed10711bc710f403f44808fc",
+          "prod-captions-first-middle": "a750307facd30a7b7f3e7f7f74fb61c59832e69d45392ac0f9e80684ab457bb5"
         }
       }
     ]
@@ -22440,7 +22594,7 @@
   {
     "old_panel": "072-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22484,11 +22638,13 @@
         "original_sha256": "c43e7a70a18ec66212b731326e988942e4f248c0d745227264270d3a50a3a21d",
         "disposition": "rewrite",
         "beats": [
-          "hf-intended-solution-counterexample"
+          "hf-intended-solution-counterexample",
+          "prod-captions-second-middle"
         ],
-        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "hf-intended-solution-counterexample": "67285d35d58bc1d01d936fbd6a73d756a0a0639a0af4f504d416c6f2a431e912"
+          "hf-intended-solution-counterexample": "67285d35d58bc1d01d936fbd6a73d756a0a0639a0af4f504d416c6f2a431e912",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -22914,7 +23070,7 @@
   {
     "old_panel": "075-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22951,12 +23107,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-interpretation-transcripts",
-          "prod-interpretation-dataset-expansion"
+          "prod-interpretation-dataset-expansion",
+          "prod-captions-first-late"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
           "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
-          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6"
+          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -23278,7 +23436,7 @@
   {
     "old_panel": "076-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23322,11 +23480,13 @@
         "original_sha256": "bed6adc724b39ccbaa8b1f3a0c50a1f7d8ab8afd8c55fb4c00d5d6b97980463b",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-model-identity"
+          "prod-interpretation-model-identity",
+          "prod-captions-second-late"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-model-identity": "4aa77d3d40fa315485a222414fa1b0a899a926237688ab279f0042aee13ff33c"
+          "prod-interpretation-model-identity": "4aa77d3d40fa315485a222414fa1b0a899a926237688ab279f0042aee13ff33c",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -23398,7 +23558,7 @@
   {
     "old_panel": "077-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23418,11 +23578,13 @@
         "original_sha256": "3357faa67f780b63c8ce03ffc5a13d6035a49d342a8c12304ebd5bd7a72540bc",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-reconstruction"
+          "prod-interpretation-reconstruction",
+          "prod-captions-first-late"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-reconstruction": "3ef25da97a840bd356081efa5bdc39a92043e3a97d57cbd1a538b196f6e3fb3b"
+          "prod-interpretation-reconstruction": "3ef25da97a840bd356081efa5bdc39a92043e3a97d57cbd1a538b196f6e3fb3b",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -23638,7 +23800,7 @@
   {
     "old_panel": "078-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23658,11 +23820,13 @@
         "original_sha256": "9a1bb7cefa829c2f63bdda004f12019c699bcc25369d6c67c57a2351c6fa8a2b",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-perspective"
+          "prod-analysis-limits-perspective",
+          "prod-captions-first-late"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed lettering element.",
+        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-perspective": "e16570883f2ed56f393f3077d0567f602985208029cc70367bd488dc224e9f8e"
+          "prod-analysis-limits-perspective": "e16570883f2ed56f393f3077d0567f602985208029cc70367bd488dc224e9f8e",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -23910,7 +24074,7 @@
   {
     "old_panel": "079-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23954,11 +24118,13 @@
         "original_sha256": "98edb886624190c25033d93e19196240a2790fa49357fae877faed2053351358",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-action-versus-label"
+          "prod-analysis-limits-action-versus-label",
+          "prod-captions-second-late"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-action-versus-label": "5081652584af1bf6bb57384dee5be1f6eba288237241b0b8ff91430f6f93dbbe"
+          "prod-analysis-limits-action-versus-label": "5081652584af1bf6bb57384dee5be1f6eba288237241b0b8ff91430f6f93dbbe",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -23966,7 +24132,7 @@
   {
     "old_panel": "080-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23986,11 +24152,13 @@
         "original_sha256": "eb7ecd11b06ca915f86a1abcd425b7ec3746d94a22ffd47de6c8066629a6d5fb",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-report-volume"
+          "prod-interpretation-report-volume",
+          "prod-captions-first-late"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1"
+          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -24220,7 +24388,7 @@
   {
     "old_panel": "081-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24271,12 +24439,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-analysis-limits-relationship",
-          "prod-analysis-limits-configuration"
+          "prod-analysis-limits-configuration",
+          "prod-captions-second-late"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed lettering element.",
+        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
-          "prod-analysis-limits-configuration": "bc9e5a8af63a574e289832c6c597e24ce3430a78743eab47ab71761fe2b50f7d"
+          "prod-analysis-limits-configuration": "bc9e5a8af63a574e289832c6c597e24ce3430a78743eab47ab71761fe2b50f7d",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -24468,7 +24638,7 @@
   {
     "old_panel": "082-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24519,12 +24689,14 @@
         "disposition": "rewrite",
         "beats": [
           "prod-analysis-limits-missing-tampering",
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-relationship",
+          "prod-captions-second-late"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed lettering element.",
+        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
           "prod-analysis-limits-missing-tampering": "0b18d4dd92410d68c1d0bd790f003874424c47827d4b7008a733b9ee91810c38",
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -24642,7 +24814,7 @@
   {
     "old_panel": "083-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24662,11 +24834,13 @@
         "original_sha256": "692d9f79d5707615b27f4da8d6c38958e536bd608517e2e1a600014ff0a0b159",
         "disposition": "combine",
         "beats": [
-          "prod-observer-integrity-scan"
+          "prod-observer-integrity-scan",
+          "prod-captions-first-late"
         ],
-        "reason": "Revised 12 September in a commit with no matching transcript; its point is METR’s footnote and stays with that source. Reviewed lettering element.",
+        "reason": "Revised 12 September in a commit with no matching transcript; its point is METR’s footnote and stays with that source. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-observer-integrity-scan": "f5714ff8550ccfec163967fed2d6c61fcc8c64f7a4d27581d8e823455e57305f"
+          "prod-observer-integrity-scan": "f5714ff8550ccfec163967fed2d6c61fcc8c64f7a4d27581d8e823455e57305f",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -24946,7 +25120,7 @@
   {
     "old_panel": "085-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24978,11 +25152,13 @@
         "original_sha256": "15d0061e71d9fbe21b23f033c244a0c24fafe9e05d49dd6eb5e76e0a1bff44bf",
         "disposition": "combine",
         "beats": [
-          "prod-observer-mediation"
+          "prod-observer-mediation",
+          "prod-captions-second-late"
         ],
-        "reason": "Revised 12 September in a commit with no matching transcript; access, purpose and responsibility differences are kept. Reviewed lettering element.",
+        "reason": "Revised 12 September in a commit with no matching transcript; access, purpose and responsibility differences are kept. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9"
+          "prod-observer-mediation": "d16ef31c7b7ea006941f705f34f0fc5d9801be707ded8d055ab4eb2b40d007c9",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -26366,7 +26542,7 @@
   {
     "old_panel": "090-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -26398,11 +26574,13 @@
         "original_sha256": "c3e6f62f86014c23df82d7249fd088a1b7e3e71414e21cf1c587da4643ce6303",
         "disposition": "combine",
         "beats": [
-          "prod-observer-thesis"
+          "prod-observer-thesis",
+          "prod-captions-second-late"
         ],
-        "reason": "Revised 12 September in a commit with no matching transcript; the layered-compression point is kept. Reviewed lettering element.",
+        "reason": "Revised 12 September in a commit with no matching transcript; the layered-compression point is kept. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
         "target_sha256": {
-          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42"
+          "prod-observer-thesis": "0cda4a1e9a6d36029ff43c84ea591ba8c8ca89c4bf0be714dbbadd04654d6a42",
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
         }
       }
     ]
@@ -26566,7 +26744,7 @@
   {
     "old_panel": "091-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -26589,12 +26767,14 @@
         "disposition": "combine",
         "beats": [
           "hf-hardening-metadata",
-          "hf-hardening-rotation"
+          "hf-hardening-rotation",
+          "prod-captions-first-late"
         ],
-        "reason": "Revised 12 September in a commit with no matching transcript; reuse prevention is implicit in rotation and not stated as a finding. Reviewed lettering element.",
+        "reason": "Revised 12 September in a commit with no matching transcript; reuse prevention is implicit in rotation and not stated as a finding. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
         "target_sha256": {
           "hf-hardening-metadata": "92f601025810aadd2630b6a3d3ce3ca5eb65bee560cc99c4f8e4f6675eeac45f",
-          "hf-hardening-rotation": "2dbd23d4307b3f0fe5215409d120dc94a88f4b6eece188e6d4e9549d99fb8d0a"
+          "hf-hardening-rotation": "2dbd23d4307b3f0fe5215409d120dc94a88f4b6eece188e6d4e9549d99fb8d0a",
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
     ]
@@ -26830,11 +27010,13 @@
         "original_sha256": "fc46a86f868d9e331b74723d221ad901c600cc8f067561244ad20a569f8d0405",
         "disposition": "rewrite",
         "beats": [
-          "hf-peer-authorization-resumption"
+          "hf-peer-authorization-resumption",
+          "prod-captions-second-middle"
         ],
-        "reason": "The decision/authorization distinction stays in one sentence; the permission-gap thesis is dropped.",
+        "reason": "The decision/authorization distinction stays in one sentence; the permission-gap thesis is dropped. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "hf-peer-authorization-resumption": "f5917f19ee047beaa3740280bb0131b7fc060a5f8b82b6439581cfe37669ab90"
+          "hf-peer-authorization-resumption": "f5917f19ee047beaa3740280bb0131b7fc060a5f8b82b6439581cfe37669ab90",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -27034,11 +27216,13 @@
         "original_sha256": "9342b5b48716ae476d620996a99789970d130377bd3d15ebd830eae9d292d980",
         "disposition": "rewrite",
         "beats": [
-          "hf-local-restraint-continues"
+          "hf-local-restraint-continues",
+          "prod-captions-second-middle"
         ],
-        "reason": "Local restraint without a wider stop stays; the generalization about other runs moves to METR’s overall finding.",
+        "reason": "Local restraint without a wider stop stays; the generalization about other runs moves to METR’s overall finding. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "hf-local-restraint-continues": "94bb8f4898982f92b3ea04587bbaf533a970707fcddb39a4885d89399de720df"
+          "hf-local-restraint-continues": "94bb8f4898982f92b3ea04587bbaf533a970707fcddb39a4885d89399de720df",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]
@@ -27294,11 +27478,13 @@
         "original_sha256": "513b31b8d03a25296fbe339c63977e0d9b55831d998b30b1266da8af90327d3b",
         "disposition": "rewrite",
         "beats": [
-          "hf-ethics-override-finding"
+          "hf-ethics-override-finding",
+          "prod-captions-second-middle"
         ],
-        "reason": "Different responses on one board stay; the argument about a single unbroken intention is reduced to that observation.",
+        "reason": "Different responses on one board stay; the argument about a single unbroken intention is reduced to that observation. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources.",
         "target_sha256": {
-          "hf-ethics-override-finding": "627557b3d38ac660eb970134feba58da84fb1123187c640677439412e4f3b5f9"
+          "hf-ethics-override-finding": "627557b3d38ac660eb970134feba58da84fb1123187c640677439412e4f3b5f9",
+          "prod-captions-second-middle": "aa67f48ec9b397fbab8dfa39e9126044506afb3335609ebb95bf4c275690ff2f"
         }
       }
     ]

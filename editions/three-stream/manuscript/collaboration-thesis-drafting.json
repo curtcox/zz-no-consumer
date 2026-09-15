@@ -637,7 +637,7 @@
     "original_timezone": "UTC",
     "precision": "millisecond",
     "chronology_basis": "A stored assistant message at 03:06:35 UTC, Write calls at 03:07:07 and 03:07:38 and an Edit at 03:07:49, in Claude session 6ac98831 (claude-opus-5). They follow Curt’s 03:02 message asking for the highest-impact changes. The commit carrying them, 584655652, is dated 03:22:03 UTC.",
-    "source_limit": "Transcript text matching places the frozen wording of pages 039 and 040 in these calls; commit metadata does not. What the calls write is script. The windows, ChatGPT’s answer, Curt’s concession and the legal pad are invented, and Claude’s provenance lines say so. The 5 September byline and source registration is a separate beat. A “main-board attack sample” frame edit on 7 September and the “(PARAPHRASED)” window labels on 12 September match no transcript; their points stay with the sources and no actor is guessed.",
+    "source_limit": "Transcript text matching places the frozen wording of pages 039 and 040 in these calls; commit metadata does not. What the calls write is script. The windows, ChatGPT’s answer, Curt’s concession and the legal pad are invented, and Claude’s provenance lines say so. Later changes are separate beats at their own records: Claude’s 5 September byline and source registration, Codex’s 7 September “main-board attack sample” frame wording, and Codex’s 12 September “(PARAPHRASED)” window labels.",
     "status": "detailed-draft",
     "beats": [
       {
@@ -1086,7 +1086,7 @@
           {
             "old_panel": "040-03",
             "disposition": "rewrite",
-            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned."
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording is Codex’s, placed at its own command."
           },
           {
             "old_panel": "040-04",
@@ -1644,7 +1644,7 @@
     "original_timezone": "UTC",
     "precision": "millisecond",
     "chronology_basis": "Two stored shell-command tool calls at 14:56:59 and 14:57:15 UTC and a message at 14:57:34, in Claude session 10748eb5 (claude-fable-5-1). The commit carrying the byline, 211fbe2c6, is dated 15:15:42 UTC.",
-    "source_limit": "Claude’s message says it fetched the post and confirmed everything page 039 attributes to it; the fetch is not among the selected records. The preserved copy of the post has no culture contrast, and it quotes only the first clause of panel 5’s citation. The 14:56:59 provenance line lists persistence of context among the lettered claims; sixteen seconds later Claude removes it. A page-note rewording in commit 59641f9ca, 15:51:57 UTC, matches no transcript and is not assigned.",
+    "source_limit": "Claude’s message says it fetched the post and confirmed everything page 039 attributes to it; the fetch is not among the selected records. The preserved copy of the post has no culture contrast, and it quotes only the first clause of panel 5’s citation. The 14:56:59 provenance line lists persistence of context among the lettered claims; sixteen seconds later Claude removes it. Claude rewords the page note’s admission sentence at 15:20:51 in the same session, a substring replacement the attribution index cannot match; it is a page note, not lettering.",
     "status": "detailed-draft",
     "beats": [
       {
