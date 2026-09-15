@@ -95,17 +95,33 @@ the named command before relying on one.
    period like the earlier aggregate scenes. Decide at allocation whether they instead enter as
    dated encounters with the report. One beat runs backwards within its scene:
    `june-persistent-users-different-lifetimes`.
-8. **Allocation, preview and handoff.** No page windows exist for the detailed manuscript;
-   the compressed chronology study stays withdrawn. Then representative thumbnails, full
-   read-through, print-size checks and the resynchronization handoff (plan steps 4–8).
+8. **Incident allocation and storyboards — done this session, draft.** The incident movement
+   now has page windows and full storyboard coverage. `scripts/edition_pages.py allocate --apply`
+   wrote `incident/windows.json`: **297 pages** (138 timed, 159 interval) for all 590 incident
+   beats, under the interval-page rule the owner set on 15 September (broad-dated beats on a
+   page whose clocks show their whole span, after the last timed page inside it; only interval
+   pages overlap). **590/590 incident beats are storyboarded** in `incident/storyboards/*.json`,
+   keyed by beat ID. `edition_pages.py preview` renders full pages to ignored
+   `256t/editions/incident-preview/`. This is storyboard-stage placeholder art, not approved
+   lettering; page numbers here are derived from window order, not canonical. Still open for the
+   incident movement: representative-thumbnail and full print-size read-through, and the
+   collaboration movement's own allocation and boards. Then the resynchronization handoff
+   (plan steps 4–8). The compressed chronology study stays withdrawn.
 
 ## Next
 
-- Continue re-anchoring the 97-beat Claude cluster by the same method: line origins from
-  `attribution.json`, then the applied record, then any earlier file that already held the
-  line; check quoted critics and transcripts against their vault copies. Remaining sequences,
-  in legacy order: accountability 099–102, defense 101,
-  aftermath 103–105, wiki overlap and hypotheses 109–111, downstream use 112–118.
+- **Review the incident preview** (`edition_pages.py preview`, then open the generated
+  `index.html`): the representative cases from plan step 7 — a single-active-stream page, a
+  busy page, a seconds-long sequence, an interval page, the July disclosures — then a full
+  read-through at print size. Note any beats whose composition or lettering needs revision
+  (edit the beat, refresh the board's `source` snapshot, regenerate).
+- **Allocate and storyboard the collaboration movement** the same way once its beats settle;
+  `edition_pages.py` is incident-only today (`MOVEMENT = "incident"`).
+- Continue re-anchoring the 97-beat Claude cluster by the same method (paused for the incident
+  push, owner decision 15 September): line origins from `attribution.json`, then the applied
+  record, then any earlier file that already held the line; check quoted critics and transcripts
+  against their vault copies. Remaining sequences, in legacy order: accountability 099–102,
+  defense 101, aftermath 103–105, wiki overlap and hypotheses 109–111, downstream use 112–118.
   Codex's 2 September 16:10:12 patch wrote most of Chapter 6 (pages 089–104 then). It has two
   instant slots left, so give the remaining Chapter 6 beats spans to its other records.
 - Apply the same method to the 68-beat Codex cluster and to the 047-02/047-05 theses.
@@ -118,6 +134,8 @@ the named command before relying on one.
 python3 scripts/working_edition.py check --draft
 python3 scripts/working_edition.py audit
 python3 -m unittest discover -s scripts -p test_production_history.py
+python3 scripts/edition_pages.py check     # incident windows + storyboards
+python3 scripts/edition_pages.py status     # storyboard coverage by scene file
 ```
 
 Passing checks never mean the book is complete.

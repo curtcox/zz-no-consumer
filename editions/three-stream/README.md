@@ -81,7 +81,23 @@ python3 scripts/working_edition.py manuscript
 python3 scripts/pagination.py edition --root editions/three-stream --draft
 python3 scripts/pagination.py edition --root editions/three-stream --draft --apply
 python3 scripts/working_edition.py check --draft
+python3 scripts/edition_pages.py allocate            # incident three-row page plan
+python3 scripts/edition_pages.py allocate --apply    # writes incident/windows.json
+python3 scripts/edition_pages.py check               # windows + storyboards
+python3 scripts/edition_pages.py preview             # full pages → 256t/editions/incident-preview/
+python3 scripts/edition_pages.py status              # storyboard coverage by scene file
 ```
+
+The incident movement is allocated and fully storyboarded (draft). `edition_pages.py`
+merges the incident manuscript beats into 297 three-row page windows under the owner's
+interval-page rule (a beat known only to a day or a longer span goes on an interval page
+whose corner clocks show that whole span, placed after the last timed page inside it; only
+interval pages overlap the page before them) and renders full 2800×4000 pages with lettered
+storyboard placeholders. Storyboards live in `incident/storyboards/*.json`, one file per
+manuscript file, **keyed by beat ID** so re-allocation never invalidates a composition; each
+board snapshots its beat's frame and lettering, so a script change forces re-review. This is
+storyboard-stage placeholder art, not approved lettering, and the derived page numbers are not
+canonical identities. The collaboration movement is not yet allocated.
 
 The dry run prints **all** old/event/new mappings before any write. Allocation is
 owned by `pagination.py edition`, using the existing `panels` script splitter,
