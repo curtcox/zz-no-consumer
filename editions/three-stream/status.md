@@ -42,25 +42,27 @@ the named command before relying on one.
    creator interlude, both maxims and the nine-panel convergence grid, so their author is
    unestablished. Curt's ChatGPT export (item 1) is the remaining place to look.
 3. **Collaboration rows that do not show the row actor's act.** `working_edition.py audit`:
-   10 clocks with more than three beats (122 Claude beats at `2026-09-06T15:02:31.590Z`,
-   68 Codex beats at `2026-09-02T03:45:45.444Z`), 17 scenes describing narrator analysis, and
-   82 beats whose old wording was typed by a different actor than the row. Each needs the
+   10 clocks with more than three beats (103 Claude beats at `2026-09-06T15:02:31.590Z`,
+   68 Codex beats at `2026-09-02T03:45:45.444Z`), 16 scenes describing narrator analysis, and
+   63 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
    Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016, 031–036, 038–040,
    052, 073-04's vocabulary and 063-04's window, plus the 12–13 September caption expansions
-   (log, 14 September); branch scope 067 and 070, interpretation 073–077 (log, 15 September).
-   Seven traps found there. `attribution.json` keeps the earliest record containing a line, which
-   can be a patch the session then reports as not applied. A line can predate every transcript,
+   (log, 14 September); branch scope 067 and 070, interpretation 073–077 and analysis limits
+   078–082 (log, 15 September). Eight traps found there. `attribution.json` keeps the earliest
+   record containing a line, which can be a patch the session then reports as not applied. A line can predate every transcript,
    so the typing session only carried it forward. A script can supply a caption without its
    `> ` marker; the matcher now pairs both forms (the 12–13 September captions once reported as
    unattributed are Codex's, placed in `collaboration-caption-expansion.json`). A moved line can
    change case, so the index credits the mover (040-03's caption began as Codex's ChatGPT line).
    And a substring `.replace()` inside a line is invisible to whole-line matching: search the
    transcripts for the new wording before calling a line unattributed (040-03's frame, 039's
-   page note). Last, a search a session ran can stop short of the line that matters: Claude's
+   page note). A search a session ran can stop short of the line that matters: Claude's
    5 September METR search kept 60 lines, and METR's p. 14 admin-access line comes at 75. Read
    the stored output, not the command. A case-sensitive search misses capitalised lettering:
-   Codex's 2 September anthropomorphism audit never matched page 073's DIE.
+   Codex's 2 September anthropomorphism audit never matched page 073's DIE. And a document
+   describing a change is not the change's reason: read the act that removed the text. Page
+   082's audit row came from a rights pass, but on 12 September it was read as a security judgment.
 4. **Old-panel review.** All 606 old panels have element-level decisions (1717 elements).
    Three have no draft beat; their omission reasons are checked (log, 14 September): 105-05 and
    117-05 are staging with no claim. 009-02's caption comes from the unattributed outline
@@ -86,15 +88,21 @@ the named command before relying on one.
 8. **Allocation, preview and handoff.** No page windows exist for the detailed manuscript;
    the compressed chronology study stays withdrawn. Then representative thumbnails, full
    read-through, print-size checks and the resynchronization handoff (plan steps 4–8).
+9. **Page 082 as the operational-detail example.** `research/quotation-and-paraphrase-2026-09-12.md`
+   gives page 082 as a case where paraphrase remains right because the wording is an attack
+   procedure. The records do not support that reason. Codex's 2 September security review called
+   `echo REAL; sleep` / `SPOOFTEST` benign before and after the rights pass that removed it. METR
+   prints both strings, and its footnote 38, not the strings, holds the mechanism. Pages 079 and
+   081 lost verbatim source text in the same pass. 081's "paraphrased" METR card is METR's sentence.
+   The working edition now registers all six strings as `unresolved` for gate 9. Whether to
+   correct the research note's example is Curt's decision (log, 15 September).
 
 ## Next
 
-- Continue re-anchoring the 147-beat Claude cluster by the same method: line origins from
+- Continue re-anchoring the 103-beat Claude cluster by the same method: line origins from
   `attribution.json`, then the applied record, then any earlier file that already held the
   line; check quoted critics and transcripts against their vault copies. Remaining sequences,
-  in legacy order: analysis limits 078–082 (starting from Codex's 2 September 15:48:25 patch;
-  that clock and 15:34:11 already carry three beats each, and 080-01/080-02 are held on
-  `prod-analysis-limits-uncaught`), assurance 098, accountability 099–102, defense 101,
+  in legacy order: assurance 098, accountability 099–102, defense 101,
   aftermath 103–105, wiki overlap and hypotheses 109–111, downstream use 112–118.
 - Apply the same method to the 68-beat Codex cluster and to the 047-02/047-05 theses.
 - Add ordering constraints for the July day-only beats as sources support them.

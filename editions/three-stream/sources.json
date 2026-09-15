@@ -1930,5 +1930,82 @@
     "admission": "Namespace denominator: Claude's command fills the inserted panel with the 20 million entry dump and the caption THE BOARD IS ABOUT SIX PERCENT OF THE ENTRIES IN THIS DUMP., rewrites the next frame to keep three units apart, and adds page notes about the units and the critic's figure. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
+  },
+  "PROD-c502b0b9970a": {
+    "available": "2026-09-02T15:50:53.717Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex's patch changes page 081's provenance from raw-agent-text to 'exact OpenAI report excerpt' and its page note to say the excerpt is attributed on-panel, with a capitalisation fix on page 085 and page statuses in the manifest. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-e4db1aa064b8": {
+    "available": "2026-09-02T15:52:35.211Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation chapter drafting: Codex's patch moves pages 075–088 to review and writes in the chapter brief that they passed factual and editorial review on 2 September 2026. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-7a3c2192160b": {
+    "available": "2026-09-02T16:48:50.441Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Security review: Codex reports that the story pages pass the operational-safety review and that the public site's research dossier and glossary carry a more reproducible attack chain than the story. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-a9b09e4b2f6c": {
+    "available": "2026-09-02T16:49:47.417Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Security review: Codex's patch adds the security and sensitivity review, passing the story script with final-art controls and calling page 082's command/output pair a benign transcript-integrity demonstration, not an attack procedure. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-7348ba6829d9": {
+    "available": "2026-09-02T19:29:21.915Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex's patch removes the exact-string registrations from pages 062, 079, 081 and 082 and replaces the metadata fields, OpenAI's log sentence and the spoof-test pair with attributed summaries. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-32a11d5dbb9b": {
+    "available": "2026-09-02T19:29:25.345Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex reports that the canonical story pages now use attributed summaries instead of the 23 held source strings. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-dfd634ed7357": {
+    "available": "2026-09-02T19:32:58.174Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex's patch rewrites the permissions audit; its row for page 082 records the command/output example as mechanism abstracted, with the result cleared by paraphrase. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-84a86b3d5617": {
+    "available": "2026-09-03T23:35:31.251Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "First read-through: The command returns page scripts 072–078 to the session. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-8c0c87c43415": {
+    "available": "2026-09-03T23:35:33.889Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "First read-through: The command returns page scripts 079–085 to the session. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-c3ec5f305bff": {
+    "available": "2026-09-12T15:30:58.856Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Quotation rule correction: The command returns the permissions audit, whose applied-disposition table records page 082 as mechanism abstracted with the result cleared by paraphrase. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-bda892378f11": {
+    "available": "2026-09-12T15:41:24.720Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Quotation rule correction: Claude's command writes the quotation-and-paraphrase research note, whose table gives page 082 as the example of paraphrase for operational detail. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }

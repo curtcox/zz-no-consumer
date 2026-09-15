@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 385,
-  "drafted_beats": 1117,
+  "scenes": 389,
+  "drafted_beats": 1109,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -3899,7 +3899,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-01",
       "draft_beats": [
-        "prod-analysis-limits-perspective"
+        "prod-analysis-limits-codex-page-078"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3908,7 +3908,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-02",
       "draft_beats": [
-        "prod-analysis-limits-illustration"
+        "prod-analysis-limits-codex-page-078"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3917,7 +3917,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-03",
       "draft_beats": [
-        "prod-analysis-limits-perspective",
+        "prod-analysis-limits-codex-page-078",
         "prod-captions-first-late"
       ],
       "detail_review": "elements-reviewed",
@@ -3927,7 +3927,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-04",
       "draft_beats": [
-        "prod-analysis-limits-bias"
+        "prod-analysis-limits-codex-page-078"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3936,7 +3936,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "078-05",
       "draft_beats": [
-        "prod-analysis-limits-intent"
+        "prod-analysis-limits-codex-page-078"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3945,7 +3945,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-01",
       "draft_beats": [
-        "prod-analysis-limits-repository-action"
+        "prod-analysis-limits-codex-page-079"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3954,7 +3954,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-02",
       "draft_beats": [
-        "prod-analysis-limits-metadata"
+        "prod-analysis-limits-codex-page-079",
+        "prod-analysis-limits-codex-held-pages"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3963,7 +3964,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-03",
       "draft_beats": [
-        "prod-analysis-limits-first-analysis"
+        "prod-analysis-limits-codex-page-079"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3972,7 +3973,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-04",
       "draft_beats": [
-        "prod-analysis-limits-second-analysis"
+        "prod-analysis-limits-codex-page-079"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3981,7 +3982,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "079-05",
       "draft_beats": [
-        "prod-analysis-limits-action-versus-label",
+        "prod-analysis-limits-codex-page-079",
         "prod-captions-second-late"
       ],
       "detail_review": "elements-reviewed",
@@ -3991,7 +3992,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-01",
       "draft_beats": [
-        "prod-analysis-limits-uncaught",
+        "prod-analysis-limits-codex-page-080",
         "prod-captions-first-late"
       ],
       "detail_review": "elements-reviewed",
@@ -4001,7 +4002,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-02",
       "draft_beats": [
-        "prod-analysis-limits-uncaught"
+        "prod-analysis-limits-codex-page-080"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4010,7 +4011,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-03",
       "draft_beats": [
-        "prod-analysis-limits-late-errors"
+        "prod-analysis-limits-codex-page-080"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4019,7 +4020,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-04",
       "draft_beats": [
-        "prod-analysis-limits-uncaught"
+        "prod-analysis-limits-codex-page-080"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4028,7 +4029,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-05",
       "draft_beats": [
-        "prod-analysis-limits-uncaught"
+        "prod-analysis-limits-codex-page-080"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4037,7 +4038,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-01",
       "draft_beats": [
-        "prod-analysis-limits-openai-assurance"
+        "prod-analysis-limits-codex-page-081",
+        "prod-analysis-limits-codex-held-pages"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4046,7 +4048,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-02",
       "draft_beats": [
-        "prod-analysis-limits-retained-finding"
+        "prod-analysis-limits-codex-page-081"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4055,8 +4057,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-03",
       "draft_beats": [
-        "prod-analysis-limits-relationship",
-        "prod-analysis-limits-configuration",
+        "prod-analysis-limits-codex-page-081",
+        "prod-analysis-limits-codex-log-merge",
         "prod-captions-second-late"
       ],
       "detail_review": "elements-reviewed",
@@ -4066,7 +4068,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "081-04",
       "draft_beats": [
-        "prod-analysis-limits-relationship"
+        "prod-analysis-limits-codex-page-081"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4075,7 +4077,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-01",
       "draft_beats": [
-        "prod-analysis-limits-worked-spoof"
+        "prod-analysis-limits-codex-page-082",
+        "prod-analysis-limits-codex-held-pages"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4084,7 +4087,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-02",
       "draft_beats": [
-        "prod-analysis-limits-worked-spoof"
+        "prod-analysis-limits-codex-page-082",
+        "prod-analysis-limits-codex-held-pages"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4093,7 +4097,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-03",
       "draft_beats": [
-        "prod-analysis-limits-detected-floor"
+        "prod-analysis-limits-codex-page-082"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4102,7 +4106,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-04",
       "draft_beats": [
-        "prod-analysis-limits-different-manipulations"
+        "prod-analysis-limits-codex-page-082"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4111,8 +4115,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "082-05",
       "draft_beats": [
-        "prod-analysis-limits-relationship",
-        "prod-analysis-limits-missing-tampering",
+        "prod-analysis-limits-codex-page-082",
         "prod-captions-second-late"
       ],
       "detail_review": "elements-reviewed",
@@ -6012,8 +6015,8 @@
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 58,
-    "Codex": 174,
-    "Claude": 295
+    "Codex": 183,
+    "Claude": 278
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717

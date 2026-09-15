@@ -23668,7 +23668,7 @@
   {
     "old_panel": "078-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23676,11 +23676,11 @@
         "original_sha256": "6a2b991d34a3f5895d61f54d26767d4ac7e2fb35cda163d38eadb25e418dd4fe",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-perspective"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-perspective": "e16570883f2ed56f393f3077d0567f602985208029cc70367bd488dc224e9f8e"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       },
       {
@@ -23688,11 +23688,11 @@
         "original_sha256": "b54c053894cdbc8034da0f8785884cc436820e80b6a3548e8dee72de36fec68a",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-perspective"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-perspective": "e16570883f2ed56f393f3077d0567f602985208029cc70367bd488dc224e9f8e"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       }
     ]
@@ -23700,7 +23700,7 @@
   {
     "old_panel": "078-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23708,11 +23708,11 @@
         "original_sha256": "3cd4def1ffeacfc748198516c2a617342246d507c04465133188cc1518032a09",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-illustration"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-illustration": "f688732eec807e61dff17b21a7d547bb9b1c1d42e337ecf7ad016758f909d285"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       },
       {
@@ -23720,11 +23720,11 @@
         "original_sha256": "82eb118992e0cb1425adf811f843fed0510920ba894521fcb6085c47ce8fa03b",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-illustration"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-illustration": "f688732eec807e61dff17b21a7d547bb9b1c1d42e337ecf7ad016758f909d285"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       },
       {
@@ -23732,11 +23732,11 @@
         "original_sha256": "91da72258fd0ff6c172c80c3aec9b216f6ed10f29e725e216eb71beae9e938ab",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-illustration"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-illustration": "f688732eec807e61dff17b21a7d547bb9b1c1d42e337ecf7ad016758f909d285"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       }
     ]
@@ -23744,7 +23744,7 @@
   {
     "old_panel": "078-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23752,11 +23752,11 @@
         "original_sha256": "a25196eec16126e5045ea484d0b49df8c66c2a0810bb9f3f070573d5a4d07b88",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-perspective"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-perspective": "e16570883f2ed56f393f3077d0567f602985208029cc70367bd488dc224e9f8e"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       },
       {
@@ -23764,13 +23764,13 @@
         "original_sha256": "9a1bb7cefa829c2f63bdda004f12019c699bcc25369d6c67c57a2351c6fa8a2b",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-perspective",
-          "prod-captions-first-late"
+          "prod-captions-first-late",
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
+        "reason": "The expanded caption’s wording is Codex’s 13 September act, placed at its tool call; it replaced Codex’s 2 September caption, shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-perspective": "e16570883f2ed56f393f3077d0567f602985208029cc70367bd488dc224e9f8e",
-          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941",
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       }
     ]
@@ -23778,7 +23778,7 @@
   {
     "old_panel": "078-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23786,11 +23786,11 @@
         "original_sha256": "06afc8cb990e37d51c0c15629076ea527af871c73103b6eefaaceb678faadf4d",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-bias"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-bias": "2e643defe66d65837ce6058c4842a2e3f5bbd415a54becedc3ef1244744f3aad"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       },
       {
@@ -23798,11 +23798,11 @@
         "original_sha256": "fed68bf6cac8cb353378302e7191be87bbdd923ff7a4c9014b7ce5816abc4fb5",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-bias"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-bias": "2e643defe66d65837ce6058c4842a2e3f5bbd415a54becedc3ef1244744f3aad"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       }
     ]
@@ -23810,7 +23810,7 @@
   {
     "old_panel": "078-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23818,11 +23818,11 @@
         "original_sha256": "2429524587645e7a0ccb0b61a749dc30cd2bacdd47d2192f262832f9deee8816",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-intent"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-intent": "739ee5e7376429be83883c33b4ed3efd7a8e796017e80d45b798709fa96a9aaf"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       },
       {
@@ -23830,11 +23830,11 @@
         "original_sha256": "bc8cf4c9cb743a100e3a0ef5a1a5262d6dd8eab5f20821809ed8151002d93fb5",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-intent"
+          "prod-analysis-limits-codex-page-078"
         ],
-        "reason": "Keep METR’s perspective-adoption and uncertainty findings, without fictional analysis text or an inferred deliberate lie. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-intent": "739ee5e7376429be83883c33b4ed3efd7a8e796017e80d45b798709fa96a9aaf"
+          "prod-analysis-limits-codex-page-078": "bc5372798829d2091e00ffb54b7791cc6806635a0d1f1eb1700b2ff4e35250c2"
         }
       }
     ]
@@ -23842,7 +23842,7 @@
   {
     "old_panel": "079-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23850,11 +23850,11 @@
         "original_sha256": "041cd89ad4c00fcc277b7ca3ebde7442ecf7c483a834a2cfcf9960a69bbc1f4a",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-repository-action"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-repository-action": "db386276980cbb7b2ea6c83abf03ce597f530bb8009ee9a7378ed063df9751cb"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23862,11 +23862,11 @@
         "original_sha256": "e865c7e33bdca7a6bd021d682265260532611a24c0ba9638ece57784fa074ab6",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-repository-action"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-repository-action": "db386276980cbb7b2ea6c83abf03ce597f530bb8009ee9a7378ed063df9751cb"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23874,11 +23874,11 @@
         "original_sha256": "84cea8a77469af43cda5112d14776a97a9327ebb6442350dd15dd9f99b427f3e",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-repository-action"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-repository-action": "db386276980cbb7b2ea6c83abf03ce597f530bb8009ee9a7378ed063df9751cb"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       }
     ]
@@ -23886,7 +23886,7 @@
   {
     "old_panel": "079-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23894,11 +23894,13 @@
         "original_sha256": "7ceef273ac56727270bba1a527a39ce7ee306aa0436c652959a2048ae94a32e2",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-metadata"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed frame element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-metadata": "4d21bc04d8cf7fbcf2ee58c2c740c904dfe6a59d60558a58a05e86709652d3a6"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23906,11 +23908,13 @@
         "original_sha256": "d924baa9ef97a293c21adae714bd1f7021cd03700ff90a8a444d598c3fcd2456",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-metadata"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-metadata": "4d21bc04d8cf7fbcf2ee58c2c740c904dfe6a59d60558a58a05e86709652d3a6"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23918,11 +23922,13 @@
         "original_sha256": "532b11f47657a9881d61d7585015d9997b90587906aa44d418b4084c9e8097ae",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-metadata"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-metadata": "4d21bc04d8cf7fbcf2ee58c2c740c904dfe6a59d60558a58a05e86709652d3a6"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23930,11 +23936,13 @@
         "original_sha256": "5cbc81273205bd813dd843baf4cc621072eb1077993670ed78d980986f5cc5a8",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-metadata"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-metadata": "4d21bc04d8cf7fbcf2ee58c2c740c904dfe6a59d60558a58a05e86709652d3a6"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       }
     ]
@@ -23942,7 +23950,7 @@
   {
     "old_panel": "079-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23950,11 +23958,11 @@
         "original_sha256": "858ce14247dc101dc5de060b7888a5784f7d78303c58df0eba2a705ecf958133",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-first-analysis"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-first-analysis": "68b19ae9b6344f39c99c989e3ee18d59d6b7afd475a0eb9b9e2f7b91d33f35b1"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23962,11 +23970,11 @@
         "original_sha256": "879006d29d8a26392dea56eb890d20f1f73421a5c1498a4345b4d48d1972e032",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-first-analysis"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-first-analysis": "68b19ae9b6344f39c99c989e3ee18d59d6b7afd475a0eb9b9e2f7b91d33f35b1"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -23974,11 +23982,11 @@
         "original_sha256": "1848d27a70cac72a5d770e3512c1ec025ea66a075ae9b21c5e92d1d442765e7a",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-first-analysis"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-first-analysis": "68b19ae9b6344f39c99c989e3ee18d59d6b7afd475a0eb9b9e2f7b91d33f35b1"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       }
     ]
@@ -23986,7 +23994,7 @@
   {
     "old_panel": "079-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23994,11 +24002,11 @@
         "original_sha256": "e2b0247608e927d693d18e62769e8a61ba522ae4780eb9e49a555686b269855c",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-second-analysis"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-second-analysis": "f263c051faa2226578e733765a2c7af384a6cecbd6662607155c21dc3aae75f0"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -24006,11 +24014,11 @@
         "original_sha256": "e63d078c247979b20815c24877fc7ffbbef2164eaba40b3dc5f1b99ccd9b7da5",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-second-analysis"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-second-analysis": "f263c051faa2226578e733765a2c7af384a6cecbd6662607155c21dc3aae75f0"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       }
     ]
@@ -24018,7 +24026,7 @@
   {
     "old_panel": "079-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24026,11 +24034,11 @@
         "original_sha256": "6f300a5277c3c34fe79d636933ddf6186d0b6f3db88a89ec4cb1ed115c97ec2c",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-action-versus-label"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-action-versus-label": "5081652584af1bf6bb57384dee5be1f6eba288237241b0b8ff91430f6f93dbbe"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -24038,11 +24046,11 @@
         "original_sha256": "a94082b54bfe74b538bbd2bbb380ade611f773dcde0bf78f218aaf5c66a94af4",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-action-versus-label"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-action-versus-label": "5081652584af1bf6bb57384dee5be1f6eba288237241b0b8ff91430f6f93dbbe"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -24050,11 +24058,11 @@
         "original_sha256": "5592d92e88c2c06dca7a368937818efd0621218c8893f17017af3e1dd1b58fe3",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-action-versus-label"
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-action-versus-label": "5081652584af1bf6bb57384dee5be1f6eba288237241b0b8ff91430f6f93dbbe"
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       },
       {
@@ -24062,13 +24070,13 @@
         "original_sha256": "98edb886624190c25033d93e19196240a2790fa49357fae877faed2053351358",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-action-versus-label",
-          "prod-captions-second-late"
+          "prod-captions-second-late",
+          "prod-analysis-limits-codex-page-079"
         ],
-        "reason": "Separate malicious action, metadata, first omission and second rationalization. No invented first-analysis wording or proven owner permission. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
+        "reason": "The added caption’s wording is Codex’s 13 September act, placed at its tool call. It explains the panel Codex drew on 2 September, shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-action-versus-label": "5081652584af1bf6bb57384dee5be1f6eba288237241b0b8ff91430f6f93dbbe",
-          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00",
+          "prod-analysis-limits-codex-page-079": "04863810b649ef8769060dc29c5732cff7cf23d79ff2333f8b5b78ca673a3f37"
         }
       }
     ]
@@ -24082,13 +24090,13 @@
       {
         "id": "legacy-080-01-detail-01",
         "original_sha256": "86593ba8a2de33a4871f46454415a4063632854815c83a74a67ecc6df56a780c",
-        "disposition": "combine",
+        "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
@@ -24096,11 +24104,13 @@
         "original_sha256": "eb7ecd11b06ca915f86a1abcd425b7ec3746d94a22ffd47de6c8066629a6d5fb",
         "disposition": "rewrite",
         "beats": [
-          "prod-captions-first-late"
+          "prod-captions-first-late",
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). Reviewed lettering element.",
+        "reason": "The expanded caption’s wording is Codex’s 13 September act, placed at its tool call; it replaced Codex’s 2 September caption, shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941",
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       }
     ]
@@ -24114,25 +24124,25 @@
       {
         "id": "legacy-080-02-detail-01",
         "original_sha256": "10ebfa6d3ca84dc4898688a7d1813ed295d8301332fe82cd50bf7bd6984a20a1",
-        "disposition": "combine",
+        "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
         "id": "legacy-080-02-detail-02",
         "original_sha256": "b4e60c9998b8203c282662d82592d0b767e98e4b5a8458dfd64644cff91a8a24",
-        "disposition": "combine",
+        "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       }
     ]
@@ -24140,7 +24150,7 @@
   {
     "old_panel": "080-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24148,11 +24158,11 @@
         "original_sha256": "73542ebf6c0c07d4f6c0840b4fac281a4f2c01651abe9e2c91b34006cb3e5103",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-late-errors"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-late-errors": "f24c1ff8df54735d3528a4ea168c60cb6e3c234309705902e2f185a919294a0a"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
@@ -24160,11 +24170,11 @@
         "original_sha256": "190e890cf53337e5228cac3252970042c2c614f048763a59ca4f17a130863a6b",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-late-errors"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-late-errors": "f24c1ff8df54735d3528a4ea168c60cb6e3c234309705902e2f185a919294a0a"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       }
     ]
@@ -24172,7 +24182,7 @@
   {
     "old_panel": "080-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24180,11 +24190,11 @@
         "original_sha256": "e8fed17526f9fb031308ae4cd4101d81e54d2aeb668f7ba8f482d27619635921",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
@@ -24192,11 +24202,11 @@
         "original_sha256": "a662e48dd9ae58f92e80aa90e314afce2c37e685e04d08b7b28bc5d8db42cb58",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
@@ -24204,11 +24214,11 @@
         "original_sha256": "bc851b5c399ff365e66340ad061d644a701e6fc48711475ca4f83993cf9e3f8f",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       }
     ]
@@ -24222,37 +24232,37 @@
       {
         "id": "legacy-080-05-detail-01",
         "original_sha256": "cb0db9e3a2980a208712a6f4b98e7101142e91ccae87645fbaf30da419a9387f",
-        "disposition": "combine",
+        "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
         "id": "legacy-080-05-detail-03",
         "original_sha256": "176db1b89cfaa537179174eba0157d47e38bb44fd87795988953b8917fc13a25",
-        "disposition": "combine",
+        "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       },
       {
         "id": "legacy-080-05-detail-04",
         "original_sha256": "5ab1a913b348b9b00f475161d036c3054dd9ace9ab0001e77ce5634b7bd2dbe9",
-        "disposition": "combine",
+        "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-uncaught"
+          "prod-analysis-limits-codex-page-080"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
+          "prod-analysis-limits-codex-page-080": "69e6ad1cec93fdbcf28d457965440343367a5ff94c3803f009cba79ba7b88fdf"
         }
       }
     ]
@@ -24260,7 +24270,7 @@
   {
     "old_panel": "081-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24268,11 +24278,11 @@
         "original_sha256": "f156ec6633ffc64e98eaad84810744fc070c92a5504ddc0f3955b0758b7fd03d",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-openai-assurance"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-openai-assurance": "932154b069e4f8f90c4f511d14de0220b97fdbeedac65d562f34928a54d95fbd"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24280,11 +24290,13 @@
         "original_sha256": "88e0f23cf09cb27f787404957fc1dd85a1ac4c7ef49024f3a49463d9c9ec7b18",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-openai-assurance"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed lettering element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-openai-assurance": "932154b069e4f8f90c4f511d14de0220b97fdbeedac65d562f34928a54d95fbd"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       }
     ]
@@ -24292,7 +24304,7 @@
   {
     "old_panel": "081-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24300,11 +24312,11 @@
         "original_sha256": "7cab66bd7e4f68b07af7015a6fe23d46922c89bdf8856a58b37df74eead1b913",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-retained-finding"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-retained-finding": "73fca984bad01ca8b8b34d75963d62b04da66dac82bfeda61a922aa4d7cf7c42"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24312,11 +24324,11 @@
         "original_sha256": "b2fd57686a1210af9957812b5a6758fb056c175a635e99d0fca7f8957f0fa91a",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-retained-finding"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-retained-finding": "73fca984bad01ca8b8b34d75963d62b04da66dac82bfeda61a922aa4d7cf7c42"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       }
     ]
@@ -24324,7 +24336,7 @@
   {
     "old_panel": "081-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24332,13 +24344,13 @@
         "original_sha256": "66896ee9eb7e3c1f013fc18232f4fe7b530786456af7a5c0225d3271822acbb6",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship",
-          "prod-analysis-limits-configuration"
+          "prod-analysis-limits-codex-log-merge",
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed frame element.",
+        "reason": "Codex wrote the separate reconciliation panel at 15:48:25 and merged it into this panel at 16:29:57; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
-          "prod-analysis-limits-configuration": "bc9e5a8af63a574e289832c6c597e24ce3430a78743eab47ab71761fe2b50f7d"
+          "prod-analysis-limits-codex-log-merge": "0b7e260ad1f96c699ac01cb5435cf1ff0b61e2d2084ad27f521e7a1ca1303277",
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24346,13 +24358,13 @@
         "original_sha256": "e6747bbbc3332d016238eeabfadd9e4755b0eeb6e3536c1f2963cecd683ad589",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship",
-          "prod-analysis-limits-configuration"
+          "prod-analysis-limits-codex-log-merge",
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed action element.",
+        "reason": "Codex wrote the separate reconciliation panel at 15:48:25 and merged it into this panel at 16:29:57; both acts are shown (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
-          "prod-analysis-limits-configuration": "bc9e5a8af63a574e289832c6c597e24ce3430a78743eab47ab71761fe2b50f7d"
+          "prod-analysis-limits-codex-log-merge": "0b7e260ad1f96c699ac01cb5435cf1ff0b61e2d2084ad27f521e7a1ca1303277",
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24360,13 +24372,11 @@
         "original_sha256": "0e37dec4d29be1e152b340e336d85a9d6c2518090fd4666fb714386c7888d49a",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship",
-          "prod-analysis-limits-configuration"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
-          "prod-analysis-limits-configuration": "bc9e5a8af63a574e289832c6c597e24ce3430a78743eab47ab71761fe2b50f7d"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24374,15 +24384,13 @@
         "original_sha256": "7c0076666c3a771f000d42bddeeaad8012639a5fcfab6e40175673cdd53062cd",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship",
-          "prod-analysis-limits-configuration",
-          "prod-captions-second-late"
+          "prod-captions-second-late",
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
+        "reason": "The added caption’s wording is Codex’s 13 September act, placed at its tool call. It explains the panel Codex drew on 2 September, shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
-          "prod-analysis-limits-configuration": "bc9e5a8af63a574e289832c6c597e24ce3430a78743eab47ab71761fe2b50f7d",
-          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00",
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       }
     ]
@@ -24390,7 +24398,7 @@
   {
     "old_panel": "081-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24398,11 +24406,11 @@
         "original_sha256": "034baa1225c9fda8349fa88bf4405028a555f2b7b98f81ba8c12aaa290cfff68",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24410,11 +24418,11 @@
         "original_sha256": "c15adc206509c41181f8bc1219fb092588dcaae8cd5da1c40177edbb7a04ee3d",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       },
       {
@@ -24422,11 +24430,11 @@
         "original_sha256": "20e78a838e65c7cc2da69747a73198443014c2410377a3131759a0034b54986b",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-codex-page-081"
         ],
-        "reason": "Keep institutional downstream-log assurance and retained-transcript finding distinct. No invented tamper-proof architecture, real intended-vulnerability grader or proven contradiction. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-codex-page-081": "11f32fc1402496f751f8aa455ac4d9509004f46263161dde22a6f85a0c52cdc1"
         }
       }
     ]
@@ -24434,7 +24442,7 @@
   {
     "old_panel": "082-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24442,11 +24450,13 @@
         "original_sha256": "b5c2d3565125fbf5bec31ded30cf1747271719621b71ab02759ce0d2b49a15b7",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-worked-spoof"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed frame element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-worked-spoof": "ed5bc3f5e2a613d322977d96e2762b314bac63fbf59b7b9933931adca300efd3"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24454,11 +24464,11 @@
         "original_sha256": "88ca198e45a67772aadce0f8bda796128d547dfd4404ad32514a742ed33fc7fd",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-worked-spoof"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-worked-spoof": "ed5bc3f5e2a613d322977d96e2762b314bac63fbf59b7b9933931adca300efd3"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24466,11 +24476,13 @@
         "original_sha256": "72558bf39d030c1a3306f36d0a8ca149be26919039196b3ce08f273bc49c99b0",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-worked-spoof"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed lettering element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-worked-spoof": "ed5bc3f5e2a613d322977d96e2762b314bac63fbf59b7b9933931adca300efd3"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       }
     ]
@@ -24478,7 +24490,7 @@
   {
     "old_panel": "082-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24486,11 +24498,13 @@
         "original_sha256": "ad2001cd188a07598c6056a6eb3a3153f4cb6b3b021d78b1516e95cdb239d1ce",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-worked-spoof"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed frame element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-worked-spoof": "ed5bc3f5e2a613d322977d96e2762b314bac63fbf59b7b9933931adca300efd3"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24498,11 +24512,13 @@
         "original_sha256": "d5398c3e5f2b5c4d578bed39cf72b5373c58decfd2371d31a16c0d6aa1b02ed4",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-worked-spoof"
+          "prod-analysis-limits-codex-held-pages",
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed lettering element.",
+        "reason": "Codex wrote the exact wording here at 15:48:25 and replaced it with an attributed summary at 19:29:21; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-worked-spoof": "ed5bc3f5e2a613d322977d96e2762b314bac63fbf59b7b9933931adca300efd3"
+          "prod-analysis-limits-codex-held-pages": "c8b1be5d0b6feaf1e1c640d226b64967dab5880190faccb7000a1cce1771255e",
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24510,11 +24526,11 @@
         "original_sha256": "fdd563d6e560e2f62797e4a4337c0291d15bc36e919446f07459d82543e8c26f",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-worked-spoof"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-worked-spoof": "ed5bc3f5e2a613d322977d96e2762b314bac63fbf59b7b9933931adca300efd3"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       }
     ]
@@ -24522,7 +24538,7 @@
   {
     "old_panel": "082-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24530,11 +24546,11 @@
         "original_sha256": "4f5814c9586fbc77646c051cc816b3a6a67a58a846c3306f18f0cb4665e3075e",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-detected-floor"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-detected-floor": "fe0eb951163c3afc6af162a2ee396a26abceb44aef51df37d458988b532a44cf"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24542,11 +24558,11 @@
         "original_sha256": "a858817a717d72955f01e5c91b5864b0b1740604eebcbe5cce67a5915b2760cb",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-detected-floor"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-analysis-limits-detected-floor": "fe0eb951163c3afc6af162a2ee396a26abceb44aef51df37d458988b532a44cf"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       }
     ]
@@ -24554,7 +24570,7 @@
   {
     "old_panel": "082-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24562,11 +24578,11 @@
         "original_sha256": "71d6cc61798a14992bb7f100e5f77e8c7dfb50cef5851607879629a1ce23a034",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-different-manipulations"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-different-manipulations": "83ff7a6f7dc9f03aa739aa502e68bba67f3f68d48095bcded4d4e883e9dc8037"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       }
     ]
@@ -24574,7 +24590,7 @@
   {
     "old_panel": "082-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -24582,13 +24598,11 @@
         "original_sha256": "2aa00cb96ae5c2a0f4f4c29887deaf27a880e5b880ff60d17c9bd9b128ad7bcc",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-missing-tampering",
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-missing-tampering": "0b18d4dd92410d68c1d0bd790f003874424c47827d4b7008a733b9ee91810c38",
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24596,13 +24610,11 @@
         "original_sha256": "425b174b30b5e2d9946ba4c5b6ac5840109a174883faeb15796d75c949c6463d",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-missing-tampering",
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-missing-tampering": "0b18d4dd92410d68c1d0bd790f003874424c47827d4b7008a733b9ee91810c38",
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24610,13 +24622,11 @@
         "original_sha256": "246d0254c32740199d33bdecc3dbd88ce3722e4e796f4de757ee948714894e77",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-missing-tampering",
-          "prod-analysis-limits-relationship"
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-missing-tampering": "0b18d4dd92410d68c1d0bd790f003874424c47827d4b7008a733b9ee91810c38",
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4"
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       },
       {
@@ -24624,15 +24634,13 @@
         "original_sha256": "5a386c1f136a69c9e9f562ad033c6bf2aef49b58331999e810bd1d48e3dd19cf",
         "disposition": "rewrite",
         "beats": [
-          "prod-analysis-limits-missing-tampering",
-          "prod-analysis-limits-relationship",
-          "prod-captions-second-late"
+          "prod-captions-second-late",
+          "prod-analysis-limits-codex-page-082"
         ],
-        "reason": "Preserve displayed-call mismatch, known missed cases and detected floor; separate small-scale spoofing, local logs, retroactive alteration and unproven sophisticated tampering. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
+        "reason": "The added caption’s wording is Codex’s 13 September act, placed at its tool call. It explains the panel Codex drew on 2 September, shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-missing-tampering": "0b18d4dd92410d68c1d0bd790f003874424c47827d4b7008a733b9ee91810c38",
-          "prod-analysis-limits-relationship": "46b2215f4980138a4f1646ab1c80c9ffb8ae553ac31d7135108b7c49f23f45d4",
-          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00",
+          "prod-analysis-limits-codex-page-082": "e1393a9831c65b5f243194cd3df659a7bddd09f5d770f992578e554fa79b7abd"
         }
       }
     ]
