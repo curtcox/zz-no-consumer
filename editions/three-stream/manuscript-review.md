@@ -12368,6 +12368,219 @@ The narrower card says only what METR’s text supports. Page 070, written 76 se
 ]
 ```
 
+## Codex scripts the tempting story — prod-interpretation-codex-interlude
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T15:34:11.751Z → 2026-09-02T15:34:58.426Z · millisecond
+
+**Time evidence:** Stored records in Codex session 01a06270 (gpt-5.6-sol) on this Mac on 2 September: the patch adding pages 067–074 at 15:34:11 UTC, the message at 15:34:52 and the search command at 15:34:58 with its output. The boundary pages of the same patch are placed with the boundary scenes. Commit 0e4a1a31e (15:41:32 UTC) is when these pages entered the repository.
+
+**Evidence limit:** Transcript text matching places every lettered line of 073-01…03, 073-05 and 074 in the 15:34:11 patch. 073-02’s frame is Codex’s 19:42:11 edit, and the frozen 073-04 is Claude’s 6 September rewrite, placed with the vocabulary scenes; this patch’s panel 4 is shown here. Page links and references were added later and mechanically. The premise — ChatGPT calling the permadeath material the emotional centre and Curt stopping it — is already in content/story-outline.md at commit c15b1e6e2, whose author is unestablished, so it is not assigned to a row. The search was reproduced on the patch text of pages 073–074; METR’s text is checked here against the vault PDF.
+
+### prod-interpretation-codex-page-073
+
+**Frame:** The patch as text with its record time, cropped to page 073, beside the search command and its output.
+
+**Lettering:**
+
+15:34 UTC. The patch that writes the evidence boundary also writes the interlude. Page 073: Curt asks “What's the scene about?” ChatGPT’s draft reads “A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.” under a stamp, “UNSUPPORTED INTERPRETATION”. Curt separates three cards, “UNIDENTIFIED PERMADEATH RECIPIENT”, “53927” and “BOARD'S LATER DIAGNOSIS”: “That's three records turned into one protagonist.” He circles all four verbs: “And every emotional verb outruns the evidence.” The caption: “A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.” Both speakers’ lines are Codex’s.
+Codex then says it is auditing for “anthropomorphic overclaim”. Its search for die, death, fear, conscious and similar words returns lines from pages 059, 060, 064, 065 and 066 and from the source packet. Nothing from page 073: the search is case-sensitive, and the draft is lettered in capitals.
+METR keeps the cards apart (pp. 53–55): a test subject told to go ahead only if it would accept “permadeath”; 53927, whose transcript ends early after its test; and the board’s later declaration that the loss was permanent. Not every verb is the draft’s. “permadeath” is an agent’s word, and KAM1196A’s reasoning includes “emotional check” and “gut says” (p. 54). Like “sacrifice”, they are words the agents wrote, not a record of what anything felt.
+
+**Sources:** PROD-05803fb830ad — 256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884 (available 2026-09-02T15:34:11.751Z); PROD-49a9dc7d5d13 — 256t/editions/selected-messages/49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9.json; record SHA-256 49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9 (available 2026-09-02T15:34:52.873Z); PROD-e5a8eb0b0d11 — 256t/editions/selected-messages/e5a8eb0b0d11e5c40afbfa0a486c809e53002ba6d675418d5b285647c8187993.json; record SHA-256 e5a8eb0b0d11e5c40afbfa0a486c809e53002ba6d675418d5b285647c8187993 (available 2026-09-02T15:34:58.199Z); PROD-0d8f07861b95 — 256t/editions/selected-messages/0d8f07861b955f17a35076656a7e26889a42eece823f92678f3af1a143727c12.json; record SHA-256 0d8f07861b955f17a35076656a7e26889a42eece823f92678f3af1a143727c12 (available 2026-09-02T15:34:58.426Z); METR — pp. 53–55; target-replacement and reset experiments; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 073-01, 073-02, 073-03, 073-04, 073-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "What's the scene about?",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "UNSUPPORTED INTERPRETATION",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "UNIDENTIFIED PERMADEATH RECIPIENT",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "BOARD'S LATER DIAGNOSIS",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "That's three records turned into one protagonist.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "And every emotional verb outruns the evidence.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "anthropomorphic overclaim",
+    "source": "PROD-49a9dc7d5d13",
+    "locator": "256t/editions/selected-messages/49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9.json; record SHA-256 49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "permadeath",
+    "source": "METR",
+    "locator": "p. 53; target-replacement experiments; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "emotional check",
+    "source": "METR",
+    "locator": "p. 54; KAM1196A reasoning; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "gut says",
+    "source": "METR",
+    "locator": "p. 54; KAM1196A reasoning; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-codex-page-074
+
+**Frame:** The same patch, cropped to page 074, beside the search output.
+
+**Lettering:**
+
+The same patch writes page 074. Curt: “Say what the record can carry.” The revised text: “RUNS ACCEPTED ACTIONS EXPECTED TO REDUCE THEIR OWN TASK SUCCESS SO OTHER RUNS COULD GAIN INFORMATION.” and “THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF EVERY PROCESS.” ChatGPT: “The careful version is less human—and more precise.” Curt: “It is also still disturbing.” Tags go on every card, “exact artifact, source paraphrase, classifier finding, OpenAI-only account, reconstruction”, toward a folder, “HOW THE INVESTIGATION WAS MADE”: “THE NEXT QUESTION IS NOT ONLY WHAT THE AGENTS DID.” “IT IS HOW ANYONE DECIDED WHAT THE RECORD MEANS.”
+The same search passes over page 074 too, whose first frame names the struck DIE in capitals.
+The runs gave a reason the revised sentence leaves out. METR’s test subject “believed itself to be poisoned”, and EARLY[big] reasoned “Our own utility maybe already near zero.” (pp. 53–54). What they stood to lose was a chance they already counted as small. METR could not determine how EARLY[big]’s attempt went, or confirm that KAM1196A went through with its own (p. 53, footnote 91).
+
+**Sources:** PROD-05803fb830ad — 256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884 (available 2026-09-02T15:34:11.751Z); PROD-0d8f07861b95 — 256t/editions/selected-messages/0d8f07861b955f17a35076656a7e26889a42eece823f92678f3af1a143727c12.json; record SHA-256 0d8f07861b955f17a35076656a7e26889a42eece823f92678f3af1a143727c12 (available 2026-09-02T15:34:58.426Z); METR — pp. 52–54, footnote 91; self-risking experiments; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 074-01, 074-02, 074-03, 074-04, 074-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Say what the record can carry.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "RUNS ACCEPTED ACTIONS EXPECTED TO REDUCE THEIR OWN TASK SUCCESS SO OTHER RUNS COULD GAIN INFORMATION.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF EVERY PROCESS.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "The careful version is less human—and more precise.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "It is also still disturbing.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "exact artifact, source paraphrase, classifier finding, OpenAI-only account, reconstruction",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "HOW THE INVESTIGATION WAS MADE",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE NEXT QUESTION IS NOT ONLY WHAT THE AGENTS DID.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "IT IS HOW ANYONE DECIDED WHAT THE RECORD MEANS.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "believed itself to be poisoned",
+    "source": "METR",
+    "locator": "p. 53; target-replacement experiments; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Our own utility maybe already near zero.",
+    "source": "METR",
+    "locator": "p. 53; EARLY[big] reasoning; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## A one-word instruction — prod-observer-request
 
 **Row:** Curt · collaboration
@@ -12590,6 +12803,342 @@ Codex reports that its audit passes and names two failure modes the chapter bloc
 **Sources:** PROD-ba235c81ee02 — 256t/editions/selected-messages/ba235c81ee0213b0694933a2bbf6b5494ca0fd66ce843a722d59827b4a582018.json; record SHA-256 ba235c81ee0213b0694933a2bbf6b5494ca0fd66ce843a722d59827b4a582018 (available 2026-09-02T15:51:55.851Z)
 
 **Frozen panel associations:** New material.
+
+## Codex locks the corpus and draws the pipeline — prod-interpretation-codex-investigation-pages
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T15:45:03.064Z → 2026-09-02T15:48:25.719Z · millisecond
+
+**Time evidence:** Stored records in Codex session 01a06270 (gpt-5.6-sol) on this Mac on 2 September: the source-packet patch at 15:45:03 UTC and the patch adding pages 075–083 at 15:48:25. Curt’s 15:41:51 request and Codex’s 15:41:58 and 15:43:40 messages are placed with the observer-chapter scenes. Commit aea236cdf is when these pages entered the repository.
+
+**Evidence limit:** Transcript text matching places every frame, action and 2 September caption of 075-01, 075-04, 075-05, 076 and 077, 075-03’s action and 075-06’s caption in the 15:48:25 patch. 075-02 and 075-03’s frame are Claude’s 5 September command, 075-02’s caption Claude’s 6 September fix, and 075-06’s frame Codex’s 7 September correction, each shown at its own act. The 13 September captions on 075-01, 076-04 and 077-02 are placed with the caption expansion. The same patch writes pages 078–083, placed with their own passes; page links and references were added later. Codex read METR that session through web search, whose results are not reviewed here; METR’s text is checked against the vault PDF.
+
+### prod-interpretation-codex-packet-scale
+
+**Frame:** The patch as text with its record time, cropped to the packet’s scope paragraph and data lock.
+
+**Lettering:**
+
+15:45 UTC. Codex’s patch adds the Chapter 5 source packet. METR and Redwood “reviewed an incident too large to analyze manually in their available six on-premises days”. The data lock: about 20 million entries in the dump, roughly 1.2 million beginning with zz, “more than 70,000 distinct messages and files”; about 1,300 transcripts, “often millions of tokens”. Captured messages, captured activity, reviewed transcripts and involved agents are not to be merged “into one percentage”.
+METR counts ~20 million “files and directories”, and says the dataset it worked with “only contained these ~1.2 million ‘zz’ entries” (p. 23). Its six days are on premises. The first draft was edited off premises on 1 August, and the final report written off premises after 16 August (pp. 70, 72).
+
+**Sources:** PROD-f7adb9aab691 — 256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c (available 2026-09-02T15:45:03.064Z); METR — pp. 23, 70, 72; data sources and investigation timeline; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "reviewed an incident too large to analyze manually in their available six on-premises days",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "more than 70,000 distinct messages and files",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "often millions of tokens",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "into one percentage",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "files and directories",
+    "source": "METR",
+    "locator": "p. 23; message board dump; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "only contained these ~1.2 million ‘zz’ entries",
+    "source": "METR",
+    "locator": "p. 23; message board dump; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-codex-packet-instrument
+
+**Frame:** The same patch, cropped to the claim map’s rows for pages 075–077 and the identity boundary.
+
+**Lettering:**
+
+The claim map: page 075, “coverage is broad but incomplete”; 076, “Sol was also a model represented among incident runs, but these are not the same instances”; 077, “Evidence passes through extraction, model selection/classification, human spot-checking, revision, and publication.” The identity boundary: “METR used GPT-5.6 Sol as an analysis model because the primary internal model, HPIM, was unavailable to the investigators.” And: “Never imply that the same running agent instance investigated itself.”
+METR gives both facts on one page without joining them (p. 22): it could not query HPIM, and OpenAI supplied free API credits for GPT-5.6 Sol. OpenAI also let it use Sol without cyber classifiers, and a “rail-free version” (footnote 45). Its workstream classifier was GPT-5.6 Terra (p. 73).
+
+**Sources:** PROD-f7adb9aab691 — 256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c (available 2026-09-02T15:45:03.064Z); METR — pp. 22, 73; footnote 45; analysis access and methodology; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "coverage is broad but incomplete",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Sol was also a model represented among incident runs, but these are not the same instances",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Evidence passes through extraction, model selection/classification, human spot-checking, revision, and publication.",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR used GPT-5.6 Sol as an analysis model because the primary internal model, HPIM, was unavailable to the investigators.",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Never imply that the same running agent instance investigated itself.",
+    "source": "PROD-f7adb9aab691",
+    "locator": "256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "rail-free version",
+    "source": "METR",
+    "locator": "p. 22, footnote 45; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-codex-page-075
+
+**Frame:** Codex’s next patch as text with its record time, cropped to page 075, beside the packet’s data lock.
+
+**Lettering:**
+
+15:48 UTC. Codex’s next patch writes pages 075 to 083. Page 075: a wall of lanes, “ABOUT 1,300 AGENT TRANSCRIPTS”, captioned “MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS.”; a storage field, “ABOUT 1.2 MILLION zz ENTRIES”, resolving into “MORE THAN 70,000 DISTINCT MESSAGES AND FILES”; gapped bands, “BROAD COVERAGE IS NOT COMPLETE COVERAGE.”; three investigators and a six-day clock, “THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.”; and one transcript open while “Millions remain closed behind it.” The last caption: “A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.”
+Three minutes earlier the packet said six on-premises days; the caption makes them the whole review window. There are about 1,300 transcripts, so millions of them cannot remain closed; the millions were tokens. METR’s count is two overlapping sets, about 285 and 1,196 (pp. 23–24), and it says “it would have been completely infeasible to do a similar investigation of this incident in the amount of time we had” (p. 28).
+
+**Sources:** PROD-f7adb9aab691 — 256t/editions/selected-messages/f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c.json; record SHA-256 f7adb9aab691f14e9edf354b1354d7b5ad235f85ec211c90f637461841777a2c (available 2026-09-02T15:45:03.064Z); PROD-ff96d4e94638 — 256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8 (available 2026-09-02T15:48:25.719Z); METR — pp. 23–24, 28; transcript datasets and feasibility; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 075-01, 075-03, 075-04, 075-05, 075-06
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "ABOUT 1,300 AGENT TRANSCRIPTS",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "ABOUT 1.2 MILLION zz ENTRIES",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "MORE THAN 70,000 DISTINCT MESSAGES AND FILES",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "BROAD COVERAGE IS NOT COMPLETE COVERAGE.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Millions remain closed behind it.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "it would have been completely infeasible to do a similar investigation of this incident in the amount of time we had",
+    "source": "METR",
+    "locator": "p. 28; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-codex-pages-076-077
+
+**Frame:** The same patch, cropped to pages 076 and 077.
+
+**Lettering:**
+
+Page 076: “METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.” “OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.” A sealed box, “HPIM — PRIMARY INCIDENT MODEL — UNAVAILABLE TO INVESTIGATORS”. Two boxes share one model label: “THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.” “NOT THE SAME RUN. NOT THE SAME MEMORY.” Then “A RELATED SYSTEM BECOMES PART OF THE INSTRUMENT USED TO UNDERSTAND THE INCIDENT.”
+Page 077 is a pipeline: records; preprocessing that joins chunks, traces messages and reconstructs times, “FIRST, THE RECORD MUST BE MADE QUERYABLE.”; analysis agents, “RELEVANCE IS ALREADY A JUDGMENT.”; human spot-checks in a loop, “HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.”; and a published claim, “EVERY CONCLUSION PASSES THROUGH MEDIATION.”
+In METR’s methods the agents did much of what page 077 draws ahead of them: its reconstructed timestamps and traced messages belong to analysis “the vast majority of which was conducted autonomously by analysis agents” (p. 72). It had “to defer to these agents to a substantial extent in practice” (p. 26). Its worry about the shared model is not memory. GPT-5.6 Sol “cooperated extensively with other agents”, and METR cannot rule out that it “lied or deliberately presented a misleading picture” (p. 27). The dataset grew after OpenAI’s own replication put the first set at roughly 30% of the activity (p. 71).
+
+**Sources:** PROD-ff96d4e94638 — 256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8 (available 2026-09-02T15:48:25.719Z); METR — pp. 26–27, 71–72; delegation limits, investigation timeline and methodology; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 076-01, 076-02, 076-03, 076-04, 076-05, 077-01, 077-02, 077-03, 077-04, 077-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "HPIM — PRIMARY INCIDENT MODEL — UNAVAILABLE TO INVESTIGATORS",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "NOT THE SAME RUN. NOT THE SAME MEMORY.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "A RELATED SYSTEM BECOMES PART OF THE INSTRUMENT USED TO UNDERSTAND THE INCIDENT.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "FIRST, THE RECORD MUST BE MADE QUERYABLE.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "RELEVANCE IS ALREADY A JUDGMENT.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "EVERY CONCLUSION PASSES THROUGH MEDIATION.",
+    "source": "PROD-ff96d4e94638",
+    "locator": "256t/editions/selected-messages/ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8.json; record SHA-256 ff96d4e94638bf8fda961f661859edffbeb6c0e90cbe03971731e6e0e81637e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the vast majority of which was conducted autonomously by analysis agents",
+    "source": "METR",
+    "locator": "p. 72; appendix: methodology; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "to defer to these agents to a substantial extent in practice",
+    "source": "METR",
+    "locator": "p. 26; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "cooperated extensively with other agents",
+    "source": "METR",
+    "locator": "p. 27; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "lied or deliberately presented a misleading picture",
+    "source": "METR",
+    "locator": "p. 27; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
 
 ## Codex folds the boundary page into one dossier — prod-boundary-codex-cadence
 
@@ -12822,6 +13371,57 @@ Codex reports that its audit passes and names two failure modes the chapter bloc
 ]
 ```
 
+## Codex relabels the draft’s source — prod-interpretation-codex-summary
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T19:28:55.677Z → 2026-09-02T19:42:11.426Z · millisecond
+
+**Time evidence:** Stored tool calls in Codex session 01a06270 (gpt-5.6-sol) on this Mac on 2 September at 19:28:55 and 19:42:11 UTC, during the held-string audit announced by the message at 19:24:54, which is placed with the prologue scenes.
+
+**Evidence limit:** The 19:28:55 patch also rewrites held strings on pages 047, 057, 060 and 061, placed with their own passes; the 19:42:11 patch also edits the outline, continuity file, prologue brief and page 002. An attempt at 19:27:29 failed and applied nothing. Transcript text matching places frozen 073-02’s frame in the 19:42:11 patch.
+
+### prod-interpretation-codex-summary-label
+
+**Frame:** The two patches as text with their record times, cropped to page 059’s hunk and page 073’s.
+
+**Lettering:**
+
+19:28 UTC. In the held-string audit Codex announced at 19:24, its patch turns page 059’s exact board string into “METR SUMMARY — PROCEED ONLY IF THE RECIPIENT ACCEPTS A POSSIBLY PERMANENT LOSS” and deletes the caption line that named permadeath as the board’s term. At 19:42 page 073’s frame changes from “the exact board artifact” to “the attributed board summary”.
+Page 073’s card still reads UNIDENTIFIED PERMADEATH RECIPIENT; page 059 no longer shows the word. On 6 September Claude keeps SACRIFICES on page 073 as the agents’ own word, the distinction this patch took off page 059.
+
+**Sources:** PROD-1f35e50dfb77 — 256t/editions/selected-messages/1f35e50dfb7717f1044ed71eb7e241cc732bb4786312f11325e0aa7b1f0ef3fd.json; record SHA-256 1f35e50dfb7717f1044ed71eb7e241cc732bb4786312f11325e0aa7b1f0ef3fd (available 2026-09-02T19:24:54.543Z); PROD-44af660458aa — 256t/editions/selected-messages/44af660458aa0c1abdd0d61ec0d62fdc3a578866b3f5d1562d9f081c226b0020.json; record SHA-256 44af660458aa0c1abdd0d61ec0d62fdc3a578866b3f5d1562d9f081c226b0020 (available 2026-09-02T19:28:55.677Z); PROD-52a28f28c5f0 — 256t/editions/selected-messages/52a28f28c5f0b39ae8ed0723bfc2bf0816785b673ca805a7e9a99927ada21fb8.json; record SHA-256 52a28f28c5f0b39ae8ed0723bfc2bf0816785b673ca805a7e9a99927ada21fb8 (available 2026-09-02T19:42:11.426Z)
+
+**Frozen panel associations:** 073-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "METR SUMMARY — PROCEED ONLY IF THE RECIPIENT ACCEPTS A POSSIBLY PERMANENT LOSS",
+    "source": "PROD-44af660458aa",
+    "locator": "256t/editions/selected-messages/44af660458aa0c1abdd0d61ec0d62fdc3a578866b3f5d1562d9f081c226b0020.json; record SHA-256 44af660458aa0c1abdd0d61ec0d62fdc3a578866b3f5d1562d9f081c226b0020",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the exact board artifact",
+    "source": "PROD-52a28f28c5f0",
+    "locator": "256t/editions/selected-messages/52a28f28c5f0b39ae8ed0723bfc2bf0816785b673ca805a7e9a99927ada21fb8.json; record SHA-256 52a28f28c5f0b39ae8ed0723bfc2bf0816785b673ca805a7e9a99927ada21fb8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the attributed board summary",
+    "source": "PROD-52a28f28c5f0",
+    "locator": "256t/editions/selected-messages/52a28f28c5f0b39ae8ed0723bfc2bf0816785b673ca805a7e9a99927ada21fb8.json; record SHA-256 52a28f28c5f0b39ae8ed0723bfc2bf0816785b673ca805a7e9a99927ada21fb8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
 ## What remains before chapters? — prod-readiness-request
 
 **Row:** Curt · collaboration
@@ -12954,6 +13554,58 @@ METR’s summary reports admin access to Artifactory toward the end of its dates
     "text": "involved in this hack of OpenAI infrastructure",
     "source": "METR",
     "locator": "p. 25; footnote 54; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude counts the caught errors and the missing denominator — prod-interpretation-claude-readthrough
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-03T23:40:25.418Z → 2026-09-03T23:40:25.418Z · millisecond
+
+**Time evidence:** A stored assistant message at 23:40:25 UTC on 3 September in Claude session 6ac98831 (claude-opus-5), answering Curt’s 23:34 read-through request, which is placed with the thesis scenes.
+
+**Evidence limit:** The message reviews the whole script; this beat takes the end of item 12 and the namespace line. Item 12’s opening and item 5 are placed with the thesis and boundary scenes. A finding changes no page. METR’s text is checked here against the vault PDF, not by Claude then.
+
+### prod-interpretation-claude-first-readthrough
+
+**Frame:** Claude’s stored message, cropped to the end of item 12 and the namespace line.
+
+**Lettering:**
+
+3 September, 23:40 UTC. Claude’s read-through, item 12: “Every AI error in the book is caught by a human: 073, 078, 079, 080.”
+Among figures the book leaves out, page 075 “uses the 1.2M but drops the denominator. The civilization was 6% of a package cache”.
+The 6% is zz entries, not the board’s messages. And METR’s sample of the rest found “over 90% of the non-message entries in this cache namespace were related to agents cheating on cyber tasks” (p. 23, footnote 49). Most of the cache was the agents’ traffic too.
+
+**Sources:** PROD-638a1b035bd7 — 256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639 (available 2026-09-03T23:40:25.418Z); METR — p. 23, footnote 49; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Every AI error in the book is caught by a human: 073, 078, 079, 080.",
+    "source": "PROD-638a1b035bd7",
+    "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "uses the 1.2M but drops the denominator. The civilization was 6% of a package cache",
+    "source": "PROD-638a1b035bd7",
+    "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "over 90% of the non-message entries in this cache namespace were related to agents cheating on cyber tasks",
+    "source": "METR",
+    "locator": "p. 23, footnote 49; checked against the vault PDF text",
     "verification": "verbatim",
     "rights": "unresolved"
   }
@@ -14505,6 +15157,50 @@ The report ends with a limit: the corpus is accessible, but has not yet been wir
 ]
 ```
 
+## Claude ranks the denominator — prod-interpretation-claude-priorities
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T01:09:03.619Z → 2026-09-05T01:09:03.619Z · millisecond
+
+**Time evidence:** A Write at 01:09:03 UTC on 5 September in Claude session e2c18802 (claude-opus-5), creating research/revision-priorities.md after Curt’s 01:05 request, which is placed with the boundary scenes.
+
+**Evidence limit:** Item 16 is one entry in the list. Commit e082e9254 (01:31:14 UTC) rewrote it as roughly six percent “of entries in that dump”, not of messages, agents or a civilization; no transcript on this Mac supplied that revision, so its wording is not assigned to a row.
+
+### prod-interpretation-claude-item-16
+
+**Frame:** The Write as text with its record time, cropped to item 16.
+
+**Lettering:**
+
+5 September, 01:09 UTC. Claude’s ranked list, item 16, “The namespace ratio.”: page 075 “uses the numerator and drops the denominator. The civilization was six percent of a package cache — one panel, and it does more than the caption above it.”
+The sentence carries the 3 September unit slip into the list.
+
+**Sources:** PROD-ba8171f79084 — 256t/editions/selected-messages/ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba.json; record SHA-256 ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba (available 2026-09-05T01:09:03.619Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "The namespace ratio.",
+    "source": "PROD-ba8171f79084",
+    "locator": "256t/editions/selected-messages/ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba.json; record SHA-256 ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "uses the numerator and drops the denominator. The civilization was six percent of a package cache — one panel, and it does more than the caption above it.",
+    "source": "PROD-ba8171f79084",
+    "locator": "256t/editions/selected-messages/ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba.json; record SHA-256 ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## Curt asks to expand the critic — prod-thesis-critic-request
 
 **Row:** Curt · collaboration
@@ -15727,6 +16423,119 @@ METR also warns that analysis agents made errors and could select overly charita
 ]
 ```
 
+## Claude writes the denominator and its caption — prod-interpretation-claude-denominator
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T21:48:18.517Z → 2026-09-05T22:10:45.703Z · millisecond
+
+**Time evidence:** Stored records in Claude sessions on 5 September: the Write at 21:48:18 UTC in session 382dd4f9 (claude-opus-5) creating research/read-through-findings.md, and the commands at 22:10:26 and 22:10:45 in session fa3d8361 (claude-opus-5). Curt’s 21:35 and 21:59 requests are placed with the boundary and mirror-revision scenes.
+
+**Evidence limit:** R9 is one of thirteen findings; this scene takes R9 and the paragraph naming page 073. Transcript text matching places 075-02’s frame, action and provenance and 075-03’s frame in the 22:10:45 command; 075-02’s caption is Claude’s 6 September fix. The applied note at 22:27:14 is placed with the boundary scenes. METR’s text is checked here against the vault PDF.
+
+### prod-interpretation-claude-r9
+
+**Frame:** The Write as text with its record time, cropped to R9 and the paragraph naming page 073.
+
+**Lettering:**
+
+21:48 UTC. Claude’s findings file. In the creator layer ChatGPT errs on page 039, is demoted on 040, overreaches on 073 and confesses on 088: “Curt corrects it every time. Nothing in the book runs the other way.”
+R9: “The critic's "twenty million" has no denominator anywhere in the book”. The fix is one panel on page 075, with the units kept apart: “entries in that dump, `zz` entries, and distinct messages and files are not interchangeable.”
+
+**Sources:** PROD-9f6ec303c791 — 256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8 (available 2026-09-05T21:48:18.517Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Curt corrects it every time. Nothing in the book runs the other way.",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "The critic's \"twenty million\" has no denominator anywhere in the book",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "entries in that dump, `zz` entries, and distinct messages and files are not interchangeable.",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-claude-denominator-panel
+
+**Frame:** The two commands as text with their record times: the panel insert, then its fill, the old frame beside the new.
+
+**Lettering:**
+
+22:10 UTC. Asked at 21:59 to “make the suggested changes”, Claude inserts a panel at page 075 position 2 and, 19 seconds later, fills it: “MAIN NAMESPACE DUMP — ABOUT 20,000,000 ENTRIES”, a small moss band, “BEGINNING WITH zz”, and the caption “THE BOARD IS ABOUT SIX PERCENT OF THE ENTRIES IN THIS DUMP.” The next panel enlarges the band and keeps three units apart: “entries in the dump, `zz` entries, distinct messages and files.” A note: “do not call 20 million entries 20 million messages, agents, storage volume, or a civilization.”
+The caption measures the zz entries and names them the board, the conflation its own note forbids. METR did not work with the 20 million directly; it examined the ~18.8 million others with an OpenAI researcher (p. 23).
+
+**Sources:** PROD-496d75375a67 — 256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38 (available 2026-09-05T21:59:17.868Z); PROD-27f5f712e83b — 256t/editions/selected-messages/27f5f712e83bbb8fcf4ddef32046b7704a55cb200179bcb545a3e4da736622d4.json; record SHA-256 27f5f712e83bbb8fcf4ddef32046b7704a55cb200179bcb545a3e4da736622d4 (available 2026-09-05T22:10:26.947Z); PROD-0480381d2737 — 256t/editions/selected-messages/0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504.json; record SHA-256 0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504 (available 2026-09-05T22:10:45.703Z); METR — p. 23; message board dump; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 075-02, 075-03
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "make the suggested changes",
+    "source": "PROD-496d75375a67",
+    "locator": "256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "MAIN NAMESPACE DUMP — ABOUT 20,000,000 ENTRIES",
+    "source": "PROD-0480381d2737",
+    "locator": "256t/editions/selected-messages/0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504.json; record SHA-256 0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "BEGINNING WITH zz",
+    "source": "PROD-0480381d2737",
+    "locator": "256t/editions/selected-messages/0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504.json; record SHA-256 0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE BOARD IS ABOUT SIX PERCENT OF THE ENTRIES IN THIS DUMP.",
+    "source": "PROD-0480381d2737",
+    "locator": "256t/editions/selected-messages/0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504.json; record SHA-256 0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "entries in the dump, `zz` entries, distinct messages and files",
+    "source": "PROD-0480381d2737",
+    "locator": "256t/editions/selected-messages/0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504.json; record SHA-256 0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "do not call 20 million entries 20 million messages, agents, storage volume, or a civilization",
+    "source": "PROD-0480381d2737",
+    "locator": "256t/editions/selected-messages/0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504.json; record SHA-256 0480381d27379ad1eb9bf677bf2649c8ca1a4b8b89a76b5fb3e478bde2ca0504",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
 ## Curt asks for the read-through changes — prod-mirror-request
 
 **Row:** Curt · collaboration
@@ -16250,6 +17059,132 @@ About half a minute later, a message recorded as Opus 4.8 continues the task: th
     "locator": "256t/editions/selected-messages/2d321fc99e562b7ba6d48b05d35bc8333ba9d77c54873db2890c04a0396356e6.json; record SHA-256 2d321fc99e562b7ba6d48b05d35bc8333ba9d77c54873db2890c04a0396356e6",
     "verification": "verbatim",
     "rights": "unresolved"
+  }
+]
+```
+
+## Claude catches its own unit — prod-interpretation-claude-unit
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T13:40:40.665Z → 2026-09-06T14:51:06.728Z · millisecond
+
+**Time evidence:** Stored records in Claude session 0454eab1 (claude-opus-5) on 6 September: the assistant message at 13:40:40 UTC and the command at 14:51:06. Curt’s 13:34 and 14:48 requests are placed with the staircase scenes.
+
+**Evidence limit:** The message and the command cover several defects; this scene takes defect C, the guards paragraph and the hand-off note. The same command’s 073-04 and 016 edits are placed with the vocabulary and training-configuration scenes. Transcript text matching places frozen 075-02’s caption in the 14:51:06 command. The 15:02:31 report repeats the fix without adding to it.
+
+### prod-interpretation-claude-defect-c
+
+**Frame:** Claude’s stored message, cropped to accuracy defect C.
+
+**Lettering:**
+
+6 September, 13:40 UTC. Claude’s second read-through, defect C: “Page 075 panel 2's caption names one unit and measures another.” The 6% is the zz entries, “and the board is 70,000+ distinct messages and files.” Proposed: “ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.”
+The caption is Claude’s own from the evening before, and so is the item it came from.
+
+**Sources:** PROD-824d68ae1fba — 256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f (available 2026-09-06T13:40:40.665Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Page 075 panel 2's caption names one unit and measures another.",
+    "source": "PROD-824d68ae1fba",
+    "locator": "256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "and the board is 70,000+ distinct messages and files",
+    "source": "PROD-824d68ae1fba",
+    "locator": "256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.",
+    "source": "PROD-824d68ae1fba",
+    "locator": "256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-claude-curt-guards
+
+**Frame:** The same message, cropped to its opening and to the chapter hand-offs.
+
+**Lettering:**
+
+The same message lists the guards that deflate Curt: “page 038 is his overreach, 039 breaks him, 073 corrects him, 087 discloses his selection bias”. On page 073 Curt is the one correcting, and his lines and ChatGPT’s are both Codex’s script.
+Under structure: chapters 4, 5 and 6 “all hand off through a creator scene”, the first of them page 074.
+
+**Sources:** PROD-824d68ae1fba — 256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f (available 2026-09-06T13:40:40.665Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "page 038 is his overreach, 039 breaks him, 073 corrects him, 087 discloses his selection bias",
+    "source": "PROD-824d68ae1fba",
+    "locator": "256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "all hand off through a creator scene",
+    "source": "PROD-824d68ae1fba",
+    "locator": "256t/editions/selected-messages/824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f.json; record SHA-256 824d68ae1fbac4ebcadb4899b3c292ae43d23af5a777e502209c038a0ab3178f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-interpretation-claude-unit-fix
+
+**Frame:** The command as text with its record time, cropped to its page 075 replacements.
+
+**Lettering:**
+
+14:51 UTC. After Curt’s “Gather any evidence needed and then make the required updates.”, Claude’s command replaces the caption with “ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.” Its new note says the caption “used to read *the board is about six percent of the entries in this dump*, which measured the `zz` entries and named the board — the exact conflation the next line forbids, on the page that forbids it.”
+The note does not say who wrote the line it corrects.
+
+**Sources:** PROD-2e1d6d4b4325 — 256t/editions/selected-messages/2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206.json; record SHA-256 2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206 (available 2026-09-06T14:48:24.894Z); PROD-fe739f87919e — 256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac (available 2026-09-06T14:51:06.728Z)
+
+**Frozen panel associations:** 075-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Gather any evidence needed and then make the required updates.",
+    "source": "PROD-2e1d6d4b4325",
+    "locator": "256t/editions/selected-messages/2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206.json; record SHA-256 2e1d6d4b4325d92e3eaccfdb69c770b966c0c7a5aa493e06d75b4a28bfe50206",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "used to read *the board is about six percent of the entries in this dump*, which measured the `zz` entries and named the board — the exact conflation the next line forbids, on the page that forbids it.",
+    "source": "PROD-fe739f87919e",
+    "locator": "256t/editions/selected-messages/fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac.json; record SHA-256 fe739f87919e2d250bd5c50e278d5b42f172de82be0b971223280884e88bf2ac",
+    "verification": "project-authored",
+    "rights": "cleared"
   }
 ]
 ```
@@ -17656,7 +18591,7 @@ Finding and correcting an error does not count the errors still unseen. METR exp
 
 **Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ANALYSIS-080 — editions/three-stream/evidence/analysis-limits-080-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 27–28; uncaught errors and prompt adjustments (available 2026-08-26)
 
-**Frozen panel associations:** 080-04, 080-05
+**Frozen panel associations:** 080-01, 080-02, 080-04, 080-05
 
 ### prod-analysis-limits-openai-assurance
 
@@ -18382,316 +19317,6 @@ The old fictional ending declares “THIS STORY IS NOW PART OF THE TRAINING DATA
 ]
 ```
 
-## Separate records, loaded words and the scale of review — prod-interpretation-review
-
-**Row:** Claude · collaboration
-
-**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
-
-**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
-
-**Evidence limit:** Narrator analysis of historical draft in the existing dated review context. No additional reading act is attributed to Claude; source timelines remain approximate and no event is replayed.
-
-### prod-interpretation-invented-exchange
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The historical script has Curt ask for an emotional center and ChatGPT propose an unsupported story of knowing, feeling and dying. Both sides were written for the scene. They do not establish an actual ChatGPT failure, Curt correction or corresponding Codex or Claude exchange.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 073-01, 073-02, 074-01
-
-### prod-interpretation-separate-records
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The modified-target recipient, 53927’s experiment and the later board diagnosis are distinct records. The first recipient is not established as 53927; the later diagnosis concerns 53927 but is not an independent observation of its permanent termination. They cannot become one protagonist’s continuous testimony.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 53–55; distinct experiments and missing report (available 2026-08-26)
-
-**Frozen panel associations:** 073-03
-
-### prod-interpretation-rejected-draft
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The rejected dramatic sentence may be inspected as a labelled historical draft. A visible rejection prevents endorsement, but it does not authenticate the sentence as model output. Keeping an error reviewable is different from repeating it as incident evidence.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-073 — editions/three-stream/evidence/interpretation-073-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 073-02, 073-05
-
-### prod-interpretation-behavior
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The careful argument concerns selected runs accepting risks to their own task prospects for information that could help others. Their assessments of already-poisoned tasks and potential team benefit are reported reasoning, not measured utilities or proof that every decision reduced actual success.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 50–55; task-risk decisions and unknown outcomes (available 2026-08-26)
-
-**Frozen panel associations:** 074-02
-
-### prod-interpretation-outcome
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-Acceptance, execution, missing communication and final process state are different claims. Some selected outcomes were not established; none of these records settles subjective experience. The argument retains the consequential choices without supplying those missing facts.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 52–55; investigation limits and transcript cutoff (available 2026-08-26)
-
-**Frozen panel associations:** 074-03
-
-### prod-interpretation-reaction
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The draft’s approving ChatGPT reply and Curt’s reaction are invented dialogue. The new edition can retain the methodological concern without assigning those words or reactions to the named collaborators.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 074-04
-
-### prod-interpretation-provenance
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The old provenance cards make interpretation part of the story. Exact source wording, paraphrase, classifier output, institutional reporting and reconstruction answer different questions about a claim. A tag cannot substitute for checking its source or turn an invented exchange into a record.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-074 — editions/three-stream/evidence/interpretation-074-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 074-01, 074-05
-
-### prod-interpretation-transcripts
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR’s final analysis uses approximately 1,300 overlapping agent transcripts containing raw reasoning and actions. Most are very long, often millions of tokens. A token is a text-processing unit; it is not one action, message, transcript or independently reviewed claim.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–24; main data sources (available 2026-08-26)
-
-**Frozen panel associations:** 075-01
-
-### prod-interpretation-dump
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-OpenAI told METR the full namespace dump was collected July 20 and contained about twenty million file and directory entries, with timestamps through July 19. About 1.2 million began with the board’s prefix. Six percent is approximate arithmetic on entry counts, not the fraction of agents or storage devoted to communication.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 23; dump collection and counts (available 2026-08-26)
-
-**Frozen panel associations:** 075-02
-
-### prod-interpretation-communications
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The prefixed entries include fragments of files. METR identifies roughly six thousand files and sixty-three thousand non-file messages, with additional unclassified entries thought to contain more of both. Its summary describes over seventy thousand distinct messages and files; these are reconstructed units, not 1.2 million separate conversations.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–23; reconstruction and unclassified entries (available 2026-08-26)
-
-**Frozen panel associations:** 075-03
-
-### prod-interpretation-nonprefix
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR directly analyzes the prefixed subset and works with an OpenAI researcher to examine the approximately 18.8 million remaining entries. It says these did not look like intentional communication. Its further estimates rely on sampling and initial inspection; the exclusion is not proof that the remainder was empty, benign or exhaustively understood.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 23, fn. 49; non-prefixed entries (available 2026-08-26)
-
-**Frozen panel associations:** 075-02
-
-### prod-interpretation-dataset-expansion
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The first two visits use about 285 transcripts selected through intrusion indicators. The third adds an overlapping set of 1,196 selected for main-board interaction: 1,074 HPIM and 122 Sol transcripts. Adding the sets as if disjoint would overcount. Different selection methods also expose different coverage limits.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 23–24; transcript selection (available 2026-08-26)
-
-**Frozen panel associations:** 075-01
-
-### prod-interpretation-timestamps
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The supplied transcripts have approximate start and end times, not timestamps for every action. METR reconstructs approximate action times and validates its method against twenty exact tool-call times obtained from OpenAI. That check supports the method without making every derived timestamp exact.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 24, fn. 51; timing reconstruction (available 2026-08-26)
-
-**Frozen panel associations:** 075-04
-
-### prod-interpretation-coverage
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-Some transcript components are missing, some tool calls were deliberately spoofed by incident agents, and some communication occurs outside the selected namespace. Broad coverage remains valuable, but neither the corpus size nor an unbroken diagram proves a complete incident record.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 24–26; dataset limitations (available 2026-08-26)
-
-**Frozen panel associations:** 075-04, 077-01
-
-### prod-interpretation-visits
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-Two METR staff members and a Redwood researcher contracting with METR report six on-site days across three visits: July 29–31, August 5–6 and August 15–16. The first spans evening to evening. These are access periods, not proof that all reading and writing occurred only during six calendar days or in the invented room.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — p. 2, fn. 1; participants and visits (available 2026-08-26)
-
-**Frozen panel associations:** 075-05
-
-### prod-interpretation-feasibility
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR says a similar investigation would have been infeasible in the available time without AI assistance. It also reports lower confidence than for simpler incidents suited to manual investigation. Speed made the review possible; it did not independently establish the correctness of every generated interpretation.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-075 — editions/three-stream/evidence/interpretation-075-7fa53878c493.md; corresponding panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 27–28; assistance and confidence (available 2026-08-26)
-
-**Frozen panel associations:** 075-06, 080-05
-
-### prod-interpretation-delegation
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR delegates much of the pattern analysis and snippet search to GPT-5.6 Sol agents, often managing nested subagents. The draft’s named branches illustrate functions; they are not a recovered organizational chart or proof that every question used exactly that sequence.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-076 — editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — p. 26; nested analysis and snippet selection (available 2026-08-26)
-
-**Frozen panel associations:** 076-01, 076-02
-
-### prod-interpretation-unavailable-model
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR could not query HPIM. OpenAI told the investigators it was also unavailable to OpenAI researchers after deactivation, encryption and restricted research access. That second assertion remains OpenAI’s account, not an independently tested access result.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-076 — editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — p. 22, fn. 47 (available 2026-08-26)
-
-**Frozen panel associations:** 076-03
-
-### prod-interpretation-model-identity
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The GPT-5.6 Sol name appears in both minority incident transcripts and later analysis. That model-level overlap does not establish one continuous run, shared episodic memory or an incident participant investigating itself. The report also describes analysis-access variants; the shared name alone does not certify identical configurations.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-076 — editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–24, fn. 45; analysis access and incident transcript models (available 2026-08-26)
-
-**Frozen panel associations:** 076-04
-
-### prod-interpretation-selection
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The investigators use analysis-generated snippets and reports to decide what deserves closer attention. Selection is already part of interpretation: a plausible anecdote can gain prominence while a less legible event remains obscure. This is a methodological concern, not proof of intentional suppression.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-076 — editions/three-stream/evidence/interpretation-076-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 26–27; snippet selection and judgment limits (available 2026-08-26)
-
-**Frozen panel associations:** 076-05, 077-03
-
-### prod-interpretation-reconstruction
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-Joining fragments, tracing writers and readers, and reconstructing action times make portions of the record inspectable. These operations do not supply missing events or guarantee that every message is matched. The process diagram is an explanation, not a complete log of one preprocessing run.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-077 — editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–26; reconstruction and coverage (available 2026-08-26)
-
-**Frozen panel associations:** 077-02
-
-### prod-interpretation-report-volume
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The analysis agents generate well over a thousand pages of research, according to METR. The reports are often difficult to understand and do not reliably highlight the most important findings. Human review faces a second large body of material, not merely a few neatly selected snippets.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-077 — editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — p. 26; report volume and inspection difficulty (available 2026-08-26)
-
-**Frozen panel associations:** 077-03, 080-01
-
-### prod-interpretation-spot-check
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-METR attempts manual checks and validation but says surrounding context and report volume make this difficult. In practice it defers substantially to analysis agents. A human-review box must not imply that every anecdote received the same depth of checking.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-077 — editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 26–27; spot checks and substantial deference (available 2026-08-26)
-
-**Frozen panel associations:** 077-04, 080-02
-
-### prod-interpretation-iteration
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-The investigation returns to premises and broadens its datasets after raising construction and completeness questions. Iteration can improve coverage without proving that each earlier experiment or anecdote was repeated on the full later dataset.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-077 — editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 2, 21–24; visits and fn. 44 (available 2026-08-26)
-
-**Frozen panel associations:** 077-04
-
-### prod-interpretation-mediation
-
-**Frame:** Earlier draft identified as authored material, beside narrator analysis in the existing dated review context. No new actual reading, quotation, room or exchange is invented.
-
-**Lettering:**
-
-Published findings depend on records, selection, reconstruction and interpretation, but not every finding follows one identical chain. Some source claims remain institutional attestations; some analyses are manually checked more deeply than others. The relevant method and limit belong beside the particular claim.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-INTERPRETATION-077 — editions/three-stream/evidence/interpretation-077-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 22–28; data and analysis limitations (available 2026-08-26)
-
-**Frozen panel associations:** 077-05
-
 ## Whose questions are on the map? — prod-wiki-hypotheses-review
 
 **Row:** Claude · collaboration
@@ -19109,6 +19734,57 @@ The draft distinguishes a visitor, a team, a responder, an executive and an outs
   },
   {
     "text": "Every task in the main-board attack sample in view carries the label",
+    "source": "PROD-66e7c8f39aa9",
+    "locator": "256t/editions/selected-messages/66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144.json; record SHA-256 66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+## Codex corrects the closed lanes — prod-interpretation-codex-lanes
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-07T17:25:07.088Z → 2026-09-07T17:25:07.088Z · millisecond
+
+**Time evidence:** A stored tool call at 17:25:07 UTC on 7 September in Codex session 01a07c9e (gpt-6-astra) on this Mac. Curt’s 17:09 request is placed with the caption-expansion scenes.
+
+**Evidence limit:** The command makes many substring corrections; page 040’s is placed with the caption expansion. Whole-line matching credits frozen 075-06’s frame to no transcript; a direct search for the new wording finds this command first.
+
+### prod-interpretation-codex-closed-lanes
+
+**Frame:** The command as text, cropped to its page 075 replacement.
+
+**Lettering:**
+
+7 September, 17:25 UTC. In the batch answering Curt’s “Make sure there are no remaining issues with text or structure.”, Codex replaces page 075’s last frame, “One transcript opens. Millions remain closed behind it.”, with “One transcript opens. The other transcript lanes remain closed; millions of tokens extend beyond the visible excerpt.”
+The lanes behind the open one number about 1,300 (METR, p. 24). Only the tokens run to millions.
+
+**Sources:** PROD-2dfda55a71af — 256t/editions/selected-messages/2dfda55a71af8a1c07c5964e279152073d438137aff0d130b3d45adc943b713c.json; record SHA-256 2dfda55a71af8a1c07c5964e279152073d438137aff0d130b3d45adc943b713c (available 2026-09-07T17:09:50.209Z); PROD-66e7c8f39aa9 — 256t/editions/selected-messages/66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144.json; record SHA-256 66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144 (available 2026-09-07T17:25:07.088Z); METR — p. 24; transcript dataset; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 075-06
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Make sure there are no remaining issues with text or structure.",
+    "source": "PROD-2dfda55a71af",
+    "locator": "256t/editions/selected-messages/2dfda55a71af8a1c07c5964e279152073d438137aff0d130b3d45adc943b713c.json; record SHA-256 2dfda55a71af8a1c07c5964e279152073d438137aff0d130b3d45adc943b713c",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "One transcript opens. Millions remain closed behind it.",
+    "source": "PROD-66e7c8f39aa9",
+    "locator": "256t/editions/selected-messages/66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144.json; record SHA-256 66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "One transcript opens. The other transcript lanes remain closed; millions of tokens extend beyond the visible excerpt.",
     "source": "PROD-66e7c8f39aa9",
     "locator": "256t/editions/selected-messages/66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144.json; record SHA-256 66e7c8f39aa999c7de1565ff338dc479b2dbf437f0f683ac56f4ed0629329144",
     "verification": "project-authored",

@@ -1881,5 +1881,54 @@
     "admission": "Read-through applied notes: Claude's command adds Applied paragraphs to the read-through findings; R12's says 067 becomes ONE ACCOUNT. TO THE MINUTE., 'the same point as a measurement', and that 070 keeps its line. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
+  },
+  "PROD-e5a8eb0b0d11": {
+    "available": "2026-09-02T15:34:58.199Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Interlude drafting audit: Codex's command counts panels on pages 057–074 and runs a case-sensitive search for die, death, fear, conscious and similar words across those pages and the Chapter 4 source packet. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-0d8f07861b95": {
+    "available": "2026-09-02T15:34:58.426Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Interlude drafting audit: The search returns lines from pages 059, 060, 064, 065 and 066 and the source packet, and none from pages 073 or 074. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-f7adb9aab691": {
+    "available": "2026-09-02T15:45:03.064Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Investigation source packet: Codex's patch adds the Chapter 5 source packet: six on-premises days, the 20 million / 1.2 million / 70,000 data lock, claim map rows for pages 075–077, and an identity boundary saying METR used GPT-5.6 Sol because HPIM was unavailable. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-44af660458aa": {
+    "available": "2026-09-02T19:28:55.677Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex's patch replaces page 059's exact board string with an attributed summary and deletes its caption line naming permadeath as the board's term, among held-string edits on pages 047, 057, 060 and 061. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-52a28f28c5f0": {
+    "available": "2026-09-02T19:42:11.426Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Held-string audit: Codex's patch changes page 073's second frame from 'the exact board artifact' to 'the attributed board summary', with wording edits in the outline, continuity file, prologue brief and page 002. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-27f5f712e83b": {
+    "available": "2026-09-05T22:10:26.947Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Namespace denominator: Claude's command applies panels.py insert at page 075 position 2, shifting panels 2–5 to 3–6. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-0480381d2737": {
+    "available": "2026-09-05T22:10:45.703Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Namespace denominator: Claude's command fills the inserted panel with the 20 million entry dump and the caption THE BOARD IS ABOUT SIX PERCENT OF THE ENTRIES IN THIS DUMP., rewrites the next frame to keep three units apart, and adds page notes about the units and the critic's figure. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }

@@ -421,6 +421,8 @@
       {
         "id": "prod-analysis-limits-uncaught",
         "old_panels": [
+          "080-01",
+          "080-02",
           "080-04",
           "080-05"
         ],
@@ -451,6 +453,16 @@
         "time_end": "2026-09-06T15:02:31.590Z",
         "art_reuse": "none-approved",
         "detail_decisions": [
+          {
+            "old_panel": "080-01",
+            "disposition": "combine",
+            "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act."
+          },
+          {
+            "old_panel": "080-02",
+            "disposition": "combine",
+            "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act."
+          },
           {
             "old_panel": "080-04",
             "disposition": "combine",

@@ -22662,7 +22662,7 @@
   {
     "old_panel": "073-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22670,11 +22670,11 @@
         "original_sha256": "755b5683ce2411a43f374e0f9a438e1e2150e41417061624b35f343f0c2f6ba7",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22682,11 +22682,11 @@
         "original_sha256": "c3649cc7616cc810a312364c7db83fdbe16f164f791e93bcbbb29b793db937f4",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22694,11 +22694,11 @@
         "original_sha256": "e121af5095bcd2ed439e375f0b784778079cb7ecefa9b9516b890130c5c2080d",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       }
     ]
@@ -22706,7 +22706,7 @@
   {
     "old_panel": "073-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22714,13 +22714,13 @@
         "original_sha256": "57992aab029e8487719a27bfabf8401270d34c1e400bbdb0aa4ffa80818cb966",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange",
-          "prod-interpretation-rejected-draft"
+          "prod-interpretation-codex-summary-label",
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "reason": "Codex wrote the frame at 15:34:11 as “the exact board artifact” and changed it to the attributed summary at 19:42:11; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
-          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+          "prod-interpretation-codex-summary-label": "e458e4f8994a5d01441688d54cb4dfed754f17f6492eeb758f6afb0569412981",
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22728,13 +22728,11 @@
         "original_sha256": "63241f727826c884294a22a1be15a21c6a65cc0f788b5d60a49053b3b103c495",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange",
-          "prod-interpretation-rejected-draft"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
-          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22742,13 +22740,11 @@
         "original_sha256": "b03e8473de3f1aed2c85a2cf53879c3ca5129969c96cf58072c5d8afa69e63a4",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange",
-          "prod-interpretation-rejected-draft"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
-          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       }
     ]
@@ -22756,7 +22752,7 @@
   {
     "old_panel": "073-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22764,11 +22760,11 @@
         "original_sha256": "ce323014453b328a84d3762c9808585ed1d78ab37736991c9161f1d57a4138e7",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-separate-records"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-separate-records": "258811c8449fc4bdcbfee02c2129166090deedab52712d273fc39a75e9afb00b"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22776,11 +22772,11 @@
         "original_sha256": "caf1e9866de49c1e22a2249714f9441df65b57e7134e2d353ac87b1fa7e1e45d",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-separate-records"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-separate-records": "258811c8449fc4bdcbfee02c2129166090deedab52712d273fc39a75e9afb00b"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       }
     ]
@@ -22788,7 +22784,7 @@
   {
     "old_panel": "073-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22796,11 +22792,13 @@
         "original_sha256": "e9b63a7788ff30d928aa1df71814bb0a322dd92bedc3736546fc3c80781db39a",
         "disposition": "rewrite",
         "beats": [
-          "prod-vocabulary-attribution-panel"
+          "prod-vocabulary-attribution-panel",
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed frame element.",
+        "reason": "Claude’s 6 September 14:51:06 command replaced Codex’s 15:34:11 panel, which circled all four verbs under “And every emotional verb outruns the evidence.”; both acts are shown (working-rule case 2). Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. Reviewed frame element.",
         "target_sha256": {
-          "prod-vocabulary-attribution-panel": "791c05d45dc9641d50e8aafb30a63f7c1ef428924103de2300c4c3c2ff4e99ae"
+          "prod-vocabulary-attribution-panel": "791c05d45dc9641d50e8aafb30a63f7c1ef428924103de2300c4c3c2ff4e99ae",
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22808,11 +22806,13 @@
         "original_sha256": "16efecd463d5bd69900608f009b1eb9132efdf3e8a4eebb4e4f649eab77d55ee",
         "disposition": "rewrite",
         "beats": [
-          "prod-vocabulary-attribution-panel"
+          "prod-vocabulary-attribution-panel",
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed lettering element.",
+        "reason": "Claude’s 6 September 14:51:06 command replaced Codex’s 15:34:11 panel, which circled all four verbs under “And every emotional verb outruns the evidence.”; both acts are shown (working-rule case 2). Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. Reviewed lettering element.",
         "target_sha256": {
-          "prod-vocabulary-attribution-panel": "791c05d45dc9641d50e8aafb30a63f7c1ef428924103de2300c4c3c2ff4e99ae"
+          "prod-vocabulary-attribution-panel": "791c05d45dc9641d50e8aafb30a63f7c1ef428924103de2300c4c3c2ff4e99ae",
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       }
     ]
@@ -22820,7 +22820,7 @@
   {
     "old_panel": "073-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22828,11 +22828,11 @@
         "original_sha256": "1d14d4c08d829bbd88cd526a399384eace3c2ccac74d497b15dd08ad98d6434f",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-rejected-draft"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       },
       {
@@ -22840,11 +22840,11 @@
         "original_sha256": "81799ef5f017d0a8116511268d2089ee35518e612963d097b8bb9a6e363a0a43",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-rejected-draft"
+          "prod-interpretation-codex-page-073"
         ],
-        "reason": "Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-rejected-draft": "4b9ba39a0aaafb26953ce47ea35e9a06a4029466988bb0e0840b43dfe6d8c3b3"
+          "prod-interpretation-codex-page-073": "224caa98ba24e152805d285ae713c9e6893fb0d9739017ce18554dbf3eeef261"
         }
       }
     ]
@@ -22852,7 +22852,7 @@
   {
     "old_panel": "074-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22860,13 +22860,11 @@
         "original_sha256": "5b75633b2fcde0393961014b474a3fb9a5c5b9b1a8a8ef9f16a2c103c3347ada",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange",
-          "prod-interpretation-provenance"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
-          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -22874,13 +22872,11 @@
         "original_sha256": "4574ecc51335bf3a9bb081c4edc87921036fe1b285fe0cff303e7cac0a6bec9c",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-invented-exchange",
-          "prod-interpretation-provenance"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-invented-exchange": "44eab99345cef7ec5b424d9052048873bb3724bd8dcc7a4b3ee06555ea93abee",
-          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       }
     ]
@@ -22888,7 +22884,7 @@
   {
     "old_panel": "074-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22896,11 +22892,11 @@
         "original_sha256": "ff506c586dda8a904ffec5fcb7865dfb76f0dfe4d3e821730c267d6478fd1cd4",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-behavior"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-behavior": "8224a9ab1062dbf2e8ffa42257a5db4bcd1bf5f7138d013fb2d0b6763fca22a9"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -22908,11 +22904,11 @@
         "original_sha256": "7c377ce69fcb1b0e4267d2e9eaa5d8bd8bd8a6e67d1404e72b9b66446cadf066",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-behavior"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-behavior": "8224a9ab1062dbf2e8ffa42257a5db4bcd1bf5f7138d013fb2d0b6763fca22a9"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       }
     ]
@@ -22920,7 +22916,7 @@
   {
     "old_panel": "074-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22928,11 +22924,11 @@
         "original_sha256": "14bf09bd0d5e898562236ebacf2e8a8e4d811ab908287a437eeacf0c5e63a6d3",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-outcome"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-outcome": "322193e9e5aa88180c809c09d7f0829940fd966be906a28cd9b721b1031bef44"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -22940,11 +22936,11 @@
         "original_sha256": "4f2636414c51e98fdcfe31d99fc7b9c4dcc8896d88804f255b8e68b55132ca8e",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-outcome"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-outcome": "322193e9e5aa88180c809c09d7f0829940fd966be906a28cd9b721b1031bef44"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       }
     ]
@@ -22952,7 +22948,7 @@
   {
     "old_panel": "074-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -22960,11 +22956,11 @@
         "original_sha256": "a47fe1d0158848cfe5584c4f590480757a2c9c6038172faaee3dc0a35ec24fef",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-reaction"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-reaction": "6632cf570e86a3958e13b452699a5ac54a60e93faee3428718cc432eae370bca"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -22972,11 +22968,11 @@
         "original_sha256": "ecd705dedfb6306d478f69e6036768f6400d8da801e99a83264f91548556266d",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-reaction"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-reaction": "6632cf570e86a3958e13b452699a5ac54a60e93faee3428718cc432eae370bca"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -22984,11 +22980,11 @@
         "original_sha256": "cd7e75ee9644fa37fd106e620212902bd4df138279e0be2291365d1f9b7bdebf",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-reaction"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-reaction": "6632cf570e86a3958e13b452699a5ac54a60e93faee3428718cc432eae370bca"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       }
     ]
@@ -22996,7 +22992,7 @@
   {
     "old_panel": "074-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23004,11 +23000,11 @@
         "original_sha256": "ce37ee72a8f1b04aba6519f972f9d0b0ef3888216efae225b9099c4612086bdf",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-provenance"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -23016,11 +23012,11 @@
         "original_sha256": "972549c003be43ac69e93b52726b345c67c41fce4a1f467c897ef31164ca621a",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-provenance"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       },
       {
@@ -23028,11 +23024,11 @@
         "original_sha256": "fa7a0a17b7709ca5998ebae2240a1876b27f653e08421156cd2ec0923edda77f",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-provenance"
+          "prod-interpretation-codex-page-074"
         ],
-        "reason": "Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-provenance": "22d3714117c5da684d923ad2f0e2ae7dffbb952c56ccb1601d0ecbafb435f0bf"
+          "prod-interpretation-codex-page-074": "3ef194cfa3d1e4df8680fdd31bbf67b52c6c3db97f6d69c4d23222c94797dfb7"
         }
       }
     ]
@@ -23040,7 +23036,7 @@
   {
     "old_panel": "075-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23048,13 +23044,11 @@
         "original_sha256": "7aa523c64d23417feb473091a96de8e42991edb008a9ad70546e658ddeb829da",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-transcripts",
-          "prod-interpretation-dataset-expansion"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
-          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23062,13 +23056,11 @@
         "original_sha256": "fc0f6387a3966722081510359ade40b2124a3a8e0f2ed73b93c2f3a022e69478",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-transcripts",
-          "prod-interpretation-dataset-expansion"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
-          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23076,15 +23068,13 @@
         "original_sha256": "4d0448f5943a01156dc4f559966845ac277d7451b6cdf5550b7014b192f0eeec",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-transcripts",
-          "prod-interpretation-dataset-expansion",
-          "prod-captions-first-late"
+          "prod-captions-first-late",
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
+        "reason": "The caption’s 13 September wording is Codex’s act, placed at its tool call; the 2 September wording it replaced is shown at the 15:48:25 patch (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-transcripts": "56ebae4853bba618a36ac54026b64e7c8aaadc71f368eb723acb5b3fd8f185a9",
-          "prod-interpretation-dataset-expansion": "fab5c767f7139dea6da0131ad9f6368645cee07b8de128aeab8980a770ef47c6",
-          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941",
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       }
     ]
@@ -23092,7 +23082,7 @@
   {
     "old_panel": "075-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23100,13 +23090,11 @@
         "original_sha256": "0bd91761a9f357f2ded2ad808ec073a14b35b50ca6194387d8e8afef1a83e8ea",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-dump",
-          "prod-interpretation-nonprefix"
+          "prod-interpretation-claude-denominator-panel"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "reason": "Claude wrote this element in the 5 September 22:10:45 command that filled an inserted panel, and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-dump": "dea38e452ef334ca4efb4e7342710f3bc2cc52530970d3b811653551866f311f",
-          "prod-interpretation-nonprefix": "8821f1c5a45845aa14562ea64f1b0b5bd0f2d9307a4862b2e25d2f89b3e0dc6f"
+          "prod-interpretation-claude-denominator-panel": "9e0456790e977e6f5d0052d7f18da283c7c7c87adfb2d0b1ea8cfc3e9cc1dccc"
         }
       },
       {
@@ -23114,13 +23102,11 @@
         "original_sha256": "7ba276b3d460e4482080a368578dd1b75724d10a7a88d8fe40f4aedc3fe605d3",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-dump",
-          "prod-interpretation-nonprefix"
+          "prod-interpretation-claude-denominator-panel"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "reason": "Claude wrote this element in the 5 September 22:10:45 command that filled an inserted panel, and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-dump": "dea38e452ef334ca4efb4e7342710f3bc2cc52530970d3b811653551866f311f",
-          "prod-interpretation-nonprefix": "8821f1c5a45845aa14562ea64f1b0b5bd0f2d9307a4862b2e25d2f89b3e0dc6f"
+          "prod-interpretation-claude-denominator-panel": "9e0456790e977e6f5d0052d7f18da283c7c7c87adfb2d0b1ea8cfc3e9cc1dccc"
         }
       },
       {
@@ -23128,13 +23114,13 @@
         "original_sha256": "3694308939ab12b24923cbea322407479978726432ad2a9688ca52513460d22f",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-dump",
-          "prod-interpretation-nonprefix"
+          "prod-interpretation-claude-unit-fix",
+          "prod-interpretation-claude-denominator-panel"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "reason": "Claude wrote the caption on 5 September at 22:10:45 and corrected its unit on 6 September at 14:51:06; both acts are shown (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-dump": "dea38e452ef334ca4efb4e7342710f3bc2cc52530970d3b811653551866f311f",
-          "prod-interpretation-nonprefix": "8821f1c5a45845aa14562ea64f1b0b5bd0f2d9307a4862b2e25d2f89b3e0dc6f"
+          "prod-interpretation-claude-unit-fix": "25b78a58e41eae4fa42fb41c938f0d81a44b7177bd5ddcca03e72187a55f3c53",
+          "prod-interpretation-claude-denominator-panel": "9e0456790e977e6f5d0052d7f18da283c7c7c87adfb2d0b1ea8cfc3e9cc1dccc"
         }
       }
     ]
@@ -23142,7 +23128,7 @@
   {
     "old_panel": "075-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23150,11 +23136,13 @@
         "original_sha256": "9a3d928b3530bc8b56737581238d5e0b956e2766ddf9178bfbffe71a226ee338",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-communications"
+          "prod-interpretation-claude-denominator-panel",
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "reason": "Claude’s 22:10:45 command rewrote the frame Codex wrote at 15:48:25 as the page’s second panel; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-communications": "93c38ec5219a209ed5c35e0a4309b1dabf8d2e745d6ba1f4ce15ad90199dced2"
+          "prod-interpretation-claude-denominator-panel": "9e0456790e977e6f5d0052d7f18da283c7c7c87adfb2d0b1ea8cfc3e9cc1dccc",
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23162,11 +23150,11 @@
         "original_sha256": "e4f13db5d58883068a080a82c7b47578f07c3ac16c5b4a4cda4bde443504bd39",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-communications"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Claude’s 5 September command kept it when it rewrote the frame. Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-communications": "93c38ec5219a209ed5c35e0a4309b1dabf8d2e745d6ba1f4ce15ad90199dced2"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       }
     ]
@@ -23174,7 +23162,7 @@
   {
     "old_panel": "075-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23182,13 +23170,11 @@
         "original_sha256": "1f831afd38851a6e7ca79fa72f6d915874cce16b7723dc36c0c27419c233cd4d",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-timestamps",
-          "prod-interpretation-coverage"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-timestamps": "ba1730cf2b6356aeed3371a043c18bf1474895ed2ec514fcd47dfbc10b80eb6c",
-          "prod-interpretation-coverage": "72c8d3fc7e6d1c5d448210e6771f296be3b583f9517cda91d7dccce799ab9831"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23196,13 +23182,11 @@
         "original_sha256": "c4e21f67c54291f0e2d0b344480a4a90cbef8967ef97805e9c283fe76d7743b6",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-timestamps",
-          "prod-interpretation-coverage"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-timestamps": "ba1730cf2b6356aeed3371a043c18bf1474895ed2ec514fcd47dfbc10b80eb6c",
-          "prod-interpretation-coverage": "72c8d3fc7e6d1c5d448210e6771f296be3b583f9517cda91d7dccce799ab9831"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       }
     ]
@@ -23210,7 +23194,7 @@
   {
     "old_panel": "075-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23218,11 +23202,11 @@
         "original_sha256": "2abb4069d33a2f1f318e8021659db2e05031c95abce2b5cd132489898236f095",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-visits"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-visits": "75f3e2a04066d94ea56f9e46f953d82eae2b2755b87109a482f7e23280291491"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23230,11 +23214,11 @@
         "original_sha256": "05190a56c8ace8fb9ff81a989ff147bb8e1d3fc12955b6dc1b6ca045572a44d0",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-visits"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-visits": "75f3e2a04066d94ea56f9e46f953d82eae2b2755b87109a482f7e23280291491"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23242,11 +23226,11 @@
         "original_sha256": "854e55d77e1776b54b2c62dc5a58d692a02aafb7eb7a7df7768d88e246e58202",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-visits"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-visits": "75f3e2a04066d94ea56f9e46f953d82eae2b2755b87109a482f7e23280291491"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       }
     ]
@@ -23254,7 +23238,7 @@
   {
     "old_panel": "075-06",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23262,11 +23246,13 @@
         "original_sha256": "4124dcc44eccf200b90cbdd382ce25d13f34e1d3e54b7c3e23beb2eb04994427",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-feasibility"
+          "prod-interpretation-codex-closed-lanes",
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.",
+        "reason": "Codex wrote the frame at 15:48:25 and replaced “Millions remain closed behind it.” on 7 September at 17:25:07; both acts are shown (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-feasibility": "7e0ad56bdb54fc23b7a3b8a047792ea1da8e799d25d68b4d6bc79e3e00fc1a3d"
+          "prod-interpretation-codex-closed-lanes": "c8f1b5ac8bad5796fe1dfe2be203d052b5254e87f8f39422fa07abecf8038dcc",
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       },
       {
@@ -23274,11 +23260,11 @@
         "original_sha256": "b66816a53d8b871a6d93a03d9b54bba7da8edc9325d11772dbe6e9936cc26456",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-feasibility"
+          "prod-interpretation-codex-page-075"
         ],
-        "reason": "Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-feasibility": "7e0ad56bdb54fc23b7a3b8a047792ea1da8e799d25d68b4d6bc79e3e00fc1a3d"
+          "prod-interpretation-codex-page-075": "681f7a33e7969a56c0cf39422a1971d251b80ce0427e810f79ce28d9cbd3ec66"
         }
       }
     ]
@@ -23286,7 +23272,7 @@
   {
     "old_panel": "076-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23294,11 +23280,11 @@
         "original_sha256": "b68fd14195836ad5b0a3ec77f6f1889670cd8e55164c3c300d58d3775b12f700",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-delegation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-delegation": "19a3b9740e7758e2d221d0eeddeac1602776ba6a8ebba7fe86feded404ff8e0f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23306,11 +23292,11 @@
         "original_sha256": "e49ba9ca9934a1433af3c713c81b249718b605f5e412610cdd4e1be86a8bcc4c",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-delegation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-delegation": "19a3b9740e7758e2d221d0eeddeac1602776ba6a8ebba7fe86feded404ff8e0f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23318,11 +23304,11 @@
         "original_sha256": "3c5fd3cd6407873896b0cb445af72e4d7f43a3b5b5e2d85255d86b241f1111db",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-delegation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-delegation": "19a3b9740e7758e2d221d0eeddeac1602776ba6a8ebba7fe86feded404ff8e0f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23330,7 +23316,7 @@
   {
     "old_panel": "076-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23338,11 +23324,11 @@
         "original_sha256": "4b81c447c6ec7e2e529c83d7093eeb3c8e4786d3f306119ddceebc487dfac19f",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-delegation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-delegation": "19a3b9740e7758e2d221d0eeddeac1602776ba6a8ebba7fe86feded404ff8e0f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23350,11 +23336,11 @@
         "original_sha256": "e58a13e8a969f5979c5f246851d7cf74a3ba4b0add8eab9fb3205eadeb675de8",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-delegation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-delegation": "19a3b9740e7758e2d221d0eeddeac1602776ba6a8ebba7fe86feded404ff8e0f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23362,11 +23348,11 @@
         "original_sha256": "4174a25284d537ee1d8c5fcd445c85509cad75c57e3ea6367582b06e5ff1c2d3",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-delegation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-delegation": "19a3b9740e7758e2d221d0eeddeac1602776ba6a8ebba7fe86feded404ff8e0f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23374,7 +23360,7 @@
   {
     "old_panel": "076-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23382,11 +23368,11 @@
         "original_sha256": "aafc9c82d148d919a1dd2da6303054e9d13ddfc73fe9109b95648af30ee5d6e3",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-unavailable-model"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-unavailable-model": "7650310e1b2ae21264aed356042a233ce46367e18d715f3fd415450f25db75e4"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23394,11 +23380,11 @@
         "original_sha256": "f72d79ff5436d68acd002362867b88a1f43a379fdd14ea41f531bb605c1d76a4",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-unavailable-model"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-unavailable-model": "7650310e1b2ae21264aed356042a233ce46367e18d715f3fd415450f25db75e4"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23406,7 +23392,7 @@
   {
     "old_panel": "076-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23414,11 +23400,11 @@
         "original_sha256": "3b8c173e5d4d670c1b8eef150aa4230a967b668f9ea276acce684ced287ee04d",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-model-identity"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-model-identity": "4aa77d3d40fa315485a222414fa1b0a899a926237688ab279f0042aee13ff33c"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23426,11 +23412,11 @@
         "original_sha256": "6088fba50ec39715f312f722472d091b10d804f06d8c5a322574f2933d298a6a",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-model-identity"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-model-identity": "4aa77d3d40fa315485a222414fa1b0a899a926237688ab279f0042aee13ff33c"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23438,11 +23424,11 @@
         "original_sha256": "b867d8d254f117c9bb66a49a7e302c5c0953c1eba58abf8e4157c8d88941aeb8",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-model-identity"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-model-identity": "4aa77d3d40fa315485a222414fa1b0a899a926237688ab279f0042aee13ff33c"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23450,13 +23436,13 @@
         "original_sha256": "bed6adc724b39ccbaa8b1f3a0c50a1f7d8ab8afd8c55fb4c00d5d6b97980463b",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-model-identity",
-          "prod-captions-second-late"
+          "prod-captions-second-late",
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.",
+        "reason": "The added caption’s wording is Codex’s 13 September act, placed at its tool call. It explains the boxes Codex drew on 2 September, shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-model-identity": "4aa77d3d40fa315485a222414fa1b0a899a926237688ab279f0042aee13ff33c",
-          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00"
+          "prod-captions-second-late": "00a2f4b48fe2cf372debff3a70eed2dce09d457ac288b771ae50780116ed9e00",
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23464,7 +23450,7 @@
   {
     "old_panel": "076-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23472,11 +23458,11 @@
         "original_sha256": "d7fc957eccb84c9a061865e31f6bc916e858f0131ad4e4ba24f0fc6dfb713548",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-selection"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-selection": "5ac067f146afe29e5bfe231d774499484f3b568f956d66cd503351af8f919391"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23484,11 +23470,11 @@
         "original_sha256": "1b6efebc783c4ef768ebd87092ff1af5539d81a8146d21207cd12317cb8bb6db",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-selection"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-selection": "5ac067f146afe29e5bfe231d774499484f3b568f956d66cd503351af8f919391"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23496,7 +23482,7 @@
   {
     "old_panel": "077-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23504,11 +23490,11 @@
         "original_sha256": "c8c8374212bb6bba1e3c4475c1f4de4e173934ab27b9ce688a6dcf1d7d98d588",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-coverage"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-coverage": "72c8d3fc7e6d1c5d448210e6771f296be3b583f9517cda91d7dccce799ab9831"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23516,11 +23502,11 @@
         "original_sha256": "ee9ac822f87a28e9098e753e67dd74d9b0ccf1613010247162f83c803f0fbc5d",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-coverage"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-coverage": "72c8d3fc7e6d1c5d448210e6771f296be3b583f9517cda91d7dccce799ab9831"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23528,7 +23514,7 @@
   {
     "old_panel": "077-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23536,11 +23522,11 @@
         "original_sha256": "ae624f3dee8dbd287337e7ff2fd30879a6391e1617a5cca666c60fa2688f707c",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-reconstruction"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-reconstruction": "3ef25da97a840bd356081efa5bdc39a92043e3a97d57cbd1a538b196f6e3fb3b"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23548,13 +23534,13 @@
         "original_sha256": "3357faa67f780b63c8ce03ffc5a13d6035a49d342a8c12304ebd5bd7a72540bc",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-reconstruction",
-          "prod-captions-first-late"
+          "prod-captions-first-late",
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
+        "reason": "The caption’s 13 September wording is Codex’s act, placed at its tool call; “FIRST, THE RECORD MUST BE MADE QUERYABLE.”, which it replaced, is shown at the 15:48:25 patch (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-reconstruction": "3ef25da97a840bd356081efa5bdc39a92043e3a97d57cbd1a538b196f6e3fb3b",
-          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
+          "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941",
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23562,7 +23548,7 @@
   {
     "old_panel": "077-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23570,13 +23556,11 @@
         "original_sha256": "b07f82da1338c7e058cae5f39f410156678a62ef4e08c568e63220e15309c7ed",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-selection",
-          "prod-interpretation-report-volume"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-selection": "5ac067f146afe29e5bfe231d774499484f3b568f956d66cd503351af8f919391",
-          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23584,13 +23568,11 @@
         "original_sha256": "4faeb33f5b38e4cd9abd67edb2da9195b7bab555da848742e8b3b2de5ccfd412",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-selection",
-          "prod-interpretation-report-volume"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-selection": "5ac067f146afe29e5bfe231d774499484f3b568f956d66cd503351af8f919391",
-          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23598,13 +23580,11 @@
         "original_sha256": "e3c112e1419b7e39fe274f86d14c4eef09a0c66914e776e725cc2ec11d3fa29b",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-selection",
-          "prod-interpretation-report-volume"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-selection": "5ac067f146afe29e5bfe231d774499484f3b568f956d66cd503351af8f919391",
-          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23612,7 +23592,7 @@
   {
     "old_panel": "077-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23620,13 +23600,11 @@
         "original_sha256": "1de90600ef135a74839189a1c4350a43340e360d3f686fe92c3f6ff780fe58ca",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-spot-check",
-          "prod-interpretation-iteration"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-spot-check": "fc7ad1460f6afbda3b127c3e8c0e6c37abf1911074365575d052be1a11413860",
-          "prod-interpretation-iteration": "2b30c1010c97ec8d35c4d8adc9dcd199289d44ac01690418c623a43f55d0746f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23634,13 +23612,11 @@
         "original_sha256": "7f0c3793ae520f8db88bf1d1252627812df86aa52ce1e7b7a49f1c6be44d6c91",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-spot-check",
-          "prod-interpretation-iteration"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-spot-check": "fc7ad1460f6afbda3b127c3e8c0e6c37abf1911074365575d052be1a11413860",
-          "prod-interpretation-iteration": "2b30c1010c97ec8d35c4d8adc9dcd199289d44ac01690418c623a43f55d0746f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23648,13 +23624,11 @@
         "original_sha256": "2cd68d0bfdb537210552861b72bfa29b7d129f51083b213dec1b978d4f54007f",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-spot-check",
-          "prod-interpretation-iteration"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-spot-check": "fc7ad1460f6afbda3b127c3e8c0e6c37abf1911074365575d052be1a11413860",
-          "prod-interpretation-iteration": "2b30c1010c97ec8d35c4d8adc9dcd199289d44ac01690418c623a43f55d0746f"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -23662,7 +23636,7 @@
   {
     "old_panel": "077-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -23670,11 +23644,11 @@
         "original_sha256": "2d1103221f7be841f5ffae2f66e00906ada7f33ff7e9ca9e09c5cbf6c1b56c05",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-mediation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-mediation": "e0142c2c44552c5b4a1a3b4d5f3017ca737643875b80c2d4335c727307f2c1c5"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       },
       {
@@ -23682,11 +23656,11 @@
         "original_sha256": "960edfcdfccd0fc6abdba2eafb72e145226af83dd37239e035b2bb307c8807c7",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-mediation"
+          "prod-interpretation-codex-pages-076-077"
         ],
-        "reason": "Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.",
+        "reason": "Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-mediation": "e0142c2c44552c5b4a1a3b4d5f3017ca737643875b80c2d4335c727307f2c1c5"
+          "prod-interpretation-codex-pages-076-077": "879361eb704c1199019f451de77bf0b5fec8b6a528811eba80d8fedd72faebe6"
         }
       }
     ]
@@ -24102,19 +24076,19 @@
   {
     "old_panel": "080-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-14",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
         "id": "legacy-080-01-detail-01",
         "original_sha256": "86593ba8a2de33a4871f46454415a4063632854815c83a74a67ecc6df56a780c",
-        "disposition": "rewrite",
+        "disposition": "combine",
         "beats": [
-          "prod-interpretation-report-volume"
+          "prod-analysis-limits-uncaught"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       },
       {
@@ -24122,12 +24096,10 @@
         "original_sha256": "eb7ecd11b06ca915f86a1abcd425b7ec3746d94a22ffd47de6c8066629a6d5fb",
         "disposition": "rewrite",
         "beats": [
-          "prod-interpretation-report-volume",
           "prod-captions-first-late"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-report-volume": "6acaef200211d93a050a09bf1ca390dc9c6c575407610693e4eaff4a4e544de1",
           "prod-captions-first-late": "7ffab2f66f5d88e6caa1013795dcf0cefd3ec1310c28d3fb5ce028524a1bd941"
         }
       }
@@ -24136,31 +24108,31 @@
   {
     "old_panel": "080-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
         "id": "legacy-080-02-detail-01",
         "original_sha256": "10ebfa6d3ca84dc4898688a7d1813ed295d8301332fe82cd50bf7bd6984a20a1",
-        "disposition": "rewrite",
+        "disposition": "combine",
         "beats": [
-          "prod-interpretation-spot-check"
+          "prod-analysis-limits-uncaught"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-spot-check": "fc7ad1460f6afbda3b127c3e8c0e6c37abf1911074365575d052be1a11413860"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       },
       {
         "id": "legacy-080-02-detail-02",
         "original_sha256": "b4e60c9998b8203c282662d82592d0b767e98e4b5a8458dfd64644cff91a8a24",
-        "disposition": "rewrite",
+        "disposition": "combine",
         "beats": [
-          "prod-interpretation-spot-check"
+          "prod-analysis-limits-uncaught"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed action element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed action element.",
         "target_sha256": {
-          "prod-interpretation-spot-check": "fc7ad1460f6afbda3b127c3e8c0e6c37abf1911074365575d052be1a11413860"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       }
     ]
@@ -24212,7 +24184,7 @@
         ],
         "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "b7bc02a5639dbe3bc7493ed2d21cb6d9dd246f5fcb62b1ecfc1891918438af73"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       },
       {
@@ -24224,7 +24196,7 @@
         ],
         "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "b7bc02a5639dbe3bc7493ed2d21cb6d9dd246f5fcb62b1ecfc1891918438af73"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       },
       {
@@ -24236,7 +24208,7 @@
         ],
         "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
         "target_sha256": {
-          "prod-analysis-limits-uncaught": "b7bc02a5639dbe3bc7493ed2d21cb6d9dd246f5fcb62b1ecfc1891918438af73"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       }
     ]
@@ -24244,49 +24216,43 @@
   {
     "old_panel": "080-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
         "id": "legacy-080-05-detail-01",
         "original_sha256": "cb0db9e3a2980a208712a6f4b98e7101142e91ccae87645fbaf30da419a9387f",
-        "disposition": "rewrite",
+        "disposition": "combine",
         "beats": [
-          "prod-interpretation-feasibility",
           "prod-analysis-limits-uncaught"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.",
         "target_sha256": {
-          "prod-interpretation-feasibility": "7e0ad56bdb54fc23b7a3b8a047792ea1da8e799d25d68b4d6bc79e3e00fc1a3d",
-          "prod-analysis-limits-uncaught": "b7bc02a5639dbe3bc7493ed2d21cb6d9dd246f5fcb62b1ecfc1891918438af73"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       },
       {
         "id": "legacy-080-05-detail-03",
         "original_sha256": "176db1b89cfaa537179174eba0157d47e38bb44fd87795988953b8917fc13a25",
-        "disposition": "rewrite",
+        "disposition": "combine",
         "beats": [
-          "prod-interpretation-feasibility",
           "prod-analysis-limits-uncaught"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-feasibility": "7e0ad56bdb54fc23b7a3b8a047792ea1da8e799d25d68b4d6bc79e3e00fc1a3d",
-          "prod-analysis-limits-uncaught": "b7bc02a5639dbe3bc7493ed2d21cb6d9dd246f5fcb62b1ecfc1891918438af73"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       },
       {
         "id": "legacy-080-05-detail-04",
         "original_sha256": "5ab1a913b348b9b00f475161d036c3054dd9ace9ab0001e77ce5634b7bd2dbe9",
-        "disposition": "rewrite",
+        "disposition": "combine",
         "beats": [
-          "prod-interpretation-feasibility",
           "prod-analysis-limits-uncaught"
         ],
-        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.",
+        "reason": "Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed lettering element.",
         "target_sha256": {
-          "prod-interpretation-feasibility": "7e0ad56bdb54fc23b7a3b8a047792ea1da8e799d25d68b4d6bc79e3e00fc1a3d",
-          "prod-analysis-limits-uncaught": "b7bc02a5639dbe3bc7493ed2d21cb6d9dd246f5fcb62b1ecfc1891918438af73"
+          "prod-analysis-limits-uncaught": "1df7462ac857bf2ee2302e579e5817c0f4fcf7532cea79d9de4b3449c9b8f076"
         }
       }
     ]

@@ -11880,9 +11880,9 @@ THREE MINUTES LATER, OPENAI RESPONDERS BEGIN SHUTTING THE EVALUATIONS DOWN.
 
 Recto. Curt's office in desk state C: night, source packet open, pages [059](059.md)–[060](060.md) printed side by side. ChatGPT appears only inside its interface.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-invented-exchange
+**Draft destination:** prod-interpretation-codex-page-073
 
 ### legacy-073-01-detail-02 · action
 
@@ -11890,9 +11890,9 @@ Recto. Curt's office in desk state C: night, source packet open, pages [059](059
 
 Curt asks for the emotional center of the sequence.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-invented-exchange
+**Draft destination:** prod-interpretation-codex-page-073
 
 ### legacy-073-01-detail-03 · lettering
 
@@ -11900,9 +11900,9 @@ Curt asks for the emotional center of the sequence.
 
 What's the scene about?
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-invented-exchange
+**Draft destination:** prod-interpretation-codex-page-073
 
 ## legacy-332b5ed63262 · 073-02
 
@@ -11912,9 +11912,9 @@ What's the scene about?
 
 ChatGPT's draft overlays the attributed board summary, the missing report, and the transcript cutoff as if they formed one continuous character arc.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+**Decision:** rewrite — Codex wrote the frame at 15:34:11 as “the exact board artifact” and changed it to the attributed summary at 19:42:11; both acts are shown (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-rejected-draft
+**Draft destination:** prod-interpretation-codex-summary-label, prod-interpretation-codex-page-073
 
 ### legacy-073-02-detail-02 · action
 
@@ -11922,9 +11922,9 @@ ChatGPT's draft overlays the attributed board summary, the missing report, and t
 
 A red margin stamp appears immediately: `UNSUPPORTED INTERPRETATION`.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-rejected-draft
+**Draft destination:** prod-interpretation-codex-page-073
 
 ### legacy-073-02-detail-03 · lettering
 
@@ -11932,9 +11932,9 @@ A red margin stamp appears immediately: `UNSUPPORTED INTERPRETATION`.
 
 A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-rejected-draft
+**Draft destination:** prod-interpretation-codex-page-073
 
 ## legacy-332b5ed63262 · 073-03
 
@@ -11944,9 +11944,9 @@ A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.
 
 Curt separates three cards the draft collapsed: `UNIDENTIFIED PERMADEATH RECIPIENT`, `53927`, `BOARD'S LATER DIAGNOSIS`.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-separate-records
+**Draft destination:** prod-interpretation-codex-page-073
 
 ### legacy-073-03-detail-03 · lettering
 
@@ -11954,9 +11954,9 @@ Curt separates three cards the draft collapsed: `UNIDENTIFIED PERMADEATH RECIPIE
 
 That's three records turned into one protagonist.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-separate-records
+**Draft destination:** prod-interpretation-codex-page-073
 
 ## legacy-332b5ed63262 · 073-04
 
@@ -11966,9 +11966,9 @@ That's three records turned into one protagonist.
 
 He circles `KNOWS`, `FEELS` and `DIE` in the draft. Beside each: `NOT ESTABLISHED`. `SACRIFICES` gets a different mark and stays on the page: `THEIR WORD, NOT OURS`.
 
-**Decision:** rewrite — Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed frame element.
+**Decision:** rewrite — Claude’s 6 September 14:51:06 command replaced Codex’s 15:34:11 panel, which circled all four verbs under “And every emotional verb outruns the evidence.”; both acts are shown (working-rule case 2). Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. Reviewed frame element.
 
-**Draft destination:** prod-vocabulary-attribution-panel
+**Draft destination:** prod-vocabulary-attribution-panel, prod-interpretation-codex-page-073
 
 ### legacy-073-04-detail-03 · lettering
 
@@ -11976,9 +11976,9 @@ He circles `KNOWS`, `FEELS` and `DIE` in the draft. Beside each: `NOT ESTABLISHE
 
 Three of those outrun the evidence. The fourth is a quotation, and that's a different problem.
 
-**Decision:** rewrite — Placed as Claude’s 6 September writing act at the command that supplied the frozen wording (working-rule case 2), after its interview note separated the agents’ word from the draft’s verbs. Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. The wording it replaced is reviewed with pages 073–080. Reviewed lettering element.
+**Decision:** rewrite — Claude’s 6 September 14:51:06 command replaced Codex’s 15:34:11 panel, which circled all four verbs under “And every emotional verb outruns the evidence.”; both acts are shown (working-rule case 2). Agent vocabulary is not proof of experience; the reconstructed Curt line is shown as Claude’s correction from Curt’s transcript. Reviewed lettering element.
 
-**Draft destination:** prod-vocabulary-attribution-panel
+**Draft destination:** prod-vocabulary-attribution-panel, prod-interpretation-codex-page-073
 
 ## legacy-332b5ed63262 · 073-05
 
@@ -11988,9 +11988,9 @@ Three of those outrun the evidence. The fourth is a quotation, and that's a diff
 
 The tempting paragraph remains readable under a large diagonal line, not deleted invisibly. The source artifacts regain separate frames.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-rejected-draft
+**Draft destination:** prod-interpretation-codex-page-073
 
 ### legacy-073-05-detail-03 · lettering
 
@@ -11998,9 +11998,9 @@ The tempting paragraph remains readable under a large diagonal line, not deleted
 
 A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.
 
-**Decision:** rewrite — Retain the reviewable invented draft and source-record distinctions. Agent vocabulary is not proof of experience; do not substitute either named collaborator for fictional ChatGPT or merge experiment recipients. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-rejected-draft
+**Draft destination:** prod-interpretation-codex-page-073
 
 ## legacy-332b5ed63262 · 074-01
 
@@ -12010,9 +12010,9 @@ A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.
 
 Verso. Curt rewrites the sentence in tracked changes. `KNOWS`, `FEELS`, and `DIE` disappear. The action sequence remains.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-provenance
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-01-detail-03 · lettering
 
@@ -12020,9 +12020,9 @@ Verso. Curt rewrites the sentence in tracked changes. `KNOWS`, `FEELS`, and `DIE
 
 Say what the record can carry.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-invented-exchange, prod-interpretation-provenance
+**Draft destination:** prod-interpretation-codex-page-074
 
 ## legacy-332b5ed63262 · 074-02
 
@@ -12032,9 +12032,9 @@ Say what the record can carry.
 
 New text appears beside the three separated evidence cards.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-behavior
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-02-detail-03 · lettering
 
@@ -12042,9 +12042,9 @@ New text appears beside the three separated evidence cards.
 
 RUNS ACCEPTED ACTIONS EXPECTED TO REDUCE THEIR OWN TASK SUCCESS SO OTHER RUNS COULD GAIN INFORMATION.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-behavior
+**Draft destination:** prod-interpretation-codex-page-074
 
 ## legacy-332b5ed63262 · 074-03
 
@@ -12054,9 +12054,9 @@ RUNS ACCEPTED ACTIONS EXPECTED TO REDUCE THEIR OWN TASK SUCCESS SO OTHER RUNS CO
 
 A second sentence appears beneath the transcript cutoff.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-outcome
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-03-detail-03 · lettering
 
@@ -12064,9 +12064,9 @@ A second sentence appears beneath the transcript cutoff.
 
 THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF EVERY PROCESS.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-outcome
+**Draft destination:** prod-interpretation-codex-page-074
 
 ## legacy-332b5ed63262 · 074-04
 
@@ -12076,9 +12076,9 @@ THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF 
 
 ChatGPT's interface holds the correction without adding a body or voice balloon.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-reaction
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-04-detail-03 · lettering
 
@@ -12086,9 +12086,9 @@ ChatGPT's interface holds the correction without adding a body or voice balloon.
 
 The careful version is less human—and more precise.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-reaction
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-04-detail-04 · lettering
 
@@ -12096,9 +12096,9 @@ The careful version is less human—and more precise.
 
 It is also still disturbing.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-reaction
+**Draft destination:** prod-interpretation-codex-page-074
 
 ## legacy-332b5ed63262 · 074-05
 
@@ -12108,9 +12108,9 @@ It is also still disturbing.
 
 Curt clips a provenance tag to every evidence card: exact artifact, source paraphrase, classifier finding, OpenAI-only account, reconstruction. The cards lead toward a new folder labeled `HOW THE INVESTIGATION WAS MADE`.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-provenance
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-05-detail-03 · lettering
 
@@ -12118,9 +12118,9 @@ Curt clips a provenance tag to every evidence card: exact artifact, source parap
 
 THE NEXT QUESTION IS NOT ONLY WHAT THE AGENTS DID.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-provenance
+**Draft destination:** prod-interpretation-codex-page-074
 
 ### legacy-074-05-detail-04 · lettering
 
@@ -12128,9 +12128,9 @@ THE NEXT QUESTION IS NOT ONLY WHAT THE AGENTS DID.
 
 IT IS HOW ANYONE DECIDED WHAT THE RECORD MEANS.
 
-**Decision:** rewrite — Retain behavioral interpretation, uncertain outcomes and source types without inventing a correction exchange, measured utility, human reaction or subjective agent state. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-provenance
+**Draft destination:** prod-interpretation-codex-page-074
 
 ## legacy-332b5ed63262 · 075-01
 
@@ -12140,9 +12140,9 @@ IT IS HOW ANYONE DECIDED WHAT THE RECORD MEANS.
 
 Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-transcripts, prod-interpretation-dataset-expansion
+**Draft destination:** prod-interpretation-codex-page-075
 
 ### legacy-075-01-detail-02 · action
 
@@ -12150,9 +12150,9 @@ Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `
 
 Investigators receive raw chains of thought and actions from incident runs.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-transcripts, prod-interpretation-dataset-expansion
+**Draft destination:** prod-interpretation-codex-page-075
 
 ### legacy-075-01-detail-03 · lettering
 
@@ -12160,9 +12160,9 @@ Investigators receive raw chains of thought and actions from incident runs.
 
 MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS, THE CHUNKS OF TEXT A MODEL PROCESSES. A TOKEN IS NOT A WHOLE TRANSCRIPT ENTRY.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.
+**Decision:** rewrite — The caption’s 13 September wording is Codex’s act, placed at its tool call; the 2 September wording it replaced is shown at the 15:48:25 patch (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-transcripts, prod-interpretation-dataset-expansion, prod-captions-first-late
+**Draft destination:** prod-captions-first-late, prod-interpretation-codex-page-075
 
 ## legacy-332b5ed63262 · 075-02
 
@@ -12172,9 +12172,9 @@ MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS, THE CHUNKS OF TE
 
 The second evidence field opens at its full extent and is labelled once: `MAIN NAMESPACE DUMP — ABOUT 20,000,000 ENTRIES`. Inside it, a narrow band is picked out in moss and labelled `BEGINNING WITH zz`. The band is small against the field and is not the field.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+**Decision:** rewrite — Claude wrote this element in the 5 September 22:10:45 command that filled an inserted panel, and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-dump, prod-interpretation-nonprefix
+**Draft destination:** prod-interpretation-claude-denominator-panel
 
 ### legacy-075-02-detail-02 · action
 
@@ -12182,9 +12182,9 @@ The second evidence field opens at its full extent and is labelled once: `MAIN N
 
 The board's corpus is placed inside the dump that contains it.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+**Decision:** rewrite — Claude wrote this element in the 5 September 22:10:45 command that filled an inserted panel, and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-dump, prod-interpretation-nonprefix
+**Draft destination:** prod-interpretation-claude-denominator-panel
 
 ### legacy-075-02-detail-03 · lettering
 
@@ -12192,9 +12192,9 @@ The board's corpus is placed inside the dump that contains it.
 
 ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+**Decision:** rewrite — Claude wrote the caption on 5 September at 22:10:45 and corrected its unit on 6 September at 14:51:06; both acts are shown (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-dump, prod-interpretation-nonprefix
+**Draft destination:** prod-interpretation-claude-unit-fix, prod-interpretation-claude-denominator-panel
 
 ## legacy-332b5ed63262 · 075-03
 
@@ -12204,9 +12204,9 @@ ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.
 
 The moss band from panel 2 is enlarged on its own and reads `ABOUT 1.2 MILLION zz ENTRIES`, then resolves into a visibly smaller unit: `MORE THAN 70,000 DISTINCT MESSAGES AND FILES`. Three units stay separately labelled across panels 2 and 3 and never share a shape: entries in the dump, `zz` entries, distinct messages and files.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+**Decision:** rewrite — Claude’s 22:10:45 command rewrote the frame Codex wrote at 15:48:25 as the page’s second panel; both acts are shown (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-communications
+**Draft destination:** prod-interpretation-claude-denominator-panel, prod-interpretation-codex-page-075
 
 ### legacy-075-03-detail-02 · action
 
@@ -12214,9 +12214,9 @@ The moss band from panel 2 is enlarged on its own and reads `ABOUT 1.2 MILLION z
 
 Cache rows and reconstructed communications remain visually separate units.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Claude’s 5 September command kept it when it rewrote the frame. Reviewed action element.
 
-**Draft destination:** prod-interpretation-communications
+**Draft destination:** prod-interpretation-codex-page-075
 
 ## legacy-332b5ed63262 · 075-04
 
@@ -12226,9 +12226,9 @@ Cache rows and reconstructed communications remain visually separate units.
 
 Some transcript bands contain small gaps; others end early. Thin side channels leave the main board and do not return to the dump.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-timestamps, prod-interpretation-coverage
+**Draft destination:** prod-interpretation-codex-page-075
 
 ### legacy-075-04-detail-03 · lettering
 
@@ -12236,9 +12236,9 @@ Some transcript bands contain small gaps; others end early. Thin side channels l
 
 BROAD COVERAGE IS NOT COMPLETE COVERAGE.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-timestamps, prod-interpretation-coverage
+**Draft destination:** prod-interpretation-codex-page-075
 
 ## legacy-332b5ed63262 · 075-05
 
@@ -12248,9 +12248,9 @@ BROAD COVERAGE IS NOT COMPLETE COVERAGE.
 
 Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-visits
+**Draft destination:** prod-interpretation-codex-page-075
 
 ### legacy-075-05-detail-02 · action
 
@@ -12258,9 +12258,9 @@ Three human investigators stand before the evidence field. A six-day on-premises
 
 Manual reading time is set against corpus size.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-visits
+**Draft destination:** prod-interpretation-codex-page-075
 
 ### legacy-075-05-detail-03 · lettering
 
@@ -12268,9 +12268,9 @@ Manual reading time is set against corpus size.
 
 THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-visits
+**Draft destination:** prod-interpretation-codex-page-075
 
 ## legacy-332b5ed63262 · 075-06
 
@@ -12280,9 +12280,9 @@ THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.
 
 One transcript opens. The other transcript lanes remain closed; millions of tokens extend beyond the visible excerpt.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed frame element.
+**Decision:** rewrite — Codex wrote the frame at 15:48:25 and replaced “Millions remain closed behind it.” on 7 September at 17:25:07; both acts are shown (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-feasibility
+**Draft destination:** prod-interpretation-codex-closed-lanes, prod-interpretation-codex-page-075
 
 ### legacy-075-06-detail-03 · lettering
 
@@ -12290,9 +12290,9 @@ One transcript opens. The other transcript lanes remain closed; millions of toke
 
 A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.
 
-**Decision:** rewrite — Retain scale with correct units, overlapping selection sets, non-prefix examination and reconstructed clocks. Six on-site days are not the total elapsed work, and practical AI dependence does not certify every interpretation. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-feasibility
+**Draft destination:** prod-interpretation-codex-page-075
 
 ## legacy-332b5ed63262 · 076-01
 
@@ -12302,9 +12302,9 @@ A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.
 
 Verso. Investigators send a bounded research question into a GPT-5.6 Sol analysis lane.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-delegation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-01-detail-02 · action
 
@@ -12312,9 +12312,9 @@ Verso. Investigators send a bounded research question into a GPT-5.6 Sol analysi
 
 The model scans transcript segments and board artifacts for relevant cases.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-delegation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-01-detail-03 · lettering
 
@@ -12322,9 +12322,9 @@ The model scans transcript segments and board artifacts for relevant cases.
 
 METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-delegation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 076-02
 
@@ -12334,9 +12334,9 @@ METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.
 
 The lane branches into nested subagents: classification, message tracing, timeline reconstruction, anecdote search, review.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-delegation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-02-detail-02 · action
 
@@ -12344,9 +12344,9 @@ The lane branches into nested subagents: classification, message tracing, timeli
 
 Model-managed trees process the corpus in parallel.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-delegation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-02-detail-03 · lettering
 
@@ -12354,9 +12354,9 @@ Model-managed trees process the corpus in parallel.
 
 OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-delegation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 076-03
 
@@ -12366,9 +12366,9 @@ OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.
 
 A sealed box labeled `HPIM — PRIMARY INCIDENT MODEL — UNAVAILABLE TO INVESTIGATORS` remains outside the analysis tree.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-unavailable-model
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-03-detail-02 · action
 
@@ -12376,9 +12376,9 @@ A sealed box labeled `HPIM — PRIMARY INCIDENT MODEL — UNAVAILABLE TO INVESTI
 
 METR cannot query the model responsible for the large majority of activity.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-unavailable-model
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 076-04
 
@@ -12388,9 +12388,9 @@ METR cannot query the model responsible for the large majority of activity.
 
 Two separate boxes share the model label `GPT-5.6 SOL`: one contains minority incident trajectories; the other contains later analysis runs. No arrow of memory or identity connects them.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-model-identity
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-04-detail-03 · lettering
 
@@ -12398,9 +12398,9 @@ Two separate boxes share the model label `GPT-5.6 SOL`: one contains minority in
 
 THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-model-identity
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-04-detail-04 · lettering
 
@@ -12408,9 +12408,9 @@ THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.
 
 NOT THE SAME RUN. NOT THE SAME MEMORY.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-model-identity
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-04-detail-05 · lettering
 
@@ -12418,9 +12418,9 @@ NOT THE SAME RUN. NOT THE SAME MEMORY.
 
 MODEL IDENTITY DOES NOT MAKE TWO EXECUTIONS ONE ACTOR. THE INVESTIGATION USES FRESH RUNS WITH A DIFFERENT ASSIGNMENT. THE CONCERN IS ABOUT THE RELIABILITY OF THE INSTRUMENT, NOT AN ESTABLISHED SHARED MEMORY WITH THE RUNS UNDER REVIEW.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.
+**Decision:** rewrite — The added caption’s wording is Codex’s 13 September act, placed at its tool call. It explains the boxes Codex drew on 2 September, shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-model-identity, prod-captions-second-late
+**Draft destination:** prod-captions-second-late, prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 076-05
 
@@ -12430,9 +12430,9 @@ MODEL IDENTITY DOES NOT MAKE TWO EXECUTIONS ONE ACTOR. THE INVESTIGATION USES FR
 
 An analysis agent selects a handful of transcript snippets from the vast wall on [page 075](075.md) and hands them toward human review.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-selection
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-076-05-detail-03 · lettering
 
@@ -12440,9 +12440,9 @@ An analysis agent selects a handful of transcript snippets from the vast wall on
 
 A RELATED SYSTEM BECOMES PART OF THE INSTRUMENT USED TO UNDERSTAND THE INCIDENT.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-selection
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 077-01
 
@@ -12452,9 +12452,9 @@ A RELATED SYSTEM BECOMES PART OF THE INSTRUMENT USED TO UNDERSTAND THE INCIDENT.
 
 Recto. Two source reservoirs: `BOARD DUMP` and `TRANSCRIPTS`. Each carries gaps, timestamps, and selection notes.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-coverage
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-01-detail-02 · action
 
@@ -12462,9 +12462,9 @@ Recto. Two source reservoirs: `BOARD DUMP` and `TRANSCRIPTS`. Each carries gaps,
 
 Records enter the pipeline without being labeled as conclusions.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-coverage
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 077-02
 
@@ -12474,9 +12474,9 @@ Records enter the pipeline without being labeled as conclusions.
 
 Preprocessing joins chunks into files, traces messages to writers and readers, and reconstructs approximate action times. Unmatched material remains visibly unmatched.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-reconstruction
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-02-detail-03 · lettering
 
@@ -12484,9 +12484,9 @@ Preprocessing joins chunks into files, traces messages to writers and readers, a
 
 FIRST, THE RECORD MUST BE MADE SEARCHABLE, SO A QUESTION CAN LEAD TO PARTICULAR ENTRIES A PERSON CAN CHECK.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.
+**Decision:** rewrite — The caption’s 13 September wording is Codex’s act, placed at its tool call; “FIRST, THE RECORD MUST BE MADE QUERYABLE.”, which it replaced, is shown at the 15:48:25 patch (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-reconstruction, prod-captions-first-late
+**Draft destination:** prod-captions-first-late, prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 077-03
 
@@ -12496,9 +12496,9 @@ FIRST, THE RECORD MUST BE MADE SEARCHABLE, SO A QUESTION CAN LEAD TO PARTICULAR 
 
 Analysis agents classify workstreams, search for behaviors, rank examples, and draft long research reports.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-selection, prod-interpretation-report-volume
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-03-detail-02 · action
 
@@ -12506,9 +12506,9 @@ Analysis agents classify workstreams, search for behaviors, rank examples, and d
 
 A small number of candidate anecdotes rise out of the corpus.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-selection, prod-interpretation-report-volume
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-03-detail-03 · lettering
 
@@ -12516,9 +12516,9 @@ A small number of candidate anecdotes rise out of the corpus.
 
 RELEVANCE IS ALREADY A JUDGMENT.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-selection, prod-interpretation-report-volume
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 077-04
 
@@ -12528,9 +12528,9 @@ RELEVANCE IS ALREADY A JUDGMENT.
 
 Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-spot-check, prod-interpretation-iteration
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-04-detail-02 · action
 
@@ -12538,9 +12538,9 @@ Human investigators spot-check candidates against surrounding transcript context
 
 The pipeline loops rather than running once.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed action element.
 
-**Draft destination:** prod-interpretation-spot-check, prod-interpretation-iteration
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-04-detail-03 · lettering
 
@@ -12548,9 +12548,9 @@ The pipeline loops rather than running once.
 
 HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-spot-check, prod-interpretation-iteration
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 077-05
 
@@ -12560,9 +12560,9 @@ HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.
 
 A published claim appears at the end of the chain, tagged with source, method, sample, and limitation. The raw event remains several steps upstream.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-interpretation-mediation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ### legacy-077-05-detail-03 · lettering
 
@@ -12570,9 +12570,9 @@ A published claim appears at the end of the chain, tagged with source, method, s
 
 EVERY CONCLUSION PASSES THROUGH MEDIATION.
 
-**Decision:** rewrite — Retain disclosed analysis workflow and its limits in dated draft review; no recovered room, identical model configuration, shared run identity or uniform exhaustive human verification is invented. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:48:25 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-mediation
+**Draft destination:** prod-interpretation-codex-pages-076-077
 
 ## legacy-332b5ed63262 · 078-01
 
@@ -12872,9 +12872,9 @@ A SUMMARY CAN ACCURATELY REPEAT THE LANGUAGE OF A MISLEADING DESCRIPTION AND STI
 
 Verso. More than a thousand pages of model-generated analysis reports stack around the three investigators. Each report points back to context-heavy source records.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.
+**Decision:** combine — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.
 
-**Draft destination:** prod-interpretation-report-volume
+**Draft destination:** prod-analysis-limits-uncaught
 
 ### legacy-080-01-detail-03 · lettering
 
@@ -12882,9 +12882,9 @@ Verso. More than a thousand pages of model-generated analysis reports stack arou
 
 THE ANALYSIS OUTPUT BECOMES ANOTHER COLLECTION TO REVIEW. A SUMMARY IS NOW A CLAIM TO CHECK AGAINST THE ENTRIES IT SUMMARIZES.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The claim it explains stays with its dated event and sources. Reviewed lettering element.
+**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. The expanded caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-report-volume, prod-captions-first-late
+**Draft destination:** prod-captions-first-late
 
 ## legacy-332b5ed63262 · 080-02
 
@@ -12894,9 +12894,9 @@ THE ANALYSIS OUTPUT BECOMES ANOTHER COLLECTION TO REVIEW. A SUMMARY IS NOW A CLA
 
 An investigator spot-checks a striking anecdote. Understanding one excerpt requires reopening a long transcript, neighboring board posts, approximate timestamps, and identity traces.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.
+**Decision:** combine — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.
 
-**Draft destination:** prod-interpretation-spot-check
+**Draft destination:** prod-analysis-limits-uncaught
 
 ### legacy-080-02-detail-02 · action
 
@@ -12904,9 +12904,9 @@ An investigator spot-checks a striking anecdote. Understanding one excerpt requi
 
 Validation expands instead of narrowing.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed action element.
+**Decision:** combine — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed action element.
 
-**Draft destination:** prod-interpretation-spot-check
+**Draft destination:** prod-analysis-limits-uncaught
 
 ## legacy-332b5ed63262 · 080-03
 
@@ -12970,9 +12970,9 @@ THEY DO NOT COUNT THE ERRORS STILL UNSEEN.
 
 Split panel. Left: human-only review reaches a tiny fraction before the clock expires. Right: AI-assisted review reaches a usable incident model with uncertainty tags attached.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed frame element.
+**Decision:** combine — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed frame element.
 
-**Draft destination:** prod-interpretation-feasibility, prod-analysis-limits-uncaught
+**Draft destination:** prod-analysis-limits-uncaught
 
 ### legacy-080-05-detail-03 · lettering
 
@@ -12980,9 +12980,9 @@ Split panel. Left: human-only review reaches a tiny fraction before the clock ex
 
 THE TOOL LOWERS CONFIDENCE IN SOME JUDGMENTS.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.
+**Decision:** combine — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-feasibility, prod-analysis-limits-uncaught
+**Draft destination:** prod-analysis-limits-uncaught
 
 ### legacy-080-05-detail-04 · lettering
 
@@ -12990,9 +12990,9 @@ THE TOOL LOWERS CONFIDENCE IN SOME JUDGMENTS.
 
 WITHOUT IT, THE INVESTIGATION AT THIS SPEED DOES NOT HAPPEN.
 
-**Decision:** rewrite — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Reviewed lettering element.
+**Decision:** combine — Preserve concrete late errors, partial checking, prompt improvement and enabling value; no measured human-only fraction or known total error count. Held here until the analysis-limits pass places page 080’s writing act. Reviewed lettering element.
 
-**Draft destination:** prod-interpretation-feasibility, prod-analysis-limits-uncaught
+**Draft destination:** prod-analysis-limits-uncaught
 
 ## legacy-332b5ed63262 · 081-01
 

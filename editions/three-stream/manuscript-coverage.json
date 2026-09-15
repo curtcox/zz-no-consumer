@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 378,
-  "drafted_beats": 1127,
+  "scenes": 385,
+  "drafted_beats": 1117,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -3657,7 +3657,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "073-01",
       "draft_beats": [
-        "prod-interpretation-invented-exchange"
+        "prod-interpretation-codex-page-073"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3666,8 +3666,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "073-02",
       "draft_beats": [
-        "prod-interpretation-invented-exchange",
-        "prod-interpretation-rejected-draft"
+        "prod-interpretation-codex-page-073",
+        "prod-interpretation-codex-summary-label"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3676,7 +3676,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "073-03",
       "draft_beats": [
-        "prod-interpretation-separate-records"
+        "prod-interpretation-codex-page-073"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3685,6 +3685,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "073-04",
       "draft_beats": [
+        "prod-interpretation-codex-page-073",
         "prod-vocabulary-attribution-panel"
       ],
       "detail_review": "elements-reviewed",
@@ -3694,7 +3695,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "073-05",
       "draft_beats": [
-        "prod-interpretation-rejected-draft"
+        "prod-interpretation-codex-page-073"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3703,8 +3704,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "074-01",
       "draft_beats": [
-        "prod-interpretation-invented-exchange",
-        "prod-interpretation-provenance"
+        "prod-interpretation-codex-page-074"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3713,7 +3713,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "074-02",
       "draft_beats": [
-        "prod-interpretation-behavior"
+        "prod-interpretation-codex-page-074"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3722,7 +3722,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "074-03",
       "draft_beats": [
-        "prod-interpretation-outcome"
+        "prod-interpretation-codex-page-074"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3731,7 +3731,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "074-04",
       "draft_beats": [
-        "prod-interpretation-reaction"
+        "prod-interpretation-codex-page-074"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3740,7 +3740,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "074-05",
       "draft_beats": [
-        "prod-interpretation-provenance"
+        "prod-interpretation-codex-page-074"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3749,8 +3749,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "075-01",
       "draft_beats": [
-        "prod-interpretation-transcripts",
-        "prod-interpretation-dataset-expansion",
+        "prod-interpretation-codex-page-075",
         "prod-captions-first-late"
       ],
       "detail_review": "elements-reviewed",
@@ -3760,8 +3759,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "075-02",
       "draft_beats": [
-        "prod-interpretation-dump",
-        "prod-interpretation-nonprefix"
+        "prod-interpretation-claude-denominator-panel",
+        "prod-interpretation-claude-unit-fix"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3770,7 +3769,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "075-03",
       "draft_beats": [
-        "prod-interpretation-communications"
+        "prod-interpretation-codex-page-075",
+        "prod-interpretation-claude-denominator-panel"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3779,8 +3779,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "075-04",
       "draft_beats": [
-        "prod-interpretation-timestamps",
-        "prod-interpretation-coverage"
+        "prod-interpretation-codex-page-075"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3789,7 +3788,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "075-05",
       "draft_beats": [
-        "prod-interpretation-visits"
+        "prod-interpretation-codex-page-075"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3798,7 +3797,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "075-06",
       "draft_beats": [
-        "prod-interpretation-feasibility"
+        "prod-interpretation-codex-page-075",
+        "prod-interpretation-codex-closed-lanes"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3807,7 +3807,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-01",
       "draft_beats": [
-        "prod-interpretation-delegation"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3816,7 +3816,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-02",
       "draft_beats": [
-        "prod-interpretation-delegation"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3825,7 +3825,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-03",
       "draft_beats": [
-        "prod-interpretation-unavailable-model"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3834,7 +3834,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-04",
       "draft_beats": [
-        "prod-interpretation-model-identity",
+        "prod-interpretation-codex-pages-076-077",
         "prod-captions-second-late"
       ],
       "detail_review": "elements-reviewed",
@@ -3844,7 +3844,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "076-05",
       "draft_beats": [
-        "prod-interpretation-selection"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3853,7 +3853,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-01",
       "draft_beats": [
-        "prod-interpretation-coverage"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3862,7 +3862,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-02",
       "draft_beats": [
-        "prod-interpretation-reconstruction",
+        "prod-interpretation-codex-pages-076-077",
         "prod-captions-first-late"
       ],
       "detail_review": "elements-reviewed",
@@ -3872,8 +3872,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-03",
       "draft_beats": [
-        "prod-interpretation-selection",
-        "prod-interpretation-report-volume"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3882,8 +3881,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-04",
       "draft_beats": [
-        "prod-interpretation-spot-check",
-        "prod-interpretation-iteration"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3892,7 +3890,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "077-05",
       "draft_beats": [
-        "prod-interpretation-mediation"
+        "prod-interpretation-codex-pages-076-077"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3993,7 +3991,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-01",
       "draft_beats": [
-        "prod-interpretation-report-volume",
+        "prod-analysis-limits-uncaught",
         "prod-captions-first-late"
       ],
       "detail_review": "elements-reviewed",
@@ -4003,7 +4001,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-02",
       "draft_beats": [
-        "prod-interpretation-spot-check"
+        "prod-analysis-limits-uncaught"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4030,8 +4028,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "080-05",
       "draft_beats": [
-        "prod-analysis-limits-uncaught",
-        "prod-interpretation-feasibility"
+        "prod-analysis-limits-uncaught"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -6015,8 +6012,8 @@
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 58,
-    "Codex": 166,
-    "Claude": 313
+    "Codex": 174,
+    "Claude": 295
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717
