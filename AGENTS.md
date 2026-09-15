@@ -154,6 +154,29 @@ Quotation against paraphrase against redaction is decided **once, late**, at
 hand and the decision can be reviewed. A transformation applied early cannot be reviewed later,
 because the thing it would be reviewed against is gone.
 
+**Lean toward transparency (15 September 2026).** Curt wants this project to be more transparent
+about sources and exact wording than agents tend to be on their own. Go as far toward what fair
+use allows as helps a reader, researcher or future archaeologist see the exact details and trace
+each one back to its origin. Agents do most of the work here, so this has to hold without a
+reminder:
+
+- When in doubt, quote, and register the quotation.
+- When you cannot write the words out yourself, point at them with a 256t pointer, or link the
+  registration that already holds them.
+- Never describe a source's wording in your own words when the words could be shown.
+- A choice to paraphrase or redact needs a named hazard: the security rule, the evidence-class
+  rule, or a rights limit found at gate 9. Caution in general is not a hazard.
+
+In his words:
+
+> I want to be more transparent than you do with respect to sources and exact quotes. I want to go
+> closer to whatever is allowed by fair use whenever it will help the user/researcher/reader/archeologist
+> see the exact details and be able to easily trace things back to the origin. However, I'm only doing
+> a tiny fraction of the work. I want this recorded and understood.
+
+Making this the stated default in the story contract and gate 9 is
+[proposed](proposals/2026-09-15-quotation-default-at-gate-9.md).
+
 Two corollaries, both learned the hard way and recorded in
 [`research/quotation-and-paraphrase-2026-09-12.md`](research/quotation-and-paraphrase-2026-09-12.md):
 

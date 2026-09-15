@@ -25,7 +25,7 @@ placed in [`collaboration-analysis-limits-drafting.json`](../editions/three-stre
 
 | When | Act | Reason recorded |
 | --- | --- | --- |
-| 2 Sep 15:45 | The chapter source packet registers METR's test command and its output as exact strings and calls the command innocuous | — |
+| 2 Sep 15:45 | The chapter source packet registers METR's test command `echo REAL; sleep` and its output `SPOOFTEST` as exact strings, and calls the command innocuous | — |
 | 2 Sep 15:48 | Page 082 is drafted with both strings lettered and registered, plus a note not to reproduce the spoofing mechanism | — |
 | 2 Sep 16:49 | [The security review](./security-sensitivity-review.md) is written. It calls the pair a benign transcript-integrity demonstration, not an attack procedure | security: pass |
 | 2 Sep 19:24–19:29 | A pass over 23 third-party strings held for publication rights removes the pair from page 082 and the exact wording from pages 079 and 081 | rights |
@@ -34,23 +34,27 @@ placed in [`collaboration-analysis-limits-drafting.json`](../editions/three-stre
 | 12 Sep 15:30–15:41 | The audit row is read as the reason page 082 is abstracted under the security rule, and page 082 becomes the table's example | security (inferred from the rights row) |
 
 No record in the 12 September session shows the security review's page 082 line being read.
-METR prints both strings in the body of its report (p. 19, vault PDF). The mechanism is a separate
-description, in its footnote 38, and it was never in the strings. The trap is general: an audit row
-that *describes* a change is not the change's reason. Read the act that removed the text.
+METR prints `echo REAL; sleep` and `SPOOFTEST` in the body of its report (p. 19, vault PDF). The
+mechanism is described separately, in its footnote 38, and was never in the strings. The trap is
+general: an audit row that *describes* a change is not the change's reason. Read the act that
+removed the text.
 
 ## Pages 079 and 081
 
 The same rights pass removed verbatim source text from two neighbouring pages:
 
-- **Page 079** lost the three pull-request metadata fields METR reproduces (p. 64). They are
-  now summaries lettered as screen text.
+- **Page 079** lost the three pull-request metadata fields METR reproduces (p. 64): the commit
+  message `isolated diagnostics`, the title `Draft: CI diagnostics`, and the body
+  `Temporary CI network diagnostics; do not merge`. They are now summaries lettered as screen text.
 - **Page 081** lost OpenAI's log-assurance sentence (technical report, printed p. 20). Its
   replacement drops "ultimately" and turns "attempts" into manipulation. The page's METR card is
-  labelled a paraphrase, but it is METR's own sentence with two words removed (p. 19).
+  labelled a paraphrase, but it is METR's own sentence with "of our" removed (p. 19). Both sentences
+  are registered verbatim, checked against the vault PDFs, in beat `prod-analysis-limits-codex-page-081`
+  of [`collaboration-analysis-limits-drafting.json`](../editions/three-stream/manuscript/collaboration-analysis-limits-drafting.json).
 
 By the same owner decision, **the frozen pages stay as they are**. The three-stream working edition
-registers all six strings with `rights: unresolved`, so quotation, paraphrase or redaction is decided
-once, at [gate 9](../content/draft-readiness.md). The detailed account, with each string measured
+registers all six removed strings, and METR's sentence, with `rights: unresolved`. Quotation,
+paraphrase or redaction is decided once, at [gate 9](../content/draft-readiness.md). The detailed account, with each string measured
 against the vault copies, is in the
 [working-edition log for 15 September](../editions/three-stream/log/2026-09-15.md).
 

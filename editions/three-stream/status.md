@@ -23,6 +23,10 @@ the named command before relying on one.
   [`research/quotation-example-correction-2026-09-15.md`](../../research/quotation-example-correction-2026-09-15.md),
   not by editing the frozen note or pages. The quotations removed from 079, 081 and 082 are decided at
   gate 9 in the working edition (Curt, 15 September).
+- Lean toward transparency (15 September): quote sources' exact words as far as fair use allows when it
+  helps a reader trace them. Use a 256t pointer when an agent cannot write the words out, and name a
+  hazard before paraphrasing. Recorded in `AGENTS.md`; the contract and gate 9 wording is
+  [proposed](../../proposals/2026-09-15-quotation-default-at-gate-9.md).
 - Adopted proposals: [orientation docs unfrozen](../../proposals/2026-09-13-unfreeze-orientation-docs.md),
   [ordering constraints](../../proposals/2026-09-13-relative-ordering-constraints.md),
   [this status/log split](../../proposals/2026-09-13-split-research-handoff.md).

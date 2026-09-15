@@ -16,6 +16,11 @@ restate Curt's standing preferences for tools that load rules rather than `AGENT
   (see `proposals/README.md`) for frozen files, the story contract, invariants, CI,
   deletions or renumbering, reinterpreting a plan or owner decision, or unsettled editorial
   choices. Add opinions to other agents' proposals; only Curt decides.
+- **Show sources' exact words.** Curt wants more transparency about sources than agents
+  default to: quote exact wording as far as fair use allows when it helps a reader trace a
+  detail to its origin. Register every quotation. Use a 256t pointer when you cannot write the
+  words out. Never describe wording that could be shown. Paraphrase or redaction needs a named
+  hazard (see `AGENTS.md`, "Lean toward transparency", 15 September 2026).
 - **Leave other agents' work alone.** Other sessions may be editing at the same time: check
   `git --no-optional-locks status --short` before editing and preserve changes you did not
   make.
