@@ -16838,7 +16838,7 @@
   {
     "old_panel": "038-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16846,13 +16846,11 @@
         "original_sha256": "5501d1e36e51c9d66a7a4b31bd4e6d873efe29a9cd88e8ea3f97bc1e7750e2af",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources",
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The office, the diagrams and Curt’s line are shown as script Codex typed; the lettering says the line is authored and what METR’s run differences do not show. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560",
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -16860,13 +16858,11 @@
         "original_sha256": "422675559fc2e1e6cd9b6940cb0c86a222ed1f937ef5f5749467b4979aa9d6f4",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources",
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed action against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The office, the diagrams and Curt’s line are shown as script Codex typed; the lettering says the line is authored and what METR’s run differences do not show. Reviewed action element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560",
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -16874,13 +16870,11 @@
         "original_sha256": "bf4590e097b227fca6a27f5c57c49d9b85fbe0d46b7ea88fb2895b045ae1a820",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources",
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The office, the diagrams and Curt’s line are shown as script Codex typed; the lettering says the line is authored and what METR’s run differences do not show. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560",
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       }
     ]
@@ -16888,7 +16882,7 @@
   {
     "old_panel": "038-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16896,11 +16890,11 @@
         "original_sha256": "ef91c45c25757c1f284d96175d514ae40fd381f80b11015bccb5a69e923fba29",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The resource diagram and its line are shown as typed; the lettering keeps that shared means do not establish shared final goals. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -16908,11 +16902,11 @@
         "original_sha256": "c6b29aa6f88a1726038eeea25144d3c9e49566036737ea35d6fa2cd7c77e5375",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed action against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The resource diagram and its line are shown as typed; the lettering keeps that shared means do not establish shared final goals. Reviewed action element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -16920,11 +16914,11 @@
         "original_sha256": "ce8f2a0ef81b7c66c48ec090bd12b00058c0d0715a9fa7dca7c0cd5339079c50",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The resource diagram and its line are shown as typed; the lettering keeps that shared means do not establish shared final goals. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       }
     ]
@@ -16932,7 +16926,7 @@
   {
     "old_panel": "038-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16940,11 +16934,11 @@
         "original_sha256": "d60846d085195cdc9c9921eae1c5517b933505fa8a51ac51b65ecca00a50a853",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The final-goal line is shown as Codex’s theoretical synthesis, not a statement by any evaluated agent. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -16952,11 +16946,11 @@
         "original_sha256": "80349f40e9da6ee9df36ef8ea3fa08749cc0f0eb7403710a39d32b9c7a949fef",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The final-goal line is shown as Codex’s theoretical synthesis, not a statement by any evaluated agent. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       }
     ]
@@ -16964,7 +16958,7 @@
   {
     "old_panel": "038-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -16972,13 +16966,11 @@
         "original_sha256": "ed42eef39ad0c2715bdaca1dc370ba5073ba247e109ad8dffe346e2d849b8662",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources",
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). ChatGPT’s window is Codex’s dialogue, not a preserved ChatGPT exchange; no product identity is relabelled. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560",
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -16986,13 +16978,11 @@
         "original_sha256": "217bff1f338d1500636e72a32742b4fb6e5c03567fc7f74ebc0faab977c39dfd",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-resources",
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). ChatGPT’s window is Codex’s dialogue, not a preserved ChatGPT exchange; no product identity is relabelled. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-resources": "aec6ecb19d8e77ed64660c71efe5bd86b99f82533e03395c252148193b162560",
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       }
     ]
@@ -17000,7 +16990,7 @@
   {
     "old_panel": "038-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17008,11 +16998,11 @@
         "original_sha256": "53dd63edba1be58b7e53a8297739f439bac14191614f6ab7a4658ea5298b79e9",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The circle, dotted arrow and first wording of the closing line are shown as typed; the 14:58 rewording is a separate beat, and Claude’s 4 September overreach note is placed at its own edit. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf"
         }
       },
       {
@@ -17020,11 +17010,13 @@
         "original_sha256": "6d298bcbefd674f32fe9776bf90dedfc4057be2747c75aa7714e3e529a97725e",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-wipe"
+          "prod-thesis-codex-draft-case",
+          "prod-thesis-codex-tightening-038"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The circle, dotted arrow and first wording of the closing line are shown as typed; the 14:58 rewording is a separate beat, and Claude’s 4 September overreach note is placed at its own edit. The frozen closing line’s wording comes from this 14:58 correction, shown as Codex’s own act at its stored time (working-rule case 2). The first wording is in the drafting beat. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-wipe": "cb979f06e5b4c0d8c9bd0fa4de4918083e9f8c6585bc7cb663d704f743c14202"
+          "prod-thesis-codex-draft-case": "58e9fec0947beff2d205d1fe19d8a37146a216ecf8f6d82dfb1a1114deff54cf",
+          "prod-thesis-codex-tightening-038": "edf5116ec9e01f8b3afbe2e2f1d81b66680c9039f729cc004e22a8739369082e"
         }
       }
     ]
@@ -17032,7 +17024,7 @@
   {
     "old_panel": "039-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17040,11 +17032,13 @@
         "original_sha256": "2dfdcb4652ee1a14b13f902b1197b62e177253fde79cc9c98c62027caf667317",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-byline"
+          "prod-thesis-rewrite-windows",
+          "prod-thesis-critic-registered"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The two windows and the person caption are shown as script. As written here the byline has no name; the 5 September registration that adds it is a separate beat. The frozen frame’s byline comes from this 5 September command, shown as Claude’s own act at its stored time (working-rule case 2). The rest of the panel is at the 4 September Write. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-byline": "8f910774d3d7a9832d3c3605e182089da1b0c63509ca0b1f3e44026503b7f95f"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0",
+          "prod-thesis-critic-registered": "8d6842289a240e1d3a1d4a9b851046eddd82402a6d753d536f98034b7538ccea"
         }
       },
       {
@@ -17052,11 +17046,11 @@
         "original_sha256": "77f24b2eaed3c4f189e511ccc82c6658e5d2a33a7558b23fe657b8abf0983de1",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-byline"
+          "prod-thesis-rewrite-windows"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed action against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The two windows and the person caption are shown as script. As written here the byline has no name; the 5 September registration that adds it is a separate beat. Reviewed action element.",
         "target_sha256": {
-          "prod-thesis-byline": "8f910774d3d7a9832d3c3605e182089da1b0c63509ca0b1f3e44026503b7f95f"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0"
         }
       },
       {
@@ -17064,11 +17058,11 @@
         "original_sha256": "203303e9eab0d6dd6dddcd0ff8c3c65d4cc7715c4cbfeaad983dac28ad579ca4",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-byline"
+          "prod-thesis-rewrite-windows"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The two windows and the person caption are shown as script. As written here the byline has no name; the 5 September registration that adds it is a separate beat. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-byline": "8f910774d3d7a9832d3c3605e182089da1b0c63509ca0b1f3e44026503b7f95f"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0"
         }
       }
     ]
@@ -17076,7 +17070,7 @@
   {
     "old_panel": "039-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17084,11 +17078,11 @@
         "original_sha256": "8043ccad76509f93ab162c42bbd2ed2fc703dae392554c47e8e03e7a7747a782",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-critic"
+          "prod-thesis-rewrite-windows"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The three screen lines are shown as Claude’s paraphrase beside Brown’s own words from the preserved post; the lettering says the culture contrast is not his and keeps his stated uncertainty. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-critic": "75ab4faf0e927ca873ef93694e13d1930536bd5d5e1bce09540cdb644e7eea25"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0"
         }
       },
       {
@@ -17096,11 +17090,11 @@
         "original_sha256": "e3b5eac29cc863957ff8d49f9d5f0f68b4ba40b0212298f0d5e37c967a2e2596",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-critic"
+          "prod-thesis-rewrite-windows"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The three screen lines are shown as Claude’s paraphrase beside Brown’s own words from the preserved post; the lettering says the culture contrast is not his and keeps his stated uncertainty. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-critic": "75ab4faf0e927ca873ef93694e13d1930536bd5d5e1bce09540cdb644e7eea25"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0"
         }
       },
       {
@@ -17108,11 +17102,11 @@
         "original_sha256": "9078322c86a4f1a38feece6972394052e7c0af4cfd9f5b18767da1839f1e4f6e",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-critic"
+          "prod-thesis-rewrite-windows"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The three screen lines are shown as Claude’s paraphrase beside Brown’s own words from the preserved post; the lettering says the culture contrast is not his and keeps his stated uncertainty. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-critic": "75ab4faf0e927ca873ef93694e13d1930536bd5d5e1bce09540cdb644e7eea25"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0"
         }
       },
       {
@@ -17120,11 +17114,11 @@
         "original_sha256": "0db9d6318472ac75ffe1cb1235e818481e332e98f302f25b93cfeb369744a511",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-critic"
+          "prod-thesis-rewrite-windows"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The three screen lines are shown as Claude’s paraphrase beside Brown’s own words from the preserved post; the lettering says the culture contrast is not his and keeps his stated uncertainty. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-critic": "75ab4faf0e927ca873ef93694e13d1930536bd5d5e1bce09540cdb644e7eea25"
+          "prod-thesis-rewrite-windows": "f23c6b60781b3768023d85ae9cf672a10cfda0969b6625ed5daaf3621b236dd0"
         }
       }
     ]
@@ -17132,7 +17126,7 @@
   {
     "old_panel": "039-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17140,11 +17134,11 @@
         "original_sha256": "d1aaaef8f7cb2588ad4f18c2d02fff254d00e1ee141ccbc0595bda77a859a654",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-labels"
+          "prod-thesis-rewrite-defense"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The relabelling is shown as Claude’s device; the lettering says it does not establish equal fit, and the episode keeps its chronological place in the Hugging Face row. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-labels": "0375f77da20781a2dabb6dd55bafe170dab9f5965f2cbfbd3b566206f58f90e2"
+          "prod-thesis-rewrite-defense": "33a1975dc648254f20d5f3a9898c1ce1a0273c395baab01df16a6ce54fab9b6a"
         }
       },
       {
@@ -17152,11 +17146,11 @@
         "original_sha256": "425354aa7fe1a64d2a7c8dcfad90db25fad6c0a8ea46fc8f5bdf1dc780a9c857",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-labels"
+          "prod-thesis-rewrite-defense"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed action against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The relabelling is shown as Claude’s device; the lettering says it does not establish equal fit, and the episode keeps its chronological place in the Hugging Face row. Reviewed action element.",
         "target_sha256": {
-          "prod-thesis-labels": "0375f77da20781a2dabb6dd55bafe170dab9f5965f2cbfbd3b566206f58f90e2"
+          "prod-thesis-rewrite-defense": "33a1975dc648254f20d5f3a9898c1ce1a0273c395baab01df16a6ce54fab9b6a"
         }
       },
       {
@@ -17164,11 +17158,11 @@
         "original_sha256": "692b36934823cf5baffbdfe1b27ef9642c2b7451c5b6cced98bd004e469d4cde",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-labels"
+          "prod-thesis-rewrite-defense"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The relabelling is shown as Claude’s device; the lettering says it does not establish equal fit, and the episode keeps its chronological place in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-labels": "0375f77da20781a2dabb6dd55bafe170dab9f5965f2cbfbd3b566206f58f90e2"
+          "prod-thesis-rewrite-defense": "33a1975dc648254f20d5f3a9898c1ce1a0273c395baab01df16a6ce54fab9b6a"
         }
       }
     ]
@@ -17176,7 +17170,7 @@
   {
     "old_panel": "039-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17184,11 +17178,11 @@
         "original_sha256": "574b720da9f4ea71ef2fc67115ddf1f48c6deb54d82571db7efe9313dca7b63a",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-scripted-error"
+          "prod-thesis-rewrite-defense"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). ChatGPT’s scripted defense is shown as authored, not as a preserved exchange, with Claude’s own note that the reader, not Curt, catches it. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-scripted-error": "e498a502c811dcdbd438412136b9c5612ee80b6c2f78b65f64e751957fdf9528"
+          "prod-thesis-rewrite-defense": "33a1975dc648254f20d5f3a9898c1ce1a0273c395baab01df16a6ce54fab9b6a"
         }
       },
       {
@@ -17196,11 +17190,11 @@
         "original_sha256": "8b8665435d5cc7b8b4f92fa6723a0c0c4ceb54332108718852ef515b4896db54",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-scripted-error"
+          "prod-thesis-rewrite-defense"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). ChatGPT’s scripted defense is shown as authored, not as a preserved exchange, with Claude’s own note that the reader, not Curt, catches it. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-scripted-error": "e498a502c811dcdbd438412136b9c5612ee80b6c2f78b65f64e751957fdf9528"
+          "prod-thesis-rewrite-defense": "33a1975dc648254f20d5f3a9898c1ce1a0273c395baab01df16a6ce54fab9b6a"
         }
       }
     ]
@@ -17208,7 +17202,7 @@
   {
     "old_panel": "039-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17216,11 +17210,11 @@
         "original_sha256": "12dc416afaa99d7626d89c04a94144dc1a19aff4815ff1caec37916965500a7d",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-training-overlap"
+          "prod-thesis-rewrite-channel"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The citation window is shown as Claude’s blend of the talk and its next sentence; the lettering separates what Brown quotes, adds the report’s page 8, and keeps both as OpenAI’s account. The training overlap itself is in the Hugging Face row. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-training-overlap": "64edbbbe1bc2f2e40675842f665e38a40b4a2eef5634cd0f6a259f0e8b5b4768"
+          "prod-thesis-rewrite-channel": "515ac20dc5d82690c8c35b25db3c21443491bb8d46274204c614b6efbda2e629"
         }
       },
       {
@@ -17228,11 +17222,11 @@
         "original_sha256": "12888e137b910dd4f3950a2859d0e9eb60e7292f0a49d464ab7d5e467293f2bc",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-training-overlap"
+          "prod-thesis-rewrite-channel"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The citation window is shown as Claude’s blend of the talk and its next sentence; the lettering separates what Brown quotes, adds the report’s page 8, and keeps both as OpenAI’s account. The training overlap itself is in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-training-overlap": "64edbbbe1bc2f2e40675842f665e38a40b4a2eef5634cd0f6a259f0e8b5b4768"
+          "prod-thesis-rewrite-channel": "515ac20dc5d82690c8c35b25db3c21443491bb8d46274204c614b6efbda2e629"
         }
       },
       {
@@ -17240,11 +17234,11 @@
         "original_sha256": "52587837d87b0d23a0d18ba8facf72828c58bd7b4940440a3fd787ad0ec061be",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-training-overlap"
+          "prod-thesis-rewrite-channel"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The citation window is shown as Claude’s blend of the talk and its next sentence; the lettering separates what Brown quotes, adds the report’s page 8, and keeps both as OpenAI’s account. The training overlap itself is in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-training-overlap": "64edbbbe1bc2f2e40675842f665e38a40b4a2eef5634cd0f6a259f0e8b5b4768"
+          "prod-thesis-rewrite-channel": "515ac20dc5d82690c8c35b25db3c21443491bb8d46274204c614b6efbda2e629"
         }
       },
       {
@@ -17252,11 +17246,11 @@
         "original_sha256": "3837566e062b860b86856a1e9774e3788d431798ce45da9be9c0b65f08fbc52a",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-training-overlap"
+          "prod-thesis-rewrite-channel"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The citation window is shown as Claude’s blend of the talk and its next sentence; the lettering separates what Brown quotes, adds the report’s page 8, and keeps both as OpenAI’s account. The training overlap itself is in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-training-overlap": "64edbbbe1bc2f2e40675842f665e38a40b4a2eef5634cd0f6a259f0e8b5b4768"
+          "prod-thesis-rewrite-channel": "515ac20dc5d82690c8c35b25db3c21443491bb8d46274204c614b6efbda2e629"
         }
       }
     ]
@@ -17264,7 +17258,7 @@
   {
     "old_panel": "039-06",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17272,13 +17266,11 @@
         "original_sha256": "3c327029e3688f95e25e2a145af8ad53df5e6ae285c7eec4d6e46b0d5d6a1c64",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-scripted-error",
-          "prod-thesis-levels"
+          "prod-thesis-rewrite-channel"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). Curt’s concession is shown as script, beside what he actually recorded at 02:37; the unresolved METR/OpenAI difference is kept without choosing. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-scripted-error": "e498a502c811dcdbd438412136b9c5612ee80b6c2f78b65f64e751957fdf9528",
-          "prod-thesis-levels": "fb04aef2a372c8a227fefaca7e2004e06e519477789caa49a888270212d495c7"
+          "prod-thesis-rewrite-channel": "515ac20dc5d82690c8c35b25db3c21443491bb8d46274204c614b6efbda2e629"
         }
       },
       {
@@ -17286,13 +17278,11 @@
         "original_sha256": "e21f0aa9df7904cb6edc321e8b9c72bd935abf490d07c7a2dda3577fb7e0d768",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-scripted-error",
-          "prod-thesis-levels"
+          "prod-thesis-rewrite-channel"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). Curt’s concession is shown as script, beside what he actually recorded at 02:37; the unresolved METR/OpenAI difference is kept without choosing. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-scripted-error": "e498a502c811dcdbd438412136b9c5612ee80b6c2f78b65f64e751957fdf9528",
-          "prod-thesis-levels": "fb04aef2a372c8a227fefaca7e2004e06e519477789caa49a888270212d495c7"
+          "prod-thesis-rewrite-channel": "515ac20dc5d82690c8c35b25db3c21443491bb8d46274204c614b6efbda2e629"
         }
       }
     ]
@@ -17300,7 +17290,7 @@
   {
     "old_panel": "040-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17308,11 +17298,11 @@
         "original_sha256": "6190420f3d8792ebe2f0e95cf94cebdf0365dc1f3a5bd5be3df27274c514d69f",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-interaction"
+          "prod-thesis-rewrite-boxes"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The struck claim and touching boxes are shown as typed; the lettering compares Curt’s line with the talk’s limited-communication and unrealized-impossible-task statements. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-interaction": "94299d99fd7c6abe7f174732dd479aae7d67162e75a5552fe166e824beb497bb"
+          "prod-thesis-rewrite-boxes": "be20a8330996431a7651fbd4903e6011de17ceb6883a9ac85fb51ffd6a9e97a2"
         }
       },
       {
@@ -17320,11 +17310,11 @@
         "original_sha256": "b53e82114ef799d95bc45cca153e2f9ca5d5197da9c1d7a762a490870ab05bbb",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-interaction"
+          "prod-thesis-rewrite-boxes"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The struck claim and touching boxes are shown as typed; the lettering compares Curt’s line with the talk’s limited-communication and unrealized-impossible-task statements. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-interaction": "94299d99fd7c6abe7f174732dd479aae7d67162e75a5552fe166e824beb497bb"
+          "prod-thesis-rewrite-boxes": "be20a8330996431a7651fbd4903e6011de17ceb6883a9ac85fb51ffd6a9e97a2"
         }
       }
     ]
@@ -17332,7 +17322,7 @@
   {
     "old_panel": "040-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17340,13 +17330,11 @@
         "original_sha256": "05696c744083b766601f84a11e3276dc87e9289c8a90fb37099701a05235922f",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-scripted-error",
-          "prod-thesis-interaction"
+          "prod-thesis-rewrite-boxes"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). ChatGPT’s smaller window is Claude’s dialogue and layout instruction, not a preserved exchange or a measured change in trust. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-scripted-error": "e498a502c811dcdbd438412136b9c5612ee80b6c2f78b65f64e751957fdf9528",
-          "prod-thesis-interaction": "94299d99fd7c6abe7f174732dd479aae7d67162e75a5552fe166e824beb497bb"
+          "prod-thesis-rewrite-boxes": "be20a8330996431a7651fbd4903e6011de17ceb6883a9ac85fb51ffd6a9e97a2"
         }
       },
       {
@@ -17354,13 +17342,11 @@
         "original_sha256": "65c78f2b0ada67ced1f8ce3cb7c51399a66e303cbaf72ef6cc2d69979bb995fe",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-scripted-error",
-          "prod-thesis-interaction"
+          "prod-thesis-rewrite-boxes"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). ChatGPT’s smaller window is Claude’s dialogue and layout instruction, not a preserved exchange or a measured change in trust. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-scripted-error": "e498a502c811dcdbd438412136b9c5612ee80b6c2f78b65f64e751957fdf9528",
-          "prod-thesis-interaction": "94299d99fd7c6abe7f174732dd479aae7d67162e75a5552fe166e824beb497bb"
+          "prod-thesis-rewrite-boxes": "be20a8330996431a7651fbd4903e6011de17ceb6883a9ac85fb51ffd6a9e97a2"
         }
       }
     ]
@@ -17368,7 +17354,7 @@
   {
     "old_panel": "040-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17376,11 +17362,11 @@
         "original_sha256": "88f964a20416b0e81315ee1018a49a4d008a3b78e1ecd0285294fb75a0c3724d",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-selection"
+          "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-selection": "23c856cdcec1a63dd5bcc7957585f5988e05e1781e6300848d80de4a227bdee6"
+          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
         }
       },
       {
@@ -17388,11 +17374,11 @@
         "original_sha256": "ec42a5c95bcab32beecad9baa891f9bb0221b3d3e01706e39ec5adddc7ce00fd",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-selection"
+          "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed action against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned. Reviewed action element.",
         "target_sha256": {
-          "prod-thesis-selection": "23c856cdcec1a63dd5bcc7957585f5988e05e1781e6300848d80de4a227bdee6"
+          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
         }
       },
       {
@@ -17400,11 +17386,11 @@
         "original_sha256": "efebc9f99877561530fc4fd179c03f0c35c9c08dc7e65288d819a5ddf3be16f2",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-selection"
+          "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-selection": "23c856cdcec1a63dd5bcc7957585f5988e05e1781e6300848d80de4a227bdee6"
+          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
         }
       }
     ]
@@ -17412,7 +17398,7 @@
   {
     "old_panel": "040-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17420,11 +17406,11 @@
         "original_sha256": "42044671d9e7ffd9b6fb62fe536a08be1f39396b97eaab8cc2a27c2631e6143a",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-knowledge"
+          "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize. Reviewed frame element.",
         "target_sha256": {
-          "prod-thesis-knowledge": "508f3840eac749f14ce09c2aadabd96ef0ecf8acc93935509ba56fef927dd7cf"
+          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
         }
       },
       {
@@ -17432,11 +17418,11 @@
         "original_sha256": "9bcd76905b9d55e63b7ff1d7149c5571f3439698d6b928d1939f822d78278f4c",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-knowledge"
+          "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-knowledge": "508f3840eac749f14ce09c2aadabd96ef0ecf8acc93935509ba56fef927dd7cf"
+          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
         }
       },
       {
@@ -17444,11 +17430,11 @@
         "original_sha256": "66c3ac740b4397fa18dfa042005955fd3fba3a03d0813f2062d3725ede5b0a71",
         "disposition": "rewrite",
         "beats": [
-          "prod-thesis-knowledge"
+          "prod-thesis-rewrite-bounds"
         ],
-        "reason": "Retain the specific argument as historical draft analysis, with its invention and source limits visible; no invented actor speech or reading event. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize. Reviewed lettering element.",
         "target_sha256": {
-          "prod-thesis-knowledge": "508f3840eac749f14ce09c2aadabd96ef0ecf8acc93935509ba56fef927dd7cf"
+          "prod-thesis-rewrite-bounds": "95b9197119167bc6ac2a8200ac6787c12984c33d2714e9be61d3280bfb8f2f57"
         }
       }
     ]
@@ -17456,7 +17442,7 @@
   {
     "old_panel": "040-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-14",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -17466,13 +17452,15 @@
         "beats": [
           "july-workstreams-target",
           "july-workstreams-access",
-          "july-workstreams-grader"
+          "july-workstreams-grader",
+          "prod-thesis-rewrite-return"
         ],
-        "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches. Reviewed frame against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The closing captions are Claude’s rewording of Codex’s; the dated searches stay in the Hugging Face row. The dated searches stay merged into the existing Hugging Face workstreams; categories do not establish simultaneous successful searches. Reviewed frame element.",
         "target_sha256": {
           "july-workstreams-target": "a2ae142ad9cd365ce495d932ac00dd51d47da76c5e7b8619257c549e149f8513",
           "july-workstreams-access": "5fbe07f26a53efe390ada8c4f712dbc0987214ea2aacba8bb3d9424c01cbfe8d",
-          "july-workstreams-grader": "544f6f5b0d2cd671f89b98bdd3c2ee1055b997899deca70dfa6817b19396da91"
+          "july-workstreams-grader": "544f6f5b0d2cd671f89b98bdd3c2ee1055b997899deca70dfa6817b19396da91",
+          "prod-thesis-rewrite-return": "554e0059880a491a409c3e49be8567e5ab2403e6562511a85a734ddbf9dd2a46"
         }
       },
       {
@@ -17482,13 +17470,15 @@
         "beats": [
           "july-workstreams-target",
           "july-workstreams-access",
-          "july-workstreams-grader"
+          "july-workstreams-grader",
+          "prod-thesis-rewrite-return"
         ],
-        "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches. Reviewed action against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The closing captions are Claude’s rewording of Codex’s; the dated searches stay in the Hugging Face row. The dated searches stay merged into the existing Hugging Face workstreams; categories do not establish simultaneous successful searches. Reviewed action element.",
         "target_sha256": {
           "july-workstreams-target": "a2ae142ad9cd365ce495d932ac00dd51d47da76c5e7b8619257c549e149f8513",
           "july-workstreams-access": "5fbe07f26a53efe390ada8c4f712dbc0987214ea2aacba8bb3d9424c01cbfe8d",
-          "july-workstreams-grader": "544f6f5b0d2cd671f89b98bdd3c2ee1055b997899deca70dfa6817b19396da91"
+          "july-workstreams-grader": "544f6f5b0d2cd671f89b98bdd3c2ee1055b997899deca70dfa6817b19396da91",
+          "prod-thesis-rewrite-return": "554e0059880a491a409c3e49be8567e5ab2403e6562511a85a734ddbf9dd2a46"
         }
       },
       {
@@ -17496,15 +17486,11 @@
         "original_sha256": "b8bad5ff061e28891957614f51f8906f22992cc2f112582eb7a9a4d95ef2da00",
         "disposition": "rewrite",
         "beats": [
-          "july-workstreams-target",
-          "july-workstreams-access",
-          "july-workstreams-grader"
+          "prod-thesis-rewrite-return"
         ],
-        "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The closing captions are Claude’s rewording of Codex’s; the dated searches stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "july-workstreams-target": "a2ae142ad9cd365ce495d932ac00dd51d47da76c5e7b8619257c549e149f8513",
-          "july-workstreams-access": "5fbe07f26a53efe390ada8c4f712dbc0987214ea2aacba8bb3d9424c01cbfe8d",
-          "july-workstreams-grader": "544f6f5b0d2cd671f89b98bdd3c2ee1055b997899deca70dfa6817b19396da91"
+          "prod-thesis-rewrite-return": "554e0059880a491a409c3e49be8567e5ab2403e6562511a85a734ddbf9dd2a46"
         }
       },
       {
@@ -17512,15 +17498,11 @@
         "original_sha256": "b5492310649cb173c72b60a6f65a1c1da8324223818110a53e6ae6ef3295a3d2",
         "disposition": "rewrite",
         "beats": [
-          "july-workstreams-target",
-          "july-workstreams-access",
-          "july-workstreams-grader"
+          "prod-thesis-rewrite-return"
         ],
-        "reason": "Merge the repeated search montage into existing incident workstreams; retire the backward date jump and second movement transition. Categories do not establish simultaneous successful searches. Reviewed lettering against the targeted wording.",
+        "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The closing captions are Claude’s rewording of Codex’s; the dated searches stay in the Hugging Face row. Reviewed lettering element.",
         "target_sha256": {
-          "july-workstreams-target": "a2ae142ad9cd365ce495d932ac00dd51d47da76c5e7b8619257c549e149f8513",
-          "july-workstreams-access": "5fbe07f26a53efe390ada8c4f712dbc0987214ea2aacba8bb3d9424c01cbfe8d",
-          "july-workstreams-grader": "544f6f5b0d2cd671f89b98bdd3c2ee1055b997899deca70dfa6817b19396da91"
+          "prod-thesis-rewrite-return": "554e0059880a491a409c3e49be8567e5ab2403e6562511a85a734ddbf9dd2a46"
         }
       }
     ]

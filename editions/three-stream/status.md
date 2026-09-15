@@ -42,17 +42,18 @@ the named command before relying on one.
    creator interlude, both maxims and the nine-panel convergence grid, so their author is
    unestablished. Curt's ChatGPT export (item 1) is the remaining place to look.
 3. **Collaboration rows that do not show the row actor's act.** `working_edition.py audit`:
-   10 clocks with more than three beats (169 Claude beats at `2026-09-06T15:02:31.590Z`,
-   68 Codex beats at `2026-09-02T03:45:45.444Z`), 22 scenes describing narrator analysis, and
-   110 beats whose old wording was typed by a different actor than the row. Each needs the
+   10 clocks with more than three beats (158 Claude beats at `2026-09-06T15:02:31.590Z`,
+   68 Codex beats at `2026-09-02T03:45:45.444Z`), 20 scenes describing narrator analysis, and
+   108 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
-   Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016 and 031–036 (log,
-   14 September); the cluster is now 169 beats and the narrator list 21 scenes.
-   Three traps found there: `attribution.json` keeps the earliest record containing a line, which
+   Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016, 031–036 and 038–040
+   (log, 14 September).
+   Four traps found there: `attribution.json` keeps the earliest record containing a line, which
    can be a patch the session then reports as not applied; a line can predate every
    transcript, so the typing session only carried it forward; and lines added by the 12
    September commits `8cb18f621` / `091ae1c75` match no transcript, so their points stay with
-   their sources and no actor is guessed.
+   their sources and no actor is guessed; and a moved line can change case, so the index credits
+   the mover (040-03's caption began as Codex's ChatGPT line).
 4. **Old-panel review.** All 606 old panels have element-level decisions (1717 elements).
    Three have no draft beat; their omission reasons are checked (log, 14 September): 105-05 and
    117-05 are staging with no claim. 009-02's caption comes from the unattributed outline
@@ -81,12 +82,12 @@ the named command before relying on one.
 
 ## Next
 
-- Continue re-anchoring the 178-beat Claude cluster by the same method: line origins from
+- Continue re-anchoring the 158-beat Claude cluster by the same method: line origins from
   `attribution.json`, then the applied record, then any earlier file that already held the
-  line. Remaining sequences, in legacy order: thesis 038–040, staircase
-  052, resource 052/073, branch scope 067–070, interpretation 073–080, analysis limits
-  078–082, assurance 098, accountability 099–102, defense 101, aftermath 103–105, wiki
-  overlap and hypotheses 109–111, downstream use 112–118.
+  line; check quoted critics and transcripts against their vault copies. Remaining sequences,
+  in legacy order: staircase 052, resource 052/073, branch scope 067–070, interpretation
+  073–080, analysis limits 078–082, assurance 098, accountability 099–102, defense 101,
+  aftermath 103–105, wiki overlap and hypotheses 109–111, downstream use 112–118.
 - Apply the same method to the 68-beat Codex cluster and to the 047-02/047-05 theses.
 - Add ordering constraints for the July day-only beats as sources support them.
 - Fold in Curt's exports when they arrive.

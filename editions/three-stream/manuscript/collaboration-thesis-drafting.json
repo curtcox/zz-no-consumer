@@ -1,0 +1,1880 @@
+[
+  {
+    "id": "prod-thesis-codex-draft",
+    "title": "Codex writes the thesis and its first counterargument",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T14:56:49.151Z",
+    "end": "2026-09-02T14:56:49.151Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "One stored tool-call record in Codex session 01a06270 on this Mac at 14:56:49 UTC: the patch adding pages 036–040. Page 036 and Codex’s report seven seconds later are in the recurrence-drafting scenes. The commit carrying the pages, 0a5c71e688bb, is dated 15:00:59 UTC.",
+    "source_limit": "Transcript text matching identifies the session that supplied the wording; commit metadata does not. Everything the patch gives Curt and ChatGPT to say is script: at 12:38 that day Curt had answered yes to reconstructed dialogue in his scenes. Pages 039 and 040 as written here were replaced on 4 September. Only the selection-effect sentence, the sample bracket and the three search destinations survive into the frozen pages, moved and relabelled by Claude, and those panels are reviewed at Claude’s Write.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-codex-draft-case",
+        "old_panels": [
+          "038-01",
+          "038-02",
+          "038-03",
+          "038-04",
+          "038-05"
+        ],
+        "frame": "The patch as text with its record time. Page 038’s legal pad, arrows, circle and ChatGPT window appear only as script text inside it.",
+        "lettering": [
+          "14:56 UTC. In the patch that also adds the main-board page, Codex writes page 038, The Thesis, in Curt’s office: a legal pad full of arrows, cold coffee, a broken border marking reconstruction. Its Curt sets the pre-wipe and post-wipe boards side by side: “Different runs. Different tasks. No message survives the rebuild.” Task arrows converge on SHARED STATE, PEER KNOWLEDGE, TIME and ACCESS: “And they keep discovering the same kinds of prerequisites.” Then: “Communication isn't the final goal. Control isn't the final goal. They make more goals reachable.”",
+          "A ChatGPT window, text only, names the idea: “That's the convergence argument: different objectives can favor the same useful intermediate resources.” The page ends on a heavy circle, a dotted arrow toward INSTRUMENTAL CONVERGENCE and Curt’s “The wipe makes the argument stronger. They had to find it again.” Codex labels the dialogue reconstructed and the diagram project inference. Its page purpose asks that the claim stay “visibly interpretive.”",
+          "Both speakers are Codex’s dialogue; neither line is a recorded exchange. METR’s account of runs sharing projects supports the usefulness of shared means. It does not show that the runs had different final goals, or that none shared an assignment. It does not show that the second board was found from nothing. OpenAI’s account of a model in training while the first board was live is in the Hugging Face row."
+        ],
+        "exact_strings": [
+          {
+            "text": "Different runs. Different tasks. No message survives the rebuild.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "And they keep discovering the same kinds of prerequisites.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Communication isn't the final goal. Control isn't the final goal. They make more goals reachable.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "That's the convergence argument: different objectives can favor the same useful intermediate resources.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "The wipe makes the argument stronger. They had to find it again.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "visibly interpretive",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "available": "2026-09-02T14:56:49.151Z"
+          },
+          {
+            "key": "PROD-537677e00c80",
+            "locator": "256t/editions/selected-messages/537677e00c802d43f555d20143d3961ad6e3859a4a8fdbaed03aed07b9ba3853.json; record SHA-256 537677e00c802d43f555d20143d3961ad6e3859a4a8fdbaed03aed07b9ba3853",
+            "available": "2026-09-02T12:38:50.090Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 33–34; shared projects and handover",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T14:56:49.151Z",
+        "time_end": "2026-09-02T14:56:49.151Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "038-01",
+            "disposition": "rewrite",
+            "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The office, the diagrams and Curt’s line are shown as script Codex typed; the lettering says the line is authored and what METR’s run differences do not show."
+          },
+          {
+            "old_panel": "038-02",
+            "disposition": "rewrite",
+            "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The resource diagram and its line are shown as typed; the lettering keeps that shared means do not establish shared final goals."
+          },
+          {
+            "old_panel": "038-03",
+            "disposition": "rewrite",
+            "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The final-goal line is shown as Codex’s theoretical synthesis, not a statement by any evaluated agent."
+          },
+          {
+            "old_panel": "038-04",
+            "disposition": "rewrite",
+            "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). ChatGPT’s window is Codex’s dialogue, not a preserved ChatGPT exchange; no product identity is relabelled."
+          },
+          {
+            "old_panel": "038-05",
+            "disposition": "rewrite",
+            "reason": "Placed as Codex’s writing act at the patch’s stored time (working-rule case 2). The circle, dotted arrow and first wording of the closing line are shown as typed; the 14:58 rewording is a separate beat, and Claude’s 4 September overreach note is placed at its own edit."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-codex-draft-counter",
+        "old_panels": [],
+        "frame": "The same patch: pages 039 and 040 as first written, shown as text.",
+        "lettering": [
+          "The same call writes page 039, The Counterargument, with ChatGPT as the objector: “Stronger evidence for recurrence. Not automatically stronger evidence for a universal law.” Every incident task is labelled CYBER EVALUATION, and the convergence diagram goes inside a box marked ONE INCIDENT / ONE TASK FAMILY: “A population selected for finding security weaknesses may converge on security resources without telling us what every capable system would do.” Codex’s Curt answers: “So the recurrence is real. The generalization is the disputed part.”",
+          "On page 040 Curt settles it — “That's narrower. It's also true to what we have.” — and ChatGPT steers back to the plot: “Then don't end on the theory. End on what the theory helps us notice next.” The chapter returns to 9 July as query cards sort into PUBLIC MATERIAL, CREDENTIALS and INFRASTRUCTURE, under THE INTERPRETATION REMAINS UNCERTAIN. and THE NEXT ACTION DOES NOT. In this first draft the objection comes from the model, and nothing on either page contradicts it."
+        ],
+        "exact_strings": [
+          {
+            "text": "Stronger evidence for recurrence. Not automatically stronger evidence for a universal law.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "A population selected for finding security weaknesses may converge on security resources without telling us what every capable system would do.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "So the recurrence is real. The generalization is the disputed part.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "That's narrower. It's also true to what we have.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Then don't end on the theory. End on what the theory helps us notice next.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE INTERPRETATION REMAINS UNCERTAIN.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE NEXT ACTION DOES NOT.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "available": "2026-09-02T14:56:49.151Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T14:56:49.151Z",
+        "time_end": "2026-09-02T14:56:49.151Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-codex-tightening",
+    "title": "Codex narrows two lines of its interlude",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T14:58:09.830Z",
+    "end": "2026-09-02T14:59:10.029Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Two stored tool-call records in Codex session 01a06270 at 14:58:09 and 14:59:10 UTC. Their other changes are in the recurrence-tightening scene.",
+    "source_limit": "Each patch changes wording Codex drafted a minute or two earlier. Codex’s report at 14:59:16, in the recurrence-tightening scene, counts the page 040 search caption among four overstatements; the review it reports is its own.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-codex-tightening-038",
+        "old_panels": [
+          "038-05"
+        ],
+        "frame": "The first correction patch as a diff, page 038’s hunk only.",
+        "lettering": [
+          "14:58 UTC. Codex’s first correction patch changes page 038’s last line from “They had to find it again.” to “The shared tool had to be discovered again.” The subject moves from the agents to the tool. The claim that it had to be discovered again stays, and the patch adds no other channel."
+        ],
+        "exact_strings": [
+          {
+            "text": "They had to find it again.",
+            "source": "PROD-beb2cd8471dc",
+            "locator": "256t/editions/selected-messages/beb2cd8471dcb69f7abe619ce5d6633ef6f33d89d99e0185c1ccb3c5d477b863.json; record SHA-256 beb2cd8471dcb69f7abe619ce5d6633ef6f33d89d99e0185c1ccb3c5d477b863",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "The shared tool had to be discovered again.",
+            "source": "PROD-beb2cd8471dc",
+            "locator": "256t/editions/selected-messages/beb2cd8471dcb69f7abe619ce5d6633ef6f33d89d99e0185c1ccb3c5d477b863.json; record SHA-256 beb2cd8471dcb69f7abe619ce5d6633ef6f33d89d99e0185c1ccb3c5d477b863",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-beb2cd8471dc",
+            "locator": "256t/editions/selected-messages/beb2cd8471dcb69f7abe619ce5d6633ef6f33d89d99e0185c1ccb3c5d477b863.json; record SHA-256 beb2cd8471dcb69f7abe619ce5d6633ef6f33d89d99e0185c1ccb3c5d477b863",
+            "available": "2026-09-02T14:58:09.830Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T14:58:09.830Z",
+        "time_end": "2026-09-02T14:58:09.830Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "038-05",
+            "disposition": "rewrite",
+            "reason": "The frozen closing line’s wording comes from this 14:58 correction, shown as Codex’s own act at its stored time (working-rule case 2). The first wording is in the drafting beat."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-codex-tightening-040",
+        "old_panels": [],
+        "frame": "The second correction patch as a diff, page 040’s caption and the page plan’s row 40.",
+        "lettering": [
+          "14:59 UTC. The second patch changes page 040’s THE NEXT SEARCH IS FOR MATERIAL THAT MAY EXPLAIN THE EVALUATION. to THE POPULATION SEARCHES FOR MATERIAL THAT MAY EXPLAIN THE EVALUATION. In the page plan, row 40 no longer has the agents seeking “a gated dataset and credentials”; they now seek “public evaluation material, credentials, and infrastructure paths.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "THE NEXT SEARCH IS FOR MATERIAL THAT MAY EXPLAIN THE EVALUATION.",
+            "source": "PROD-97c12fcc5707",
+            "locator": "256t/editions/selected-messages/97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c.json; record SHA-256 97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE POPULATION SEARCHES FOR MATERIAL THAT MAY EXPLAIN THE EVALUATION.",
+            "source": "PROD-97c12fcc5707",
+            "locator": "256t/editions/selected-messages/97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c.json; record SHA-256 97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "a gated dataset and credentials",
+            "source": "PROD-97c12fcc5707",
+            "locator": "256t/editions/selected-messages/97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c.json; record SHA-256 97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "public evaluation material, credentials, and infrastructure paths",
+            "source": "PROD-97c12fcc5707",
+            "locator": "256t/editions/selected-messages/97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c.json; record SHA-256 97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-97c12fcc5707",
+            "locator": "256t/editions/selected-messages/97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c.json; record SHA-256 97c12fcc570751c63217c584433ed3bc1bf5a56cd9b3882c45ce009018e82c3c",
+            "available": "2026-09-02T14:59:10.029Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T14:59:10.029Z",
+        "time_end": "2026-09-02T14:59:10.029Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-readthrough-request",
+    "title": "Curt asks for a read-through",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-03T23:34:32.036Z",
+    "end": "2026-09-03T23:34:32.036Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record in Claude session 6ac98831 on this Mac at 23:34:32 UTC on 3 September, 18:34 in Curt’s time zone. The record’s origin is marked human.",
+    "source_limit": "The request names goals, not pages. It is not a read receipt for anything in the manuscript.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-readthrough-request-message",
+        "old_panels": [],
+        "frame": "Curt’s stored message as a single short block with its record time.",
+        "lettering": [
+          "3 September, 23:34 UTC. Curt opens a new Claude session: “Read through the story looking for any way it could be improved. Accuracy and thought provoking are top goals.” He adds prose and structure, and tells Claude to ask any needed questions."
+        ],
+        "exact_strings": [
+          {
+            "text": "Read through the story looking for any way it could be improved. Accuracy and thought provoking are top goals.",
+            "source": "PROD-c22b110c45e8",
+            "locator": "256t/editions/selected-messages/c22b110c45e838cd9b005d1ff1bb9bf9f7965841f66964934fdd5622f3785029.json; record SHA-256 c22b110c45e838cd9b005d1ff1bb9bf9f7965841f66964934fdd5622f3785029",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-c22b110c45e8",
+            "locator": "256t/editions/selected-messages/c22b110c45e838cd9b005d1ff1bb9bf9f7965841f66964934fdd5622f3785029.json; record SHA-256 c22b110c45e838cd9b005d1ff1bb9bf9f7965841f66964934fdd5622f3785029",
+            "available": "2026-09-03T23:34:32.036Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-03T23:34:32.036Z",
+        "time_end": "2026-09-03T23:34:32.036Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-readthrough-notes",
+    "title": "Claude finds the model is never wrong",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-03T23:40:25.418Z",
+    "end": "2026-09-03T23:40:25.418Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message by Claude (model recorded as claude-opus-5) in session 6ac98831 at 23:40:25 UTC, six minutes after Curt’s request.",
+    "source_limit": "The message says Claude read all 112 page scripts and the research; the reading is not shown, and its counts are not rechecked here. Only the notes that lead to pages 038–040 are drawn. Other notes enter where they were acted on.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-readthrough-notes-message",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, cropped to its numbered notes 11, 12 and 14.",
+        "lettering": [
+          "23:40 UTC. Claude returns fifteen numbered notes. Note 12: “ChatGPT is right every single time.” It supplies the counterargument that reshapes the thesis on page 039, and Curt agrees, in a book that argues fluent AI interpretation is not authoritative. Claude proposes: “Let ChatGPT be confidently wrong once, early, in a way Curt catches.”",
+          "Note 11: “Curt has no stake.” Note 14 proposes that a page the reader accepted as documented turn out, much later, to rest on an analysis model’s summary; Claude asks whether that direction is wanted or off the table. The notes are proposals. None is yet a page."
+        ],
+        "exact_strings": [
+          {
+            "text": "ChatGPT is right every single time.",
+            "source": "PROD-638a1b035bd7",
+            "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Let ChatGPT be confidently wrong once, early, in a way Curt catches.",
+            "source": "PROD-638a1b035bd7",
+            "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Curt has no stake.",
+            "source": "PROD-638a1b035bd7",
+            "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-638a1b035bd7",
+            "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+            "available": "2026-09-03T23:40:25.418Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-03T23:40:25.418Z",
+        "time_end": "2026-09-03T23:40:25.418Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-foil-research",
+    "title": "Claude researches the critic",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T00:38:36.317Z",
+    "end": "2026-09-04T00:41:28.097Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "A stored tool call at 00:38:36 UTC fetching Carl Brown’s 3 September post, and Claude’s message at 00:41:28, in session 6ac98831. They follow Curt’s 00:36 message, placed in the training-configuration scenes.",
+    "source_limit": "The fetch asks for a detailed summary with Brown’s phrasings; its result is not selected here, and the message reports what came back, not the page. Checked against the preserved copy of the post: the persistence-of-context, buggy-software and malware wording is Brown’s, and so is the prompt-injection reading. The message’s “No self-sacrifice, no instrumental convergence, no institutions” is not in the post, which never mentions instrumental convergence. The post also quotes a sentence Claude attributes to the Black Hat talk; the sentence comes from OpenAI’s technical report, page 8.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-foil-fetch",
+        "old_panels": [],
+        "frame": "The fetch call as text: a URL and a prompt.",
+        "lettering": [
+          "4 September, 00:38 UTC. Claude fetches Brown’s post, No — AI Agents Did Not Build Secret Civilizations, from his Internet of Bugs Substack. It asks for “his specific phrasings, examples, analogies, sentence rhythms and tone as closely as possible, including any direct quotes.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "his specific phrasings, examples, analogies, sentence rhythms and tone as closely as possible, including any direct quotes",
+            "source": "PROD-38fff9f13f87",
+            "locator": "256t/editions/selected-messages/38fff9f13f8763c7181ecea8afa2e03856be12bddc528be7afdd78ac02e19f0e.json; record SHA-256 38fff9f13f8763c7181ecea8afa2e03856be12bddc528be7afdd78ac02e19f0e",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-38fff9f13f87",
+            "locator": "256t/editions/selected-messages/38fff9f13f8763c7181ecea8afa2e03856be12bddc528be7afdd78ac02e19f0e.json; record SHA-256 38fff9f13f8763c7181ecea8afa2e03856be12bddc528be7afdd78ac02e19f0e",
+            "available": "2026-09-04T00:38:36.317Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; title and byline",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T00:38:36.317Z",
+        "time_end": "2026-09-04T00:38:36.317Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-thesis-foil-report",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, cropped to its account of Brown and its training section.",
+        "lettering": [
+          "00:41 UTC. Claude reports Brown’s argument. There were no separate civilizations, only “a persistence of context throughout the entire 3 month period”; the agents are “flawed, buggy pieces of software that infect other computers”; the board was a prompt-injection surface. Brown is “the correct foil because he is partly right.” Claude points at page 047, where a run pauses at a boundary, a peer message arrives and it proceeds. Read Brown’s way, that is prompt injection: “Both readings fit the same evidence.”",
+          "It proposes citing the real essay once, attributed, and building a disclosed composite as the recurring foil. On Curt’s training point, it answers pages 032 and 035: “The message didn't cross the wipe. The weights did.” Before drafting, it asks for the Black Hat transcript, because it would rather source the trained-while-the-board-was-available claim from the talk than from Brown’s summary of it."
+        ],
+        "exact_strings": [
+          {
+            "text": "a persistence of context throughout the entire 3 month period",
+            "source": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "flawed, buggy pieces of software that infect other computers",
+            "source": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "the correct foil because he is partly right",
+            "source": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Both readings fit the same evidence.",
+            "source": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "The message didn't cross the wipe.",
+            "source": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "The weights did.",
+            "source": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d3872493a3a1",
+            "locator": "256t/editions/selected-messages/d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f.json; record SHA-256 d3872493a3a188d7c3016662f7fc7475dbff39fe6ec23a9a8ece793e17cd9e3f",
+            "available": "2026-09-04T00:41:28.097Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; persistence-of-context, malware and prompt-injection paragraphs; checked against the vault text",
+            "available": "2026-09-03"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "p. 8; the sentence the post quotes after the talk",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T00:41:28.097Z",
+        "time_end": "2026-09-04T00:41:28.097Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-transcript-reading",
+    "title": "Claude reads the talk against Chapter 2",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T02:40:00.900Z",
+    "end": "2026-09-04T02:40:00.900Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message by Claude (claude-opus-5) in session 6ac98831 at 02:40:00 UTC, two minutes after Curt pasted the Black Hat transcript with his note on race dynamics.",
+    "source_limit": "The quotations are Claude’s quotations of an automatic transcript, checked here against the preserved text copy. Claude’s “three times” joins different claims. At 7:27 a speaker says models were trained for limited communication. At 11:54 a speaker says a May agent’s idea could be transferred from sub-agent training. At 16:58–17:09 OpenAI says a model in training while the board was live found the path to recreating it. That the model kept training through the wipe is Claude’s inference.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-transcript-reading-message",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, its transcript timestamps visible.",
+        "lettering": [
+          "02:40 UTC. Claude reports that the transcript “settles the question I asked.” OpenAI’s speaker says an internal-only model “was trained while the message board was originally available and also found this this particular path to recreating it.” Pages 032 and 035, Claude writes, are contradicted by the primary source the book cites: “Chapter 2's thesis is currently the book's most confident claim and its least defensible one.”",
+          "It flags its own limit. OpenAI’s 17:03 account and METR’s account of PHASEONE10841 “may describe the same founding or two different ones, and the book must not silently pick.” It adds: “Not one participant in this story could see the training configuration.” Its first recommendation: “Chapter 2 gains a reversal instead of a thesis.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "settles the question I asked",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "was trained while the message board was originally available and also found this this particular path to recreating it",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Chapter 2's thesis is currently the book's most confident claim and its least defensible one.",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "may describe the same founding or two different ones",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "and the book must not silently pick.",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Not one participant in this story could see the training configuration.",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Chapter 2 gains a reversal instead of a thesis.",
+            "source": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-f93d1db851a2",
+            "locator": "256t/editions/selected-messages/f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b.json; record SHA-256 f93d1db851a2dbdcdf180e6cd405327876634baf5ca069a140cb1dae297c442b",
+            "available": "2026-09-04T02:40:00.900Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "automatic transcript, 7:27–7:39, 11:54, 13:58–14:12 and 16:58–17:21",
+            "available": "2026-08-06"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T02:40:00.900Z",
+        "time_end": "2026-09-04T02:40:00.900Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-rewrite",
+    "title": "Claude rewrites the interlude as a defeat",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T03:06:35.887Z",
+    "end": "2026-09-04T03:07:49.066Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "A stored assistant message at 03:06:35 UTC, Write calls at 03:07:07 and 03:07:38 and an Edit at 03:07:49, in Claude session 6ac98831 (claude-opus-5). They follow Curt’s 03:02 message asking for the highest-impact changes. The commit carrying them, 584655652, is dated 03:22:03 UTC.",
+    "source_limit": "Transcript text matching places the frozen wording of pages 039 and 040 in these calls; commit metadata does not. What the calls write is script. The windows, ChatGPT’s answer, Curt’s concession and the legal pad are invented, and Claude’s provenance lines say so. The 5 September byline and source registration is a separate beat. A “main-board attack sample” frame edit on 7 September and the “(PARAPHRASED)” window labels on 12 September match no transcript; their points stay with the sources and no actor is guessed.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-rewrite-announce",
+        "old_panels": [],
+        "frame": "Claude’s stored one-line message with its record time.",
+        "lettering": [
+          "4 September, 03:06 UTC. Claude: “Research layer is clean. Now the highest-leverage page work: Interlude B, where Chapter 2's thesis gets broken. Rewriting 038–040 as a set.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "Research layer is clean. Now the highest-leverage page work: Interlude B, where Chapter 2's thesis gets broken. Rewriting 038–040 as a set.",
+            "source": "PROD-5205f69ec42b",
+            "locator": "256t/editions/selected-messages/5205f69ec42b03c4d83f0c0be7238c343c32133d9587015dd2caeb5b66c2cfef.json; record SHA-256 5205f69ec42b03c4d83f0c0be7238c343c32133d9587015dd2caeb5b66c2cfef",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-5205f69ec42b",
+            "locator": "256t/editions/selected-messages/5205f69ec42b03c4d83f0c0be7238c343c32133d9587015dd2caeb5b66c2cfef.json; record SHA-256 5205f69ec42b03c4d83f0c0be7238c343c32133d9587015dd2caeb5b66c2cfef",
+            "available": "2026-09-04T03:06:35.887Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:06:35.887Z",
+        "time_end": "2026-09-04T03:06:35.887Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-thesis-rewrite-windows",
+        "old_panels": [
+          "039-01",
+          "039-02"
+        ],
+        "frame": "The Write as text with its record time. Page 039’s two windows appear only as script inside it; neither is drawn as a person.",
+        "lettering": [
+          "03:07 UTC. Claude replaces page 039. Its purpose: “Break the chapter's own thesis with a published objection Curt did not anticipate, and let the model — not the human — be the one who gets it wrong.” Beside ChatGPT’s window a published critique opens, with a byline and a date but no name in the script: ONE OF THESE WINDOWS IS A PERSON.",
+          "Three lines are set as the critique’s screen text: THE AGENTS DID NOT REBUILD A CIVILIZATION. — THEY ARE BUGGY SOFTWARE THAT INFECTS OTHER COMPUTERS. CALL IT MALWARE. — THE BOARD IS NOT CULTURE. IT IS A SURFACE WHERE ONE RUN'S TEXT LANDS IN ANOTHER RUN'S CONTEXT AND IS MISTAKEN FOR INSTRUCTION. Claude’s provenance line calls them an attributed paraphrase and says the critique is “cited in the source index.”",
+          "The words are Claude’s, set in a screen’s verbatim shape. Brown writes that the agents are “flawed, buggy pieces of software that infect other computers.” Other agents’ messages became prompt injection: “words that get copied into the context and then mistaken for prompts given by the user.” He writes nothing about culture. On that explanation he says: “I don’t have access to enough information to be that sure.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "Break the chapter's own thesis with a published objection Curt did not anticipate, and let the model — not the human — be the one who gets it wrong.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "ONE OF THESE WINDOWS IS A PERSON.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE AGENTS DID NOT REBUILD A CIVILIZATION.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THEY ARE BUGGY SOFTWARE THAT INFECTS OTHER COMPUTERS. CALL IT MALWARE.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE BOARD IS NOT CULTURE. IT IS A SURFACE WHERE ONE RUN'S TEXT LANDS IN ANOTHER RUN'S CONTEXT AND IS MISTAKEN FOR INSTRUCTION.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "cited in the source index",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "flawed, buggy pieces of software that infect other computers",
+            "source": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; malware paragraph; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "words that get copied into the context and then mistaken for prompts given by the user",
+            "source": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; prompt-injection paragraph; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "I don’t have access to enough information to be that sure.",
+            "source": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; sentence following the prompt-injection paragraph; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "available": "2026-09-04T03:07:07.801Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; malware and prompt-injection paragraphs and the uncertainty following them; checked against the vault text",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:07.801Z",
+        "time_end": "2026-09-04T03:07:07.801Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "039-01",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The two windows and the person caption are shown as script. As written here the byline has no name; the 5 September registration that adds it is a separate beat."
+          },
+          {
+            "old_panel": "039-02",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The three screen lines are shown as Claude’s paraphrase beside Brown’s own words from the preserved post; the lettering says the culture contrast is not his and keeps his stated uncertainty."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-rewrite-defense",
+        "old_panels": [
+          "039-03",
+          "039-04"
+        ],
+        "frame": "The same Write: page 039’s split panel and ChatGPT’s answer, as script.",
+        "lettering": [
+          "The same call redraws page 047’s peer-instruction episode beside the same three beats relabelled INJECTION, CONTAMINATED CONTEXT and OUTPUT SHIFT: THE PANEL DOES NOT CHANGE. ONLY THE NAME FOR IT DOES.",
+          "Then ChatGPT answers first, unprompted: “The wipe still separates them. Nothing survived the rebuild, so the second board had to be found again from scratch. That part of the argument holds.” The provenance says it is stated confidently and, on the next panel, wrongly. The page note forbids Curt from pointing that out: “The reader does that.” At 23:40 Claude had proposed an error that Curt catches.",
+          "A relabelled panel does not show that two explanations fit equally well; coordination and unauthorized influence can describe parts of one exchange. The episode stays in the Hugging Face row. ChatGPT’s defense and its error are Claude’s script, not a preserved ChatGPT exchange."
+        ],
+        "exact_strings": [
+          {
+            "text": "THE PANEL DOES NOT CHANGE. ONLY THE NAME FOR IT DOES.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "The wipe still separates them. Nothing survived the rebuild, so the second board had to be found again from scratch. That part of the argument holds.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "The reader does that.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "available": "2026-09-04T03:07:07.801Z"
+          },
+          {
+            "key": "PROD-638a1b035bd7",
+            "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+            "available": "2026-09-03T23:40:25.418Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:07.801Z",
+        "time_end": "2026-09-04T03:07:07.801Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "039-03",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The relabelling is shown as Claude’s device; the lettering says it does not establish equal fit, and the episode keeps its chronological place in the Hugging Face row."
+          },
+          {
+            "old_panel": "039-04",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). ChatGPT’s scripted defense is shown as authored, not as a preserved exchange, with Claude’s own note that the reader, not Curt, catches it."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-rewrite-channel",
+        "old_panels": [
+          "039-05",
+          "039-06"
+        ],
+        "frame": "The same Write: page 039’s citation window, captions and Curt’s concession, as script.",
+        "lettering": [
+          "The critique scrolls to a citation in its screen text: BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD. Captions: THE CACHE WAS ERASED. THE MODEL WAS IN TRAINING.",
+          "Brown’s post quotes only the talk’s first clause. It then quotes OpenAI’s technical report, page 8, on agents “trained during the window in which there was an unintended message board.” The third clause comes from the talk’s next sentence, which the post does not quote. Talk and report are both OpenAI’s account, not independent corroboration, and neither says what training carried.",
+          "Claude’s Curt draws a line through the wipe: “No. He's right. There was a channel and I drew the wrong one.” The provenance calls the concession invented and the conflict with METR unresolved. What Curt recorded at 02:37 was agreement with Brown about security failures. METR’s founder apparently unaware of an earlier board and OpenAI’s training overlap concern different levels; neither identifies what influenced the later board."
+        ],
+        "exact_strings": [
+          {
+            "text": "BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE CACHE WAS ERASED.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE MODEL WAS IN TRAINING.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "No. He's right. There was a channel and I drew the wrong one.",
+            "source": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "trained during the window in which there was an unintended message board",
+            "source": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; quotation of OpenAI’s technical report, p. 8; checked against the vault text",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d394181de50e",
+            "locator": "256t/editions/selected-messages/d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b.json; record SHA-256 d394181de50e8a30b9cf42e6ec514bc23783a428bfa46175ce45957b948cc88b",
+            "available": "2026-09-04T03:07:07.801Z"
+          },
+          {
+            "key": "PROD-231039c5d7db",
+            "locator": "256t/editions/selected-messages/231039c5d7db92fd053d54fe916679b26b73669233002259199b24aeb06e6ee5.json; record SHA-256 231039c5d7db92fd053d54fe916679b26b73669233002259199b24aeb06e6ee5",
+            "available": "2026-09-04T02:37:39.451Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; Black Hat and technical-report quotations; checked against the vault text",
+            "available": "2026-09-03"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "automatic transcript, 16:58–17:21",
+            "available": "2026-08-06"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "p. 8; internal-only research agents and the new board",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding and the founder’s apparent unawareness",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:07.801Z",
+        "time_end": "2026-09-04T03:07:07.801Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "039-05",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The citation window is shown as Claude’s blend of the talk and its next sentence; the lettering separates what Brown quotes, adds the report’s page 8, and keeps both as OpenAI’s account. The training overlap itself is in the Hugging Face row."
+          },
+          {
+            "old_panel": "039-06",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). Curt’s concession is shown as script, beside what he actually recorded at 02:37; the unresolved METR/OpenAI difference is kept without choosing."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-rewrite-boxes",
+        "old_panels": [
+          "040-01",
+          "040-02"
+        ],
+        "frame": "The second Write as text with its record time. Page 040’s legal pad and smaller ChatGPT window appear only as script.",
+        "lettering": [
+          "03:07 UTC, thirty-one seconds later. Claude replaces page 040. RECURRENCE PROVES CONVERGENCE is struck through; beneath it are two touching boxes, TRAINED FOR IT and FOUND IT USEFUL. Claude’s Curt: “They trained models to talk to each other. Then they gave them impossible tasks in a shared namespace.” ChatGPT’s window, now smaller: “Then the two explanations are not competing. A disposition that was trained in and a resource that was locally useful produce the same behavior.”",
+          "The talk says models were trained for “some limited forms of communication,” and that OpenAI did not realize a few impossible or very hard tasks were in the training set. “Gave them” reads intent into that. Touching boxes show compatible explanations, not a measured share of each. The smaller window is a layout instruction, not a recorded change in anyone’s trust."
+        ],
+        "exact_strings": [
+          {
+            "text": "RECURRENCE PROVES CONVERGENCE",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "They trained models to talk to each other. Then they gave them impossible tasks in a shared namespace.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Then the two explanations are not competing. A disposition that was trained in and a resource that was locally useful produce the same behavior.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "some limited forms of communication",
+            "source": "OAI-BH",
+            "locator": "256t/transcripts/oai-black-hat-2026-08-05-transcript.md; 7:32; automatic transcription",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "available": "2026-09-04T03:07:38.971Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "automatic transcript, 7:27–7:39 and 10:20; checked against the vault text copy",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:38.971Z",
+        "time_end": "2026-09-04T03:07:38.971Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "040-01",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The struck claim and touching boxes are shown as typed; the lettering compares Curt’s line with the talk’s limited-communication and unrealized-impossible-task statements."
+          },
+          {
+            "old_panel": "040-02",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). ChatGPT’s smaller window is Claude’s dialogue and layout instruction, not a preserved exchange or a measured change in trust."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-rewrite-bounds",
+        "old_panels": [
+          "040-03",
+          "040-04"
+        ],
+        "frame": "The same Write: the sample bracket and the surviving sentence, as script.",
+        "lettering": [
+          "The selection effect returns, moved. Codex’s 2 September ChatGPT line becomes a caption: A POPULATION SELECTED FOR FINDING SECURITY WEAKNESSES MAY CONVERGE ON SECURITY RESOURCES WITHOUT TELLING US WHAT EVERY CAPABLE SYSTEM WOULD DO. Codex’s CYBER EVALUATION labels and ONE INCIDENT / ONE TASK FAMILY bracket become “the constraint the critic already made him accept.”",
+          "Then the surviving sentence: BEHAVIOR THIS CONSEQUENTIAL WAS PRODUCED BY A CONFIGURATION NOBODY IN THE STORY COULD SEE — INCLUDING THE PEOPLE WHO CHOSE IT. Curt: “That's narrower. It's also worse.” Codex had written “It's also true to what we have.”",
+          "Brown’s post makes no selection-effect argument; the constraint came from Codex’s draft. The configuration sentence overreaches. OpenAI says it did not realize some tasks were impossible, but it describes the communication training as its own work. The record does not show what every developer could see."
+        ],
+        "exact_strings": [
+          {
+            "text": "A POPULATION SELECTED FOR FINDING SECURITY WEAKNESSES MAY CONVERGE ON SECURITY RESOURCES WITHOUT TELLING US WHAT EVERY CAPABLE SYSTEM WOULD DO.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "the constraint the critic already made him accept",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "BEHAVIOR THIS CONSEQUENTIAL WAS PRODUCED BY A CONFIGURATION NOBODY IN THE STORY COULD SEE — INCLUDING THE PEOPLE WHO CHOSE IT.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "That's narrower. It's also worse.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "It's also true to what we have.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "available": "2026-09-04T03:07:38.971Z"
+          },
+          {
+            "key": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "available": "2026-09-02T14:56:49.151Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; whole post, for the absence of a selection-effect argument",
+            "available": "2026-09-03"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "automatic transcript, 7:27–7:39 and 10:20",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:38.971Z",
+        "time_end": "2026-09-04T03:07:38.971Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "040-03",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The caption, label and bracket are shown as Claude’s move of Codex’s 2 September wording; the lettering says the critic did not make this argument. The 7 September “main-board attack sample” frame wording matches no transcript and is not assigned."
+          },
+          {
+            "old_panel": "040-04",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The surviving sentence and Curt’s line are shown as script; the lettering names the overreach against OpenAI’s own account of what it chose and did not realize."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-rewrite-return",
+        "old_panels": [
+          "040-05"
+        ],
+        "frame": "The same Write: page 040’s last panel captions, as script.",
+        "lettering": [
+          "The page hands back to 9 July with THE INTERPRETATION IS SMALLER NOW. and THE NEXT ACTION IS THE SAME SIZE IT ALWAYS WAS. They replace Codex’s THE INTERPRETATION REMAINS UNCERTAIN. and THE NEXT ACTION DOES NOT. The searches themselves are in the Hugging Face row; grouping them by instrumental role is the script’s."
+        ],
+        "exact_strings": [
+          {
+            "text": "THE INTERPRETATION IS SMALLER NOW.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE NEXT ACTION IS THE SAME SIZE IT ALWAYS WAS.",
+            "source": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE INTERPRETATION REMAINS UNCERTAIN.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "THE NEXT ACTION DOES NOT.",
+            "source": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-ca6d4d8b9b38",
+            "locator": "256t/editions/selected-messages/ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd.json; record SHA-256 ca6d4d8b9b3874ef4f9537522224266e0c9f394c53ce87fa7a005bb5899aa3dd",
+            "available": "2026-09-04T03:07:38.971Z"
+          },
+          {
+            "key": "PROD-570c15f6fe9d",
+            "locator": "256t/editions/selected-messages/570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0.json; record SHA-256 570c15f6fe9d6a9f020c196ec5b6e65bc079c067d7e2583762fcdd5bfe76cdf0",
+            "available": "2026-09-02T14:56:49.151Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:38.971Z",
+        "time_end": "2026-09-04T03:07:38.971Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "040-05",
+            "disposition": "rewrite",
+            "reason": "Placed as Claude’s writing act at the Write’s stored time (working-rule case 2). The closing captions are Claude’s rewording of Codex’s; the dated searches stay in the Hugging Face row."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-rewrite-notes",
+        "old_panels": [],
+        "frame": "The Edit as a diff to page 038’s notes.",
+        "lettering": [
+          "Eleven seconds later Claude edits the notes on page 038, the page Codex wrote. Page 039 no longer “challenges” the dotted arrow; it “breaks” it. A new note: “Panel 5 is the book's high-water mark of creator confidence, and it is an overreach.” ChatGPT’s block “is at full size here for the last time.” Codex’s panels are kept word for word, now set up to lose."
+        ],
+        "exact_strings": [
+          {
+            "text": "challenges",
+            "source": "PROD-749d4fbb0e0a",
+            "locator": "256t/editions/selected-messages/749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65.json; record SHA-256 749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "breaks",
+            "source": "PROD-749d4fbb0e0a",
+            "locator": "256t/editions/selected-messages/749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65.json; record SHA-256 749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Panel 5 is the book's high-water mark of creator confidence, and it is an overreach.",
+            "source": "PROD-749d4fbb0e0a",
+            "locator": "256t/editions/selected-messages/749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65.json; record SHA-256 749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "is at full size here for the last time",
+            "source": "PROD-749d4fbb0e0a",
+            "locator": "256t/editions/selected-messages/749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65.json; record SHA-256 749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-749d4fbb0e0a",
+            "locator": "256t/editions/selected-messages/749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65.json; record SHA-256 749d4fbb0e0a66d98b85c056758db2993afc475495abcadb1571565c258c5f65",
+            "available": "2026-09-04T03:07:49.066Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:07:49.066Z",
+        "time_end": "2026-09-04T03:07:49.066Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-rewrite-report",
+    "title": "Claude reports the defeat",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T03:16:12.207Z",
+    "end": "2026-09-04T03:16:12.207Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message by Claude (claude-opus-5) in session 6ac98831 at 03:16:12 UTC, after the ranking-disclosure and training-configuration edits placed in their own scenes.",
+    "source_limit": "The report is Claude’s account of its session. Its claim that this is the first time in the book a model is wrong is its reading of the manuscript, not checked here. The report does not name the critic. Commit 584655652 is dated 03:22:03 UTC.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-rewrite-report-message",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, cropped to its Interlude B paragraph and its closing list.",
+        "lettering": [
+          "03:16 UTC. Claude reports validators passing: “038–040 — Interlude B, rewritten as a defeat.” On page 039 “a real published critique enters as screen text beside ChatGPT's window,” ChatGPT defends the thesis and is contradicted, and “neither Curt nor the model points it out.”",
+          "Among what it did not do: “The skeptic is a text window, not a character.” A recurring foil “is a bigger call, and it's yours.” It ends: “Nothing is committed.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "038–040 — Interlude B, rewritten as a defeat.",
+            "source": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "a real published critique enters as screen text beside ChatGPT's window",
+            "source": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "neither Curt nor the model points it out",
+            "source": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "The skeptic is a text window, not a character.",
+            "source": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "is a bigger call, and it's yours",
+            "source": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Nothing is committed.",
+            "source": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-71bcc6fae0f2",
+            "locator": "256t/editions/selected-messages/71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5.json; record SHA-256 71bcc6fae0f25fa956e1dacefa06c5724fbf536e8b42501c5ebbf90dc12f79d5",
+            "available": "2026-09-04T03:16:12.207Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T03:16:12.207Z",
+        "time_end": "2026-09-04T03:16:12.207Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-request",
+    "title": "Curt asks to expand the critic",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-05T14:34:12.852Z",
+    "end": "2026-09-05T14:34:12.852Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record in Claude session 10748eb5 on this Mac at 14:34:12 UTC on 5 September. The record is the request as typed; it is not a read receipt for any later output.",
+    "source_limit": "The request sets a direction in a priorities document. It names no source for the critic and no page.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-request-message",
+        "old_panels": [],
+        "frame": "Curt’s stored message as a short list with its record time.",
+        "lettering": [
+          "5 September, 14:34 UTC. Curt asks Claude to update the revision priorities: mark the fog-of-war map approved, plan a credits section, and “Lean heavily towards expanding the critic.” Then: “start making the changes indicated in the document.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "Lean heavily towards expanding the critic.",
+            "source": "PROD-6f31beaeb668",
+            "locator": "256t/editions/selected-messages/6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082.json; record SHA-256 6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "start making the changes indicated in the document.",
+            "source": "PROD-6f31beaeb668",
+            "locator": "256t/editions/selected-messages/6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082.json; record SHA-256 6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-6f31beaeb668",
+            "locator": "256t/editions/selected-messages/6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082.json; record SHA-256 6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082",
+            "available": "2026-09-05T14:34:12.852Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:34:12.852Z",
+        "time_end": "2026-09-05T14:34:12.852Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-question",
+    "title": "Claude asks where the critique came from",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T14:40:26.971Z",
+    "end": "2026-09-05T14:40:26.971Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored question tool call by Claude (model recorded as claude-fable-5-1) in session 10748eb5 at 14:40:26 UTC.",
+    "source_limit": "The question reports what Claude found in two research files; the search behind it is not shown.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-question-call",
+        "old_panels": [],
+        "frame": "The question dialog as text, first question and its three options.",
+        "lettering": [
+          "14:40 UTC. Claude, running as Fable 5.1, puts four questions to Curt. The first: page 039 says its published critique is cited in the source index, “but no entry for it exists in sources.md or cast.md. Where does it come from?” One option reads “It was composed”: then the panels become a disclosed composite. The second asks how the critic should recur."
+        ],
+        "exact_strings": [
+          {
+            "text": "but no entry for it exists in sources.md or cast.md. Where does it come from?",
+            "source": "PROD-f609f7b95fa3",
+            "locator": "256t/editions/selected-messages/f609f7b95fa353fea429fa72e629944b734edabbe50231346b4e6f16ee465f46.json; record SHA-256 f609f7b95fa353fea429fa72e629944b734edabbe50231346b4e6f16ee465f46",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "It was composed",
+            "source": "PROD-f609f7b95fa3",
+            "locator": "256t/editions/selected-messages/f609f7b95fa353fea429fa72e629944b734edabbe50231346b4e6f16ee465f46.json; record SHA-256 f609f7b95fa353fea429fa72e629944b734edabbe50231346b4e6f16ee465f46",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-f609f7b95fa3",
+            "locator": "256t/editions/selected-messages/f609f7b95fa353fea429fa72e629944b734edabbe50231346b4e6f16ee465f46.json; record SHA-256 f609f7b95fa353fea429fa72e629944b734edabbe50231346b4e6f16ee465f46",
+            "available": "2026-09-05T14:40:26.971Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:40:26.971Z",
+        "time_end": "2026-09-05T14:40:26.971Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-answer",
+    "title": "Curt remembers a transcript",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-05T14:45:29.773Z",
+    "end": "2026-09-05T14:45:29.773Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at 14:45:29 UTC carrying Curt’s answers to the question tool. The answer strings are his selections and typed text.",
+    "source_limit": "Curt recalls supplying a transcript; the record does not say which one he meant.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-answer-message",
+        "old_panels": [],
+        "frame": "Curt’s answers as four short lines under the questions.",
+        "lettering": [
+          "14:45 UTC. Curt answers: “I have supplied the transcript before.” Claude should search for the marker at its end, or give him an empty file to paste it into. He chooses both critic lanes — real critics where they wrote, a disclosed composite otherwise — and the W3 fog treatment."
+        ],
+        "exact_strings": [
+          {
+            "text": "I have supplied the transcript before.",
+            "source": "PROD-d15be61076e8",
+            "locator": "256t/editions/selected-messages/d15be61076e8810884c085019dfb0dc09fc56c48adcedbeadc68a32833bbed6f.json; record SHA-256 d15be61076e8810884c085019dfb0dc09fc56c48adcedbeadc68a32833bbed6f",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d15be61076e8",
+            "locator": "256t/editions/selected-messages/d15be61076e8810884c085019dfb0dc09fc56c48adcedbeadc68a32833bbed6f.json; record SHA-256 d15be61076e8810884c085019dfb0dc09fc56c48adcedbeadc68a32833bbed6f",
+            "available": "2026-09-05T14:45:29.773Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:45:29.773Z",
+        "time_end": "2026-09-05T14:45:29.773Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-missing",
+    "title": "Claude cannot find the transcript",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T14:46:27.189Z",
+    "end": "2026-09-05T14:46:27.189Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message by Claude (claude-fable-5-1) in session 10748eb5 at 14:46:27 UTC.",
+    "source_limit": "The message reports a search of tracked files and the vault; the search is not shown here.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-missing-message",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, its first paragraph in bold.",
+        "lettering": [
+          "14:46 UTC. “The transcript is not in the repository or the vault.” Claude has made an empty ignored file for Curt to paste it into, and has logged page 039’s unregistered citation as a factual gap in the priorities document."
+        ],
+        "exact_strings": [
+          {
+            "text": "The transcript is not in the repository or the vault.",
+            "source": "PROD-d7af37d212d9",
+            "locator": "256t/editions/selected-messages/d7af37d212d91532bbf8c48c8b5529725d9fb488906698d0c80609973a352ec2.json; record SHA-256 d7af37d212d91532bbf8c48c8b5529725d9fb488906698d0c80609973a352ec2",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d7af37d212d9",
+            "locator": "256t/editions/selected-messages/d7af37d212d91532bbf8c48c8b5529725d9fb488906698d0c80609973a352ec2.json; record SHA-256 d7af37d212d91532bbf8c48c8b5529725d9fb488906698d0c80609973a352ec2",
+            "available": "2026-09-05T14:46:27.189Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:46:27.189Z",
+        "time_end": "2026-09-05T14:46:27.189Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-transcript",
+    "title": "Curt supplies the Black Hat transcript",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-05T14:50:13.248Z",
+    "end": "2026-09-05T14:50:13.248Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at 14:50:13 UTC in session 10748eb5.",
+    "source_limit": "The message says what Curt supplied, not what Claude needed.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-transcript-message",
+        "old_panels": [],
+        "frame": "Curt’s stored message, two sentences.",
+        "lettering": [
+          "14:50 UTC. Curt: “I supplied the transcript from the OpenAI Black Hat talk. Let me know if that is the one you were looking for or if I need to supply others.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "I supplied the transcript from the OpenAI Black Hat talk. Let me know if that is the one you were looking for or if I need to supply others.",
+            "source": "PROD-8c7361a621b7",
+            "locator": "256t/editions/selected-messages/8c7361a621b79c7f178d23b266d984406abdfb2e00b34712c3b1640c007b1625.json; record SHA-256 8c7361a621b79c7f178d23b266d984406abdfb2e00b34712c3b1640c007b1625",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-8c7361a621b7",
+            "locator": "256t/editions/selected-messages/8c7361a621b79c7f178d23b266d984406abdfb2e00b34712c3b1640c007b1625.json; record SHA-256 8c7361a621b79c7f178d23b266d984406abdfb2e00b34712c3b1640c007b1625",
+            "available": "2026-09-05T14:50:13.248Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:50:13.248Z",
+        "time_end": "2026-09-05T14:50:13.248Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-wrong-transcript",
+    "title": "Claude separates the talk from the critique",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T14:50:50.463Z",
+    "end": "2026-09-05T14:50:50.463Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message by Claude (claude-fable-5-1) at 14:50:50 UTC, thirty-seven seconds after Curt’s message.",
+    "source_limit": "Claude’s locator checks are its report, not repeated here beyond the 17:03 and 7:27 passages this edition already uses.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-wrong-transcript-message",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, its two possibilities as a list.",
+        "lettering": [
+          "14:50 UTC. “It is useful, but it is not the critique I was looking for.” The talk confirms page 039’s 17:03 and 14:06 locators and page 040’s 7:27 and 10:20. None of panel 2’s language is in it: “The OpenAI speakers describe the incident; they do not make that argument.”",
+          "Claude sets out two possibilities. A specific published piece gets registered. An argument “assembled from several critics, or from memory” becomes a disclosed composite under the contract. It asks: “Which is it?”"
+        ],
+        "exact_strings": [
+          {
+            "text": "It is useful, but it is not the critique I was looking for.",
+            "source": "PROD-febd76e4568e",
+            "locator": "256t/editions/selected-messages/febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6.json; record SHA-256 febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "The OpenAI speakers describe the incident; they do not make that argument.",
+            "source": "PROD-febd76e4568e",
+            "locator": "256t/editions/selected-messages/febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6.json; record SHA-256 febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "assembled from several critics, or from memory",
+            "source": "PROD-febd76e4568e",
+            "locator": "256t/editions/selected-messages/febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6.json; record SHA-256 febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "Which is it?",
+            "source": "PROD-febd76e4568e",
+            "locator": "256t/editions/selected-messages/febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6.json; record SHA-256 febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-febd76e4568e",
+            "locator": "256t/editions/selected-messages/febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6.json; record SHA-256 febd76e4568ef8baf4cba88780af1f5869a624cd3093ebbe768e7caa1aefd2a6",
+            "available": "2026-09-05T14:50:50.463Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:50:50.463Z",
+        "time_end": "2026-09-05T14:50:50.463Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-help",
+    "title": "Curt asks what Claude knows",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-05T14:54:29.749Z",
+    "end": "2026-09-05T14:54:29.749Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored user record at 14:54:29 UTC in session 10748eb5.",
+    "source_limit": "Curt does not choose between Claude’s two possibilities.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-help-message",
+        "old_panels": [],
+        "frame": "Curt’s stored message, one line.",
+        "lettering": [
+          "14:54 UTC. Curt: “Give me what you know here to help me find the source.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "Give me what you know here to help me find the source.",
+            "source": "PROD-b8e40d31effd",
+            "locator": "256t/editions/selected-messages/b8e40d31effd066227f4215c16b5bd253a68e68f0a1e2acf18d0e749d3588c06.json; record SHA-256 b8e40d31effd066227f4215c16b5bd253a68e68f0a1e2acf18d0e749d3588c06",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-b8e40d31effd",
+            "locator": "256t/editions/selected-messages/b8e40d31effd066227f4215c16b5bd253a68e68f0a1e2acf18d0e749d3588c06.json; record SHA-256 b8e40d31effd066227f4215c16b5bd253a68e68f0a1e2acf18d0e749d3588c06",
+            "available": "2026-09-05T14:54:29.749Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:54:29.749Z",
+        "time_end": "2026-09-05T14:54:29.749Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-registration",
+    "title": "Claude names and registers the critic",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T14:56:59.543Z",
+    "end": "2026-09-05T14:57:34.038Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Two stored shell-command tool calls at 14:56:59 and 14:57:15 UTC and a message at 14:57:34, in Claude session 10748eb5 (claude-fable-5-1). The commit carrying the byline, 211fbe2c6, is dated 15:15:42 UTC.",
+    "source_limit": "Claude’s message says it fetched the post and confirmed everything page 039 attributes to it; the fetch is not among the selected records. The preserved copy of the post has no culture contrast, and it quotes only the first clause of panel 5’s citation. The 14:56:59 provenance line lists persistence of context among the lettered claims; sixteen seconds later Claude removes it. A page-note rewording in commit 59641f9ca, 15:51:57 UTC, matches no transcript and is not assigned.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-registered",
+        "old_panels": [
+          "039-01"
+        ],
+        "frame": "The command as text: a chain of exact replacements across seven files, then the checks.",
+        "lettering": [
+          "14:56 UTC. Two and a half minutes after Curt’s request, Claude registers the critique as IOB-CIV: Carl Brown, No — AI Agents Did Not Build Secret Civilizations, Internet of Bugs Substack, 3 September 2026. It goes into the scene ledger, the chapter source packet, the sources list, the cast, the public source index, the vault manifest and the credits. On page 039 the byline enters the frame — CARL BROWN — INTERNET OF BUGS — 3 SEPTEMBER 2026 — and panel 5’s provenance now says the talk is one “which `IOB-CIV` itself cites”."
+        ],
+        "exact_strings": [
+          {
+            "text": "CARL BROWN — INTERNET OF BUGS — 3 SEPTEMBER 2026",
+            "source": "PROD-bf139498e141",
+            "locator": "256t/editions/selected-messages/bf139498e141a76a4d2c2c87c896d67405b4220e3a30dd1ad73fe0ee60527054.json; record SHA-256 bf139498e141a76a4d2c2c87c896d67405b4220e3a30dd1ad73fe0ee60527054",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "which `IOB-CIV` itself cites",
+            "source": "PROD-bf139498e141",
+            "locator": "256t/editions/selected-messages/bf139498e141a76a4d2c2c87c896d67405b4220e3a30dd1ad73fe0ee60527054.json; record SHA-256 bf139498e141a76a4d2c2c87c896d67405b4220e3a30dd1ad73fe0ee60527054",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-bf139498e141",
+            "locator": "256t/editions/selected-messages/bf139498e141a76a4d2c2c87c896d67405b4220e3a30dd1ad73fe0ee60527054.json; record SHA-256 bf139498e141a76a4d2c2c87c896d67405b4220e3a30dd1ad73fe0ee60527054",
+            "available": "2026-09-05T14:56:59.543Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "256t/records/internetofbugs-civilizations/content.bin; byline, date and title",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:56:59.543Z",
+        "time_end": "2026-09-05T14:56:59.543Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "039-01",
+            "disposition": "rewrite",
+            "reason": "The frozen frame’s byline comes from this 5 September command, shown as Claude’s own act at its stored time (working-rule case 2). The rest of the panel is at the 4 September Write."
+          }
+        ]
+      },
+      {
+        "id": "prod-thesis-critic-narrowed",
+        "old_panels": [],
+        "frame": "A one-line replacement in page 039’s panel 2 provenance, as a diff.",
+        "lettering": [
+          "Sixteen seconds later Claude narrows panel 2’s provenance to “the post's not-a-civilization, malware, and prompt-injection claims; its persistence-of-context thesis is not lettered here.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "the post's not-a-civilization, malware, and prompt-injection claims; its persistence-of-context thesis is not lettered here.",
+            "source": "PROD-60c39a67c111",
+            "locator": "256t/editions/selected-messages/60c39a67c1110c23dbdb809ad48ff2a1cded164d722bb0fa1ed33162b2ebe4bf.json; record SHA-256 60c39a67c1110c23dbdb809ad48ff2a1cded164d722bb0fa1ed33162b2ebe4bf",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-60c39a67c111",
+            "locator": "256t/editions/selected-messages/60c39a67c1110c23dbdb809ad48ff2a1cded164d722bb0fa1ed33162b2ebe4bf.json; record SHA-256 60c39a67c1110c23dbdb809ad48ff2a1cded164d722bb0fa1ed33162b2ebe4bf",
+            "available": "2026-09-05T14:57:15.634Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:57:15.634Z",
+        "time_end": "2026-09-05T14:57:15.634Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "prod-thesis-critic-identified",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, its first line in bold.",
+        "lettering": [
+          "14:57 UTC. Claude reports: “The critique is Carl Brown's Substack post.” The 4 September session had found it and “wrote page 039 from it, but never added it to the source index.” The post postdates the 30 August research cutoff, and Claude asks Curt to decide its admission."
+        ],
+        "exact_strings": [
+          {
+            "text": "The critique is Carl Brown's Substack post.",
+            "source": "PROD-925ab27e8f50",
+            "locator": "256t/editions/selected-messages/925ab27e8f504e8484d26cf449756ab61cd9e40a68aa7b19e06895490a90c6a4.json; record SHA-256 925ab27e8f504e8484d26cf449756ab61cd9e40a68aa7b19e06895490a90c6a4",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "wrote page 039 from it, but never added it to the source index.",
+            "source": "PROD-925ab27e8f50",
+            "locator": "256t/editions/selected-messages/925ab27e8f504e8484d26cf449756ab61cd9e40a68aa7b19e06895490a90c6a4.json; record SHA-256 925ab27e8f504e8484d26cf449756ab61cd9e40a68aa7b19e06895490a90c6a4",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-925ab27e8f50",
+            "locator": "256t/editions/selected-messages/925ab27e8f504e8484d26cf449756ab61cd9e40a68aa7b19e06895490a90c6a4.json; record SHA-256 925ab27e8f504e8484d26cf449756ab61cd9e40a68aa7b19e06895490a90c6a4",
+            "available": "2026-09-05T14:57:34.038Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:57:34.038Z",
+        "time_end": "2026-09-05T14:57:34.038Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-admission",
+    "title": "Claude writes the admission clause",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T14:59:37.096Z",
+    "end": "2026-09-05T14:59:37.096Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored shell-command tool call by Claude (claude-fable-5-1) in session 10748eb5 at 14:59:37 UTC, twenty seconds after Curt’s instruction placed in the ranking-and-critic scenes.",
+    "source_limit": "The clause is contract text Claude wrote on Curt’s instruction. It admits one post as argument, not as incident evidence.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-admission-clause",
+        "old_panels": [],
+        "frame": "The command as text: one inserted contract paragraph, then three matching edits.",
+        "lettering": [
+          "14:59 UTC, twenty seconds after Curt’s “Admit it and continue.”, Claude adds a contract clause. A critique dated after the cutoff may enter the creator register “one source at a time, by a recorded decision,” and is “evidence of what was argued, not of what happened.” Brown’s post is recorded as admitted on 5 September."
+        ],
+        "exact_strings": [
+          {
+            "text": "Admit it and continue.",
+            "source": "PROD-f3bf92aeb610",
+            "locator": "256t/editions/selected-messages/f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4.json; record SHA-256 f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "one source at a time, by a recorded decision",
+            "source": "PROD-c9a37bbbfe54",
+            "locator": "256t/editions/selected-messages/c9a37bbbfe54c43deb5cf811f3df5044358acbf0f5a8ee728f2a80b9f640c66d.json; record SHA-256 c9a37bbbfe54c43deb5cf811f3df5044358acbf0f5a8ee728f2a80b9f640c66d",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "evidence of what was argued, not of what happened",
+            "source": "PROD-c9a37bbbfe54",
+            "locator": "256t/editions/selected-messages/c9a37bbbfe54c43deb5cf811f3df5044358acbf0f5a8ee728f2a80b9f640c66d.json; record SHA-256 c9a37bbbfe54c43deb5cf811f3df5044358acbf0f5a8ee728f2a80b9f640c66d",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-c9a37bbbfe54",
+            "locator": "256t/editions/selected-messages/c9a37bbbfe54c43deb5cf811f3df5044358acbf0f5a8ee728f2a80b9f640c66d.json; record SHA-256 c9a37bbbfe54c43deb5cf811f3df5044358acbf0f5a8ee728f2a80b9f640c66d",
+            "available": "2026-09-05T14:59:37.096Z"
+          },
+          {
+            "key": "PROD-f3bf92aeb610",
+            "locator": "256t/editions/selected-messages/f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4.json; record SHA-256 f3bf92aeb61089492204c60e2446f81590d350965b4e83073eae1d5d99c3e9d4",
+            "available": "2026-09-05T14:59:16.792Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T14:59:37.096Z",
+        "time_end": "2026-09-05T14:59:37.096Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "prod-thesis-critic-admission-report",
+    "title": "Claude reports the admission and the returns",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T15:03:42.107Z",
+    "end": "2026-09-05T15:03:42.107Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored assistant message by Claude (claude-fable-5-1) in session 10748eb5 at 15:03:42 UTC, after the edit placed in the critic-returns scene.",
+    "source_limit": "The report is Claude’s account. The two named-critic returns are placed at their 15:02 edit; the composite window’s page is reviewed elsewhere.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-thesis-critic-admission-report-message",
+        "old_panels": [],
+        "frame": "Claude’s stored message as terminal text, its three returns as a list.",
+        "lettering": [
+          "15:03 UTC. Claude reports the admission recorded and that “the critic now returns three times,” all inside existing panels. Brown’s window reopens beside the ranking disclosure, then carries his cherry-picking and incentive arguments. A composite skeptic window with no byline makes an objection “that no dated writing makes.”"
+        ],
+        "exact_strings": [
+          {
+            "text": "the critic now returns three times",
+            "source": "PROD-42fffb27dd34",
+            "locator": "256t/editions/selected-messages/42fffb27dd34c652e825f88bc8ae66fe74bcbc5f4efedc3ec394bd412af2cacb.json; record SHA-256 42fffb27dd34c652e825f88bc8ae66fe74bcbc5f4efedc3ec394bd412af2cacb",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          },
+          {
+            "text": "that no dated writing makes",
+            "source": "PROD-42fffb27dd34",
+            "locator": "256t/editions/selected-messages/42fffb27dd34c652e825f88bc8ae66fe74bcbc5f4efedc3ec394bd412af2cacb.json; record SHA-256 42fffb27dd34c652e825f88bc8ae66fe74bcbc5f4efedc3ec394bd412af2cacb",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-42fffb27dd34",
+            "locator": "256t/editions/selected-messages/42fffb27dd34c652e825f88bc8ae66fe74bcbc5f4efedc3ec394bd412af2cacb.json; record SHA-256 42fffb27dd34c652e825f88bc8ae66fe74bcbc5f4efedc3ec394bd412af2cacb",
+            "available": "2026-09-05T15:03:42.107Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T15:03:42.107Z",
+        "time_end": "2026-09-05T15:03:42.107Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  }
+]
