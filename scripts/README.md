@@ -8,7 +8,13 @@ before `--apply`; it preserves ordinary identity commands and the published edit
 panel parser. `working_edition.py manuscript` validates the authored unallocated
 scenes and generates a readable review plus conservative coverage records.
 `check --draft` tests both the isolated machinery and that review without claiming editorial
-completion. `collaboration_records.py` catalogs explicitly supplied local histories
+completion. `edition_pages.py` allocates the incident-movement beats into three-row page
+windows (`allocate`), keys a storyboard to each beat and validates windows plus boards
+(`check`), renders full readable pages to the ignored `256t/editions/incident-preview/`
+(`preview`), and reports storyboard coverage (`status`); windows and boards live under
+`editions/three-stream/incident/`. Storyboard placeholders are keyed by beat ID, not page
+number, so re-allocation never invalidates a composition; they are draft art, not approved
+lettering or a page-count target. `collaboration_records.py` catalogs explicitly supplied local histories
 as byte/hash locators without exporting message bodies. The initial condensed
 chronology is withdrawn as a manuscript candidate; its count is not a target.
 
