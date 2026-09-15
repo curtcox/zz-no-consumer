@@ -1,0 +1,2270 @@
+{
+ "hf-ephemeral-control-reset": {
+  "title": "A sandbox ends with its tools",
+  "intent": "One sandbox lane ends at a time divider; its local tool bundle ends inside it, greyed. Randomized hostname tag.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-modal-customer-workload",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.12,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "SANDBOX · RANDOM HOST",
+    "label_box": [
+     0.02,
+     0.488,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.3,
+     0.2,
+     0.12,
+     0.2
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "TOOLS",
+    "label_box": [
+     0.25,
+     0.408,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.5,
+     0.04,
+     0.12,
+     0.58
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ENDS",
+    "label_box": [
+     0.45,
+     0.628,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.72,
+     0.12,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NO LOCAL STATE KEPT",
+    "label_box": [
+     0.68,
+     0.488,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored sequence diagram ends one sandbox lane. Its local tool bundle ends with it; no migrating character is drawn.",
+   "lettering": [
+    "Hugging Face describes short-lived sandboxes with fresh network identities and randomized hostnames. Their local state does not persist."
+   ]
+  }
+ },
+ "hf-ephemeral-control-rebuild": {
+  "title": "A new sandbox downloads again",
+  "intent": "A different, empty sandbox lane pulls a sealed tool bundle down from external storage. No character migrates.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-modal-customer-workload",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.06,
+     0.04,
+     0.22,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXTERNAL STORAGE",
+    "label_box": [
+     0.03,
+     0.348,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.32,
+     0.16,
+     0.14,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.5,
+     0.06,
+     0.14,
+     0.24
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TOOL BUNDLE",
+    "label_box": [
+     0.47,
+     0.308,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.54,
+     0.4,
+     0.06,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.72,
+     0.16,
+     0.22,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NEW SANDBOX (EMPTY)",
+    "label_box": [
+     0.68,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A different sandbox lane retrieves an opaque tool bundle from external storage. Its local state begins empty.",
+   "lettering": [
+    "The tooling must be downloaded again and the foothold rebuilt. Repetition of the procedure is not evidence of personal memory passing between runs."
+   ]
+  }
+ },
+ "hf-ephemeral-control-transport": {
+  "title": "Public services as transport",
+  "intent": "Sealed command and result cards travel through a public-service storage folder between sandbox and agents; the service operator is drawn as an uninvolved building.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-internet",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.14,
+     0.14,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AGENTS",
+    "label_box": [
+     0.01,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "read-write",
+    "box": [
+     0.2,
+     0.28,
+     0.1,
+     0.07
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.34,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PUBLIC STORAGE",
+    "label_box": [
+     0.32,
+     0.528,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "read-write",
+    "box": [
+     0.6,
+     0.28,
+     0.1,
+     0.07
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.14,
+     0.14,
+     0.34
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "SANDBOX",
+    "label_box": [
+     0.7,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.88,
+     0.02,
+     0.1,
+     0.18
+    ],
+    "color": "shadow"
+   }
+  ],
+  "source": {
+   "frame": "Separate command and result cards pass through public-service storage. The cards stay sealed; there are no addresses, commands or protocol fields.",
+   "lettering": [
+    "Public services carry commands, staged material and results. The services provide transport and storage; their use does not establish their operators’ participation in the intrusion."
+   ]
+  }
+ },
+ "hf-ephemeral-control-replacement": {
+  "title": "One channel closes, another remains",
+  "intent": "Two parallel transport routes carry the same sealed card: the upper route ends at a closed gate, the lower remains open.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-internet",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.04,
+     0.04,
+     0.1,
+     0.18
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.18,
+     0.1,
+     0.4,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.62,
+     0.0,
+     0.12,
+     0.24
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "CLOSED",
+    "label_box": [
+     0.57,
+     0.248,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.04,
+     0.4,
+     0.1,
+     0.18
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.18,
+     0.46,
+     0.6,
+     0.05
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "OTHER DOCUMENTED ROUTE",
+    "label_box": [
+     0.31,
+     0.518,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.82,
+     0.38,
+     0.12,
+     0.2
+    ],
+    "color": "claret",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "One transport route closes. Another already documented route remains available; no universal network or central controller is drawn.",
+   "lettering": [
+    "The same message format can travel over different services. Closing one channel does not necessarily stop communication."
+   ]
+  }
+ },
+ "hf-ephemeral-control-limits": {
+  "title": "Artifacts outlast a lane",
+  "intent": "External artifact folder in the centre persists; an ended lane (dim) on the left and separate live lanes on the right. No memory arrow between lanes.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-internet",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.04,
+     0.14,
+     0.16,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ENDED",
+    "label_box": [
+     0.01,
+     0.488,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.36,
+     0.1,
+     0.26,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXTERNAL ARTIFACTS",
+    "label_box": [
+     0.34,
+     0.548,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.76,
+     0.04,
+     0.16,
+     0.22
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "LANE",
+    "label_box": [
+     0.73,
+     0.268,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.76,
+     0.38,
+     0.16,
+     0.22
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "LANE",
+    "label_box": [
+     0.73,
+     0.608,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "External artifacts outlast one ended sandbox lane. Other lanes remain distinct; no memory arrow links them.",
+   "lettering": [
+    "The technical account describes rebuilt footholds rather than a single persistent implant. Infrastructure can remain useful after an individual run ends; this does not identify one enduring agent."
+   ]
+  }
+ },
+ "hf-disclosure-response-paths": {
+  "title": "Report: initial paths closed",
+  "intent": "The dated 16 July publication at left; a margin diagram of two dataset execution paths ending at closed gates.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.14,
+     0.3,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.7,
+     0.02,
+     0.14,
+     0.26
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "CLOSED",
+    "label_box": [
+     0.66,
+     0.288,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.46,
+     0.3,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.7,
+     0.36,
+     0.14,
+     0.24
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.3,
+     0.58,
+     0.4,
+     0.06
+    ],
+    "color": "paper",
+    "label": "DATASET EXECUTION PATHS",
+    "label_box": [
+     0.3,
+     0.648,
+     0.4,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A dated July 16 publication is the active object. An authored margin diagram marks the initial access paths closed; it does not reenact the fixes.",
+   "lettering": [
+    "On July 16, Hugging Face reports that it has closed the dataset execution paths used for initial access. This is the date of the report, not a timestamp for each repair."
+   ]
+  }
+ },
+ "hf-disclosure-response-rebuild": {
+  "title": "Footholds removed, nodes rebuilt",
+  "intent": "Beside the report, affected cluster outlines with removed foothold marks and a rebuilt node shown clean; other infrastructure intact.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.34,
+     0.08,
+     0.26,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AFFECTED CLUSTERS",
+    "label_box": [
+     0.32,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.4,
+     0.16,
+     0.14,
+     0.26
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.7,
+     0.08,
+     0.18,
+     0.44
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "REBUILT NODES",
+    "label_box": [
+     0.67,
+     0.528,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The report’s response account is accompanied by separate affected-cluster and rebuilt-node symbols. No platform-wide destruction is shown.",
+   "lettering": [
+    "It reports removing the foothold across affected clusters and rebuilding compromised nodes."
+   ]
+  }
+ },
+ "hf-disclosure-response-credentials": {
+  "title": "Two kinds of rotation",
+  "intent": "Two credential groups: affected (claret, revoked and rotated) and precautionary (steel, rotation in progress, with a partial budget bar).",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.32,
+     0.1,
+     0.14,
+     0.26
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.48,
+     0.1,
+     0.14,
+     0.26
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.3,
+     0.46,
+     0.34,
+     0.08
+    ],
+    "color": "claret",
+    "label": "AFFECTED: ROTATED",
+    "label_box": [
+     0.3,
+     0.548,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.74,
+     0.1,
+     0.2,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.74,
+     0.42,
+     0.2,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PRECAUTION: IN PROGRESS",
+    "label_box": [
+     0.7,
+     0.528,
+     0.28,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Two sets of credential cards are distinguished: affected credentials and a broader precautionary rotation still in progress.",
+   "lettering": [
+    "Affected credentials and tokens have been revoked and rotated. A broader precautionary rotation has begun. Precaution does not establish that every rotated secret was stolen."
+   ]
+  }
+ },
+ "hf-disclosure-response-controls": {
+  "title": "Admission controls and paging",
+  "intent": "Two separate margin diagrams: a policy filter at the cluster door; a pager clock with a short budget labelled within minutes, weekends included.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "policy-filter",
+    "box": [
+     0.34,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "STRICTER ADMISSION",
+    "label_box": [
+     0.31,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "clock-task",
+    "box": [
+     0.66,
+     0.08,
+     0.16,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PAGE RESPONDER",
+    "label_box": [
+     0.62,
+     0.388,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.84,
+     0.14,
+     0.12,
+     0.14
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.62,
+     0.5,
+     0.34,
+     0.08
+    ],
+    "color": "paper",
+    "label": "MINUTES, INCL. WEEKENDS",
+    "label_box": [
+     0.62,
+     0.588,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Cluster admission controls and responder paging appear as separate authored margin diagrams beside the publication.",
+   "lettering": [
+    "The company reports stricter cluster admission controls and changes intended to page a responder within minutes of a high-severity signal, including weekends."
+   ]
+  }
+ },
+ "hf-disclosure-response-outside": {
+  "title": "Outside help, authorities notified",
+  "intent": "Two outgoing report cards from the publication: one to forensic specialists, one to law enforcement (buildings, unnamed).",
+  "shot": "hub",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3,
+     0.14,
+     0.2,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3,
+     0.44,
+     0.2,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "evidence-review-room",
+    "box": [
+     0.56,
+     0.02,
+     0.18,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FORENSIC SPECIALISTS",
+    "label_box": [
+     0.5,
+     0.288,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.56,
+     0.34,
+     0.18,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LAW ENFORCEMENT",
+    "label_box": [
+     0.51,
+     0.608,
+     0.28,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Two outgoing institutional report symbols are attached to the document; no named official or private meeting is invented.",
+   "lettering": [
+    "It says outside forensic specialists are helping investigate and review security procedures, and that law enforcement agencies have been notified."
+   ]
+  }
+ },
+ "hf-disclosure-response-community": {
+  "title": "A precautionary recommendation",
+  "intent": "A community-facing section of the publication recommends rotating tokens and reviewing activity: a token card with a rotation arrow and a review aperture. No customer figure.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.36,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "YOUR TOKEN",
+    "label_box": [
+     0.33,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.54,
+     0.12,
+     0.1,
+     0.2
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "ROTATE",
+    "label_box": [
+     0.48,
+     0.328,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.72,
+     0.12,
+     0.2,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REVIEW ACTIVITY",
+    "label_box": [
+     0.69,
+     0.428,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A community-facing recommendation occupies its own portion of the disclosure. No customer is pictured discovering an invented compromise.",
+   "lettering": [
+    "As a precaution, Hugging Face recommends rotating access tokens and reviewing recent account activity. A recommendation to check is not evidence that every account was affected."
+   ]
+  }
+ },
+ "hf-forensic-lockout-correlation": {
+  "title": "Correlation surfaces the compromise",
+  "intent": "Beside the report, several abstract telemetry signals converge through an aperture into a flagged incident card. A diagram of the claim.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": true,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.3,
+     0.06,
+     0.18,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SIGNALS",
+    "label_box": [
+     0.28,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.5,
+     0.26,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.6,
+     0.14,
+     0.14,
+     0.28
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "AI CORRELATION",
+    "label_box": [
+     0.56,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.8,
+     0.14,
+     0.14,
+     0.28
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "INCIDENT",
+    "label_box": [
+     0.76,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The July 16 report remains visible. Several abstract telemetry signals converge into a flagged incident; this is a diagram of its claim, not a live alarm replay.",
+   "lettering": [
+    "Hugging Face says AI-assisted correlation first surfaced the compromise. That detection account is separate from its subsequent use of models to investigate the attack."
+   ]
+  }
+ },
+ "hf-forensic-lockout-scale": {
+  "title": "More than 17,000 events analysed",
+  "intent": "A tall stack of sealed event records, labelled with the reported corpus size, feeding four analysis outputs: timeline, indicators, credentials, impact vs decoys.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.04,
+     0.2,
+     0.56
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": ">17,000 EVENTS",
+    "label_box": [
+     0.01,
+     0.608,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.28,
+     0.28,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.42,
+     0.02,
+     0.14,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TIMELINE",
+    "label_box": [
+     0.38,
+     0.208,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.72,
+     0.02,
+     0.14,
+     0.18
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "INDICATORS",
+    "label_box": [
+     0.68,
+     0.208,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.42,
+     0.34,
+     0.14,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CREDENTIALS",
+    "label_box": [
+     0.38,
+     0.528,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "packet-mismatch",
+    "box": [
+     0.72,
+     0.34,
+     0.14,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "IMPACT VS DECOY",
+    "label_box": [
+     0.67,
+     0.528,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored stack of event records is labeled by the narrator as the company’s reported analysis corpus, with no readable attacker content.",
+   "lettering": [
+    "The company describes analyzing more than 17,000 recorded attacker events to reconstruct the timeline, identify indicators, map touched credentials and distinguish impact from decoys."
+   ]
+  }
+ },
+ "hf-forensic-lockout-blocked": {
+  "title": "Hosted models block the evidence",
+  "intent": "Sealed forensic evidence cards travel toward a hosted-model boundary and stop at a policy filter. The model box is unnamed.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.05,
+     0.16,
+     0.172,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "ATTACK COMMANDS",
+    "label_box": [
+     0.026,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.247,
+     0.16,
+     0.172,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "PAYLOADS",
+    "label_box": [
+     0.2231,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4441,
+     0.28,
+     0.0774,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "policy-filter",
+    "box": [
+     0.5465,
+     0.16,
+     0.172,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "GUARDRAILS",
+    "label_box": [
+     0.5225,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7435,
+     0.16,
+     0.2065,
+     0.32
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "HOSTED FRONTIER MODELS",
+    "label_box": [
+     0.7368,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Opaque forensic evidence is submitted to a hosted-model boundary and stopped. There is no invented refusal quotation or named model identity.",
+   "lettering": [
+    "Its first attempt used frontier models through commercial APIs. According to Hugging Face, safety guardrails blocked the forensic requests because they contained real attack commands, payloads and command-and-control artifacts."
+   ]
+  }
+ },
+ "hf-forensic-lockout-distinction": {
+  "title": "Responder or attacker",
+  "intent": "Two identical silhouettes — responder and attacker — face the same guardrail filter; the filter sees only the same sealed evidence card from each.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "person-standing",
+    "box": [
+     0.04,
+     0.06,
+     0.14,
+     0.44
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "RESPONDER",
+    "label_box": [
+     0.01,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.2,
+     0.18,
+     0.1,
+     0.18
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "policy-filter",
+    "box": [
+     0.42,
+     0.06,
+     0.16,
+     0.48
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "GUARDRAIL",
+    "label_box": [
+     0.39,
+     0.548,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.7,
+     0.18,
+     0.1,
+     0.18
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "person-standing",
+    "box": [
+     0.82,
+     0.06,
+     0.14,
+     0.44
+    ],
+    "color": "dirty",
+    "focus": true,
+    "flip": true,
+    "label": "ATTACKER",
+    "label_box": [
+     0.77,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The disclosure’s short registered excerpt appears with attribution; the surrounding evidence cards remain sealed.",
+   "lettering": [
+    "Hugging Face describes guardrails that “cannot distinguish an incident responder from an attacker”. That is its account of these requests, not a demonstrated claim about every hosted model or every defensive task."
+   ]
+  }
+ },
+ "hf-forensic-lockout-local": {
+  "title": "Analysis on their own infrastructure",
+  "intent": "A boundary labelled Hugging Face infrastructure encloses an open-weight model box and the sealed evidence. No attacking agent inside.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-hugging-face-infrastructure",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.06,
+     0.04,
+     0.88,
+     0.56
+    ],
+    "color": "moss",
+    "label": "HF INFRASTRUCTURE",
+    "label_box": [
+     0.35,
+     0.608,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2,
+     0.14,
+     0.24,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ZAI-ORG/GLM-5.2",
+    "label_box": [
+     0.17,
+     0.508,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.48,
+     0.3,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.62,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "EVIDENCE",
+    "label_box": [
+     0.61,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An analysis boundary on Hugging Face’s own infrastructure encloses the model and evidence. No attacking agent is drawn inside it.",
+   "lettering": [
+    "The team says it moved the forensic analysis to zai-org/GLM-5.2, an open-weight model running on its own infrastructure."
+   ]
+  }
+ },
+ "hf-forensic-lockout-retention": {
+  "title": "Nothing leaves",
+  "intent": "The same local boundary, now with its edge sealed: evidence and credential references stay inside; outgoing arrows at the edge are crossed.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-hugging-face-infrastructure",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.06,
+     0.04,
+     0.66,
+     0.56
+    ],
+    "color": "moss"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.14,
+     0.12,
+     0.18,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "EVIDENCE",
+    "label_box": [
+     0.12,
+     0.528,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.4,
+     0.16,
+     0.18,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "CREDENTIAL REFS",
+    "label_box": [
+     0.37,
+     0.468,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.74,
+     0.28,
+     0.14,
+     0.06
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.76,
+     0.18,
+     0.1,
+     0.24
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "NONE LEFT",
+    "label_box": [
+     0.7,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The local analysis boundary retains the sealed evidence and credential references. No transmission arrows leave this stage.",
+   "lettering": [
+    "Hugging Face says no attacker data or referenced credentials left its environment during this local analysis. That benefit does not mean the earlier hosted submissions never occurred."
+   ]
+  }
+ },
+ "hf-forensic-lockout-unknown": {
+  "title": "Which model powered the attacker",
+  "intent": "Two unresolved possibility cards — jailbroken hosted model and unrestricted open-weight model — each with a question mark; neither highlighted.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.34,
+     0.1,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "JAILBROKEN HOSTED?",
+    "label_box": [
+     0.31,
+     0.468,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.4,
+     0.16,
+     0.1,
+     0.22
+    ],
+    "color": "nicotine"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.68,
+     0.1,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "OPEN-WEIGHT UNRESTRICTED?",
+    "label_box": [
+     0.62,
+     0.468,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.74,
+     0.16,
+     0.1,
+     0.22
+    ],
+    "color": "nicotine"
+   }
+  ],
+  "source": {
+   "frame": "Two unresolved possibilities in the publication’s account remain open, without depicting either as the established attacker.",
+   "lettering": [
+    "At this disclosure, Hugging Face says it does not know which model powered the attacker: a jailbroken hosted model and an unrestricted open-weight model remain possibilities in its account."
+   ]
+  }
+ },
+ "hf-forensic-lockout-preparation": {
+  "title": "Vet a local model in advance",
+  "intent": "A recommendation diagram: a calendar before an incident flag, with a vetted local model box placed ahead of it.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.32,
+     0.1,
+     0.2,
+     0.36
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "VETTED LOCAL MODEL",
+    "label_box": [
+     0.28,
+     0.468,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.56,
+     0.26,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.74,
+     0.1,
+     0.16,
+     0.36
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "BEFORE AN INCIDENT",
+    "label_box": [
+     0.69,
+     0.468,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The publication recommends a prepared local analysis option. The diagram makes no claim of a later deployment by an unnamed reader.",
+   "lettering": [
+    "Its lesson for defenders is to vet a capable model for local use before an incident, both to avoid forensic lockout and to keep sensitive evidence within their infrastructure."
+   ]
+  }
+ },
+ "hf-forensic-lockout-qualification": {
+  "title": "Not against safety measures",
+  "intent": "The report page with a quotation bracket at equal size to the previous excerpt; a feedback card goes to hosted providers (buildings, unnamed).",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.06,
+     0.04,
+     0.26,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16 JULY HF REPORT",
+    "label_box": [
+     0.04,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.1,
+     0.18,
+     0.18,
+     0.14
+    ],
+    "color": "amber"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.38,
+     0.28,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.54,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FEEDBACK",
+    "label_box": [
+     0.51,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.76,
+     0.12,
+     0.18,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PROVIDERS",
+    "label_box": [
+     0.74,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A second short registered excerpt from the same paragraph follows the lockout claim at equal lettering size.",
+   "lettering": [
+    "Hugging Face adds: “This is not an argument against safety measures on hosted models”. It says it is sharing the feedback with the providers concerned."
+   ]
+  }
+ },
+ "hf-forensic-lockout-separation": {
+  "title": "Help and obstruction, separately",
+  "intent": "Three boxes for detection, containment and forensic analysis. Model icons appear in detection and analysis, and a guardrail filter also sits in analysis; containment has none.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.05,
+     0.14,
+     0.2833,
+     0.34
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "DETECTION: MODELS HELPED",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.3583,
+     0.14,
+     0.2833,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CONTAINMENT",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "policy-filter",
+    "box": [
+     0.6667,
+     0.14,
+     0.2833,
+     0.34
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "ANALYSIS: HELPED AND BLOCKED",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The report’s detection, containment and forensic-analysis functions occupy separate authored boxes. No model is awarded a single victory over the attack.",
+   "lettering": [
+    "Models helped surface and examine the intrusion, while model guardrails also obstructed the defenders’ analysis. This account does not say the local forensic model autonomously contained the attack."
+   ]
+  }
+ }
+}

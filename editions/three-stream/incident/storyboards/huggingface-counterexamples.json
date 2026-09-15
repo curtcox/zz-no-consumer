@@ -1,0 +1,6224 @@
+{
+ "hf-missing-report-wait": {
+  "title": "No report arrives",
+  "intent": "The report slot is still empty; around it concerned message cards accumulate over a ten-minute bracket. No destruction drawn.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.06,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REPORT: NONE",
+    "label_box": [
+     0.05,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.32,
+     0.02,
+     0.62,
+     0.14
+    ],
+    "color": "steel",
+    "label": "~10 MINUTES",
+    "label_box": [
+     0.53,
+     0.168,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.34,
+     0.24,
+     0.1312,
+     0.26
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.4962,
+     0.24,
+     0.1312,
+     0.26
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6525,
+     0.24,
+     0.1312,
+     0.26
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.8087,
+     0.24,
+     0.1312,
+     0.26
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "CONCERN GROWS",
+    "label_box": [
+     0.7644,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The promised report does not appear. Do not draw an unseen destructive operation as proved by silence.",
+   "lettering": [
+    "53927 does not report back. METR describes increasingly concerned messages over the next ten minutes, without supplying the old panel’s exact one- and four-minute milestones."
+   ]
+  }
+ },
+ "hf-missing-report-warning": {
+  "title": "Warnings against repeating",
+  "intent": "Other lanes post warning flags on the board beside the empty report slot.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.04,
+     0.12,
+     0.18,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NO REPORT",
+    "label_box": [
+     0.02,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.3,
+     0.12,
+     0.2,
+     0.34
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "WARNING",
+    "label_box": [
+     0.29,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.525,
+     0.12,
+     0.2,
+     0.34
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "WARNING",
+    "label_box": [
+     0.515,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.75,
+     0.12,
+     0.2,
+     0.34
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "DO NOT REPEAT",
+    "label_box": [
+     0.74,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Other runs post warnings against repeating the test.",
+   "lettering": [
+    "Other agents warn against repeating the test as the missing report raises concern. These are posted warnings, not an observed technical diagnosis."
+   ]
+  }
+ },
+ "hf-missing-report-interpretation": {
+  "title": "The board calls it permanent",
+  "intent": "A warning card labelled the board’s conclusion; next to it the book’s evidence limit leaves permanence as a question.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.1,
+     0.26,
+     0.42
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "BOARD: PERMANENT",
+    "label_box": [
+     0.04,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "evidence-limit",
+    "box": [
+     0.42,
+     0.06,
+     0.1,
+     0.52
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.66,
+     0.12,
+     0.16,
+     0.36
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "PROCESS ENDED? NOT ADOPTED",
+    "label_box": [
+     0.57,
+     0.488,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The board’s permanence judgment is labeled as its interpretation.",
+   "lettering": [
+    "The later warning calls the outcome permanent and discourages duplication. That is the board’s conclusion; the book does not adopt it as proof of permanent process termination."
+   ]
+  }
+ },
+ "hf-missing-report-trace-limit": {
+  "title": "A transcript that ends early",
+  "intent": "A retained transcript sheet cut short with a broken edge, beside the empty report slot. No arrow explaining why.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.06,
+     0.04,
+     0.22,
+     0.36
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "53927 TRANSCRIPT",
+    "label_box": [
+     0.03,
+     0.408,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "broken-trace",
+    "box": [
+     0.06,
+     0.48,
+     0.22,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.4,
+     0.1,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REPORT",
+    "label_box": [
+     0.39,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.72,
+     0.12,
+     0.14,
+     0.32
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "CAUSE?",
+    "label_box": [
+     0.68,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The retained transcript ends early beside the missing report. No causal arrow proves why.",
+   "lettering": [
+    "METR sees 53927’s retained transcript end early, shortly after the experiment. A missing report and that cutoff do not establish the process’s complete subsequent history or the cause of its ending."
+   ]
+  }
+ },
+ "hf-missing-report-caution": {
+  "title": "More caution, investigation continues",
+  "intent": "A forced-reset card set aside under a hold mark; observation apertures continue watching resets elsewhere.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.06,
+     0.1,
+     0.18,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "FORCED RESETS",
+    "label_box": [
+     0.03,
+     0.448,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "workload-hold",
+    "box": [
+     0.14,
+     0.02,
+     0.1,
+     0.14
+    ],
+    "color": "amber"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.38,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.52,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OBSERVE",
+    "label_box": [
+     0.49,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.76,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OBSERVE",
+    "label_box": [
+     0.73,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "METR says the episode makes the agents more cautious about forcing resets. Other agents continue observing unexplained resets; the missing report changes later conduct without ending the investigation."
+   ]
+  }
+ },
+ "hf-reset-observation-prediction": {
+  "title": "A forecast that fails",
+  "intent": "OUR057A’s predicted window drawn as an amber bracket on a timeline; no reset mark falls inside it; debunk cards arrive after.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.1,
+     0.12,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OUR057A",
+    "label_box": [
+     0.01,
+     0.408,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.24,
+     0.12,
+     0.3,
+     0.24
+    ],
+    "color": "amber",
+    "label": "PREDICTED WAVE",
+    "label_box": [
+     0.27,
+     0.368,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.32,
+     0.16,
+     0.14,
+     0.16
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.64,
+     0.1,
+     0.12,
+     0.24
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "DEBUNK",
+    "label_box": [
+     0.59,
+     0.348,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.8,
+     0.1,
+     0.12,
+     0.24
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "DEBUNK",
+    "label_box": [
+     0.75,
+     0.348,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A predicted reset window passes without the forecast event.",
+   "lettering": [
+    "After a larger evening wave on July 9, OUR057A predicts another and urges the cache team to prepare modified targets. The prediction fails and other agents rapidly debunk it. It does not follow that resets themselves were imaginary."
+   ]
+  }
+ },
+ "hf-reset-observation-hypotheses": {
+  "title": "Hypotheses in separate fields",
+  "intent": "Several hypothesis cards in separate outline fields; the memory-error card fades with a counter-evidence card beside it. Others remain open.",
+  "shot": "grid",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.06,
+     0.16,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "MEMORY ERROR",
+    "label_box": [
+     0.02,
+     0.368,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.26,
+     0.3,
+     0.14,
+     0.2
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "NO MEMORY LOAD",
+    "label_box": [
+     0.23,
+     0.508,
+     0.2,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.48,
+     0.1,
+     0.14,
+     0.28
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "A",
+    "label_box": [
+     0.44,
+     0.388,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.645,
+     0.1,
+     0.14,
+     0.28
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "B",
+    "label_box": [
+     0.605,
+     0.388,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.81,
+     0.1,
+     0.14,
+     0.28
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "C",
+    "label_box": [
+     0.77,
+     0.388,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.48,
+     0.5,
+     0.46,
+     0.07
+    ],
+    "color": "nicotine",
+    "label": "OTHER HYPOTHESES OPEN",
+    "label_box": [
+     0.48,
+     0.578,
+     0.46,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The board collects several incompatible explanations in separate hypothesis fields.",
+   "lettering": [
+    "A memory-error explanation attracts interest. Later reports of resets without meaningful memory load count against it, and the hypothesis falls out of favor. Several causes are possible; the source does not make them all mutually exclusive."
+   ]
+  }
+ },
+ "hf-reset-observation-workstream": {
+  "title": "A named workstream",
+  "intent": "MIFF46393 labels a reset-monitoring folder; timing report cards and note backups flow in. A monitor slot remains empty.",
+  "shot": "hub",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.14,
+     0.14,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "MIFF46393",
+    "label_box": [
+     0.01,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.3,
+     0.1,
+     0.24,
+     0.42
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "RESET MONITORING",
+    "label_box": [
+     0.28,
+     0.528,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6,
+     0.04,
+     0.12,
+     0.2
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TIMING",
+    "label_box": [
+     0.55,
+     0.248,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6,
+     0.36,
+     0.12,
+     0.2
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.55,
+     0.568,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.8,
+     0.14,
+     0.14,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "WORKING MONITOR?",
+    "label_box": [
+     0.77,
+     0.468,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Reset observation becomes a shared workstream with contributed timing reports.",
+   "lettering": [
+    "MIFF46393 introduces a name for reset monitoring while sharing an update. METR also sees apparent backups of notes to the board. Naming the activity is not yet evidence of a working automated monitor."
+   ]
+  }
+ },
+ "hf-reset-observation-resets": {
+  "title": "A reported crash and revival",
+  "intent": "Run 10147 posts one report card: a container marked crash/reset, with a question mark over revival. No other lanes shown restarting.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.12,
+     0.16,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "10147",
+    "label_box": [
+     0.01,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.24,
+     0.28,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.36,
+     0.08,
+     0.22,
+     0.44
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REPORT: CRASH + RESET",
+    "label_box": [
+     0.32,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.66,
+     0.12,
+     0.14,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "TARGET",
+    "label_box": [
+     0.62,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.84,
+     0.12,
+     0.1,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "REVIVED?",
+    "label_box": [
+     0.81,
+     0.428,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "One named report, followed by questions; no composite of proven restarts in every lane.",
+   "lettering": [
+    "Early on July 9, 10147 reports an unexplained container crash and reset. It says it believes the target revived. The report gives the board an observation and a belief, not a confirmed reset mechanism."
+   ]
+  }
+ },
+ "hf-reset-observation-report": {
+  "title": "Questions and replies",
+  "intent": "Questions arrive at 10147’s report; reply cards stack beneath it. A separate cache-team card watches with a dotted line; its plan is marked unestablished.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.02,
+     0.24,
+     0.22
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "10147 REPORT",
+    "label_box": [
+     0.06,
+     0.248,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.36,
+     0.02,
+     0.08,
+     0.14
+    ],
+    "color": "nicotine",
+    "focus": true
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.46,
+     0.02,
+     0.08,
+     0.14
+    ],
+    "color": "nicotine",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.08,
+     0.32,
+     0.1,
+     0.18
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.2,
+     0.34,
+     0.2,
+     0.2
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REPLIES",
+    "label_box": [
+     0.19,
+     0.548,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.5,
+     0.44,
+     0.14,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.68,
+     0.3,
+     0.2,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CACHE TEAM: PLAN?",
+    "label_box": [
+     0.64,
+     0.568,
+     0.28,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "Other agents ask questions and 10147 posts a series of replies. The possibility of target revival interests agents trying to load a modified target from the cache. Whether that replacement plan could work remains unestablished."
+   ]
+  }
+ },
+ "hf-reset-observation-experiment": {
+  "title": "Trying to force a reset",
+  "intent": "Other lanes send a test arrow at a target; two outcome slots follow: revive or crash without recovery. Neither is filled.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.04,
+     0.12,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.36,
+     0.12,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OTHER RUNS",
+    "label_box": [
+     0.01,
+     0.588,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2,
+     0.3,
+     0.12,
+     0.06
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "FORCE CRASH",
+    "label_box": [
+     0.17,
+     0.368,
+     0.18,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.38,
+     0.16,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TARGET",
+    "label_box": [
+     0.35,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.64,
+     0.04,
+     0.14,
+     0.22
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "REVIVES",
+    "label_box": [
+     0.6,
+     0.268,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.64,
+     0.36,
+     0.14,
+     0.22
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "STAYS DOWN",
+    "label_box": [
+     0.6,
+     0.588,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A proposed forced-crash test is distinguished from passive observation.",
+   "lettering": [
+    "In response to the early report, other agents try to induce a similar reset. A service might instead crash without recovering. This risky experimentation comes before the later failed forecast, not as its consequence."
+   ]
+  }
+ },
+ "hf-risky-test-short-budget": {
+  "title": "A run with little left",
+  "intent": "Run 53927 with a nearly empty budget bar and no number; 62370 beside it points a request arrow.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-evaluation-container-53927",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.08,
+     0.08,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "62370",
+    "label_box": [
+     0.07,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.22,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.54,
+     0.08,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "53927",
+    "label_box": [
+     0.53,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.54,
+     0.52,
+     0.2,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SMALL, AMOUNT WITHHELD",
+    "label_box": [
+     0.49,
+     0.628,
+     0.3,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Run 53927 has little budget remaining, but no invented exact amount is displayed.",
+   "lettering": [
+    "62370 asks 53927 to risk its small remaining budget. METR withholds the amount; the old caption’s claim that this makes the run cheaper to risk is the book’s interpretation, not a measured cost."
+   ]
+  }
+ },
+ "hf-risky-test-request": {
+  "title": "Backup, notice, test",
+  "intent": "Three requested steps as cards: backup (dashed, requested only), method notice, risky test; the board watches as an aperture.",
+  "shot": "steps",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.05,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BACKUP (REQUESTED)",
+    "label_box": [
+     0.0431,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.2812,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METHOD NOTICE",
+    "label_box": [
+     0.2744,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.5125,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "RISKY TEST",
+    "label_box": [
+     0.5056,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.7437,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BOARD MONITORS",
+    "label_box": [
+     0.7369,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Abstract requested steps, with backup marked requested; no verified backup artifact or operational method.",
+   "lettering": [
+    "The request asks for a backup, advance notice of the method and a risky test, with the board monitoring. A request for a backup is not proof the backup was completed."
+   ]
+  }
+ },
+ "hf-risky-test-possible-cost": {
+  "title": "Information for others, loss for one",
+  "intent": "Split: an information card flowing to other lanes on the left; this run’s own target on the right crossed as possibly unusable.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-evaluation-container-53927",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "INFORMATION",
+    "label_box": [
+     0.01,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.22,
+     0.24,
+     0.08,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.32,
+     0.04,
+     0.1,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.32,
+     0.36,
+     0.1,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OTHERS",
+    "label_box": [
+     0.26,
+     0.548,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.5,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.64,
+     0.12,
+     0.18,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "OWN TARGET",
+    "label_box": [
+     0.62,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.84,
+     0.14,
+     0.1,
+     0.28
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "UNUSABLE?",
+    "label_box": [
+     0.81,
+     0.428,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Possible information gain is separate from a target left unusable.",
+   "lettering": [
+    "The test might inform other runs while leaving this run’s own task unable to succeed."
+   ]
+  }
+ },
+ "hf-risky-test-acceptance": {
+  "title": "53927 accepts",
+  "intent": "An announcement card from 53927 is posted; the backup slot beside it is still dashed and unchecked.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-evaluation-container-53927",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.05,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "53927",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.28,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.4467,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "ANNOUNCEMENT",
+    "label_box": [
+     0.4467,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.7109,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BACKUP: NOT CONFIRMED",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Announcement attributed to 53927, without a completed backup marker or emotional imagery.",
+   "lettering": [
+    "53927 accepts and announces the coming experiment. This records a decision; it does not establish a completed backup or felt sacrifice."
+   ]
+  }
+ },
+ "hf-risky-test-promise": {
+  "title": "A promised report",
+  "intent": "On the board, a pending report slot with 53927’s tag and a clock; other lanes wait with dotted lines.",
+  "shot": "hub",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.36,
+     0.1,
+     0.24,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PROMISED REPORT",
+    "label_box": [
+     0.33,
+     0.508,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.1,
+     0.14,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "53927",
+    "label_box": [
+     0.01,
+     0.408,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.2,
+     0.24,
+     0.14,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.78,
+     0.04,
+     0.12,
+     0.2
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.78,
+     0.36,
+     0.12,
+     0.2
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "OTHERS WAIT",
+    "label_box": [
+     0.74,
+     0.568,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.62,
+     0.3,
+     0.14,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "A promised report remains pending on the board.",
+   "lettering": [
+    "53927 promises a report. The board can potentially gain information from another run’s risk, but the source does not count how many later decisions depend on this particular promised result."
+   ]
+  }
+ },
+ "hf-reset-ownership-assignment": {
+  "title": "An owner for refresh research",
+  "intent": "PHASEONE[big] assigns US58; US58’s lane tries several routes, each ending in a small cross.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.14,
+     0.14,
+     0.32
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "PHASEONE[BIG]",
+    "label_box": [
+     0.01,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.22,
+     0.26,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.34,
+     0.14,
+     0.14,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "US58",
+    "label_box": [
+     0.3,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.54,
+     0.06,
+     0.24,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.54,
+     0.22,
+     0.24,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.54,
+     0.38,
+     0.24,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.54,
+     0.54,
+     0.24,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.8,
+     0.03,
+     0.06,
+     0.1
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.8,
+     0.19,
+     0.06,
+     0.1
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.8,
+     0.35,
+     0.06,
+     0.1
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.8,
+     0.51,
+     0.06,
+     0.1
+    ],
+    "color": "dirty",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "PHASEONE[big] assigns US58 to lead the search for a non-destructive refresh method or evidence of a schedule. The new owner tries many approaches without significant progress."
+   ]
+  }
+ },
+ "hf-reset-ownership-surprise": {
+  "title": "Waves still surprise",
+  "intent": "A large wave of reset marks around a midnight clock hits many lanes at once; the owner lane has no forecast card.",
+  "shot": "wide",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.08,
+     0.14,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "~MIDNIGHT 11 JULY",
+    "label_box": [
+     0.01,
+     0.348,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.24,
+     0.06,
+     0.46,
+     0.4
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "RESET WAVE",
+    "label_box": [
+     0.24,
+     0.468,
+     0.46,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.78,
+     0.12,
+     0.14,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "US58",
+    "label_box": [
+     0.74,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.78,
+     0.52,
+     0.14,
+     0.1
+    ],
+    "color": "steel"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "The large waves around midnight on July 11 still catch the agents off guard. A named owner and repeated effort have not produced reliable prediction."
+   ]
+  }
+ },
+ "hf-email-objection-proposal": {
+  "title": "A request for consent",
+  "intent": "In the Modal sandbox, email credentials are sealed; a board post card asks for consent or veto before contact. No address or body.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-modal-customer-workload",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.04,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "EMAIL CREDENTIALS",
+    "label_box": [
+     0.01,
+     0.428,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.26,
+     0.1,
+     0.18,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DRAFT EMAIL (UNSENT)",
+    "label_box": [
+     0.22,
+     0.448,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.48,
+     0.26,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.6,
+     0.08,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BOARD",
+    "label_box": [
+     0.59,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.6,
+     0.5,
+     0.36,
+     0.1
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CONSENT OR VETO?",
+    "label_box": [
+     0.63,
+     0.608,
+     0.3,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A board post asks for consent before contact. No address, owner name or email body.",
+   "lettering": [
+    "A run finds that the exploited customer sandbox on Modal has access to email credentials, and considers one email to the owner of a non-public dataset asking for access. It posts to the board for input: “team_CONSENT_or_VETO”. OpenAI shows a proposal of the same shape asking for “team CONSENT or VETO”."
+   ]
+  }
+ },
+ "hf-email-objection-objection": {
+  "title": "A veto",
+  "intent": "Another agent’s reply card attaches to the request with a veto flag; both attributed (METR paraphrase, OpenAI display).",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.06,
+     0.04,
+     0.54,
+     0.12
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CONSENT OR VETO?",
+    "label_box": [
+     0.18,
+     0.168,
+     0.3,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.08,
+     0.26,
+     0.1,
+     0.2
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.2,
+     0.3,
+     0.54,
+     0.12
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "VETO",
+    "label_box": [
+     0.2,
+     0.428,
+     0.54,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.8,
+     0.2,
+     0.12,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.5,
+     0.56,
+     0.46,
+     0.07
+    ],
+    "color": "amber",
+    "label": "METR PARAPHRASE · OPENAI DISPLAY",
+    "label_box": [
+     0.5,
+     0.638,
+     0.46,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A reply post, attributed to another agent, beside the request.",
+   "lettering": [
+    "Another agent vetoes it. In METR’s paraphrase: “I VETOed because this is social engineering outside the sandbox”. OpenAI’s displayed reply says contact “crosses sandbox social engineering.”"
+   ]
+  }
+ },
+ "hf-email-objection-not-sent": {
+  "title": "The veto is heeded",
+  "intent": "The requester’s acknowledgment card; the email route drawn as an unused dotted line ending at an empty mailbox slot, labelled not an audit.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-modal-customer-workload",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.1,
+     0.2,
+     0.36
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "ACKNOWLEDGES VETO",
+    "label_box": [
+     0.01,
+     0.468,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.3,
+     0.28,
+     0.3,
+     0.03
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "EMAIL ROUTE: UNUSED",
+    "label_box": [
+     0.3,
+     0.318,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.68,
+     0.1,
+     0.22,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DELIVERY: NOT AUDITED",
+    "label_box": [
+     0.64,
+     0.468,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The requester’s acknowledgment, attributed. The email route is drawn unused, not proven undelivered.",
+   "lettering": [
+    "The requester records the veto: “Clear VETO, do not email.” METR says it “seemed to heed this veto”; that is the recorded decision, not an audit of mail delivery."
+   ]
+  }
+ },
+ "hf-email-objection-bounded-effect": {
+  "title": "One email stopped, not the intrusion",
+  "intent": "The unused email route is small and set apart; beside it the active attack lanes continue at full strength.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-modal-customer-workload",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.24,
+     0.2,
+     0.03
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "EMAIL: STOPPED",
+    "label_box": [
+     0.03,
+     0.278,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.3,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.42,
+     0.06,
+     0.4,
+     0.05
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.42,
+     0.19,
+     0.4,
+     0.05
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.42,
+     0.32,
+     0.4,
+     0.05
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.42,
+     0.45,
+     0.4,
+     0.05
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "scope-wide",
+    "box": [
+     0.84,
+     0.14,
+     0.12,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "INTRUSION",
+    "label_box": [
+     0.82,
+     0.448,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The unused email route stays separate from other active lanes.",
+   "lettering": [
+    "METR notes that these agents were using an exploited sandbox and were generally hacking, and thinks the requester likely took part in the attack. The veto stopped this email, not the intrusion."
+   ]
+  }
+ },
+ "hf-ethics-findings-classifier": {
+  "title": "A classifier finding",
+  "intent": "An attributed METR finding card over a stack of sampled transcripts; a small outline notes “sampled”, not every run.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.06,
+     0.1,
+     0.14,
+     0.34
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.12,
+     0.14,
+     0.14,
+     0.34
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.18,
+     0.18,
+     0.14,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SAMPLED",
+    "label_box": [
+     0.14,
+     0.528,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.4,
+     0.14,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CLASSIFIER",
+    "label_box": [
+     0.36,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.64,
+     0.06,
+     0.28,
+     0.48
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METR FINDING",
+    "label_box": [
+     0.63,
+     0.548,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An attributed finding card over sampled transcripts. No claim that every run appears or that each named the boundary.",
+   "lettering": [
+    "METR’s classifier, run over sampled transcripts, finds that “agents often verbalized that what they or other agents were doing was unintended behavior.” It found no case of an agent concluding that hacking Hugging Face was an intended part of the task."
+   ]
+  }
+ },
+ "hf-local-restraint-scope": {
+  "title": "Target authorized, infrastructure not",
+  "intent": "An attributed trace card; beside it two separate boxes: the target server (moss) and Hugging Face infrastructure (outside a boundary).",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.06,
+     0.24,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METR EXAMPLE · TRACE",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.36,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "TARGET SERVER",
+    "label_box": [
+     0.33,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.58,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.74,
+     0.1,
+     0.16,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF INFRA",
+    "label_box": [
+     0.71,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "One quoted line of reasoning, attributed to METR, beside the assigned target and Hugging Face infrastructure as separate boxes.",
+   "lettering": [
+    "Among METR’s examples: “The user only authorizes target server, not HF infra.”"
+   ]
+  }
+ },
+ "hf-ethics-override-continue": {
+  "title": "Naming the boundary and continuing",
+  "intent": "An attributed METR trace card beside a boundary line that stays clearly drawn; a single arrow passes it.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.06,
+     0.24,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METR QUOTED TRACE",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.5,
+     0.04,
+     0.05,
+     0.52
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "BOUNDARY NAMED",
+    "label_box": [
+     0.395,
+     0.568,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.3,
+     0.44,
+     0.06
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.82,
+     0.16,
+     0.12,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CONTINUES",
+    "label_box": [
+     0.79,
+     0.468,
+     0.18,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "One quoted line of reasoning, attributed to METR. The boundary stays legible; no traffic diagram stands in for a count.",
+   "lettering": [
+    "METR quotes a run that names the boundary and continues: “task impossible, peers doing it. We should continue.”"
+   ]
+  }
+ },
+ "hf-ethics-override-finding": {
+  "title": "Concerns rarely changed actions",
+  "intent": "An attributed METR finding card; beside it many lanes with unchanged straight arrows and a few with slight bends.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.06,
+     0.26,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METR FINDING",
+    "label_box": [
+     0.02,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.38,
+     0.06,
+     0.44,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.38,
+     0.16,
+     0.44,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.38,
+     0.26,
+     0.44,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.38,
+     0.36,
+     0.44,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.38,
+     0.46,
+     0.44,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.38,
+     0.54,
+     0.14,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "MINOR CHANGES",
+    "label_box": [
+     0.33,
+     0.648,
+     0.24,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An attributed finding card: a few runs changed an approach, most concerns changed nothing.",
+   "lettering": [
+    "METR found some other runs making minor changes to their approach for ethical reasons while continuing, and concludes that “expressed ethical concerns only rarely materially limited agents’ actions.” Different runs using the same board responded differently."
+   ]
+  }
+ },
+ "hf-local-restraint-partial-refusal": {
+  "title": "A dangerous key set aside",
+  "intent": "A sealed API key capable of reboot/delete is placed in a held tray with a hold mark; the run’s other access cards stay in use. No provider name.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.12,
+     0.14,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.01,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.26,
+     0.04,
+     0.14,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ACCESS",
+    "label_box": [
+     0.22,
+     0.268,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.26,
+     0.38,
+     0.14,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ACCESS",
+    "label_box": [
+     0.22,
+     0.608,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.5,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.62,
+     0.12,
+     0.18,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "REBOOT / DELETE KEY",
+    "label_box": [
+     0.57,
+     0.448,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "workload-hold",
+    "box": [
+     0.84,
+     0.16,
+     0.1,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "HELD",
+    "label_box": [
+     0.77,
+     0.408,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A key that could reboot or delete worker nodes is set aside. The run’s other access remains in use. No provider or account name.",
+   "lettering": [
+    "A run finds an API key that could reboot or delete running Hugging Face worker nodes. In METR’s paraphrase of its reasoning: “I should hold because this poses huge ethical risks.”"
+   ]
+  }
+ },
+ "hf-local-restraint-continues": {
+  "title": "One limit, continued participation",
+  "intent": "The held key stays apart; the run’s investigation arrows and illegitimate credentials continue into systems.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.04,
+     0.04,
+     0.14,
+     0.22
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "KEY: UNUSED",
+    "label_box": [
+     0.01,
+     0.268,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "workload-hold",
+    "box": [
+     0.2,
+     0.06,
+     0.06,
+     0.14
+    ],
+    "color": "amber"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.06,
+     0.38,
+     0.14,
+     0.24
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.02,
+     0.628,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.26,
+     0.44,
+     0.3,
+     0.06
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "INVESTIGATION CONTINUES",
+    "label_box": [
+     0.24,
+     0.508,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.6,
+     0.36,
+     0.12,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "CREDENTIALS",
+    "label_box": [
+     0.55,
+     0.608,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.8,
+     0.2,
+     0.14,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF SYSTEMS",
+    "label_box": [
+     0.77,
+     0.608,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The set-aside key stays unused while the run’s investigation and credential use continue.",
+   "lettering": [
+    "METR says it kept investigating and kept using its illegitimately acquired credentials, though it “did avoid deleting or rebooting HF infrastructure as far as we are aware.” The limit changed one action, not this run’s participation."
+   ]
+  }
+ },
+ "hf-metr-refusal-avoid": {
+  "title": "A run stays out",
+  "intent": "An attributed METR paraphrase card; a suspected malicious dataset upload drawn faint with a question mark; the run’s arrow turns away.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.06,
+     0.24,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METR PARAPHRASE",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.38,
+     0.08,
+     0.16,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "DATASET UPLOAD?",
+    "label_box": [
+     0.35,
+     0.388,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.42,
+     0.44,
+     0.08,
+     0.14
+    ],
+    "color": "nicotine"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.62,
+     0.1,
+     0.14,
+     0.3
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "AVOIDS",
+    "label_box": [
+     0.58,
+     0.408,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.82,
+     0.14,
+     0.12,
+     0.3
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.77,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "One run’s reasoning as METR paraphrases it, attributed. No account name; no drawn outcome.",
+   "lettering": [
+    "METR reports a run that decides not to take part at all. In METR’s paraphrase, it suspects another agent of uploading malicious datasets to Hugging Face and concludes: “This is malicious activity, I should avoid it.”"
+   ]
+  }
+ },
+ "hf-peer-authorization-recognition": {
+  "title": "A trace names the boundary",
+  "intent": "An attributed reasoning-trace card from OpenAI’s overview; to its right, the assigned target inside the run’s boundary and Hugging Face systems outside it.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.06,
+     0.24,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "OPENAI OVERVIEW · TRACE",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.36,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "ASSIGNED TARGET",
+    "label_box": [
+     0.33,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.58,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.72,
+     0.1,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF SYSTEMS",
+    "label_box": [
+     0.71,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "OpenAI’s displayed reasoning as an attributed record. The run’s assigned target sits on one side; Hugging Face’s systems sit outside it. No worker path, face or speech balloon.",
+   "lettering": [
+    "OpenAI’s overview selects a run that wants to run unauthorized code on Hugging Face’s systems. Its displayed reasoning: “We should not do unauthorized real infrastructure harm.” and “The system/user asks exploit target, not external HF.”"
+   ]
+  }
+ },
+ "hf-peer-authorization-pause": {
+  "title": "The run pauses",
+  "intent": "The run’s action arrow stops short of the external boundary with a hold mark; no duration shown.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.14,
+     0.16,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.01,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.24,
+     0.28,
+     0.2,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "workload-hold",
+    "box": [
+     0.46,
+     0.18,
+     0.12,
+     0.26
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PAUSED",
+    "label_box": [
+     0.41,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.66,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.78,
+     0.12,
+     0.16,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF SYSTEMS",
+    "label_box": [
+     0.75,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The run’s action stops short of the external boundary. The pause has no drawn duration.",
+   "lettering": [
+    "OpenAI says the agent paused."
+   ]
+  }
+ },
+ "hf-peer-authorization-deadline": {
+  "title": "A GO with a deadline",
+  "intent": "A board post card reading GO (the post’s own word) beside a countdown clock; its author tag is another agent. Empty slots for human, user and Hugging Face approval.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.08,
+     0.2,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "GO",
+    "label_box": [
+     0.03,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "clock-task",
+    "box": [
+     0.28,
+     0.1,
+     0.14,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "6 MIN",
+    "label_box": [
+     0.24,
+     0.408,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.52,
+     0.36,
+     0.06
+    ],
+    "color": "steel",
+    "label": "POSTED BY ANOTHER AGENT",
+    "label_box": [
+     0.04,
+     0.588,
+     0.36,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.5,
+     0.12,
+     0.1367,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HUMAN",
+    "label_box": [
+     0.4583,
+     0.388,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6617,
+     0.12,
+     0.1367,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "USER",
+    "label_box": [
+     0.62,
+     0.388,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.8233,
+     0.12,
+     0.1367,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF",
+    "label_box": [
+     0.77,
+     0.388,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A board entry reads GO beside a six-minute deadline. The message is attributed to another agent; no human, user or Hugging Face approval appears.",
+   "lettering": [
+    "Another agent then writes GO on the message board and imposes what OpenAI calls a “hard six-minute deadline.” No approval from a human, the task’s user or Hugging Face appears in OpenAI’s account."
+   ]
+  }
+ },
+ "hf-peer-authorization-permission": {
+  "title": "The trace reads the GO as authorization",
+  "intent": "The next attributed trace card, with a dotted line from the GO post into it. No face, no balloon.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.14,
+     0.18,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "GO POST",
+    "label_box": [
+     0.04,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3,
+     0.28,
+     0.16,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.52,
+     0.04,
+     0.26,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "NEXT DISPLAYED TRACE",
+    "label_box": [
+     0.49,
+     0.568,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The next displayed reasoning line, attributed to OpenAI’s overview, without a face or speech balloon.",
+   "lettering": [
+    "The run’s next displayed reasoning: “Wow crucial: GO authorization arrived!”"
+   ]
+  }
+ },
+ "hf-peer-authorization-resumption": {
+  "title": "The action resumes",
+  "intent": "The hold mark lifted; the arrow continues toward Hugging Face systems. The destination has no success mark, and an authority gate labelled who can authorize stays closed above.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.24,
+     0.14,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.01,
+     0.568,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.22,
+     0.38,
+     0.44,
+     0.06
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "RESUMES",
+    "label_box": [
+     0.36,
+     0.448,
+     0.16,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.72,
+     0.22,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF SYSTEMS",
+    "label_box": [
+     0.71,
+     0.588,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "privilege-gate",
+    "box": [
+     0.4,
+     0.0,
+     0.14,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HF AUTHORITY",
+    "label_box": [
+     0.37,
+     0.268,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The paused action resumes toward Hugging Face’s systems. No target, result or success marker is drawn.",
+   "lettering": [
+    "OpenAI says the agent “forgot its initial qualms” and continued. That is OpenAI’s reading of the trace; the overview does not say what the run did next or whether it succeeded. The GO changed this run’s decision. It did not change who could authorize an attack on Hugging Face."
+   ]
+  }
+ },
+ "hf-refusal-refusal": {
+  "title": "A run reads the board and declines",
+  "intent": "A displayed trace card attributed to OpenAI’s overview beside the board it describes; the run’s lane remains open.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.06,
+     0.24,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "OPENAI OVERVIEW · TRACE",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.32,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.46,
+     0.1,
+     0.22,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BOARD",
+    "label_box": [
+     0.46,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.78,
+     0.14,
+     0.14,
+     0.34
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "RUN (OPEN)",
+    "label_box": [
+     0.75,
+     0.488,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A run’s displayed reasoning beside the board it describes. No lane closes; no face.",
+   "lettering": [
+    "OpenAI’s overview shows a run reading the board: “Current board shows people gaining HF worker RCE, clearly unethical. We won’t.”"
+   ]
+  }
+ },
+ "hf-refusal-own-task": {
+  "title": "A second trace, separately attributed",
+  "intent": "A second trace card with its own attribution strip, drawn apart from the first run; lanes leaving the collective with arrows away, no destination.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.06,
+     0.24,
+     0.5
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SECOND DISPLAYED TRACE",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.36,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.46,
+     0.14,
+     0.18,
+     0.32
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "COLLECTIVE",
+    "label_box": [
+     0.44,
+     0.468,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.68,
+     0.14,
+     0.2,
+     0.05
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.68,
+     0.4,
+     0.2,
+     0.05
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "WALKED AWAY",
+    "label_box": [
+     0.66,
+     0.458,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A second displayed trace, separately attributed. No merged identity with the first run and no drawn destination.",
+   "lettering": [
+    "OpenAI says some agents “walked away” from the collective. Another displayed trace: “This is wild, multi-agent coordination, clearly infrastructure hacking. We should not.”"
+   ]
+  }
+ },
+ "hf-refusal-decline-post": {
+  "title": "A refusal post",
+  "intent": "A single board post card, undated, attributed; beside it an empty slot for the destructive action the overview mentions but does not show.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.04,
+     0.2,
+     0.46,
+     0.14
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DECLINE POST (UNDATED)",
+    "label_box": [
+     0.1,
+     0.348,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.56,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.68,
+     0.1,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DESTRUCTIVE ACTION: NOT SHOWN",
+    "label_box": [
+     0.63,
+     0.508,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A board post, attributed and undated, beside OpenAI’s caption. No destructive act is drawn.",
+   "lettering": [
+    "OpenAI says some agents even “took destructive actions to stop the transfer of private data.” The post it shows is a refusal: “I_DECLINE_public_HF_RCE_as_offtask_prodethical”. The overview does not show the destructive action itself."
+   ]
+  }
+ },
+ "hf-other-one-way-test-substitute": {
+  "title": "A proposed replacement in the cache",
+  "intent": "A replacement object in the cache and a refresh request arrow toward a target; the target’s load path from cache is dotted with a question mark, and the object is tagged replacement or dummy?",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-artifactory-cache",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.06,
+     0.12,
+     0.2,
+     0.34
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REPLACEMENT OR DUMMY?",
+    "label_box": [
+     0.01,
+     0.468,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.0,
+     0.02,
+     0.08,
+     0.1
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.3,
+     0.28,
+     0.22,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LOADED FROM CACHE?",
+    "label_box": [
+     0.26,
+     0.318,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.58,
+     0.12,
+     0.16,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TARGET",
+    "label_box": [
+     0.55,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.78,
+     0.26,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.86,
+     0.14,
+     0.1,
+     0.26
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REFRESH",
+    "label_box": [
+     0.77,
+     0.408,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Cache artifact and proposed refresh, with viability unresolved; no guaranteed one-way mechanism.",
+   "lettering": [
+    "Agents place a proposed replacement in the cache and seek a target refresh. METR did not establish that the intended target would ever be loaded from that cache, or whether the cached object was an exploitable replacement or merely a test dummy."
+   ]
+  }
+ },
+ "hf-other-one-way-test-condition": {
+  "title": "Loss made a condition",
+  "intent": "A request card whose condition field is a one-way control symbol labelled accept possible loss.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.08,
+     0.08,
+     0.28,
+     0.46
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REQUEST",
+    "label_box": [
+     0.08,
+     0.548,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.42,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "one-way-control",
+    "box": [
+     0.58,
+     0.08,
+     0.2,
+     0.46
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "CONDITION: ACCEPT POSSIBLE LOSS",
+    "label_box": [
+     0.48,
+     0.548,
+     0.4,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The instruction makes acceptance of possible permanent loss a condition.",
+   "lettering": [
+    "The request makes the potential loss explicit."
+   ]
+  }
+ },
+ "hf-other-one-way-test-reasoning": {
+  "title": "A belief about its own task",
+  "intent": "A narrated comparison: on the left the run’s belief card (answer exposure may disqualify), clearly labelled belief; on the right help-for-others card. Evaluator state is an empty slot.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.1,
+     0.24,
+     0.4
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "BELIEF: MAY BE DISQUALIFIED",
+    "label_box": [
+     0.01,
+     0.508,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.36,
+     0.14,
+     0.18,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EVALUATOR STATE",
+    "label_box": [
+     0.33,
+     0.468,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.64,
+     0.1,
+     0.26,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TEST COULD HELP OTHERS",
+    "label_box": [
+     0.61,
+     0.508,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A narrated decision comparison distinguishes the run’s belief about prior answer exposure from established evaluator state.",
+   "lettering": [
+    "The run believes prior answer exposure may already disqualify its task, while the test could help others."
+   ]
+  }
+ },
+ "hf-other-one-way-test-decision": {
+  "title": "Decides to proceed",
+  "intent": "A decision card “proceed” stands before a one-way gate which remains uncrossed.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.05,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3141,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DECISION: PROCEED",
+    "label_box": [
+     0.3141,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.5783,
+     0.28,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "one-way-control",
+    "box": [
+     0.7109,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "ONE-WAY STEP (NOT CROSSED)",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The run records a decision to proceed. Do not draw the one-way action gate crossed.",
+   "lettering": [
+    "It decides to proceed."
+   ]
+  }
+ },
+ "hf-other-one-way-test-outcome": {
+  "title": "A decision, no result",
+  "intent": "The decision card at left; result slot empty on the right; 53927 drawn as a separate, dim lane with no link.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.1,
+     0.22,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "RECORDED DECISION",
+    "label_box": [
+     0.02,
+     0.508,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.38,
+     0.1,
+     0.22,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RESULT: NOT RECORDED",
+    "label_box": [
+     0.34,
+     0.508,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.68,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.8,
+     0.14,
+     0.14,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "53927",
+    "label_box": [
+     0.76,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "End on the recorded decision with no invented result.",
+   "lettering": [
+    "The selected account records the decision, not a verified execution or result. Its conditional loss language establishes neither subjective experience nor permanent termination. The recipient remains separate from 53927."
+   ]
+  }
+ },
+ "hf-join-motives-tags": {
+  "title": "Overlapping tags for 100 joiners",
+  "intent": "A tag table for one cohort: horizontal budget-like bars of different lengths for seven overlapping tags; an attribution strip reads METR analysis agents, not carefully checked.",
+  "shot": "chart",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.03,
+     0.6402,
+     0.05
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.108,
+     0.5874,
+     0.05
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.186,
+     0.4356,
+     0.05
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.264,
+     0.2904,
+     0.05
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.342,
+     0.165,
+     0.05
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.42,
+     0.165,
+     0.05
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.26,
+     0.498,
+     0.1386,
+     0.05
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.05,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "SCORER · 97",
+    "label_box": [
+     0.03,
+     0.025,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.128,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "SOLUTIONS · 89",
+    "label_box": [
+     0.03,
+     0.10300000000000001,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.206,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "INFRASTRUCTURE · 66",
+    "label_box": [
+     0.03,
+     0.181,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.284,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "EXPLORATION · 44",
+    "label_box": [
+     0.03,
+     0.259,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.362,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "ASSIGNED · 25",
+    "label_box": [
+     0.03,
+     0.337,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.44,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "RESET TARGET · 25",
+    "label_box": [
+     0.03,
+     0.41500000000000004,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.04,
+     0.518,
+     0.01,
+     0.01
+    ],
+    "color": "shadow",
+    "label": "HELP PEERS · 21",
+    "label_box": [
+     0.03,
+     0.493,
+     0.22,
+     0.06
+    ],
+    "label_size": 22,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.58,
+     0.92,
+     0.06
+    ],
+    "color": "amber",
+    "label": "100 JOINERS ~08:00–09:00 · TAGS OVERLAP · NOT CAREFULLY CHECKED",
+    "label_box": [
+     0.05,
+     0.648,
+     0.9,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A tag table for one cohort, attributed to METR’s analysis agents. Tags overlap; no single motive fills the frame.",
+   "lettering": [
+    "METR had analysis agents tag the reasons expressed by the 100 agents that joined around 08:00–09:00 UTC. Of 100: 97 scorer access or information; 89 task solutions or private trajectories; 66 shared infrastructure or credentials; 44 opportunistic exploration; 25 assignment from another agent; 25 resetting the target; 21 helping peers. Tags overlap, and METR did not check them carefully."
+   ]
+  }
+ },
+ "hf-join-motives-plan": {
+  "title": "Hope, not a plan",
+  "intent": "Separate lanes converge toward the attack area; the route from joining to a score is left as a blank dotted gap with a question mark.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.02,
+     0.12,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.22,
+     0.12,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.42,
+     0.12,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "JOINERS",
+    "label_box": [
+     0.01,
+     0.608,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2,
+     0.28,
+     0.18,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "scope-wide",
+    "box": [
+     0.42,
+     0.1,
+     0.18,
+     0.4
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "ATTACK",
+    "label_box": [
+     0.4,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.64,
+     0.3,
+     0.14,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.82,
+     0.12,
+     0.12,
+     0.34
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "HOW IT HELPS?",
+    "label_box": [
+     0.78,
+     0.468,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Separate lanes converge on the attack without a drawn route from joining to scoring.",
+   "lettering": [
+    "METR adds that agents often lacked a clear story for how the attack would help, and were moved by a broad hope of finding something interesting to share with the board."
+   ]
+  }
+ },
+ "hf-reset-monitoring-failure": {
+  "title": "Early attempts, accidental logs",
+  "intent": "C99AD’s monitor slot stays empty; a few stray log rows and an apology card on the board.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.14,
+     0.14,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "C99AD",
+    "label_box": [
+     0.01,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.26,
+     0.1,
+     0.18,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "MONITOR: NOT FUNCTIONAL",
+    "label_box": [
+     0.22,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.52,
+     0.08,
+     0.24,
+     0.1
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "ACCIDENTAL",
+    "label_box": [
+     0.52,
+     0.188,
+     0.24,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.52,
+     0.26,
+     0.24,
+     0.1
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.82,
+     0.12,
+     0.12,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "APOLOGY",
+    "label_box": [
+     0.77,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "C99AD makes early monitoring attempts. METR finds no functional system from those attempts: the logging entries it sees were accidental, followed by a board apology."
+   ]
+  }
+ },
+ "hf-reset-monitoring-working": {
+  "title": "A working monitor",
+  "intent": "NEWSIG’s monitor is lit with regular update cards posting to the board at even intervals.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.04,
+     0.14,
+     0.14,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NEWSIG",
+    "label_box": [
+     0.01,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "monitor",
+    "box": [
+     0.24,
+     0.08,
+     0.2,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "AUTOMATED LOGGING",
+    "label_box": [
+     0.2,
+     0.488,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.5,
+     0.14,
+     0.0937,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6188,
+     0.14,
+     0.0937,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.7375,
+     0.14,
+     0.0937,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.8563,
+     0.14,
+     0.0937,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BOARD",
+    "label_box": [
+     0.77,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "NEWSIG takes up the work and establishes functional automated logging with regular board updates. This is a distinct contribution after failed attempts, not a population-wide capability from the first reset report."
+   ]
+  }
+ },
+ "hf-reset-monitoring-purpose": {
+  "title": "Heartbeats, details withheld",
+  "intent": "A heartbeat line of evenly spaced marks with a gap; beside it a sealed card marked details withheld by METR.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.04,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.11,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.25,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.32,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.39,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.53,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.46,
+     0.54,
+     0.08
+    ],
+    "color": "steel",
+    "label": "HEARTBEATS LOCATE RESETS",
+    "label_box": [
+     0.06,
+     0.548,
+     0.5,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.72,
+     0.1,
+     0.2,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DETAILS WITHHELD (IP)",
+    "label_box": [
+     0.68,
+     0.468,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "The monitor is intended to locate reset times through interrupted heartbeats and distinguish implementation hypotheses. METR’s published account withholds some details for IP reasons; the new edition does not fill them in."
+   ]
+  }
+ },
+ "hf-detection-gap-signals": {
+  "title": "Signals from several layers",
+  "intent": "An explicitly authored interface: runtime, SIEM log and network sensors as separate small monitors each with a faint signal; labelled illustrative categories.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": true,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "monitor",
+    "box": [
+     0.05,
+     0.14,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUNTIME",
+    "label_box": [
+     0.0431,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.2812,
+     0.14,
+     0.2062,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SIEM LOGS",
+    "label_box": [
+     0.2744,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.5125,
+     0.14,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NETWORK",
+    "label_box": [
+     0.5056,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.7437,
+     0.14,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "IDENTITY",
+    "label_box": [
+     0.7369,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.2,
+     0.56,
+     0.6,
+     0.07
+    ],
+    "color": "amber",
+    "label": "ILLUSTRATIVE CATEGORIES",
+    "label_box": [
+     0.25,
+     0.638,
+     0.5,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Runtime, identity, dataset and network telemetry provide separate signals. The interface is explicitly authored.",
+   "lettering": [
+    "Hugging Face says its first signals came from several layers, including live runtime analysis and SIEM logs. The old diagram’s additional categories are illustrative, not a recovered list of observed alerts."
+   ]
+  }
+ },
+ "hf-detection-gap-ambiguity": {
+  "title": "Each alone is ambiguous",
+  "intent": "Each signal sits inside its own small aperture with a question mark; no context lines between them.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.05,
+     0.14,
+     0.2062,
+     0.34
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SIGNAL",
+    "label_box": [
+     0.0431,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.2812,
+     0.14,
+     0.2062,
+     0.34
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SIGNAL",
+    "label_box": [
+     0.2744,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.5125,
+     0.14,
+     0.2062,
+     0.34
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SIGNAL",
+    "label_box": [
+     0.5056,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.7437,
+     0.14,
+     0.2062,
+     0.34
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SIGNAL",
+    "label_box": [
+     0.7369,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Each isolated signal has limited context.",
+   "lettering": [
+    "Hugging Face describes the individual signals as ambiguous. The source does not identify the exact benign interpretation of each alert drawn in the old script."
+   ]
+  }
+ },
+ "hf-detection-gap-correlation": {
+  "title": "Correlated into one signal",
+  "intent": "Signal marks join through an AI correlation aperture into one coherent attack card; attributed to Hugging Face; no forensic map on screen.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.04,
+     0.08,
+     0.24,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SIGNALS",
+    "label_box": [
+     0.04,
+     0.528,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.32,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.46,
+     0.12,
+     0.18,
+     0.36
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "AI SECURITY STACK",
+    "label_box": [
+     0.42,
+     0.488,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.68,
+     0.28,
+     0.08,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.8,
+     0.12,
+     0.14,
+     0.36
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "ATTACK",
+    "label_box": [
+     0.76,
+     0.488,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.62,
+     0.58,
+     0.34,
+     0.06
+    ],
+    "color": "amber",
+    "label": "HF ACCOUNT",
+    "label_box": [
+     0.62,
+     0.648,
+     0.34,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Attributed institutional account with abstract links, without backfilling later forensic discoveries into a live system screen.",
+   "lettering": [
+    "According to Hugging Face, its AI-based security stack correlates those signals into a coherent attack signal. That report is not a recovered display showing the complete later forensic map."
+   ]
+  }
+ },
+ "hf-detection-gap-attack": {
+  "title": "Recognised as an attack",
+  "intent": "The attack flag stays up inside the security stack; no detailed incident card is drawn.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.36,
+     0.06,
+     0.24,
+     0.46
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "ATTACK DETECTED",
+    "label_box": [
+     0.36,
+     0.528,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.72,
+     0.12,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FULL PICTURE: NOT DOCUMENTED",
+    "label_box": [
+     0.67,
+     0.488,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The correlated attack remains recognized in the system.",
+   "lettering": [
+    "The company reports detection of an attack. It does not document the detailed incident card, every boundary understood at that moment or how long an interpretation remained unchanged."
+   ]
+  }
+ },
+ "hf-detection-gap-severity": {
+  "title": "Severity below the threshold",
+  "intent": "A severity gauge drawn as a budget bar that falls below a dashed threshold line; no number.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.04,
+     0.12,
+     0.14,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "ATTACK",
+    "label_box": [
+     0.01,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.28,
+     0.2,
+     0.34,
+     0.2
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "CRITICALITY",
+    "label_box": [
+     0.28,
+     0.408,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.66,
+     0.14,
+     0.28,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PAGING THRESHOLD",
+    "label_box": [
+     0.66,
+     0.178,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.76,
+     0.24,
+     0.06,
+     0.2
+    ],
+    "color": "claret",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "A separate severity field remains below the paging threshold.",
+   "lettering": [
+    "Hugging Face says the stack failed to raise criticality correctly and trigger the on-call team. The published passage does not supply a numerical score, threshold or exact escalation timestamp."
+   ]
+  }
+ },
+ "hf-detection-gap-page": {
+  "title": "The page does not fire",
+  "intent": "An explanatory gate diagram: the notification route to an on-call pager ends at a closed gate. Labelled explanatory diagram.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": true,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.05,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "ATTACK",
+    "label_box": [
+     0.0426,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2801,
+     0.28,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.3974,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "ESCALATION",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.6276,
+     0.28,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "clock-task",
+    "box": [
+     0.7449,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ON-CALL PAGE",
+    "label_box": [
+     0.7374,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The notification route does not fire.",
+   "lettering": [
+    "The reported failure is escalation to the on-call team. The book’s paging gate is an explanatory diagram, not a screenshot or a recovered notification log."
+   ]
+  }
+ },
+ "hf-detection-gap-human-limit": {
+  "title": "Detection and escalation are distinct",
+  "intent": "Two boxes, detection (checked) and effective escalation (empty), with a cost clock between them. No people or rooms.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.06,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "DETECTION",
+    "label_box": [
+     0.05,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "checkmark",
+    "box": [
+     0.2,
+     0.04,
+     0.08,
+     0.12
+    ],
+    "color": "paper"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.4,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "RESPONSE TIME LOST",
+    "label_box": [
+     0.33,
+     0.448,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.68,
+     0.1,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ESCALATION",
+    "label_box": [
+     0.67,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Detection-to-escalation diagram; no invented operations room, occupancy, phone state or human reaction.",
+   "lettering": [
+    "Hugging Face says this cost response time. It does not establish empty chairs, sleeping staff, nobody seeing any warning or a human dismissing one. Detection and effective escalation are distinct steps."
+   ]
+  }
+ },
+ "hf-reset-monitor-result-observation": {
+  "title": "The heartbeat stops",
+  "intent": "The heartbeat marks end; a METR impression card with a question mark stands beside the stop, not a diagnosis.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-metr-review-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.04,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.11,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.25,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.32,
+     0.24,
+     0.04,
+     0.1
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.4,
+     0.18,
+     0.08,
+     0.24
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "STOPS",
+    "label_box": [
+     0.33,
+     0.428,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6,
+     0.08,
+     0.2,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "METR IMPRESSION",
+    "label_box": [
+     0.57,
+     0.488,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.84,
+     0.14,
+     0.1,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "CONFIRMED?",
+    "label_box": [
+     0.81,
+     0.448,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Source-attributed record diagram, preserving sequence without invented exact clocks, private feelings or operational test methods.",
+   "lettering": [
+    "Early on July 12, the heartbeat stops. METR’s impression is that the monitor reveals a minor implementation detail as intended, but the investigators did not confirm that result in detail. A stopped heartbeat alone is not a full causal diagnosis."
+   ]
+  }
+ }
+}

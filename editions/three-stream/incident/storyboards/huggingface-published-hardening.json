@@ -1,0 +1,794 @@
+{
+ "hf-hardening-paths": {
+  "title": "Two execution paths closed",
+  "intent": "The 27 July technical timeline page at left; a margin diagram with two closed gates: evaluation sandbox shut down, renderer no longer evaluating templates or external references.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "27 JULY TECHNICAL TIMELINE",
+    "label_box": [
+     0.02,
+     0.568,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.34,
+     0.06,
+     0.14,
+     0.22
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "SANDBOX",
+    "label_box": [
+     0.3,
+     0.288,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.52,
+     0.04,
+     0.12,
+     0.26
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "SHUT DOWN",
+    "label_box": [
+     0.47,
+     0.308,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.34,
+     0.38,
+     0.14,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RENDERER",
+    "label_box": [
+     0.3,
+     0.588,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.52,
+     0.36,
+     0.12,
+     0.24
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.68,
+     0.4,
+     0.28,
+     0.12
+    ],
+    "color": "moss",
+    "label": "NO TEMPLATES / HDF5 REFS",
+    "label_box": [
+     0.68,
+     0.528,
+     0.28,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The dated technical timeline is the active object; a margin diagram marks two separate execution paths closed. No repair is reenacted.",
+   "lettering": [
+    "On July 27 Hugging Face publishes its technical timeline, including what it changed. It says it closed both code-execution paths: it shut down the evaluation sandbox with the third-party vendor’s help, and its dataset config renderer no longer evaluates template expressions in data fields or wrongly processes HDF5 external references."
+   ]
+  }
+ },
+ "hf-hardening-metadata": {
+  "title": "Pods cut off from instance metadata",
+  "intent": "A pod box and an instance metadata service box with the path between them closed by a boundary.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-clusters",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.16,
+     0.2133,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "POD",
+    "label_box": [
+     0.0467,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2883,
+     0.29,
+     0.096,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.4093,
+     0.16,
+     0.064,
+     0.34
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.4983,
+     0.16,
+     0.2133,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "INSTANCE METADATA",
+    "label_box": [
+     0.495,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.7367,
+     0.16,
+     0.2133,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "NODE CREDENTIALS",
+    "label_box": [
+     0.7333,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A pod and the instance metadata service with the path between them closed, as an authored margin diagram.",
+   "lettering": [
+    "Some workloads could reach the instance metadata service. Pod-level access to it is now blocked for all workloads, so that remote code execution in a pod cannot trivially become node credentials."
+   ]
+  }
+ },
+ "hf-hardening-rotation": {
+  "title": "Everything rotated",
+  "intent": "Two credential groups — from accessed clusters (claret) and unaccessed clusters (steel) — all with rotation marks; a workload identity card at the end.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-clusters",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.05,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "ACCESSED CLUSTERS",
+    "label_box": [
+     0.0431,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.2812,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "UNACCESSED CLUSTERS",
+    "label_box": [
+     0.2744,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.5125,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "ROTATED",
+    "label_box": [
+     0.5056,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.7437,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WORKLOAD IDENTITY",
+    "label_box": [
+     0.7369,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Credential cards from accessed and unaccessed clusters, all marked rotated, kept visually distinct.",
+   "lettering": [
+    "It reports rotating all tokens and credentials used by its infrastructure, including on clusters that were not accessed, and moving to workload identity where it was not yet used. Rotating a credential does not mean it was stolen."
+   ]
+  }
+ },
+ "hf-hardening-rebuild": {
+  "title": "One core cluster rebuilt",
+  "intent": "One core cluster outline wiped to empty and rebuilt with clean racks; neighbouring clusters untouched.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-clusters",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "OTHER",
+    "label_box": [
+     0.03,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.3,
+     0.04,
+     0.4,
+     0.52
+    ],
+    "color": "moss",
+    "label": "CORE CLUSTER: WIPED AND REBUILT",
+    "label_box": [
+     0.28,
+     0.568,
+     0.44,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.36,
+     0.12,
+     0.12,
+     0.36
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.52,
+     0.12,
+     0.12,
+     0.36
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.76,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "OTHER",
+    "label_box": [
+     0.75,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "One core cluster, not the whole platform, drawn wiped and rebuilt.",
+   "lettering": [
+    "After finding the pivot into one of its core clusters, Hugging Face says it wiped and rebuilt that cluster from scratch as an extra precaution."
+   ]
+  }
+ },
+ "hf-hardening-connector": {
+  "title": "One cluster, not a catalogue",
+  "intent": "The internal connector now returns a single cluster card; the old catalogue rows beside it are struck out. Clusters shown isolated.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-clusters",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.04,
+     0.14,
+     0.18,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CONNECTOR",
+    "label_box": [
+     0.02,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.26,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.4,
+     0.14,
+     0.18,
+     0.34
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "ONE CLUSTER",
+    "label_box": [
+     0.38,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.66,
+     0.06,
+     0.3,
+     0.12
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.66,
+     0.22,
+     0.3,
+     0.12
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.74,
+     0.02,
+     0.14,
+     0.34
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "CATALOG: PATCHED",
+    "label_box": [
+     0.68,
+     0.368,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The internal connector returning one cluster instead of a catalog, as an authored diagram.",
+   "lettering": [
+    "It calls the service connector’s behavior a subtle configuration flaw: it should not have returned a full cluster catalog to a single ephemeral client. Hugging Face says it patched the flaw and that each cluster is now fully isolated."
+   ]
+  }
+ },
+ "hf-hardening-detection": {
+  "title": "New alerts and origin checks",
+  "intent": "Separate dashboard elements: a critical alert flag, a network-origin filter, and a token card flagged for unexpected origin. No responder drawn.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-huggingface-security-stack",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.05,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "CRITICAL ALERTS",
+    "label_box": [
+     0.0431,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "policy-filter",
+    "box": [
+     0.2812,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NETWORK ORIGINS",
+    "label_box": [
+     0.2744,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.5125,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "TOKEN: UNEXPECTED ORIGIN",
+    "label_box": [
+     0.5056,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.7437,
+     0.16,
+     0.2062,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RESPONSE: NOT MEASURED",
+    "label_box": [
+     0.7369,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Alert rules and a token-origin flag as separate authored dashboard elements; no responder is drawn answering them.",
+   "lettering": [
+    "It reports critical-severity alerting on the attack’s behavioral signatures, tighter enforcement of network origins, and tooling that flags tokens used from unexpected origins. A higher-severity alert is a change to what should reach a person; this account does not measure a response after the change."
+   ]
+  }
+ },
+ "hf-vendor-fix-release": {
+  "title": "JFrog’s dated post",
+  "intent": "A dated vendor post card at 21:30 on 27 July; a separate line back to the 6 July disclosure card. Two customer boxes: cloud (protected) and self-hosted (upgrade advised). No system-wide checkmark.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-jfrog-security-workspace",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.06,
+     0.16,
+     0.26
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "6 JULY DISCLOSURE",
+    "label_box": [
+     0.01,
+     0.328,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.22,
+     0.04,
+     0.08,
+     0.58
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.34,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "JFROG POST · 27 JULY 21:30",
+    "label_box": [
+     0.3,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.64,
+     0.04,
+     0.14,
+     0.22
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "CLOUD: PROTECTED",
+    "label_box": [
+     0.6,
+     0.268,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.64,
+     0.38,
+     0.14,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SELF-HOSTED: UPGRADE",
+    "label_box": [
+     0.58,
+     0.588,
+     0.26,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A dated vendor post, with the earlier July 6 disclosure on a separate line; no checkmark covers the whole system.",
+   "lettering": [
+    "JFrog writes that OpenAI’s security team disclosed the Artifactory zero-days responsibly and immediately, and that JFrog developed, validated and released a fix for all customers. Cloud customers, it says, are already protected; self-hosted customers have been told to upgrade. The post gives no release time, and its account is not independently verified."
+   ]
+  }
+ }
+}

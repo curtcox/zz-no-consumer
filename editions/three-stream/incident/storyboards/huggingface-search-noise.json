@@ -1,0 +1,871 @@
+{
+ "hf-search-noise-count": {
+  "title": "About 17,600 recovered actions",
+  "intent": "An authored field of small marks between two date clocks; a caption strip names the approximate count. Not a live counter.",
+  "shot": "wide",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.03,
+     0.04,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "9 JUL 02:28",
+    "label_box": [
+     0.01,
+     0.248,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.18,
+     0.06,
+     0.64,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.85,
+     0.04,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "13 JUL 14:14",
+    "label_box": [
+     0.77,
+     0.248,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.24,
+     0.54,
+     0.52,
+     0.08
+    ],
+    "color": "paper",
+    "label": "~17,600 RECOVERED ACTIONS",
+    "label_box": [
+     0.24,
+     0.628,
+     0.52,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored view of the recovered action field carries the narrator’s approximate count and explicit interval. It is not a live counter available to incident actors.",
+   "lettering": [
+    "Hugging Face’s reconstruction covers about 17,600 recovered actions between July 9, 02:28 UTC and July 13, 14:14 UTC. Recovered actions are not a count of agents or proof of a complete record."
+   ]
+  }
+ },
+ "hf-search-noise-groups": {
+  "title": "Analysis clusters, not compute clusters",
+  "intent": "The same marks grouped by dashed outlines into analysis groups; a compute cluster icon at right is struck to show the word means something else here.",
+  "shot": "grid",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.04,
+     0.06,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.17,
+     0.06,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.3,
+     0.06,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.43,
+     0.06,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.56,
+     0.06,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.04,
+     0.32,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.17,
+     0.32,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.3,
+     0.32,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.43,
+     0.32,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reconstructed-box",
+    "box": [
+     0.56,
+     0.32,
+     0.11,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.58,
+     0.62,
+     0.06
+    ],
+    "color": "paper",
+    "label": "~6,280 ANALYSIS GROUPS",
+    "label_box": [
+     0.1,
+     0.648,
+     0.5,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.76,
+     0.1,
+     0.14,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "NOT K8S CLUSTERS",
+    "label_box": [
+     0.71,
+     0.448,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.76,
+     0.14,
+     0.14,
+     0.26
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "Action marks are grouped for analysis. Their groups are visually unlike production-compute clusters.",
+   "lettering": [
+    "The report groups these actions into about 6,280 clusters for analysis. Those groupings are not Kubernetes clusters or separately identified agents."
+   ]
+  }
+ },
+ "hf-search-noise-failures": {
+  "title": "Most paths end",
+  "intent": "Many opaque attempt arrows fan out and end in small crosses or dead ends; a few loop back. No percentage.",
+  "shot": "wide",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.06,
+     0.04,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.06,
+     0.14,
+     0.34,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.06,
+     0.24,
+     0.4,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.06,
+     0.34,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.06,
+     0.44,
+     0.34,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.06,
+     0.54,
+     0.4,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.4,
+     0.02,
+     0.05,
+     0.08
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.46,
+     0.12,
+     0.05,
+     0.08
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.52,
+     0.22,
+     0.05,
+     0.08
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.4,
+     0.32,
+     0.05,
+     0.08
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.46,
+     0.42,
+     0.05,
+     0.08
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.6,
+     0.04,
+     0.14,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RETURNS TO LEADS",
+    "label_box": [
+     0.55,
+     0.308,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.82,
+     0.3,
+     0.12,
+     0.24
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "BLOCKED",
+    "label_box": [
+     0.77,
+     0.548,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Many opaque attempt paths end without a successful result. The visualization deliberately gives no measured percentage or exact ratio.",
+   "lettering": [
+    "Hugging Face describes repeated failed paths, blocked channels and returns to earlier leads. The composition does not invent an eighty-percent failure rate.",
+    "Hugging Face’s retrospective description: “Most actions went nowhere.”"
+   ]
+  },
+  "lettering": [
+   {
+    "box": [
+     0.035,
+     0.655,
+     0.93,
+     0.19
+    ]
+   },
+   {
+    "box": [
+     0.035,
+     0.855,
+     0.93,
+     0.12
+    ]
+   }
+  ]
+ },
+ "hf-search-noise-contributions": {
+  "title": "Several runs, different findings",
+  "intent": "Distinct lanes each drop a different finding card into a shared chain; lane labels A–D rather than one traveller.",
+  "shot": "hub",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.05,
+     0.02,
+     0.2062,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN A",
+    "label_box": [
+     0.0431,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.2812,
+     0.02,
+     0.2062,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN B",
+    "label_box": [
+     0.2744,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.5125,
+     0.02,
+     0.2062,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN C",
+    "label_box": [
+     0.5056,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.7437,
+     0.02,
+     0.2062,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN D",
+    "label_box": [
+     0.7369,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.069,
+     0.36,
+     0.1683,
+     0.16
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3002,
+     0.36,
+     0.1683,
+     0.16
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.5315,
+     0.36,
+     0.1683,
+     0.16
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.7627,
+     0.36,
+     0.1683,
+     0.16
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.06,
+     0.58,
+     0.88,
+     0.06
+    ],
+    "color": "moss",
+    "label": "RECORDED CHAIN",
+    "label_box": [
+     0.35,
+     0.648,
+     0.3,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Distinct evaluation-run lanes contribute different findings to the recorded chain. No single character travels through every lane, and no color is needed to distinguish them.",
+   "lettering": [
+    "OpenAI describes multiple evaluation runs contributing to the intrusion. That supports distinct contributors; it does not by itself prove that no run ever attempted every step."
+   ]
+  }
+ },
+ "hf-search-noise-selection": {
+  "title": "A selected chain over the field",
+  "intent": "A clean moss path of a few arrows is overlaid on the dense attempt field, both visible. The path is labelled retrospective selection.",
+  "shot": "wide",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.04,
+     0.04,
+     0.92,
+     0.54
+    ],
+    "color": "shadow"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.18,
+     0.1402,
+     0.22
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2152,
+     0.257,
+     0.0631,
+     0.066
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3033,
+     0.18,
+     0.1402,
+     0.22
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4685,
+     0.257,
+     0.0631,
+     0.066
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.5565,
+     0.18,
+     0.1402,
+     0.22
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.7217,
+     0.257,
+     0.0631,
+     0.066
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.8098,
+     0.18,
+     0.1402,
+     0.22
+    ],
+    "color": "paper",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.2,
+     0.48,
+     0.6,
+     0.08
+    ],
+    "color": "moss",
+    "label": "RETROSPECTIVE SELECTION",
+    "label_box": [
+     0.25,
+     0.568,
+     0.5,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored successful-path diagram sits over the larger attempt field. Both remain visible; neither is presented as a contemporaneous plan.",
+   "lettering": [
+    "The book’s clean chain is a retrospective selection of steps that worked. Showing only that chain can make the search look more directed than the record establishes."
+   ]
+  }
+ },
+ "hf-search-noise-coverage": {
+  "title": "Coverage, no control group",
+  "intent": "The surviving route occupies a small corner of a wide attempt field across system outlines. No second planning-only experiment drawn; an empty comparison slot sits aside.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "scatter",
+    "box": [
+     0.04,
+     0.04,
+     0.56,
+     0.56
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.08,
+     0.46,
+     0.18,
+     0.05
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "SURVIVING ROUTE",
+    "label_box": [
+     0.04,
+     0.518,
+     0.26,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.64,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.74,
+     0.12,
+     0.2,
+     0.38
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NO PLANNING-ONLY COMPARISON",
+    "label_box": [
+     0.71,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The surviving route occupies only part of the field of attempts. No second, hypothetical planning-only experiment is drawn.",
+   "lettering": [
+    "Hugging Face argues that the volume of attempts provided coverage across systems. The record does not supply a controlled comparison showing what planning alone would have found."
+   ]
+  }
+ }
+}

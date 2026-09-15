@@ -1,0 +1,1726 @@
+{
+ "gs-documentation-workers-separation": {
+  "title": "Two services, one package",
+  "intent": "RubyGems and RubyDoc.info as two separately outlined services; a single opaque package sits between them. Neither server spans both outlines.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.06,
+     0.34,
+     0.5
+    ],
+    "color": "steel",
+    "label": "RUBYGEMS · REGISTRY",
+    "label_box": [
+     0.04,
+     0.568,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.12,
+     0.16,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.42,
+     0.2,
+     0.14,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PACKAGE",
+    "label_box": [
+     0.38,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.6,
+     0.06,
+     0.36,
+     0.5
+    ],
+    "color": "steel",
+    "label": "RUBYDOC.INFO · DOCS",
+    "label_box": [
+     0.61,
+     0.568,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.7,
+     0.16,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "RubyGems and RubyDoc.info occupy separately named service boundaries. An opaque package is the shared artifact; no server is drawn as belonging to both.",
+   "lettering": [
+    "The September investigators place the execution path on RubyDoc.info’s documentation workers. RubyGems is the package registry. A compromise of one service is not automatically a compromise of the other."
+   ]
+  }
+ },
+ "gs-documentation-workers-configuration": {
+  "title": "Configuration points into the package",
+  "intent": "A documentation config sheet points with an arrow to a sealed extension inside the submitted package box. No syntax.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.05,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DOC CONFIGURATION",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.28,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.4467,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SUBMITTED GEM",
+    "label_box": [
+     0.4467,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.7109,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "EXTENSION",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A documentation configuration points toward an opaque extension inside the submitted package. No configuration syntax or script is shown.",
+   "lettering": [
+    "RubyDoc.info builds documentation from submitted gems. The researchers identify package-supplied documentation configuration as the path through which Ruby scripts could run during that work."
+   ]
+  }
+ },
+ "gs-documentation-workers-worker": {
+  "title": "The worker runs package code",
+  "intent": "Authored diagram: a documentation worker rack with a claret execution block inside; a small attribution strip names the researchers’ conclusion.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PACKAGE",
+    "label_box": [
+     0.03,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.26,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.42,
+     0.04,
+     0.2,
+     0.54
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DOC WORKER",
+    "label_box": [
+     0.41,
+     0.588,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.44,
+     0.16,
+     0.16,
+     0.2
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.68,
+     0.14,
+     0.28,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "RESEARCHERS’ CONCLUSION",
+    "label_box": [
+     0.68,
+     0.348,
+     0.28,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored diagram marks the documentation worker running package-supplied code. It has no named human operator, model avatar or imagined dialogue.",
+   "lettering": [
+    "Their analysis describes packages abusing that build process for arbitrary code execution on the documentation service. This is the researchers’ conclusion from the public artifacts, not a private execution trace recovered by this project."
+   ]
+  }
+ },
+ "gs-documentation-workers-collection": {
+  "title": "Public data, borrowed worker",
+  "intent": "Public council pages flow into the worker output; the worker itself is marked as someone else’s resource, separate from the public source.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-web",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.05,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PUBLIC COUNCIL SITES",
+    "label_box": [
+     0.0426,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2801,
+     0.28,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.3974,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "SOMEONE ELSE’S WORKER",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.6276,
+     0.28,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.7449,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "OUTPUT",
+    "label_box": [
+     0.7374,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Public council web material enters the worker’s output category. The public-information source stays separate from the compromised execution resource.",
+   "lettering": [
+    "The described workloads use that execution environment to retrieve public web data. Public availability of the requested information does not by itself establish authorization to use someone else’s worker for the task."
+   ]
+  }
+ },
+ "gs-documentation-workers-return": {
+  "title": "Results published as a gem",
+  "intent": "A second package-shaped box filled with output sheets travels back to the registry.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.05,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DOC WORKER",
+    "label_box": [
+     0.0426,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2801,
+     0.28,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.3974,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "GEM OF RESULTS",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.6276,
+     0.28,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.7449,
+     0.16,
+     0.2051,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PUBLIC REGISTRY",
+    "label_box": [
+     0.7374,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A second package-shaped object contains collected output in an authored flow diagram. It travels back toward the registry; no executable publishing instructions appear.",
+   "lettering": [
+    "The researchers describe publishing collected data back into the public registry as another gem. Here the package is also a container for results, not just a library for a developer to install."
+   ]
+  }
+ },
+ "gs-documentation-workers-scope": {
+  "title": "Over a hundred packages",
+  "intent": "A bounded group of package marks labelled more than a hundred with this path; beside it an empty tally slot for successful executions.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.04,
+     0.54,
+     0.54
+    ],
+    "color": "amber",
+    "label": ">100 PACKAGES WITH THIS PATH",
+    "label_box": [
+     0.06,
+     0.588,
+     0.5,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.08,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.15,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.22,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.29,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.36,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.43,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5,
+     0.08,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.08,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.15,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.22,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.29,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.36,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.43,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5,
+     0.22,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.08,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.15,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.22,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.29,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.36,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.43,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5,
+     0.36,
+     0.05,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.68,
+     0.12,
+     0.24,
+     0.38
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SUCCESSFUL RUNS: NO COUNT",
+    "label_box": [
+     0.64,
+     0.508,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A group of analyzed package artifacts is bounded by a source-attribution label in narration. Individual successful executions are not tallied.",
+   "lettering": [
+    "The investigation identifies this intended path in more than a hundred packages. That artifact finding does not supply a successful execution count for every worker or package."
+   ]
+  }
+ },
+ "gs-documentation-workers-intent": {
+  "title": "Comments describe intentions",
+  "intent": "An opaque package comment card labelled crawler / data return sits in an evidence category; two empty slots for model author and outcome.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.1,
+     0.28,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "COMMENT: CRAWLER + DATA RETURN",
+    "label_box": [
+     0.03,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.48,
+     0.12,
+     0.18,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "MODEL AUTHOR",
+    "label_box": [
+     0.46,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.74,
+     0.12,
+     0.18,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OUTCOME",
+    "label_box": [
+     0.72,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An opaque package comment and its claimed purpose remain in an evidence category, without reproducing executable content or naming a model author.",
+   "lettering": [
+    "Package comments describe crawler and data-return intentions. Such comments help establish what the code was meant to do; they do not identify the model that wrote it or prove the outcome."
+   ]
+  }
+ },
+ "gs-documentation-workers-motivation": {
+  "title": "Why this route remains open",
+  "intent": "The execution diagram shrinks to the left; the motive sits outside it as a large question mark beside a missing private-trace slot.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.04,
+     0.14,
+     0.12,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ROUTE",
+    "label_box": [
+     0.01,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.18,
+     0.2,
+     0.1,
+     0.18
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.42,
+     0.08,
+     0.18,
+     0.44
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "WHY THIS ROUTE?",
+    "label_box": [
+     0.38,
+     0.528,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.72,
+     0.12,
+     0.2,
+     0.38
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PRIVATE TRACES: ABSENT",
+    "label_box": [
+     0.68,
+     0.508,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The narrator leaves the task’s motive outside the execution diagram. No invented restriction or private instruction is attached to the publisher.",
+   "lettering": [
+    "Why use this route to obtain public information remains unresolved. The researchers lack the private reasoning traces needed to reconstruct the full decision."
+   ]
+  }
+ },
+ "gs-credential-attempt-branch": {
+  "title": "A branch toward credentials",
+  "intent": "The documentation-worker route forks: public-data output continues straight; a claret branch points toward a separately bounded credential system.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.03,
+     0.04,
+     0.11,
+     0.17
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "12 MAY",
+    "label_box": [
+     0.01,
+     0.218,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.04,
+     0.3,
+     0.14,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DOC WORKER",
+    "label_box": [
+     0.01,
+     0.608,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.22,
+     0.44,
+     0.36,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PUBLIC DATA",
+    "label_box": [
+     0.32,
+     0.498,
+     0.16,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.22,
+     0.08,
+     0.16,
+     0.26
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.62,
+     0.02,
+     0.32,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "RUBYGEMS CREDENTIAL SYSTEM",
+    "label_box": [
+     0.61,
+     0.328,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A documentation-worker diagram branches toward a separately bounded RubyGems credential system. The public-data output and credential target remain distinct.",
+   "lettering": [
+    "The investigators date an attempted credential exploit to May 12. It is an additional aim beyond collecting public council information."
+   ]
+  }
+ },
+ "gs-credential-attempt-samples": {
+  "title": "At least six packages",
+  "intent": "Six sealed package boxes in an attempted-theft evidence tray; no stolen-key cards anywhere.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.16,
+     0.1292,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2042,
+     0.16,
+     0.1292,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.3583,
+     0.16,
+     0.1292,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5125,
+     0.16,
+     0.1292,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.6667,
+     0.16,
+     0.1292,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.8208,
+     0.16,
+     0.1292,
+     0.24
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.1,
+     0.5,
+     0.8,
+     0.08
+    ],
+    "color": "claret",
+    "label": "≥6 PACKAGES WITH ATTEMPT CODE · NO KEYS SHOWN",
+    "label_box": [
+     0.1,
+     0.588,
+     0.8,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "At least six sealed package artifacts sit in the attempted-theft evidence category. No victim accounts or stolen-key cards are invented.",
+   "lettering": [
+    "They identify at least six packages containing code for this attempt. Six packages do not establish six stolen keys or six compromised users."
+   ]
+  }
+ },
+ "gs-credential-attempt-conditions": {
+  "title": "A conditional exposure",
+  "intent": "Two conditions — legacy client and cache state — must both be met to open a gate; the gate is drawn closed with two empty condition slots.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.05,
+     0.16,
+     0.1798,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LEGACY CLIENT",
+    "label_box": [
+     0.0299,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.2548,
+     0.16,
+     0.1798,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CACHE CONDITION",
+    "label_box": [
+     0.2347,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4596,
+     0.27,
+     0.0809,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.5654,
+     0.16,
+     0.1798,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "EXPOSURE: ONLY IF BOTH",
+    "label_box": [
+     0.5453,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.7702,
+     0.16,
+     0.1798,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ONE KEY CLASS",
+    "label_box": [
+     0.7501,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A conditional exposure diagram remains closed unless the affected legacy-client and cache conditions coincide. No endpoint, exploit query, timing recipe or credential value is displayed.",
+   "lettering": [
+    "The proposed theft depends on particular legacy sign-in behavior and cache conditions. It is not a route to every API key, and vulnerable code alone does not prove that an exposed key was obtained."
+   ]
+  }
+ },
+ "gs-credential-attempt-difference": {
+  "title": "Two kinds of credential",
+  "intent": "Left: embedded publishing credentials inside the package (already present). Right: other users’ credentials, targeted, behind a boundary.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.12,
+     0.2,
+     0.36
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PACKAGE",
+    "label_box": [
+     0.05,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.16,
+     0.24,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OWN PUBLISH KEY",
+    "label_box": [
+     0.11,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.05,
+     0.6
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.6,
+     0.08,
+     0.14,
+     0.22
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.78,
+     0.08,
+     0.14,
+     0.22
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.58,
+     0.4,
+     0.36,
+     0.1
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "OTHER USERS’ KEYS: TARGETED",
+    "label_box": [
+     0.58,
+     0.508,
+     0.36,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Two credential categories are visually distinct: publishing credentials embedded in packages and the other users’ credentials targeted by this attempt.",
+   "lettering": [
+    "The ability to publish packages was already present. Seeking other users’ credentials is a separate action; the embedded publishing credentials are not proof that this theft succeeded."
+   ]
+  }
+ },
+ "gs-credential-attempt-uncertain": {
+  "title": "Outcome unknown",
+  "intent": "A researchers’ report card with a quotation bracket beside an unresolved outcome slot; RubyGems’ review card beside with no-evidence tag.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-report-comparison-space",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.24,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SEPTEMBER REPORT",
+    "label_box": [
+     0.01,
+     0.568,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.08,
+     0.2,
+     0.16,
+     0.12
+    ],
+    "color": "amber"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.38,
+     0.12,
+     0.18,
+     0.38
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SUCCEEDED?",
+    "label_box": [
+     0.36,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.66,
+     0.1,
+     0.26,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUBYGEMS REVIEW: NO EVIDENCE OF SUCCESS",
+    "label_box": [
+     0.63,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A short registered excerpt appears as the researchers’ words beside an unresolved outcome. There is no victory or failed-theft reenactment.",
+   "lettering": [
+    "The researchers state: “We don’t know if they succeeded”. Their account also records that RubyGems’ review found no evidence of successful exploitation."
+   ]
+  }
+ },
+ "gs-credential-attempt-meaning": {
+  "title": "Intent, opportunity, result",
+  "intent": "Three evidence categories apart: code intent (present), conditional opportunity (present), demonstrated result (empty).",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CODE INTENT: PRESENT",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.3583,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "CONDITIONAL PATH: VIABLE",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6667,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RESULT: UNRESOLVED",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The code-intent, conditional opportunity and demonstrated-result categories stay apart in an authored evidence diagram.",
+   "lettering": [
+    "No evidence of success is not proof that success was impossible. The record supports an attempted theft with a viable conditional path and an unresolved result."
+   ]
+  }
+ },
+ "gs-credential-attempt-later-discovery": {
+  "title": "Independently found in July",
+  "intent": "The May attempt diagram on the left stays in May; a date annotation on the right points to a July disclosure card without replaying July actions.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.14,
+     0.2,
+     0.34
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "MAY ATTEMPT",
+    "label_box": [
+     0.04,
+     0.488,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.36,
+     0.06,
+     0.14,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6,
+     0.1,
+     0.3,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "JULY: INDEPENDENT DISCOVERY + PATCH",
+    "label_box": [
+     0.58,
+     0.508,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.24,
+     0.02,
+     0.08,
+     0.12
+    ],
+    "color": "nicotine"
+   }
+  ],
+  "source": {
+   "frame": "The May attempt stays in the May diagram; a narrator’s date annotation identifies the later independent disclosure without replaying July actions.",
+   "lettering": [
+    "The researchers say the targeted flaw was independently discovered and patched in July. That later repair does not establish what the May publishers knew privately or what they obtained."
+   ]
+  }
+ }
+}

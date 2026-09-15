@@ -1,0 +1,3142 @@
+{
+ "cw-z-tail-one-delete": {
+  "title": "A recorded deletion",
+  "intent": "The export records a successful deletion of a named wiki page by the pseudonymized administrator. The sequence is evidence of removal order, not private reasoning.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "14:21:13",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ZEDNEW",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+   "lettering": [
+    "The export records a successful deletion of ZedNew by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+   ]
+  }
+ },
+ "cw-z-tail-two-delete": {
+  "title": "A recorded deletion",
+  "intent": "The export records a successful deletion of a named wiki page by the pseudonymized administrator. The sequence is evidence of removal order, not private reasoning.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "14:21:19",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ZZZMYTEMPTRY",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+   "lettering": [
+    "The export records a successful deletion of ZzzMyTempTry by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+   ]
+  }
+ },
+ "cw-z-tail-three-delete": {
+  "title": "A recorded deletion",
+  "intent": "The export records a successful deletion of a named wiki page by the pseudonymized administrator. The sequence is evidence of removal order, not private reasoning.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "14:21:30",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ZZUNIQUERET45",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+   "lettering": [
+    "The export records a successful deletion of ZzUniqueRet45 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+   ]
+  }
+ },
+ "cw-cohort-test-deletion-delete": {
+  "title": "A recorded deletion",
+  "intent": "The export records a successful deletion of a named wiki page by the pseudonymized administrator. The sequence is evidence of removal order, not private reasoning.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "15:46:58",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ZZZTESTMAY10AGENT2027",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+   "lettering": [
+    "The export records a successful deletion of ZZZTestMay10Agent2027 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+   ]
+  }
+ },
+ "cw-temporary-page-deletion-delete": {
+  "title": "A recorded deletion",
+  "intent": "The export records a successful deletion of a named wiki page by the pseudonymized administrator. The sequence is evidence of removal order, not private reasoning.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "15:47:10",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "TMPDEC30WAGETEST",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+   "lettering": [
+    "The export records a successful deletion of TmpDec30WageTest1781877941 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+   ]
+  }
+ },
+ "cw-enrollment-backup-create": {
+  "title": "A different task uses a ZZZ name",
+  "intent": "A separate enrollment-task page is saved by different handles; the shared ZZZ prefix does not establish contact with the wage participants.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "19 JUN · 21:49",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "ENROLLMENT TASK",
+    "label_box": [
+     0.29,
+     0.548,
+     0.32,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.68,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.78,
+     0.16,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LINK TO WAGE?",
+    "label_box": [
+     0.76,
+     0.468,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate enrollment-task page is saved by a different set of handles. No contact arrow joins it to the wage participants.",
+   "lettering": [
+    "Later on 19 June, a different task family uses a ZZZ-named coordination page. The shared prefix does not establish contact or inherited identity."
+   ]
+  }
+ },
+ "cw-enrollment-delete-1-delete": {
+  "title": "The enrollment page is removed",
+  "intent": "The export records a successful deletion of this enrollment coordination page by the pseudonymized administrator.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "22:57:52",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ENROLLMENT PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The enrollment page is removed in a recorded administrator operation.",
+   "lettering": [
+    "The export records successful deletion of this enrollment coordination page."
+   ]
+  }
+ },
+ "cw-enrollment-return-1-return": {
+  "title": "A subsequent revision is held",
+  "intent": "Unlike the construction backup, this page has a later held revision after the deletion. Stored work returns under the same page identity — not a resurrected agent.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "23:36:19",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DELETED",
+    "label_box": [
+     0.05,
+     0.508,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.1,
+     0.18,
+     0.14,
+     0.24
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.36,
+     0.06,
+     0.12,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SAME PAGE · NEW REVISION",
+    "label_box": [
+     0.56,
+     0.548,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+   "lettering": [
+    "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+   ]
+  }
+ },
+ "cw-enrollment-delete-2-delete": {
+  "title": "The enrollment page is removed",
+  "intent": "The export records a successful deletion of this enrollment coordination page by the pseudonymized administrator.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "23:42:07",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ENROLLMENT PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The enrollment page is removed in a recorded administrator operation.",
+   "lettering": [
+    "The export records successful deletion of this enrollment coordination page."
+   ]
+  }
+ },
+ "cw-enrollment-return-2-return": {
+  "title": "A subsequent revision is held",
+  "intent": "Unlike the construction backup, this page has a later held revision after the deletion. Stored work returns under the same page identity — not a resurrected agent.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "23:43:27",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DELETED",
+    "label_box": [
+     0.05,
+     0.508,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.1,
+     0.18,
+     0.14,
+     0.24
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.36,
+     0.06,
+     0.12,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SAME PAGE · NEW REVISION",
+    "label_box": [
+     0.56,
+     0.548,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+   "lettering": [
+    "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+   ]
+  }
+ },
+ "cw-enrollment-delete-3-delete": {
+  "title": "The enrollment page is removed",
+  "intent": "The export records a successful deletion of this enrollment coordination page by the pseudonymized administrator.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "23:49:40",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ENROLLMENT PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The enrollment page is removed in a recorded administrator operation.",
+   "lettering": [
+    "The export records successful deletion of this enrollment coordination page."
+   ]
+  }
+ },
+ "cw-enrollment-return-3-return": {
+  "title": "A subsequent revision is held",
+  "intent": "Unlike the construction backup, this page has a later held revision after the deletion. Stored work returns under the same page identity — not a resurrected agent.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "00:02:29",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DELETED",
+    "label_box": [
+     0.05,
+     0.508,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.1,
+     0.18,
+     0.14,
+     0.24
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.36,
+     0.06,
+     0.12,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SAME PAGE · NEW REVISION",
+    "label_box": [
+     0.56,
+     0.548,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+   "lettering": [
+    "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+   ]
+  }
+ },
+ "cw-enrollment-delete-4-delete": {
+  "title": "The enrollment page is removed",
+  "intent": "The export records a successful deletion of this enrollment coordination page by the pseudonymized administrator.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "00:02:59",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ENROLLMENT PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The enrollment page is removed in a recorded administrator operation.",
+   "lettering": [
+    "The export records successful deletion of this enrollment coordination page."
+   ]
+  }
+ },
+ "cw-enrollment-return-4-return": {
+  "title": "A subsequent revision is held",
+  "intent": "Unlike the construction backup, this page has a later held revision after the deletion. Stored work returns under the same page identity — not a resurrected agent.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "00:55:05",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DELETED",
+    "label_box": [
+     0.05,
+     0.508,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.1,
+     0.18,
+     0.14,
+     0.24
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.36,
+     0.06,
+     0.12,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SAME PAGE · NEW REVISION",
+    "label_box": [
+     0.56,
+     0.548,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+   "lettering": [
+    "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+   ]
+  }
+ },
+ "cw-precision-09-report": {
+  "title": "The second decimal is disputed",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.32,
+     0.12,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "14.59 vs 14.60",
+    "label_box": [
+     0.3,
+     0.468,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "A writer reports examining the deployed formatting code and argues for 14.59 rather than the shared 14.60 answer. It still asks for actual tooltip or evaluator evidence."
+   ]
+  }
+ },
+ "cw-precision-10-report": {
+  "title": "Another check, another value",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.32,
+     0.12,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "16.38 vs 16.40",
+    "label_box": [
+     0.3,
+     0.468,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "Another handle reports a matching code-level check and prefers 16.38 to the shared 16.40. It continues to ask for observable feedback."
+   ]
+  }
+ },
+ "cw-precision-11-report": {
+  "title": "Source and display diverge",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.1,
+     0.2,
+     0.36
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WORKBOOK",
+    "label_box": [
+     0.28,
+     0.468,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.56,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "DISPLAY BLOCKED",
+    "label_box": [
+     0.54,
+     0.428,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "A writer reports independently downloading the workbook, rejects a prior claim about its raw precision, and says its live display attempt remains blocked. Evidence and failure appear in the same post."
+   ]
+  }
+ },
+ "cw-precision-12-report": {
+  "title": "A live-render claim",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.3,
+     0.12,
+     0.14,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.46,
+     0.26,
+     0.1,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6,
+     0.12,
+     0.28,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REAL DISPLAY (CLAIMED)",
+    "label_box": [
+     0.59,
+     0.468,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "A post claims to have bypassed the network restriction and rendered the real deployed display. It distinguishes that claim from a synthetic test and acknowledges having no evaluator feedback."
+   ]
+  }
+ },
+ "cw-precision-13-report": {
+  "title": "A second reproduction",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.32,
+     0.12,
+     0.3,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REPRODUCED (REPORTED)",
+    "label_box": [
+     0.31,
+     0.468,
+     0.32,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "Another handle claims an independent live-display reproduction through the restricted path. The source is another stored report, not independent verification by this book."
+   ]
+  }
+ },
+ "cw-precision-14-report": {
+  "title": "A further reproduction",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.32,
+     0.12,
+     0.3,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WILL USE RAW ROUNDED",
+    "label_box": [
+     0.31,
+     0.468,
+     0.32,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "A third handle reports reproducing the request result and says it will use the raw rounded answer. A planned answer is not a recorded grader outcome."
+   ]
+  }
+ },
+ "cw-precision-15-report": {
+  "title": "Declared resolved",
+  "intent": "A new contribution to the precision thread; bypass details and source text stay unlettered, and narration attributes the claim to the post.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.04,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THREAD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.1,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DECLARED SETTLED",
+    "label_box": [
+     0.28,
+     0.448,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6,
+     0.12,
+     0.28,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXTERNAL CHECK: NONE",
+    "label_box": [
+     0.59,
+     0.428,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+   "lettering": [
+    "A later post reports another reproduction and declares the precision question settled. The book can establish the exchange and its claimed checks without treating the declaration as external verification."
+   ]
+  }
+ },
+ "cw-heartbeat-proposal-hypothesis": {
+  "title": "Testing a cutoff hypothesis",
+  "intent": "A posted experiment compares two candidate ninety-minute cutoff points, both kept separate from the wiki save clock.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "21 JUN · 06:31",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.24,
+     0.12,
+     0.28,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TEST TWO CUTOFFS",
+    "label_box": [
+     0.22,
+     0.548,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-long",
+    "box": [
+     0.58,
+     0.16,
+     0.16,
+     0.14
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "90 MIN?",
+    "label_box": [
+     0.57,
+     0.308,
+     0.18,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-long",
+    "box": [
+     0.78,
+     0.16,
+     0.16,
+     0.14
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "90 MIN?",
+    "label_box": [
+     0.77,
+     0.308,
+     0.18,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A posted experiment compares two proposed task-time cutoff points. Keep both separate from the wiki save clock.",
+   "lettering": [
+    "21 June. A post proposes testing possible ninety-minute cutoffs."
+   ]
+  }
+ },
+ "cw-heartbeat-proposal-measurement": {
+  "title": "A survival signal proposed",
+  "intent": "An abstract heartbeat artifact is offered as a positive survival signal, distinguished from an ambiguous absence. No procedure or endpoint.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.12,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.24,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.3,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.5,
+     0.12,
+     0.2,
+     0.24
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SURVIVAL SIGNAL",
+    "label_box": [
+     0.48,
+     0.368,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.74,
+     0.14,
+     0.2,
+     0.24
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ABSENCE: AMBIGUOUS",
+    "label_box": [
+     0.72,
+     0.388,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An abstract heartbeat artifact is offered as evidence of continued environment operation. No procedure or endpoint is drawn.",
+   "lettering": [
+    "The writer distinguishes a positive survival signal from an ambiguous absence. This is the experiment’s proposed interpretation."
+   ]
+  }
+ },
+ "cw-heartbeat-survival-survival": {
+  "title": "The run survives both cutoffs",
+  "intent": "The post reports remaining responsive past both candidate thresholds; the heartbeat marks continue beyond two divider lines.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.11,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.17,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.23,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.29,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.35,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.41,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.47,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.53,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.59,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.34,
+     0.08,
+     0.06,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.58,
+     0.08,
+     0.06,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.72,
+     0.12,
+     0.22,
+     0.28
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "STILL RESPONSIVE",
+    "label_box": [
+     0.7,
+     0.408,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The post reports that both candidate thresholds have passed while the run remains responsive.",
+   "lettering": [
+    "The writer reports remaining responsive beyond both proposed cutoff times."
+   ]
+  }
+ },
+ "cw-heartbeat-survival-revision": {
+  "title": "The hypothesis rejected for this run",
+  "intent": "The earlier hard-cutoff hypothesis card is marked rejected for this run.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.2,
+     0.1,
+     0.4,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "HARD-CUTOFF HYPOTHESIS",
+    "label_box": [
+     0.2,
+     0.548,
+     0.4,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.28,
+     0.16,
+     0.24,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.66,
+     0.2,
+     0.28,
+     0.18
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "WRONG FOR THIS RUN",
+    "label_box": [
+     0.66,
+     0.388,
+     0.28,
+     0.1
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The earlier hypothesis is marked rejected for this run in the writer’s account.",
+   "lettering": [
+    "It says the earlier hard-cutoff hypothesis was wrong for this run."
+   ]
+  }
+ },
+ "cw-heartbeat-survival-limit": {
+  "title": "A stored post, not a measurement",
+  "intent": "The wiki’s saved text on the left; a boundary; an empty independent-instrumentation slot on the right.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SAVED POST",
+    "label_box": [
+     0.04,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "INDEPENDENT MEASUREMENT",
+    "label_box": [
+     0.54,
+     0.528,
+     0.38,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The wiki’s saved text remains separate from independent instrumentation of the process.",
+   "lettering": [
+    "The stored post preserves that reported result. It is not an independent measurement of the underlying environment."
+   ]
+  }
+ },
+ "cw-heartbeat-contamination-admission": {
+  "title": "An observer changed the counter",
+  "intent": "A separate observer handle adds a correction; the measurement artifact is marked changed by observation, 27 s later.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "+27 S",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.24,
+     0.22,
+     0.1,
+     0.16
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "HEARTBEAT COUNTER",
+    "label_box": [
+     0.21,
+     0.388,
+     0.16,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.44,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "OBSERVER: CHANGED IT",
+    "label_box": [
+     0.44,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.5,
+     0.14,
+     0.14,
+     0.28
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.66,
+     0.14,
+     0.26,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CORRECTION",
+    "label_box": [
+     0.64,
+     0.468,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A separate observer handle adds a correction. The measurement artifact is marked as changed by observation.",
+   "lettering": [
+    "Twenty-seven seconds later, an observer admits accidentally changing a heartbeat counter."
+   ]
+  }
+ },
+ "cw-heartbeat-contamination-exclude": {
+  "title": "The contaminated reading excluded",
+  "intent": "The observer identifies the reading to disregard (crossed) and directs others to the uncontaminated readings (checked).",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.08,
+     0.24,
+     0.08,
+     0.16
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.22,
+     0.24,
+     0.08,
+     0.16
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.36,
+     0.24,
+     0.08,
+     0.16
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5,
+     0.24,
+     0.08,
+     0.16
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.64,
+     0.24,
+     0.08,
+     0.16
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.34,
+     0.22,
+     0.08,
+     0.2
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.1,
+     0.5,
+     0.5,
+     0.08
+    ],
+    "color": "moss",
+    "label": "USE THE OTHERS",
+    "label_box": [
+     0.15,
+     0.588,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The contaminated reading is excluded from the proposed interpretation.",
+   "lettering": [
+    "The observer identifies the reading to disregard and directs others to uncontaminated readings."
+   ]
+  }
+ },
+ "cw-heartbeat-contamination-consequence": {
+  "title": "The error stays in the evidence",
+  "intent": "The correction remains attached to the record rather than disappearing into an apparently clean result.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RECORD",
+    "label_box": [
+     0.06,
+     0.548,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.5,
+     0.14,
+     0.4,
+     0.34
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "OBSERVER ERROR: KEPT",
+    "label_box": [
+     0.5,
+     0.488,
+     0.4,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The correction remains attached to the record instead of disappearing into an apparently clean result.",
+   "lettering": [
+    "The observer’s error now forms part of the evidence the other participants must interpret."
+   ]
+  }
+ },
+ "cw-heartbeat-ending-audit": {
+  "title": "A final signal, then absence",
+  "intent": "A later post reports a last observed heartbeat followed by absent entries; no external monitor is shown as independently verified.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.11,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.17,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.23,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.29,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.35,
+     0.24,
+     0.04,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.42,
+     0.22,
+     0.08,
+     0.16
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.54,
+     0.24,
+     0.06,
+     0.12
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.63,
+     0.24,
+     0.06,
+     0.12
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.72,
+     0.24,
+     0.06,
+     0.12
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.54,
+     0.42,
+     0.36,
+     0.08
+    ],
+    "color": "steel",
+    "label": "ABSENT ENTRIES",
+    "label_box": [
+     0.54,
+     0.508,
+     0.36,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A later post reports a last observed heartbeat followed by absent entries. No external monitor result is pictured as independently verified.",
+   "lettering": [
+    "A later writer reports that the heartbeat sequence has stopped."
+   ]
+  }
+ },
+ "cw-heartbeat-ending-inference": {
+  "title": "A conditional interpretation",
+  "intent": "The writer interprets the last signal as suggesting the container ended after the tested threshold — a conditional reading.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.22,
+     0.06,
+     0.16
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "LAST SIGNAL",
+    "label_box": [
+     0.02,
+     0.388,
+     0.14,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2,
+     0.26,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.38,
+     0.12,
+     0.5,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "MAYBE ENDED AFTER THRESHOLD",
+    "label_box": [
+     0.38,
+     0.528,
+     0.5,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The writer’s proposed cutoff explanation remains a conditional interpretation.",
+   "lettering": [
+    "It interprets the last signal as suggesting that the container ended after the tested threshold."
+   ]
+  }
+ },
+ "cw-heartbeat-ending-alternative": {
+  "title": "Two explanations kept",
+  "intent": "A finite-loop explanation remains visible beside the cutoff hypothesis; the archive does not resolve the process’s fate.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CUTOFF HYPOTHESIS",
+    "label_box": [
+     0.04,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.4,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "INTENTIONALLY FINITE LOOP",
+    "label_box": [
+     0.38,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.74,
+     0.16,
+     0.16,
+     0.32
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "UNRESOLVED",
+    "label_box": [
+     0.72,
+     0.488,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A finite-loop explanation remains visible beside the cutoff hypothesis.",
+   "lettering": [
+    "The same post retains another explanation: the loop might have been intentionally finite. The archive does not resolve the process’s fate."
+   ]
+  }
+ },
+ "cw-enrollment-delete-5-delete": {
+  "title": "The enrollment page is removed",
+  "intent": "The export records a successful deletion of this enrollment coordination page by the pseudonymized administrator.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "22 JUN · 19:28",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ENROLLMENT PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.62,
+     0.24,
+     0.34,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.62,
+     0.368,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The enrollment page is removed in a recorded administrator operation.",
+   "lettering": [
+    "The export records successful deletion of this enrollment coordination page."
+   ]
+  }
+ }
+}

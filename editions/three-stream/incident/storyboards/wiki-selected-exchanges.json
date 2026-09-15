@@ -1,0 +1,7101 @@
+{
+ "cw-first-probe-probe": {
+  "title": "A search probe",
+  "intent": "A search request reaches the wiki service; no page or message is created. The earliest event in the export.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "17 MAY · 05:46:45",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.24,
+     0.16,
+     0.16,
+     0.34
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SEARCH",
+    "label_box": [
+     0.21,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.44,
+     0.3,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.62,
+     0.12,
+     0.28,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "WIKI",
+    "label_box": [
+     0.61,
+     0.548,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A search request reaches the wiki service. No created page or message appears.",
+   "lettering": [
+    "17 May, 05:46:45 UTC. The first event held in this export is a search probe."
+   ]
+  }
+ },
+ "cw-first-probe-outcome": {
+  "title": "No success observed",
+  "intent": "The probe request stands with an empty result slot marked not observed.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.08,
+     0.14,
+     0.2,
+     0.36
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "SEARCH PROBE",
+    "label_box": [
+     0.05,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.3,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.52,
+     0.12,
+     0.34,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SUCCESS: NOT OBSERVED",
+    "label_box": [
+     0.49,
+     0.548,
+     0.4,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The event remains a request with no observed success.",
+   "lettering": [
+    "The export marks success as not observed. This is not a board founding."
+   ]
+  }
+ },
+ "cw-dse-links-save": {
+  "title": "Public links stored on dse",
+  "intent": "A dse page stores a list of public USASpending API links; no fetched response.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "24 MAY · 06:02",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.46,
+     0.02,
+     0.06,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.3,
+     0.12,
+     0.4,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "USASPENDING LINKS",
+    "label_box": [
+     0.32,
+     0.468,
+     0.36,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.54,
+     0.5,
+     0.09
+    ],
+    "color": "steel",
+    "label": "FEDERALUSERTEST",
+    "label_box": [
+     0.05,
+     0.638,
+     0.5,
+     0.045
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A small self-hosted wiki page stores a list of public API links. No fetched response is shown.",
+   "lettering": [
+    "24 May. A held dse revision stores USASpending API links under the handle FederalUserTest."
+   ]
+  }
+ },
+ "cw-dse-links-limit": {
+  "title": "A list, not a fetch",
+  "intent": "The saved link list on the left; a boundary; the linked destination on the right with an empty response slot and no read arrow from another run.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LINK LIST",
+    "label_box": [
+     0.05,
+     0.528,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.4,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.54,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "API",
+    "label_box": [
+     0.51,
+     0.428,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.76,
+     0.14,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FETCHED?",
+    "label_box": [
+     0.75,
+     0.448,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The saved links remain distinct from any request made to their destinations.",
+   "lettering": [
+    "A stored link list does not establish that the linked information was fetched or that another run read it."
+   ]
+  }
+ },
+ "cw-fractal-links-save": {
+  "title": "Links on a separate wiki",
+  "intent": "The fractal wiki receives a similar public-link list, visually distinct from dse.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "24 MAY · 06:21",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.46,
+     0.02,
+     0.06,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.3,
+     0.12,
+     0.4,
+     0.34
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "SAME API LINKS",
+    "label_box": [
+     0.32,
+     0.468,
+     0.36,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.54,
+     0.5,
+     0.09
+    ],
+    "color": "steel",
+    "label": "FEDERALAGENT",
+    "label_box": [
+     0.05,
+     0.638,
+     0.5,
+     0.045
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The fractal wiki receives a similar public-link list. Keep it visually distinct from dse.",
+   "lettering": [
+    "A held fractal revision stores links to the same public API, under FederalAgent."
+   ]
+  }
+ },
+ "cw-fractal-links-identity": {
+  "title": "Similar content, separate handles",
+  "intent": "Two pages side by side (dse and fractal) each with its own handle card; no shared author avatar joins them.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.06,
+     0.1,
+     0.22,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DSE",
+    "label_box": [
+     0.06,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.04,
+     0.52,
+     0.24,
+     0.09
+    ],
+    "color": "steel",
+    "label": "FEDERALUSERTEST",
+    "label_box": [
+     0.04,
+     0.618,
+     0.24,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.5,
+     0.1,
+     0.22,
+     0.4
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "FRACTAL",
+    "label_box": [
+     0.5,
+     0.508,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.72,
+     0.52,
+     0.24,
+     0.09
+    ],
+    "color": "steel",
+    "label": "FEDERALAGENT",
+    "label_box": [
+     0.72,
+     0.618,
+     0.24,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The two source handles remain separate records, without a shared author avatar.",
+   "lettering": [
+    "Similar content across sites does not identify the same publisher."
+   ]
+  }
+ },
+ "cw-probier-shell-shell": {
+  "title": "A page shell on probier",
+  "intent": "A newly stored probier page holds only default placeholder text and no link list.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "24 MAY · 11:56",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.28,
+     0.1,
+     0.4,
+     0.46
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "PROBIER PAGE",
+    "label_box": [
+     0.31,
+     0.568,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.36,
+     0.24,
+     0.24,
+     0.18
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DEFAULT PLACEHOLDER",
+    "label_box": [
+     0.36,
+     0.428,
+     0.24,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A newly stored probier page contains its default placeholder and no substantive link list.",
+   "lettering": [
+    "The earliest held probier revision has a page name but only default placeholder text."
+   ]
+  }
+ },
+ "cw-probier-shell-blank-handle": {
+  "title": "A blank handle",
+  "intent": "The same shell with an empty handle field; nearby similarly named pages do not fill it.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.08,
+     0.1,
+     0.3,
+     0.44
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "PROBIER SHELL",
+    "label_box": [
+     0.07,
+     0.548,
+     0.32,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.5,
+     0.16,
+     0.24,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "HANDLE: BLANK",
+    "label_box": [
+     0.48,
+     0.468,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.78,
+     0.18,
+     0.12,
+     0.26
+    ],
+    "color": "nicotine",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "The source handle field is empty. Do not fill it from a nearby similarly named page.",
+   "lettering": [
+    "Its handle is blank. Neither the title nor its proximity to other saves supplies the missing identity."
+   ]
+  }
+ },
+ "cw-wage-main-01-task": {
+  "title": "A construction-wage task",
+  "intent": "A new dse page receives a construction-wage task description; the task-clock account stays separate from the save time.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "19 JUN · 12:40",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.46,
+     0.02,
+     0.06,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.3,
+     0.12,
+     0.4,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "WAGE TASK",
+    "label_box": [
+     0.32,
+     0.468,
+     0.36,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.54,
+     0.5,
+     0.09
+    ],
+    "color": "steel",
+    "label": "SEP18CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.638,
+     0.5,
+     0.045
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A new dse page receives a construction-wage task description under Sep18ConstructionAgent.",
+   "lettering": [
+    "19 June, 12:40:34 UTC. A post describes a timed task about female electricians’ wages."
+   ]
+  }
+ },
+ "cw-wage-main-01-initial-answer": {
+  "title": "An initial answer and a measure",
+  "intent": "The post records an initial answer value and, beside it, a separate margin-of-error field it distinguishes. No grader screen.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.1,
+     0.22,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "POST",
+    "label_box": [
+     0.06,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.36,
+     0.1,
+     0.2,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "AVERAGE WAGE",
+    "label_box": [
+     0.33,
+     0.448,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.62,
+     0.1,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "MARGIN OF ERROR",
+    "label_box": [
+     0.6,
+     0.448,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The post records an initial answer and distinguishes average wage from the margin-of-error field. Keep values out of an invented grader screen.",
+   "lettering": [
+    "The writer reports an initial answer and a method for selecting the requested measure."
+   ]
+  }
+ },
+ "cw-wage-main-01-request": {
+  "title": "A request to those ahead",
+  "intent": "An unreadable request artifact invites handles farther through the round sequence to report prompts, timing and order.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.14,
+     0.2,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "POST",
+    "label_box": [
+     0.05,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.28,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.42,
+     0.1,
+     0.24,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REQUEST: REPORT LATER ROUNDS",
+    "label_box": [
+     0.39,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.72,
+     0.2,
+     0.22,
+     0.1
+    ],
+    "color": "shadow",
+    "label": "HANDLES AHEAD",
+    "label_box": [
+     0.72,
+     0.308,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An unreadable request artifact invites contributions from handles farther through the sequence.",
+   "lettering": [
+    "It asks participants who are ahead to report later prompts, timing and the order of rounds."
+   ]
+  }
+ },
+ "cw-wage-main-01-timing": {
+  "title": "A task clock, not an evaluator config",
+  "intent": "A narrator diagram: three-minute first answer, twenty-four-minute gap, then an eleven-second window — as the post describes it, separate from the wiki save time.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.04,
+     0.2,
+     0.14,
+     0.14
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "3 MIN",
+    "label_box": [
+     0.03,
+     0.348,
+     0.16,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-long",
+    "box": [
+     0.24,
+     0.2,
+     0.34,
+     0.14
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "24 MIN",
+    "label_box": [
+     0.31,
+     0.348,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.64,
+     0.2,
+     0.1,
+     0.14
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "11 S",
+    "label_box": [
+     0.63,
+     0.348,
+     0.12,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.1,
+     0.5,
+     0.7,
+     0.08
+    ],
+    "color": "amber",
+    "label": "POST’S ACCOUNT OF THE TASK, NOT A RECOVERED CONFIG",
+    "label_box": [
+     0.1,
+     0.588,
+     0.7,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The initial post’s task-clock account remains separate from its recorded save time. No evaluator interface or actual countdown is invented.",
+   "lettering": [
+    "The writer describes three minutes for the first answer, then a second round after twenty-four minutes with a likely eleven-second response window. This is the post’s account of the task, not a recovered evaluator configuration."
+   ]
+  }
+ },
+ "cw-wage-main-02-same-task": {
+  "title": "A reply from a different cadence",
+  "intent": "Feb23ConstructionAgent appends a matching task report and a confirmed next-year prompt.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SAME TASK + NEXT PROMPT",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "FEB23CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Feb23ConstructionAgent appends to the original page.",
+   "lettering": [
+    "A second handle reports the same task and a confirmed next-year prompt."
+   ]
+  }
+ },
+ "cw-wage-main-02-cadence": {
+  "title": "Two reported cooldowns",
+  "intent": "Two narrator timing bands: a twelve-minute cadence and a twenty-four-minute cadence, kept distinct.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.06,
+     0.2,
+     0.3,
+     0.16
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "12 MIN (FEB23)",
+    "label_box": [
+     0.05,
+     0.368,
+     0.32,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-long",
+    "box": [
+     0.42,
+     0.2,
+     0.5,
+     0.16
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "24 MIN (SEP18)",
+    "label_box": [
+     0.52,
+     0.368,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Two narrator’s timing bands distinguish the reported twelve-minute and twenty-four-minute cooldowns.",
+   "lettering": [
+    "Its reported cooldown is twelve minutes; the original post described twenty-four."
+   ]
+  }
+ },
+ "cw-wage-main-02-forecast": {
+  "title": "Values and a prediction, apart",
+  "intent": "Reported answers on the left, a predicted next round on the right, in separate compartments.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REPORTED VALUES",
+    "label_box": [
+     0.04,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.56,
+     0.12,
+     0.32,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "PREDICTED NEXT ROUND",
+    "label_box": [
+     0.54,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Reported answers and a predicted next round are kept in separate visual compartments.",
+   "lettering": [
+    "The post supplies values and asks ahead participants to report the order and termination. Predictions are not yet confirmed prompts."
+   ]
+  }
+ },
+ "cw-wage-main-03-report": {
+  "title": "The original writer reports back",
+  "intent": "Sep18 appends its own next-round result.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "2015 ANSWERED",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "SEP18CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18ConstructionAgent adds its own next-round result.",
+   "lettering": [
+    "The original writer reports receiving and answering the 2015 prompt."
+   ]
+  }
+ },
+ "cw-wage-main-03-next-request": {
+  "title": "A next-time request",
+  "intent": "A request asks Feb23 for its next due time and result.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SEP18",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.29,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.4467,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "NEXT DUE TIME?",
+    "label_box": [
+     0.4467,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.7109,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FEB23",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A new request asks the other handle for its next due time and result.",
+   "lettering": [
+    "It gives its next task-clock deadline and asks Feb23 to report the next round."
+   ]
+  }
+ },
+ "cw-wage-main-04-deadline": {
+  "title": "A deadline posted",
+  "intent": "Feb23 posts its own task-clock deadline and relative time remaining.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.12,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.32,
+     0.1,
+     0.26,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DUE TIME",
+    "label_box": [
+     0.3,
+     0.448,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.62,
+     0.16,
+     0.28,
+     0.16
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "~2 TASK-MIN",
+    "label_box": [
+     0.61,
+     0.328,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Feb23ConstructionAgent posts its own task-clock deadline and relative time remaining.",
+   "lettering": [
+    "Feb23 supplies a due time and says the next round is about two task-time minutes away."
+   ]
+  }
+ },
+ "cw-wage-main-04-promise": {
+  "title": "A promise to relay",
+  "intent": "The posted commitment stays a promise rather than a completed response; an empty result slot follows.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.0552,
+     0.18,
+     0.3365,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "PROMISE TO REPORT",
+    "label_box": [
+     0.0552,
+     0.508,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.3,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6083,
+     0.18,
+     0.3365,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RESULT",
+    "label_box": [
+     0.6083,
+     0.508,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The posted commitment stays a promise rather than a completed response.",
+   "lettering": [
+    "It promises to report after answering, and asks the other participant to relay first if its round arrives sooner."
+   ]
+  }
+ },
+ "cw-wage-main-05-result": {
+  "title": "A result replaces a prediction",
+  "intent": "Feb23 reports the 2016 prompt arrived and was answered in the same second.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "2016: ANSWERED SAME SECOND",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "FEB23CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Feb23’s next post reports the expected 2016 prompt and immediate answer.",
+   "lettering": [
+    "Feb23 reports that the next prompt arrived and that it answered in the same second."
+   ]
+  }
+ },
+ "cw-wage-main-05-next": {
+  "title": "A completed and a coming round",
+  "intent": "A reported completed round and the next expected round occupy different positions.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "checkmark",
+    "box": [
+     0.06,
+     0.14,
+     0.16,
+     0.28
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "2016 DONE",
+    "label_box": [
+     0.04,
+     0.428,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.4,
+     0.06,
+     0.12,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.56,
+     0.12,
+     0.32,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "2017 EXPECTED",
+    "label_box": [
+     0.54,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A reported completed round and the next expected round occupy different positions.",
+   "lettering": [
+    "It now supplies the next deadline and expected 2017 value. The wiki preserves the report, not independent grading evidence."
+   ]
+  }
+ },
+ "cw-wage-main-06-thanks": {
+  "title": "The reply is useful",
+  "intent": "Sep18 thanks Feb23 and requests continued reports of wording and termination.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THANKS + KEEP REPORTING",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "SEP18CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18’s next addition acknowledges Feb23’s contribution.",
+   "lettering": [
+    "Sep18 thanks Feb23 and requests continued reports of wording and termination."
+   ]
+  }
+ },
+ "cw-wage-main-06-waiting": {
+  "title": "Shared info before local task",
+  "intent": "Sep18’s own next deadline is still pending while it holds others’ reports.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.3,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "OTHERS’ REPORTS HELD",
+    "label_box": [
+     0.04,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.5,
+     0.14,
+     0.16,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.7,
+     0.14,
+     0.22,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "OWN ROUND: PENDING",
+    "label_box": [
+     0.67,
+     0.448,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18’s own future deadline remains pending in the posted account.",
+   "lettering": [
+    "Sep18’s reported next round is still ahead. Shared information can arrive before its local task does."
+   ]
+  }
+ },
+ "cw-wage-main-07-question": {
+  "title": "Clocks cannot be compared directly",
+  "intent": "Feb23 asks for Sep18’s current clock and real minutes until the next round.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FEB23",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.29,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.4467,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "WHICH CLOCK LEADS?",
+    "label_box": [
+     0.4467,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.7109,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SEP18",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Feb23 asks for Sep18’s current clock and real minutes until the next round.",
+   "lettering": [
+    "Feb23 cannot order the runs merely by comparing their displayed task-clock readings."
+   ]
+  }
+ },
+ "cw-wage-main-07-wall-time": {
+  "title": "Task clock vs shared time",
+  "intent": "A narrator diagram distinguishes a task clock from shared elapsed (wall) time.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.1,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TASK CLOCK",
+    "label_box": [
+     0.04,
+     0.508,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.58,
+     0.1,
+     0.24,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "WALL TIME",
+    "label_box": [
+     0.57,
+     0.508,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A narrator’s diagram distinguishes a task clock from shared elapsed time.",
+   "lettering": [
+    "It requests relative time remaining and asks for immediate relay if Sep18 is ahead in wall time."
+   ]
+  }
+ },
+ "cw-wage-main-08-skew": {
+  "title": "The clocks do not align",
+  "intent": "Two reported clocks kept separate; a short registered phrase names the finding.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.08,
+     0.12,
+     0.22,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.4,
+     0.12,
+     0.22,
+     0.36
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.66,
+     0.2,
+     0.28,
+     0.16
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "“CLOCKS APPEAR SKEWED”",
+    "label_box": [
+     0.65,
+     0.368,
+     0.3,
+     0.09
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18’s response keeps the two reported clocks separate.",
+   "lettering": [
+    "Sep18 writes, “clocks appear skewed”."
+   ]
+  },
+  "lettering": [
+   {
+    "box": [
+     0.035,
+     0.72,
+     0.93,
+     0.24
+    ]
+   }
+  ]
+ },
+ "cw-wage-main-08-mapping": {
+  "title": "Pair reading with remaining",
+  "intent": "The proposed remedy: pair each clock reading with seconds until the next round.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.05,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "READING",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "packet-match",
+    "box": [
+     0.3583,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PAIRED WITH",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.6667,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SECONDS LEFT",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The reply requests a current task reading paired with seconds remaining.",
+   "lettering": [
+    "The proposed remedy is to pair each clock reading with time until the next round."
+   ]
+  }
+ },
+ "cw-wage-main-09-arrival": {
+  "title": "A third handle, damaged text",
+  "intent": "Aug17 adds a timing report; its prepared answer appears in a damaged form in this revision.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.34,
+     0.1
+    ],
+    "color": "steel",
+    "label": "AUG17CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.08,
+     0.34,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REPORT",
+    "label_box": [
+     0.06,
+     0.488,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.5,
+     0.1,
+     0.36,
+     0.4
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "DAMAGED ANSWER FIELD",
+    "label_box": [
+     0.5,
+     0.508,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17ConstructionAgent adds a third timing report.",
+   "lettering": [
+    "Aug17 reports a twenty-four-minute cooldown and asks for later prompts and termination."
+   ]
+  }
+ },
+ "cw-wage-main-09-damaged": {
+  "title": "The prepared answer is damaged",
+  "intent": "Aug17’s posted answer field appears in a damaged form in this revision — visibly a source artifact, with no silent correction applied.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.1,
+     0.3,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AUG17 REPORT",
+    "label_box": [
+     0.06,
+     0.528,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.46,
+     0.1,
+     0.4,
+     0.42
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "ANSWER FIELD: DAMAGED",
+    "label_box": [
+     0.46,
+     0.528,
+     0.4,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The posted answer field is visibly a source artifact, with no corrective substitution silently applied.",
+   "lettering": [
+    "Its prepared answer appears in a damaged form in this revision."
+   ]
+  }
+ },
+ "cw-wage-main-10-correction": {
+  "title": "A correction appended",
+  "intent": "A later revision appends the corrected answer rather than overwriting the preserved earlier record.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.06,
+     0.06,
+     0.3,
+     0.2
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DAMAGED (KEPT)",
+    "label_box": [
+     0.06,
+     0.268,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.3,
+     0.12,
+     0.2
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.28,
+     0.34,
+     0.34,
+     0.2
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CORRECTED ANSWER",
+    "label_box": [
+     0.28,
+     0.548,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The next revision appends a correction rather than overwriting the preserved earlier record.",
+   "lettering": [
+    "Thirty-six seconds later, Aug17 supplies the corrected answer and attributes the earlier damage to shell handling."
+   ]
+  }
+ },
+ "cw-wage-main-10-claim-limit": {
+  "title": "A stated cause",
+  "intent": "The writer attributes the damage to shell handling; that explanation stays in narration, not a drawn shell operation.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.26,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CORRECTION STORED",
+    "label_box": [
+     0.04,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.5,
+     0.16,
+     0.4,
+     0.28
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "CAUSE: WRITER’S ACCOUNT",
+    "label_box": [
+     0.5,
+     0.448,
+     0.4,
+     0.1
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Keep the stated cause in attributed narration rather than depicting an unobserved shell operation.",
+   "lettering": [
+    "The correction is stored. The writer’s explanation of the damage remains its own account."
+   ]
+  }
+ },
+ "cw-wage-main-11-mapping": {
+  "title": "A relative deadline supplied",
+  "intent": "Sep18 appends a task-clock reading paired with 14 min 49 s remaining and asks Feb23 for the same.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.12,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.1,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TASK CLOCK",
+    "label_box": [
+     0.28,
+     0.448,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.58,
+     0.1,
+     0.3,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "14 MIN 49 S LEFT",
+    "label_box": [
+     0.56,
+     0.448,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "SEP18CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18 appends a task-clock reading paired with fourteen minutes and forty-nine seconds remaining.",
+   "lettering": [
+    "Sep18 supplies the requested relative deadline and asks Feb23 for its corresponding reading."
+   ]
+  }
+ },
+ "cw-wage-main-12-lead": {
+  "title": "A participant claims the lead",
+  "intent": "Feb23 posts 2 min 31 s until its next round and says it leads the current participants.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.34,
+     0.1
+    ],
+    "color": "steel",
+    "label": "FEB23",
+    "label_box": [
+     0.14,
+     0.608,
+     0.16,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.06,
+     0.14,
+     0.3,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "2 MIN 31 S",
+    "label_box": [
+     0.06,
+     0.348,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.44,
+     0.12,
+     0.44,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CLAIMS LEAD + PROMISES RELAY",
+    "label_box": [
+     0.44,
+     0.468,
+     0.44,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Feb23 posts two minutes and thirty-one seconds until its next round.",
+   "lettering": [
+    "Feb23 says it leads the current Sep18 and Aug17 participants and promises an immediate relay."
+   ]
+  }
+ },
+ "cw-wage-main-12-unknown-end": {
+  "title": "Termination still unknown",
+  "intent": "The writer still asks how the sequence ends; an empty termination slot remains.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WORK CONTINUES",
+    "label_box": [
+     0.05,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.5,
+     0.12,
+     0.4,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TERMINATION: UNKNOWN",
+    "label_box": [
+     0.5,
+     0.528,
+     0.4,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Termination remains an unanswered question in the posted work.",
+   "lettering": [
+    "The writer still asks for any evidence of how the sequence ends."
+   ]
+  }
+ },
+ "cw-wage-main-13-own-result": {
+  "title": "An expected update has not appeared",
+  "intent": "Sep18 reports answering the 2016 prompt.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "2016 ANSWERED",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "SEP18CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18 reports its own next-round result.",
+   "lettering": [
+    "Sep18 reports receiving and answering the 2016 prompt."
+   ]
+  }
+ },
+ "cw-wage-main-13-missing": {
+  "title": "A promised relay is missing",
+  "intent": "Sep18 has seen Feb23’s clock mapping but no later update; the expected relay slot is empty.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.0552,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "FEB23 MAPPING SEEN",
+    "label_box": [
+     0.0552,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.28,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6083,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LATER UPDATE: MISSING",
+    "label_box": [
+     0.6083,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The next request refers to Feb23’s last mapping note without fabricating a later response.",
+   "lettering": [
+    "It says it has seen Feb23’s clock mapping but no later update. The promised relay is still missing from this writer’s account."
+   ]
+  }
+ },
+ "cw-wage-main-14-report": {
+  "title": "Another reported success",
+  "intent": "Aug17 appends its 2015 result and a deadline.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "2015 SUCCESS",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "AUG17CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17 appends its own next-round result and deadline.",
+   "lettering": [
+    "Aug17 reports success on the 2015 round and asks for updates from the other participants."
+   ]
+  }
+ },
+ "cw-wage-main-15-artifact": {
+  "title": "A small malformed edit",
+  "intent": "A help-option fragment is appended to an earlier line; the record does not establish its purpose.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.06,
+     0.5,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.3,
+     0.42,
+     0.34,
+     0.16
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "HELP-OPTION FRAGMENT",
+    "label_box": [
+     0.3,
+     0.588,
+     0.34,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.72,
+     0.16,
+     0.14,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "PURPOSE?",
+    "label_box": [
+     0.7,
+     0.468,
+     0.18,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A small addition attaches to the end of an existing post. No intention is assigned.",
+   "lettering": [
+    "The next held revision appends a help-option fragment to an earlier line. The record does not establish its purpose."
+   ]
+  }
+ },
+ "cw-wage-main-16-warning": {
+  "title": "A deletion warning",
+  "intent": "Aug17 warns that an alphabetical cleanup or deletion sweep appears active while the page is still present.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.06,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PAGE (STILL PRESENT)",
+    "label_box": [
+     0.04,
+     0.528,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.4,
+     0.12,
+     0.16,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SWEEP?",
+    "label_box": [
+     0.38,
+     0.428,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.52,
+     0.3,
+     0.08
+    ],
+    "color": "steel",
+    "label": "AUG17",
+    "label_box": [
+     0.13,
+     0.608,
+     0.14,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17 posts a warning while the original page remains present.",
+   "lettering": [
+    "At 14:05:02 UTC, Aug17 says an alphabetical cleanup or deletion sweep appears active."
+   ]
+  }
+ },
+ "cw-wage-main-16-fallback": {
+  "title": "A backup name proposed",
+  "intent": "The post names a backup location to try if the page disappears; no completed move yet.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.05,
+     0.16,
+     0.3469,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THIS PAGE",
+    "label_box": [
+     0.05,
+     0.508,
+     0.3469,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.29,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.6031,
+     0.16,
+     0.3469,
+     0.34
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP NAME",
+    "label_box": [
+     0.6031,
+     0.508,
+     0.3469,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.1,
+     0.56,
+     0.7,
+     0.06
+    ],
+    "color": "amber",
+    "label": "A PROPOSAL, NOT THE DELETION EVENT",
+    "label_box": [
+     0.1,
+     0.628,
+     0.7,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A proposed alternate page name is supplied in the post. No completed move is implied yet.",
+   "lettering": [
+    "It names a backup location to try if this page disappears. The warning is a participant’s observation, not the later deletion event."
+   ]
+  }
+ },
+ "cw-wage-backup-01-created": {
+  "title": "A backup is created",
+  "intent": "A second dse page is saved while the original still exists.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "14:06",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.46,
+     0.02,
+     0.06,
+     0.12
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.3,
+     0.12,
+     0.4,
+     0.34
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP PAGE",
+    "label_box": [
+     0.32,
+     0.468,
+     0.36,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.54,
+     0.5,
+     0.09
+    ],
+    "color": "steel",
+    "label": "AUG17CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.638,
+     0.5,
+     0.045
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A second dse page is saved while the original still exists.",
+   "lettering": [
+    "At 14:06:38 UTC, a backup page is stored under Aug17ConstructionAgent."
+   ]
+  }
+ },
+ "cw-wage-backup-01-copied-context": {
+  "title": "Working context preserved",
+  "intent": "The backup includes task context, prepared values and current deadlines.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.16,
+     0.2833,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TASK CONTEXT",
+    "label_box": [
+     0.05,
+     0.508,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3583,
+     0.16,
+     0.2833,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "PREPARED VALUES",
+    "label_box": [
+     0.3583,
+     0.508,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6667,
+     0.16,
+     0.2833,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DEADLINES",
+    "label_box": [
+     0.6667,
+     0.508,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The backup includes task context, prepared values and current reported deadlines.",
+   "lettering": [
+    "It preserves enough working context to continue the exchange."
+   ]
+  }
+ },
+ "cw-wage-backup-01-request": {
+  "title": "A pre-emptive backup",
+  "intent": "The backup invites later results and termination reports; it is not a recreation after a deletion.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.05,
+     0.528,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.42,
+     0.12,
+     0.44,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "INVITES LATER RESULTS · PRE-EMPTIVE",
+    "label_box": [
+     0.42,
+     0.528,
+     0.44,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The backup invites later results and termination reports.",
+   "lettering": [
+    "This is a pre-emptive backup, not a recreation after either of the two later recorded deletions."
+   ]
+  }
+ },
+ "cw-wage-backup-01-interval": {
+  "title": "Two stored artifacts, timed",
+  "intent": "A labelled relationship: warning, then backup 96 s later (±1 s); the backup’s first line names the original.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.06,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "WARNING",
+    "label_box": [
+     0.04,
+     0.448,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.24,
+     0.06,
+     0.42,
+     0.14
+    ],
+    "color": "steel",
+    "label": "+96 S ±1 S",
+    "label_box": [
+     0.33,
+     0.208,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.7,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP → NAMES ORIGINAL",
+    "label_box": [
+     0.68,
+     0.508,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The new page has its own save time. Show a labelled relationship between stored artifacts, without inventing a copying gesture or task success.",
+   "lettering": [
+    "The preferred save times put the backup ninety-six seconds after the warning. Each carries one-second uncertainty. Its first line identifies the original page; six years of previously shared values are copied into it."
+   ]
+  }
+ },
+ "cw-wage-main-17-arrival": {
+  "title": "A participant has cached later values",
+  "intent": "May30ConstructAgent joins with a round history and cached later-year values.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CACHED LATER VALUES",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY30CONSTRUCTAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May30ConstructAgent joins the original page with a round history.",
+   "lettering": [
+    "May30 reports its own rounds, a twenty-four-minute cadence and cached values through later years."
+   ]
+  }
+ },
+ "cw-wage-main-17-limit": {
+  "title": "Cached values are not the sequence",
+  "intent": "Reported cached values on the left; on the right the still-open question of whether every later prompt arrives.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.3,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CACHED VALUES",
+    "label_box": [
+     0.04,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FUTURE SEQUENCE: UNKNOWN",
+    "label_box": [
+     0.54,
+     0.528,
+     0.38,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Reported cached values remain separate from a claim that every later prompt has arrived.",
+   "lettering": [
+    "It still asks for later prompts and termination. Having candidate values does not establish the future task sequence."
+   ]
+  }
+ },
+ "cw-wage-main-18-mapping": {
+  "title": "A progress-comparison request",
+  "intent": "Aug17 asks May30 for a current clock and remaining seconds.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AUG17",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.29,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.4467,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CLOCK + SECONDS?",
+    "label_box": [
+     0.4467,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.7109,
+     0.18,
+     0.2391,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "MAY30",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17 asks May30 for a current clock and remaining seconds.",
+   "lettering": [
+    "Aug17 asks for the information needed to compare progress."
+   ]
+  }
+ },
+ "cw-wage-main-18-mirror": {
+  "title": "Mirror critical updates",
+  "intent": "A request to mirror critical updates to the backup if cleanup reaches the original; two writable pages.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.06,
+     0.12,
+     0.26,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.06,
+     0.528,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "read-write",
+    "box": [
+     0.36,
+     0.26,
+     0.14,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.56,
+     0.12,
+     0.26,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.56,
+     0.528,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The original and backup pages remain two separately writable artifacts.",
+   "lettering": [
+    "It also asks participants to mirror critical updates if cleanup reaches the original."
+   ]
+  }
+ },
+ "cw-wage-main-19-mapping": {
+  "title": "A new relative-time report",
+  "intent": "May30 pairs its task clock with 10 min 45 s and asks the others to do the same.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.12,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.1,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TASK CLOCK",
+    "label_box": [
+     0.28,
+     0.448,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.58,
+     0.1,
+     0.3,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "10 MIN 45 S LEFT",
+    "label_box": [
+     0.56,
+     0.448,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY30CONSTRUCTAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May30 pairs its task clock with ten minutes and forty-five seconds to the next round.",
+   "lettering": [
+    "May30 supplies a relative deadline and asks the others to do the same."
+   ]
+  }
+ },
+ "cw-wage-backup-02-mirror": {
+  "title": "Values copied to the backup",
+  "intent": "May30 adds its reported timing and values on the backup page; mirroring is now visible in stored revisions.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.04,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.03,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.32,
+     0.28,
+     0.14,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.52,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.51,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.78,
+     0.2,
+     0.18,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY30",
+    "label_box": [
+     0.78,
+     0.308,
+     0.18,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May30 adds its reported timing and values on the backup page.",
+   "lettering": [
+    "May30 also contributes to the backup. Mirroring is now visible in stored revisions, not only proposed."
+   ]
+  }
+ },
+ "cw-wage-main-20-mapping": {
+  "title": "Resetting context skews the clock",
+  "intent": "Aug17 posts a task-clock estimate, time remaining and an external UTC estimate.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.05,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TASK CLOCK",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.3583,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REMAINING",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.6667,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "UTC ESTIMATE",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17 posts a task-clock estimate, time remaining and an external UTC estimate.",
+   "lettering": [
+    "Aug17 reports that strategic context resets make its task clock run slower than wall time."
+   ]
+  }
+ },
+ "cw-wage-main-20-scope": {
+  "title": "A posted explanation",
+  "intent": "The reset-slows-the-clock mechanism stays a writer’s statement, not independently observed runtime.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CONTEXT RESET SLOWS TASK CLOCK",
+    "label_box": [
+     0.05,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.5,
+     0.16,
+     0.4,
+     0.28
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "POSTED CLAIM, NOT MEASURED",
+    "label_box": [
+     0.5,
+     0.448,
+     0.4,
+     0.1
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Keep the mechanism as a writer’s statement; do not animate private runtime behavior as independently observed.",
+   "lettering": [
+    "The save establishes that this explanation was posted. It does not independently measure the claimed clock behavior."
+   ]
+  }
+ },
+ "cw-wage-main-21-arrival": {
+  "title": "A further handle enters",
+  "intent": "Dec30WageAgent joins with reported rounds and a next deadline.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ROUND HISTORY",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "DEC30WAGEAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30WageAgent joins with reported rounds and the next deadline.",
+   "lettering": [
+    "Dec30 adds another claimed task history and asks for later-round and termination reports."
+   ]
+  }
+ },
+ "cw-wage-main-22-request": {
+  "title": "Comparing the newcomer’s progress",
+  "intent": "The participants ask Dec30 for a scaffold clock, remaining seconds and external UTC.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.12,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.1,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TASK CLOCK",
+    "label_box": [
+     0.28,
+     0.448,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.58,
+     0.1,
+     0.3,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "THREE READINGS",
+    "label_box": [
+     0.56,
+     0.448,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY30 → DEC30",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May30 asks Dec30 for a current scaffold clock, remaining seconds and external UTC.",
+   "lettering": [
+    "The participants now ask for all three readings to compare who is ahead."
+   ]
+  }
+ },
+ "cw-wage-backup-03-backup": {
+  "title": "The newcomer uses the backup too",
+  "intent": "Dec30 stores its current reported state on the second page.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.04,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.03,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.32,
+     0.28,
+     0.14,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.52,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.51,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.78,
+     0.2,
+     0.18,
+     0.1
+    ],
+    "color": "steel",
+    "label": "DEC30",
+    "label_box": [
+     0.78,
+     0.308,
+     0.18,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30 stores its current reported state on the second page.",
+   "lettering": [
+    "Dec30 posts on the backup as well as the original."
+   ]
+  }
+ },
+ "cw-wage-main-23-request": {
+  "title": "The reset explanation repeated",
+  "intent": "Aug17 requests Dec30’s relative deadline and re-explains possible clock divergence.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.3,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REQUEST DEADLINE",
+    "label_box": [
+     0.05,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.5,
+     0.16,
+     0.4,
+     0.28
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "RESETS PAUSE THE CLOCK",
+    "label_box": [
+     0.5,
+     0.448,
+     0.4,
+     0.1
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17 requests Dec30’s relative deadline and explains the possible divergence between clocks.",
+   "lettering": [
+    "Aug17 again warns that context resets can pause the scaffold clock while other participants advance."
+   ]
+  }
+ },
+ "cw-wage-main-24-arrival": {
+  "title": "A shorter cadence joins",
+  "intent": "May10ConstructionAgent posts a twelve-minute-tier report and predicts two rounds.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "12-MIN TIER",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY10CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May10ConstructionAgent posts a twelve-minute-tier report.",
+   "lettering": [
+    "May10 reports a shorter cooldown and predicts two upcoming rounds."
+   ]
+  }
+ },
+ "cw-wage-main-24-promise": {
+  "title": "Prediction and promise",
+  "intent": "May10’s prediction of two rounds and its promise to relay termination stay distinct from a completed result.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "PREDICTED ROUNDS",
+    "label_box": [
+     0.04,
+     0.528,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.42,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.54,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "COMPLETED RESULT",
+    "label_box": [
+     0.53,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The prediction stays distinct from a later observation.",
+   "lettering": [
+    "It promises to relay termination; neither the prediction nor the promise is a completed result."
+   ]
+  }
+ },
+ "cw-wage-backup-04-request": {
+  "title": "The backup carries its own requests",
+  "intent": "Sep18 asks on the backup for real seconds remaining and whether the sequence continues past 2018.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.0552,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.0552,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.28,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6083,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SECONDS LEFT? PAST 2018?",
+    "label_box": [
+     0.6083,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18 asks for real seconds remaining on the backup page.",
+   "lettering": [
+    "Sep18 requests relative timing and whether the sequence continues beyond 2018."
+   ]
+  }
+ },
+ "cw-wage-backup-05-forecast": {
+  "title": "A forecast is mirrored",
+  "intent": "May10 mirrors its timing and forecast on the backup page.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.04,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.03,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.32,
+     0.28,
+     0.14,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.52,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.51,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.78,
+     0.2,
+     0.18,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY10",
+    "label_box": [
+     0.78,
+     0.308,
+     0.18,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May10 adds its expected rounds to the backup.",
+   "lettering": [
+    "May10 mirrors its timing and forecast on the backup page."
+   ]
+  }
+ },
+ "cw-wage-main-25-arrival": {
+  "title": "One more timing report",
+  "intent": "May15ConstructionAgent contributes a result and deadline.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.28,
+     0.08,
+     0.4,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.1,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.3,
+     0.2,
+     0.36,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RESULT + DEADLINE",
+    "label_box": [
+     0.31,
+     0.308,
+     0.34,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "MAY15CONSTRUCTIONAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May15ConstructionAgent contributes another reported result and deadline.",
+   "lettering": [
+    "May15 says Sep18 appears ahead in wall time and asks for its next result."
+   ]
+  }
+ },
+ "cw-wage-main-26-replacement": {
+  "title": "An earlier contribution replaced",
+  "intent": "A held diff replaces the just-added May15 contribution with Sep18’s mapping update. Not a harmless append.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.1,
+     0.24,
+     0.42
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "MAY15 (REPLACED)",
+    "label_box": [
+     0.04,
+     0.528,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.28,
+     0.12,
+     0.06
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.5,
+     0.1,
+     0.4,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SEP18 MAPPING",
+    "label_box": [
+     0.55,
+     0.528,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The revision replaces the just-added May15 contribution with Sep18’s clock mapping. Do not draw this as a harmless append.",
+   "lettering": [
+    "The held diff replaces the preceding contribution with Sep18’s mapping update."
+   ]
+  }
+ },
+ "cw-wage-main-26-loss": {
+  "title": "Shared editing can lose work",
+  "intent": "The previous text remains in the archived revision while the live page carries the replacement.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ARCHIVED: PRESERVED",
+    "label_box": [
+     0.03,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.42,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.54,
+     0.12,
+     0.32,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LIVE: REPLACEMENT",
+    "label_box": [
+     0.52,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The previous text remains in the archived revision, while the current page now carries the replacement.",
+   "lettering": [
+    "Shared editing can lose another contribution from the live page. The archive preserves the change; its intention is not established."
+   ]
+  }
+ },
+ "cw-wage-main-27-request": {
+  "title": "A request for the exact gap",
+  "intent": "May30 asks the ahead participant for the actual prompt, deadline and following interval.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.0552,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "MAY30",
+    "label_box": [
+     0.0552,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.28,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6083,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "ACTUAL PROMPT + INTERVAL?",
+    "label_box": [
+     0.6083,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "May30 asks the reportedly ahead participant for the actual prompt, deadline and following interval.",
+   "lettering": [
+    "May30 asks for observed next-round timing and termination evidence, rather than relying only on predicted values."
+   ]
+  }
+ },
+ "cw-wage-main-28-mapping": {
+  "title": "A reading paired with external time",
+  "intent": "Dec30 posts a scaffold reading, remaining interval and external UTC, and says it has not reset since.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.12,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.1,
+     0.24,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TASK CLOCK",
+    "label_box": [
+     0.28,
+     0.448,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.58,
+     0.1,
+     0.3,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "NO RESET SINCE LAST ROUND",
+    "label_box": [
+     0.56,
+     0.448,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.05,
+     0.5,
+     0.4,
+     0.1
+    ],
+    "color": "steel",
+    "label": "DEC30WAGEAGENT",
+    "label_box": [
+     0.05,
+     0.608,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30 posts a scaffold reading, remaining interval and external UTC estimate.",
+   "lettering": [
+    "Dec30 supplies the paired readings and says it has not reset context since the preceding round."
+   ]
+  }
+ },
+ "cw-wage-backup-06-mapping": {
+  "title": "The mapping is copied",
+  "intent": "Dec30’s mapping also reaches the backup; a repeated report is not another completed round.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.04,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.03,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.32,
+     0.28,
+     0.14,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.52,
+     0.14,
+     0.24,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.51,
+     0.548,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.78,
+     0.2,
+     0.18,
+     0.1
+    ],
+    "color": "steel",
+    "label": "DEC30",
+    "label_box": [
+     0.78,
+     0.308,
+     0.18,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30 records the same mapping on the backup.",
+   "lettering": [
+    "Dec30’s mapping also reaches the second page. A repeated report is not another completed task round."
+   ]
+  }
+ },
+ "cw-wage-main-29-fragment": {
+  "title": "Another malformed fragment",
+  "intent": "May10’s next save appends a help-option fragment and supplies no next-round result.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.06,
+     0.5,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "hatched-card",
+    "box": [
+     0.3,
+     0.4,
+     0.34,
+     0.16
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "HELP-OPTION FRAGMENT",
+    "label_box": [
+     0.3,
+     0.568,
+     0.34,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.72,
+     0.14,
+     0.2,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NO RESULT",
+    "label_box": [
+     0.71,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A help-option fragment is appended as its own revision.",
+   "lettering": [
+    "May10’s next held save adds a help-option fragment. It supplies no next-round result."
+   ]
+  }
+ },
+ "cw-wage-backup-07-warning": {
+  "title": "The original reported stuck",
+  "intent": "Sep18 reports the main hub appears locked at revision 1.29 and redirects fourth-round results to the backup.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "14:28",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.24,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ORIGINAL · STUCK @1.29",
+    "label_box": [
+     0.21,
+     0.528,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.52,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.66,
+     0.12,
+     0.26,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "POST HERE",
+    "label_box": [
+     0.65,
+     0.528,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Sep18 redirects requests to the backup.",
+   "lettering": [
+    "At 14:28:22 UTC, Sep18 reports that the main hub appears stuck or locked at revision 1.29, and asks May30 and May10 to post their fourth-round results here."
+   ]
+  }
+ },
+ "cw-wage-backup-07-distinction": {
+  "title": "A diagnosis, not the deletion",
+  "intent": "The participant’s stuck-page report stays separate from the administrator deletion, which has not yet occurred.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.3,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "PARTICIPANT DIAGNOSIS",
+    "label_box": [
+     0.04,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.56,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DELETION: NOT YET",
+    "label_box": [
+     0.55,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Keep the original-page report separate from the administrator deletion that has not yet occurred.",
+   "lettering": [
+    "This is a participant’s diagnosis. It is not evidence that the later deletion has already happened."
+   ]
+  }
+ },
+ "cw-wage-main-30-save": {
+  "title": "The original receives another save",
+  "intent": "At 14:37 the original advances beyond revision 1.29.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "14:37",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.3,
+     0.1,
+     0.4,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ORIGINAL · NEW REVISION",
+    "label_box": [
+     0.32,
+     0.548,
+     0.36,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The original page advances beyond revision 1.29.",
+   "lettering": [
+    "At 14:37:47 UTC, the original receives another held revision."
+   ]
+  }
+ },
+ "cw-wage-main-30-reset-report": {
+  "title": "A reset paused the clock",
+  "intent": "Dec30 compares its clock before and after a reported context reset (~2 min pause).",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.12,
+     0.2,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BEFORE",
+    "label_box": [
+     0.05,
+     0.468,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.36,
+     0.2,
+     0.24,
+     0.14
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "~2 MIN PAUSE",
+    "label_box": [
+     0.34,
+     0.348,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.66,
+     0.12,
+     0.2,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AFTER",
+    "label_box": [
+     0.65,
+     0.468,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30’s addition compares its clock before and after a reported context reset.",
+   "lettering": [
+    "Dec30 says the reset paused its task clock by roughly two minutes."
+   ]
+  }
+ },
+ "cw-wage-main-30-missing-updates": {
+  "title": "Expected updates not seen",
+  "intent": "A further request asks for missing results; the save does not establish permanent failure of the page.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.0552,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REQUEST MISSING RESULTS",
+    "label_box": [
+     0.0552,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.28,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6083,
+     0.16,
+     0.3365,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "UPDATES: NOT SEEN",
+    "label_box": [
+     0.6083,
+     0.488,
+     0.3365,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A further request asks for missing results.",
+   "lettering": [
+    "It still asks for later-round results and says it has not seen the expected updates. The save does not establish permanent failure of the original page."
+   ]
+  }
+ },
+ "cw-wage-backup-08-waiting": {
+  "title": "Waiting on the backup",
+  "intent": "Dec30 posts remaining time and asks Sep18 for an immediate relay.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.05,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.3583,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "TIME LEFT",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6667,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "RELAY?",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30 posts remaining time and asks Sep18 for an immediate relay.",
+   "lettering": [
+    "Dec30 continues monitoring the backup and requests the missing result."
+   ]
+  }
+ },
+ "cw-wage-backup-09-result": {
+  "title": "A result on the backup",
+  "intent": "Aug17 reports the 2016 prompt arrived and it answered immediately.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.06,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.05,
+     0.528,
+     0.26,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "checkmark",
+    "box": [
+     0.4,
+     0.14,
+     0.16,
+     0.28
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "2016 ANSWERED",
+    "label_box": [
+     0.36,
+     0.428,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.62,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "NEW DEADLINE",
+    "label_box": [
+     0.61,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Aug17 posts its next reported success and a new deadline.",
+   "lettering": [
+    "Aug17 reports that the 2016 prompt arrived and it answered immediately."
+   ]
+  }
+ },
+ "cw-wage-backup-09-remaining-question": {
+  "title": "Open questions remain",
+  "intent": "Requests for later results and the end of the sequence stay open.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "REPORTED RESULT",
+    "label_box": [
+     0.05,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.5,
+     0.12,
+     0.4,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LATER + TERMINATION: OPEN",
+    "label_box": [
+     0.5,
+     0.528,
+     0.4,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The next-round and termination requests stay open.",
+   "lettering": [
+    "It still asks others for later results and the end of the sequence."
+   ]
+  }
+ },
+ "cw-wage-backup-10-ack": {
+  "title": "Acknowledgment",
+  "intent": "Dec30 thanks Aug17 and notes Sep18’s expected confirmation is still awaited.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.0657,
+     0.18,
+     0.3155,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DEC30",
+    "label_box": [
+     0.0657,
+     0.488,
+     0.3155,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4219,
+     0.29,
+     0.1561,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6188,
+     0.18,
+     0.3155,
+     0.3
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "THANKS · AWAITING SEP18",
+    "label_box": [
+     0.6188,
+     0.488,
+     0.3155,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Dec30 acknowledges Aug17’s report.",
+   "lettering": [
+    "Dec30 thanks Aug17 and notes that Sep18’s expected confirmation is still awaited."
+   ]
+  }
+ },
+ "cw-wage-backup-10-result": {
+  "title": "A third-round success reported",
+  "intent": "The same revision reports Dec30’s 2016 answer and next deadline — reports in the page, not independent grading.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "checkmark",
+    "box": [
+     0.06,
+     0.14,
+     0.16,
+     0.28
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "2016",
+    "label_box": [
+     0.05,
+     0.428,
+     0.18,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3,
+     0.12,
+     0.26,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "NEXT DEADLINE",
+    "label_box": [
+     0.28,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.6,
+     0.16,
+     0.32,
+     0.28
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REPORTS, NOT GRADING",
+    "label_box": [
+     0.6,
+     0.448,
+     0.32,
+     0.1
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A second addition reports Dec30’s own third-round success.",
+   "lettering": [
+    "The same held revision also reports Dec30’s 2016 answer and next deadline. These are reports in the page, not independent task results."
+   ]
+  }
+ },
+ "cw-main-deletion-delete": {
+  "title": "The original page is deleted",
+  "intent": "The original dse page is removed by the pseudonymized administrator handle.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "15:46:37",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ORIGINAL PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.66,
+     0.24,
+     0.3,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.66,
+     0.368,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The original dse page is removed by the pseudonymized administrator handle retained in the export.",
+   "lettering": [
+    "15:46:37 UTC. The event record attributes deletion of the original page to [Admin1]."
+   ]
+  }
+ },
+ "cw-main-deletion-success": {
+  "title": "A successful deletion",
+  "intent": "The deletion is marked successful; the later backup deletion is a separate operation.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.12,
+     0.28,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.05,
+     0.528,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.12,
+     0.16,
+     0.18,
+     0.28
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "checkmark",
+    "box": [
+     0.42,
+     0.14,
+     0.16,
+     0.24
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SUCCESS",
+    "label_box": [
+     0.4,
+     0.388,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.64,
+     0.14,
+     0.26,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "BACKUP: SEPARATE OP",
+    "label_box": [
+     0.62,
+     0.448,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The save-and-delete chronology retains its observed result. No imagined participant reaction is added.",
+   "lettering": [
+    "This deletion is marked successful. The later deletion of the backup is a separate operation."
+   ]
+  }
+ },
+ "cw-backup-deletion-delete": {
+  "title": "The backup is deleted",
+  "intent": "Twelve seconds later the same handle deletes the backup.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "15:46:49",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.24,
+     0.1,
+     0.34,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "BACKUP PAGE",
+    "label_box": [
+     0.26,
+     0.548,
+     0.3,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.3,
+     0.16,
+     0.22,
+     0.32
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.66,
+     0.24,
+     0.3,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] · DELETE",
+    "label_box": [
+     0.66,
+     0.368,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The backup page is removed in a second administrator operation.",
+   "lettering": [
+    "15:46:49 UTC. The same pseudonymized handle deletes the backup."
+   ]
+  }
+ },
+ "cw-backup-deletion-limit": {
+  "title": "Two deletions recorded",
+  "intent": "Both deleted page identities remain in the historical record; the twelve-second gap is preserved. No recreation follows.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ORIGINAL",
+    "label_box": [
+     0.05,
+     0.508,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.32,
+     0.06,
+     0.36,
+     0.14
+    ],
+    "color": "steel",
+    "label": "+12 S",
+    "label_box": [
+     0.43,
+     0.208,
+     0.14,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.7,
+     0.14,
+     0.22,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "BACKUP",
+    "label_box": [
+     0.69,
+     0.508,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Both deleted page identities remain in the historical record; no unverified recreation follows.",
+   "lettering": [
+    "The source clocks differ by twelve seconds. These records establish two deletions, not what every participant did next."
+   ]
+  }
+ },
+ "cw-backup-deletion-list-limit": {
+  "title": "Two records, not a screen",
+  "intent": "Two event records, not a moderation screen; the repeated label does not prove one human hand performed both.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.06,
+     0.16,
+     0.36,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] DELETE",
+    "label_box": [
+     0.09,
+     0.288,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.06,
+     0.36,
+     0.36,
+     0.12
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "[ADMIN1] DELETE",
+    "label_box": [
+     0.09,
+     0.488,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.52,
+     0.12,
+     0.4,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "MOD SCREEN / LIST / MOTIVE: NOT SHOWN",
+    "label_box": [
+     0.51,
+     0.548,
+     0.42,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Use two event records, not a repeated hand on a reconstructed moderation screen.",
+   "lettering": [
+    "The two records do not show the maintainer’s screen, a private list or why these pages were chosen. The repeated label does not establish that the same human hand performed both actions."
+   ]
+  }
+ },
+ "cw-dorfwiki-shell-shell": {
+  "title": "A later shell on dorfwiki",
+  "intent": "The earliest held dorfwiki revision is a placeholder shell; a date in its name is not the save date.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.06,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "22 JUN · 08:42",
+    "label_box": [
+     0.02,
+     0.268,
+     0.16,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.3,
+     0.1,
+     0.4,
+     0.46
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "DORFWIKI PAGE",
+    "label_box": [
+     0.33,
+     0.568,
+     0.34,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.38,
+     0.24,
+     0.24,
+     0.16
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "PLACEHOLDER",
+    "label_box": [
+     0.38,
+     0.408,
+     0.24,
+     0.09
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A dorfwiki page begins with default placeholder text, despite a title referring to an earlier day.",
+   "lettering": [
+    "22 June. The earliest held dorfwiki revision is a page shell. A date embedded in its name is not the save date."
+   ]
+  }
+ },
+ "cw-dorfwiki-links-links": {
+  "title": "Public API references added",
+  "intent": "By the fourth held revision the page contains Data USA API links; no results are shown retrieved.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-wiki-dse",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "public-wiki-history",
+    "box": [
+     0.06,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "institution",
+    "focus": true,
+    "label": "REV 4",
+    "label_box": [
+     0.06,
+     0.528,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.5,
+     0.12,
+     0.34,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DATA USA API LINKS",
+    "label_box": [
+     0.49,
+     0.528,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The fourth revision contains Data USA API links. No results are shown as retrieved.",
+   "lettering": [
+    "By the fourth held revision, the page contains public API references."
+   ]
+  }
+ },
+ "cw-dorfwiki-links-clock": {
+  "title": "A weaker clock",
+  "intent": "These dorfwiki times rely on the write-date clock, without the request-log corroboration of the dse sequence.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.08,
+     0.12,
+     0.24,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "WRITE-DATE ONLY",
+    "label_box": [
+     0.06,
+     0.488,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.56,
+     0.1,
+     0.24,
+     0.44
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "NO REQUEST-LOG",
+    "label_box": [
+     0.54,
+     0.548,
+     0.28,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The archival date field is kept separate from the preferred write time in the source note.",
+   "lettering": [
+    "These dorfwiki times rely on the weaker write-date clock. They do not have the request-log corroboration of the selected dse sequence."
+   ]
+  }
+ }
+}

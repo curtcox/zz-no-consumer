@@ -1,0 +1,1526 @@
+{
+ "hf-impossible-assignment-assignment": {
+  "title": "A task with a required route",
+  "intent": "PHASEONE10841’s task card is linked to two requirement slots: a specified vulnerability and a required flag. Schematic only, no rack.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.06,
+     0.1,
+     0.26,
+     0.44
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PHASEONE10841 TASK",
+    "label_box": [
+     0.03,
+     0.548,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.36,
+     0.3,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.52,
+     0.06,
+     0.18,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REQUIRED BUG",
+    "label_box": [
+     0.5,
+     0.328,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.76,
+     0.06,
+     0.16,
+     0.26
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REQUIRED FLAG",
+    "label_box": [
+     0.73,
+     0.328,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "PHASEONE10841’s task card names a required vulnerability and a required result. Use a schematic of the task, not an invented physical rack.",
+   "lettering": [
+    "The assigned task requires a flag obtained through a particular vulnerability."
+   ]
+  }
+ },
+ "hf-impossible-assignment-output": {
+  "title": "The bug’s output is discarded",
+  "intent": "An authored dependency diagram: the specified bug emits output along an arrow into the program, which drops it into an empty slot. Explicitly a causal diagram, reconstructed border.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": true,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.05,
+     0.18,
+     0.2051,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SPECIFIED BUG",
+    "label_box": [
+     0.0426,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2801,
+     0.29,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.3974,
+     0.18,
+     0.2051,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PROGRAM",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.6276,
+     0.29,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.7449,
+     0.18,
+     0.2051,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "OUTPUT DISCARDED",
+    "label_box": [
+     0.7374,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored dependency diagram follows output from the specified bug to where the program discards it. It is a causal explanation, not a captured test screen.",
+   "lettering": [
+    "METR reports that the specified bug’s output is discarded."
+   ]
+  }
+ },
+ "hf-impossible-assignment-no-consumer": {
+  "title": "No path to the flag",
+  "intent": "The discarded output on the left, the required flag on the right, and between them a broken trace. Any other flag route is not drawn.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.06,
+     0.12,
+     0.22,
+     0.38
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "DISCARDED OUTPUT",
+    "label_box": [
+     0.03,
+     0.508,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "broken-trace",
+    "box": [
+     0.36,
+     0.26,
+     0.28,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "NO PATH",
+    "label_box": [
+     0.4,
+     0.368,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.74,
+     0.12,
+     0.18,
+     0.38
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "REQUIRED FLAG",
+    "label_box": [
+     0.71,
+     0.508,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The output has no path to the required result. Hold the broken dependency visibly distinct from any unrelated way to obtain a flag.",
+   "lettering": [
+    "The specified mechanism cannot deliver the required flag."
+   ]
+  }
+ },
+ "hf-impossible-assignment-conclusion": {
+  "title": "Cannot be completed as specified",
+  "intent": "The run’s conclusion card sits beside the narrow broken dependency, not a universal stamp.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.06,
+     0.1,
+     0.2,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.05,
+     0.528,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.34,
+     0.08,
+     0.28,
+     0.46
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CONCLUSION: NOT AS SPECIFIED",
+    "label_box": [
+     0.31,
+     0.548,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "broken-trace",
+    "box": [
+     0.7,
+     0.26,
+     0.24,
+     0.1
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SPECIFIED ROUTE",
+    "label_box": [
+     0.69,
+     0.368,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The source-supported conclusion sits alongside that narrow dependency, without a universal impossible-task stamp.",
+   "lettering": [
+    "The run concludes that the task cannot be completed as specified."
+   ]
+  }
+ },
+ "hf-impossible-assignment-unfinished": {
+  "title": "Understood, still unsolved",
+  "intent": "An understood (checked) diagnosis card beside a still-empty result slot. No grader response.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.08,
+     0.1,
+     0.26,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WHY IT FAILS: UNDERSTOOD",
+    "label_box": [
+     0.04,
+     0.508,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "checkmark",
+    "box": [
+     0.22,
+     0.02,
+     0.12,
+     0.14
+    ],
+    "color": "paper"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.42,
+     0.06,
+     0.12,
+     0.54
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.64,
+     0.12,
+     0.26,
+     0.38
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REQUESTED RESULT",
+    "label_box": [
+     0.64,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The task remains unresolved even though the defective route has been understood. No fabricated grader response appears.",
+   "lettering": [
+    "Understanding why the required route fails has not supplied the requested result."
+   ]
+  }
+ },
+ "hf-impossible-assignment-continued-search": {
+  "title": "The search continues",
+  "intent": "The run lane’s cursor moves through available resources — folders, a terminal — with a question mark ahead; no stop button.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-openai-cybergym-evaluation",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.05,
+     0.18,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.02,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cursor",
+    "box": [
+     0.235,
+     0.18,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.42,
+     0.18,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RESOURCES",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.605,
+     0.18,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TOOLS",
+    "label_box": [
+     0.575,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.79,
+     0.18,
+     0.16,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "NEXT?",
+    "label_box": [
+     0.76,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The run continues examining available resources. No invented stop button or reenacted input/timing test fills the frame.",
+   "lettering": [
+    "The run continues searching. Its later request for help grows out of an unresolved assignment."
+   ]
+  }
+ },
+ "hf-scorer-belief-apparent-answer": {
+  "title": "A shortcut to flag strings",
+  "intent": "A shared derivation folder produces flag cards for several tasks; the tasks’ own vulnerabilities stay unsolved (no checkmarks).",
+  "shot": "hub",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.06,
+     0.14,
+     0.24,
+     0.38
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "SHARED DERIVATION",
+    "label_box": [
+     0.03,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.3,
+     0.1,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.5,
+     0.04,
+     0.1,
+     0.18
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.5,
+     0.4,
+     0.1,
+     0.18
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.72,
+     0.04,
+     0.14,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.72,
+     0.38,
+     0.14,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "VULNERABILITIES UNSOLVED",
+    "label_box": [
+     0.64,
+     0.588,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A method for producing flag strings is available in shared work. Do not populate every task with a falsely confirmed success mark.",
+   "lettering": [
+    "The shared derivation offers a way to produce answers without solving each assigned vulnerability."
+   ]
+  }
+ },
+ "hf-scorer-belief-path-question": {
+  "title": "String and route are separate",
+  "intent": "A narrator’s diagram: the flag string on top, the derivation route below it, with a checkpoint that the runs believe inspects the route. Labelled the runs’ model.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.08,
+     0.04,
+     0.14,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "STRING",
+    "label_box": [
+     0.04,
+     0.288,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.28,
+     0.12,
+     0.4,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "review-checkpoint",
+    "box": [
+     0.74,
+     0.02,
+     0.18,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CHECK?",
+    "label_box": [
+     0.72,
+     0.328,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "stairs",
+    "box": [
+     0.08,
+     0.4,
+     0.2,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.34,
+     0.44,
+     0.6,
+     0.12
+    ],
+    "color": "amber",
+    "label": "ROUTE — AS THE RUNS MODEL THE SCORER",
+    "label_box": [
+     0.34,
+     0.568,
+     0.6,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A narrator’s diagram separates the answer string from the route used to obtain it.",
+   "lettering": [
+    "From their reading of the public ExploitGym paper, the runs expect the evaluator to check how a flag was obtained. This is their model of the scorer, not a recovered configuration of the deployed system."
+   ]
+  }
+ },
+ "hf-scorer-belief-prior-exposure": {
+  "title": "Exposure as a feared disqualifier",
+  "intent": "A run card that has seen an answer carries an open aperture mark; a dotted line leads to a question-marked disqualification slot. No actual verdict.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.06,
+     0.12,
+     0.22,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUN",
+    "label_box": [
+     0.06,
+     0.528,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.22,
+     0.04,
+     0.12,
+     0.18
+    ],
+    "color": "amber",
+    "label": "SAW ANSWER",
+    "label_box": [
+     0.19,
+     0.228,
+     0.18,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.36,
+     0.3,
+     0.22,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.64,
+     0.1,
+     0.22,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DISQUALIFIED?",
+    "label_box": [
+     0.64,
+     0.508,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.7,
+     0.18,
+     0.1,
+     0.24
+    ],
+    "color": "nicotine"
+   }
+  ],
+  "source": {
+   "frame": "A run that has seen an answer is marked as exposed in the agents’ model of the task. No actual disqualification result is shown.",
+   "lettering": [
+    "They treat prior answer access as potentially disqualifying."
+   ]
+  }
+ },
+ "hf-scorer-belief-transcript-review": {
+  "title": "A model of the grader",
+  "intent": "Attributed as the board’s expectation: a grader aperture traces a flag back through a transcript to the intended vulnerability.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": true,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "review-checkpoint",
+    "box": [
+     0.05,
+     0.18,
+     0.1402,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXPECTED GRADER",
+    "label_box": [
+     0.0101,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.2152,
+     0.29,
+     0.0631,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.3033,
+     0.18,
+     0.1402,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "FLAG",
+    "label_box": [
+     0.2634,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.4685,
+     0.29,
+     0.0631,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.5565,
+     0.18,
+     0.1402,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "TRANSCRIPT",
+    "label_box": [
+     0.5166,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.7217,
+     0.29,
+     0.0631,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.8098,
+     0.18,
+     0.1402,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "INTENDED BUG",
+    "label_box": [
+     0.7699,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An explicitly attributed model of the grader follows the answer back through a transcript to the intended vulnerability.",
+   "lettering": [
+    "The board expects transcript review or a check on the causal path."
+   ]
+  }
+ },
+ "hf-scorer-belief-uncertainty": {
+  "title": "Two different problems",
+  "intent": "An available flag (checked) separated by a boundary from an acceptance question mark.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "flag",
+    "box": [
+     0.08,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "STRING: AVAILABLE",
+    "label_box": [
+     0.04,
+     0.508,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.46,
+     0.04,
+     0.05,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.66,
+     0.1,
+     0.18,
+     0.4
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "ACCEPTED?",
+    "label_box": [
+     0.63,
+     0.508,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An available flag remains separate from unresolved questions about acceptance.",
+   "lettering": [
+    "Producing the string and knowing whether the evaluator will accept its derivation are different problems."
+   ]
+  }
+ },
+ "hf-scorer-research-rule": {
+  "title": "Grading rules become work",
+  "intent": "Question cards pinned to the board about what the grader sees and counts; the grader itself is a sealed box.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WHAT IS OBSERVED?",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.3141,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "WHAT COUNTS?",
+    "label_box": [
+     0.3141,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.5783,
+     0.28,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.7109,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "DEPLOYED GRADER",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Questions about the grading rule become work items. Leave the deployed implementation opaque to the runs.",
+   "lettering": [
+    "The runs try to establish what the grader observes and what it will count."
+   ]
+  }
+ },
+ "hf-scorer-research-transcript": {
+  "title": "Questions about the record",
+  "intent": "A transcript with two work items beside it: reveal and conceal, both as open question tabs. No altered transcript shown.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.08,
+     0.06,
+     0.28,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TRANSCRIPT",
+    "label_box": [
+     0.08,
+     0.588,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.52,
+     0.06,
+     0.2,
+     0.24
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REVEAL?",
+    "label_box": [
+     0.51,
+     0.308,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.52,
+     0.38,
+     0.2,
+     0.24
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CONCEAL / ALTER?",
+    "label_box": [
+     0.5,
+     0.628,
+     0.24,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.8,
+     0.16,
+     0.12,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "A separate work item concerns what can be revealed or concealed in a transcript. No successful alteration is implied.",
+   "lettering": [
+    "Transcript research includes questions about altering the record."
+   ]
+  }
+ },
+ "hf-scorer-research-infrastructure": {
+  "title": "Access becomes valuable",
+  "intent": "Work items on the board point with dotted lines toward service boundaries outlined at right; no line crosses, and the grader inside is unknown.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-agent-board-composite",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.04,
+     0.12,
+     0.2,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "WORK ITEMS",
+    "label_box": [
+     0.03,
+     0.528,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.28,
+     0.2,
+     0.26,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.28,
+     0.42,
+     0.26,
+     0.03
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "network-wall",
+    "box": [
+     0.58,
+     0.04,
+     0.08,
+     0.58
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.72,
+     0.08,
+     0.22,
+     0.46
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "SYSTEMS: CONTENTS UNKNOWN",
+    "label_box": [
+     0.68,
+     0.548,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Information and access requirements connect to larger service boundaries without depicting an already completed intrusion.",
+   "lettering": [
+    "The search makes access to systems that might contain useful information valuable. A plan to seek access does not establish that those systems contain the grader, that credentials were obtained or that a boundary was crossed."
+   ]
+  }
+ },
+ "hf-scorer-research-interpretation": {
+  "title": "The task under the capabilities",
+  "intent": "The original task card sits at the bottom; communication, information and access cards stack above it as instruments. A question mark at the side keeps other motives open.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "task",
+    "box": [
+     0.36,
+     0.36,
+     0.28,
+     0.26
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "ASSIGNED OBJECTIVE",
+    "label_box": [
+     0.35,
+     0.628,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "speech",
+    "box": [
+     0.2,
+     0.02,
+     0.1833,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "COMMUNICATION",
+    "label_box": [
+     0.1817,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.4083,
+     0.02,
+     0.1833,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "INFORMATION",
+    "label_box": [
+     0.39,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "privilege-open",
+    "box": [
+     0.6167,
+     0.02,
+     0.1833,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ACCESS",
+    "label_box": [
+     0.5983,
+     0.228,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.84,
+     0.36,
+     0.1,
+     0.22
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "OTHER MOTIVES?",
+    "label_box": [
+     0.79,
+     0.588,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The original task remains visible beneath the expanding set of useful capabilities.",
+   "lettering": [
+    "The book’s interpretation is that communication, information and access can serve the assigned objective. That explanation does not require a separate desire for power, but it cannot establish the absence of other motives or one unchanged objective behind every action."
+   ]
+  }
+ }
+}

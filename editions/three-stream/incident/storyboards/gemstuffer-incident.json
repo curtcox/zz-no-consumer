@@ -1,0 +1,6223 @@
+{
+ "gs-earliest-package": {
+  "title": "A package enters the registry",
+  "intent": "A single gem package card drops into a registry shelf of ordinary packages on 5 May. No avatar or model label.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.08,
+     0.13,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "5 MAY",
+    "label_box": [
+     0.01,
+     0.308,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-down",
+    "box": [
+     0.46,
+     0.02,
+     0.06,
+     0.14
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.38,
+     0.18,
+     0.22,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PACKAGE",
+    "label_box": [
+     0.38,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7,
+     0.24,
+     0.1,
+     0.14
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.84,
+     0.24,
+     0.1,
+     0.14
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.22,
+     0.3,
+     0.1,
+     0.14
+    ],
+    "color": "shadow",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "A package artifact enters the registry. No agent avatar, model name or private prompt appears.",
+   "lettering": [
+    "5 May. September investigators date the earliest package they attribute to this campaign to this day."
+   ]
+  }
+ },
+ "gs-earliest-attribution-boundary": {
+  "title": "The artifact and its date only",
+  "intent": "The same package with its date tag, large; outside the frame edge an empty author slot beyond an evidence limit, labelled later inference.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.08,
+     0.12,
+     0.26,
+     0.4
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "5 MAY PACKAGE",
+    "label_box": [
+     0.06,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "evidence-limit",
+    "box": [
+     0.44,
+     0.06,
+     0.1,
+     0.52
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.64,
+     0.12,
+     0.24,
+     0.38
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AUTHOR: LATER INFERENCE",
+    "label_box": [
+     0.6,
+     0.508,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Hold the artifact and its date. Its author remains outside the frame.",
+   "lettering": [
+    "The package is a dated artifact. Identifying its author is a later inference, not something visible to the registry here."
+   ]
+  }
+ },
+ "gs-name-identifier": {
+  "title": "A name field highlighted",
+  "intent": "A package metadata sheet with one field highlighted amber labelled name contains “oai”. The rest of the sheet is untouched; no specimen name.",
+  "shot": "close-up",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.08,
+     0.13,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "8 MAY",
+    "label_box": [
+     0.01,
+     0.308,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.3,
+     0.04,
+     0.3,
+     0.58
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.26,
+     0.18,
+     0.38,
+     0.1
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.68,
+     0.16,
+     0.28,
+     0.14
+    ],
+    "color": "amber",
+    "label": "NAME FIELD CONTAINS OAI",
+    "label_box": [
+     0.68,
+     0.308,
+     0.28,
+     0.1
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A package-name field is highlighted, with the rest of the artifact unaltered. Do not create a specimen name.",
+   "lettering": [
+    "8 May. The investigators identify the first package name containing the string oai."
+   ]
+  }
+ },
+ "gs-name-limit": {
+  "title": "A clue, not an identification",
+  "intent": "The highlighted name field beside a separate, empty author-identification field.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "directory-row",
+    "box": [
+     0.04,
+     0.2,
+     0.36,
+     0.14
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "NAME: CLUE",
+    "label_box": [
+     0.04,
+     0.348,
+     0.36,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.48,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.62,
+     0.12,
+     0.28,
+     0.38
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PUBLISHER IDENTITY",
+    "label_box": [
+     0.61,
+     0.508,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Keep that field distinct from an empty author-identification field in the authored explanatory geometry.",
+   "lettering": [
+    "A name can become an attribution clue. It is not itself a private trace identifying the publisher."
+   ]
+  }
+ },
+ "gs-email-gap-web": {
+  "title": "Web publishing requires confirmation",
+  "intent": "A maintainer’s change review diagram: the web route passes through a confirmation gate before publishing.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.18,
+     0.2051,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ACCOUNT",
+    "label_box": [
+     0.0426,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2801,
+     0.29,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "review-checkpoint",
+    "box": [
+     0.3974,
+     0.18,
+     0.2051,
+     0.3
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "EMAIL CONFIRMED?",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.6276,
+     0.29,
+     0.0923,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7449,
+     0.18,
+     0.2051,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PUBLISH",
+    "label_box": [
+     0.7374,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.56,
+     0.3,
+     0.07
+    ],
+    "color": "steel",
+    "label": "WEB ROUTE",
+    "label_box": [
+     0.04,
+     0.638,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A maintainer’s change review distinguishes the web publishing route from the API route.",
+   "lettering": [
+    "The web interface requires account confirmation."
+   ]
+  }
+ },
+ "gs-email-gap-api": {
+  "title": "The API route skips the check",
+  "intent": "The parallel API route: an unconfirmed account creates a key and publishes, bypassing an empty checkpoint slot.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.18,
+     0.1798,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "UNCONFIRMED ACCOUNT",
+    "label_box": [
+     0.0299,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.2548,
+     0.29,
+     0.0809,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.3607,
+     0.18,
+     0.1798,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "API KEY",
+    "label_box": [
+     0.3406,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.5654,
+     0.18,
+     0.1798,
+     0.3
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "NO CHECK",
+    "label_box": [
+     0.5453,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7702,
+     0.18,
+     0.1798,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PUBLISH",
+    "label_box": [
+     0.7501,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.56,
+     0.3,
+     0.07
+    ],
+    "color": "steel",
+    "label": "API ROUTE",
+    "label_box": [
+     0.04,
+     0.638,
+     0.3,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The API path in the reviewed design permits an unconfirmed account to create a key and publish. No actionable request is displayed.",
+   "lettering": [
+    "The change record describes API paths that do not enforce the same requirement."
+   ]
+  }
+ },
+ "gs-email-gap-patch": {
+  "title": "The check added",
+  "intent": "Abstract before-and-after code view: two sheets, the right one with a new checkpoint band inserted on the API path.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.08,
+     0.06,
+     0.26,
+     0.52
+    ],
+    "color": "dirty",
+    "focus": true,
+    "label": "BEFORE",
+    "label_box": [
+     0.08,
+     0.588,
+     0.26,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4,
+     0.3,
+     0.12,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.58,
+     0.06,
+     0.26,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "AFTER",
+    "label_box": [
+     0.58,
+     0.588,
+     0.26,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "review-checkpoint",
+    "box": [
+     0.64,
+     0.2,
+     0.14,
+     0.22
+    ],
+    "color": "moss",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "The proposed check is added to the API path in an abstract before-and-after code view.",
+   "lettering": [
+    "The fix closes that gap in the code."
+   ]
+  }
+ },
+ "gs-email-gap-merge": {
+  "title": "Merged, not yet deployed",
+  "intent": "A merge record card dated 11 May; a separate production service box beyond a time divider has an empty deployed-date slot.",
+  "shot": "timeline",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.06,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "MERGE · 11 MAY",
+    "label_box": [
+     0.04,
+     0.528,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.4,
+     0.06,
+     0.12,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.62,
+     0.12,
+     0.14,
+     0.4
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PRODUCTION",
+    "label_box": [
+     0.58,
+     0.528,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.8,
+     0.16,
+     0.14,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DEPLOYED?",
+    "label_box": [
+     0.76,
+     0.468,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The merge record closes the review sequence. Keep its date visibly separate from the production service.",
+   "lettering": [
+    "GitHub dates the merge to 11 May. That date alone does not establish when production changed."
+   ]
+  }
+ },
+ "gs-burst-submissions": {
+  "title": "Over 2,000 submissions",
+  "intent": "A dense accumulation of package cards across a two-day span, not in hourly bins; a count strip attributed to the September investigation.",
+  "shot": "wide",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.03,
+     0.04,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "11–12 MAY",
+    "label_box": [
+     0.01,
+     0.248,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.232,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.284,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.336,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.388,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.44,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.492,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.544,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.596,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.648,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.752,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.804,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.856,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.04,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.232,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.284,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.336,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.388,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.44,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.492,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.544,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.596,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.648,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.752,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.804,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.856,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.16,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.232,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.284,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.336,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.388,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.44,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.492,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.544,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.596,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.648,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.752,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.804,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.856,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.28,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.232,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.284,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.336,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.388,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.44,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.492,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.544,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.596,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.648,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.7,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.752,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.804,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.856,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.4,
+     0.04,
+     0.09
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.2,
+     0.56,
+     0.6,
+     0.07
+    ],
+    "color": "amber",
+    "label": ">2,000 SUBMISSIONS (SEPTEMBER REPORT)",
+    "label_box": [
+     0.2,
+     0.638,
+     0.6,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Package artifacts accumulate across the two-day interval. Do not distribute them evenly into invented hourly bins.",
+   "lettering": [
+    "The September investigation reports over 2,000 package submissions on 11–12 May."
+   ]
+  }
+ },
+ "gs-burst-units": {
+  "title": "Counted units are packages",
+  "intent": "The counted objects are package boxes; behind them three empty slots for agents, compromised developers and thefts, left unfilled.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.04,
+     0.12,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.12,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.11,
+     0.36,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PACKAGES",
+    "label_box": [
+     0.06,
+     0.568,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.38,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.46,
+     0.14,
+     0.1467,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "AGENTS",
+    "label_box": [
+     0.4233,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.6317,
+     0.14,
+     0.1467,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DEVELOPERS",
+    "label_box": [
+     0.595,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.8033,
+     0.14,
+     0.1467,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "THEFTS",
+    "label_box": [
+     0.7667,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The counted objects stay packages. Leave the identities behind them unpictured.",
+   "lettering": [
+    "This is a count of submissions, not of agents, compromised developers or successful thefts."
+   ]
+  }
+ },
+ "gs-email-deployment-deployment": {
+  "title": "The check reaches production",
+  "intent": "The confirmation checkpoint moves into the production API boundary; dated 12 May as deployment.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.08,
+     0.13,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "12 MAY",
+    "label_box": [
+     0.01,
+     0.308,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "review-checkpoint",
+    "box": [
+     0.24,
+     0.1,
+     0.16,
+     0.4
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "CONFIRMATION CHECK",
+    "label_box": [
+     0.19,
+     0.508,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.44,
+     0.28,
+     0.12,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.62,
+     0.08,
+     0.24,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PRODUCTION API",
+    "label_box": [
+     0.59,
+     0.548,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The account-confirmation check reaches a schematic production API boundary.",
+   "lettering": [
+    "The investigators date the production change to 12 May."
+   ]
+  }
+ },
+ "gs-email-deployment-different-dates": {
+  "title": "Two dates, two questions",
+  "intent": "Two date cards side by side: merge (11 May) and deployment (12 May), each labelled by what it records; no line collapses them.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-documentary-evidence-field",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.08,
+     0.1,
+     0.26,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "MERGE: 11 MAY",
+    "label_box": [
+     0.06,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "time-divider",
+    "box": [
+     0.42,
+     0.06,
+     0.14,
+     0.56
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.64,
+     0.1,
+     0.26,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "DEPLOYMENT: 12 MAY",
+    "label_box": [
+     0.62,
+     0.528,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Stay on the changed service, with deployment identified as the kind of event being dated.",
+   "lettering": [
+    "A merge record and a production deployment record answer different questions. The two dates have not been collapsed."
+   ]
+  }
+ },
+ "gs-registration-stop-reported-load": {
+  "title": "A status log entry",
+  "intent": "A dated service-status ledger line at 08:54 describes DDoS activity; incoming registration arrows crowd the registration door.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "STATUS LOG · 08:54",
+    "label_box": [
+     0.01,
+     0.568,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.06,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.16,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.26,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.36,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.34,
+     0.46,
+     0.28,
+     0.04
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "open-gate",
+    "box": [
+     0.7,
+     0.08,
+     0.2,
+     0.46
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REGISTRATION",
+    "label_box": [
+     0.69,
+     0.548,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A dated service-status record accompanies incoming registration activity.",
+   "lettering": [
+    "12 May, 08:54 UTC. RubyGems’ status log describes DDoS activity."
+   ]
+  }
+ },
+ "gs-registration-stop-registration-disabled": {
+  "title": "Registration closes",
+  "intent": "The registration door is now a closed gate; a separate existing-user route beside it is not drawn closed.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.1,
+     0.08,
+     0.24,
+     0.48
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "NEW REGISTRATION: DISABLED",
+    "label_box": [
+     0.04,
+     0.568,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.48,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.58,
+     0.28,
+     0.2,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.82,
+     0.16,
+     0.12,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXISTING USERS",
+    "label_box": [
+     0.78,
+     0.448,
+     0.2,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The new-account registration route closes. Distinguish it from existing users’ package operations.",
+   "lettering": [
+    "Registration is disabled."
+   ]
+  }
+ },
+ "gs-registration-stop-consequence": {
+  "title": "Closed to newcomers too",
+  "intent": "A generic would-be new account card approaches the closed gate and stops. Not a recovered individual.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "WOULD-BE NEW ACCOUNT",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.28,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.4467,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "dirty",
+    "focus": true
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.7109,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "REGISTRATION CLOSED",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A would-be new account meets the unavailable registration service. The person and attempted time are not depicted as a recovered individual event.",
+   "lettering": [
+    "The defensive action also closes the service to new registrants."
+   ]
+  }
+ },
+ "gs-socket-analysis-analysis": {
+  "title": "Socket publishes an analysis",
+  "intent": "A dated Socket analysis document opens over package artifacts; an aperture examines one package. No person drawn.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-report-comparison-space",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.24,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SOCKET ANALYSIS · 13 MAY",
+    "label_box": [
+     0.01,
+     0.568,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "aperture",
+    "box": [
+     0.36,
+     0.14,
+     0.16,
+     0.3
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXAMINE",
+    "label_box": [
+     0.33,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.6,
+     0.08,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.76,
+     0.08,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.68,
+     0.36,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "PACKAGES",
+    "label_box": [
+     0.63,
+     0.568,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Joseph Edwards’ dated Socket analysis opens on package artifacts. No personal scene is invented.",
+   "lettering": [
+    "13 May. Socket publishes its GemStuffer analysis."
+   ]
+  }
+ },
+ "gs-socket-analysis-public-material": {
+  "title": "Council material packed into gems",
+  "intent": "Three public council portal buildings (Lambeth, Wandsworth, Southwark) feed page cards into a gem package box.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-web",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.04,
+     0.02,
+     0.14,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "LAMBETH",
+    "label_box": [
+     0.01,
+     0.208,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.04,
+     0.24,
+     0.14,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "WANDSWORTH",
+    "label_box": [
+     0.01,
+     0.428,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "building",
+    "box": [
+     0.04,
+     0.46,
+     0.14,
+     0.14
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SOUTHWARK",
+    "label_box": [
+     0.01,
+     0.608,
+     0.22,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.24,
+     0.28,
+     0.14,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.42,
+     0.12,
+     0.16,
+     0.36
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "PUBLIC PAGES",
+    "label_box": [
+     0.39,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.62,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.76,
+     0.12,
+     0.18,
+     0.36
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "GEM",
+    "label_box": [
+     0.74,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The report’s specimen discussion connects public ModernGov material with packaged copies. Keep narration outside the document rendering.",
+   "lettering": [
+    "Socket describes public material from Lambeth, Wandsworth and Southwark packed into gems."
+   ]
+  }
+ },
+ "gs-socket-analysis-contents": {
+  "title": "Classes of public material",
+  "intent": "An authored close-up: calendar, agenda listing and committee link cards as separate classes, all clearly public.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-web",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "parallel-calendar-field",
+    "box": [
+     0.05,
+     0.14,
+     0.2833,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CALENDAR",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.3583,
+     0.14,
+     0.2833,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "AGENDA LISTING",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.6667,
+     0.14,
+     0.2833,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "COMMITTEE LINKS",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An authored close-up separates a council calendar, agenda listing and committee link as classes of collected public material. No invented private document is shown.",
+   "lettering": [
+    "The analyzed samples collect calendar pages, agenda listings, committee links and related meeting information from public-facing ModernGov portals."
+   ]
+  }
+ },
+ "gs-socket-analysis-follow-links": {
+  "title": "A specimen follows links",
+  "intent": "Analysis diagram of code behavior: a calendar page link arrow leads to an agenda page, then a second collection round; labelled code analysis, not a log.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-web",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "parallel-calendar-field",
+    "box": [
+     0.05,
+     0.14,
+     0.2391,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CALENDAR",
+    "label_box": [
+     0.05,
+     0.468,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.26,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.4467,
+     0.14,
+     0.2391,
+     0.32
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "AGENDA",
+    "label_box": [
+     0.4467,
+     0.468,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "reply-bracket",
+    "box": [
+     0.7109,
+     0.14,
+     0.2391,
+     0.32
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "NEXT ROUND",
+    "label_box": [
+     0.7109,
+     0.468,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.2,
+     0.56,
+     0.6,
+     0.07
+    ],
+    "color": "amber",
+    "label": "SOCKET: CODE BEHAVIOR ANALYSIS",
+    "label_box": [
+     0.25,
+     0.638,
+     0.5,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The report’s specimen diagram follows a calendar link into agenda material. It is explicitly analysis of code behavior, not a logged retrieval with a fabricated timestamp.",
+   "lettering": [
+    "Socket describes a specimen that follows extracted links for another round of collection. Its analysis examines the collection behavior, not just the package names."
+   ]
+  }
+ },
+ "gs-socket-analysis-republishing": {
+  "title": "Republished with embedded credentials",
+  "intent": "A package with a sealed embedded credential sends a new package back into the registry.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.16,
+     0.1798,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SPECIMEN",
+    "label_box": [
+     0.0299,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.2548,
+     0.16,
+     0.1798,
+     0.32
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "EMBEDDED CREDENTIAL",
+    "label_box": [
+     0.2347,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4596,
+     0.28,
+     0.0809,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5654,
+     0.16,
+     0.1798,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REPUBLISHED GEM",
+    "label_box": [
+     0.5453,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.7702,
+     0.16,
+     0.1798,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "REGISTRY",
+    "label_box": [
+     0.7501,
+     0.488,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A schematic of the reported package behavior connects embedded credentials with republication. No credentials or executable instructions appear.",
+   "lettering": [
+    "Its analysis describes republication using embedded credentials."
+   ]
+  }
+ },
+ "gs-socket-analysis-own-credentials": {
+  "title": "Its own publishing credentials",
+  "intent": "An opaque specimen with its own sealed publishing credential inside a self-contained outline; a developer’s machine outside with its keys untouched.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.04,
+     0.06,
+     0.46,
+     0.52
+    ],
+    "color": "amber",
+    "label": "SELF-CONTAINED SPECIMEN",
+    "label_box": [
+     0.07,
+     0.588,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.1,
+     0.16,
+     0.16,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.3,
+     0.18,
+     0.14,
+     0.26
+    ],
+    "color": "claret",
+    "focus": true,
+    "label": "OWN KEY",
+    "label_box": [
+     0.26,
+     0.448,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "monitor",
+    "box": [
+     0.64,
+     0.1,
+     0.18,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "USER MACHINE",
+    "label_box": [
+     0.61,
+     0.408,
+     0.24,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.84,
+     0.14,
+     0.1,
+     0.2
+    ],
+    "color": "shadow",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "A sealed publishing-credential card is included with an opaque specimen. No stolen developer key is inferred from it.",
+   "lettering": [
+    "Some samples carry their own publishing credentials. Socket describes a self-contained publishing environment rather than dependence on credentials already belonging to the machine’s user."
+   ]
+  }
+ },
+ "gs-socket-analysis-variants": {
+  "title": "Two paths to the same output",
+  "intent": "Two differently shaped publishing routes — via the gem client (terminal) and direct (arrow) — converge on one package-output box.",
+  "shot": "hub",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.04,
+     0.02,
+     0.18,
+     0.24
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "GEM CLIENT",
+    "label_box": [
+     0.02,
+     0.268,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.26,
+     0.12,
+     0.3,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.36,
+     0.18,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DIRECT",
+    "label_box": [
+     0.02,
+     0.588,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.26,
+     0.46,
+     0.3,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.62,
+     0.08,
+     0.3,
+     0.48
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REGISTRY AS DATA STORE",
+    "label_box": [
+     0.6,
+     0.568,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Two differently shaped publishing paths reach the same package-output category. The code, commands and API details are absent.",
+   "lettering": [
+    "Socket finds variants using the package client and variants publishing directly. Different implementation paths lead to the same use of the registry as a public data store."
+   ]
+  }
+ },
+ "gs-socket-analysis-archive": {
+  "title": "Data inside a gem",
+  "intent": "An archive box open to show collected response sheets inside, visibly different from a library code block beside it.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.06,
+     0.08,
+     0.34,
+     0.48
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "VALID GEM ARCHIVE",
+    "label_box": [
+     0.05,
+     0.568,
+     0.36,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.14,
+     0.2,
+     0.1,
+     0.2
+    ],
+    "color": "paper"
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.26,
+     0.2,
+     0.1,
+     0.2
+    ],
+    "color": "paper"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.5,
+     0.16,
+     0.14,
+     0.28
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "COLLECTED RESPONSES",
+    "label_box": [
+     0.47,
+     0.448,
+     0.2,
+     0.08
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "terminal",
+    "box": [
+     0.76,
+     0.12,
+     0.18,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "LIBRARY CODE",
+    "label_box": [
+     0.74,
+     0.468,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An output archive contains collected response data, visibly distinguished from executable library content. No confidential data is invented.",
+   "lettering": [
+    "In the analyzed specimens, fetched responses are embedded inside valid gem archives. A package-shaped object can hold collected information as well as software."
+   ]
+  }
+ },
+ "gs-socket-analysis-counts": {
+  "title": "Two counts in one report",
+  "intent": "Two separate count cards from the same report: introduction (>100 gems) and tracker (155 artifacts incl. versions).",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-report-comparison-space",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.08,
+     0.1,
+     0.28,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "INTRODUCTION: >100 GEMS",
+    "label_box": [
+     0.05,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.47,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.62,
+     0.1,
+     0.3,
+     0.42
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "TRACKER: 155 ARTIFACTS",
+    "label_box": [
+     0.6,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Two separately labeled narrator’s measures sit beside the source: introduction and tracker.",
+   "lettering": [
+    "The introduction counts more than 100 gems. The tracker paragraph counts 155 package artifacts, including versions."
+   ]
+  }
+ },
+ "gs-socket-analysis-downloads": {
+  "title": "Little download activity",
+  "intent": "A download indicator drawn as an almost empty budget bar beside the package cards; no time series.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.12,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2,
+     0.12,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.13,
+     0.36,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "SAMPLES",
+    "label_box": [
+     0.08,
+     0.568,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.48,
+     0.18,
+     0.3,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "DOWNLOADS: LITTLE OR NONE",
+    "label_box": [
+     0.43,
+     0.388,
+     0.4,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Download activity is shown as a finding of the analysis without inventing a time series.",
+   "lettering": [
+    "Many samples had little or no download activity."
+   ]
+  }
+ },
+ "gs-socket-analysis-download-meaning": {
+  "title": "Low downloads, real misuse",
+  "intent": "Split: low download bar on the left (few developers reached); publishing-and-storage diagram on the right (registry used as storage). Neither converted into counts.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "budget-short",
+    "box": [
+     0.04,
+     0.16,
+     0.26,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "INFECTION: WEAK",
+    "label_box": [
+     0.02,
+     0.348,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.4,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.5,
+     0.14,
+     0.12,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.64,
+     0.24,
+     0.08,
+     0.05
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.76,
+     0.08,
+     0.18,
+     0.44
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "REGISTRY MISUSE",
+    "label_box": [
+     0.73,
+     0.528,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A low download indicator sits beside a separate publishing and storage diagram. Neither is converted into a count of compromised developers.",
+   "lettering": [
+    "Low download activity weakens a picture of mass developer infection, but does not erase misuse of registry publishing and storage. Those are different effects."
+   ]
+  }
+ },
+ "gs-socket-analysis-interpretation": {
+  "title": "Purposes open, no attribution",
+  "intent": "The analysis document with several purpose question cards; an empty attribution slot where a model name would go.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-report-comparison-space",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "paper",
+    "box": [
+     0.04,
+     0.04,
+     0.24,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "SOCKET, 13 MAY",
+    "label_box": [
+     0.02,
+     0.568,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.34,
+     0.14,
+     0.1475,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "PURPOSE?",
+    "label_box": [
+     0.3038,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.5125,
+     0.14,
+     0.1475,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "PURPOSE?",
+    "label_box": [
+     0.4762,
+     0.448,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.74,
+     0.12,
+     0.2,
+     0.36
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "ATTRIBUTION: NONE",
+    "label_box": [
+     0.71,
+     0.488,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The analysis remains open beside the specimens, without an OpenAI model avatar filling its missing attribution.",
+   "lettering": [
+    "Socket considers several possible purposes. Its May report does not attribute the campaign to OpenAI."
+   ]
+  }
+ },
+ "gs-cleanup-spam-stopped": {
+  "title": "The spam stops",
+  "intent": "The status ledger line at 03:17 on 13 May; the incoming arrows are gone, leaving an empty approach.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-announcement-ledger",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "transcript",
+    "box": [
+     0.04,
+     0.04,
+     0.22,
+     0.52
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "STATUS LOG · 03:17",
+    "label_box": [
+     0.01,
+     0.568,
+     0.28,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.36,
+     0.1,
+     0.3,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "INCOMING SPAM: STOPPED",
+    "label_box": [
+     0.34,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.76,
+     0.1,
+     0.16,
+     0.42
+    ],
+    "color": "steel",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "The incoming spam activity stops in the service-status account.",
+   "lettering": [
+    "13 May, 03:17 UTC. The status log says the spam has stopped."
+   ]
+  }
+ },
+ "gs-cleanup-accounts": {
+  "title": "Accounts removed",
+  "intent": "A row of account cards, several crossed out; no count label.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.05,
+     0.14,
+     0.2062,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.2812,
+     0.14,
+     0.2062,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.5125,
+     0.14,
+     0.2062,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.7437,
+     0.14,
+     0.2062,
+     0.3
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.08,
+     0.16,
+     0.14,
+     0.26
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.31,
+     0.16,
+     0.14,
+     0.26
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.54,
+     0.16,
+     0.14,
+     0.26
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.77,
+     0.16,
+     0.14,
+     0.26
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.2,
+     0.52,
+     0.6,
+     0.07
+    ],
+    "color": "steel",
+    "label": "ACCOUNTS REMOVED",
+    "label_box": [
+     0.3,
+     0.598,
+     0.4,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Associated accounts are removed from active use. No account count is invented.",
+   "lettering": [
+    "The response removes accounts."
+   ]
+  }
+ },
+ "gs-cleanup-packages": {
+  "title": "More than 500 yanked",
+  "intent": "A grid of package boxes stamped with a yank marker (arrow-up out of the index), still present in an archive tray beneath.",
+  "shot": "grid",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.13,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.27,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.34,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.41,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.48,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.55,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.62,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.69,
+     0.06,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.13,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.27,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.34,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.41,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.48,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.55,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.62,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.69,
+     0.2,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.13,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.27,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.34,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.41,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.48,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.55,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.62,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.69,
+     0.34,
+     0.05,
+     0.1
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "arrow-up",
+    "box": [
+     0.8,
+     0.06,
+     0.06,
+     0.3
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "YANKED",
+    "label_box": [
+     0.76,
+     0.368,
+     0.14,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.06,
+     0.52,
+     0.66,
+     0.08
+    ],
+    "color": "amber",
+    "label": ">500 PACKAGES YANKED (NOT ERASED)",
+    "label_box": [
+     0.09,
+     0.608,
+     0.6,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "More than five hundred package entries are marked yanked, rather than physically erased from all possible archives.",
+   "lettering": [
+    "The update reports more than 500 packages yanked."
+   ]
+  }
+ },
+ "gs-cleanup-existing-users": {
+  "title": "Existing users unaffected",
+  "intent": "Authored service map: an existing user’s install and push arrows pass freely through the service while the registration gate stays closed.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.04,
+     0.14,
+     0.16,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "EXISTING USER",
+    "label_box": [
+     0.01,
+     0.488,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.24,
+     0.14,
+     0.28,
+     0.05
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "PUSH",
+    "label_box": [
+     0.32,
+     0.198,
+     0.12,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow-left",
+    "box": [
+     0.24,
+     0.4,
+     0.28,
+     0.05
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "INSTALL",
+    "label_box": [
+     0.31,
+     0.458,
+     0.14,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.56,
+     0.08,
+     0.16,
+     0.48
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUBYGEMS",
+    "label_box": [
+     0.53,
+     0.568,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "gate",
+    "box": [
+     0.8,
+     0.14,
+     0.14,
+     0.34
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "REGISTRATION",
+    "label_box": [
+     0.77,
+     0.488,
+     0.2,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "An existing user’s install and push routes remain available in the authored service map.",
+   "lettering": [
+    "The same update says existing users’ installs and pushes were unaffected."
+   ]
+  }
+ },
+ "gs-registration-return-restored": {
+  "title": "Registration restored",
+  "intent": "The registration gate opens again at 05:12 on 16 May.",
+  "shot": "hero",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.06,
+     0.1,
+     0.16,
+     0.28
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "16 MAY · 05:12",
+    "label_box": [
+     0.02,
+     0.388,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "open-gate",
+    "box": [
+     0.36,
+     0.06,
+     0.28,
+     0.52
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "REGISTRATION OPEN",
+    "label_box": [
+     0.34,
+     0.588,
+     0.32,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The new-account route becomes available again.",
+   "lettering": [
+    "16 May, 05:12 UTC. Registration is restored."
+   ]
+  }
+ },
+ "gs-registration-return-scope": {
+  "title": "Open, not settled",
+  "intent": "The open gate at left; to the right, the earlier packages with question marks for authorship and purpose, untouched by the reopening.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "open-gate",
+    "box": [
+     0.06,
+     0.1,
+     0.22,
+     0.44
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "FUNCTIONING",
+    "label_box": [
+     0.06,
+     0.548,
+     0.22,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.4,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.52,
+     0.14,
+     0.12,
+     0.2
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "EARLIER",
+    "label_box": [
+     0.47,
+     0.348,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.66,
+     0.1,
+     0.1,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "AUTHOR?",
+    "label_box": [
+     0.65,
+     0.408,
+     0.12,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.84,
+     0.1,
+     0.1,
+     0.3
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "PURPOSE?",
+    "label_box": [
+     0.82,
+     0.408,
+     0.14,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Hold the functioning registration boundary rather than a triumphant all-clear for every package or credential.",
+   "lettering": [
+    "This update establishes the return of registration. It does not settle the authorship or purpose of the earlier packages."
+   ]
+  }
+ },
+ "gs-later-may-five": {
+  "title": "Five more packages",
+  "intent": "Five package boxes grouped under a 26–27 May bracket.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "open-bracket",
+    "box": [
+     0.06,
+     0.04,
+     0.88,
+     0.16
+    ],
+    "color": "steel",
+    "label": "26–27 MAY",
+    "label_box": [
+     0.4,
+     0.208,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.3,
+     0.16,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.235,
+     0.3,
+     0.16,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.42,
+     0.3,
+     0.16,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.605,
+     0.3,
+     0.16,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.79,
+     0.3,
+     0.16,
+     0.24
+    ],
+    "color": "amber",
+    "focus": true
+   }
+  ],
+  "source": {
+   "frame": "Five later package artifacts are grouped under the supported two-day interval.",
+   "lettering": [
+    "The investigators identify five further packages on 26–27 May."
+   ]
+  }
+ },
+ "gs-later-may-boundary": {
+  "title": "No single hand",
+  "intent": "The five artifacts remain; above each an empty uploader slot rather than one shared hand.",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.05,
+     0.02,
+     0.16,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.235,
+     0.02,
+     0.16,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.42,
+     0.02,
+     0.16,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.605,
+     0.02,
+     0.16,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.79,
+     0.02,
+     0.16,
+     0.18
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.05,
+     0.3,
+     0.16,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.235,
+     0.3,
+     0.16,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.42,
+     0.3,
+     0.16,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.605,
+     0.3,
+     0.16,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.79,
+     0.3,
+     0.16,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.2,
+     0.56,
+     0.6,
+     0.07
+    ],
+    "color": "steel",
+    "label": "ONE CONTINUOUS RUN? NOT ESTABLISHED",
+    "label_box": [
+     0.2,
+     0.638,
+     0.6,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The artifacts remain visible without drawing the same hand behind every upload.",
+   "lettering": [
+    "Further artifacts extend the observed activity. They do not identify one continuous run."
+   ]
+  }
+ },
+ "gs-june-packages-eighty-three": {
+  "title": "83 packages on 18 June",
+  "intent": "A dated grid of 83 small package marks.",
+  "shot": "grid",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.03,
+     0.04,
+     0.12,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "18 JUNE",
+    "label_box": [
+     0.01,
+     0.248,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.236,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.292,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.348,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.404,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.516,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.572,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.628,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.684,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.796,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.852,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.04,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.236,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.292,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.348,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.404,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.516,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.572,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.628,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.684,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.796,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.852,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.125,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.236,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.292,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.348,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.404,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.516,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.572,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.628,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.684,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.796,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.852,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.21,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.236,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.292,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.348,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.404,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.516,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.572,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.628,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.684,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.796,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.852,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.295,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.236,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.292,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.348,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.404,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.516,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.572,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.628,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.684,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.796,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.852,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.908,
+     0.38,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.18,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.236,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.292,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.348,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.404,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.46,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.516,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.572,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.628,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.684,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.74,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.796,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.852,
+     0.465,
+     0.04,
+     0.06
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "outline-box",
+    "box": [
+     0.3,
+     0.58,
+     0.4,
+     0.06
+    ],
+    "color": "amber",
+    "label": "83 PACKAGES",
+    "label_box": [
+     0.35,
+     0.648,
+     0.3,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A dated group of package artifacts occupies the registry view.",
+   "lettering": [
+    "The researchers identify 83 packages on 18 June."
+   ]
+  }
+ },
+ "gs-june-packages-no-invented-handoff": {
+  "title": "The registry row stays in its row",
+  "intent": "The package group sits inside the registry; at the right edge, a wiki page icon is beyond a hard boundary with a crossed-out arrow.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-public-record",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.06,
+     0.12,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.2,
+     0.12,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.13,
+     0.36,
+     0.12,
+     0.2
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "18 JUNE",
+    "label_box": [
+     0.08,
+     0.568,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.4,
+     0.3,
+     0.2,
+     0.06
+    ],
+    "color": "shadow",
+    "focus": true
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.44,
+     0.2,
+     0.1,
+     0.24
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.66,
+     0.04,
+     0.04,
+     0.6
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "public-wiki-site",
+    "box": [
+     0.76,
+     0.12,
+     0.18,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "WIKI (OTHER ROW)",
+    "label_box": [
+     0.73,
+     0.488,
+     0.24,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Keep the registry action entirely inside this row. No arrow crosses into a wiki post as if a handoff had been observed.",
+   "lettering": [
+    "The package record gives artifacts and dates. Shared identity and cooperation require additional evidence."
+   ]
+  }
+ },
+ "gs-cache-report-report": {
+  "title": "A cache flaw reported",
+  "intent": "A sealed vulnerability report card travels to RubyGems on 6 July; the reporter is named only in narration.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.08,
+     0.13,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "6 JULY",
+    "label_box": [
+     0.01,
+     0.308,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.24,
+     0.14,
+     0.2694,
+     0.34
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "CACHE FLAW REPORT",
+    "label_box": [
+     0.24,
+     0.488,
+     0.2694,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.5344,
+     0.27,
+     0.1212,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.6806,
+     0.14,
+     0.2694,
+     0.34
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "RUBYGEMS",
+    "label_box": [
+     0.6806,
+     0.488,
+     0.2694,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A vulnerability report reaches RubyGems. The reporter’s name is attributed in narration, with no invented email body.",
+   "lettering": [
+    "6 July. Luke Marshall reports a cache flaw to RubyGems."
+   ]
+  }
+ },
+ "gs-cache-report-exposure": {
+  "title": "Legacy sign-in keys exposed under conditions",
+  "intent": "Abstract service map: legacy sign-in key path highlighted amber through a cache layer; the package publishing route drawn separately in steel.",
+  "shot": "stack",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.04,
+     0.04,
+     0.14,
+     0.22
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "LEGACY SIGN-IN KEY",
+    "label_box": [
+     0.01,
+     0.268,
+     0.26,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.22,
+     0.12,
+     0.2,
+     0.05
+    ],
+    "color": "amber",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.46,
+     0.02,
+     0.18,
+     0.26
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "CACHE",
+    "label_box": [
+     0.44,
+     0.288,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "question",
+    "box": [
+     0.7,
+     0.02,
+     0.1,
+     0.24
+    ],
+    "color": "nicotine",
+    "focus": true,
+    "label": "CONDITIONAL",
+    "label_box": [
+     0.65,
+     0.268,
+     0.2,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "box",
+    "box": [
+     0.04,
+     0.4,
+     0.14,
+     0.2
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PACKAGE",
+    "label_box": [
+     0.01,
+     0.608,
+     0.22,
+     0.05
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.22,
+     0.48,
+     0.5,
+     0.05
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "PUBLISHING (SEPARATE)",
+    "label_box": [
+     0.32,
+     0.538,
+     0.3,
+     0.04
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "The legacy sign-in key path is highlighted in an abstract service map, separately from package publishing.",
+   "lettering": [
+    "The maintainer advisory describes conditional exposure of legacy sign-in keys."
+   ]
+  }
+ },
+ "gs-cache-report-distinct-system": {
+  "title": "Not the Artifactory flaw",
+  "intent": "RubyGems’ service boundary on the left; OpenAI’s Artifactory route on the right beyond a hard boundary; no connecting line.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "rack",
+    "box": [
+     0.08,
+     0.1,
+     0.2,
+     0.44
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "RUBYGEMS CACHE",
+    "label_box": [
+     0.05,
+     0.548,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "boundary",
+    "box": [
+     0.46,
+     0.04,
+     0.05,
+     0.6
+    ],
+    "color": "claret",
+    "focus": true
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.66,
+     0.12,
+     0.24,
+     0.4
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "ARTIFACTORY PROXY (OTHER)",
+    "label_box": [
+     0.61,
+     0.528,
+     0.34,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Keep the RubyGems service boundary clear and do not join it to an Artifactory request route.",
+   "lettering": [
+    "This is a flaw in RubyGems’ cache behavior. It is separate from the Artifactory proxy vulnerability."
+   ]
+  }
+ },
+ "gs-cache-fix-root-cause": {
+  "title": "The root-cause fix",
+  "intent": "A service-side patch sheet replaces the faulty cache card, which is crossed out. 9 July.",
+  "shot": "split",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "clock",
+    "box": [
+     0.04,
+     0.08,
+     0.13,
+     0.22
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "9 JULY",
+    "label_box": [
+     0.01,
+     0.308,
+     0.22,
+     0.06
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.24,
+     0.12,
+     0.2,
+     0.36
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "FAULTY CACHE BEHAVIOR",
+    "label_box": [
+     0.19,
+     0.488,
+     0.3,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "cross",
+    "box": [
+     0.26,
+     0.16,
+     0.16,
+     0.28
+    ],
+    "color": "dirty"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.5,
+     0.28,
+     0.1,
+     0.06
+    ],
+    "color": "moss",
+    "focus": true
+   },
+   {
+    "asset": "sheet",
+    "box": [
+     0.66,
+     0.08,
+     0.22,
+     0.46
+    ],
+    "color": "paper",
+    "focus": true,
+    "label": "ROOT-CAUSE FIX",
+    "label_box": [
+     0.64,
+     0.548,
+     0.26,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "A service-side change removes the faulty cache behavior.",
+   "lettering": [
+    "9 July. The root-cause fix is deployed."
+   ]
+  }
+ },
+ "gs-cache-fix-purge": {
+  "title": "The Fastly cache purged",
+  "intent": "A separate operation: cached response cards emptied out of a CDN cache box.",
+  "shot": "route",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "folder",
+    "box": [
+     0.05,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "FASTLY CACHE",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "arrow",
+    "box": [
+     0.3141,
+     0.28,
+     0.1076,
+     0.08
+    ],
+    "color": "steel",
+    "focus": true
+   },
+   {
+    "asset": "card",
+    "box": [
+     0.4467,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "shadow",
+    "focus": true,
+    "label": "CACHED RESPONSES",
+    "label_box": [
+     0.4467,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.7109,
+     0.16,
+     0.2391,
+     0.32
+    ],
+    "color": "moss",
+    "focus": true,
+    "label": "PURGED",
+    "label_box": [
+     0.7109,
+     0.488,
+     0.2391,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Cached responses are removed from Fastly as a separate response operation.",
+   "lettering": [
+    "The Fastly cache is purged."
+   ]
+  }
+ },
+ "gs-cache-fix-limited-class": {
+  "title": "Only one key class affected",
+  "intent": "Three key classes: legacy sign-in (amber, affected), scoped and short-lived (steel, unaffected with checkmarks).",
+  "shot": "row",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "location-background-systems-view",
+    "box": [
+     0.02,
+     0.02,
+     0.96,
+     0.96
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.05,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "amber",
+    "focus": true,
+    "label": "LEGACY SIGN-IN: AFFECTED",
+    "label_box": [
+     0.05,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.3583,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SCOPED: UNAFFECTED",
+    "label_box": [
+     0.3583,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   },
+   {
+    "asset": "sealed",
+    "box": [
+     0.6667,
+     0.16,
+     0.2833,
+     0.32
+    ],
+    "color": "steel",
+    "focus": true,
+    "label": "SHORT-LIVED: UNAFFECTED",
+    "label_box": [
+     0.6667,
+     0.488,
+     0.2833,
+     0.07
+    ],
+    "label_size": 28,
+    "font": "editorial"
+   }
+  ],
+  "source": {
+   "frame": "Legacy sign-in keys remain a distinct credential class in the narrator’s diagram.",
+   "lettering": [
+    "The advisory says scoped and short-lived keys were unaffected. The affected class must not be expanded to every RubyGems key."
+   ]
+  }
+ }
+}
