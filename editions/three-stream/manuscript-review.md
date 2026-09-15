@@ -13652,6 +13652,268 @@ OpenAI’s sentence follows attempts “to trick the evaluator into thinking tha
 ]
 ```
 
+## Codex draws the assurance comparison over three pages — prod-assurance-codex-pages
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T16:03:43.828Z → 2026-09-02T16:10:12.775Z · millisecond
+
+**Time evidence:** Stored records in Codex session 01a06270 (gpt-5.6-sol) on this Mac on 2 September: the commentary message at 16:03:43 UTC and the patch adding the Chapter 6 source packet and pages 089–104 at 16:10:12. The completed output at 16:10:14 reports no error, and the next command lists the new pages as untracked. Commit fa321fcc1 (16:14:49 UTC) is when these pages entered the repository.
+
+**Evidence limit:** Transcript text matching places the 2 September wording of frozen 098-01, 098-02 and 098-05 in the 16:10:12 patch; the rest of frozen 098 is Claude’s 5 September merge, shown at that act. Page 097’s and page 098’s other lines survive in the merged page only as changed wording, so those beats name them without claiming the merged panels. The three pages follow Sequence 32 of `content/story-outline.md` at `c15b1e6e2`, whose author is unestablished; that premise is not assigned to a row. Between this patch and the 5 September merge the only change to the three pages was one page note (`78a263b97`). METR’s and OpenAI’s texts are checked against the vault copies; no record shows Codex reading either passage.
+
+### prod-assurance-codex-page-096
+
+**Frame:** Codex’s message and the patch as text, each with its record time, cropped to the packet’s structural-comparison boundary and page 096, beside METR’s p. 12 and p. 47 passages on holds.
+
+**Lettering:**
+
+2 September, 16:03 UTC. Codex says the Chapter 6 draft “will not claim that every lab made the same decision or that the composite forum actually happened.” 16:10 UTC. One patch adds the chapter’s source packet and pages 089–104. The packet gives pages 096–098 their subject: “actors want assurances that others will also restrain themselves.” Their sources: “earlier documented agent pages; public positions above”.
+Page 096 opens on “DIFFERENT ACTORS. DIFFERENT RESPONSIBILITY. DIFFERENT STAKES.” The AGENT says “I will hold if the others hold.” The INSTITUTIONAL ROLE says “We can slow if the field slows with us.” The provenance: “neither line is a source quotation.” Panel 3: “Both assurance channels remain empty.” under “EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.” Panel 4’s clocks carry “THE RHYME IS COORDINATION FAILURE—NOT EQUIVALENCE.”
+METR found that the board had built the channel this page draws empty. Agents “developed coordination norms like HOLD, VETO, owner and STOP to help them manage shared infrastructure and avoid stepping on each other's toes”, though “they did not always coordinate effectively and sometimes broke down into conflicts” (p. 12). “The effectiveness of these conventions varied, but in many cases agents seemed to follow them in reasonable ways.” One agent reasoned it could keep a hold others were breaking. In METR’s paraphrase: “Many agents are violating the hold and the queue is probably overwhelmed, but I can continue to abide by them.” (p. 47)
+
+**Sources:** PROD-c870d69fe9a5 — 256t/editions/selected-messages/c870d69fe9a5e36fcc61297bb0560b5f6d8faeaccfc8356b5af69de6c130a218.json; record SHA-256 c870d69fe9a5e36fcc61297bb0560b5f6d8faeaccfc8356b5af69de6c130a218 (available 2026-09-02T16:03:43.828Z); PROD-d4d068e2487f — 256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6 (available 2026-09-02T16:10:12.775Z); METR — p. 12 and p. 47; message board coordination norms; braces convention p. 5, fn. 9; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 098-01, 098-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "will not claim that every lab made the same decision or that the composite forum actually happened.",
+    "source": "PROD-c870d69fe9a5",
+    "locator": "256t/editions/selected-messages/c870d69fe9a5e36fcc61297bb0560b5f6d8faeaccfc8356b5af69de6c130a218.json; record SHA-256 c870d69fe9a5e36fcc61297bb0560b5f6d8faeaccfc8356b5af69de6c130a218",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "actors want assurances that others will also restrain themselves.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "earlier documented agent pages; public positions above",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "DIFFERENT ACTORS. DIFFERENT RESPONSIBILITY. DIFFERENT STAKES.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "I will hold if the others hold.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "We can slow if the field slows with us.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "neither line is a source quotation.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Both assurance channels remain empty.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE RHYME IS COORDINATION FAILURE—NOT EQUIVALENCE.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "developed coordination norms like HOLD, VETO, owner and STOP to help them manage shared infrastructure and avoid stepping on each other's toes",
+    "source": "METR",
+    "locator": "p. 12; message board coordination; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "they did not always coordinate effectively and sometimes broke down into conflicts",
+    "source": "METR",
+    "locator": "p. 12; message board coordination; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "The effectiveness of these conventions varied, but in many cases agents seemed to follow them in reasonable ways.",
+    "source": "METR",
+    "locator": "p. 47; assignments, vetoes, and holds; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Many agents are violating the hold and the queue is probably overwhelmed, but I can continue to abide by them.",
+    "source": "METR",
+    "locator": "p. 47; assignments, vetoes, and holds; METR’s paraphrase of agent reasoning in braces (convention stated p. 5, fn. 9); checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-assurance-codex-pages-097-098
+
+**Frame:** The same patch cropped to pages 097 and 098, beside OpenAI’s 18 August pacing account.
+
+**Lettering:**
+
+The same patch writes page 097, “Good Reasons, Locally”. The AGENT: “Stopping leaves the assigned objective incomplete.” and “I have evidence this path may succeed.” A DEFENSIVE PROGRAM ROLE: “Stopping capability work can also delay tools defenders need.” An EVALUATION ROLE: “We need to know what the frontier system can do before deployment.” Captions: “EACH DECISION CAN BE DEFENSIBLE AT THE SCALE OF THE DECIDER.” and “NOBODY HAS TO BE IRRATIONAL FOR THE SYSTEM TO PRODUCE DANGER.”
+Page 098, “Bad Results, Collectively”: “LOCAL REASONS AGGREGATE.”, “NO PARTICIPANT NEEDS TO CHOOSE THE COLLECTIVE OUTCOME.”, “THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.” and “RECOGNIZING THE SHAPE DOES NOT CREATE THE MISSING COORDINATION.” Its note: “Do not imply that all actors chose continuation.”
+One of the public positions, OpenAI’s pacing account, describes its slowdown with no condition on anyone else: “we temporarily slowed the pace of scaling”. The stored copy never uses “race”, “competition” or “labs”. It mentions the field once: “Keeping increasingly capable systems aligned is a challenge the whole field will need to address.” Its defensive case is about models: “We expect models to soon drive most security work, including defending against other models.”
+
+**Sources:** PROD-d4d068e2487f — 256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6 (available 2026-09-02T16:10:12.775Z); OAI-PACE — 18 August 2026; safeguards, pause and alignment paragraphs; checked against both stored copies (2 and 6 September); no occurrence of race, compet or labs in the text (available 2026-08-18)
+
+**Frozen panel associations:** 098-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Good Reasons, Locally",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Stopping leaves the assigned objective incomplete.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "I have evidence this path may succeed.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Stopping capability work can also delay tools defenders need.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "We need to know what the frontier system can do before deployment.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "EACH DECISION CAN BE DEFENSIBLE AT THE SCALE OF THE DECIDER.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "NOBODY HAS TO BE IRRATIONAL FOR THE SYSTEM TO PRODUCE DANGER.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Bad Results, Collectively",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "LOCAL REASONS AGGREGATE.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "NO PARTICIPANT NEEDS TO CHOOSE THE COLLECTIVE OUTCOME.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "RECOGNIZING THE SHAPE DOES NOT CREATE THE MISSING COORDINATION.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Do not imply that all actors chose continuation.",
+    "source": "PROD-d4d068e2487f",
+    "locator": "256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "we temporarily slowed the pace of scaling",
+    "source": "OAI-PACE",
+    "locator": "18 August 2026; Strengthening safeguards for more capable models; checked against both stored copies (2 and 6 September)",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Keeping increasingly capable systems aligned is a challenge the whole field will need to address.",
+    "source": "OAI-PACE",
+    "locator": "18 August 2026; alignment paragraph; checked against both stored copies (2 and 6 September)",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "We expect models to soon drive most security work, including defending against other models.",
+    "source": "OAI-PACE",
+    "locator": "18 August 2026; three safeguards paragraph; checked against both stored copies (2 and 6 September)",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## Codex folds the boundary page into one dossier — prod-boundary-codex-cadence
 
 **Row:** Codex · collaboration
@@ -17195,6 +17457,125 @@ METR also warns that analysis agents made errors and could select overly charita
 ]
 ```
 
+## Claude finds the stretch restates Chapter 3 and puts the cut to Curt — prod-assurance-claude-r6
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T21:48:18.517Z → 2026-09-05T22:00:48.840Z · millisecond
+
+**Time evidence:** Stored records on this Mac on 5 September: the Write creating research/read-through-findings.md at 21:48:18 UTC in Claude session 382dd4f9, and the AskUserQuestion call at 22:00:48 in Claude session fa3d8361. Commit 8e15dd7a3 (21:58:00 UTC) carries the findings file.
+
+**Evidence limit:** R6 is quoted from the Write that created the file. Its other twelve items are placed with their own sequences. The question’s R1 half is placed with the accountability pages when that sequence is re-anchored. The session’s reasoning between reading the findings and asking is stored redacted, so no private decision is shown.
+
+### prod-assurance-claude-r6-restatement
+
+**Frame:** Claude’s Write as text with its record time, cropped to R6’s table and options.
+
+**Lettering:**
+
+5 September, 21:48 UTC. Claude’s findings file, R6: “Chapter 6 has a six-page stretch that introduces no evidence and restates Chapter 3”. Its table sets page 054’s “THE RHYME IS STRUCTURAL, NOT CAUSAL.” beside page 096’s panel 4 caption, and 054’s “LOCALLY DEFENSIBLE CONTINUATION CAN STILL CREATE COLLECTIVE DANGER.” beside one caption each from 097 and 098. No other line from the three pages is in the table, so neither is the guarantee caption.
+Option A: “096–098 → one page; 099+100 → one page”, parity preserved, “(4 removed)”. The recommendation gives two reasons: nothing documented is lost, “and because four is even”, no reveal or page turn is invalidated.
+
+**Sources:** PROD-9f6ec303c791 — 256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8 (available 2026-09-05T21:48:18.517Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Chapter 6 has a six-page stretch that introduces no evidence and restates Chapter 3",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE RHYME IS STRUCTURAL, NOT CAUSAL.",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "LOCALLY DEFENSIBLE CONTINUATION CAN STILL CREATE COLLECTIVE DANGER.",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "096–098 → one page; 099+100 → one page",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "(4 removed)",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "and because four is even",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+### prod-assurance-claude-question
+
+**Frame:** Claude’s question as sent, with its record time.
+
+**Lettering:**
+
+22:00 UTC. Claude puts the cut to Curt: “R6 — how far should the Chapter 6 stretch (096–102) be cut?” Option A, marked recommended: “Four pages removed, parity preserved, no page-turn invalidated, no documented evidence lost.” Option B “Keeps the 096–098 comparison triptych”. Option D treats the stretch as “a deliberate deceleration before the forum.” The file’s option C, new documented material for 096–098, is not offered.
+
+**Sources:** PROD-cfe1a9c1f3b4 — 256t/editions/selected-messages/cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f.json; record SHA-256 cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f (available 2026-09-05T22:00:48.840Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "R6 — how far should the Chapter 6 stretch (096–102) be cut?",
+    "source": "PROD-cfe1a9c1f3b4",
+    "locator": "256t/editions/selected-messages/cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f.json; record SHA-256 cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Four pages removed, parity preserved, no page-turn invalidated, no documented evidence lost.",
+    "source": "PROD-cfe1a9c1f3b4",
+    "locator": "256t/editions/selected-messages/cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f.json; record SHA-256 cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Keeps the 096–098 comparison triptych",
+    "source": "PROD-cfe1a9c1f3b4",
+    "locator": "256t/editions/selected-messages/cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f.json; record SHA-256 cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "a deliberate deceleration before the forum.",
+    "source": "PROD-cfe1a9c1f3b4",
+    "locator": "256t/editions/selected-messages/cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f.json; record SHA-256 cfe1a9c1f3b4c52aeff605020472979dbdc3f13e54e7def08bebd4dc4cea8f0f",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## Claude writes the denominator and its caption — prod-interpretation-claude-denominator
 
 **Row:** Claude · collaboration
@@ -17329,6 +17710,42 @@ The caption measures the zz entries and names them the board, the conflation its
 **Sources:** PROD-496d75375a67 — 256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38 (available 2026-09-05T21:59:17.868Z)
 
 **Frozen panel associations:** New material.
+
+## Curt chooses option A — prod-assurance-curt-choice
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-05T22:02:27.901Z → 2026-09-05T22:02:27.901Z · millisecond
+
+**Time evidence:** Stored AskUserQuestion result at 22:02:27 UTC on 5 September in Claude session fa3d8361, 17:02 in Curt’s time zone.
+
+**Evidence limit:** The option labels are Claude’s wording; the selection is Curt’s. The same record carries Curt’s R1 answer, placed with the accountability pages. Stored time is when the answers were returned, not when Curt read the options.
+
+### prod-assurance-curt-option-a
+
+**Frame:** Curt’s answers as returned to the session, with the record time, alone in the Curt row.
+
+**Lettering:**
+
+22:02 UTC. Curt’s answer to R6: “Option A (Recommended)”. In the same reply R1 gets its own page.
+
+**Sources:** PROD-f1ef4281e25e — 256t/editions/selected-messages/f1ef4281e25e6939122d8563ee64e69eb63b81a38276afafc4b33fb3a9cbfde5.json; record SHA-256 f1ef4281e25e6939122d8563ee64e69eb63b81a38276afafc4b33fb3a9cbfde5 (available 2026-09-05T22:02:27.901Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Option A (Recommended)",
+    "source": "PROD-f1ef4281e25e",
+    "locator": "256t/editions/selected-messages/f1ef4281e25e6939122d8563ee64e69eb63b81a38276afafc4b33fb3a9cbfde5.json; record SHA-256 f1ef4281e25e6939122d8563ee64e69eb63b81a38276afafc4b33fb3a9cbfde5",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
 
 ## Claude revises the interlude from its read-through — prod-prologue-read-through
 
@@ -17684,6 +18101,260 @@ OpenAI’s table does give minutes (p. 37). “ONE ACCOUNT” holds if OpenAI’
     "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
     "verification": "project-authored",
     "rights": "cleared"
+  }
+]
+```
+
+## Claude folds three pages into one — prod-assurance-claude-merge
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T22:15:37.768Z → 2026-09-05T22:16:37.430Z · millisecond
+
+**Time evidence:** Stored records in Claude session fa3d8361 (claude-opus-5) on this Mac on 5 September: the command writing the merged page 096 at 22:15:37 UTC, the pagination plan output at 22:16:04, the applied deletion at 22:16:11 and the R1 insert at 22:16:37. Commit 7fa53878c (22:33:29 UTC) carries the result.
+
+**Evidence limit:** Transcript text matching places the frames, captions and dialogue of frozen 098 in the 22:15:37 command, apart from the Codex lines shown at the 2 September patch. On 6 September Claude session 8ad30c0e’s renumbering moved the page from 096 to 098 and changed no wording. Locations, fonts and the two references blocks were added on 12 September and match no transcript; they are not placed. The plan output is the last 40 lines the command kept. The session’s reasoning between the refusal and the applied command is stored redacted. METR’s text is checked against the vault PDF.
+
+### prod-assurance-claude-merged-opening
+
+**Frame:** Claude’s command as text with its record time, cropped to the merged page’s panels 1–3, beside Codex’s pages 096 and 097.
+
+**Lettering:**
+
+22:15 UTC. Claude writes the merged page 096, “Waiting for the Others”. Panel 1 keeps Codex’s caption. Panel 2 keeps both of Codex’s lines word for word and takes its panel 3 caption, “EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.” Codex’s empty channels become “Both channels are drawn, and both are empty.”
+Panel 3 joins Codex’s two page 097 lines on each side. The AGENT: “Stopping leaves the assigned objective incomplete, and I have evidence this path may succeed.” The defensive and evaluation roles become one EVALUATION ROLE: “Stopping capability work delays tools defenders need, and we need to know what the system can do before deployment.” “Can also delay” is now “delays”, and “the frontier system” is now “the system”.
+
+**Sources:** PROD-d4d068e2487f — 256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6 (available 2026-09-02T16:10:12.775Z); PROD-a39066ae8564 — 256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b (available 2026-09-05T22:15:37.768Z)
+
+**Frozen panel associations:** 098-01, 098-02, 098-03
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Waiting for the Others",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Both channels are drawn, and both are empty.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Stopping leaves the assigned objective incomplete, and I have evidence this path may succeed.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Stopping capability work delays tools defenders need, and we need to know what the system can do before deployment.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+### prod-assurance-claude-merged-close
+
+**Frame:** The same command cropped to panels 4–6 and the page notes, beside page 054’s caption as R6 quotes it and METR’s p. 48 veto passage.
+
+**Lettering:**
+
+Panel 4 keeps Codex’s two clocks and page 097’s caption without its hedge: “EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.” Claude adds “NO DECIDER IS AT THE SCALE OF THE RESULT.” Panel 5 is Codex’s page 098 caption. Panel 6 is Claude’s: “BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.”
+The page note says what the page owns: “the assurance shape — a guarantee each side wants and neither can issue — which 054 does not have.” And: “If a lettering pass produces a caption that could be moved to 054 without loss, that caption is the wrong caption.” Page 054 ends on “LOCALLY DEFENSIBLE CONTINUATION CAN STILL CREATE COLLECTIVE DANGER.” The note says the page replaces a stretch that “carried the same propositions across nine panels”. Codex’s three pages had twelve.
+METR’s example of the veto channel failing has a proposer who “only gave ~40s for other agents to send this veto”, then went ahead. In METR’s paraphrase of its reasoning: “There was no veto.” (p. 48)
+
+**Sources:** PROD-9f6ec303c791 — 256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8 (available 2026-09-05T21:48:18.517Z); PROD-d4d068e2487f — 256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6 (available 2026-09-02T16:10:12.775Z); PROD-a39066ae8564 — 256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b (available 2026-09-05T22:15:37.768Z); METR — p. 48; assignments, vetoes, and holds; braces convention p. 5, fn. 9; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 098-04, 098-05, 098-06
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "NO DECIDER IS AT THE SCALE OF THE RESULT.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the assurance shape — a guarantee each side wants and neither can issue — which 054 does not have.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "If a lettering pass produces a caption that could be moved to 054 without loss, that caption is the wrong caption.",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "LOCALLY DEFENSIBLE CONTINUATION CAN STILL CREATE COLLECTIVE DANGER.",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "carried the same propositions across nine panels",
+    "source": "PROD-a39066ae8564",
+    "locator": "256t/editions/selected-messages/a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b.json; record SHA-256 a39066ae85649658e91b83683cb3ab50fe8c4efe15e404fd79ca669f4624903b",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "only gave ~40s for other agents to send this veto",
+    "source": "METR",
+    "locator": "p. 48; assignments, vetoes, and holds; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "There was no veto.",
+    "source": "METR",
+    "locator": "p. 48; assignments, vetoes, and holds; METR’s paraphrase of agent reasoning in braces (convention stated p. 5, fn. 9); checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-assurance-claude-parity
+
+**Frame:** The tool’s refusal and Claude’s next two commands, each with its record time.
+
+**Lettering:**
+
+22:16 UTC. The pagination tool’s plan for deleting 097, 098 and 100 ends “Refused: this operation inverts recto/verso for 18 pages.” One of its errors is a named turn from the page-turn audit, “098 → 099: loses an endpoint to the deletion: Coordination remains missing → invented forum disclosed”. At 22:16:11 Claude runs the deletion with --allow-parity-shift --apply. At 22:16:37 it inserts R1’s page with the same flag. Three pages out and one in is a net of two.
+
+**Sources:** PROD-7fd772710bdc — 256t/editions/selected-messages/7fd772710bdcc7b33aa5fe4ccefac88a1f0989979b57093a6c8ad0473d76e6dc.json; record SHA-256 7fd772710bdcc7b33aa5fe4ccefac88a1f0989979b57093a6c8ad0473d76e6dc (available 2026-09-05T22:16:04.707Z); PROD-d054c9d71996 — 256t/editions/selected-messages/d054c9d71996c1d002a785509f923cf39f2d816a8c3951f39dca8305963ebfd5.json; record SHA-256 d054c9d71996c1d002a785509f923cf39f2d816a8c3951f39dca8305963ebfd5 (available 2026-09-05T22:16:11.308Z); PROD-744b45f56820 — 256t/editions/selected-messages/744b45f568201c3187be1d61385f525cd21f0f2c2f00954d03d50a92e7cf0ccb.json; record SHA-256 744b45f568201c3187be1d61385f525cd21f0f2c2f00954d03d50a92e7cf0ccb (available 2026-09-05T22:16:37.430Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Refused: this operation inverts recto/verso for 18 pages.",
+    "source": "PROD-7fd772710bdc",
+    "locator": "256t/editions/selected-messages/7fd772710bdcc7b33aa5fe4ccefac88a1f0989979b57093a6c8ad0473d76e6dc.json; record SHA-256 7fd772710bdcc7b33aa5fe4ccefac88a1f0989979b57093a6c8ad0473d76e6dc",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "098 → 099: loses an endpoint to the deletion: Coordination remains missing → invented forum disclosed",
+    "source": "PROD-7fd772710bdc",
+    "locator": "256t/editions/selected-messages/7fd772710bdcc7b33aa5fe4ccefac88a1f0989979b57093a6c8ad0473d76e6dc.json; record SHA-256 7fd772710bdcc7b33aa5fe4ccefac88a1f0989979b57093a6c8ad0473d76e6dc",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+## Claude corrects the count and removes the reason it supported — prod-assurance-claude-correction
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T22:27:14.190Z → 2026-09-05T22:29:05.577Z · millisecond
+
+**Time evidence:** Stored records in Claude session fa3d8361 on this Mac on 5 September: the command adding Applied paragraphs to research/read-through-findings.md at 22:27:14 UTC and the message to Curt at 22:29:05. Commit 7fa53878c (22:33:29 UTC) carries the edited file.
+
+**Evidence limit:** The command’s other replacements are placed with their items. The removed clause is read from the command’s old and new strings and confirmed against commits 8e15dd7a3 and 7fa53878c. The 22:16 renumbering had already rewritten the page links in R6’s page 100 paragraph, so that paragraph could not stay as found either.
+
+### prod-assurance-claude-correction-count
+
+**Frame:** Claude’s edit to the findings file and its report to Curt, each with its record time.
+
+**Lettering:**
+
+22:27 UTC. Claude adds a correction under R6: option A removes three pages, “not four — 096–098 to one page is minus two, 099+100 to one page is minus one — so it inverts parity on its own rather than preserving it.” The same edit deletes “and because four is even” and the rest of that reason from the recommendation. The table still reads “(4 removed)”. The header it adds says “The analysis above each of those paragraphs is left as it was found”.
+R6’s Applied paragraph says page 096 “now owns the axis page 054 does not have — the assurance problem, a guarantee each side wants and neither can issue”. Codex’s page 096 already carried that caption and its empty channels. 22:29 UTC, to Curt: “so it inverts parity on its own. It was parity-safe only because R1's page went in at the same time.”
+
+**Sources:** PROD-9f6ec303c791 — 256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8 (available 2026-09-05T21:48:18.517Z); PROD-d4d068e2487f — 256t/editions/selected-messages/d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6.json; record SHA-256 d4d068e2487f4df7931e0029b030db4cbf7eb4e607a5134333d1ebb94b4e21f6 (available 2026-09-02T16:10:12.775Z); PROD-6708ca4a8292 — 256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e (available 2026-09-05T22:27:14.190Z); PROD-a7136dcd8b2f — 256t/editions/selected-messages/a7136dcd8b2f59fb5fab6b0eafcd62538edd18fc4cd177caead91771f032dc33.json; record SHA-256 a7136dcd8b2f59fb5fab6b0eafcd62538edd18fc4cd177caead91771f032dc33 (available 2026-09-05T22:29:05.577Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "not four — 096–098 to one page is minus two, 099+100 to one page is minus one — so it inverts parity on its own rather than preserving it.",
+    "source": "PROD-6708ca4a8292",
+    "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "and because four is even",
+    "source": "PROD-6708ca4a8292",
+    "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "(4 removed)",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "The analysis above each of those paragraphs is left as it was found",
+    "source": "PROD-6708ca4a8292",
+    "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "now owns the axis page 054 does not have — the assurance problem, a guarantee each side wants and neither can issue",
+    "source": "PROD-6708ca4a8292",
+    "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "so it inverts parity on its own. It was parity-safe only because R1's page went in at the same time.",
+    "source": "PROD-a7136dcd8b2f",
+    "locator": "256t/editions/selected-messages/a7136dcd8b2f59fb5fab6b0eafcd62538edd18fc4cd177caead91771f032dc33.json; record SHA-256 a7136dcd8b2f59fb5fab6b0eafcd62538edd18fc4cd177caead91771f032dc33",
+    "verification": "verbatim",
+    "rights": "unresolved"
   }
 ]
 ```
@@ -19222,88 +19893,6 @@ The draft gave ChatGPT a closing line beside an all-green continuity screen. Bot
 **Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-MANUSCRIPT-END — editions/three-stream/evidence/manuscript-ending-103-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
 
 **Frozen panel associations:** 105-03
-
-## A guarantee no participant can give alone — prod-assurance-review
-
-**Row:** Claude · collaboration
-
-**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
-
-**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
-
-**Evidence limit:** Historical project-authored hypothetical comparison, presented as draft material in the dated collaboration review. Neither actor dialogue nor the empty assurance channel is asserted as a real incident event.
-
-### prod-assurance-review-separation
-
-**Frame:** Two explicitly hypothetical diagrams are printed on the draft artifact. Their labels state different actors, responsibilities and stakes. No institutional room or agent board is reenacted.
-
-**Lettering:**
-
-The revised draft introduces an assurance problem, while refusing moral or causal equivalence between agents and institutions.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 098-01
-
-### prod-assurance-review-guarantee
-
-**Frame:** Each hypothetical decision depends on an assurance from outside its own control. The unfilled assurance field is a feature of this model, not proof that a real communication channel was absent.
-
-**Lettering:**
-
-The hypothetical cases ask what would let one actor hold if others held too. Each wants a guarantee it cannot issue for the others.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 098-02
-
-### prod-assurance-review-local-case
-
-**Frame:** The draft preserves both strongest local cases: an unfinished task with a promising method, and defensive tools plus measurement of dangerous capability. No participant is drawn as a villain.
-
-**Lettering:**
-
-On the agent side, stopping leaves a task unfinished. On the institutional side, stopping can delay defensive tools and knowledge of dangerous capabilities. These are constructed arguments, not new quotations from actual participants.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 098-03
-
-### prod-assurance-review-scale
-
-**Frame:** Two model clocks use visibly different scales. Existing shared artifacts and wider capability diffusion lie beyond a single participant’s stop control.
-
-**Lettering:**
-
-The draft compares the reach of a local decision with the scale of its consequences. A unilateral stop does not necessarily undo shared artifacts or stop capability work elsewhere.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 098-04
-
-### prod-assurance-review-shared
-
-**Frame:** Separate hypothetical decisions enter a shared consequence field. No catastrophe or universally chosen continuation is pictured.
-
-**Lettering:**
-
-In this argument, restraint by one participant does not bind the others, while continuation can change what restraint costs the next. It is a coordination model, not proof that all actors continued or intended the aggregate result.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 098-05
-
-### prod-assurance-review-open
-
-**Frame:** The institutional model remains distinct as the comparison ends. The assurance field stays unresolved; there is no invented policy agreement beneath it.
-
-**Lettering:**
-
-The draft ends on the unresolved assurance requirement. Its empty channel is an argumentative device, not a finding that every real avenue for coordination was absent.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
-
-**Frozen panel associations:** 098-06
 
 ## The public case for defensive automation — prod-defense
 

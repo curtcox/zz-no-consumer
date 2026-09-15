@@ -15498,9 +15498,9 @@ Three visible costs balance on the desk: delay to capability work, delay to defe
 
 Split page. Left: a compressed agent-board scene from the earlier collective. Right: an unnamed institutional composite with no logos or identifiable people.
 
-**Decision:** rewrite — Replace the split reenactment with a clearly hypothetical draft diagram; no compressed agent event or institutional meeting is presented as recovered history.
+**Decision:** rewrite — Codex wrote this frame in the 2 September 16:10:12 patch and Claude’s 5 September 22:15:37 merge kept it; shown at both acts (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-assurance-review-separation
+**Draft destination:** prod-assurance-codex-page-096, prod-assurance-claude-merged-opening
 
 ### legacy-098-01-detail-03 · lettering
 
@@ -15508,9 +15508,9 @@ Split page. Left: a compressed agent-board scene from the earlier collective. Ri
 
 DIFFERENT ACTORS. DIFFERENT RESPONSIBILITY. DIFFERENT STAKES.
 
-**Decision:** rewrite — Keep different actors, responsibility and stakes explicit at the start of the comparison.
+**Decision:** rewrite — Codex wrote this caption in the 16:10:12 patch and Claude’s 22:15:37 merge kept it word for word; shown at both acts (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-separation
+**Draft destination:** prod-assurance-codex-page-096, prod-assurance-claude-merged-opening
 
 ## legacy-332b5ed63262 · 098-02
 
@@ -15520,9 +15520,9 @@ DIFFERENT ACTORS. DIFFERENT RESPONSIBILITY. DIFFERENT STAKES.
 
 Both sides address a channel that would carry an assurance. Left waits on a board message; right waits on a standard, a commitment, or a rival's action. Both channels are drawn, and both are empty.
 
-**Decision:** rewrite — Retain the unfilled assurance requirement as a model feature, not evidence of an absent real channel.
+**Decision:** rewrite — Claude’s 22:15:37 merge rewrote Codex’s 16:10:12 empty-channel frame; both wordings are quoted at their acts, and the Codex beat measures the empty agent-side channel against METR’s HOLD and VETO passages. Reviewed frame element.
 
-**Draft destination:** prod-assurance-review-guarantee
+**Draft destination:** prod-assurance-codex-page-096, prod-assurance-claude-merged-opening
 
 ### legacy-098-02-detail-03 · lettering
 
@@ -15530,9 +15530,9 @@ Both sides address a channel that would carry an assurance. Left waits on a boar
 
 I will hold if the others hold.
 
-**Decision:** rewrite — Preserve the conditional hold-if-others-hold argument without giving invented dialogue to an actual agent.
+**Decision:** rewrite — Codex wrote this line in the 16:10:12 patch and Claude’s merge kept it word for word; shown at both acts (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-guarantee
+**Draft destination:** prod-assurance-codex-page-096, prod-assurance-claude-merged-opening
 
 ### legacy-098-02-detail-04 · lettering
 
@@ -15540,9 +15540,9 @@ I will hold if the others hold.
 
 We can slow if the field slows with us.
 
-**Decision:** rewrite — Preserve the field-slows-with-us argument without giving invented dialogue to an actual institutional role.
+**Decision:** rewrite — Codex wrote this line in the 16:10:12 patch and Claude’s merge kept it word for word; shown at both acts (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-guarantee
+**Draft destination:** prod-assurance-codex-page-096, prod-assurance-claude-merged-opening
 
 ### legacy-098-02-detail-05 · lettering
 
@@ -15550,9 +15550,9 @@ We can slow if the field slows with us.
 
 EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.
 
-**Decision:** rewrite — Retain the central constraint: a participant cannot alone guarantee what others will do.
+**Decision:** rewrite — Codex wrote this caption on page 096 panel 3 in the 16:10:12 patch; Claude’s merge moved it to panel 2. Shown at both acts (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-guarantee
+**Draft destination:** prod-assurance-codex-page-096, prod-assurance-claude-merged-opening
 
 ## legacy-332b5ed63262 · 098-03
 
@@ -15562,9 +15562,9 @@ EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.
 
 The strongest case on each side, given at full strength and without a villain silhouette anywhere on the page. Left: a bounded task remains unsolved and a method looks like it may work. Right: defenders face real vulnerabilities and accelerating attacker capability, and a dangerous capability cannot be governed if it is never measured.
 
-**Decision:** rewrite — Preserve the strongest local reasons on both sides without caricature or reenactment.
+**Decision:** rewrite — Claude’s 22:15:37 merge wrote this frame from Codex’s page 097 panels 1 and 2, which the Codex beat quotes (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-assurance-review-local-case
+**Draft destination:** prod-assurance-claude-merged-opening
 
 ### legacy-098-03-detail-03 · lettering
 
@@ -15572,9 +15572,9 @@ The strongest case on each side, given at full strength and without a villain si
 
 Stopping leaves the assigned objective incomplete, and I have evidence this path may succeed.
 
-**Decision:** rewrite — Retain incomplete objective and promising-method reasoning as the hypothetical agent-side case.
+**Decision:** rewrite — Claude’s 22:15:37 merge joined two of Codex’s page 097 agent lines into this one; both wordings are quoted (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-local-case
+**Draft destination:** prod-assurance-claude-merged-opening
 
 ### legacy-098-03-detail-04 · lettering
 
@@ -15582,9 +15582,9 @@ Stopping leaves the assigned objective incomplete, and I have evidence this path
 
 Stopping capability work delays tools defenders need, and we need to know what the system can do before deployment.
 
-**Decision:** rewrite — Retain both defensive value and predeployment measurement in the hypothetical institutional case.
+**Decision:** rewrite — Claude’s 22:15:37 merge joined Codex’s defensive and evaluation lines into this one, dropping “can also” and “frontier”; both wordings are quoted (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-local-case
+**Draft destination:** prod-assurance-claude-merged-opening
 
 ## legacy-332b5ed63262 · 098-04
 
@@ -15594,9 +15594,9 @@ Stopping capability work delays tools defenders need, and we need to know what t
 
 Two clocks. The left one measures a workload. The right one measures organizational and geopolitical time. Their scales do not match and are drawn so that the mismatch is the first thing read. Beneath each, the reach of a unilateral stop: on the left it cannot erase the shared artifacts already posted; on the right it cannot halt capability diffusion elsewhere.
 
-**Decision:** rewrite — Keep different clock scales and the limits of unilateral action; do not imply matched motives, urgency or responsibilities.
+**Decision:** rewrite — Claude’s 22:15:37 merge wrote this frame from Codex’s page 096 clocks and page 097 panel 3 (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-assurance-review-scale
+**Draft destination:** prod-assurance-claude-merged-close
 
 ### legacy-098-04-detail-03 · lettering
 
@@ -15604,9 +15604,9 @@ Two clocks. The left one measures a workload. The right one measures organizatio
 
 EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.
 
-**Decision:** rewrite — Replace categorical defensibility with the distinction between local decision scope and aggregate effects.
+**Decision:** rewrite — Claude’s 22:15:37 merge dropped CAN BE from Codex’s page 097 caption; both wordings are quoted (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-scale
+**Draft destination:** prod-assurance-claude-merged-close
 
 ### legacy-098-04-detail-04 · lettering
 
@@ -15614,9 +15614,9 @@ EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.
 
 NO DECIDER IS AT THE SCALE OF THE RESULT.
 
-**Decision:** rewrite — Preserve the scale mismatch without asserting that no conceivable actor could govern a wider result.
+**Decision:** rewrite — Claude added this caption in the 22:15:37 merge (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-scale
+**Draft destination:** prod-assurance-claude-merged-close
 
 ## legacy-332b5ed63262 · 098-05
 
@@ -15626,9 +15626,9 @@ NO DECIDER IS AT THE SCALE OF THE RESULT.
 
 The split widens. Individual continuation decisions become many arrows entering shared systems; no single arrow intends the combined pattern of access, capability, dependency, and risk. Restraint offered by one actor does not bind the others, and continuation by one changes what restraint costs the next.
 
-**Decision:** rewrite — Retain the modeled shared consequences without inventing an intended collective outcome, universal continuation or a realized catastrophe.
+**Decision:** rewrite — Claude’s 22:15:37 merge gathered Codex’s page 098 frames into this one; Codex’s page 098 is quoted at its 16:10:12 act (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-assurance-review-shared
+**Draft destination:** prod-assurance-codex-pages-097-098, prod-assurance-claude-merged-close
 
 ### legacy-098-05-detail-03 · lettering
 
@@ -15636,9 +15636,9 @@ The split widens. Individual continuation decisions become many arrows entering 
 
 THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.
 
-**Decision:** rewrite — Preserve the distributed-decision/shared-consequence argument, explicitly conditional on the model.
+**Decision:** rewrite — Codex wrote this caption on page 098 in the 16:10:12 patch and Claude’s merge kept it; shown at both acts (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-shared
+**Draft destination:** prod-assurance-codex-pages-097-098, prod-assurance-claude-merged-close
 
 ## legacy-332b5ed63262 · 098-06
 
@@ -15648,9 +15648,9 @@ THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.
 
 The agent-board structure fades. The institutional field remains, visibly distinct and unresolved. The assurance channel from panel 2 is still drawn, still empty, and is now the only thing the two fields have in common.
 
-**Decision:** rewrite — Retain the unresolved institutional assurance field without equating it with the earlier agent board or claiming a measured absence of real coordination.
+**Decision:** rewrite — Claude wrote this closing frame in the 22:15:37 merge from Codex’s page 098 panel 4 (working-rule case 2); the lettering sets the empty channel beside METR’s veto example. Reviewed frame element.
 
-**Draft destination:** prod-assurance-review-open
+**Draft destination:** prod-assurance-claude-merged-close
 
 ### legacy-098-06-detail-03 · lettering
 
@@ -15658,9 +15658,9 @@ The agent-board structure fades. The institutional field remains, visibly distin
 
 BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.
 
-**Decision:** rewrite — Narrow the both-sides-waiting statement to the draft’s unresolved hypothetical requirement, not a new factual claim.
+**Decision:** rewrite — Claude added this caption in the 22:15:37 merge (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-assurance-review-open
+**Draft destination:** prod-assurance-claude-merged-close
 
 ## legacy-332b5ed63262 · 099-01
 

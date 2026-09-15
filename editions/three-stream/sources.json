@@ -2007,5 +2007,61 @@
     "admission": "Quotation rule correction: Claude's command writes the quotation-and-paraphrase research note, whose table gives page 082 as the example of paraphrase for operational detail. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
+  },
+  "PROD-c870d69fe9a5": {
+    "available": "2026-09-02T16:03:43.828Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Chapter 6 drafting: Codex says the Chapter 6 draft will not claim that every lab made the same decision or that the composite forum actually happened. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-d4d068e2487f": {
+    "available": "2026-09-02T16:10:12.775Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Chapter 6 drafting: Codex's patch adds the Chapter 6 source packet and pages 089–104, including the structural-comparison pages 096 (Waiting for the Others), 097 (Good Reasons, Locally) and 098 (Bad Results, Collectively). Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-cfe1a9c1f3b4": {
+    "available": "2026-09-05T22:00:48.840Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "R6 cut question: Claude asks Curt how far to cut the Chapter 6 stretch (R6), offering options A, B and D and describing option A as four pages removed with parity preserved. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-f1ef4281e25e": {
+    "available": "2026-09-05T22:02:27.901Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "R6 cut answer: Curt selects Option A (Recommended) for R6 and the new page reproducing 010 panel 3 for R1. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-a39066ae8564": {
+    "available": "2026-09-05T22:15:37.768Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "R6 merged page: Claude's command writes the merged page 096, Waiting for the Others, from Codex's pages 096–098. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-7fd772710bdc": {
+    "available": "2026-09-05T22:16:04.707Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "R6 deletion plan: The pagination plan for deleting 097, 098 and 100 lists invalidated parity assertions and a named turn losing its endpoint, and refuses because the operation inverts recto/verso for 18 pages. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-d054c9d71996": {
+    "available": "2026-09-05T22:16:11.308Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "R6 deletion applied: Claude runs the same deletion with --allow-parity-shift --apply. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-744b45f56820": {
+    "available": "2026-09-05T22:16:37.430Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "R1 page inserted: Claude inserts page 098, What Were They Told, with --allow-parity-shift --apply and runs the pagination check. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }

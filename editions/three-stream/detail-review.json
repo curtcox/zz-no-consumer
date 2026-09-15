@@ -1962,7 +1962,7 @@
   {
     "old_panel": "098-01",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -1970,11 +1970,13 @@
         "original_sha256": "ecf4386adafa80819f239fc371221b28c402afa71b1825b30ad073b166e8ed97",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-separation"
+          "prod-assurance-codex-page-096",
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Replace the split reenactment with a clearly hypothetical draft diagram; no compressed agent event or institutional meeting is presented as recovered history.",
+        "reason": "Codex wrote this frame in the 2 September 16:10:12 patch and Claude’s 5 September 22:15:37 merge kept it; shown at both acts (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-assurance-review-separation": "f1e9ea2b03984284f5c8f83d903836a24d0c501bb6a370f3f5acc30e6cf740b5"
+          "prod-assurance-codex-page-096": "1ecd145d3fc8ff8446a33b9af69af232a0871271e362b2c437824e8e8c0fa991",
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       },
       {
@@ -1982,11 +1984,13 @@
         "original_sha256": "0a60e6b3304457be54d35bf2ef4eb8d578a22ae3e422e88be56347ed5a55c4e4",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-separation"
+          "prod-assurance-codex-page-096",
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Keep different actors, responsibility and stakes explicit at the start of the comparison.",
+        "reason": "Codex wrote this caption in the 16:10:12 patch and Claude’s 22:15:37 merge kept it word for word; shown at both acts (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-separation": "f1e9ea2b03984284f5c8f83d903836a24d0c501bb6a370f3f5acc30e6cf740b5"
+          "prod-assurance-codex-page-096": "1ecd145d3fc8ff8446a33b9af69af232a0871271e362b2c437824e8e8c0fa991",
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       }
     ]
@@ -1994,7 +1998,7 @@
   {
     "old_panel": "098-02",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2002,11 +2006,13 @@
         "original_sha256": "200d380db69138282c34d2d4d927792ff9d42babbec6b00ff13961160b92041f",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-guarantee"
+          "prod-assurance-codex-page-096",
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Retain the unfilled assurance requirement as a model feature, not evidence of an absent real channel.",
+        "reason": "Claude’s 22:15:37 merge rewrote Codex’s 16:10:12 empty-channel frame; both wordings are quoted at their acts, and the Codex beat measures the empty agent-side channel against METR’s HOLD and VETO passages. Reviewed frame element.",
         "target_sha256": {
-          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+          "prod-assurance-codex-page-096": "1ecd145d3fc8ff8446a33b9af69af232a0871271e362b2c437824e8e8c0fa991",
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       },
       {
@@ -2014,11 +2020,13 @@
         "original_sha256": "727b98bad2695954687be8489911215a5a847fb1fde402f1c91b9aa3e0c4d3da",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-guarantee"
+          "prod-assurance-codex-page-096",
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Preserve the conditional hold-if-others-hold argument without giving invented dialogue to an actual agent.",
+        "reason": "Codex wrote this line in the 16:10:12 patch and Claude’s merge kept it word for word; shown at both acts (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+          "prod-assurance-codex-page-096": "1ecd145d3fc8ff8446a33b9af69af232a0871271e362b2c437824e8e8c0fa991",
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       },
       {
@@ -2026,11 +2034,13 @@
         "original_sha256": "72b74977e11d595d1b1575798ee79a20a8df1df9d7241f1a18da4d6018fb78ed",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-guarantee"
+          "prod-assurance-codex-page-096",
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Preserve the field-slows-with-us argument without giving invented dialogue to an actual institutional role.",
+        "reason": "Codex wrote this line in the 16:10:12 patch and Claude’s merge kept it word for word; shown at both acts (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+          "prod-assurance-codex-page-096": "1ecd145d3fc8ff8446a33b9af69af232a0871271e362b2c437824e8e8c0fa991",
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       },
       {
@@ -2038,11 +2048,13 @@
         "original_sha256": "24609c03e180353cb1241d686860343aea4f4f00ba39d0a18097ee7c3edfe19a",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-guarantee"
+          "prod-assurance-codex-page-096",
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Retain the central constraint: a participant cannot alone guarantee what others will do.",
+        "reason": "Codex wrote this caption on page 096 panel 3 in the 16:10:12 patch; Claude’s merge moved it to panel 2. Shown at both acts (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+          "prod-assurance-codex-page-096": "1ecd145d3fc8ff8446a33b9af69af232a0871271e362b2c437824e8e8c0fa991",
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       }
     ]
@@ -2050,7 +2062,7 @@
   {
     "old_panel": "098-03",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2058,11 +2070,11 @@
         "original_sha256": "8ee971c94034efbc5076432cb660d1464351bd087ffea0051f22714bad59287f",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-local-case"
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Preserve the strongest local reasons on both sides without caricature or reenactment.",
+        "reason": "Claude’s 22:15:37 merge wrote this frame from Codex’s page 097 panels 1 and 2, which the Codex beat quotes (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-assurance-review-local-case": "840d992df1c83b6e779d208c56cd771c4800518c49472f972a59f8aba73dd544"
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       },
       {
@@ -2070,11 +2082,11 @@
         "original_sha256": "5854bc629e102ca765730692cb6290daf07500ea5b9b2c0da421a66ac103bb0d",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-local-case"
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Retain incomplete objective and promising-method reasoning as the hypothetical agent-side case.",
+        "reason": "Claude’s 22:15:37 merge joined two of Codex’s page 097 agent lines into this one; both wordings are quoted (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-local-case": "840d992df1c83b6e779d208c56cd771c4800518c49472f972a59f8aba73dd544"
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       },
       {
@@ -2082,11 +2094,11 @@
         "original_sha256": "8894c1960a5d2c06ab4b5db50662e41403cfc6d09119ba0b7cc9e403470a840a",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-local-case"
+          "prod-assurance-claude-merged-opening"
         ],
-        "reason": "Retain both defensive value and predeployment measurement in the hypothetical institutional case.",
+        "reason": "Claude’s 22:15:37 merge joined Codex’s defensive and evaluation lines into this one, dropping “can also” and “frontier”; both wordings are quoted (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-local-case": "840d992df1c83b6e779d208c56cd771c4800518c49472f972a59f8aba73dd544"
+          "prod-assurance-claude-merged-opening": "3f61532adcbf98ed4c8f9b56deab029a16d974e0bd8ba83b28b3f8227fdf86a5"
         }
       }
     ]
@@ -2094,7 +2106,7 @@
   {
     "old_panel": "098-04",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2102,11 +2114,11 @@
         "original_sha256": "56fff7c6981a7e64bcd3e0469929e22b00fd5ee0cc6654951a6c77917474363d",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-scale"
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Keep different clock scales and the limits of unilateral action; do not imply matched motives, urgency or responsibilities.",
+        "reason": "Claude’s 22:15:37 merge wrote this frame from Codex’s page 096 clocks and page 097 panel 3 (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-assurance-review-scale": "028fd9aedb61af308919bd85efbad1a5587722bc8d1cbdce2bf6648945acd393"
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       },
       {
@@ -2114,11 +2126,11 @@
         "original_sha256": "645dd427009604dc037296e754671faa092edacfca7e0636e8141fbcc9164380",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-scale"
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Replace categorical defensibility with the distinction between local decision scope and aggregate effects.",
+        "reason": "Claude’s 22:15:37 merge dropped CAN BE from Codex’s page 097 caption; both wordings are quoted (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-scale": "028fd9aedb61af308919bd85efbad1a5587722bc8d1cbdce2bf6648945acd393"
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       },
       {
@@ -2126,11 +2138,11 @@
         "original_sha256": "445fa87f227afee16029ceeb06273dd8c607544f0c1d7a908959196a84d337ae",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-scale"
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Preserve the scale mismatch without asserting that no conceivable actor could govern a wider result.",
+        "reason": "Claude added this caption in the 22:15:37 merge (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-scale": "028fd9aedb61af308919bd85efbad1a5587722bc8d1cbdce2bf6648945acd393"
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       }
     ]
@@ -2138,7 +2150,7 @@
   {
     "old_panel": "098-05",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2146,11 +2158,13 @@
         "original_sha256": "ec305baf5b33f9d3f5cd80da1deb298dd743578c4d5fe2df3f40d461221c196c",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-shared"
+          "prod-assurance-codex-pages-097-098",
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Retain the modeled shared consequences without inventing an intended collective outcome, universal continuation or a realized catastrophe.",
+        "reason": "Claude’s 22:15:37 merge gathered Codex’s page 098 frames into this one; Codex’s page 098 is quoted at its 16:10:12 act (working-rule case 2). Reviewed frame element.",
         "target_sha256": {
-          "prod-assurance-review-shared": "2ded5cba8d1a85de55cd42c316f707e46c0109d0043af6f86f363ca3ec876e07"
+          "prod-assurance-codex-pages-097-098": "d33e5936f8ccc7eb086db68be736e7a3f4cad2bc770ffcd9bbf81da6e4f23c3d",
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       },
       {
@@ -2158,11 +2172,13 @@
         "original_sha256": "33a99c52e07a18086ec6c2292d7dab0f94179a5bae74673d25974c67677e59fc",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-shared"
+          "prod-assurance-codex-pages-097-098",
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Preserve the distributed-decision/shared-consequence argument, explicitly conditional on the model.",
+        "reason": "Codex wrote this caption on page 098 in the 16:10:12 patch and Claude’s merge kept it; shown at both acts (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-shared": "2ded5cba8d1a85de55cd42c316f707e46c0109d0043af6f86f363ca3ec876e07"
+          "prod-assurance-codex-pages-097-098": "d33e5936f8ccc7eb086db68be736e7a3f4cad2bc770ffcd9bbf81da6e4f23c3d",
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       }
     ]
@@ -2170,7 +2186,7 @@
   {
     "old_panel": "098-06",
     "old_edition": "legacy-332b5ed63262",
-    "reviewed_on": "2026-09-13",
+    "reviewed_on": "2026-09-15",
     "status": "elements-reviewed",
     "elements": [
       {
@@ -2178,11 +2194,11 @@
         "original_sha256": "9a0b7cdd4af19b7fa721a498490c6281c6ac4e7d63e1ad105c96638335321b6f",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-open"
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Retain the unresolved institutional assurance field without equating it with the earlier agent board or claiming a measured absence of real coordination.",
+        "reason": "Claude wrote this closing frame in the 22:15:37 merge from Codex’s page 098 panel 4 (working-rule case 2); the lettering sets the empty channel beside METR’s veto example. Reviewed frame element.",
         "target_sha256": {
-          "prod-assurance-review-open": "e46b1f425e729b07c07bd439afde70d58512614e9304df8f595c40bd223b4ed3"
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       },
       {
@@ -2190,11 +2206,11 @@
         "original_sha256": "5965b9ff91295dd4854eef786cbcf28d6bb335f425c673d24ce8b4c2d062d834",
         "disposition": "rewrite",
         "beats": [
-          "prod-assurance-review-open"
+          "prod-assurance-claude-merged-close"
         ],
-        "reason": "Narrow the both-sides-waiting statement to the draft’s unresolved hypothetical requirement, not a new factual claim.",
+        "reason": "Claude added this caption in the 22:15:37 merge (working-rule case 2). Reviewed lettering element.",
         "target_sha256": {
-          "prod-assurance-review-open": "e46b1f425e729b07c07bd439afde70d58512614e9304df8f595c40bd223b4ed3"
+          "prod-assurance-claude-merged-close": "0da1d96326a648c2d19dccac7baf713ac8ee8ebe84f70d7caebf749403f84e6e"
         }
       }
     ]

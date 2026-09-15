@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 389,
-  "drafted_beats": 1109,
+  "scenes": 393,
+  "drafted_beats": 1112,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -4901,7 +4901,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-01",
       "draft_beats": [
-        "prod-assurance-review-separation"
+        "prod-assurance-codex-page-096",
+        "prod-assurance-claude-merged-opening"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4910,7 +4911,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-02",
       "draft_beats": [
-        "prod-assurance-review-guarantee"
+        "prod-assurance-codex-page-096",
+        "prod-assurance-claude-merged-opening"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4919,7 +4921,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-03",
       "draft_beats": [
-        "prod-assurance-review-local-case"
+        "prod-assurance-claude-merged-opening"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4928,7 +4930,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-04",
       "draft_beats": [
-        "prod-assurance-review-scale"
+        "prod-assurance-claude-merged-close"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4937,7 +4939,8 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-05",
       "draft_beats": [
-        "prod-assurance-review-shared"
+        "prod-assurance-codex-pages-097-098",
+        "prod-assurance-claude-merged-close"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -4946,7 +4949,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-06",
       "draft_beats": [
-        "prod-assurance-review-open"
+        "prod-assurance-claude-merged-close"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -6014,8 +6017,8 @@
     "HuggingFace": 414,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
-    "Curt": 58,
-    "Codex": 183,
+    "Curt": 59,
+    "Codex": 185,
     "Claude": 278
   },
   "reviewed_old_panels": 606,
