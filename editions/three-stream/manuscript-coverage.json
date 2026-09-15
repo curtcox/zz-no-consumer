@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 366,
-  "drafted_beats": 1110,
+  "scenes": 378,
+  "drafted_beats": 1127,
   "canonical_pages": null,
   "associated_old_panels": 603,
   "old_panels": [
@@ -3374,7 +3374,7 @@
         "hf-artifactory-execution-key-theft",
         "hf-artifactory-execution-forgery",
         "hf-admin-sweep-sweep",
-        "prod-branch-scope-subject"
+        "prod-boundary-claude-origin-edit"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3386,8 +3386,10 @@
         "hf-rubygems-staging-scope",
         "hf-rubygems-staging-review-boundary",
         "hf-artifactory-execution-evidence-limit",
-        "prod-branch-scope-subject",
-        "prod-branch-scope-precision",
+        "prod-boundary-codex-page-067",
+        "prod-boundary-codex-audit-correction",
+        "prod-boundary-codex-cadence-merge",
+        "prod-boundary-claude-thinning-caption",
         "prod-captions-second-middle"
       ],
       "detail_review": "elements-reviewed",
@@ -3398,8 +3400,7 @@
       "old_panel": "067-03",
       "draft_beats": [
         "hf-rubygems-staging-review-boundary",
-        "prod-branch-scope-precision",
-        "prod-branch-scope-availability"
+        "prod-boundary-codex-page-067"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3511,7 +3512,7 @@
       "old_panel": "070-01",
       "draft_beats": [
         "hf-later-population-source-boundary",
-        "prod-branch-scope-availability"
+        "prod-boundary-codex-page-070-columns"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3521,7 +3522,7 @@
       "old_panel": "070-02",
       "draft_beats": [
         "hf-later-population-source-boundary",
-        "prod-branch-scope-precision"
+        "prod-boundary-codex-page-070-columns"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3531,7 +3532,7 @@
       "old_panel": "070-03",
       "draft_beats": [
         "hf-later-population-source-boundary",
-        "prod-branch-scope-availability"
+        "prod-boundary-codex-page-070-columns"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -3541,7 +3542,7 @@
       "old_panel": "070-04",
       "draft_beats": [
         "hf-later-population-source-boundary",
-        "prod-branch-scope-confidence",
+        "prod-boundary-codex-page-070-meter",
         "prod-captions-second-middle"
       ],
       "detail_review": "elements-reviewed",
@@ -3551,7 +3552,7 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "070-05",
       "draft_beats": [
-        "prod-branch-scope-confidence"
+        "prod-boundary-codex-page-070-meter"
       ],
       "detail_review": "elements-reviewed",
       "exact_strings": []
@@ -6013,9 +6014,9 @@
     "HuggingFace": 414,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
-    "Curt": 53,
-    "Codex": 159,
-    "Claude": 308
+    "Curt": 58,
+    "Codex": 166,
+    "Claude": 313
   },
   "reviewed_old_panels": 606,
   "reviewed_source_elements": 1717

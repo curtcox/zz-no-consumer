@@ -5,7 +5,7 @@ and what comes next, each with its evidence or owner decision. Dated work notes 
 [`log/`](log/), one file per UTC day (`log/YYYY-MM-DD.md`), appended in order and never
 rewritten; the 13 September file is the former `research-handoff.md`, moved verbatim.
 
-Last rewritten 14 September 2026 (UTC). Counts below are measurements on that date; rerun
+Last rewritten 15 September 2026 (UTC). Counts below are measurements on that date; rerun
 the named command before relying on one.
 
 ## Owner decisions in force
@@ -42,14 +42,14 @@ the named command before relying on one.
    creator interlude, both maxims and the nine-panel convergence grid, so their author is
    unestablished. Curt's ChatGPT export (item 1) is the remaining place to look.
 3. **Collaboration rows that do not show the row actor's act.** `working_edition.py audit`:
-   10 clocks with more than three beats (151 Claude beats at `2026-09-06T15:02:31.590Z`,
-   68 Codex beats at `2026-09-02T03:45:45.444Z`), 19 scenes describing narrator analysis, and
-   106 beats whose old wording was typed by a different actor than the row. Each needs the
+   10 clocks with more than three beats (147 Claude beats at `2026-09-06T15:02:31.590Z`,
+   68 Codex beats at `2026-09-02T03:45:45.444Z`), 18 scenes describing narrator analysis, and
+   104 beats whose old wording was typed by a different actor than the row. Each needs the
    working rule applied: re-anchor to the act that made the point, or move out of the rows.
    Re-anchored so far from the 15:02:31 cluster: legacy 006–007, 013–016, 031–036, 038–040,
    052, 073-04's vocabulary and 063-04's window, plus the 12–13 September caption expansions
-   (log, 14 September).
-   Five traps found there. `attribution.json` keeps the earliest record containing a line, which
+   (log, 14 September); branch scope 067 and 070 (log, 15 September).
+   Six traps found there. `attribution.json` keeps the earliest record containing a line, which
    can be a patch the session then reports as not applied. A line can predate every transcript,
    so the typing session only carried it forward. A script can supply a caption without its
    `> ` marker; the matcher now pairs both forms (the 12–13 September captions once reported as
@@ -57,7 +57,9 @@ the named command before relying on one.
    change case, so the index credits the mover (040-03's caption began as Codex's ChatGPT line).
    And a substring `.replace()` inside a line is invisible to whole-line matching: search the
    transcripts for the new wording before calling a line unattributed (040-03's frame, 039's
-   page note).
+   page note). Last, a search a session ran can stop short of the line that matters: Claude's
+   5 September METR search kept 60 lines, and METR's p. 14 admin-access line comes at 75. Read
+   the stored output, not the command.
 4. **Old-panel review.** All 606 old panels have element-level decisions (1717 elements).
    Three have no draft beat; their omission reasons are checked (log, 14 September): 105-05 and
    117-05 are staging with no claim. 009-02's caption comes from the unattributed outline
@@ -86,11 +88,11 @@ the named command before relying on one.
 
 ## Next
 
-- Continue re-anchoring the 151-beat Claude cluster by the same method: line origins from
+- Continue re-anchoring the 147-beat Claude cluster by the same method: line origins from
   `attribution.json`, then the applied record, then any earlier file that already held the
   line; check quoted critics and transcripts against their vault copies. Remaining sequences,
-  in legacy order: branch scope 067–070, interpretation 073–080 (starting from Codex's
-  2 September 15:34:11 patch, which wrote 073-04's first wording), analysis limits 078–082, assurance 098, accountability 099–102, defense 101,
+  in legacy order: interpretation 073–080 (starting from Codex's 2 September 15:34:11 patch,
+  which wrote 073-04's first wording and all of 070), analysis limits 078–082, assurance 098, accountability 099–102, defense 101,
   aftermath 103–105, wiki overlap and hypotheses 109–111, downstream use 112–118.
 - Apply the same method to the 68-beat Codex cluster and to the 047-02/047-05 theses.
 - Add ordering constraints for the July day-only beats as sources support them.

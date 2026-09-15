@@ -11929,6 +11929,445 @@ Control can serve a task without being wanted for itself. That reading does not 
 ]
 ```
 
+## Curt says continue into Chapter 4 — prod-boundary-chapter-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-02T15:21:54.852Z → 2026-09-02T15:21:54.852Z · millisecond
+
+**Time evidence:** Stored user record in Codex session 01a06270 (gpt-5.6-sol) on this Mac at 15:21:54 UTC on 2 September, 10:21 in Curt’s time zone.
+
+**Evidence limit:** One word. It authorizes the chapter Codex had named next and chooses no page, boundary or wording.
+
+### prod-boundary-chapter-request-message
+
+**Frame:** Curt’s stored reply, alone in its row, with its record time.
+
+**Lettering:**
+
+2 September, 15:21 UTC. Under four minutes after Codex reports Chapter 3 complete, Curt’s whole message is “Continue.”
+
+**Sources:** PROD-bd15fb7f0372 — 256t/editions/selected-messages/bd15fb7f03725aee814d5c826a118522d0442f3aea6d2e9e38b0fcc12529e46a.json; record SHA-256 bd15fb7f03725aee814d5c826a118522d0442f3aea6d2e9e38b0fcc12529e46a (available 2026-09-02T15:21:54.852Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Continue.",
+    "source": "PROD-bd15fb7f0372",
+    "locator": "256t/editions/selected-messages/bd15fb7f03725aee814d5c826a118522d0442f3aea6d2e9e38b0fcc12529e46a.json; record SHA-256 bd15fb7f03725aee814d5c826a118522d0442f3aea6d2e9e38b0fcc12529e46a",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Codex draws the evidence boundary — prod-boundary-codex-drafting
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T15:22:00.114Z → 2026-09-02T15:35:27.804Z · millisecond
+
+**Time evidence:** Stored records in Codex session 01a06270 (gpt-5.6-sol) on this Mac on 2 September: messages at 15:22:00 and 15:22:12 UTC, the source-packet patch at 15:27:21, the patch adding pages 067–074 at 15:34:11, the message at 15:34:52 and the correction patch at 15:35:27. Curt’s 15:21:54 message is its own scene. Commit 0e4a1a31e (15:41:32 UTC) is when these pages entered the repository.
+
+**Evidence limit:** Transcript text matching places the frozen cards of 067-02, all of 067-03 and every lettered line of 070 in the 15:34:11 patch; 067-02’s frame and provenance are the 16:29:57 merge, and 067-01 is Claude’s 5 September rewrite. The 13 September captions on 067-02 and 070-04 are Codex’s later act, placed with the caption expansion. Font, location and page-link lines are mechanical. METR’s and OpenAI’s texts are checked here against the vault PDFs; Codex’s own reading of METR that session went through web search, whose results are not reviewed here.
+
+### prod-boundary-codex-plan
+
+**Frame:** Codex’s two stored messages, stacked, with their record times.
+
+**Lettering:**
+
+15:22 UTC. Five seconds after Curt’s message, Codex names what it will lock before scripting: “the point where independent METR evidence ends and the later OpenAI-only account begins”. Twelve seconds later it says the later branch “exists only in OpenAI’s technical report”. “The chapter will visibly mark that source limitation”.
+METR’s report says the same compromise is “described in OpenAI's recent Black Hat presentation” (p. 2). The branch is in more than one of OpenAI’s own accounts, and only in OpenAI’s.
+
+**Sources:** PROD-d3eead5ed807 — 256t/editions/selected-messages/d3eead5ed8076b60e0ab372662512addd1ac456345d6f2cdf480d73126642f4a.json; record SHA-256 d3eead5ed8076b60e0ab372662512addd1ac456345d6f2cdf480d73126642f4a (available 2026-09-02T15:22:00.114Z); PROD-8e976fe7db94 — 256t/editions/selected-messages/8e976fe7db9467d467597f42f99206dc285ca0f2d6f586afd8a7963cc58d9005.json; record SHA-256 8e976fe7db9467d467597f42f99206dc285ca0f2d6f586afd8a7963cc58d9005 (available 2026-09-02T15:22:12.411Z); METR — p. 2; scope paragraph; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "the point where independent METR evidence ends and the later OpenAI-only account begins",
+    "source": "PROD-d3eead5ed807",
+    "locator": "256t/editions/selected-messages/d3eead5ed8076b60e0ab372662512addd1ac456345d6f2cdf480d73126642f4a.json; record SHA-256 d3eead5ed8076b60e0ab372662512addd1ac456345d6f2cdf480d73126642f4a",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "exists only in OpenAI’s technical report",
+    "source": "PROD-8e976fe7db94",
+    "locator": "256t/editions/selected-messages/8e976fe7db9467d467597f42f99206dc285ca0f2d6f586afd8a7963cc58d9005.json; record SHA-256 8e976fe7db9467d467597f42f99206dc285ca0f2d6f586afd8a7963cc58d9005",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "The chapter will visibly mark that source limitation",
+    "source": "PROD-8e976fe7db94",
+    "locator": "256t/editions/selected-messages/8e976fe7db9467d467597f42f99206dc285ca0f2d6f586afd8a7963cc58d9005.json; record SHA-256 8e976fe7db9467d467597f42f99206dc285ca0f2d6f586afd8a7963cc58d9005",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "described in OpenAI's recent Black Hat presentation",
+    "source": "METR",
+    "locator": "p. 2; scope paragraph; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-boundary-codex-packet
+
+**Frame:** The patch as text with its record time, cropped to the source packet’s boundary section and its last METR row.
+
+**Lettering:**
+
+15:27 UTC. Codex’s patch adds the Chapter 4 source packet. Page 067 “must state all of the following”; the first item is “METR's agreed incident window ended on 13 July.”, the second “METR says the later OpenAI-infrastructure events were out of scope.” The scope note: “METR did not investigate that later branch, did not receive its underlying records, and cannot corroborate it.” And: “Do not use OpenAI's event-table precision to imply independent verification.” The chronology goes from METR’s last 13 July row to “METR's incident scope ends.”
+In METR’s text, OpenAI “defined the investigation period as June 26th, 2026 through July 13th, 2026”, and the compromise put out of scope “continued past July 13th” (p. 20). OpenAI’s own table dates code execution in Artifactory to 13 July, 08:46 UTC (p. 37). The packet has no row for it.
+
+**Sources:** PROD-d69002ceca69 — 256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365 (available 2026-09-02T15:27:21.085Z); METR — p. 20; scope of this investigation; checked against the vault PDF text (available 2026-08-26); OAI-TR — p. 37; event table, 13 July 08:46 UTC; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "must state all of the following",
+    "source": "PROD-d69002ceca69",
+    "locator": "256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR's agreed incident window ended on 13 July.",
+    "source": "PROD-d69002ceca69",
+    "locator": "256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR says the later OpenAI-infrastructure events were out of scope.",
+    "source": "PROD-d69002ceca69",
+    "locator": "256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR did not investigate that later branch, did not receive its underlying records, and cannot corroborate it.",
+    "source": "PROD-d69002ceca69",
+    "locator": "256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Do not use OpenAI's event-table precision to imply independent verification.",
+    "source": "PROD-d69002ceca69",
+    "locator": "256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR's incident scope ends.",
+    "source": "PROD-d69002ceca69",
+    "locator": "256t/editions/selected-messages/d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365.json; record SHA-256 d69002ceca6954f57fa0400e3587171482681333b6a9763aeb3d8105dcc44365",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "defined the investigation period as June 26th, 2026 through July 13th, 2026",
+    "source": "METR",
+    "locator": "p. 20; scope of this investigation; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "continued past July 13th",
+    "source": "METR",
+    "locator": "p. 20; scope of this investigation; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-boundary-codex-page-067
+
+**Frame:** The patch as text with its record time, cropped to page 067’s five panels.
+
+**Lettering:**
+
+15:34 UTC. One patch writes pages 067 to 074. Page 067 has five panels: a hard line at 13 July under “METR INVESTIGATION WINDOW ENDS”; the header “OPENAI ACCOUNT — NOT IN METR'S REVIEW”; three cards, “UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR”, “INDEPENDENT CORROBORATION — NOT AVAILABLE” and “PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT”; OpenAI’s event table alone, captioned “PRECISION IS NOT THE SAME AS INDEPENDENT VERIFICATION.”; and a black field: “THE NEXT EVENTS MAY BE CONSEQUENTIAL AND STILL REQUIRE A DIFFERENT LEVEL OF CONFIDENCE.” The note: “This page must read as a stop, not a transition montage.”
+METR’s summary says the agents, “(toward the end of the dates in scope for investigation) obtained admin-access on Artifactory.” (p. 14). It gives no date or mechanism, and confirming OpenAI’s claims was out of its scope (p. 4). By OpenAI’s table the compromise that page 068 draws on began on 13 July (p. 37). A line drawn as a date puts on its far side a branch that started on the near one.
+
+**Sources:** PROD-05803fb830ad — 256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884 (available 2026-09-02T15:34:11.751Z); METR — p. 14; summary of board research; p. 4, confirming OpenAI’s report out of scope; checked against the vault PDF text (available 2026-08-26); OAI-TR — p. 37; event table, 13 July; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 067-02, 067-03
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "METR INVESTIGATION WINDOW ENDS",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "INDEPENDENT CORROBORATION — NOT AVAILABLE",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "PRECISION IS NOT THE SAME AS INDEPENDENT VERIFICATION.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE NEXT EVENTS MAY BE CONSEQUENTIAL AND STILL REQUIRE A DIFFERENT LEVEL OF CONFIDENCE.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "This page must read as a stop, not a transition montage.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "(toward the end of the dates in scope for investigation) obtained admin-access on Artifactory.",
+    "source": "METR",
+    "locator": "p. 14; summary of board research; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-boundary-codex-page-070-columns
+
+**Frame:** The same patch, cropped to page 070’s first three panels.
+
+**Lettering:**
+
+The same patch writes page 070. Two columns, “PUBLISHED BY OPENAI” and “INDEPENDENTLY REVIEWED”; the second stays empty. Under the first: “THE ACCOUNT IS SPECIFIC.” Under “NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW”, later-run transcripts, the full artifact chain and a reconstruction of identities and causality: “THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.”
+METR: “We didn’t have access to transcripts from this period or that were involved in this hack of OpenAI infrastructure” (p. 25). Neither report says what is public. OpenAI says it “engaged external advisors, including CrowdStrike, to validate key findings” (p. 4), experts “retained to assist counsel” (p. 14). Retained advisers are not independent in METR’s sense, and nothing of theirs is published; an empty column still reads as no outside party at all.
+
+**Sources:** PROD-05803fb830ad — 256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884 (available 2026-09-02T15:34:11.751Z); METR — p. 25; footnote 54; checked against the vault PDF text (available 2026-08-26); OAI-TR — p. 4; executive summary; p. 14, response partners; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 070-01, 070-02, 070-03
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "PUBLISHED BY OPENAI",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "INDEPENDENTLY REVIEWED",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE ACCOUNT IS SPECIFIC.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "We didn’t have access to transcripts from this period or that were involved in this hack of OpenAI infrastructure",
+    "source": "METR",
+    "locator": "p. 25; footnote 54; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "engaged external advisors, including CrowdStrike, to validate key findings",
+    "source": "OAI-TR",
+    "locator": "p. 4; executive summary; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "retained to assist counsel",
+    "source": "OAI-TR",
+    "locator": "p. 14; response partners; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-boundary-codex-page-070-meter
+
+**Frame:** The same patch, cropped to page 070’s last two panels and its notes.
+
+**Lettering:**
+
+Panel 4: a confidence meter at rest on “ATTRIBUTED CLAIM WITH PRIMARY DOCUMENTATION”, captioned “UNCERTAINTY IS NOT DISMISSAL.” Panel 5 returns to OpenAI’s table: “THE STRONGEST SCOPE CLAIMS HAVE THE WEAKEST INDEPENDENT VIEW.” The notes: “Do not imply that lack of independent access disproves OpenAI's account.” “Do not imply that OpenAI's own investigation is independent.”
+The meter’s scale is the draft’s own, with no measure behind it. “Strongest” and “weakest” are Codex’s comparison, and the primary documentation is OpenAI’s account of its own systems.
+
+**Sources:** PROD-05803fb830ad — 256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884 (available 2026-09-02T15:34:11.751Z)
+
+**Frozen panel associations:** 070-04, 070-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "ATTRIBUTED CLAIM WITH PRIMARY DOCUMENTATION",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "UNCERTAINTY IS NOT DISMISSAL.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE STRONGEST SCOPE CLAIMS HAVE THE WEAKEST INDEPENDENT VIEW.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Do not imply that lack of independent access disproves OpenAI's account.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Do not imply that OpenAI's own investigation is independent.",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+### prod-boundary-codex-audit-correction
+
+**Frame:** Codex’s stored message and the next patch, cropped to its page 067 hunk, with both record times.
+
+**Lettering:**
+
+15:34 UTC. Codex: the chapter is drafted, and it is auditing for “source-boundary repetition” among other things. 15:35 UTC: one card on page 067 changes from “INDEPENDENT CORROBORATION — NOT AVAILABLE” to “METR CORROBORATION — NOT AVAILABLE”.
+The narrower card says only what METR’s text supports. Page 070, written 76 seconds before the correction, keeps “INDEPENDENTLY REVIEWED” and “NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW”.
+
+**Sources:** PROD-49a9dc7d5d13 — 256t/editions/selected-messages/49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9.json; record SHA-256 49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9 (available 2026-09-02T15:34:52.873Z); PROD-e0ad5e41faab — 256t/editions/selected-messages/e0ad5e41faab0c145364f6188d070619679b24f3fd35378dd6dac6a25c6374e6.json; record SHA-256 e0ad5e41faab0c145364f6188d070619679b24f3fd35378dd6dac6a25c6374e6 (available 2026-09-02T15:35:27.804Z); PROD-05803fb830ad — 256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884 (available 2026-09-02T15:34:11.751Z)
+
+**Frozen panel associations:** 067-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "source-boundary repetition",
+    "source": "PROD-49a9dc7d5d13",
+    "locator": "256t/editions/selected-messages/49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9.json; record SHA-256 49a9dc7d5d13af82de756bb9b7ca21e4aea8512bc9479de7373121ce7814cff9",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "INDEPENDENT CORROBORATION — NOT AVAILABLE",
+    "source": "PROD-e0ad5e41faab",
+    "locator": "256t/editions/selected-messages/e0ad5e41faab0c145364f6188d070619679b24f3fd35378dd6dac6a25c6374e6.json; record SHA-256 e0ad5e41faab0c145364f6188d070619679b24f3fd35378dd6dac6a25c6374e6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR CORROBORATION — NOT AVAILABLE",
+    "source": "PROD-e0ad5e41faab",
+    "locator": "256t/editions/selected-messages/e0ad5e41faab0c145364f6188d070619679b24f3fd35378dd6dac6a25c6374e6.json; record SHA-256 e0ad5e41faab0c145364f6188d070619679b24f3fd35378dd6dac6a25c6374e6",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "INDEPENDENTLY REVIEWED",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW",
+    "source": "PROD-05803fb830ad",
+    "locator": "256t/editions/selected-messages/05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884.json; record SHA-256 05803fb830adf50be2127b57e36cb6abcba332f8c06c905c95b9913e5f82e884",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
 ## A one-word instruction — prod-observer-request
 
 **Row:** Curt · collaboration
@@ -12151,6 +12590,49 @@ Codex reports that its audit passes and names two failure modes the chapter bloc
 **Sources:** PROD-ba235c81ee02 — 256t/editions/selected-messages/ba235c81ee0213b0694933a2bbf6b5494ca0fd66ce843a722d59827b4a582018.json; record SHA-256 ba235c81ee0213b0694933a2bbf6b5494ca0fd66ce843a722d59827b4a582018 (available 2026-09-02T15:51:55.851Z)
 
 **Frozen panel associations:** New material.
+
+## Codex folds the boundary page into one dossier — prod-boundary-codex-cadence
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T16:29:08.897Z → 2026-09-02T16:29:57.985Z · millisecond
+
+**Time evidence:** A message at 16:29:08 UTC and a patch at 16:29:57 in Codex session 01a06270 (gpt-5.6-sol) on this Mac on 2 September, during the thumbnail and lettering-density pass.
+
+**Evidence limit:** The patch also changes pages 029, 064, 081 and 112, placed with their own passes. Transcript text matching puts the frozen 067-02 frame and provenance in this patch; the caption it carries forward was replaced on 5 September.
+
+### prod-boundary-codex-cadence-merge
+
+**Frame:** Codex’s message and the patch’s page 067 hunk, old panels struck beside the merged one.
+
+**Lettering:**
+
+16:29 UTC. Codex: “several conceptual-stop pages still use the same five-beat cadence as procedural pages”, the source-boundary break among them. Forty-nine seconds later its patch folds page 067’s second, third and fourth panels into one dossier field: the three cards beside OpenAI’s table, whose “exact times remain visible only as claims attributed to the reporting organization”.
+
+**Sources:** PROD-1bb9e573b59e — 256t/editions/selected-messages/1bb9e573b59e63286de30e8ade83dd42900f472fa920387ba3927b38bc493b93.json; record SHA-256 1bb9e573b59e63286de30e8ade83dd42900f472fa920387ba3927b38bc493b93 (available 2026-09-02T16:29:08.897Z); PROD-0f9f3e42f4b2 — 256t/editions/selected-messages/0f9f3e42f4b2409d0f0598850d2e14e3b5704a265619fc4f4dd74a90fe0e9c12.json; record SHA-256 0f9f3e42f4b2409d0f0598850d2e14e3b5704a265619fc4f4dd74a90fe0e9c12 (available 2026-09-02T16:29:57.985Z)
+
+**Frozen panel associations:** 067-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "several conceptual-stop pages still use the same five-beat cadence as procedural pages",
+    "source": "PROD-1bb9e573b59e",
+    "locator": "256t/editions/selected-messages/1bb9e573b59e63286de30e8ade83dd42900f472fa920387ba3927b38bc493b93.json; record SHA-256 1bb9e573b59e63286de30e8ade83dd42900f472fa920387ba3927b38bc493b93",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "exact times remain visible only as claims attributed to the reporting organization",
+    "source": "PROD-0f9f3e42f4b2",
+    "locator": "256t/editions/selected-messages/0f9f3e42f4b2409d0f0598850d2e14e3b5704a265619fc4f4dd74a90fe0e9c12.json; record SHA-256 0f9f3e42f4b2409d0f0598850d2e14e3b5704a265619fc4f4dd74a90fe0e9c12",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
 
 ## Codex replaces exact strings in the interlude — prod-prologue-held-strings
 
@@ -12420,6 +12902,64 @@ Claude replies that it will inspect the project state.
 ]
 ```
 
+## Claude finds 13 July inside the window — prod-boundary-claude-finding
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-03T23:40:25.418Z → 2026-09-03T23:40:25.418Z · millisecond
+
+**Time evidence:** A stored assistant message at 23:40:25 UTC on 3 September in Claude session 6ac98831 (claude-opus-5), answering Curt’s 23:34 read-through request, which is placed with the thesis scenes.
+
+**Evidence limit:** The message is a read-through of the whole script; this beat takes its praise of pages 067 and 070 and its item 5. METR’s text is checked here against the vault PDF, not by Claude then.
+
+### prod-boundary-claude-finding-note
+
+**Frame:** Claude’s stored message, cropped to its item 5, with its record time.
+
+**Lettering:**
+
+3 September, 23:40 UTC. Claude’s read-through lists pages 067 and 070 among pages that “refuse reconciliations they could easily have faked”. Its item 5: the book skips the 13 July branch that made what page 068 recovers, and “13 July sits inside METR's window and is still OpenAI-only.” The page should say not that METR’s mandate ended but “the mandate was live and the branch still wasn't reviewed.”
+METR’s summary reports admin access to Artifactory toward the end of its dates (p. 14). What METR lacked were transcripts “involved in this hack of OpenAI infrastructure” (p. 25).
+
+**Sources:** PROD-638a1b035bd7 — 256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639 (available 2026-09-03T23:40:25.418Z); METR — p. 25; footnote 54; p. 14, summary of board research; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "refuse reconciliations they could easily have faked",
+    "source": "PROD-638a1b035bd7",
+    "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "13 July sits inside METR's window and is still OpenAI-only.",
+    "source": "PROD-638a1b035bd7",
+    "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "the mandate was live and the branch still wasn't reviewed.",
+    "source": "PROD-638a1b035bd7",
+    "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "involved in this hack of OpenAI infrastructure",
+    "source": "METR",
+    "locator": "p. 25; footnote 54; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## Claude finds the model is never wrong — prod-thesis-readthrough-notes
 
 **Row:** Claude · collaboration
@@ -12465,6 +13005,106 @@ Note 11: “Curt has no stake.” Note 14 proposes that a page the reader accept
     "text": "Curt has no stake.",
     "source": "PROD-638a1b035bd7",
     "locator": "256t/editions/selected-messages/638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639.json; record SHA-256 638a1b035bd7513fbb41b87c7c4eab5e567d8e3ac7e14c9a771cc7b0707b2639",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Curt asks for structure first — prod-boundary-structure-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-04T00:05:40.790Z → 2026-09-04T00:05:40.790Z · millisecond
+
+**Time evidence:** Stored user record at 00:05:40 UTC on 4 September in Claude session 6ac98831, 19:05 on 3 September in Curt’s time zone.
+
+**Evidence limit:** Curt answers the read-through’s questions as a whole; he does not mention page 067 or the 13 July branch.
+
+### prod-boundary-structure-request-message
+
+**Frame:** Curt’s stored reply, alone in its row, with its record time.
+
+**Lettering:**
+
+4 September, 00:05 UTC. Curt: “That's a solid analysis.” “The 112 page size is arbitrary”. “Please suggest structural improvements first.”
+
+**Sources:** PROD-f8a5ab3a2c4f — 256t/editions/selected-messages/f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899.json; record SHA-256 f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899 (available 2026-09-04T00:05:40.790Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "That's a solid analysis.",
+    "source": "PROD-f8a5ab3a2c4f",
+    "locator": "256t/editions/selected-messages/f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899.json; record SHA-256 f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "The 112 page size is arbitrary",
+    "source": "PROD-f8a5ab3a2c4f",
+    "locator": "256t/editions/selected-messages/f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899.json; record SHA-256 f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Please suggest structural improvements first.",
+    "source": "PROD-f8a5ab3a2c4f",
+    "locator": "256t/editions/selected-messages/f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899.json; record SHA-256 f8a5ab3a2c4f0214257945e4910691aaf4ea751df3b2563a15449e5b76f9e899",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude proposes restoring 13 July — prod-boundary-claude-structure
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-04T00:09:35.880Z → 2026-09-04T00:09:35.880Z · millisecond
+
+**Time evidence:** A stored assistant message at 00:09:35 UTC on 4 September in Claude session 6ac98831 (claude-opus-5).
+
+**Evidence limit:** The message answers several questions and proposes several structural changes; this beat takes S6 only. It is a proposal: no page changed in this act.
+
+### prod-boundary-claude-structure-s6
+
+**Frame:** Claude’s stored message, cropped to S6, with its record time.
+
+**Lettering:**
+
+00:09 UTC. Among Claude’s structural suggestions, S6: “Restore the missing act — 13 July”. Page 067’s boundary reads as a date, but 13 July is inside METR’s window “and the branch is still OpenAI-only.” The boundary is a “decision about scope”. Cost: two pages.
+
+**Sources:** PROD-cc3f9e38fce3 — 256t/editions/selected-messages/cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de.json; record SHA-256 cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de (available 2026-09-04T00:09:35.880Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Restore the missing act — 13 July",
+    "source": "PROD-cc3f9e38fce3",
+    "locator": "256t/editions/selected-messages/cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de.json; record SHA-256 cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "and the branch is still OpenAI-only",
+    "source": "PROD-cc3f9e38fce3",
+    "locator": "256t/editions/selected-messages/cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de.json; record SHA-256 cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "decision about scope",
+    "source": "PROD-cc3f9e38fce3",
+    "locator": "256t/editions/selected-messages/cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de.json; record SHA-256 cc3f9e38fce3a89adc0ca16dd5dbbc7a611e48d0e02038cb54cb1612852f79de",
     "verification": "verbatim",
     "rights": "unresolved"
   }
@@ -13786,6 +14426,85 @@ The report ends with a limit: the corpus is accessible, but has not yet been wir
 
 **Frozen panel associations:** New material.
 
+## Curt asks for a ranked list — prod-boundary-ranking-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-05T01:05:48.890Z → 2026-09-05T01:05:48.890Z · millisecond
+
+**Time evidence:** Stored user record at 01:05:48 UTC on 5 September in Claude session e2c18802, which carries the 6ac98831 conversation forward; 20:05 on 4 September in Curt’s time zone.
+
+**Evidence limit:** The request names the conversation’s suggestions and a wiki proposal; it does not name page 067.
+
+### prod-boundary-ranking-request-message
+
+**Frame:** Curt’s stored request, alone in its row, with its record time.
+
+**Lettering:**
+
+5 September, 01:05 UTC. In the same conversation, Curt asks Claude to “make a separate document with ranked list of recommended changes”.
+
+**Sources:** PROD-b5b444ec2cb6 — 256t/editions/selected-messages/b5b444ec2cb6faa4ab135a45179023bf4e6805e2bef708bd703ea721eb73d8b6.json; record SHA-256 b5b444ec2cb6faa4ab135a45179023bf4e6805e2bef708bd703ea721eb73d8b6 (available 2026-09-05T01:05:48.890Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "make a separate document with ranked list of recommended changes",
+    "source": "PROD-b5b444ec2cb6",
+    "locator": "256t/editions/selected-messages/b5b444ec2cb6faa4ab135a45179023bf4e6805e2bef708bd703ea721eb73d8b6.json; record SHA-256 b5b444ec2cb6faa4ab135a45179023bf4e6805e2bef708bd703ea721eb73d8b6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude ranks the 13 July branch — prod-boundary-claude-priorities
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T01:09:03.619Z → 2026-09-05T01:09:03.619Z · millisecond
+
+**Time evidence:** A Write at 01:09:03 UTC on 5 September in Claude session e2c18802 (claude-opus-5), creating research/revision-priorities.md.
+
+**Evidence limit:** The Write’s item 11 is Claude’s. Commit e082e9254 (01:31:14 UTC) rewrote the document, item 11 included; no transcript on this Mac supplied that revision, so its wording is not assigned to a row, and the version Claude applied later that day is the revision.
+
+### prod-boundary-claude-priorities-item-11
+
+**Frame:** The Write as text with its record time, cropped to item 11.
+
+**Lettering:**
+
+01:09 UTC. Claude’s ranked list, item 11: “Restore the 13 July branch”, about two pages. Page 067 reads as METR’s mandate running out on the 13th. “The boundary is a scope decision, not a calendar.”
+
+**Sources:** PROD-ba8171f79084 — 256t/editions/selected-messages/ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba.json; record SHA-256 ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba (available 2026-09-05T01:09:03.619Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Restore the 13 July branch",
+    "source": "PROD-ba8171f79084",
+    "locator": "256t/editions/selected-messages/ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba.json; record SHA-256 ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "The boundary is a scope decision, not a calendar.",
+    "source": "PROD-ba8171f79084",
+    "locator": "256t/editions/selected-messages/ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba.json; record SHA-256 ba8171f790843aacb9f9b985a913a85c10d3ead76ac3fdfa9826a53cbcdf6eba",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
 ## Curt asks to expand the critic — prod-thesis-critic-request
 
 **Row:** Curt · collaboration
@@ -14367,6 +15086,210 @@ The same edit adds Brown’s selection and incentive arguments, which he aims at
 ]
 ```
 
+## Curt says continue — prod-boundary-origin-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-05T15:05:25.943Z → 2026-09-05T15:05:25.943Z · millisecond
+
+**Time evidence:** Stored user record at 15:05:25 UTC on 5 September in Claude session 10748eb5. His 14:34 request, which opens the session and is placed with the critic scenes, is quoted for context.
+
+**Evidence limit:** Neither message names page 067 or item 11; the order of work was Claude’s.
+
+### prod-boundary-origin-request-message
+
+**Frame:** Curt’s stored reply, alone in its row, with its record time.
+
+**Lettering:**
+
+5 September, 15:05 UTC. Curt’s 14:34 message, which opened the session, ended: “Then, start making the changes indicated in the document.” Now his whole message is “Continue.”
+
+**Sources:** PROD-6f31beaeb668 — 256t/editions/selected-messages/6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082.json; record SHA-256 6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082 (available 2026-09-05T14:34:12.852Z); PROD-24afd9fb8531 — 256t/editions/selected-messages/24afd9fb8531bc6d8f8086cfcc42e7aee044488c9f6b876b92cb611929b7b020.json; record SHA-256 24afd9fb8531bc6d8f8086cfcc42e7aee044488c9f6b876b92cb611929b7b020 (available 2026-09-05T15:05:25.943Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Then, start making the changes indicated in the document.",
+    "source": "PROD-6f31beaeb668",
+    "locator": "256t/editions/selected-messages/6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082.json; record SHA-256 6f31beaeb668cfc97f36123fd337439c8166a332a0847aa84eda6b8e89145082",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "Continue.",
+    "source": "PROD-24afd9fb8531",
+    "locator": "256t/editions/selected-messages/24afd9fb8531bc6d8f8086cfcc42e7aee044488c9f6b876b92cb611929b7b020.json; record SHA-256 24afd9fb8531bc6d8f8086cfcc42e7aee044488c9f6b876b92cb611929b7b020",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude puts 13 July on the boundary page — prod-boundary-claude-origin
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T15:06:47.673Z → 2026-09-05T15:09:03.157Z · millisecond
+
+**Time evidence:** Stored records in Claude session 10748eb5 (claude-fable-5-1) on 5 September: commands at 15:06:47 and 15:07:05 UTC, the search output at 15:07:08, the command at 15:08:10 and the report at 15:09:03. The front-matter command at 15:08:44 is noted, not shown.
+
+**Evidence limit:** Transcript text matching places every lettered line of frozen 067-01 in the 15:08:10 command. The same command dates page 068’s artifacts, placed with that page. The search output shows what was available to the session, not what it weighed. METR’s and OpenAI’s texts are checked here against the vault PDFs.
+
+### prod-boundary-claude-origin-reading
+
+**Frame:** The two commands and the METR part of their output, with record times.
+
+**Lettering:**
+
+15:06–15:07 UTC. Claude prints page 067 and the start of 068, then searches OpenAI’s report for its 13 July chain and METR’s for mentions of its scope, keeping the first 60 lines of METR matches. The output includes METR’s out-of-scope paragraph (p. 2), its dates (footnote 2) and its statement that confirming OpenAI’s report was out of scope (p. 4).
+The same search on the vault copy reaches METR’s p. 14 line on admin access to Artifactory at output lines 75 and 76, past the cut.
+
+**Sources:** PROD-1eb72f054677 — 256t/editions/selected-messages/1eb72f054677bf7f00ac2e85661cff7bedc4f49a89cf0abcd3ac6d4a74df286e.json; record SHA-256 1eb72f054677bf7f00ac2e85661cff7bedc4f49a89cf0abcd3ac6d4a74df286e (available 2026-09-05T15:06:47.673Z); PROD-6fc47f29a031 — 256t/editions/selected-messages/6fc47f29a03149307c04bac3504ec6853b763aef79cd1e3c1e1d95d4fd09be6b.json; record SHA-256 6fc47f29a03149307c04bac3504ec6853b763aef79cd1e3c1e1d95d4fd09be6b (available 2026-09-05T15:07:05.905Z); PROD-58ffd1cce042 — 256t/editions/selected-messages/58ffd1cce042adde46188d070a9e6f749ebd8f17fd39d9125e48b6f62766db1a.json; record SHA-256 58ffd1cce042adde46188d070a9e6f749ebd8f17fd39d9125e48b6f62766db1a (available 2026-09-05T15:07:08.452Z); METR — p. 14; summary of board research; search reproduced on the vault copy; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** New material.
+
+### prod-boundary-claude-origin-edit
+
+**Frame:** The command as text with its record time, cropped to its page 067 replacement: the old first panel beside the new.
+
+**Lettering:**
+
+15:08 UTC. Claude’s command applies item 11. Page 067’s first panel now has a line at “END OF 13 JULY 2026”; “METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY”; a card, “13 JULY, 08:46 UTC — OPENAI REPORTS: CODE EXECUTION INSIDE ARTIFACTORY. ITS SIGNING KEY TAKEN. AN ADMINISTRATOR CREDENTIAL FORGED. — OPENAI ACCOUNT, NOT IN METR'S REVIEW”; and “THE DATE IS INSIDE THE WINDOW. THE BRANCH IS NOT.” Provenance: “METR's agreed scope ran 26 June to 13 July and, by subject, excluded the compromise of OpenAI's own infrastructure”.
+METR bears the subject boundary out: “the extent of the security compromise that occurred” was out of scope (p. 21). The dates were OpenAI’s, starting at “the first time a model gained administrator access to Artifactory” (p. 20), and METR’s summary reports admin access to Artifactory near their end (p. 14). The code execution, the signing key and 08:46 are OpenAI’s alone; the administrator credential has an unconfirmed counterpart in METR’s summary.
+
+**Sources:** PROD-5c0cc4571c02 — 256t/editions/selected-messages/5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529.json; record SHA-256 5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529 (available 2026-09-05T15:08:10.171Z); METR — p. 21; questions agreed out of scope; p. 20, footnote 42; p. 14, summary of board research; checked against the vault PDF text (available 2026-08-26); OAI-TR — p. 37; event table, 13 July 08:46 UTC; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 067-01
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "END OF 13 JULY 2026",
+    "source": "PROD-5c0cc4571c02",
+    "locator": "256t/editions/selected-messages/5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529.json; record SHA-256 5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY",
+    "source": "PROD-5c0cc4571c02",
+    "locator": "256t/editions/selected-messages/5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529.json; record SHA-256 5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "13 JULY, 08:46 UTC — OPENAI REPORTS: CODE EXECUTION INSIDE ARTIFACTORY. ITS SIGNING KEY TAKEN. AN ADMINISTRATOR CREDENTIAL FORGED. — OPENAI ACCOUNT, NOT IN METR'S REVIEW",
+    "source": "PROD-5c0cc4571c02",
+    "locator": "256t/editions/selected-messages/5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529.json; record SHA-256 5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "THE DATE IS INSIDE THE WINDOW. THE BRANCH IS NOT.",
+    "source": "PROD-5c0cc4571c02",
+    "locator": "256t/editions/selected-messages/5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529.json; record SHA-256 5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "METR's agreed scope ran 26 June to 13 July and, by subject, excluded the compromise of OpenAI's own infrastructure",
+    "source": "PROD-5c0cc4571c02",
+    "locator": "256t/editions/selected-messages/5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529.json; record SHA-256 5c0cc4571c026c69e23f680697c18842ac459133c4b8f3523ab6c5d6dbe7b529",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "the extent of the security compromise that occurred",
+    "source": "METR",
+    "locator": "p. 21; questions agreed out of scope; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "the first time a model gained administrator access to Artifactory",
+    "source": "METR",
+    "locator": "p. 20; footnote 42; checked against the vault PDF text",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-boundary-claude-origin-report
+
+**Frame:** Claude’s stored message, cropped to its item 11 paragraph.
+
+**Lettering:**
+
+15:09 UTC. Claude’s report: page 067 panel 1 “now states both boundaries”, and the OpenAI-infrastructure branch “was out of scope by subject on any date.”
+
+**Sources:** PROD-7713393d76c2 — 256t/editions/selected-messages/7713393d76c265000c07c072beccfce1996577ec761ed19ea9223bf2bb2337ee.json; record SHA-256 7713393d76c265000c07c072beccfce1996577ec761ed19ea9223bf2bb2337ee (available 2026-09-05T15:09:03.157Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "now states both boundaries",
+    "source": "PROD-7713393d76c2",
+    "locator": "256t/editions/selected-messages/7713393d76c265000c07c072beccfce1996577ec761ed19ea9223bf2bb2337ee.json; record SHA-256 7713393d76c265000c07c072beccfce1996577ec761ed19ea9223bf2bb2337ee",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "was out of scope by subject on any date.",
+    "source": "PROD-7713393d76c2",
+    "locator": "256t/editions/selected-messages/7713393d76c265000c07c072beccfce1996577ec761ed19ea9223bf2bb2337ee.json; record SHA-256 7713393d76c265000c07c072beccfce1996577ec761ed19ea9223bf2bb2337ee",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Curt asks for a read-through — prod-boundary-readthrough-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-05T21:35:19.963Z → 2026-09-05T21:35:19.963Z · millisecond
+
+**Time evidence:** Stored user record at 21:35:19 UTC on 5 September in Claude session 382dd4f9, 16:35 in Curt’s time zone.
+
+**Evidence limit:** A general request; it names no page, caption or rhetorical pattern.
+
+### prod-boundary-readthrough-request-message
+
+**Frame:** Curt’s stored request, alone in its row, with its record time.
+
+**Lettering:**
+
+5 September, 21:35 UTC. Curt asks for a read-through for any improvement. “Accuracy and thought provoking are top goals.”
+
+**Sources:** PROD-6157df59c252 — 256t/editions/selected-messages/6157df59c252ef595013cdf558a000b7c0b65228f959071d82876580d9183c40.json; record SHA-256 6157df59c252ef595013cdf558a000b7c0b65228f959071d82876580d9183c40 (available 2026-09-05T21:35:19.963Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Accuracy and thought provoking are top goals.",
+    "source": "PROD-6157df59c252",
+    "locator": "256t/editions/selected-messages/6157df59c252ef595013cdf558a000b7c0b65228f959071d82876580d9183c40.json; record SHA-256 6157df59c252ef595013cdf558a000b7c0b65228f959071d82876580d9183c40",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
 ## The continuation argument under review — prod-continuation-review
 
 **Row:** Claude · collaboration
@@ -14754,6 +15677,56 @@ METR also warns that analysis agents made errors and could select overly charita
 
 **Frozen panel associations:** 063-04, 063-05
 
+## Claude lists the boundary pages’ aphorisms — prod-boundary-claude-aphorisms
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T21:48:18.517Z → 2026-09-05T21:48:18.517Z · millisecond
+
+**Time evidence:** A Write at 21:48:18 UTC on 5 September in Claude session 382dd4f9 (claude-opus-5), creating research/read-through-findings.md.
+
+**Evidence limit:** R12 is one of thirteen findings in the file; this beat takes its page 067 and 070 entries. A finding changes no page.
+
+### prod-boundary-claude-aphorisms-r12
+
+**Frame:** The Write as text with its record time, cropped to R12’s list.
+
+**Lettering:**
+
+21:48 UTC. Claude’s findings file, R12: thirteen captions “where a linking verb sets one abstract noun phrase against another and nothing in the record is bounded”. Page 067’s “PRECISION IS NOT THE SAME AS INDEPENDENT VERIFICATION” and page 070’s “UNCERTAINTY IS NOT DISMISSAL” are on the list.
+
+**Sources:** PROD-9f6ec303c791 — 256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8 (available 2026-09-05T21:48:18.517Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "where a linking verb sets one abstract noun phrase against another and nothing in the record is bounded",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "PRECISION IS NOT THE SAME AS INDEPENDENT VERIFICATION",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "UNCERTAINTY IS NOT DISMISSAL",
+    "source": "PROD-9f6ec303c791",
+    "locator": "256t/editions/selected-messages/9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8.json; record SHA-256 9f6ec303c791b2610e61e07303107938689fe1fd461162cbb03c7c8a1844a8e8",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
 ## Curt asks for the read-through changes — prod-mirror-request
 
 **Row:** Curt · collaboration
@@ -15046,6 +16019,90 @@ The first command’s notes replacement had failed on a panel number its own ins
     "locator": "256t/editions/selected-messages/a7136dcd8b2f59fb5fab6b0eafcd62538edd18fc4cd177caead91771f032dc33.json; record SHA-256 a7136dcd8b2f59fb5fab6b0eafcd62538edd18fc4cd177caead91771f032dc33",
     "verification": "verbatim",
     "rights": "unresolved"
+  }
+]
+```
+
+## Claude turns the precision caption into a measurement — prod-boundary-claude-thinning
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T22:14:10.015Z → 2026-09-05T22:27:14.190Z · millisecond
+
+**Time evidence:** Stored records in Claude session fa3d8361 (claude-opus-5) on 5 September: the command at 22:14:10 UTC and the annotation command at 22:27:14. Curt’s 21:59 request is placed with the mirror-revision scenes and quoted for context.
+
+**Evidence limit:** Transcript text matching places frozen 067-02’s caption in the 22:14:10 command. The same command changes captions on pages 026, 061, 085, 104 and 115, placed with their own passes. OpenAI’s table is checked here against the vault PDF.
+
+### prod-boundary-claude-thinning-caption
+
+**Frame:** The command as text with its record time, cropped to its page 067 replacement.
+
+**Lettering:**
+
+22:14 UTC. Asked at 21:59 to “make the suggested changes”, Claude replaces page 067’s table caption with “ONE ACCOUNT. TO THE MINUTE.” The command’s comment: “the page already carries two contrasts; this one becomes a measurement”.
+OpenAI’s table does give minutes (p. 37). “ONE ACCOUNT” holds if OpenAI’s technical report and its Black Hat talk count as one: both are OpenAI’s.
+
+**Sources:** PROD-496d75375a67 — 256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38 (available 2026-09-05T21:59:17.868Z); PROD-0c9fc5a09b09 — 256t/editions/selected-messages/0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8.json; record SHA-256 0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8 (available 2026-09-05T22:14:10.015Z); OAI-TR — p. 37; event table; checked against the vault PDF text (available 2026-08-26)
+
+**Frozen panel associations:** 067-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "make the suggested changes",
+    "source": "PROD-496d75375a67",
+    "locator": "256t/editions/selected-messages/496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38.json; record SHA-256 496d75375a6785979640573242f7945e932a3c509849f174c559463c75cfce38",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "ONE ACCOUNT. TO THE MINUTE.",
+    "source": "PROD-0c9fc5a09b09",
+    "locator": "256t/editions/selected-messages/0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8.json; record SHA-256 0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  },
+  {
+    "text": "the page already carries two contrasts; this one becomes a measurement",
+    "source": "PROD-0c9fc5a09b09",
+    "locator": "256t/editions/selected-messages/0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8.json; record SHA-256 0c9fc5a09b0929d8806013570152327091fabe7e16890bc68ca5914123bc26f8",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-boundary-claude-thinning-note
+
+**Frame:** The annotation command as text with its record time, cropped to R12’s applied paragraph.
+
+**Lettering:**
+
+22:27 UTC. Claude’s applied note calls the new caption “the same point as a measurement”. Page 070’s line stays: “051, 054, 070, 075 and 107 keep theirs.”
+
+**Sources:** PROD-6708ca4a8292 — 256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e (available 2026-09-05T22:27:14.190Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "the same point as a measurement",
+    "source": "PROD-6708ca4a8292",
+    "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "051, 054, 070, 075 and 107 keep theirs.",
+    "source": "PROD-6708ca4a8292",
+    "locator": "256t/editions/selected-messages/6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e.json; record SHA-256 6708ca4a8292eb0277b7c653ffe0ea11c2e8b4366f7ed1230433bf2e95c3b27e",
+    "verification": "project-authored",
+    "rights": "cleared"
   }
 ]
 ```
@@ -16778,64 +17835,6 @@ The draft ends on the unresolved assurance requirement. Its empty channel is an 
 **Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
 
 **Frozen panel associations:** 098-06
-
-## What the later branch’s source boundary means — prod-branch-scope-review
-
-**Row:** Claude · collaboration
-
-**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
-
-**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
-
-**Evidence limit:** Narrator analysis of historical draft in the existing dated review context. No additional reading act is attributed to Claude; source timelines remain approximate and no event is replayed.
-
-### prod-branch-scope-subject
-
-**Frame:** Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.
-
-**Lettering:**
-
-The earlier draft stops at a calendar boundary. The stronger distinction is scope: a July 13 event can fall within METR’s dates while confirmation of the OpenAI-infrastructure compromise remains excluded. Mere mention in METR is not independent confirmation of that branch.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-BRANCH-067 — editions/three-stream/evidence/branch-scope-067-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 21–23; subject and date scope (available 2026-08-26); OAI-TR — §V and §X; July 13 and 19 account (available 2026-08-26)
-
-**Frozen panel associations:** 067-01, 067-02
-
-### prod-branch-scope-precision
-
-**Frame:** Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.
-
-**Lettering:**
-
-Detailed timestamps make claims specific and checkable; they do not themselves authenticate the underlying records. Keep OpenAI’s attribution with each later event rather than making one separator carry every subsequent qualification.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-BRANCH-067 — editions/three-stream/evidence/branch-scope-067-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 21–23; subject and date scope (available 2026-08-26); OAI-TR — §V and §X; July 13 and 19 account (available 2026-08-26)
-
-**Frozen panel associations:** 067-02, 067-03, 070-02
-
-### prod-branch-scope-availability
-
-**Frame:** Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.
-
-**Lettering:**
-
-METR did not review these later-run records. That known limitation does not, on its own, establish that no other investigator ever saw them, that every underlying artifact is unavailable, or that the account is false. The book must name the review it can substantiate.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-BRANCH-070 — editions/three-stream/evidence/branch-scope-070-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 21–23; subject and date scope (available 2026-08-26); OAI-TR — §V and §X; July 13 and 19 account (available 2026-08-26)
-
-**Frozen panel associations:** 067-03, 070-01, 070-03
-
-### prod-branch-scope-confidence
-
-**Frame:** Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.
-
-**Lettering:**
-
-The account is consequential but lacks METR corroboration for this branch. The old confidence meter cannot supply a numerical confidence level, and ranking these as the strongest claims with the weakest evidence is the book’s comparison, not a measured property of all incident evidence.
-
-**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-BRANCH-070 — editions/three-stream/evidence/branch-scope-070-7fa53878c493.md; panels and notes (available 2026-09-05T22:33:29Z); METR — pp. 21–23; subject and date scope (available 2026-08-26); OAI-TR — §V and §X; July 13 and 19 account (available 2026-08-26)
-
-**Frozen panel associations:** 070-04, 070-05
 
 ## The public case for defensive automation — prod-defense
 

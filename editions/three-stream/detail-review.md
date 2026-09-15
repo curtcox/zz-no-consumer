@@ -11104,9 +11104,9 @@ CONVENTIONS, FILES, AND CREDENTIALS CAN REMAIN ACTIONABLE.
 
 Recto. Full-width source slate. Every prior artifact stops at a hard vertical line labeled `END OF 13 JULY 2026`. Just inside the line, one card sits in a different register from everything before it, already carrying the header the next five pages will wear.
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed frame element.
+**Decision:** rewrite — The 13 July events stay in the Hugging Face row at OpenAI’s times. Claude’s 5 September 15:08:10 command wrote this frame; it is shown at that act (working-rule case 2), with METR’s own mention of admin access to Artifactory measured in the lettering. Reviewed frame element.
 
-**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-branch-scope-subject
+**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-boundary-claude-origin-edit
 
 ### legacy-067-01-detail-03 · lettering
 
@@ -11114,9 +11114,9 @@ Recto. Full-width source slate. Every prior artifact stops at a hard vertical li
 
 METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — The 13 July events stay in the Hugging Face row at OpenAI’s times. Claude’s 15:08:10 command wrote the window line; the lettering adds that OpenAI, not METR, set the dates (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-branch-scope-subject
+**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-boundary-claude-origin-edit
 
 ### legacy-067-01-detail-04 · lettering
 
@@ -11124,9 +11124,9 @@ METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY
 
 13 JULY, 08:46 UTC — OPENAI REPORTS: CODE EXECUTION INSIDE ARTIFACTORY. ITS SIGNING KEY TAKEN. AN ADMINISTRATOR CREDENTIAL FORGED. — OPENAI ACCOUNT, NOT IN METR'S REVIEW
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — The 13 July events stay in the Hugging Face row at OpenAI’s times. Claude’s 15:08:10 command wrote the 13 July card; the lettering separates what only OpenAI reports from the admin access METR’s summary also mentions (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-branch-scope-subject
+**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-boundary-claude-origin-edit
 
 ### legacy-067-01-detail-05 · lettering
 
@@ -11134,9 +11134,9 @@ METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY
 
 THE DATE IS INSIDE THE WINDOW. THE BRANCH IS NOT.
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — The 13 July events stay in the Hugging Face row at OpenAI’s times. Claude’s 15:08:10 command wrote the caption; the lettering checks its subject boundary against METR p. 21 (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-branch-scope-subject
+**Draft destination:** hf-rubygems-staging-stage, hf-rubygems-staging-review-boundary, hf-artifactory-execution-execution, hf-artifactory-execution-key-theft, hf-artifactory-execution-forgery, hf-admin-sweep-sweep, prod-boundary-claude-origin-edit
 
 ## legacy-332b5ed63262 · 067-02
 
@@ -11146,9 +11146,9 @@ THE DATE IS INSIDE THE WINDOW. THE BRANCH IS NOT.
 
 Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI's published event table; exact times remain visible only as claims attributed to the reporting organization.
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed frame element.
+**Decision:** rewrite — Codex’s 16:29:57 merge wrote this frame from the cards and table of its 15:34:11 page; both acts are shown (working-rule case 2). Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-subject, prod-branch-scope-precision
+**Draft destination:** prod-boundary-codex-cadence-merge, prod-boundary-codex-page-067
 
 ### legacy-067-02-detail-03 · lettering
 
@@ -11156,9 +11156,9 @@ Large central dossier field. The next six page numbers appear beyond the line in
 
 UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-subject, prod-branch-scope-precision
+**Draft destination:** prod-boundary-codex-page-067
 
 ### legacy-067-02-detail-04 · lettering
 
@@ -11166,9 +11166,9 @@ UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR
 
 METR CORROBORATION — NOT AVAILABLE
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote the card as INDEPENDENT CORROBORATION at 15:34:11 and narrowed it to METR at 15:35:27; both acts are shown (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-subject, prod-branch-scope-precision
+**Draft destination:** prod-boundary-codex-page-067, prod-boundary-codex-audit-correction
 
 ### legacy-067-02-detail-05 · lettering
 
@@ -11176,9 +11176,9 @@ METR CORROBORATION — NOT AVAILABLE
 
 PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-subject, prod-branch-scope-precision
+**Draft destination:** prod-boundary-codex-page-067
 
 ### legacy-067-02-detail-06 · lettering
 
@@ -11186,9 +11186,9 @@ PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT
 
 ONE ACCOUNT. TO THE MINUTE.
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — Claude’s 5 September 22:14:10 command replaced Codex’s 15:34:11 caption with this one; both acts are shown (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-subject, prod-branch-scope-precision
+**Draft destination:** prod-boundary-claude-thinning-caption, prod-boundary-codex-page-067
 
 ### legacy-067-02-detail-07 · lettering
 
@@ -11196,9 +11196,9 @@ ONE ACCOUNT. TO THE MINUTE.
 
 THE INVESTIGATION WINDOW NAMES A RANGE OF DATES. THE REVIEW’S SCOPE ALSO DEPENDS ON WHICH RECORDS THE INVESTIGATORS WERE GIVEN. AN EVENT CAN FALL INSIDE THE DATES WHILE ITS UNDERLYING BRANCH REMAINS OUTSIDE THE REVIEW.
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.
+**Decision:** rewrite — The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). It explains the dossier Codex drew on 2 September, shown at that act. Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-subject, prod-branch-scope-precision, prod-captions-second-middle
+**Draft destination:** prod-captions-second-middle, prod-boundary-codex-page-067
 
 ## legacy-332b5ed63262 · 067-03
 
@@ -11208,9 +11208,9 @@ THE INVESTIGATION WINDOW NAMES A RANGE OF DATES. THE REVIEW’S SCOPE ALSO DEPEN
 
 Black field with one persistent header that will repeat on pages [068](068.md)–[072](072.md).
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). The page-link form is a later mechanical rewrite. Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-precision, prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-067
 
 ### legacy-067-03-detail-03 · lettering
 
@@ -11218,9 +11218,9 @@ Black field with one persistent header that will repeat on pages [068](068.md)�
 
 OPENAI ACCOUNT — NOT IN METR'S REVIEW
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-precision, prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-067
 
 ### legacy-067-03-detail-04 · lettering
 
@@ -11228,9 +11228,9 @@ OPENAI ACCOUNT — NOT IN METR'S REVIEW
 
 THE NEXT EVENTS MAY BE CONSEQUENTIAL AND STILL REQUIRE A DIFFERENT LEVEL OF CONFIDENCE.
 
-**Decision:** rewrite — Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2). Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-precision, prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-067
 
 ## legacy-332b5ed63262 · 068-01
 
@@ -11500,9 +11500,9 @@ IN OPENAI’S ACCOUNT, THE BREACH REACHES THE EVALUATOR’S OWN INFRASTRUCTURE. 
 
 Verso. Persistent top strip: `OPENAI ACCOUNT — NOT IN METR'S REVIEW`. Two columns: `PUBLISHED BY OPENAI` and `INDEPENDENTLY REVIEWED`.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the lettering sets METR’s access limit beside the outside advisers OpenAI says it retained. Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-070-columns
 
 ### legacy-070-01-detail-02 · action
 
@@ -11510,9 +11510,9 @@ Verso. Persistent top strip: `OPENAI ACCOUNT — NOT IN METR'S REVIEW`. Two colu
 
 The first column contains the July 19 sequence. The second remains empty.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the lettering sets METR’s access limit beside the outside advisers OpenAI says it retained. Reviewed action element.
 
-**Draft destination:** prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-070-columns
 
 ## legacy-332b5ed63262 · 070-02
 
@@ -11522,9 +11522,9 @@ The first column contains the July 19 sequence. The second remains empty.
 
 Under `PUBLISHED`: model relationship, cache recovery, fresh administrator access, cluster escalation, event times.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the lettering sets METR’s access limit beside the outside advisers OpenAI says it retained. Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-precision
+**Draft destination:** prod-boundary-codex-page-070-columns
 
 ### legacy-070-02-detail-03 · lettering
 
@@ -11532,9 +11532,9 @@ Under `PUBLISHED`: model relationship, cache recovery, fresh administrator acces
 
 THE ACCOUNT IS SPECIFIC.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the lettering sets METR’s access limit beside the outside advisers OpenAI says it retained. Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-precision
+**Draft destination:** prod-boundary-codex-page-070-columns
 
 ## legacy-332b5ed63262 · 070-03
 
@@ -11544,9 +11544,9 @@ THE ACCOUNT IS SPECIFIC.
 
 Under `NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW`: later-run transcripts, full artifact chain, independent reconstruction of identities and causality.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the lettering sets METR’s access limit beside the outside advisers OpenAI says it retained. Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-070-columns
 
 ### legacy-070-03-detail-03 · lettering
 
@@ -11554,9 +11554,9 @@ Under `NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW`: later-run transcripts, fu
 
 THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the lettering sets METR’s access limit beside the outside advisers OpenAI says it retained. Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-availability
+**Draft destination:** prod-boundary-codex-page-070-columns
 
 ## legacy-332b5ed63262 · 070-04
 
@@ -11566,9 +11566,9 @@ THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.
 
 A confidence meter refuses to collapse into either `FALSE` or `VERIFIED`. It rests at `ATTRIBUTED CLAIM WITH PRIMARY DOCUMENTATION`.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the confidence scale and ranking are marked as the draft’s comparison. Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-confidence
+**Draft destination:** prod-boundary-codex-page-070-meter
 
 ### legacy-070-04-detail-02 · action
 
@@ -11576,9 +11576,9 @@ A confidence meter refuses to collapse into either `FALSE` or `VERIFIED`. It res
 
 Attribution replaces false certainty.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed action element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the confidence scale and ranking are marked as the draft’s comparison. Reviewed action element.
 
-**Draft destination:** prod-branch-scope-confidence
+**Draft destination:** prod-boundary-codex-page-070-meter
 
 ### legacy-070-04-detail-03 · lettering
 
@@ -11586,9 +11586,9 @@ Attribution replaces false certainty.
 
 UNCERTAINTY IS NOT DISMISSAL.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the confidence scale and ranking are marked as the draft’s comparison. Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-confidence
+**Draft destination:** prod-boundary-codex-page-070-meter
 
 ### legacy-070-04-detail-04 · lettering
 
@@ -11596,9 +11596,9 @@ UNCERTAINTY IS NOT DISMISSAL.
 
 AN INSTITUTION’S ACCOUNT CAN BE DETAILED AND CONSEQUENTIAL WITHOUT AN OUTSIDE INVESTIGATOR HAVING SEEN THE UNDERLYING RECORD. THE BOOK KEEPS THE CLAIM AND THE LIMIT ON ITS CORROBORATION TOGETHER.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). The event it explains stays with its dated record and sources. Reviewed lettering element.
+**Decision:** rewrite — The added caption’s wording is Codex’s 13 September act, placed at its tool call (working-rule case 2). It explains the meter Codex drew on 2 September, shown at that act. Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-confidence, prod-captions-second-middle
+**Draft destination:** prod-captions-second-middle, prod-boundary-codex-page-070-meter
 
 ## legacy-332b5ed63262 · 070-05
 
@@ -11608,9 +11608,9 @@ AN INSTITUTION’S ACCOUNT CAN BE DETAILED AND CONSEQUENTIAL WITHOUT AN OUTSIDE 
 
 The OpenAI event table returns, still behind the source header. The next timestamps—`16:50`, `17:00`, `17:34`—wait unopened.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the confidence scale and ranking are marked as the draft’s comparison. Reviewed frame element.
 
-**Draft destination:** prod-branch-scope-confidence
+**Draft destination:** prod-boundary-codex-page-070-meter
 
 ### legacy-070-05-detail-03 · lettering
 
@@ -11618,9 +11618,9 @@ The OpenAI event table returns, still behind the source header. The next timesta
 
 THE STRONGEST SCOPE CLAIMS HAVE THE WEAKEST INDEPENDENT VIEW.
 
-**Decision:** rewrite — Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.
+**Decision:** rewrite — Codex wrote this element in the 2 September 15:34:11 patch and it is shown at that act (working-rule case 2); the confidence scale and ranking are marked as the draft’s comparison. Reviewed lettering element.
 
-**Draft destination:** prod-branch-scope-confidence
+**Draft destination:** prod-boundary-codex-page-070-meter
 
 ## legacy-332b5ed63262 · 071-01
 
