@@ -1328,5 +1328,159 @@
     "admission": "Concealment device: Claude's shell command extends the provenance lines of frozen 032-05 and 035-04 and adds page notes making the wipe caption deliberately overconfident and withholding the training-run overlap until page 039. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
+  },
+  "PROD-c22b110c45e8": {
+    "available": "2026-09-03T23:34:32.036Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Read-through request: Curt asks Claude to read the whole story for improvements, naming accuracy and being thought-provoking as the top goals. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-638a1b035bd7": {
+    "available": "2026-09-03T23:40:25.418Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Read-through notes: Claude's read-through notes: item 12 says ChatGPT is right every time and proposes letting it be confidently wrong once; item 11 says Curt has no stake; item 14 proposes using the provenance apparatus against the reader. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-38fff9f13f87": {
+    "available": "2026-09-04T00:38:36.317Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critique fetched: Claude fetches Carl Brown's post 'No — AI Agents Did Not Build Secret Civilizations' during its research of him as a foil. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-d3872493a3a1": {
+    "available": "2026-09-04T00:41:28.097Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Foil research report: Claude reports its research on Carl Brown, summarizes his malware and prompt-injection argument, proposes citing the real post once and building a disclosed composite, and says the weights, not a message, crossed the wipe; it asks for the Black Hat transcript. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-f93d1db851a2": {
+    "available": "2026-09-04T02:40:00.900Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Transcript reading: Claude reports that the pasted Black Hat transcript states the training channel three times, calls Chapter 2's thesis the book's least defensible claim, flags that OpenAI's 17:03 founding and METR's account may not be the same, and proposes a reversal for Chapter 2. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-5205f69ec42b": {
+    "available": "2026-09-04T03:06:35.887Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Interlude B rewrite announced: Claude says it is rewriting pages 038-040 as a set, where Chapter 2's thesis gets broken. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-d394181de50e": {
+    "available": "2026-09-04T03:07:07.801Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Page 039 rewrite: Claude's Write replaces page 039 with the published-critique page: the critic's window beside ChatGPT's, the paraphrased malware and prompt-injection argument, ChatGPT's wrong defense, OpenAI's training-overlap citation and Curt's concession. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-ca6d4d8b9b38": {
+    "available": "2026-09-04T03:07:38.971Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Page 040 rewrite: Claude's Write replaces page 040 with the narrowed thesis: trained disposition and local usefulness as touching boxes, ChatGPT's window smaller, the selection-effect caption kept from Codex's draft, and the revised sentence about an invisible configuration. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-749d4fbb0e0a": {
+    "available": "2026-09-04T03:07:49.066Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Page 038 notes edit: Claude's Edit rewrites page 038's notes so panel 5 is drawn as a deliberate overreach and ChatGPT's block is at full size for the last time. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-71bcc6fae0f2": {
+    "available": "2026-09-04T03:16:12.207Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Rewrite report: Claude reports the session's changes, including Interlude B rewritten as a defeat, the skeptic kept as a text window rather than a character, and nothing committed. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-6f31beaeb668": {
+    "available": "2026-09-05T14:34:12.852Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critic expansion request: Curt asks Claude to update the revision priorities, mark the fog of war approved, add credits, lean heavily toward expanding the critic, and start the changes. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-f609f7b95fa3": {
+    "available": "2026-09-05T14:40:26.971Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critique source question: Claude asks where page 039's published critique comes from, since no entry for it exists in the source index or cast, and how the critic should recur. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-d15be61076e8": {
+    "available": "2026-09-05T14:45:29.773Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critique source answer: Curt answers that he has supplied the transcript before and asks Claude to search for its closing marker or point him to an empty file; he chooses both critic lanes and the W3 fog treatment. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-d7af37d212d9": {
+    "available": "2026-09-05T14:46:27.189Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Transcript not found: Claude reports the critique transcript is not in the repository or vault, asks Curt to paste it into an empty ignored file, and logs page 039's unregistered citation as a factual gap. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-8c7361a621b7": {
+    "available": "2026-09-05T14:50:13.248Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Black Hat transcript supplied: Curt says he supplied the OpenAI Black Hat transcript and asks whether it is the one wanted. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-febd76e4568e": {
+    "available": "2026-09-05T14:50:50.463Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Wrong transcript: Claude says the supplied file is the Black Hat talk, OAI-BH, which confirms page 039's 17:03 and 14:06 locators but does not contain the critique's argument; it asks whether a specific piece made it or it was assembled. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-b8e40d31effd": {
+    "available": "2026-09-05T14:54:29.749Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Help finding the source: Curt asks Claude to give him what it knows to help him find the source. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-bf139498e141": {
+    "available": "2026-09-05T14:56:59.543Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "IOB-CIV registered: Claude's command registers Carl Brown's post as IOB-CIV across the ledger, packet, sources, cast, credits and page 039, adding the byline to panel 1. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-60c39a67c111": {
+    "available": "2026-09-05T14:57:15.634Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Panel 2 provenance tightened: Claude's command narrows page 039 panel 2's provenance to the not-a-civilization, malware and prompt-injection claims and says the persistence-of-context thesis is not lettered. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-925ab27e8f50": {
+    "available": "2026-09-05T14:57:34.038Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Critique identified: Claude reports the critique is Carl Brown's Substack post, that the 4 September session found it and wrote page 039 from it without registering it, and asks Curt to decide its post-cutoff admission. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-c9a37bbbfe54": {
+    "available": "2026-09-05T14:59:37.096Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Admission clause: Claude's command adds the contract clause admitting post-cutoff critiques one at a time by recorded decision and records IOB-CIV as admitted on 5 September. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "PROD-42fffb27dd34": {
+    "available": "2026-09-05T15:03:42.107Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Admission recorded: Claude reports the admission clause recorded and the critic returning three times inside existing panels, with nothing committed. Preserved production record; evidence of what was typed, reported or written at the stored time, not of the underlying incident claims.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
   }
 }
