@@ -1,0 +1,104 @@
+id	tier	kind	start	end	basis
+CW-EXPORT	primary	published	2026-09-03		Export by explorer-schema-2; checked into research/collusion/
+CW-EXPORT	primary	covers	2026-05-17	2026-07-14	Event stream 17 May-14 Jul; held revisions 24 May-2 Jul; the row-level event record
+CW-REPORT	primary	published	2026-09-04		Von Arx, Slade Byrd, Kitts, Larsen; collusion.wiki
+CW-REPORT	primary	covers	2026-05-17	2026-07-14	Researchers' interpretation of the corpus window
+OAI-TR	primary	published	2026-08-26		OpenAI technical report
+OAI-TR	primary	covers	2026-04-20	2026-07-25	Event table section X: first arbitrary write through quarantine
+OAI-OV	primary	published	2026-08-26		OpenAI incident overview and interactive timeline
+OAI-OV	primary	covers	2026-04-20	2026-08-18	Narrative account spanning origins through response
+OAI-INC	primary	published	2026-07-21		First OpenAI admission, rolling updates
+OAI-INC	primary	covers	2026-07-09	2026-07-21	Disclosure describes the HF intrusion window
+OAI-PACE	primary	published	2026-08-18		Training pause and Astra risk context
+OAI-LETTER	primary	published	2026-08-27		Collective cyber-defense letter
+OAI-BH	primary	published	2026-08-05		Black Hat USA talk; recording published 6 Aug
+OAI-BH	primary	covers	2026-05-07	2026-07-08	Message-board prehistory and May training-era disclosures; sole public source for training/eval configuration
+HF-INC	primary	published	2026-07-16		Initial victim-side disclosure
+HF-INC	primary	covers	2026-07-09	2026-07-13	Describes the intrusion window
+HF-TL	primary	published	2026-07-27		Technical timeline and replay
+HF-TL	primary	covers	2026-07-09	2026-07-13	Forensic reconstruction of the intrusion
+METR	primary	published	2026-08-26		Independent investigation; PDF footnotes carry extra material
+METR	primary	covers	2026-07-07	2026-07-13	Post-wipe transcript window through the 12 July stop and 13 July cut
+metr-methodology	primary	published	2026-07-28		Pre-engagement methodology
+metr-investigation	primary	published	2026-08-26		Controlling public investigation page; same record as METR
+metr-report	primary	published	2026-08-26		Controlling PDF; exact typography and footnotes
+metr-security-update	primary	published	2026-08-31		Update on Security at METR
+metr-security-update	primary	covers	2026-03-01	2026-05-31	METR's own March and May 2026 intrusions, described retrospectively
+alabama-subpoena	primary	published	2026-08-20		Subpoena 26-0007, 16 requests
+alabama-subpoena	primary	covers	2026-08-20	2026-09-14	Production due 10:00 Central 14 September
+alabama-press-release	primary	published	2026-08		Official announcement; allegations are not findings
+multistate-letter	primary	published	2026-08-03		Fifteen-state preservation and cease-and-desist demand
+multistate-letter	primary	covers	2026-08-03	2026-08-03	Demand letter dated 3 August
+AG-LETTER	primary	published	2026-08-03		Same document as multistate-letter
+AG-LETTER	primary	covers	2026-08-03		The letter's incident narrative is drawn from public reporting
+gemstuffer-status	primary	covers	2026-05-12	2026-05-16	Contemporaneous status log; three UTC updates
+gemstuffer-status	primary	event	2026-05-12T08:54		RubyGems registration disabled; status describes DDoS activity
+gemstuffer-status	primary	event	2026-05-13T03:17		Spam stopped; accounts removed and 500+ packages yanked
+gemstuffer-status	primary	event	2026-05-16T05:12		Registration restored
+gemstuffer-ghsa	primary	published	2026-07-22		Maintainer advisory; High 7.3 CVSS v4
+gemstuffer-ghsa	primary	covers	2026-07-09	2026-07-23	Timeline says fix 9 Jul and disclosure 23 Jul
+gemstuffer-email-fix	primary	event	2026-05-11		GitHub displays PR #6486 merge 11 May; investigation says production 12 May; merge date alone does not establish deployment
+gemstuffer-cache-advisory	primary	published	2026-07-22		Header date; blog timeline says disclosure 23 Jul
+gemstuffer-cache-advisory	primary	covers	2026-07-06	2026-07-23	Marshall reports flaw 6 Jul; fix deployed 9 Jul; revocation/notification/disclosure 23 Jul
+gemstuffer-cache-advisory	primary	event	2026-07-06		Luke Marshall reports the cache flaw to RubyGems
+gemstuffer-cache-advisory	primary	event	2026-07-09		Root-cause fix deployed; Fastly cache purged
+gemstuffer-report	analysis	published	2026-09-11		Kitts, Larsen and Von Arx investigation
+gemstuffer-report	analysis	covers	2026-05-05	2026-06-18	Reconstructed campaign: earliest package 5 May through the June waves
+gemstuffer-report	analysis	event	2026-05-05		Earliest attributed package
+gemstuffer-report	analysis	event	2026-05-08		First package name containing `oai`
+gemstuffer-report	analysis	event	2026-05-11	2026-05-12	Over 2,000 package submissions; not an agent count
+gemstuffer-report	analysis	event	2026-05-26	2026-05-27	Five further packages; 83 more on 18 June
+gemstuffer-report	analysis	event	2026-06-18		83 further packages
+gemstuffer-report	analysis	event	2026-09-11		Attribution report, press coverage, company statement and maintainer response become available
+gemstuffer-socket	reporting	published	2026-05-13		Joseph Edwards; contemporary package analysis
+gemstuffer-socket	reporting	covers	2026-05-05	2026-05-13	Analysis of the campaign as it stood mid-incident
+gemstuffer-rubygems-update	primary	published	2026-09-11		Colby Swandale maintainer response
+gemstuffer-rubygems-update	primary	covers	2026-05-05	2026-05-16	Maintainer account of the May incident and investigation limits
+gemstuffer-reuters-initial	reporting	published	2026-09-11		Reuters syndication; initial WSJ attribution chain
+gemstuffer-reuters-update	reporting	published	2026-09-11		Expanded syndication; OpenAI statement
+gemstuffer-cyberscoop	reporting	published	2026-09-11		Direct OpenAI spokesperson response
+register-rubygems-swarm	reporting	published	2026-09-14		Longer OpenAI spokesperson statement on RubyGems
+hackernews-rubygems-rubydoc	reporting	published	2026-09-12		RubyDoc .yardopts RCE chain; first Ruby Central attribution quotation
+exploitgym-paper	primary	published	2026-05		Benchmark paper; arXiv 2605.11086
+aisi-incident	primary	published	2026-08		UK AISI comparative government report
+jfrog-findings	primary	covers	2026-06-29	2026-07-06	Vendor account of Artifactory zero-days found during the incident
+openai-third-party-cyber-evals	primary	published	2026-08-04		Adjacent AISI cyber-range and Irregular events, kept separate
+openai-pacing	primary	published	2026-08-18		Training pause and risk context; same document as OAI-PACE
+openai-collective-defense	primary	published	2026-08-27		Same document as OAI-LETTER
+openai-overview	primary	published	2026-08-26		Same document as OAI-OV
+openai-technical-report	primary	published	2026-08-26		Same document as OAI-TR
+openai-technical-report	primary	covers	2026-04-20	2026-07-25	Event table window
+openai-initial-incident	primary	published	2026-07-21		Same document as OAI-INC
+huggingface-incident	primary	published	2026-07-16		Same document as HF-INC
+huggingface-timeline	primary	published	2026-07-27		Same document as HF-TL
+huggingface-timeline	primary	covers	2026-07-09	2026-07-13	Victim-side technical timeline
+openai-path-to-astra	primary	published	2026-09-01		Critical designation; retrospective prevention claim
+openai-path-to-astra	primary	event	2026-08-28		Paused frontier RL run restarted
+openai-astra-system-card	primary	published	2026-09-03		System card; changelog entries 9 Sep
+openai-astra-system-card	primary	published	2026-09-09		Changelog update
+openai-astra-launch	primary	published	2026-09-09		Launch page; 48% figure that does not reconcile
+openai-alien-mind	analysis	published	2026-09-06		Jakub Pachocki, An Alien Mind (OAI-ALIEN in sources.md); not yet admitted
+collusion-wiki-report	analysis	published	2026-09-04		Same document as CW-REPORT
+collusion-wiki-report	analysis	covers	2026-05-17	2026-07-14	Interprets the corpus window
+nyt-hf-podcast	analysis	published	2026-09-04		Hard Fork interview with Cotra; investigator on the record
+nyt-hf-podcast	analysis	covers	2026-07-07	2026-07-13	Discusses the investigation of the intrusion window
+nyt-hf-podcast-video	analysis	published	2026-09-04		Video and transcript source for HF-POD
+HF-POD	analysis	published	2026-09-04		Same record as nyt-hf-podcast
+HF-POD	analysis	covers	2026-07-07	2026-07-13	Investigator testimony about the intrusion window
+IOB-CIV	analysis	published	2026-09-03		Internet of Bugs critique; paraphrase only
+internetofbugs-civilizations	analysis	published	2026-09-03		Same document as IOB-CIV
+internetofbugs-hf-lessons	analysis	covers	2026-07-09	2026-07-13	Carl Brown lessons video; class-2 evidence about the intrusion
+EK-TONER	analysis	published	2026-08-18		Klein/Toner interview; title FAQ only
+klein-toner-title	analysis	published	2026-08-18		Same document as EK-TONER
+shapiro-incentive-gradient	analysis	published	2026-09-06		Derived from post snowflake id; body owner-supplied
+greenblatt-astra-alignment	analysis	published	2026-09-03		Investigator reading OpenAI's remediation numbers
+robmiles-keeping-ai-in-a-box	analysis	published	2026-07-14		Self-revision of sandbox-it; containment argument
+robmiles-sandbox-it	analysis	published	2017-06-23		Computerphile; the take keeping-ai-in-a-box revises
+CI-REFUSAL	internal	event	2026-07-15		First stored model-refusal fallback in this project's transcripts
+CI-REFUSAL	internal	event	2026-09-05		Second stored model-refusal fallback
+path:research/openai-huggingface-dossier.md	internal	covers	2026-04-20	2026-09-01	Local synthesis compiled 30 Aug, updated through 1 Sep
+path:research/gemstuffer-2026-09-12.md	internal	covers	2026-05-05	2026-09-14	May incident plus September attribution and response
+path:research/participant-updates-2026-09-15.md	internal	covers	2026-08-28	2026-09-15	Post-1-September record; Astra material, METR disclosure, Alabama deadline
+path:research/participant-updates-2026-09-15.md	internal	event	2026-09-14		Alabama production deadline passes with nothing public
+path:research/cotra-hardfork-interview.md	internal	covers	2026-09-04		Item-by-item assessment of the Hard Fork interview
+path:research/pachocki-alien-mind.md	internal	covers	2026-09-06		Item-by-item assessment of An Alien Mind

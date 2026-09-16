@@ -98,6 +98,8 @@ partly cover.
 | `data/storyboard-assets.json` | **`svg_components.py export`** | derived geometry for selected component defaults; do not hand-edit |
 | `data/panel-art.tsv` | **`panelart.py`** | which version of a panel is the chosen one; `panel_chooser.py` writes through it |
 | `data/crossref.json`, `data/appendix.json` | **`crossref.py json`**, `appendix.py json` | derived |
+| `data/time-spans.tsv` | you, by hand | source coverage windows, primacy tiers, attested events; `timeindex.py check` validates |
+| `data/time-index.json` | **`timeindex.py build`** | derived |
 | `data/generation-log.jsonl` | **`imagegen.py` / `localgen.py` / `produce.py`** | a dated record; append-only, never rewritten by the renumbering tools |
 | `assets/art/panels/NNN-II/` | **`produce.py` / `storyboards.py` / `panel_chooser.py`** | adds versions, never replaces one |
 | `docs/**` | **`build-site.py`** | **never hand-edit**; regenerate and commit the result |

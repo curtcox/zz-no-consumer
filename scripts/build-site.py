@@ -117,6 +117,15 @@ class ViewerChapter:
 
 def inline(text: str, page_href=None) -> str:
     text = html.escape(text, quote=False)
+    # Inline code is literal text: a link written inside backticks is markup
+    # being shown, not a link being made.
+    code_spans: list[str] = []
+
+    def stash(match: re.Match[str]) -> str:
+        code_spans.append(match.group(1))
+        return f"\x07{len(code_spans) - 1}\x07"
+
+    text = re.sub(r"`([^`]+)`", stash, text)
     # Before any link is turned into markup: a page reference becomes a Markdown link
     # pointing wherever this surface keeps its pages, and one that arrived already linked
     # -- the sources carry repository-relative links, which mean nothing in a browser --
@@ -132,10 +141,13 @@ def inline(text: str, page_href=None) -> str:
         return f'<a href="{target}">{label}</a>'
 
     text = re.sub(r"\[([^]]+)\]\(([^)]+)\)", link, text)
-    text = re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", text)
-    return text
+    return re.sub(
+        "\x07(\\d+)\x07",
+        lambda match: f"<code>{code_spans[int(match.group(1))]}</code>",
+        text)
+
 
 
 def markdown_to_html(source: str, page_href=None, *, heading_ids: bool = False) -> str:
@@ -310,7 +322,17 @@ def source_links(text: str, source: Path, directory: Path) -> str:
             href += "#" + address.fragment
         return f"[{label}]({href})"
 
+    # Quoted markup is not a link: `[page 088](088.md)` inside backticks cites
+    # the letters a balloon carries, in that page's own directory context.
+    code_spans: list[str] = []
+
+    def stash(match: re.Match[str]) -> str:
+        code_spans.append(match.group(0))
+        return f"\x07{len(code_spans) - 1}\x07"
+
+    text = re.sub(r"`[^`]+`", stash, text)
     text = re.sub(r"(?<!!)\[([^]]+)\]\(([^)]+)\)", resolve, text)
+    text = re.sub("\x07(\\d+)\x07", lambda match: code_spans[int(match.group(1))], text)
     if source.is_relative_to(ROOT / "content" / "appendix"):
         text = appendix_route_links(text, directory, appendix_entries())
     return text
@@ -2645,6 +2667,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="anthill-study/">Review the title and anthill composition study →</a></p>'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
+            '<p><a class="viewer-callout" href="time/">Open the time index: what each source covers, day by day →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
             '<p><a class="viewer-callout" href="qr-ant/">See what a QR code costs when its ink is ant bodies →</a></p>'
             '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional thumbnail wall →</a></p>'
@@ -2682,6 +2705,15 @@ def main() -> int:
 
     model = crossref.build()
     crossref_routes = build_crossref(model, internal=args.internal)
+    # The time index is research-derived — timeline, corpus, and source
+    # registry — so it is emitted on the internal build only.
+    time_routes = 0
+    if args.internal:
+        import timeindex
+        for relative, title, body in timeindex.site_pages(
+                used_source_keys=set(model.used_sources())):
+            write_page(Path(relative, "index.html"), title, body, document)
+            time_routes += 1
     global LETTERED
     LETTERED = build_lettering()
     build_viewer()
@@ -2708,6 +2740,7 @@ def main() -> int:
         f"{novella_routes} novella routes and 4 downloads, "
         f"{appendix_routes} appendix routes, "
         f"{bakeoff_routes} bake-off routes, {knowledge_map_routes} knowledge-map routes, "
+        f"{time_routes} time-index routes, "
         f"the ant QR gallery, "
         f"{len(LETTERED)} lettered panel(s), "
         f"and the viewer validation section into {OUT.relative_to(ROOT)}/"

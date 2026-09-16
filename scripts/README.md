@@ -103,6 +103,7 @@ establish current status.
 | `validate-production-foundations.py` | palette, visual-continuity, prompt, and asset foundations exist and agree |
 | `crossref.py check --strict` | citation keys resolve, sequences are in range; panel reference blocks have registered sources, ordered two-place scores, and explicit provenance/quotation-source coverage; CI also fails on panel/front-matter provenance drift |
 | `t256.py check` | the 256t implementation reproduces the standard's test vectors, and every registered `pointer` is a well-formed `t256:` URI |
+| `timeindex.py check` | every `When` cell in `research/timeline.md` parses, `data/time-spans.tsv` ids resolve and carry consistent tiers, event source keys are registered, and offline fixtures hold; `--built` also requires `data/time-index.json` to be fresh. Not yet in CI — see the proposal. |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub, and `exact_strings` registered and `verbatim` + `cleared` before its page locks |
 | `appendix.py check` | two-stance minimum, fixed fallacy vocabulary, conjecture declarations, live page references |
 | `pagelinks.py check` | every story-page reference in `content/` is a link, pointing at the page it names |
@@ -152,6 +153,7 @@ without reading any real history.
 | Tool | Answers |
 | --- | --- |
 | `crossref.py report` | which sources and provenance statuses a page rests on, and which pages rest on a source |
+| `timeindex.py query SPAN` / `build` / `report` / `days` | what happened in a timespan, which sources cover it ranked by primacy, and their registered exact wording or 256t pointers. `query` prints JSON by default (`--md` for prose); `build` writes `data/time-index.json`; `--rows N` streams corpus rows including revision bodies. Inputs: the hand-maintained `data/time-spans.tsv`, `research/timeline.md`, the collusion corpus, `story_time` and `exact_strings` front matter, and the three-stream manuscripts. |
 | `novella.py report` / `assemble` | word census by chapter and page; the whole novella as one document |
 | `appendix.py report` / `assemble` / `json` | census, page coverage, stance and field spread |
 | `cadence.py report` / `list` | the negation cadence of the visible lettering. **No `check`, deliberately** — which aphorisms to thin is an editorial judgement no exit code should make. |
