@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #101214;
+  color: #E7E0D0;
+  font: 16px/1.5 Georgia, serif;
+}
+
+#stage {
+  height: calc(100vh - 34px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spread {
+  display: flex;
+  gap: 12px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.spread img {
+  height: 100%;
+  width: auto;
+  max-width: calc(50vw - 24px);
+  object-fit: contain;
+  background: #F4EFE4;
+}
+
+.spread .blank {
+  aspect-ratio: 2800 / 4000;
+  height: 100%;
+  max-width: calc(50vw - 24px);
+}
+
+.panelview {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panelview img {
+  max-height: 100%;
+  max-width: 96vw;
+  object-fit: contain;
+  background: #F4EFE4;
+}
+
+#hud {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 34px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 0 14px;
+  box-sizing: border-box;
+  background: #101214;
+  border-top: 1px solid #202326;
+  font: 13px 'IBM Plex Mono', Menlo, monospace;
+  color: #5E737B;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#hud .keys {
+  margin-left: auto;
+  color: #8a949b;
+}
