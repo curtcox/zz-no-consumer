@@ -90,3 +90,14 @@ All times below are UTC unless noted. `[§X]` means the dossier says the entry a
 | 27 Aug | PUB | OpenAI publishes collective cyber-defense letter. | OpenAI primary source |
 | 28–30 Aug | PUB | Cotra's personal assessment, Patel's narrative, and Paradigm 3's comparison highlight the incident's severity and unresolved contradictions. | Analysis sources |
 | 1 Sep | PUB | Patel publishes a 2h20m interview with Cotra. The transcript clarifies the earlier-board discontinuity, METR's dataset construction, the likely external 12 July stop, and the voluntary status of proposed embedded assessments. | Dwarkesh/Cotra interview |
+
+## After 1 September
+
+This table stops at 1 September 2026. The institutional record after that date is held in the
+notes that established it, not here: the [Hard Fork interview](./cotra-hardfork-interview.md)
+and the collusion.wiki report (4 September), [*An Alien Mind*](./pachocki-alien-mind.md)
+(6 September), the [GemStuffer attribution](./gemstuffer-2026-09-12.md) (11–12 September), and the
+[participant pass of 15 September](./participant-updates-2026-09-15.md), which adds OpenAI's
+Astra release material (1, 3 and 9 September), METR's own security disclosure (31 August), and the
+14 September Alabama production deadline passing with nothing public. Collecting those into this
+table is an open task, not a finding.
