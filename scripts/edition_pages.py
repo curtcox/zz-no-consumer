@@ -5,7 +5,8 @@
     python3 scripts/edition_pages.py allocate --apply    # write incident/windows.json
     python3 scripts/edition_pages.py check               # windows + storyboards
     python3 scripts/edition_pages.py preview             # 256t/editions/incident-preview/
-                                                         #   pages/, panels/, reader.html
+                                                         #   pages/, panels/, reader.html,
+                                                         #   huggingface.html, gemstuffer.html, wiki.html
     python3 scripts/edition_pages.py status              # storyboard coverage by scene file
     python3 scripts/edition_pages.py sheet STEM [--from N --count N]   # lettered boards for review
 
@@ -43,6 +44,9 @@ UI = Path(__file__).with_name("edition_reader_ui")
 MOVEMENT = "incident"
 OWNERS = ROWS[MOVEMENT]
 LABELS = {"HuggingFace": "HUGGING FACE", "GemStuffer": "GEMSTUFFER", "Collusion Wiki": "COLLUSION WIKI"}
+STREAMS = {"HuggingFace": ("huggingface.html", "Hugging Face"),
+           "GemStuffer": ("gemstuffer.html", "GemStuffer"),
+           "Collusion Wiki": ("wiki.html", "Collusion Wiki")}
 SLOTS = 2                      # ordinary form: two positions per row
 BROAD = timedelta(hours=12)    # a beat this long or longer is an interval beat from the start
 
@@ -439,6 +443,45 @@ def reader_manifest(windows, table):
     return {"pages": pages}
 
 
+def stream_document(owner, windows, table):
+    """One stream as a text-only reading: each panel's clock, then its caption."""
+    esc = html.escape
+    titles = {c: t for _, c, t in CHAPTERS}
+    title = STREAMS[owner][1]
+    entries, current = [], None
+    for number, w in enumerate(windows, 1):
+        row = next(r for r in w["rows"] if r["owner"] == owner)
+        keys = [k for k in row["slots"] if k]
+        if not keys:
+            continue
+        if w["chapter"] != current:
+            current = w["chapter"]
+            entries.append(f'<h2>{esc(titles[current])}</h2>')
+        for key in keys:
+            beat = table[key]
+            interval = ('<p class="interval">Interval page: this beat is dated only to its span; '
+                        'its time within the span is not recorded.</p>'
+                        if w.get("kind") == "interval" else "")
+            captions = "".join(f"<p>{esc(text)}</p>" for text in beat["lettering"])
+            entries.append(f'<article><header><time>{esc(stamp(beat))}</time>'
+                           f'<span><a href="index.html#p{number:03}">p{number:03}</a> · '
+                           f'<a href="panels/{key}.svg">{esc(key)}</a></span></header>'
+                           f'{captions}{interval}</article>')
+    count = len([e for e in entries if e.startswith("<article")])
+    return ('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{esc(title)} — incident stream, text only</title><style>'
+            'body{margin:0;background:#101214;color:#E7E0D0;font:16px/1.5 Georgia,serif}main{max-width:80ch;margin:auto;padding:24px}'
+            'h2{margin-top:2em}article{margin:1.8em 0}article p{margin:.5em 0}'
+            'header{display:flex;justify-content:space-between;gap:1em;font:13px monospace;color:#8fa4ad}'
+            'header span{white-space:nowrap}a{color:#bdd4df}.interval{font-style:italic;color:#c98790;font-size:14px}'
+            '</style><main>'
+            f'<h1>{esc(title)} — text only</h1>'
+            '<p><strong>Draft preview of the working edition.</strong> Every panel in this stream, in page order: '
+            'its clock, then the caption a reader sees on the panel. The same panels appear with the other two streams on '
+            '<a href="index.html">the three-stream pages</a> and in the <a href="reader.html">keyboard reader</a>.</p>'
+            f'<p>{count} panels.</p>' + "".join(entries) + '</main></html>\n')
+
+
 def preview(edition, output):
     table = beats(edition)
     windows = load_windows(edition)
@@ -493,7 +536,9 @@ def preview(edition, output):
                 'An interval page holds beats known only to a day or a longer span; it follows the timed pages inside that span, and the order of its beats within the span is not recorded.</p>'
                 f'<p>{len(windows)} pages · {len(table)} beats · {drawn} storyboarded.</p>'
                 '<p><a href="reader.html">Keyboard reader</a>: space toggles two-page spread and single-panel views; '
-                '← → turn a spread or a panel; ↑ ↓ move between rows in panel view.</p><section>' +
+                '← → turn a spread or a panel; ↑ ↓ move between rows in panel view.</p>'
+                '<p>One stream at a time, text only: <a href="huggingface.html">Hugging Face</a> · '
+                '<a href="gemstuffer.html">GemStuffer</a> · <a href="wiki.html">Collusion Wiki</a>.</p><section>' +
                 "".join(c if c.startswith("<figure") else "</section>" + c + "<section>" for c in cards) + '</section></main></html>\n')
     (output / "index.html").write_text(document)
     for asset in UI.iterdir():
@@ -501,9 +546,12 @@ def preview(edition, output):
             shutil.copy(asset, output / asset.name)
     (output / "reader-data.js").write_text(
         "const READER_DATA = " + json.dumps(reader_manifest(windows, table)) + ";\n")
+    for owner in OWNERS:
+        (output / STREAMS[owner][0]).write_text(stream_document(owner, windows, table))
     rel = output.relative_to(ROOT) if output.is_relative_to(ROOT) else output
     print(f"{len(windows)} pages; {len(rendered)} panels; {drawn}/{len(table)} beats storyboarded; "
-          f"wrote {rel}/index.html and {rel}/reader.html")
+          f"wrote {rel}/index.html, {rel}/reader.html and "
+          + ", ".join(STREAMS[o][0] for o in OWNERS))
 
 
 def status(edition):
