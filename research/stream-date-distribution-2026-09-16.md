@@ -97,3 +97,184 @@ separate, and the interval-page mechanism is the edition's way of keeping them h
 Sources: `editions/three-stream/sources.json` admissions; scene `chronology_basis` /
 `source_limit` fields in `editions/three-stream/manuscript/`; [`gemstuffer-2026-09-12.md`](gemstuffer-2026-09-12.md);
 [`collusion/README.md`](collusion/README.md); [`timeline.md`](timeline.md).
+
+## Candidate discriminating evidence — added 16 September 2026
+
+What could be gathered to confirm or deny each explanation above. *Local* items are
+computable from files already in the repository; *external* items need a stated-date
+inventory of a `link-only` source in `data/256t-sources.tsv` (all admitted external
+sources are currently link-only), or a new record entirely.
+
+**The single discriminating artifact** — it separates the evidence-absence family
+(7–9) from the focus/selection family (10–12): a per-day, per-stream table of
+*events the admitted sources contain* × *panels the manuscript depicts* × *source
+publication date*. `data/time-index.json` already separates `corpus_days` from
+`depictions`, and `python3 scripts/timeindex.py query <day>` answers one day at a
+time. The wiki row is computable today from `research/collusion/events.jsonl`
+(19,913 events on 47 distinct days → 118 panels on 6 days). The HF and GS rows
+need the stated-date inventories of OAI-TR §X, HF-TL, METR and GS-REPORT;
+[`timeline.md`](timeline.md) and [`gemstuffer-2026-09-12.md`](gemstuffer-2026-09-12.md)
+already hold partial ones.
+
+### Preliminary local findings
+
+Four things computable today already bear on the explanations:
+
+- **The wiki "25-day gap" is not empty in the export.** `events.jsonl` holds rows
+  on every day of the 24 May→19 Jun stretch from 26 May onward — 456 on 26 May,
+  210 on 28 May, 140 on 1 Jun, 162 on 11 Jun, and 10,518 across 16–18 Jun. The gap
+  is real for the depicted event *class* — `delete` rows first appear 18 Jun (25),
+  then 317 on 19 Jun — but not for the corpus as a whole. This narrows
+  explanation 8 to depicted classes and strengthens 11.
+- **The depicted 19 Jun burst is a concentration claim, not a daily-count claim.**
+  Daily delete totals are higher on days the stream does not show: 23 Jun (602),
+  7 Jul (522), 13 Jul (512), 30 Jun (440) vs 317 on 19 Jun. The depicted window
+  12:40–14:44 UTC is real — the `cw-wage-*` beats' `source_clock` values join to
+  `revisions.jsonl` rows (`dse~ZZZDataUSAConstructionWageLive@1..10`,
+  `DataUSAConstructionWageSep18Live@1..16`) with `time_grade: reqlog`,
+  `uncertainty_seconds: 1` — but "burst" must be argued per-hour within the
+  depicted class, not from daily totals.
+- **Wiki activity does not end 22 Jun.** The corpus records events through 14 Jul
+  (512 on 13 Jul, inside the HF core cluster; 602 deletes on 23 Jun). Explanation
+  10's handoff is editorial, not an activity boundary — unless the claim is
+  narrowed to a specific event class.
+- **The HF prehistory gaps exist in the source inventory itself.**
+  [`timeline.md`](timeline.md) records OAI-TR §X's dates as 20 Apr, then 7–8 May,
+  12–13 May, 26 May — the 16- and 12-day gaps are in the table the manuscript
+  cites. Note the attribution in explanation 7 needs care: HF-TL covers only
+  9–13 Jul (per `data/time-spans.tsv`); the April–May sparsity belongs to OAI-TR's
+  event table and OAI-BH, not to the "recovered chronology" per se.
+
+### For the clusters
+
+1. **Real event bursts.**
+   - *Wiki, local:* hourly rate histograms of `events.jsonl` by `event_type` for
+     16–25 Jun, and a join of each `cw-wage-*` beat's locator to `revisions.jsonl`.
+     Confirms if the depicted class concentrates inside 12:40–14:44 beyond any
+     comparable window; undermined by the larger un-depicted delete days above.
+   - *HF, external:* enumerate every dated row in OAI-TR §X and HF-TL for 8–13 Jul
+     and compare source-events/day to panels/day. Confirms if source density also
+     peaks; denies if panels cluster over a uniform source.
+   - *GS, external:* registry-side primary record — upload and yank timestamps of
+     the named packages (RubyGems API; GS-SOCKET and GS-REPORT name specimens).
+     Independent of the September attribution. Confirms if uploads concentrate
+     11–12 May; denies or re-times if they spread.
+2. **Log-structured sources produce event-shaped clusters.**
+   - *Local:* `manifest.source_scan` gives scanned row counts per raw reqlog file
+     (2605/2606/2607). Compute scanned-rows/day per source log: a day whose raw
+     logs were never scanned cannot produce panels. Confirms where stream absence
+     aligns with zero-scan days; denied where absences fall inside scanned windows
+     (already denied for 26 May–18 Jun).
+   - *Local:* tabulate `source_clock` / `uncertainty_seconds` / `time_grade` on the
+     depicted beats — second precision is only possible where reqlog/rclog rows
+     exist (only 6 export rows are bare `write_date`).
+3. **Retrospective reports cluster at reported granularity.**
+   - *Local + external:* diff the dates each retrospective source *states* against
+     the manuscript's day set. For GS the chronology table in
+     `gemstuffer-2026-09-12.md` gives GS-REPORT's stated dates as {5, 8, 11–12,
+     26–27 May; 18 Jun}; GS-STATUS, GS-EMAIL and GS-SOCKET add {11–13, 16 May} and
+     GS-CACHE adds {6, 9, 22–23 Jul}. The manuscript's GS days {5, 8, 11, 12, 13,
+     16, 26 May; 18 Jun; 6, 9 Jul} sit entirely inside that union — supporting the
+     claim — while 14–15 May and the 22–23 Jul publication days are stated-but-
+     undepicted. Any manuscript date no source stated needs a named different
+     source; any stated date with no beat is selection (11).
+   - *External:* same diff for METR-sourced beats against METR's stated
+     dates/ranges — do METR beats sit exactly on stated boundaries?
+4. **Contemporaneous timestamps create precision spikes.**
+   - *Local:* for each second-precision cluster, trace `source_clock` to the raw
+     record — CW locators join to `revisions.jsonl`/`events.jsonl`; GS-STATUS's
+     three updates are `event` rows in `time-spans.tsv`. Confirms if clustered
+     timestamps are recorded-at times; denies if any cluster's clock equals the
+     source's `available` date or shows large `uncertainty_seconds`.
+   - *External:* whether OAI-TR's 11/19 Jul event-table entries are the table's
+     asserted times or record-metadata times.
+5. **Publication dates masquerade as event dates.**
+   - *External:* for `gs-socket-analysis` (13 May), whether Socket states specimen
+     analysis/execution dates or the named packages carry earlier upload
+     timestamps; for `hf-hardening-account` (27 Jul), whether HF-TL dates the
+     hardening steps inside its 9–13 Jul window or leaves them undated.
+   - *Local:* the `gs-cache-*` case is partially resolved already —
+     `time-spans.tsv` records 6 Jul report / 9 Jul deployment as `event` rows
+     distinct from the 22/23 Jul publication discrepancy; the residual question is
+     the 22 vs 23 Jul header-vs-timeline conflict (GHSA API history could settle).
+   - *Local, general test:* per-beat documentation lag
+     `min(sources[].available) − time_start`. Day-precision beats with lag ≈ 0 are
+     the masquerade suspects.
+6. **Interval-span inflation.**
+   - *Local:* recompute the distribution counting each multi-day beat once per
+     covered day, and again at span midpoint/end — bounds each spike's shape. The
+     manuscript scan shows 57 HF beats ending on 13 Jul (31 starting 9 Jul, 22
+     starting 11 Jul, 4 starting 12 Jul — `hf-impact-boundaries-*`,
+     `hf-search-noise-*`, `hf-peer-authorization-*`, `hf-ethics-*`,
+     `hf-refusal-*`, `hf-email-objection-*`, `hf-detection-gap-*`,
+     `hf-ephemeral-control-*`, `hf-cache-handover-*`, `hf-mailbox-*`,
+     `hf-continuing-artifacts-*` and others), all counted at start; the 6
+     `may-replies-*`/`may-note-*` beats span 13→26 May; 11
+     `july-incident-*`/`july-isolate-*`/`july-response-*` beats span 5→6 Jul.
+   - *External:* whether the sources give finer placement inside the spans — check
+     each beat's `locator` against METR/HF-TL. If the source has finer dates, the
+     flattening is editorial (3/11), not source-imposed.
+
+### For the absences
+
+7. **Forensic recovery, not surveillance (HF prehistory).**
+   - *External:* extract OAI-TR §X verbatim and check (a) whether the table lists
+     rows between 20 Apr and 7 May that the manuscript did not use, and (b)
+     whether the report states a completeness claim for the table — a stated
+     exhaustive recovery supports "unrecovered time"; a stated selection does
+     not.
+   - *External:* OAI-BH for April–June dates absent from §X (the talk supplies
+     7 May and 11 Jun already); METR for whether it independently reconstructed
+     any pre-7-Jul dates (its covers window starts 7 Jul — the dossier already
+     notes this branch "was not independently reconstructed by METR");
+     `metr-security-update` covers 1 Mar–31 May for METR-internal events, a check
+     on whether the era produced any contemporaneous record.
+8. **Source scope limits (wiki).**
+   - *Local:* the day × `event_type` × depicted/unselected cross-tab (partially
+     done above). Confirms only where zero rows of the *relevant class* exist —
+     true for deletes before 18 Jun, false for all activity.
+   - *Local:* the export's `cut` is `revision.write_date >= 2026-05-01`, and
+     `save_requests` run 24 May→27 Aug — derived save coverage extends past both
+     the stream start and its end. Where a gap falls inside save coverage, scope
+     limits cannot explain it.
+   - *Local:* `revisions.jsonl` `write_date` distribution — whether held revisions
+     during the gap concern older events (content-history coverage vs event
+     coverage).
+9. **Attribution ceilings (GS).**
+   - *Local:* the report's 18 Jun event *is* depicted (`gs-june-packages-*`), so
+     the 18 Jun→6 Jul silence coincides with GS-REPORT's covers-window end
+     (18 Jun), not with an attribution failure inside it.
+   - *External:* whether GS-REPORT asserts a last attributed activity or leaves
+     the window open; whether RubyGems' September update states its own
+     investigation's date range; whether named packages carry post-18-Jun upload
+     timestamps. Registry timestamps test *dormancy* independently of
+     *attribution* — the researchers' disclosed limit (no private reasoning
+     traces) bounds actor identity, not event dates.
+10. **Narrative handoff between streams.**
+    - *Local:* already disproven as an activity claim — the corpus records wiki
+      events through 14 Jul. The remaining question is which event classes the
+      other streams' windows depict concurrently: enumerate wiki-corpus events
+      23 Jun–14 Jul by type and check whether any manuscript beat in any stream
+      touches them, and whether `windows.json` after 22 Jun gives the wiki row
+      all-null slots (structural silence) or omits the days entirely.
+      `collaboration-wiki-overlap.json` / `collaboration-wiki-coverage.json` may
+      already narrate the overlap.
+11. **Editorial selection.**
+    - *Local:* the selection remainder per stream — source-side dated inventory
+      minus manuscript dates. Wiki: computable today (47 covered days → 6
+      depicted). GS: near-exact already. HF: needs the §X/HF-TL/METR inventory.
+    - *Local:* `production-selections.json`, `dispositions.json`,
+      `detail-inventory.json`, `detail-review.md`, `manuscript-coverage.json`,
+      `manuscript-review.md` — do they record researched-but-excluded dated
+      material? That separates "never researched" from "researched and cut" —
+      both are this explanation, with different remedies.
+12. **Institutional disclosure lag.**
+    - *Local:* a lag histogram per stream — `available − time_start` per beat —
+      overlaid on a contemporaneous-coverage layer from `time-spans.tsv` (`covers`
+      × `published` × `event` rows). The hypothesis predicts panels track days
+      with a live recorder. Falsifiers: contemporaneous-covered days with zero
+      panels (GS-STATUS's window runs to 16 May; 14–15 May are empty — selection,
+      not lag; the wiki export is contemporaneous throughout, so every uncovered
+      corpus day is selection); and panel-dense days reachable only through
+      late-published sources (the whole GS May cluster is documented by a
+      September report — lag explains *when we learned*, not whether it happened).
