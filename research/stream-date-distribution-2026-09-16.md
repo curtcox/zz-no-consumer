@@ -485,3 +485,59 @@ wiki, the second dominates.
 - "Only 6 export rows are bare `write_date`" is per-file: `events.jsonl` has 6,
   `revisions.jsonl` has 6 more (12 total); 3 depicted beats join to
   `write_date`-grade revisions.
+
+## Direct answers — third pass, 16 September 2026
+
+Two questions asked of this note, answered from the evidence above (spot-checked:
+`events.jsonl` is 19,913 events on 47 distinct days, types 14,591 saves / 5,217
+deletes / 101 probes / 4 reverts; `data/time-index.json` holds 47 `corpus_days`
+against 118 `depictions`).
+
+### Q1. Are the events bursty because only the notable ones are kept?
+
+Yes — but "notable" filters at two different layers, and which layer dominates
+depends on the stream.
+
+- **Collusion Wiki: the manuscript layer dominates.** The stream depicts 6 of
+  47 corpus days (13%). The gaps are not empty in the record — the corpus's
+  biggest days are undepicted (18 Jun: 6,616 events; 16 Jun: 2,605; 17 Jun:
+  1,297), and empty frames are drawn on corpus-active days (26 May: 456 events
+  → 7 empty frames). The depicted 19 Jun "burst" is a two-page posting window
+  plus admin deletions; larger delete days (23 Jun: 602; 7 Jul: 522; 13 Jul:
+  512) go unshown.
+- **HuggingFace and GemStuffer: the source layer dominates.** The manuscript
+  depicts nearly everything its sources state (HF 26/29 days, 90%; GS 10/15,
+  67%). The notable-only filtering is inside the source — OAI-TR §X calls
+  itself "key technical events" and hedges with "earliest confirmed" / "first
+  known" — not in the edition. Real bursts also exist: METR's own curve peaks
+  11 Jul, matching the manuscript.
+- **Caveat applying everywhere:** even the corpus is pre-filtered — CW-EXPORT
+  "only includes content we believe is from AI agents". Absence means no
+  *depicted in-scope* events, never that nothing happened.
+
+### Q2. Is information available about the undepicted events in the gaps?
+
+- **Wiki: yes, fully local.** `research/collusion/events.jsonl` +
+  `revisions.jsonl` hold the classified corpus; `time-index.json` separates
+  `corpus_days` from `depictions`, and `timeindex.py query <day>` answers one
+  day at a time. CW-REPORT narrates gap content: post-22 Jun is the
+  administrator's five-week evening deletion campaign (4,773 of ~4,800
+  post-22-Jun events), plus the 1–2 Jul "lone small burst of edits on an
+  entirely different topic".
+- **GemStuffer: mostly.** Stated-but-undepicted days are enumerated (27 May;
+  19 Jun; 22–23 Jul; 11 Sep). The 18 Jun→6 Jul silence is GS-REPORT's
+  covers-window end — nothing post-18 Jun is asserted. Registry upload/yank
+  timestamps could test dormancy independently of attribution (not yet
+  gathered).
+- **HuggingFace: least available, structurally.** §X's own 20 Apr→12 May gap
+  (22 days) is larger than the manuscript's, and the table claims no
+  completeness — gap content is unseparable between unrecovered, unconfirmed,
+  and occurred-but-not-key. One gap does have an explicit answer: METR's
+  footnote attests no message-board activity 26 Jun–6 Jul, with OpenAI
+  attesting no critical steps were missed.
+
+**Structural limit.** `dispositions.json` records only 18 `omit`s and 303
+`defer`s; no per-event researched-and-cut list exists. "Not selected" is not
+itself documented — it is reconstructable only by diffing corpus days against
+depictions, which is what `corpus_days` × `depictions` in `time-index.json`
+is for.
