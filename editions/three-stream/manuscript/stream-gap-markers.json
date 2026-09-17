@@ -1,0 +1,2744 @@
+[
+ {
+  "id": "gap-hf-01",
+  "title": "Empty-frame marker: Hugging Face (8 May 00:00–23:59 UTC → 12 May 17:06–17:06 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-05-11",
+  "end": "2026-05-12T08:54Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-01-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "For this row the stated record jumps from 8 May to 12 May. OpenAI's event table hedges its rows as the earliest confirmed and first known writes — the days between are outside the published table, not demonstrated quiet."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X event table; rows state 8 May then 12 May",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-11",
+    "time_end": "2026-05-11",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-hf-01-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The Hugging Face record resumes 12 May. The cited table states no event for the three days this stretch covers."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X event table; rows state 8 May then 12 May",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-12T08:54:58Z",
+    "time_end": "2026-05-12T08:54Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-02",
+  "title": "Empty-frame marker: Hugging Face (12 May 17:06–17:06 UTC → 13 May 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-05-11",
+  "end": "2026-05-13T03:17Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-02-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The next depicted Hugging Face events are dated only to a span, 13–26 May. The edition draws a span-dated beat where its span ends, so this row stands empty until then."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; next depicted beats dated to the 13–26 May span",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-11",
+    "time_end": "2026-05-12",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-hf-02-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "This row resumes on interval pages carrying beats dated 13–26 May. The record holds the span; it does not fix the days inside it."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; next depicted beats dated to the 13–26 May span",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-13T03:17:58Z",
+    "time_end": "2026-05-13T03:17Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-03",
+  "title": "Empty-frame marker: Hugging Face (13 May 00:00–23:59 UTC → 26 May 18:24–18:24 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-05-13",
+  "end": "2026-05-24T06:21:17Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-03-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "After 13 May the cited accounts state no Hugging Face event until late May. The gap is in the source record, not demonstrated quiet."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; no stated rows between 13 May and 26 May",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-13",
+    "time_end": "2026-05-13",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-hf-03-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes with a board access dated 26 May. The days between carry no stated event in the cited table."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; no stated rows between 13 May and 26 May",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-24T06:21:16Z",
+    "time_end": "2026-05-24T06:21:17Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-04",
+  "title": "Empty-frame marker: Hugging Face (26 May 21:08–21:08 UTC → 13 May – 26 May 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-05-26T21:08Z",
+  "end": "2026-05-26T21:08Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-04-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted event for this stream shares this page's clock. The next panel in this row is the beat dated 13–26 May, drawn where its span ends."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; single depicted event inside this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-26T21:08Z",
+    "time_end": "2026-05-26T21:08Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-05",
+  "title": "Empty-frame marker: Hugging Face (17 Jun 00:49–00:49 UTC → 26 Jun 06:32–06:32 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-06-18",
+  "end": "2026-06-22T08:46:19Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-05-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "This row's stated record jumps from 17 June to 26 June. The pages between belong to the other two streams; OpenAI's table claims no completeness for the stretch."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; rows state 17 June then 26 June",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-18",
+    "time_end": "2026-06-19T12:40:35Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-hf-05-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The Hugging Face record resumes 26 June. The nine days remain unseparated between unrecovered and merely unlisted — the table hedges its rows as first known."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; rows state 17 June then 26 June",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-22T08:46:18Z",
+    "time_end": "2026-06-22T08:46:19Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-06",
+  "title": "Empty-frame marker: Hugging Face (26 Jun 20:37–20:37 UTC → 26 Jun 20:28–20:37 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-06-26T20:37Z",
+  "end": "2026-06-26T20:37Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-06-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 26 Jun 20:28–20:37 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-26T20:37Z",
+    "time_end": "2026-06-26T20:37Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-07",
+  "title": "Empty-frame marker: Hugging Face (26 Jun 20:28–20:37 UTC → 26 Jun 23:01–23:01 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-06-26T20:28Z",
+  "end": "2026-06-26T21:07:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-07-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 26 Jun 23:01–23:01 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-26T20:28Z",
+    "time_end": "2026-06-26T21:07:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-08",
+  "title": "Empty-frame marker: Hugging Face (26 Jun 23:01–23:01 UTC → 27 Jun 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-06-26T23:01Z",
+  "end": "2026-06-26T23:01Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-08-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 27 Jun 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-26T23:01Z",
+    "time_end": "2026-06-26T23:01Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-09",
+  "title": "Empty-frame marker: Hugging Face (27 Jun 00:00–23:59 UTC → 29 Jun 04:55–04:55 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-06-27",
+  "end": "2026-06-27",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-09-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 29 Jun 04:55–04:55 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-27",
+    "time_end": "2026-06-27",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-10",
+  "title": "Empty-frame marker: Hugging Face (5 Jul – 6 Jul 01:16 UTC → 6 Jul 12:56–12:56 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-05T19:50Z",
+  "end": "2026-07-06T01:46:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-10-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 6 Jul 12:56–12:56 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-05T19:50Z",
+    "time_end": "2026-07-06T01:46:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-11",
+  "title": "Empty-frame marker: Hugging Face (6 Jul 12:56–12:56 UTC → 5 Jul – 6 Jul 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-06T12:56Z",
+  "end": "2026-07-06T12:56Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-11-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 5 Jul – 6 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-06T12:56Z",
+    "time_end": "2026-07-06T12:56Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-12",
+  "title": "Empty-frame marker: Hugging Face (6 Jul 00:00–23:59 UTC → 7 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-06",
+  "end": "2026-07-06",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-12-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 7 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-06",
+    "time_end": "2026-07-06",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-13",
+  "title": "Empty-frame marker: Hugging Face (7 Jul 00:00–23:59 UTC → 8 Jul 00:06–00:06 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-07",
+  "end": "2026-07-07",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-13-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 8 Jul 00:06–00:06 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-07",
+    "time_end": "2026-07-07",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-14",
+  "title": "Empty-frame marker: Hugging Face (8 Jul 23:00–23:00 UTC → 8 Jul 00:00–23:00 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-08T23:00Z",
+  "end": "2026-07-08T23:00Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-14-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 8 Jul 00:00–23:00 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-08T23:00Z",
+    "time_end": "2026-07-08T23:00Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-15",
+  "title": "Empty-frame marker: Hugging Face (8 Jul 00:00–23:59 UTC → 8 Jul – 9 Jul)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-08",
+  "end": "2026-07-08",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-15-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 8 Jul – 9 Jul. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-08",
+    "time_end": "2026-07-08",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-16",
+  "title": "Empty-frame marker: Hugging Face (8 Jul – 9 Jul → 9 Jul 03:32–03:32 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-08T23:00Z",
+  "end": "2026-07-09T00:30:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-16-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul 03:32–03:32 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-08T23:00Z",
+    "time_end": "2026-07-09T00:30:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-17",
+  "title": "Empty-frame marker: Hugging Face (8 Jul – 9 Jul 23:59 UTC → 9 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-08T23:00Z",
+  "end": "2026-07-09T23:59:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-17-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-08T23:00Z",
+    "time_end": "2026-07-09T23:59:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-18",
+  "title": "Empty-frame marker: Hugging Face (9 Jul 00:00–23:59 UTC → 10 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-09",
+  "end": "2026-07-09",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-18-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 10 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-09",
+    "time_end": "2026-07-09",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-19",
+  "title": "Empty-frame marker: Hugging Face (10 Jul 00:00–23:59 UTC → 11 Jul 03:12–03:12 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-10",
+  "end": "2026-07-10",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-19-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul 03:12–03:12 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-10",
+    "time_end": "2026-07-10",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-20",
+  "title": "Empty-frame marker: Hugging Face (11 Jul 22:43–22:43 UTC → 11 Jul 16:07–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-11T22:43Z",
+  "end": "2026-07-11T22:43Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-20-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul 16:07–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     },
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-11T22:43Z",
+    "time_end": "2026-07-11T22:43Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-21",
+  "title": "Empty-frame marker: Hugging Face (11 Jul 16:07–23:59 UTC → 9 Jul – 11 Jul 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-11T16:07:00Z",
+  "end": "2026-07-12T00:29:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-21-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul – 11 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-11T16:07:00Z",
+    "time_end": "2026-07-12T00:29:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-22",
+  "title": "Empty-frame marker: Hugging Face (10 Jul – 11 Jul 23:59 UTC → 11 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-10",
+  "end": "2026-07-11",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-22-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-10",
+    "time_end": "2026-07-11",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-23",
+  "title": "Empty-frame marker: Hugging Face (11 Jul 00:00–23:59 UTC → 11 Jul – 12 Jul 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-11",
+  "end": "2026-07-11",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-23-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul – 12 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-11",
+    "time_end": "2026-07-11",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-24",
+  "title": "Empty-frame marker: Hugging Face (11 Jul – 12 Jul 23:59 UTC → 12 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-11",
+  "end": "2026-07-12",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-24-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 12 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-11",
+    "time_end": "2026-07-12",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-25",
+  "title": "Empty-frame marker: Hugging Face (12 Jul 00:00–23:59 UTC → 13 Jul 03:06–03:06 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-12",
+  "end": "2026-07-12",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-25-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 13 Jul 03:06–03:06 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-12",
+    "time_end": "2026-07-12",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-26",
+  "title": "Empty-frame marker: Hugging Face (11 Jul – 13 Jul 14:14 UTC → 13 Jul 00:00–14:14 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-11T16:07:00Z",
+  "end": "2026-07-13T14:14:00Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-26-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 13 Jul 00:00–14:14 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-11T16:07:00Z",
+    "time_end": "2026-07-13T14:14:00Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-27",
+  "title": "Empty-frame marker: Hugging Face (13 Jul 00:00–14:14 UTC → 9 Jul – 13 Jul 14:14 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-13T00:00:00Z",
+  "end": "2026-07-13T14:14:00Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-27-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul – 13 Jul 14:14 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-13T00:00:00Z",
+    "time_end": "2026-07-13T14:14:00Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-28",
+  "title": "Empty-frame marker: Hugging Face (13 Jul 13:37–14:14 UTC → 9 Jul – 13 Jul 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-13T13:37Z",
+  "end": "2026-07-13T14:44:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-28-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul – 13 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     },
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-13T13:37Z",
+    "time_end": "2026-07-13T14:44:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-29",
+  "title": "Empty-frame marker: Hugging Face (9 Jul – 13 Jul 23:59 UTC → 11 Jul – 13 Jul 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-09",
+  "end": "2026-07-13",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-29-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul – 13 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-OV",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-09",
+    "time_end": "2026-07-13",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-30",
+  "title": "Empty-frame marker: Hugging Face (11 Jul – 13 Jul 23:59 UTC → 12 Jul – 13 Jul 23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-11",
+  "end": "2026-07-13",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-30-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 12 Jul – 13 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     },
+     {
+      "key": "METR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-11",
+    "time_end": "2026-07-13",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-31",
+  "title": "Empty-frame marker: Hugging Face (19 Jul 17:37–17:37 UTC → 19 Jul 16:35–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-19T17:37Z",
+  "end": "2026-07-19T17:37Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-31-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 19 Jul 16:35–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-19T17:37Z",
+    "time_end": "2026-07-19T17:37Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-32",
+  "title": "Empty-frame marker: Hugging Face (19 Jul 16:35–23:59 UTC → 19 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-19T16:35Z",
+  "end": "2026-07-20T00:29:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-32-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 19 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-19T16:35Z",
+    "time_end": "2026-07-20T00:29:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-33",
+  "title": "Empty-frame marker: Hugging Face (19 Jul 00:00–23:59 UTC → 27 Jul 21:30 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-19",
+  "end": "2026-07-19",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-33-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 27 Jul 21:30 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "JFROG",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27T21:30:01Z"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-19",
+    "time_end": "2026-07-19",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-hf-34",
+  "title": "Empty-frame marker: Hugging Face (27 Jul 21:30 UTC → 27 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-27T21:30:01Z",
+  "end": "2026-07-27T21:30:01Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-hf-34-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 27 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "JFROG",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27T21:30:01Z"
+     },
+     {
+      "key": "HF-TL",
+      "locator": "bounding depicted beats for this page window",
+      "available": "2026-07-27"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-27T21:30:01Z",
+    "time_end": "2026-07-27T21:30:01Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-01",
+  "title": "Empty-frame marker: GemStuffer (5 May 00:00–23:59 UTC → 8 May 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-05-07",
+  "end": "2026-05-07",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-01-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The stated GemStuffer record jumps from 5 May to 8 May. This page's clock falls inside the jump; the report states no event for 7 May."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; stated dates 5 May then 8 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-07",
+    "time_end": "2026-05-07",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-01-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes 8 May. The researchers' attribution supplies the stated dates; the days between are their silence, not demonstrated quiet."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; stated dates 5 May then 8 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-07",
+    "time_end": "2026-05-07",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-02",
+  "title": "Empty-frame marker: GemStuffer (8 May 00:00–23:59 UTC → 11 May 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-05-08",
+  "end": "2026-05-08",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-02-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The stated record jumps from 8 May to 11 May — the campaign window the September report reconstructed. The days between carry no stated event."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; stated dates 8 May then 11–12 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-08",
+    "time_end": "2026-05-08",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-02-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes 11 May with the email-documented deployment path."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; stated dates 8 May then 11–12 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-08",
+    "time_end": "2026-05-08",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-03",
+  "title": "Empty-frame marker: GemStuffer (12 May 08:54–08:54 UTC → 11 May – 12 May 23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-05-12T08:54:01Z",
+  "end": "2026-05-12T17:06Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-03-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The next depicted GemStuffer beats are dated to an 11–12 May span and are drawn where the span ends. The empty row is placement, not asserted quiet."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; 11–12 May span beats",
+      "available": "2026-09-11"
+     },
+     {
+      "key": "GS-STATUS",
+      "locator": "status incident window",
+      "available": "2026-05-16"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-12T08:54:01Z",
+    "time_end": "2026-05-12T17:06Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-03-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The 11–12 May interval pages carry this row's next panels."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; 11–12 May span beats",
+      "available": "2026-09-11"
+     },
+     {
+      "key": "GS-STATUS",
+      "locator": "status incident window",
+      "available": "2026-05-16"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-12T17:06:58Z",
+    "time_end": "2026-05-12T17:06Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-04",
+  "title": "Empty-frame marker: GemStuffer (12 May 00:00–23:59 UTC → 13 May 03:17–03:17 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-05-12",
+  "end": "2026-05-12",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-04-mark",
+    "old_panels": [],
+    "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+    "lettering": [
+     "One depicted event for this stream shares this page's clock; the next depicted event is 13 May."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology",
+      "available": "2026-09-11"
+     },
+     {
+      "key": "GS-STATUS",
+      "locator": "status window",
+      "available": "2026-05-16"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-12",
+    "time_end": "2026-05-12",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-05",
+  "title": "Empty-frame marker: GemStuffer (16 May 05:12–05:12 UTC → 26 May – 27 May 23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-05-24T06:02:19Z",
+  "end": "2026-05-26",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-05-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The status-incident record ends 16 May. The September report's next stated date is 26 May — a lull inside the attributed window, not a demonstrated stop."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-STATUS",
+      "locator": "status window ends 16 May",
+      "available": "2026-05-16"
+     },
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; next stated date 26 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-24T06:02:19Z",
+    "time_end": "2026-05-24T06:02:20Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-05-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes with the 26–27 May interval beats."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-STATUS",
+      "locator": "status window ends 16 May",
+      "available": "2026-05-16"
+     },
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; next stated date 26 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-26",
+    "time_end": "2026-05-26",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-06",
+  "title": "Empty-frame marker: GemStuffer (26 May – 27 May 23:59 UTC → 18 Jun 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-06-04T17:43:01Z",
+  "end": "2026-06-17T00:49Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-06-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The report's timeline states nothing between late May and 18 June; its own 'again' on 18 June frames the stretch as a lull inside the attributed window."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; no stated rows between 26–27 May and 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-04T17:43:01Z",
+    "time_end": "2026-06-04T17:43Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-06-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The stated record resumes 18 June — agents publishing 83 gems over three hours, in the researchers' attribution."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; no stated rows between 26–27 May and 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-12T02:35Z",
+    "time_end": "2026-06-17T00:49Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-07",
+  "title": "Empty-frame marker: GemStuffer (18 Jun 00:00–23:59 UTC → 6 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-06-19T12:40:34Z",
+  "end": "2026-07-06",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-07-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The September report's coverage window ends 18 June. What this row depicts next comes from a different source, published later."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "coverage window ends 18 June",
+      "available": "2026-09-11"
+     },
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory report 6 July, deployment 9 July",
+      "available": "2026-07-23"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-19T12:40:34Z",
+    "time_end": "2026-06-19T12:40:35Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-07-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes 6 July with the cache advisory's report date — a publication and deployment record, not campaign activity."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "coverage window ends 18 June",
+      "available": "2026-09-11"
+     },
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory report 6 July, deployment 9 July",
+      "available": "2026-07-23"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-05",
+    "time_end": "2026-07-06",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-08",
+  "title": "Empty-frame marker: GemStuffer (6 Jul 00:00–23:59 UTC → 9 Jul 00:00–23:59 UTC)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-07-06",
+  "end": "2026-07-09T23:59:59Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-08-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "Between the 6 July report and the 9 July deployment this row is empty; the advisory's own dates are the only record."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory; report 6 July, deployment 9 July",
+      "available": "2026-07-23"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-06",
+    "time_end": "2026-07-06",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-gs-08-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes 9 July with the deployment the advisory describes."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory; report 6 July, deployment 9 July",
+      "available": "2026-07-23"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-08T23:00Z",
+    "time_end": "2026-07-09T23:59:59Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-gs-09",
+  "title": "Empty-frame marker: GemStuffer (9 Jul 00:00–23:59 UTC → book end)",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-07-09",
+  "end": "2026-07-09",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-gs-09-edge",
+    "old_panels": [],
+    "frame": "A dashed empty frame at the row's edge; the caption names where this stream's depicted record begins or ends.",
+    "lettering": [
+     "The GemStuffer row ends here: the admitted sources assert nothing after the 9 July deployment. Empty frames to the end of the book are a limit of the record, not demonstrated quiet."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory; last depicted record",
+      "available": "2026-07-23"
+     },
+     {
+      "key": "GS-REPORT",
+      "locator": "coverage window ended 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-09",
+    "time_end": "2026-07-09",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-wiki-01",
+  "title": "Empty-frame marker: Collusion Wiki (book start → 17 May 05:46 UTC)",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-05-13",
+  "end": "2026-05-13",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-wiki-01-edge",
+    "old_panels": [],
+    "frame": "A dashed empty frame at the row's edge; the caption names where this stream's depicted record begins or ends.",
+    "lettering": [
+     "This row's depicted record begins 17 May. The export's revision coverage opens 1 May; earlier empty frames mean nothing in scope was depicted, not that the wikis were still."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "export coverage; revision cut 1 May",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-13",
+    "time_end": "2026-05-13",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-wiki-02",
+  "title": "Empty-frame marker: Collusion Wiki (24 May 11:56–11:56 UTC → 19 Jun 12:40–12:40 UTC)",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-05-26T18:24:01Z",
+  "end": "2026-06-17T00:49Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-wiki-02-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The export holds logged events on every day of this stretch — but none of the depicted class. An empty frame here is selection, not an empty log."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "classified corpus; daily events, no depicted class",
+      "available": "2026-09-03"
+     },
+     {
+      "key": "CW-REPORT",
+      "locator": "dump includes only believed agent traffic",
+      "available": "2026-09-04"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-26T18:24:01Z",
+    "time_end": "2026-05-26T18:24Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-wiki-02-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The depicted record resumes 19 June with the two-page posting window the export records to the second."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "classified corpus; daily events, no depicted class",
+      "available": "2026-09-03"
+     },
+     {
+      "key": "CW-REPORT",
+      "locator": "dump includes only believed agent traffic",
+      "available": "2026-09-04"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-12T02:35Z",
+    "time_end": "2026-06-17T00:49Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-wiki-03",
+  "title": "Empty-frame marker: Collusion Wiki (22 Jun 19:28–19:29 UTC → book end)",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-06-26T20:15:01Z",
+  "end": "2026-06-26T20:15Z",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-wiki-03-edge",
+    "old_panels": [],
+    "frame": "A dashed empty frame at the row's edge; the caption names where this stream's depicted record begins or ends.",
+    "lettering": [
+     "Agent edits stop 22 June; what follows in the corpus is the administrator's five-week evening deletion campaign, which these pages do not depict. The row stays empty to the end of the book."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-REPORT",
+      "locator": "report narrates the post-22 June deletion campaign",
+      "available": "2026-09-04"
+     },
+     {
+      "key": "CW-EXPORT",
+      "locator": "corpus events continue to 14 July",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-26T20:15:01Z",
+    "time_end": "2026-06-26T20:15Z",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-01-hf",
+  "title": "Shared silence marker: 2026-04-20 → 2026-05-05 — Hugging Face",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-04-21",
+  "end": "2026-05-05",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-01-hf-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "OpenAI's event table opens 20 April and states no further row until 7 May — 'earliest confirmed', not a complete account."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; 20 April row, then 7–8 May",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-04-21",
+    "time_end": "2026-04-22",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-01-hf-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The stated record resumes 7 May; the days between are the source's own silence."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; 20 April row, then 7–8 May",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-03",
+    "time_end": "2026-05-05",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-01-gs",
+  "title": "Shared silence marker: 2026-04-20 → 2026-05-05 — GemStuffer",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-04-21",
+  "end": "2026-05-05",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-01-gs-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The GemStuffer record has not begun: the researchers' earliest attributed date is 5 May."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; earliest attributed date 5 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-04-21",
+    "time_end": "2026-04-22",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-01-gs-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The attributed record begins 5 May."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; earliest attributed date 5 May",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-03",
+    "time_end": "2026-05-05",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-01-wiki",
+  "title": "Shared silence marker: 2026-04-20 → 2026-05-05 — Collusion Wiki",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-04-21",
+  "end": "2026-05-05",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-01-wiki-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "This stream's depicted record has not begun; the export's revision coverage opens 1 May and its first depicted event is 17 May."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "revision cut 1 May; first depicted 17 May",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-04-21",
+    "time_end": "2026-04-22",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-01-wiki-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The first depicted wiki event is 17 May."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "revision cut 1 May; first depicted 17 May",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-03",
+    "time_end": "2026-05-05",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-02-hf",
+  "title": "Shared silence marker: 2026-05-27 → 2026-06-04 — Hugging Face",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-05-28",
+  "end": "2026-06-04",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-02-hf-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The stated Hugging Face record jumps from 26 May to 4 June; the cited table lists nothing between."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; rows state 26 May then 4 June",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-28",
+    "time_end": "2026-05-29",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-02-hf-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The stated record resumes 4 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; rows state 26 May then 4 June",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-02",
+    "time_end": "2026-06-04",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-02-gs",
+  "title": "Shared silence marker: 2026-05-27 → 2026-06-04 — GemStuffer",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-05-28",
+  "end": "2026-06-04",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-02-gs-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "Inside the attributed window the report's next stated date after 26–27 May is 18 June — a stated lull, not a demonstrated stop."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; 26–27 May then 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-28",
+    "time_end": "2026-05-29",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-02-gs-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The attributed record's next stated event is 18 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; 26–27 May then 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-02",
+    "time_end": "2026-06-04",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-02-wiki",
+  "title": "Shared silence marker: 2026-05-27 → 2026-06-04 — Collusion Wiki",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-05-28",
+  "end": "2026-06-04",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-02-wiki-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The export holds logged events on these days, but none of the depicted class; the stream's next depicted event is 19 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "classified corpus; daily events, no depicted class",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-05-28",
+    "time_end": "2026-05-29",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-02-wiki-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The depicted record resumes 19 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "classified corpus; daily events, no depicted class",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-02",
+    "time_end": "2026-06-04",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-03-hf",
+  "title": "Shared silence marker: 2026-06-04 → 2026-06-11 — Hugging Face",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-06-05",
+  "end": "2026-06-11",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-03-hf-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The stated record jumps from 4 June to 11 June; the cited table lists nothing between."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; rows state 4 June then 11 June",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-05",
+    "time_end": "2026-06-06",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-03-hf-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The stated record resumes 11 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; rows state 4 June then 11 June",
+      "available": "2026-08-26"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-09",
+    "time_end": "2026-06-11",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-03-gs",
+  "title": "Shared silence marker: 2026-06-04 → 2026-06-11 — GemStuffer",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-06-05",
+  "end": "2026-06-11",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-03-gs-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The lull inside the attributed window continues; the report's next stated date remains 18 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; next stated date 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-05",
+    "time_end": "2026-06-06",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-03-gs-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The attributed record's next stated event remains 18 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-REPORT",
+      "locator": "chronology; next stated date 18 June",
+      "available": "2026-09-11"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-09",
+    "time_end": "2026-06-11",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-03-wiki",
+  "title": "Shared silence marker: 2026-06-04 → 2026-06-11 — Collusion Wiki",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-06-05",
+  "end": "2026-06-11",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-03-wiki-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The corpus stays active — deletes first appear 4 June — but no depicted-class event falls in this stretch."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "first deletes 4 June; depicted class absent",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-05",
+    "time_end": "2026-06-06",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-03-wiki-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The depicted record resumes 19 June."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-EXPORT",
+      "locator": "first deletes 4 June; depicted class absent",
+      "available": "2026-09-03"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-06-09",
+    "time_end": "2026-06-11",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-04-hf",
+  "title": "Shared silence marker: 2026-07-19 → 2026-07-27 — Hugging Face",
+  "movement": "incident",
+  "owner": "HuggingFace",
+  "start": "2026-07-20",
+  "end": "2026-07-27",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-04-hf-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "The stated record jumps from 19 July to 27 July — the day the recovered chronology and the registry fix were published."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; 19 July then 27 July",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "HF-TL",
+      "locator": "published 27 July",
+      "available": "2026-07-27"
+     },
+     {
+      "key": "JFROG",
+      "locator": "fix release 27 July",
+      "available": "2026-07-27T21:30:01Z"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-20",
+    "time_end": "2026-07-21",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-04-hf-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The record resumes 27 July with publication-day events."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "OAI-TR",
+      "locator": "§X; 19 July then 27 July",
+      "available": "2026-08-26"
+     },
+     {
+      "key": "HF-TL",
+      "locator": "published 27 July",
+      "available": "2026-07-27"
+     },
+     {
+      "key": "JFROG",
+      "locator": "fix release 27 July",
+      "available": "2026-07-27T21:30:01Z"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-25",
+    "time_end": "2026-07-27",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-04-gs",
+  "title": "Shared silence marker: 2026-07-19 → 2026-07-27 — GemStuffer",
+  "movement": "incident",
+  "owner": "GemStuffer",
+  "start": "2026-07-20",
+  "end": "2026-07-27",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-04-gs-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "This stream's depicted record already ended 9 July; the admitted sources assert nothing later."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory; last depicted record 9 July",
+      "available": "2026-07-23"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-20",
+    "time_end": "2026-07-21",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-04-gs-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The row remains at its end."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "GS-CACHE",
+      "locator": "advisory; last depicted record 9 July",
+      "available": "2026-07-23"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-25",
+    "time_end": "2026-07-27",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ },
+ {
+  "id": "gap-all-04-wiki",
+  "title": "Shared silence marker: 2026-07-19 → 2026-07-27 — Collusion Wiki",
+  "movement": "incident",
+  "owner": "Collusion Wiki",
+  "start": "2026-07-20",
+  "end": "2026-07-27",
+  "original_timezone": "UTC",
+  "precision": "edition-authored marker; clock bounds show placement, not an event time",
+  "chronology_basis": "Edition-authored orientation marker placed at a gap boundary; its clock bounds position it on the page, they do not claim an event.",
+  "source_limit": "The marker describes the edition's drawn record, not the underlying events; an empty frame is a depiction limit, not demonstrated quiet.",
+  "status": "detailed-draft",
+  "beats": [
+   {
+    "id": "gap-all-04-wiki-start",
+    "old_panels": [],
+    "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+    "lettering": [
+     "This stream's depicted record already ended 22 June; the corpus's later events are the undepicted deletion campaign."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-REPORT",
+      "locator": "agent edits stop 22 June",
+      "available": "2026-09-04"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-20",
+    "time_end": "2026-07-21",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   },
+   {
+    "id": "gap-all-04-wiki-end",
+    "old_panels": [],
+    "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+    "lettering": [
+     "The row remains at its end."
+    ],
+    "exact_strings": [],
+    "sources": [
+     {
+      "key": "CW-REPORT",
+      "locator": "agent edits stop 22 June",
+      "available": "2026-09-04"
+     }
+    ],
+    "evidence_status": "edition-authored-orientation",
+    "time_start": "2026-07-25",
+    "time_end": "2026-07-27",
+    "art_reuse": "none-approved",
+    "detail_decisions": []
+   }
+  ]
+ }
+]

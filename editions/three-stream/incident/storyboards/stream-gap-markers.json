@@ -1,0 +1,2872 @@
+{
+ "gap-hf-01-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "For this row the stated record jumps from 8 May to 12 May. OpenAI's event table hedges its rows as the earliest confirmed and first known writes — the days between are outside the published table, not demonstrated quiet."
+   ]
+  }
+ },
+ "gap-hf-01-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The Hugging Face record resumes 12 May. The cited table states no event for the three days this stretch covers."
+   ]
+  }
+ },
+ "gap-hf-02-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The next depicted Hugging Face events are dated only to a span, 13–26 May. The edition draws a span-dated beat where its span ends, so this row stands empty until then."
+   ]
+  }
+ },
+ "gap-hf-02-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "This row resumes on interval pages carrying beats dated 13–26 May. The record holds the span; it does not fix the days inside it."
+   ]
+  }
+ },
+ "gap-hf-03-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "After 13 May the cited accounts state no Hugging Face event until late May. The gap is in the source record, not demonstrated quiet."
+   ]
+  }
+ },
+ "gap-hf-03-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes with a board access dated 26 May. The days between carry no stated event in the cited table."
+   ]
+  }
+ },
+ "gap-hf-04-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted event for this stream shares this page's clock. The next panel in this row is the beat dated 13–26 May, drawn where its span ends."
+   ]
+  }
+ },
+ "gap-hf-05-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "This row's stated record jumps from 17 June to 26 June. The pages between belong to the other two streams; OpenAI's table claims no completeness for the stretch."
+   ]
+  }
+ },
+ "gap-hf-05-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The Hugging Face record resumes 26 June. The nine days remain unseparated between unrecovered and merely unlisted — the table hedges its rows as first known."
+   ]
+  }
+ },
+ "gap-hf-06-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 26 Jun 20:28–20:37 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-07-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 26 Jun 23:01–23:01 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-08-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 27 Jun 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-09-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 29 Jun 04:55–04:55 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-10-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 6 Jul 12:56–12:56 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-11-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 5 Jul – 6 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-12-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 7 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-13-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 8 Jul 00:06–00:06 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-14-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 8 Jul 00:00–23:00 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-15-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 8 Jul – 9 Jul. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-16-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul 03:32–03:32 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-17-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-18-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 10 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-19-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul 03:12–03:12 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-20-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul 16:07–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-21-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul – 11 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-22-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-23-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul – 12 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-24-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 12 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-25-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 13 Jul 03:06–03:06 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-26-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 13 Jul 00:00–14:14 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-27-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul – 13 Jul 14:14 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-28-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 9 Jul – 13 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-29-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 11 Jul – 13 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-30-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 12 Jul – 13 Jul 23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-31-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 19 Jul 16:35–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-32-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 19 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-33-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 27 Jul 21:30 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-hf-34-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted Hugging Face event shares this page's clock. The next panel in this row is dated 27 Jul 00:00–23:59 UTC. An empty frame is a limit of the drawn record, not a claim that nothing happened."
+   ]
+  }
+ },
+ "gap-gs-01-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The stated GemStuffer record jumps from 5 May to 8 May. This page's clock falls inside the jump; the report states no event for 7 May."
+   ]
+  }
+ },
+ "gap-gs-01-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes 8 May. The researchers' attribution supplies the stated dates; the days between are their silence, not demonstrated quiet."
+   ]
+  }
+ },
+ "gap-gs-02-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The stated record jumps from 8 May to 11 May — the campaign window the September report reconstructed. The days between carry no stated event."
+   ]
+  }
+ },
+ "gap-gs-02-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes 11 May with the email-documented deployment path."
+   ]
+  }
+ },
+ "gap-gs-03-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The next depicted GemStuffer beats are dated to an 11–12 May span and are drawn where the span ends. The empty row is placement, not asserted quiet."
+   ]
+  }
+ },
+ "gap-gs-03-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The 11–12 May interval pages carry this row's next panels."
+   ]
+  }
+ },
+ "gap-gs-04-mark": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame fills this row's second position; the caption says what the empty space means for this stream.",
+   "lettering": [
+    "One depicted event for this stream shares this page's clock; the next depicted event is 13 May."
+   ]
+  }
+ },
+ "gap-gs-05-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The status-incident record ends 16 May. The September report's next stated date is 26 May — a lull inside the attributed window, not a demonstrated stop."
+   ]
+  }
+ },
+ "gap-gs-05-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes with the 26–27 May interval beats."
+   ]
+  }
+ },
+ "gap-gs-06-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The report's timeline states nothing between late May and 18 June; its own 'again' on 18 June frames the stretch as a lull inside the attributed window."
+   ]
+  }
+ },
+ "gap-gs-06-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The stated record resumes 18 June — agents publishing 83 gems over three hours, in the researchers' attribution."
+   ]
+  }
+ },
+ "gap-gs-07-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The September report's coverage window ends 18 June. What this row depicts next comes from a different source, published later."
+   ]
+  }
+ },
+ "gap-gs-07-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes 6 July with the cache advisory's report date — a publication and deployment record, not campaign activity."
+   ]
+  }
+ },
+ "gap-gs-08-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "Between the 6 July report and the 9 July deployment this row is empty; the advisory's own dates are the only record."
+   ]
+  }
+ },
+ "gap-gs-08-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes 9 July with the deployment the advisory describes."
+   ]
+  }
+ },
+ "gap-gs-09-edge": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame at the row's edge; the caption names where this stream's depicted record begins or ends.",
+   "lettering": [
+    "The GemStuffer row ends here: the admitted sources assert nothing after the 9 July deployment. Empty frames to the end of the book are a limit of the record, not demonstrated quiet."
+   ]
+  }
+ },
+ "gap-wiki-01-edge": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame at the row's edge; the caption names where this stream's depicted record begins or ends.",
+   "lettering": [
+    "This row's depicted record begins 17 May. The export's revision coverage opens 1 May; earlier empty frames mean nothing in scope was depicted, not that the wikis were still."
+   ]
+  }
+ },
+ "gap-wiki-02-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The export holds logged events on every day of this stretch — but none of the depicted class. An empty frame here is selection, not an empty log."
+   ]
+  }
+ },
+ "gap-wiki-02-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The depicted record resumes 19 June with the two-page posting window the export records to the second."
+   ]
+  }
+ },
+ "gap-wiki-03-edge": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame at the row's edge; the caption names where this stream's depicted record begins or ends.",
+   "lettering": [
+    "Agent edits stop 22 June; what follows in the corpus is the administrator's five-week evening deletion campaign, which these pages do not depict. The row stays empty to the end of the book."
+   ]
+  }
+ },
+ "gap-all-01-hf-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "OpenAI's event table opens 20 April and states no further row until 7 May — 'earliest confirmed', not a complete account."
+   ]
+  }
+ },
+ "gap-all-01-hf-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The stated record resumes 7 May; the days between are the source's own silence."
+   ]
+  }
+ },
+ "gap-all-01-gs-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The GemStuffer record has not begun: the researchers' earliest attributed date is 5 May."
+   ]
+  }
+ },
+ "gap-all-01-gs-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The attributed record begins 5 May."
+   ]
+  }
+ },
+ "gap-all-01-wiki-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "This stream's depicted record has not begun; the export's revision coverage opens 1 May and its first depicted event is 17 May."
+   ]
+  }
+ },
+ "gap-all-01-wiki-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The first depicted wiki event is 17 May."
+   ]
+  }
+ },
+ "gap-all-02-hf-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The stated Hugging Face record jumps from 26 May to 4 June; the cited table lists nothing between."
+   ]
+  }
+ },
+ "gap-all-02-hf-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The stated record resumes 4 June."
+   ]
+  }
+ },
+ "gap-all-02-gs-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "Inside the attributed window the report's next stated date after 26–27 May is 18 June — a stated lull, not a demonstrated stop."
+   ]
+  }
+ },
+ "gap-all-02-gs-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The attributed record's next stated event is 18 June."
+   ]
+  }
+ },
+ "gap-all-02-wiki-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The export holds logged events on these days, but none of the depicted class; the stream's next depicted event is 19 June."
+   ]
+  }
+ },
+ "gap-all-02-wiki-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The depicted record resumes 19 June."
+   ]
+  }
+ },
+ "gap-all-03-hf-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The stated record jumps from 4 June to 11 June; the cited table lists nothing between."
+   ]
+  }
+ },
+ "gap-all-03-hf-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The stated record resumes 11 June."
+   ]
+  }
+ },
+ "gap-all-03-gs-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The lull inside the attributed window continues; the report's next stated date remains 18 June."
+   ]
+  }
+ },
+ "gap-all-03-gs-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The attributed record's next stated event remains 18 June."
+   ]
+  }
+ },
+ "gap-all-03-wiki-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The corpus stays active — deletes first appear 4 June — but no depicted-class event falls in this stretch."
+   ]
+  }
+ },
+ "gap-all-03-wiki-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The depicted record resumes 19 June."
+   ]
+  }
+ },
+ "gap-all-04-hf-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "The stated record jumps from 19 July to 27 July — the day the recovered chronology and the registry fix were published."
+   ]
+  }
+ },
+ "gap-all-04-hf-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The record resumes 27 July with publication-day events."
+   ]
+  }
+ },
+ "gap-all-04-gs-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "This stream's depicted record already ended 9 July; the admitted sources assert nothing later."
+   ]
+  }
+ },
+ "gap-all-04-gs-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The row remains at its end."
+   ]
+  }
+ },
+ "gap-all-04-wiki-start": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame stands in this row where the stream's depicted record pauses; the caption explains the stretch it marks.",
+   "lettering": [
+    "This stream's depicted record already ended 22 June; the corpus's later events are the undepicted deletion campaign."
+   ]
+  }
+ },
+ "gap-all-04-wiki-end": {
+  "title": "Empty-frame gap marker",
+  "intent": "A dashed frame marks the unpictured stretch; the caption carries the explanation. No invented scene or actor.",
+  "shot": "insert",
+  "background": "ink",
+  "reconstructed": false,
+  "nodes": [
+   {
+    "asset": "empty-slot",
+    "box": [
+     0.28,
+     0.08,
+     0.44,
+     0.5
+    ],
+    "color": "steel"
+   },
+   {
+    "asset": "dotted-line",
+    "box": [
+     0.12,
+     0.62,
+     0.76,
+     0.05
+    ],
+    "color": "dirty"
+   }
+  ],
+  "source": {
+   "frame": "A dashed empty frame closes this stretch of the row; the caption names where the depicted record resumes.",
+   "lettering": [
+    "The row remains at its end."
+   ]
+  }
+ }
+}

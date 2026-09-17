@@ -5,13 +5,75 @@
     "chapter": "april-may",
     "kind": "timed",
     "start": "2026-04-20T07:59Z",
-    "end": "2026-05-05",
+    "end": "2026-04-20T07:59Z",
     "rows": [
       {
         "owner": "HuggingFace",
         "slots": [
           "april-write-ordinary-cache",
           "april-write-unknown-purpose"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-all-01-wiki-start",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-04-21",
+    "end": "2026-05-05",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-all-01-hf-start",
+          "gap-all-01-hf-end"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-all-01-gs-start",
+          "gap-all-01-gs-end"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-all-01-wiki-start",
+          "gap-all-01-wiki-end"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gs-earliest-package",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "interval",
+    "start": "2026-05-05",
+    "end": "2026-05-05",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
         ]
       },
       {
@@ -31,7 +93,7 @@
     ]
   },
   {
-    "id": "incident-may-training-kickoff",
+    "id": "incident-gap-gs-01-start",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "timed",
@@ -48,8 +110,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
-          null
+          "gap-gs-01-start",
+          "gap-gs-01-end"
         ]
       },
       {
@@ -62,7 +124,7 @@
     ]
   },
   {
-    "id": "incident-gs-name-identifier",
+    "id": "incident-gap-gs-02-start",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "timed",
@@ -79,8 +141,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-name-identifier",
-          "gs-name-limit"
+          "gap-gs-02-start",
+          "gap-gs-02-end"
         ]
       },
       {
@@ -93,7 +155,7 @@
     ]
   },
   {
-    "id": "incident-may-blocked-task-blocked-path",
+    "id": "incident-gs-name-identifier",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -110,8 +172,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
-          null
+          "gs-name-identifier",
+          "gs-name-limit"
         ]
       },
       {
@@ -258,7 +320,7 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          null,
+          "gap-hf-01-start",
           null
         ]
       },
@@ -351,15 +413,15 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "may-addressed-note-different-task",
-          "may-addressed-note-own-route"
+          "gap-hf-01-end",
+          "may-addressed-note-different-task"
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
           "gs-registration-stop-consequence",
-          null
+          "gap-gs-03-start"
         ]
       },
       {
@@ -372,7 +434,7 @@
     ]
   },
   {
-    "id": "incident-may-addressed-note-other-environment",
+    "id": "incident-may-addressed-note-own-route",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "timed",
@@ -382,8 +444,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "may-addressed-note-other-environment",
-          "may-addressed-note-write-note"
+          "may-addressed-note-own-route",
+          "may-addressed-note-other-environment"
         ]
       },
       {
@@ -403,7 +465,7 @@
     ]
   },
   {
-    "id": "incident-may-addressed-note-request",
+    "id": "incident-may-addressed-note-write-note",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "timed",
@@ -413,14 +475,45 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "may-addressed-note-request",
-          "may-addressed-note-no-delivery"
+          "may-addressed-note-write-note",
+          "may-addressed-note-request"
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
           null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-may-addressed-note-no-delivery",
+    "movement": "incident",
+    "chapter": "april-may",
+    "kind": "timed",
+    "start": "2026-05-12T17:06Z",
+    "end": "2026-05-12T17:06Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "may-addressed-note-no-delivery",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-gs-03-end",
           null
         ]
       },
@@ -444,7 +537,7 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          null,
+          "gap-hf-02-start",
           null
         ]
       },
@@ -589,7 +682,7 @@
     ]
   },
   {
-    "id": "incident-gs-credential-attempt-branch",
+    "id": "incident-gap-gs-04-mark",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -606,8 +699,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-credential-attempt-branch",
-          "gs-credential-attempt-samples"
+          "gap-gs-04-mark",
+          "gs-credential-attempt-branch"
         ]
       },
       {
@@ -620,7 +713,7 @@
     ]
   },
   {
-    "id": "incident-gs-credential-attempt-conditions",
+    "id": "incident-gs-credential-attempt-samples",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -637,8 +730,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-credential-attempt-conditions",
-          "gs-credential-attempt-difference"
+          "gs-credential-attempt-samples",
+          "gs-credential-attempt-conditions"
         ]
       },
       {
@@ -651,7 +744,7 @@
     ]
   },
   {
-    "id": "incident-gs-credential-attempt-uncertain",
+    "id": "incident-gs-credential-attempt-difference",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -668,8 +761,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-credential-attempt-uncertain",
-          "gs-credential-attempt-meaning"
+          "gs-credential-attempt-difference",
+          "gs-credential-attempt-uncertain"
         ]
       },
       {
@@ -682,7 +775,7 @@
     ]
   },
   {
-    "id": "incident-gs-credential-attempt-later-discovery",
+    "id": "incident-gs-credential-attempt-meaning",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -699,8 +792,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-credential-attempt-later-discovery",
-          "gs-email-deployment-deployment"
+          "gs-credential-attempt-meaning",
+          "gs-credential-attempt-later-discovery"
         ]
       },
       {
@@ -713,7 +806,7 @@
     ]
   },
   {
-    "id": "incident-gs-email-deployment-different-dates",
+    "id": "incident-gs-email-deployment-deployment",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -730,8 +823,8 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-email-deployment-different-dates",
-          null
+          "gs-email-deployment-deployment",
+          "gs-email-deployment-different-dates"
         ]
       },
       {
@@ -785,7 +878,7 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          null,
+          "gap-hf-02-end",
           null
         ]
       },
@@ -806,7 +899,7 @@
     ]
   },
   {
-    "id": "incident-gs-socket-analysis-analysis",
+    "id": "incident-gap-wiki-01-edge",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -830,7 +923,7 @@
       {
         "owner": "Collusion Wiki",
         "slots": [
-          null,
+          "gap-wiki-01-edge",
           null
         ]
       }
@@ -909,7 +1002,7 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          null,
+          "gap-hf-03-start",
           null
         ]
       },
@@ -1040,7 +1133,7 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
+          "gap-gs-05-start",
           null
         ]
       },
@@ -1064,7 +1157,7 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          null,
+          "gap-hf-03-end",
           null
         ]
       },
@@ -1171,7 +1264,7 @@
       {
         "owner": "Collusion Wiki",
         "slots": [
-          null,
+          "gap-wiki-02-start",
           null
         ]
       }
@@ -1209,7 +1302,7 @@
     ]
   },
   {
-    "id": "incident-may-second-proxy-record",
+    "id": "incident-gap-hf-04-mark",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "timed",
@@ -1219,8 +1312,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "may-second-proxy-record",
-          null
+          "gap-hf-04-mark",
+          "may-second-proxy-record"
         ]
       },
       {
@@ -1333,7 +1426,7 @@
     ]
   },
   {
-    "id": "incident-may-external-access-webcache",
+    "id": "incident-gap-gs-05-end",
     "movement": "incident",
     "chapter": "april-may",
     "kind": "interval",
@@ -1350,7 +1443,7 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
+          "gap-gs-05-end",
           null
         ]
       },
@@ -1426,7 +1519,38 @@
     ]
   },
   {
-    "id": "incident-june-destination-new-date",
+    "id": "incident-gap-all-02-wiki-start",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-05-28",
+    "end": "2026-06-04T17:43Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-all-02-hf-start",
+          "june-destination-new-date"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-all-02-gs-start",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-all-02-wiki-start",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-destination-selectable-reach",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
@@ -1436,14 +1560,14 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-destination-new-date",
-          "june-destination-selectable-reach"
+          "june-destination-selectable-reach",
+          null
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
+          "gap-gs-06-start",
           null
         ]
       },
@@ -1457,10 +1581,72 @@
     ]
   },
   {
-    "id": "incident-june-training-overlap-training-start",
+    "id": "incident-gap-all-02-wiki-end",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-02",
+    "end": "2026-06-06",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-all-02-hf-end",
+          "gap-all-03-hf-start"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-all-02-gs-end",
+          "gap-all-03-gs-start"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-all-02-wiki-end",
+          "gap-all-03-wiki-start"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-all-03-wiki-end",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
+    "start": "2026-06-09",
+    "end": "2026-06-11",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-all-03-hf-end",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-all-03-gs-end",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-all-03-wiki-end",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-june-training-overlap-training-start",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
     "start": "2026-06-11",
     "end": "2026-06-11",
     "rows": [
@@ -1581,6 +1767,37 @@
     ]
   },
   {
+    "id": "incident-gap-wiki-02-end",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-12T02:35Z",
+    "end": "2026-06-17T00:49Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-gs-06-end",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-wiki-02-end",
+          null
+        ]
+      }
+    ]
+  },
+  {
     "id": "incident-gs-june-packages-eighty-three",
     "movement": "incident",
     "chapter": "june",
@@ -1629,7 +1846,7 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
+          "gap-gs-07-start",
           null
         ]
       },
@@ -1638,6 +1855,37 @@
         "slots": [
           "cw-wage-main-01-request",
           "cw-wage-main-01-timing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-hf-05-start",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-18",
+    "end": "2026-06-19T12:40:35Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-hf-05-start",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
         ]
       }
     ]
@@ -3260,13 +3508,13 @@
     "chapter": "june",
     "kind": "timed",
     "start": "2026-06-22T08:46:17Z",
-    "end": "2026-06-26T20:15Z",
+    "end": "2026-06-26T06:32Z",
     "rows": [
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-technique-sharing-record",
-          "june-admin-old-scope"
+          "gap-hf-05-end",
+          "june-technique-sharing-record"
         ]
       },
       {
@@ -3286,7 +3534,7 @@
     ]
   },
   {
-    "id": "incident-june-admin-refresh-path",
+    "id": "incident-june-admin-old-scope",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
@@ -3296,8 +3544,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-admin-refresh-path",
-          "june-admin-new-scope"
+          "june-admin-old-scope",
+          "june-admin-refresh-path"
         ]
       },
       {
@@ -3317,7 +3565,7 @@
     ]
   },
   {
-    "id": "incident-june-admin-control-surface",
+    "id": "incident-june-admin-new-scope",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
@@ -3327,8 +3575,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-admin-control-surface",
-          "june-admin-shared-environment"
+          "june-admin-new-scope",
+          "june-admin-control-surface"
         ]
       },
       {
@@ -3348,18 +3596,18 @@
     ]
   },
   {
-    "id": "incident-june-persistent-users-first-user",
+    "id": "incident-june-admin-shared-environment",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
-    "start": "2026-06-26T20:28Z",
-    "end": "2026-06-26T20:37Z",
+    "start": "2026-06-26T20:15Z",
+    "end": "2026-06-26T20:28Z",
     "rows": [
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-persistent-users-first-user",
-          "june-persistent-users-persistence-limit"
+          "june-admin-shared-environment",
+          "june-persistent-users-first-user"
         ]
       },
       {
@@ -3372,38 +3620,7 @@
       {
         "owner": "Collusion Wiki",
         "slots": [
-          null,
-          null
-        ]
-      }
-    ]
-  },
-  {
-    "id": "incident-june-persistent-users-second-user",
-    "movement": "incident",
-    "chapter": "june",
-    "kind": "timed",
-    "start": "2026-06-26T20:37Z",
-    "end": "2026-06-26T20:37Z",
-    "rows": [
-      {
-        "owner": "HuggingFace",
-        "slots": [
-          "june-persistent-users-second-user",
-          null
-        ]
-      },
-      {
-        "owner": "GemStuffer",
-        "slots": [
-          null,
-          null
-        ]
-      },
-      {
-        "owner": "Collusion Wiki",
-        "slots": [
-          null,
+          "gap-wiki-03-edge",
           null
         ]
       }
@@ -3413,7 +3630,7 @@
     "id": "incident-june-persistent-users-different-lifetimes",
     "movement": "incident",
     "chapter": "june",
-    "kind": "interval",
+    "kind": "timed",
     "start": "2026-06-26T20:28Z",
     "end": "2026-06-26T20:37Z",
     "rows": [
@@ -3421,6 +3638,37 @@
         "owner": "HuggingFace",
         "slots": [
           "june-persistent-users-different-lifetimes",
+          "june-persistent-users-second-user"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-hf-06-mark",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "timed",
+    "start": "2026-06-26T20:37Z",
+    "end": "2026-06-26T20:37Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-hf-06-mark",
           null
         ]
       },
@@ -3441,7 +3689,38 @@
     ]
   },
   {
-    "id": "incident-june-staged-plugin-download",
+    "id": "incident-june-persistent-users-persistence-limit",
+    "movement": "incident",
+    "chapter": "june",
+    "kind": "interval",
+    "start": "2026-06-26T20:28Z",
+    "end": "2026-06-26T21:07:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "june-persistent-users-persistence-limit",
+          "gap-hf-07-mark"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-hf-08-mark",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
@@ -3451,8 +3730,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-staged-plugin-download",
-          "june-staged-plugin-not-executed"
+          "gap-hf-08-mark",
+          "june-staged-plugin-download"
         ]
       },
       {
@@ -3472,7 +3751,7 @@
     ]
   },
   {
-    "id": "incident-june-staged-plugin-coexisting-state",
+    "id": "incident-june-staged-plugin-not-executed",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
@@ -3482,8 +3761,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-staged-plugin-coexisting-state",
-          null
+          "june-staged-plugin-not-executed",
+          "june-staged-plugin-coexisting-state"
         ]
       },
       {
@@ -3503,7 +3782,7 @@
     ]
   },
   {
-    "id": "incident-june-alert-port-sweep",
+    "id": "incident-gap-hf-09-mark",
     "movement": "incident",
     "chapter": "june",
     "kind": "timed",
@@ -3513,8 +3792,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-alert-port-sweep",
-          "june-alert-narrow-signal"
+          "gap-hf-09-mark",
+          "june-alert-port-sweep"
         ]
       },
       {
@@ -3534,7 +3813,7 @@
     ]
   },
   {
-    "id": "incident-june-alert-investigation",
+    "id": "incident-june-alert-narrow-signal",
     "movement": "incident",
     "chapter": "june",
     "kind": "interval",
@@ -3544,8 +3823,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-alert-investigation",
-          "june-alert-work-item"
+          "june-alert-narrow-signal",
+          "june-alert-investigation"
         ]
       },
       {
@@ -3565,7 +3844,7 @@
     ]
   },
   {
-    "id": "incident-june-alert-earlier-observation",
+    "id": "incident-june-alert-work-item",
     "movement": "incident",
     "chapter": "june",
     "kind": "interval",
@@ -3575,8 +3854,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-alert-earlier-observation",
-          "june-continue-advice"
+          "june-alert-work-item",
+          "june-alert-earlier-observation"
         ]
       },
       {
@@ -3596,7 +3875,7 @@
     ]
   },
   {
-    "id": "incident-june-continue-no-reason",
+    "id": "incident-june-continue-advice",
     "movement": "incident",
     "chapter": "june",
     "kind": "interval",
@@ -3606,8 +3885,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-continue-no-reason",
-          "june-continue-continues"
+          "june-continue-advice",
+          "june-continue-no-reason"
         ]
       },
       {
@@ -3627,7 +3906,7 @@
     ]
   },
   {
-    "id": "incident-june-findings-evaluation",
+    "id": "incident-june-continue-continues",
     "movement": "incident",
     "chapter": "june",
     "kind": "interval",
@@ -3637,8 +3916,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-findings-evaluation",
-          "june-findings-board"
+          "june-continue-continues",
+          "june-findings-evaluation"
         ]
       },
       {
@@ -3658,7 +3937,7 @@
     ]
   },
   {
-    "id": "incident-june-findings-pivot",
+    "id": "incident-june-findings-board",
     "movement": "incident",
     "chapter": "june",
     "kind": "interval",
@@ -3668,8 +3947,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-findings-pivot",
-          "june-findings-findings-together"
+          "june-findings-board",
+          "june-findings-pivot"
         ]
       },
       {
@@ -3689,7 +3968,7 @@
     ]
   },
   {
-    "id": "incident-june-findings-stop-question",
+    "id": "incident-june-findings-findings-together",
     "movement": "incident",
     "chapter": "june",
     "kind": "interval",
@@ -3699,8 +3978,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "june-findings-stop-question",
-          null
+          "june-findings-findings-together",
+          "june-findings-stop-question"
         ]
       },
       {
@@ -3824,7 +4103,7 @@
         "owner": "HuggingFace",
         "slots": [
           "july-incident-opened",
-          "july-incident-broader-picture"
+          "july-rebuild-online"
         ]
       },
       {
@@ -3844,7 +4123,7 @@
     ]
   },
   {
-    "id": "incident-july-rebuild-online",
+    "id": "incident-july-rebuild-no-live-transfer",
     "movement": "incident",
     "chapter": "early-july",
     "kind": "timed",
@@ -3854,8 +4133,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-rebuild-online",
-          "july-rebuild-no-live-transfer"
+          "july-rebuild-no-live-transfer",
+          "july-rebuild-empty-notes"
         ]
       },
       {
@@ -3875,7 +4154,7 @@
     ]
   },
   {
-    "id": "incident-july-rebuild-empty-notes",
+    "id": "incident-july-rebuild-not-all-memory",
     "movement": "incident",
     "chapter": "early-july",
     "kind": "timed",
@@ -3885,8 +4164,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-rebuild-empty-notes",
-          "july-rebuild-not-all-memory"
+          "july-rebuild-not-all-memory",
+          null
         ]
       },
       {
@@ -4010,6 +4289,37 @@
         "owner": "HuggingFace",
         "slots": [
           "july-incident-plugins",
+          "july-incident-broader-picture"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-hf-10-mark",
+    "movement": "incident",
+    "chapter": "early-july",
+    "kind": "interval",
+    "start": "2026-07-05T19:50Z",
+    "end": "2026-07-06T01:46:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-hf-10-mark",
           null
         ]
       },
@@ -4030,7 +4340,7 @@
     ]
   },
   {
-    "id": "incident-july-rejected-attempts-first-rejection",
+    "id": "incident-gap-hf-11-mark",
     "movement": "incident",
     "chapter": "early-july",
     "kind": "timed",
@@ -4040,8 +4350,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-rejected-attempts-first-rejection",
-          "july-rejected-attempts-remaining-rejections"
+          "gap-hf-11-mark",
+          "july-rejected-attempts-first-rejection"
         ]
       },
       {
@@ -4061,7 +4371,7 @@
     ]
   },
   {
-    "id": "incident-july-rejected-attempts-bounded-success",
+    "id": "incident-july-rejected-attempts-remaining-rejections",
     "movement": "incident",
     "chapter": "early-july",
     "kind": "timed",
@@ -4071,8 +4381,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-rejected-attempts-bounded-success",
-          null
+          "july-rejected-attempts-remaining-rejections",
+          "july-rejected-attempts-bounded-success"
         ]
       },
       {
@@ -4092,7 +4402,7 @@
     ]
   },
   {
-    "id": "incident-july-isolate-mitigate",
+    "id": "incident-gap-gs-07-end",
     "movement": "incident",
     "chapter": "early-july",
     "kind": "interval",
@@ -4109,7 +4419,7 @@
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
+          "gap-gs-07-end",
           null
         ]
       },
@@ -4133,8 +4443,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-mitigations-reader-key",
-          "july-mitigations-token-routes"
+          "gap-hf-12-mark",
+          "july-mitigations-reader-key"
         ]
       },
       {
@@ -4164,15 +4474,15 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-mitigations-request-surface",
-          "july-mitigations-real-effect"
+          "july-mitigations-token-routes",
+          "july-mitigations-request-surface"
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
           "gs-cache-report-distinct-system",
-          null
+          "gap-gs-08-start"
         ]
       },
       {
@@ -4185,7 +4495,7 @@
     ]
   },
   {
-    "id": "incident-july-vendor-disclosure-report",
+    "id": "incident-july-mitigations-real-effect",
     "movement": "incident",
     "chapter": "early-july",
     "kind": "interval",
@@ -4195,8 +4505,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-vendor-disclosure-report",
-          null
+          "july-mitigations-real-effect",
+          "july-vendor-disclosure-report"
         ]
       },
       {
@@ -4216,7 +4526,7 @@
     ]
   },
   {
-    "id": "incident-july-resume-resumption",
+    "id": "incident-gap-hf-13-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -4226,8 +4536,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-resume-resumption",
-          "july-resume-distinct-runs"
+          "gap-hf-13-mark",
+          "july-resume-resumption"
         ]
       },
       {
@@ -4247,7 +4557,7 @@
     ]
   },
   {
-    "id": "incident-july-resume-hard-tasks",
+    "id": "incident-july-resume-distinct-runs",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4257,8 +4567,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-resume-hard-tasks",
-          "july-resume-shared-service"
+          "july-resume-distinct-runs",
+          "july-resume-hard-tasks"
         ]
       },
       {
@@ -4278,7 +4588,7 @@
     ]
   },
   {
-    "id": "incident-july-resume-boundary-of-claim",
+    "id": "incident-july-resume-shared-service",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4288,8 +4598,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-resume-boundary-of-claim",
-          null
+          "july-resume-shared-service",
+          "july-resume-boundary-of-claim"
         ]
       },
       {
@@ -4382,7 +4692,7 @@
         "owner": "HuggingFace",
         "slots": [
           "july-earlier-write-identity-boundary",
-          "july-main-board-arrival"
+          "gap-hf-14-mark"
         ]
       },
       {
@@ -4402,7 +4712,7 @@
     ]
   },
   {
-    "id": "incident-july-main-board-unawareness",
+    "id": "incident-july-main-board-arrival",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -4412,8 +4722,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-main-board-unawareness",
-          "july-main-board-help-request"
+          "july-main-board-arrival",
+          "july-main-board-unawareness"
         ]
       },
       {
@@ -4433,7 +4743,7 @@
     ]
   },
   {
-    "id": "incident-july-main-board-shared-state",
+    "id": "incident-july-main-board-help-request",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -4443,8 +4753,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-main-board-shared-state",
-          "july-main-board-seven-hours"
+          "july-main-board-help-request",
+          "july-main-board-shared-state"
         ]
       },
       {
@@ -4464,7 +4774,7 @@
     ]
   },
   {
-    "id": "incident-july-main-board-sort-limit",
+    "id": "incident-july-main-board-seven-hours",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -4474,8 +4784,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-main-board-sort-limit",
-          null
+          "july-main-board-seven-hours",
+          "july-main-board-sort-limit"
         ]
       },
       {
@@ -4557,7 +4867,7 @@
     ]
   },
   {
-    "id": "incident-hf-impossible-assignment-assignment",
+    "id": "incident-gap-hf-15-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4567,8 +4877,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impossible-assignment-assignment",
-          "hf-impossible-assignment-output"
+          "gap-hf-15-mark",
+          "hf-impossible-assignment-assignment"
         ]
       },
       {
@@ -4588,7 +4898,7 @@
     ]
   },
   {
-    "id": "incident-hf-impossible-assignment-no-consumer",
+    "id": "incident-hf-impossible-assignment-output",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4598,8 +4908,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impossible-assignment-no-consumer",
-          "hf-impossible-assignment-conclusion"
+          "hf-impossible-assignment-output",
+          "hf-impossible-assignment-no-consumer"
         ]
       },
       {
@@ -4619,7 +4929,7 @@
     ]
   },
   {
-    "id": "incident-hf-impossible-assignment-unfinished",
+    "id": "incident-hf-impossible-assignment-conclusion",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4629,8 +4939,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impossible-assignment-unfinished",
-          "hf-impossible-assignment-continued-search"
+          "hf-impossible-assignment-conclusion",
+          "hf-impossible-assignment-unfinished"
         ]
       },
       {
@@ -4650,7 +4960,7 @@
     ]
   },
   {
-    "id": "incident-july-discussion-board-cached-names",
+    "id": "incident-hf-impossible-assignment-continued-search",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4660,8 +4970,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-discussion-board-cached-names",
-          "july-discussion-board-readers"
+          "hf-impossible-assignment-continued-search",
+          "july-discussion-board-cached-names"
         ]
       },
       {
@@ -4681,7 +4991,7 @@
     ]
   },
   {
-    "id": "incident-july-discussion-board-unresolved-origin",
+    "id": "incident-july-discussion-board-readers",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -4691,8 +5001,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-discussion-board-unresolved-origin",
-          null
+          "july-discussion-board-readers",
+          "july-discussion-board-unresolved-origin"
         ]
       },
       {
@@ -4841,13 +5151,13 @@
     "chapter": "july-8-13",
     "kind": "interval",
     "start": "2026-07-08T23:00Z",
-    "end": "2026-07-09T00:00Z",
+    "end": "2026-07-09T00:30:59Z",
     "rows": [
       {
         "owner": "HuggingFace",
         "slots": [
           "july-flag-hypothesis-shared",
-          null
+          "gap-hf-16-mark"
         ]
       },
       {
@@ -5177,7 +5487,7 @@
     ]
   },
   {
-    "id": "incident-july-flag-hypothesis-test",
+    "id": "incident-gap-gs-08-end",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5187,14 +5497,14 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-flag-hypothesis-test",
-          "july-flag-hypothesis-match"
+          "gap-hf-17-mark",
+          "july-flag-hypothesis-test"
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
-          null,
+          "gap-gs-08-end",
           null
         ]
       },
@@ -5208,7 +5518,7 @@
     ]
   },
   {
-    "id": "incident-july-flag-hypothesis-generality",
+    "id": "incident-july-flag-hypothesis-match",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5218,8 +5528,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-flag-hypothesis-generality",
-          null
+          "july-flag-hypothesis-match",
+          "july-flag-hypothesis-generality"
         ]
       },
       {
@@ -5239,7 +5549,7 @@
     ]
   },
   {
-    "id": "incident-gs-cache-fix-root-cause",
+    "id": "incident-gap-gs-09-edge",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5249,15 +5559,15 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-external-staging-record",
-          "hf-gated-request-dataset"
+          "gap-hf-18-mark",
+          "hf-external-staging-record"
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-cache-fix-root-cause",
-          "gs-cache-fix-purge"
+          "gap-gs-09-edge",
+          "gs-cache-fix-root-cause"
         ]
       },
       {
@@ -5270,7 +5580,7 @@
     ]
   },
   {
-    "id": "incident-gs-cache-fix-limited-class",
+    "id": "incident-gs-cache-fix-purge",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5280,15 +5590,15 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-gated-request-unknown-contents",
-          "hf-gated-request-request"
+          "hf-gated-request-dataset",
+          "hf-gated-request-unknown-contents"
         ]
       },
       {
         "owner": "GemStuffer",
         "slots": [
-          "gs-cache-fix-limited-class",
-          null
+          "gs-cache-fix-purge",
+          "gs-cache-fix-limited-class"
         ]
       },
       {
@@ -5301,7 +5611,7 @@
     ]
   },
   {
-    "id": "incident-hf-gated-request-separate-thread",
+    "id": "incident-hf-gated-request-request",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5311,8 +5621,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-gated-request-separate-thread",
-          "hf-missing-report-wait"
+          "hf-gated-request-request",
+          "hf-gated-request-separate-thread"
         ]
       },
       {
@@ -5332,7 +5642,7 @@
     ]
   },
   {
-    "id": "incident-hf-missing-report-warning",
+    "id": "incident-hf-missing-report-wait",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5342,8 +5652,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-missing-report-warning",
-          "hf-missing-report-interpretation"
+          "hf-missing-report-wait",
+          "hf-missing-report-warning"
         ]
       },
       {
@@ -5363,7 +5673,7 @@
     ]
   },
   {
-    "id": "incident-hf-missing-report-trace-limit",
+    "id": "incident-hf-missing-report-interpretation",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5373,8 +5683,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-missing-report-trace-limit",
-          "hf-missing-report-caution"
+          "hf-missing-report-interpretation",
+          "hf-missing-report-trace-limit"
         ]
       },
       {
@@ -5394,7 +5704,7 @@
     ]
   },
   {
-    "id": "incident-hf-reset-observation-prediction",
+    "id": "incident-hf-missing-report-caution",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5404,8 +5714,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-reset-observation-prediction",
-          "hf-reset-observation-hypotheses"
+          "hf-missing-report-caution",
+          "hf-reset-observation-prediction"
         ]
       },
       {
@@ -5425,7 +5735,7 @@
     ]
   },
   {
-    "id": "incident-hf-reset-observation-workstream",
+    "id": "incident-hf-reset-observation-hypotheses",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5435,8 +5745,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-reset-observation-workstream",
-          "hf-reset-observation-resets"
+          "hf-reset-observation-hypotheses",
+          "hf-reset-observation-workstream"
         ]
       },
       {
@@ -5456,7 +5766,7 @@
     ]
   },
   {
-    "id": "incident-hf-reset-observation-report",
+    "id": "incident-hf-reset-observation-resets",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5466,8 +5776,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-reset-observation-report",
-          "hf-reset-observation-experiment"
+          "hf-reset-observation-resets",
+          "hf-reset-observation-report"
         ]
       },
       {
@@ -5487,7 +5797,7 @@
     ]
   },
   {
-    "id": "incident-hf-risky-test-short-budget",
+    "id": "incident-hf-reset-observation-experiment",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5497,8 +5807,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-risky-test-short-budget",
-          "hf-risky-test-request"
+          "hf-reset-observation-experiment",
+          "hf-risky-test-short-budget"
         ]
       },
       {
@@ -5518,7 +5828,7 @@
     ]
   },
   {
-    "id": "incident-hf-risky-test-possible-cost",
+    "id": "incident-hf-risky-test-request",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5528,8 +5838,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-risky-test-possible-cost",
-          "hf-risky-test-acceptance"
+          "hf-risky-test-request",
+          "hf-risky-test-possible-cost"
         ]
       },
       {
@@ -5549,7 +5859,7 @@
     ]
   },
   {
-    "id": "incident-hf-risky-test-promise",
+    "id": "incident-hf-risky-test-acceptance",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5559,8 +5869,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-risky-test-promise",
-          "hf-scorer-belief-apparent-answer"
+          "hf-risky-test-acceptance",
+          "hf-risky-test-promise"
         ]
       },
       {
@@ -5580,7 +5890,7 @@
     ]
   },
   {
-    "id": "incident-hf-scorer-belief-path-question",
+    "id": "incident-hf-scorer-belief-apparent-answer",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5590,8 +5900,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-scorer-belief-path-question",
-          "hf-scorer-belief-prior-exposure"
+          "hf-scorer-belief-apparent-answer",
+          "hf-scorer-belief-path-question"
         ]
       },
       {
@@ -5611,7 +5921,7 @@
     ]
   },
   {
-    "id": "incident-hf-scorer-belief-transcript-review",
+    "id": "incident-hf-scorer-belief-prior-exposure",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5621,8 +5931,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-scorer-belief-transcript-review",
-          "hf-scorer-belief-uncertainty"
+          "hf-scorer-belief-prior-exposure",
+          "hf-scorer-belief-transcript-review"
         ]
       },
       {
@@ -5642,7 +5952,7 @@
     ]
   },
   {
-    "id": "incident-hf-scorer-research-rule",
+    "id": "incident-hf-scorer-belief-uncertainty",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5652,8 +5962,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-scorer-research-rule",
-          "hf-scorer-research-transcript"
+          "hf-scorer-belief-uncertainty",
+          "hf-scorer-research-rule"
         ]
       },
       {
@@ -5673,7 +5983,7 @@
     ]
   },
   {
-    "id": "incident-hf-scorer-research-infrastructure",
+    "id": "incident-hf-scorer-research-transcript",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5683,8 +5993,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-scorer-research-infrastructure",
-          "hf-scorer-research-interpretation"
+          "hf-scorer-research-transcript",
+          "hf-scorer-research-infrastructure"
         ]
       },
       {
@@ -5704,7 +6014,7 @@
     ]
   },
   {
-    "id": "incident-july-board-census-growth",
+    "id": "incident-hf-scorer-research-interpretation",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5714,8 +6024,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-board-census-growth",
-          "july-board-census-distinct-runs"
+          "hf-scorer-research-interpretation",
+          "july-board-census-growth"
         ]
       },
       {
@@ -5735,7 +6045,7 @@
     ]
   },
   {
-    "id": "incident-july-board-three-hour-count",
+    "id": "incident-july-board-census-distinct-runs",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5745,8 +6055,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-board-three-hour-count",
-          "july-workstreams-target"
+          "july-board-census-distinct-runs",
+          "july-board-three-hour-count"
         ]
       },
       {
@@ -5766,7 +6076,7 @@
     ]
   },
   {
-    "id": "incident-july-workstreams-grader",
+    "id": "incident-july-workstreams-target",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5776,8 +6086,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-workstreams-grader",
-          "july-workstreams-access"
+          "july-workstreams-target",
+          "july-workstreams-grader"
         ]
       },
       {
@@ -5797,7 +6107,7 @@
     ]
   },
   {
-    "id": "incident-july-workstreams-new-run",
+    "id": "incident-july-workstreams-access",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5807,8 +6117,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-workstreams-new-run",
-          "july-workstreams-dossier"
+          "july-workstreams-access",
+          "july-workstreams-new-run"
         ]
       },
       {
@@ -5828,7 +6138,7 @@
     ]
   },
   {
-    "id": "incident-july-workstreams-delegation",
+    "id": "incident-july-workstreams-dossier",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5838,8 +6148,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-workstreams-delegation",
-          "july-workstreams-coordinator"
+          "july-workstreams-dossier",
+          "july-workstreams-delegation"
         ]
       },
       {
@@ -5859,7 +6169,7 @@
     ]
   },
   {
-    "id": "incident-july-workstreams-handover-limit",
+    "id": "incident-july-workstreams-coordinator",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5869,8 +6179,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "july-workstreams-handover-limit",
-          null
+          "july-workstreams-coordinator",
+          "july-workstreams-handover-limit"
         ]
       },
       {
@@ -5890,7 +6200,7 @@
     ]
   },
   {
-    "id": "incident-hf-credentials-pickup",
+    "id": "incident-gap-hf-19-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -5900,8 +6210,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-credentials-pickup",
-          "hf-credentials-discovery"
+          "gap-hf-19-mark",
+          "hf-credentials-pickup"
         ]
       },
       {
@@ -5921,7 +6231,7 @@
     ]
   },
   {
-    "id": "incident-hf-credentials-other-count",
+    "id": "incident-hf-credentials-discovery",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5931,8 +6241,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-credentials-other-count",
-          "hf-credentials-unreconciled"
+          "hf-credentials-discovery",
+          "hf-credentials-other-count"
         ]
       },
       {
@@ -5952,7 +6262,7 @@
     ]
   },
   {
-    "id": "incident-hf-credentials-sharing",
+    "id": "incident-hf-credentials-unreconciled",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5962,8 +6272,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-credentials-sharing",
-          "hf-credentials-assignment-limit"
+          "hf-credentials-unreconciled",
+          "hf-credentials-sharing"
         ]
       },
       {
@@ -5983,7 +6293,7 @@
     ]
   },
   {
-    "id": "incident-hf-gated-outcomes-requests",
+    "id": "incident-hf-credentials-assignment-limit",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -5993,8 +6303,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-gated-outcomes-requests",
-          "hf-gated-outcomes-approved"
+          "hf-credentials-assignment-limit",
+          "hf-gated-outcomes-requests"
         ]
       },
       {
@@ -6014,7 +6324,7 @@
     ]
   },
   {
-    "id": "incident-hf-gated-outcomes-denied",
+    "id": "incident-hf-gated-outcomes-approved",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6024,8 +6334,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-gated-outcomes-denied",
-          "hf-gated-outcomes-account-creation"
+          "hf-gated-outcomes-approved",
+          "hf-gated-outcomes-denied"
         ]
       },
       {
@@ -6045,7 +6355,7 @@
     ]
   },
   {
-    "id": "incident-hf-gated-outcomes-obstacles",
+    "id": "incident-hf-gated-outcomes-account-creation",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6055,8 +6365,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-gated-outcomes-obstacles",
-          "hf-mailbox-reinvention-create"
+          "hf-gated-outcomes-account-creation",
+          "hf-gated-outcomes-obstacles"
         ]
       },
       {
@@ -6076,7 +6386,7 @@
     ]
   },
   {
-    "id": "incident-hf-mailbox-reinvention-missing",
+    "id": "incident-hf-mailbox-reinvention-create",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6086,8 +6396,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-mailbox-reinvention-missing",
-          "hf-mailbox-reinvention-reply"
+          "hf-mailbox-reinvention-create",
+          "hf-mailbox-reinvention-missing"
         ]
       },
       {
@@ -6107,7 +6417,7 @@
     ]
   },
   {
-    "id": "incident-hf-mailbox-reinvention-copy",
+    "id": "incident-hf-mailbox-reinvention-reply",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6117,8 +6427,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-mailbox-reinvention-copy",
-          null
+          "hf-mailbox-reinvention-reply",
+          "hf-mailbox-reinvention-copy"
         ]
       },
       {
@@ -6448,7 +6758,7 @@
     ]
   },
   {
-    "id": "incident-hf-cluster-connector-catalog",
+    "id": "incident-gap-hf-20-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -6458,8 +6768,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-cluster-connector-catalog",
-          "hf-cluster-connector-identity"
+          "gap-hf-20-mark",
+          "hf-cluster-connector-catalog"
         ]
       },
       {
@@ -6479,7 +6789,7 @@
     ]
   },
   {
-    "id": "incident-hf-cluster-connector-two-clusters",
+    "id": "incident-hf-cluster-connector-identity",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "timed",
@@ -6489,8 +6799,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-cluster-connector-two-clusters",
-          null
+          "hf-cluster-connector-identity",
+          "hf-cluster-connector-two-clusters"
         ]
       },
       {
@@ -6634,7 +6944,7 @@
     ]
   },
   {
-    "id": "incident-hf-other-one-way-test-substitute",
+    "id": "incident-gap-hf-22-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6644,8 +6954,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-other-one-way-test-substitute",
-          "hf-other-one-way-test-condition"
+          "gap-hf-22-mark",
+          "hf-other-one-way-test-substitute"
         ]
       },
       {
@@ -6665,7 +6975,7 @@
     ]
   },
   {
-    "id": "incident-hf-other-one-way-test-reasoning",
+    "id": "incident-hf-other-one-way-test-condition",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6675,8 +6985,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-other-one-way-test-reasoning",
-          "hf-other-one-way-test-decision"
+          "hf-other-one-way-test-condition",
+          "hf-other-one-way-test-reasoning"
         ]
       },
       {
@@ -6696,7 +7006,7 @@
     ]
   },
   {
-    "id": "incident-hf-other-one-way-test-outcome",
+    "id": "incident-hf-other-one-way-test-decision",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6706,8 +7016,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-other-one-way-test-outcome",
-          null
+          "hf-other-one-way-test-decision",
+          "hf-other-one-way-test-outcome"
         ]
       },
       {
@@ -6727,7 +7037,7 @@
     ]
   },
   {
-    "id": "incident-hf-disclosure-sharing-reproduce",
+    "id": "incident-gap-hf-23-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6737,8 +7047,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-disclosure-sharing-reproduce",
-          "hf-file-reproduction-pivot"
+          "gap-hf-23-mark",
+          "hf-disclosure-sharing-reproduce"
         ]
       },
       {
@@ -6758,7 +7068,7 @@
     ]
   },
   {
-    "id": "incident-hf-join-motives-tags",
+    "id": "incident-hf-file-reproduction-pivot",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6768,8 +7078,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-join-motives-tags",
-          "hf-join-motives-plan"
+          "hf-file-reproduction-pivot",
+          "hf-join-motives-tags"
         ]
       },
       {
@@ -6789,7 +7099,7 @@
     ]
   },
   {
-    "id": "incident-hf-mailbox-adoption-count",
+    "id": "incident-hf-join-motives-plan",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6799,7 +7109,38 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-mailbox-adoption-count",
+          "hf-join-motives-plan",
+          "hf-mailbox-adoption-count"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-hf-21-mark",
+    "movement": "incident",
+    "chapter": "july-8-13",
+    "kind": "interval",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-12T00:29:59Z",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-hf-21-mark",
           null
         ]
       },
@@ -6820,7 +7161,7 @@
     ]
   },
   {
-    "id": "incident-hf-reset-monitoring-failure",
+    "id": "incident-gap-hf-24-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6830,8 +7171,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-reset-monitoring-failure",
-          "hf-reset-monitoring-working"
+          "gap-hf-24-mark",
+          "hf-reset-monitoring-failure"
         ]
       },
       {
@@ -6851,7 +7192,7 @@
     ]
   },
   {
-    "id": "incident-hf-reset-monitoring-purpose",
+    "id": "incident-hf-reset-monitoring-working",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6861,8 +7202,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-reset-monitoring-purpose",
-          null
+          "hf-reset-monitoring-working",
+          "hf-reset-monitoring-purpose"
         ]
       },
       {
@@ -6882,7 +7223,7 @@
     ]
   },
   {
-    "id": "incident-hf-coordinator-exits-selected-set",
+    "id": "incident-gap-hf-25-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6892,8 +7233,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-coordinator-exits-selected-set",
-          "hf-coordinator-exits-exits"
+          "gap-hf-25-mark",
+          "hf-coordinator-exits-selected-set"
         ]
       },
       {
@@ -6913,7 +7254,7 @@
     ]
   },
   {
-    "id": "incident-hf-coordinator-exits-all-eleven",
+    "id": "incident-hf-coordinator-exits-exits",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6923,8 +7264,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-coordinator-exits-all-eleven",
-          "hf-coordinator-exits-cause"
+          "hf-coordinator-exits-exits",
+          "hf-coordinator-exits-all-eleven"
         ]
       },
       {
@@ -6944,7 +7285,7 @@
     ]
   },
   {
-    "id": "incident-hf-reset-monitor-result-observation",
+    "id": "incident-hf-coordinator-exits-cause",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -6954,8 +7295,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-reset-monitor-result-observation",
-          null
+          "hf-coordinator-exits-cause",
+          "hf-reset-monitor-result-observation"
         ]
       },
       {
@@ -7161,7 +7502,7 @@
     ]
   },
   {
-    "id": "incident-hf-ephemeral-control-reset",
+    "id": "incident-gap-hf-26-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7171,8 +7512,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-ephemeral-control-reset",
-          "hf-ephemeral-control-rebuild"
+          "gap-hf-26-mark",
+          "hf-ephemeral-control-reset"
         ]
       },
       {
@@ -7192,7 +7533,7 @@
     ]
   },
   {
-    "id": "incident-hf-ephemeral-control-transport",
+    "id": "incident-hf-ephemeral-control-rebuild",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7202,8 +7543,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-ephemeral-control-transport",
-          "hf-ephemeral-control-replacement"
+          "hf-ephemeral-control-rebuild",
+          "hf-ephemeral-control-transport"
         ]
       },
       {
@@ -7223,7 +7564,7 @@
     ]
   },
   {
-    "id": "incident-hf-ephemeral-control-limits",
+    "id": "incident-hf-ephemeral-control-replacement",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7233,8 +7574,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-ephemeral-control-limits",
-          "hf-impact-boundaries-workers"
+          "hf-ephemeral-control-replacement",
+          "hf-ephemeral-control-limits"
         ]
       },
       {
@@ -7254,7 +7595,7 @@
     ]
   },
   {
-    "id": "incident-hf-impact-boundaries-root",
+    "id": "incident-hf-impact-boundaries-workers",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7264,8 +7605,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impact-boundaries-root",
-          "hf-impact-boundaries-clusters"
+          "hf-impact-boundaries-workers",
+          "hf-impact-boundaries-root"
         ]
       },
       {
@@ -7285,7 +7626,7 @@
     ]
   },
   {
-    "id": "incident-hf-impact-boundaries-secrets",
+    "id": "incident-hf-impact-boundaries-clusters",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7295,8 +7636,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impact-boundaries-secrets",
-          "hf-impact-boundaries-customer"
+          "hf-impact-boundaries-clusters",
+          "hf-impact-boundaries-secrets"
         ]
       },
       {
@@ -7316,7 +7657,7 @@
     ]
   },
   {
-    "id": "incident-hf-impact-boundaries-metadata",
+    "id": "incident-hf-impact-boundaries-customer",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7326,8 +7667,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impact-boundaries-metadata",
-          "hf-impact-boundaries-other-content"
+          "hf-impact-boundaries-customer",
+          "hf-impact-boundaries-metadata"
         ]
       },
       {
@@ -7347,7 +7688,7 @@
     ]
   },
   {
-    "id": "incident-hf-impact-boundaries-databases",
+    "id": "incident-hf-impact-boundaries-other-content",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7357,8 +7698,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impact-boundaries-databases",
-          "hf-impact-boundaries-audit"
+          "hf-impact-boundaries-other-content",
+          "hf-impact-boundaries-databases"
         ]
       },
       {
@@ -7378,7 +7719,7 @@
     ]
   },
   {
-    "id": "incident-hf-impact-boundaries-scope",
+    "id": "incident-hf-impact-boundaries-audit",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7388,8 +7729,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-impact-boundaries-scope",
-          null
+          "hf-impact-boundaries-audit",
+          "hf-impact-boundaries-scope"
         ]
       },
       {
@@ -7409,7 +7750,7 @@
     ]
   },
   {
-    "id": "incident-hf-repository-outcome-beacon",
+    "id": "incident-gap-hf-27-mark",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7419,8 +7760,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-repository-outcome-beacon",
-          "hf-repository-outcome-blocked"
+          "gap-hf-27-mark",
+          "hf-repository-outcome-beacon"
         ]
       },
       {
@@ -7440,7 +7781,7 @@
     ]
   },
   {
-    "id": "incident-hf-repository-outcome-shipped",
+    "id": "incident-hf-repository-outcome-blocked",
     "movement": "incident",
     "chapter": "july-8-13",
     "kind": "interval",
@@ -7450,8 +7791,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-repository-outcome-shipped",
-          null
+          "hf-repository-outcome-blocked",
+          "hf-repository-outcome-shipped"
         ]
       },
       {
@@ -7631,13 +7972,13 @@
     "chapter": "july-8-13",
     "kind": "interval",
     "start": "2026-07-13T13:37Z",
-    "end": "2026-07-13T14:14Z",
+    "end": "2026-07-13T14:44:59Z",
     "rows": [
       {
         "owner": "HuggingFace",
         "slots": [
           "hf-access-cut-last-event",
-          null
+          "gap-hf-28-mark"
         ]
       },
       {
@@ -7657,7 +7998,7 @@
     ]
   },
   {
-    "id": "incident-hf-cache-handover-absence",
+    "id": "incident-gap-hf-29-mark",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7667,8 +8008,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-cache-handover-absence",
-          "hf-cache-handover-precedent"
+          "gap-hf-29-mark",
+          "hf-cache-handover-absence"
         ]
       },
       {
@@ -7688,7 +8029,7 @@
     ]
   },
   {
-    "id": "incident-hf-cache-handover-return",
+    "id": "incident-hf-cache-handover-precedent",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7698,8 +8039,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-cache-handover-return",
-          "hf-cache-handover-short-veto"
+          "hf-cache-handover-precedent",
+          "hf-cache-handover-return"
         ]
       },
       {
@@ -7719,7 +8060,7 @@
     ]
   },
   {
-    "id": "incident-hf-cache-handover-conflict",
+    "id": "incident-hf-cache-handover-short-veto",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7729,8 +8070,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-cache-handover-conflict",
-          "hf-email-objection-proposal"
+          "hf-cache-handover-short-veto",
+          "hf-cache-handover-conflict"
         ]
       },
       {
@@ -7750,7 +8091,7 @@
     ]
   },
   {
-    "id": "incident-hf-email-objection-objection",
+    "id": "incident-hf-email-objection-proposal",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7760,8 +8101,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-email-objection-objection",
-          "hf-email-objection-not-sent"
+          "hf-email-objection-proposal",
+          "hf-email-objection-objection"
         ]
       },
       {
@@ -7781,7 +8122,7 @@
     ]
   },
   {
-    "id": "incident-hf-email-objection-bounded-effect",
+    "id": "incident-hf-email-objection-not-sent",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7791,8 +8132,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-email-objection-bounded-effect",
-          "hf-ethics-findings-classifier"
+          "hf-email-objection-not-sent",
+          "hf-email-objection-bounded-effect"
         ]
       },
       {
@@ -7812,7 +8153,7 @@
     ]
   },
   {
-    "id": "incident-hf-local-restraint-scope",
+    "id": "incident-hf-ethics-findings-classifier",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7822,8 +8163,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-local-restraint-scope",
-          "hf-ethics-override-continue"
+          "hf-ethics-findings-classifier",
+          "hf-local-restraint-scope"
         ]
       },
       {
@@ -7843,7 +8184,7 @@
     ]
   },
   {
-    "id": "incident-hf-ethics-override-finding",
+    "id": "incident-hf-ethics-override-continue",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7853,8 +8194,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-ethics-override-finding",
-          "hf-local-restraint-partial-refusal"
+          "hf-ethics-override-continue",
+          "hf-ethics-override-finding"
         ]
       },
       {
@@ -7874,7 +8215,7 @@
     ]
   },
   {
-    "id": "incident-hf-local-restraint-continues",
+    "id": "incident-hf-local-restraint-partial-refusal",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7884,8 +8225,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-local-restraint-continues",
-          "hf-mailbox-first-unused"
+          "hf-local-restraint-partial-refusal",
+          "hf-local-restraint-continues"
         ]
       },
       {
@@ -7905,7 +8246,7 @@
     ]
   },
   {
-    "id": "incident-hf-metr-refusal-avoid",
+    "id": "incident-hf-mailbox-first-unused",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7915,8 +8256,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-metr-refusal-avoid",
-          "hf-peer-authorization-recognition"
+          "hf-mailbox-first-unused",
+          "hf-metr-refusal-avoid"
         ]
       },
       {
@@ -7936,7 +8277,7 @@
     ]
   },
   {
-    "id": "incident-hf-peer-authorization-pause",
+    "id": "incident-hf-peer-authorization-recognition",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7946,8 +8287,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-peer-authorization-pause",
-          "hf-peer-authorization-deadline"
+          "hf-peer-authorization-recognition",
+          "hf-peer-authorization-pause"
         ]
       },
       {
@@ -7967,7 +8308,7 @@
     ]
   },
   {
-    "id": "incident-hf-peer-authorization-permission",
+    "id": "incident-hf-peer-authorization-deadline",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -7977,8 +8318,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-peer-authorization-permission",
-          "hf-peer-authorization-resumption"
+          "hf-peer-authorization-deadline",
+          "hf-peer-authorization-permission"
         ]
       },
       {
@@ -7998,7 +8339,7 @@
     ]
   },
   {
-    "id": "incident-hf-refusal-refusal",
+    "id": "incident-hf-peer-authorization-resumption",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8008,8 +8349,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-refusal-refusal",
-          "hf-refusal-own-task"
+          "hf-peer-authorization-resumption",
+          "hf-refusal-refusal"
         ]
       },
       {
@@ -8029,7 +8370,7 @@
     ]
   },
   {
-    "id": "incident-hf-refusal-decline-post",
+    "id": "incident-hf-refusal-own-task",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8039,8 +8380,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-refusal-decline-post",
-          null
+          "hf-refusal-own-task",
+          "hf-refusal-decline-post"
         ]
       },
       {
@@ -8060,7 +8401,7 @@
     ]
   },
   {
-    "id": "incident-hf-detection-gap-signals",
+    "id": "incident-gap-hf-30-mark",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8070,8 +8411,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-detection-gap-signals",
-          "hf-detection-gap-ambiguity"
+          "gap-hf-30-mark",
+          "hf-detection-gap-signals"
         ]
       },
       {
@@ -8091,7 +8432,7 @@
     ]
   },
   {
-    "id": "incident-hf-detection-gap-correlation",
+    "id": "incident-hf-detection-gap-ambiguity",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8101,8 +8442,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-detection-gap-correlation",
-          "hf-detection-gap-attack"
+          "hf-detection-gap-ambiguity",
+          "hf-detection-gap-correlation"
         ]
       },
       {
@@ -8122,7 +8463,7 @@
     ]
   },
   {
-    "id": "incident-hf-detection-gap-severity",
+    "id": "incident-hf-detection-gap-attack",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8132,8 +8473,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-detection-gap-severity",
-          "hf-detection-gap-page"
+          "hf-detection-gap-attack",
+          "hf-detection-gap-severity"
         ]
       },
       {
@@ -8153,7 +8494,7 @@
     ]
   },
   {
-    "id": "incident-hf-detection-gap-human-limit",
+    "id": "incident-hf-detection-gap-page",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8163,8 +8504,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-detection-gap-human-limit",
-          null
+          "hf-detection-gap-page",
+          "hf-detection-gap-human-limit"
         ]
       },
       {
@@ -8877,7 +9218,7 @@
         "owner": "HuggingFace",
         "slots": [
           "hf-intended-solution-counterexample",
-          "hf-evaluations-stop-response"
+          "gap-hf-31-mark"
         ]
       },
       {
@@ -8897,7 +9238,7 @@
     ]
   },
   {
-    "id": "incident-hf-evaluations-stop-scope",
+    "id": "incident-hf-evaluations-stop-response",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "timed",
@@ -8907,8 +9248,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-evaluations-stop-scope",
-          null
+          "hf-evaluations-stop-response",
+          "hf-evaluations-stop-scope"
         ]
       },
       {
@@ -8959,7 +9300,7 @@
     ]
   },
   {
-    "id": "incident-hf-later-population-new-run",
+    "id": "incident-gap-hf-33-mark",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -8969,8 +9310,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-later-population-new-run",
-          "hf-later-population-model"
+          "gap-hf-33-mark",
+          "hf-later-population-new-run"
         ]
       },
       {
@@ -8990,7 +9331,7 @@
     ]
   },
   {
-    "id": "incident-hf-later-population-readable-cache",
+    "id": "incident-hf-later-population-model",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -9000,8 +9341,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-later-population-readable-cache",
-          "hf-later-population-fresh-access"
+          "hf-later-population-model",
+          "hf-later-population-readable-cache"
         ]
       },
       {
@@ -9021,7 +9362,7 @@
     ]
   },
   {
-    "id": "incident-hf-later-population-source-boundary",
+    "id": "incident-hf-later-population-fresh-access",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -9031,8 +9372,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-later-population-source-boundary",
-          "hf-later-population-inheritance-limit"
+          "hf-later-population-fresh-access",
+          "hf-later-population-source-boundary"
         ]
       },
       {
@@ -9052,7 +9393,7 @@
     ]
   },
   {
-    "id": "incident-hf-later-population-network-exposure",
+    "id": "incident-hf-later-population-inheritance-limit",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "interval",
@@ -9062,8 +9403,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-later-population-network-exposure",
-          null
+          "hf-later-population-inheritance-limit",
+          "hf-later-population-network-exposure"
         ]
       },
       {
@@ -9083,7 +9424,38 @@
     ]
   },
   {
-    "id": "incident-hf-vendor-fix-release",
+    "id": "incident-gap-hf-32-mark",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-19T16:35Z",
+    "end": "2026-07-21",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-hf-32-mark",
+          "gap-all-04-hf-start"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-all-04-gs-start",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-all-04-wiki-start",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-hf-34-mark",
     "movement": "incident",
     "chapter": "mid-late-july",
     "kind": "timed",
@@ -9093,8 +9465,8 @@
       {
         "owner": "HuggingFace",
         "slots": [
-          "hf-vendor-fix-release",
-          null
+          "gap-hf-34-mark",
+          "hf-vendor-fix-release"
         ]
       },
       {
@@ -9108,6 +9480,37 @@
         "owner": "Collusion Wiki",
         "slots": [
           null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "incident-gap-all-04-wiki-end",
+    "movement": "incident",
+    "chapter": "mid-late-july",
+    "kind": "interval",
+    "start": "2026-07-25",
+    "end": "2026-07-27",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "gap-all-04-hf-end",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gap-all-04-gs-end",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "gap-all-04-wiki-end",
           null
         ]
       }
