@@ -278,3 +278,210 @@ Four things computable today already bear on the explanations:
       corpus day is selection); and panel-dense days reachable only through
       late-published sources (the whole GS May cluster is documented by a
       September report — lag explains *when we learned*, not whether it happened).
+
+## Gathered evidence — second pass, 16 September 2026
+
+What the checks above actually found. Local computation plus direct reads of the
+vault bodies (`256t/records/*/content.bin` — `redistribution: link-only`, so
+quotation below is minimal and each quote carries a section locator; the wording
+lives in the vault copy, hashed there). Manuscript facts are from
+`editions/three-stream/manuscript/*.json`, `incident/windows.json`,
+`research/collusion/{events,revisions}.jsonl`, `manifest.json`.
+
+### Verdicts by explanation
+
+**1. Real event bursts — confirmed, with one re-scoping.**
+
+- *Wiki 19 Jun.* The depicted window is exactly the lifetime of the two depicted
+  pages: `dse~DataUSAConstructionWageSep18Live` (30 revisions, 12:40:34–14:37:47)
+  and `dse~ZZZDataUSAConstructionWageLive` (10 revisions, 14:06:38–14:44:31) —
+  **all 40 revisions of both pages are depicted**. Their deletions land 15:46:37
+  and 15:46:49 (`cw-main-deletion-*`, `cw-backup-deletion-*`). Within the depicted
+  class the concentration is total, not sampled. But as a *deletion* claim the
+  note's wording needs narrowing: 83 of the day's 317 deletes fall inside
+  12:40–14:44, and the corpus's true delete peaks are elsewhere — max 1 h = 200
+  deletes on 7 Jul 19:08, max 2 h = 324 on 13 Jul 19:46, both undepicted. Every
+  one of the corpus's 5,217 deletes is `actor_label [Admin1]` on `dse`.
+- *HF 8–13 Jul.* METR's own activity curve agrees: "the rate of messages peaks on
+  July 11th, which lines up with when agent activity peaks in our subset of
+  transcripts" (metr-report, Figure 2 caption). The manuscript's spread-counted
+  peak is also 11 Jul. §X's two densest table days are 11 Jul and 19 Jul (10 rows
+  each) — exactly the manuscript's minute-precision peaks (58 and 29 beats).
+
+**2. Log-structured sources — confirmed, plus a filter caveat.**
+
+- All 118 wiki beats join cleanly: 101 to `revisions.jsonl`, 17 to delete events;
+  109 `reqlog`-grade, 6 `rclog`, 3 `write_date`; 116 carry
+  `uncertainty_seconds: 1`. Second precision exists only where a live log exists.
+- The export is itself *filtered*: CW-REPORT states the dump "only includes
+  content we believe is from AI agents; it does not include any legitimate human
+  traffic save for site moderators deleting agent traffic" (data-description
+  passage). Corpus absence = absence of classified in-scope events, which is
+  weaker than absence of logged events. And the report narrates at least one
+  event the export lacks: the 7 Jul OpenAI-IP attempt to reach deleted pages —
+  the corpus holds only deletes that day (522).
+
+**3. Retrospective reports cluster at reported granularity — confirmed and
+quantified.**
+
+- *HF:* all 26 manuscript days are source-stated. §X states 18 days; 17 are
+  depicted (only 20 Jul 00:55 — the admin-account deletion — is not). The report
+  body supplies 8 May, 13 May, 27 Jun and "late on July 4" (§III.A–B); OAI-BH
+  supplies 7 May and 11 Jun; METR 7 Jul; HF-INC 16 Jul; HF-TL 27 Jul.
+- *GS:* all 10 manuscript days sit inside the stated union; stated-but-undepicted
+  are 27 May (span end), 19 Jun (GS-REPORT's own wiki-side row), 22–23 Jul
+  (publication days) and 11 Sep.
+- *METR:* its window is imposed, not discovered — "OpenAI defined the dates in
+  scope for this investigation as June 26th through July 13th" and "Virtually all
+  transcripts we reviewed were dated to July 7th or later" (scope footnotes);
+  "we cut off all our graphs at this point because activity after this date is
+  out of scope" (Figure 2 footnote). The hard 13 Jul edge of METR-sourced beats
+  is a scope cut.
+
+**4. Contemporaneous timestamps — confirmed for wiki, qualified for HF.**
+
+- Wiki: all 118 clocks are recorded-at times (reqlog/rclog, 1 s uncertainty).
+- HF: the 11 Jul "second-precision" spike is one table time fanned out — 20 beats
+  share exactly `2026-07-11T16:07:00Z`, §X's first-Jinja2-command row. Three
+  `hf-repository-outcome-*` beats carry `2026-07-13T00:00:00Z` — midnight, i.e.
+  day precision serialized as seconds. Precision display overstates the number of
+  independent measurements; the precision *claim* is still source-side.
+
+**5. Publication dates masquerade — confirmed in the pure cases, with a
+legitimate subset.**
+
+- 41 of 590 incident beats have documentation lag ≤ 1 day, every one landing
+  exactly on a source availability date: GS-EMAIL→11 May (4 beats),
+  GS-SOCKET→13 May (12), GS-STATUS→16 May 05:12 (2), HF-INC→16 Jul (16),
+  HF-TL→27 Jul (6), JFROG→27 Jul 21:30:01 (1, to the second).
+- Vault checks: the Socket capture contains no specimen dates at all — its only
+  date is the 13 May publication line — so `gs-socket-analysis-*` panels really
+  are specimen content under a publication date. HF-TL's hardening section
+  ("Closed both code-execution paths… Rotated broadly…") is undated in the
+  source, so `hf-hardening-*` on 27 Jul is the source's own date. Legitimate
+  subset: many lag-0 beats depict the publication event itself (HF-INC on 16 Jul
+  is the disclosure; GS-STATUS 05:12 is the status update; JFROG 21:30:01 is the
+  fix release) — for those, lag 0 is accuracy, not masquerade.
+
+**6. Interval-span inflation — bounded; clusters survive every placement.**
+
+- HF: 98 of 414 beats are multi-day. Recomputing — start: 9 Jul 94, 11 Jul 58;
+  spread: 9 Jul 106, 11 Jul 96, 13 Jul 83, 12 Jul 65; midpoint: 11 Jul 67;
+  end-day: 13 Jul 83, 9 Jul 73. The 8–13 Jul plateau is real; only the peak day
+  and the 12 Jul hole move. GS: 12 of 58 multi-day; 11–13 May persists under all
+  placements (12 May leads when spread). Wiki: 0 multi-day beats.
+
+**7. Forensic recovery — confirmed as hedged selection, not demonstrated quiet.**
+
+- §X introduces itself as "The key technical events … are summarized" — an
+  editorial selection — and rows hedge: "Earliest confirmed 2026 write activity",
+  "first confirmed", "first known". §X's own gap (20 Apr→12 May, 22 days) is
+  *larger* than the manuscript's (20 Apr→7 May, 16 days): OAI-BH and the report
+  body fill 7–8 May and 13 May. The prehistory gaps are in the source's stated
+  table, and the table does not claim completeness — so gaps are consistent with
+  "unrecovered", "unconfirmed", and "occurred but not key"; the record cannot
+  separate them.
+- METR's interim silence is an attested data boundary, not an observation: "This
+  was the only transcript we saw from before the July 6th wipe; we did not see
+  message board activity between June 26th and July 6th. OpenAI attested there
+  were not critical steps related to the incident in this interim period which we
+  were missing" (sequence-of-key-events footnote).
+- The attribution fix in the preliminary findings holds: HF-TL's recovery framing
+  ("~17,600 attacker actions that we were able to recover … between
+  2026-07-09 02:28 UTC and 2026-07-13 14:14 UTC") covers only the core cluster.
+
+**8. Source scope — narrowed to depicted classes; not refuted.**
+
+- The 25-day gap is false for the corpus (events every day from 26 May; 11,637
+  held revisions with event-times 26 May–18 Jun) but true per class: deletes
+  first appear 4 Jun (2 rows), then 18 Jun (25). Save coverage runs 24 May→27 Aug
+  (manifest `save_requests`), revisions end 2 Jul — held-revision coverage and
+  event coverage are different things. Plus the filter caveat under (2).
+
+**9. Attribution ceilings — confirmed.**
+
+- GS-REPORT's timeline ends at 18 Jun: "agent activity on RubyGems briefly
+  increased again with agents publishing 83 gems over 3 hours" — its last event
+  row, and "again" itself frames 27 May→18 Jun as a lull inside the attributed
+  window. Nothing post-18 Jun is asserted; the stream silence 18 Jun→6 Jul is the
+  covers-window end, matching the note.
+
+**10. Narrative handoff — partially vindicated at the class level.**
+
+- CW-REPORT: "On June 22, the agent edits suddenly stop, and the administrator
+  spends each evening over the next 5 weeks deleting the remaining agent-created
+  pages"; the 1–2 Jul tail is "a lone small burst of edits on an entirely
+  different topic" — the corpus's 21 held saves those days (report says "29
+  attempted edits across 3 of the wikis"). So agent activity really does end
+  ~22 Jun; of the ~4,800 post-22-Jun corpus events, 4,773 are the moderator's
+  deletion campaign — the same class the manuscript depicts on 19 Jun and drops
+  thereafter. The handoff is real for agent-initiated events; it is selection for
+  the admin-deletion class.
+- Structurally: all 191 post-22-Jun windows keep an all-null Collusion Wiki row —
+  the edition draws empty frames, it does not omit the row.
+
+**11. Editorial selection — confirmed as the dominant absence mechanism for the
+wiki stream.**
+
+- 47 corpus days → 6 depicted (13%). The corpus's biggest days are undepicted:
+  18 Jun (6,543 revisions, 906 distinct labels — the largest single day), 16 Jun
+  (2,603), 17 Jun (1,297), 23 Jun (603 events incl. 602 deletes — nearly double
+  the depicted 19 Jun), 30 Jun (440), 7 Jul (522), 13 Jul (512).
+- Empty wiki frames are drawn on corpus-active days: 26 May (456 events → 7 empty
+  frames), 11 Jun (162), 26 Jun (382), 29 Jun (90), 4–9 Jul (59–522/day),
+  11–13 Jul (86–512/day).
+- Fourteen stretches have no windows at all — largest 20 Apr→7 May (16 days) and
+  26 May→4 Jun (8) — including the corpus's biggest days (16–18 Jun fall inside
+  the 12→18 Jun stretch). Days without any depicted beat are invisible, not empty.
+- `dispositions.json` records only 18 `omit`s (the undated fictional coda) and
+  303 `defer`s ("retain … do not treat absence from this incident cut as
+  editorial omission"). Corpus-event selection happens upstream of these records;
+  no per-event researched-and-cut list exists.
+
+**12. Institutional disclosure lag — confirmed, with a quantified lag map.**
+
+- Per-beat lag (`min(sources[].available) − time_start`): wiki 73–109 days on
+  every beat (CW-EXPORT, 3 Sep). HF is multimodal — 14–18 days (HF-INC/HF-TL for
+  the July window), 38–58 days (OAI-TR/METR, 26 Aug, for June–July events), and
+  60+ (OAI-TR for April–June prehistory) — plus the 23 lag-0 publication beats
+  above. GS splits: contemporaneous sources at lag 0–4 (STATUS/EMAIL/SOCKET),
+  GS-CACHE at ~2 weeks (6–9 Jul events, 22 Jul advisory), GS-REPORT at 85–129
+  days.
+- Falsifiers noted in the candidate section both hold: contemporaneous-covered
+  days with zero panels exist (14–15 May inside GS-STATUS's window; every
+  undepicted wiki corpus day), and the GS May cluster is documented only by a
+  September report — lag explains when the record arrived, not whether events
+  happened.
+
+### The discriminating table, now substantially built
+
+| Stream | Source-side days | Depicted days | Coverage |
+| --- | --- | --- | --- |
+| Collusion Wiki | 47 corpus days | 6 | 13% |
+| GemStuffer | 15 stated days | 10 | 67% |
+| HuggingFace | 29 stated days | 26 | 90% |
+
+The asymmetry is the finding: report-sourced streams (GS, HF) depict nearly all
+of what their sources state — the source already curated — while the log-sourced
+stream (wiki) depicts an eighth of its corpus, and even draws empty frames on
+corpus-active days. The evidence-absence family (7–9) explains what the sources
+cover; the focus/selection family (10–12) explains what the manuscript does with
+that coverage. Both operate, on different parts of the structure — and for the
+wiki, the second dominates.
+
+### Corrections to the preliminary findings above
+
+- "The 19 Jun cluster is a roughly two-hour mass-deletion burst" mislabels the
+  class: the 12:40–14:44 window is a two-page *posting* burst (40 revisions, both
+  pages fully depicted); the depicted deletions are the 15:46 main/backup
+  removals plus the evening enrollment cycling. Admin deletion peaks (7, 13 Jul)
+  are undepicted.
+- "Wiki activity does not end 22 Jun" needs the class split: agent saves end
+  22 Jun bar the 1–2 Jul coda; the continuing events are `[Admin1]`'s deletion
+  campaign. Explanation 10 survives narrowed to agent-initiated events.
+- "Delete rows first appear 18 Jun (25)" is off by a fortnight: the corpus has 2
+  deletes on 4 Jun. The point stands — deletes are absent through the May gap —
+  but the class boundary is 4 Jun, not 18 Jun.
+- "Only 6 export rows are bare `write_date`" is per-file: `events.jsonl` has 6,
+  `revisions.jsonl` has 6 more (12 total); 3 depicted beats join to
+  `write_date`-grade revisions.
